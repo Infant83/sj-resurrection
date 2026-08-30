@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "timezone": "Asia/Seoul",
+  "lastUpdated": "2026-08-30",
+  "boards": {
+    "trauma": {
+      "status": "pending-source-import",
+      "sourceThreads": [
+        "중증 외상 예후 분석",
+        "중증 외상 예후 분석 (phase2)",
+        "중증 외상 예후 분석 (phase 3)"
+      ]
+    },
+    "life": {
+      "status": "pending-source-import",
+      "sourceThreads": [
+        "선진이와 함께하는 삶 (phase1)",
+        "선진이와 함께하는 삶 (phase2)",
+        "선진이와 함께하는 삶 (phase 3)"
+      ]
+    },
+    "medical": {
+      "status": "pending-source-import",
+      "sourceThreads": ["김마루 교수님 정보"]
+    },
+    "rehabilitation": {
+      "status": "pending-source-import",
+      "sourceThreads": ["재활병원 전원 계획"]
+    },
+    "media": {
+      "status": "initialized",
+      "sourceThreads": []
+    }
+  },
+  "imports": [
+    {
+      "recordId": "meta-2026-08-30-project-start",
+      "source": "current-conversation",
+      "fidelity": "exact",
+      "importedAt": "2026-08-30"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+---
+import { boards } from '../data/boards';
+import { withBase } from '../lib/archive';
+
+interface Props {
+  activeBoard?: string;
+}
+
+const { activeBoard } = Astro.props;
+---
+
+<nav class="board-nav" aria-label="기록 게시판">
+  <div class="shell board-nav-scroll">
+    <a class:list={['board-link', { active: !activeBoard }]} href={withBase()} aria-current={!activeBoard ? 'page' : undefined}>
+      전체 기록
+    </a>
+    {
+      boards.map((board) => (
+        <a
+          class:list={['board-link', `board-${board.id}`, { active: activeBoard === board.id }]}
+          href={withBase(`board/${board.id}/`)}
+          aria-current={activeBoard === board.id ? 'page' : undefined}
+        >
+          {board.shortLabel}
+        </a>
+      ))
+    }
+  </div>
+</nav>

@@ -1,0 +1,64 @@
+---
+import BoardNav from '../components/BoardNav.astro';
+import '../styles/global.css';
+import { withBase } from '../lib/archive';
+
+interface Props {
+  title?: string;
+  description?: string;
+  activeBoard?: string;
+}
+
+const {
+  title = 'SJ Resurrection',
+  description = '선진의 회복 과정과 가족의 기록을 보존하는 비공개 아카이브',
+  activeBoard,
+} = Astro.props;
+const documentTitle = title === 'SJ Resurrection' ? title : `${title} · SJ Resurrection`;
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="theme-color" content="#f4efe7" />
+    <title>{documentTitle}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">본문으로 바로가기</a>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href={withBase()} aria-label="SJ Resurrection, 선진 부활 프로젝트 홈">
+          <span
+            class="brand-mark"
+            aria-hidden="true"
+            title="아스클레피오스의 지팡이 — 치유와 회복의 표식"
+          >⚕︎</span>
+          <span>
+            <strong>SJ Resurrection</strong>
+            <small>선진 부활 프로젝트</small>
+          </span>
+        </a>
+        <span class="privacy-chip" title="공개 배포가 비활성화된 저장소용 사이트">
+          <span aria-hidden="true">●</span> Private archive
+        </span>
+      </div>
+      <BoardNav activeBoard={activeBoard} />
+    </header>
+
+    <main id="main-content" class="shell main-shell">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <p>가족이 당시 관찰하고 전달받은 내용과 GPT 답변을 보존한 개인 기록입니다.</p>
+        <a href={withBase('about/')}>기록 원칙과 주의사항</a>
+      </div>
+    </footer>
+  </body>
+</html>

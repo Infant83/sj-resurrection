@@ -1,0 +1,22 @@
+{
+  "name": "sj-resurrection",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "check": "astro check",
+    "build": "astro build",
+    "preview": "astro preview",
+    "new:post": "node scripts/new-post.mjs",
+    "privacy:check": "node scripts/privacy-check.mjs"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "7.0.8",
+    "astro": "7.2.9"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.6",
+    "typescript": "5.9.3"
+  }
+}

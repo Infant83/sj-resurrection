@@ -1,0 +1,142 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { sortPosts } from '../lib/archive';
+import PostCard from './PostCard.astro';
+
+interface Props {
+  posts: CollectionEntry<'posts'>[];
+  boardLabel?: string;
+}
+
+const { posts, boardLabel = '전체 기록' } = Astro.props;
+const sortedPosts = sortPosts(posts);
+const months = [...new Set(sortedPosts.map((post) => post.data.eventAt.start.slice(0, 7)))].filter((month) => /^\d{4}-\d{2}$/.test(month));
+---
+
+<section class="archive-feed" data-archive-feed>
+  <div class="feed-toolbar" aria-label={`${boardLabel} 찾기와 정렬`}>
+    <label class="search-field">
+      <span class="sr-only">기록 검색</span>
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" /></svg>
+      <input type="search" placeholder="날짜, 치료, 편지, 재활 검색" data-feed-search />
+    </label>
+    <label class="month-field">
+      <span class="sr-only">월 선택</span>
+      <select data-month-filter>
+        <option value="all">모든 날짜</option>
+        {months.map((month) => <option value={month}>{month.replace('-', '년 ')}월</option>)}
+      </select>
+    </label>
+    <div class="sort-control" role="group" aria-label="기록 정렬">
+      <button class="active" type="button" data-sort="desc" aria-pressed="true">최신순</button>
+      <button type="button" data-sort="asc" aria-pressed="false">처음부터</button>
+    </div>
+  </div>
+
+  <p class="feed-result-status" aria-live="polite" data-result-status></p>
+
+  <div class="feed-list" data-feed-list>
+    {sortedPosts.map((post) => <PostCard post={post} />)}
+  </div>
+
+  <div class="feed-empty" data-feed-empty hidden>
+    <strong>조건에 맞는 기록이 없습니다.</strong>
+    <p>검색어 또는 날짜 조건을 바꾸어 보세요.</p>
+  </div>
+
+  <button class="load-more" type="button" data-load-more>
+    이전 기록 더 보기
+    <span aria-hidden="true">↓</span>
+  </button>
+</section>
+
+<script>
+  const feed = document.querySelector('[data-archive-feed]');
+
+  if (feed instanceof HTMLElement) {
+    const list = feed.querySelector('[data-feed-list]');
+    const cards = Array.from(feed.querySelectorAll('[data-post-card]'));
+    const search = feed.querySelector('[data-feed-search]');
+    const month = feed.querySelector('[data-month-filter]');
+    const sortButtons = Array.from(feed.querySelectorAll('[data-sort]'));
+    const loadMore = feed.querySelector('[data-load-more]');
+    const empty = feed.querySelector('[data-feed-empty]');
+    const resultStatus = feed.querySelector('[data-result-status]');
+    const batchSize = 8;
+    let visibleCount = batchSize;
+    let direction = 'desc';
+
+    function filteredCards() {
+      const query = search instanceof HTMLInputElement ? search.value.trim().toLocaleLowerCase('ko-KR') : '';
+      const monthValue = month instanceof HTMLSelectElement ? month.value : 'all';
+      return cards
+        .filter((card) => {
+          if (!(card instanceof HTMLElement)) return false;
+          const matchesQuery = !query || (card.dataset.search ?? '').includes(query);
+          const matchesMonth = monthValue === 'all' || card.dataset.month === monthValue;
+          return matchesQuery && matchesMonth;
+        })
+        .sort((a, b) => {
+          if (!(a instanceof HTMLElement) || !(b instanceof HTMLElement)) return 0;
+          const result = (a.dataset.eventAt ?? '').localeCompare(b.dataset.eventAt ?? '');
+          return direction === 'desc' ? -result : result;
+        });
+    }
+
+    function renderFeed() {
+      const filtered = filteredCards();
+      cards.forEach((card) => {
+        if (card instanceof HTMLElement) card.hidden = true;
+      });
+      filtered.forEach((card) => list?.append(card));
+      filtered.slice(0, visibleCount).forEach((card) => {
+        if (card instanceof HTMLElement) card.hidden = false;
+      });
+
+      if (empty instanceof HTMLElement) empty.hidden = filtered.length !== 0;
+      if (loadMore instanceof HTMLButtonElement) {
+        loadMore.hidden = filtered.length <= visibleCount;
+        loadMore.firstChild && (loadMore.firstChild.textContent = direction === 'desc' ? ' 이전 기록 더 보기 ' : ' 다음 기록 더 보기 ');
+      }
+      if (resultStatus instanceof HTMLElement) {
+        resultStatus.textContent = filtered.length
+          ? `${filtered.length}개 중 ${Math.min(visibleCount, filtered.length)}개 기록 표시`
+          : '표시할 기록 없음';
+      }
+    }
+
+    function resetAndRender() {
+      visibleCount = batchSize;
+      renderFeed();
+    }
+
+    search?.addEventListener('input', resetAndRender);
+    month?.addEventListener('change', resetAndRender);
+    sortButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        if (!(button instanceof HTMLButtonElement)) return;
+        direction = button.dataset.sort === 'asc' ? 'asc' : 'desc';
+        sortButtons.forEach((item) => {
+          if (item instanceof HTMLButtonElement) {
+            const active = item === button;
+            item.classList.toggle('active', active);
+            item.setAttribute('aria-pressed', String(active));
+          }
+        });
+        resetAndRender();
+      });
+    });
+    loadMore?.addEventListener('click', () => {
+      visibleCount += batchSize;
+      renderFeed();
+    });
+
+    const targetId = decodeURIComponent(window.location.hash.replace('#', ''));
+    if (targetId) {
+      const targetIndex = cards.findIndex((card) => card.id === targetId);
+      if (targetIndex >= 0) visibleCount = Math.max(visibleCount, targetIndex + 1);
+    }
+    renderFeed();
+    if (targetId) document.getElementById(targetId)?.scrollIntoView({ block: 'center' });
+  }
+</script>

@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content';
+import ArchiveFeed from '../../components/ArchiveFeed.astro';
+import { boards, boardMap, type BoardId } from '../../data/boards';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export function getStaticPaths() {
+  return boards.map((board) => ({ params: { board: board.id } }));
+}
+
+const boardId = Astro.params.board as BoardId;
+const board = boardMap[boardId];
+const posts = await getCollection(
+  'posts',
+  ({ data }) => data.status !== 'draft' && data.board === boardId,
+);
+---
+
+<BaseLayout title={board.label} description={board.description} activeBoard={boardId}>
+  <section class={`page-intro board-intro board-intro-${boardId}`}>
+    <div>
+      <p class="eyebrow">기록 게시판</p>
+      <h1>{board.label}</h1>
+      <p>{board.description}</p>
+    </div>
+    <div class="board-count" aria-label={`${posts.length}개의 기록`}>
+      <strong>{posts.length}</strong>
+      <span>records</span>
+    </div>
+  </section>
+
+  {
+    posts.length > 0 ? (
+      <ArchiveFeed posts={posts} boardLabel={board.label} />
+    ) : (
+      <section class="board-empty-state">
+        <span aria-hidden="true">○</span>
+        <h2>원문 이관을 준비하고 있습니다.</h2>
+        <p>실제 대화 원문이 확인되는 순서대로 날짜별 기록이 이 피드에 추가됩니다.</p>
+      </section>
+    )
+  }
+</BaseLayout>

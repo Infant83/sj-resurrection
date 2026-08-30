@@ -1,0 +1,28 @@
+---
+import { getCollection } from 'astro:content';
+import ArchiveFeed from '../components/ArchiveFeed.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { assertArchiveIntegrity } from '../lib/archive';
+
+const posts = await getCollection('posts', ({ data }) => data.status !== 'draft');
+assertArchiveIntegrity(posts);
+---
+
+<BaseLayout>
+  <section class="page-intro">
+    <div>
+      <p class="eyebrow">가족의 시간과 회복의 기록</p>
+      <h1>선진 부활 프로젝트</h1>
+      <p>
+        날짜별 기록과 편지, 의학적 질문, 재활 준비를 당시의 말과 답변 그대로 이어갑니다.
+        확인된 사실과 관찰, 해석과 후속 정정을 구분해 보존합니다.
+      </p>
+    </div>
+    <div class="archive-note">
+      <strong>기록 원칙</strong>
+      <span>원문은 보존하고, 변화는 덮어쓰지 않고 이어 적습니다.</span>
+    </div>
+  </section>
+
+  <ArchiveFeed posts={posts} />
+</BaseLayout>

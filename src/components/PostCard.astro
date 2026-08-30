@@ -1,0 +1,78 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { boardMap } from '../data/boards';
+import { formatKoreanStamp, monthKey, searchableText, withBase } from '../lib/archive';
+import { safeTextToHtml } from '../lib/safe-text';
+import ConversationExchange from './ConversationExchange.astro';
+
+interface Props {
+  post: CollectionEntry<'posts'>;
+  detailed?: boolean;
+}
+
+const { post, detailed = false } = Astro.props;
+const board = boardMap[post.data.board];
+const detailHref = withBase(`post/${post.id}/`);
+const sourceLabels = [...new Set(post.data.sources.map((source) => source.label))];
+---
+
+<article
+  class:list={['feed-card', `feed-card-${post.data.board}`, { 'feed-card-detailed': detailed }]}
+  id={`post-${post.data.recordId}`}
+  data-post-card
+  data-record-id={post.data.recordId}
+  data-board={post.data.board}
+  data-month={monthKey(post.data.eventAt)}
+  data-event-at={post.data.eventAt.start}
+  data-search={searchableText(post)}
+>
+  <header class="card-header">
+    <div class="card-meta">
+      <span class={`section-badge section-${post.data.board}`}>{board.label}</span>
+      <time datetime={post.data.eventAt.start}>{formatKoreanStamp(post.data.eventAt)}</time>
+      {post.data.status === 'needs-original-check' && <span class="review-badge">원문 확인 대기</span>}
+    </div>
+    <h2 class="card-title">
+      {detailed ? post.data.title : <a href={detailHref}>{post.data.title}</a>}
+    </h2>
+    <p class="card-summary">{post.data.summary}</p>
+    {
+      sourceLabels.length > 0 && (
+        <div class="source-row" aria-label="자료 출처">
+          {sourceLabels.map((label) => <span>{label}</span>)}
+        </div>
+      )
+    }
+  </header>
+
+  <div class="card-thread">
+    {post.data.exchanges.map((exchange, index) => <ConversationExchange exchange={exchange} index={index} />)}
+  </div>
+
+  {
+    post.data.amendments.length > 0 && (
+      <section class="amendments" aria-label="후속 확인과 정정">
+        <h3>후속 확인과 정정</h3>
+        {post.data.amendments.map((amendment) => (
+          <div class={`amendment amendment-${amendment.kind}`}>
+            <strong>{amendment.kind === 'correction' ? '정정' : amendment.kind === 'clarification' ? '보충' : '후속 기록'}</strong>
+            <p set:html={safeTextToHtml(amendment.note)} />
+          </div>
+        ))}
+      </section>
+    )
+  }
+
+  <footer class="card-footer">
+    <div class="tag-list" aria-label="태그">
+      {post.data.tags.map((tag) => <span>#{tag}</span>)}
+    </div>
+    {
+      !detailed && (
+        <a class="permalink" href={detailHref} aria-label={`${post.data.title} 글만 보기`}>
+          이 글만 보기 <span aria-hidden="true">↗</span>
+        </a>
+      )
+    }
+  </footer>
+</article>

@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import PostCard from '../../components/PostCard.astro';
+import { boardMap } from '../../data/boards';
+import { assertArchiveIntegrity, withBase } from '../../lib/archive';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts', ({ data }) => data.status !== 'draft');
+  assertArchiveIntegrity(posts);
+  return posts.map((post) => ({ params: { id: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const board = boardMap[post.data.board];
+---
+
+<BaseLayout title={post.data.title} description={post.data.summary} activeBoard={post.data.board}>
+  <nav class="breadcrumb" aria-label="현재 위치">
+    <a href={withBase()}>전체 기록</a>
+    <span aria-hidden="true">/</span>
+    <a href={withBase(`board/${post.data.board}/`)}>{board.label}</a>
+  </nav>
+
+  <PostCard post={post} detailed />
+
+  <div class="detail-return">
+    <a href={withBase(`board/${post.data.board}/`)}>← {board.label} 게시판으로</a>
+  </div>
+</BaseLayout>
