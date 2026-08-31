@@ -2,6 +2,11 @@
   "schemaVersion": 1,
   "timezone": "Asia/Seoul",
   "lastUpdated": "2026-08-31",
+  "historyPolicy": {
+    "mode": "retain-existing-commits",
+    "decidedAt": "2026-08-31",
+    "forcePushAllowed": false
+  },
   "boards": {
     "trauma": {
       "status": "awaiting-exact-source-import",
@@ -10,7 +15,8 @@
         "중증 외상 예후 분석 (phase2)",
         "중증 외상 예후 분석 (phase 3)"
       ],
-      "publicationRule": "complete-user-prompt-and-complete-gpt-reply-only"
+      "publicationRule": "complete-user-prompt-and-complete-gpt-reply-only",
+      "sourceRequirement": "chatgpt-data-export-or-complete-user-provided-transcript"
     },
     "life": {
       "status": "pending-source-import",

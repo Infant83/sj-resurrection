@@ -10,6 +10,8 @@ Conversation summaries are discovery indexes, not publishable records. Text reco
 
 Posts have no narrative summary field. Titles identify a date or source thread; they do not replace, condense, or reinterpret the conversation.
 
+The existing repository history is retained as a record of the project's development. Earlier summary-draft commits are not restored to `main` or the rendered site, and history is not rewritten unless the user explicitly changes this decision.
+
 ## 2. Original prompts and letters
 
 - Every board preserves the complete user prompt and complete GPT answer from the source conversation.
