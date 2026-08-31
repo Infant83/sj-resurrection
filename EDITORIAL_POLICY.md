@@ -46,8 +46,10 @@ This archive is a family record of observations, received explanations, and Chat
 
 ## 7. Privacy and media
 
-- The repository remains private and public deployment remains disabled.
+- The repository remains private. GitHub Pages is used only as a public structural preview while no real medical records or original media are present.
+- A private repository does not make its GitHub Pages site private. Content intended for the source archive must never be assumed safe to publish.
 - Original photos and documents are separated from web derivatives.
 - Display copies remove EXIF/GPS and redact patient numbers, addresses, phone numbers, barcodes, and signatures.
 - Git LFS is a capacity tool, not encryption or access control.
-- Public sharing, if later requested, is created from a separate sanitized export rather than changing the original archive's visibility.
+- Before sensitive records are imported, the Pages deployment is disabled and the publishable subset is reviewed again.
+- The planned long-term host is a Cloudflare-based dynamic site with authenticated access. That migration is a later design phase, not part of the current preview.

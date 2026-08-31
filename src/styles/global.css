@@ -164,6 +164,12 @@ select {
   font-size: 0.55rem;
 }
 
+.preview-chip {
+  border-color: #dbc78f;
+  color: #735a1e;
+  background: #fff8df;
+}
+
 .board-nav {
   border-top: 1px solid rgba(222, 215, 204, 0.75);
 }
@@ -962,7 +968,7 @@ select {
   }
 
   .privacy-chip::after {
-    content: "Private";
+    content: "Preview";
     font-size: 0.68rem;
   }
 

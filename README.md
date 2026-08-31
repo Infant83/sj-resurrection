@@ -1,6 +1,6 @@
 # SJ Resurrection
 
-**선진 부활 프로젝트**는 가족이 남긴 날짜별 기록, 편지, 의학적 질문과 재활 준비를 당시의 사용자 원문 및 ChatGPT 답변과 함께 보존하는 비공개 아카이브입니다.
+**선진 부활 프로젝트**는 가족이 남긴 날짜별 기록, 편지, 의학적 질문과 재활 준비를 당시의 사용자 원문 및 ChatGPT 답변과 함께 보존하기 위해 만드는 아카이브입니다.
 
 프로젝트 표식은 아스클레피오스의 지팡이(⚕)입니다. 의료기관의 표장이 아니라 선진의 회복을 기다리며
 곁을 지키고, 돌봄과 희망의 시간을 기록한다는 의미로 사용합니다. 이 표식과 연결된 보호자의 꿈은
@@ -8,12 +8,18 @@
 
 ## Current privacy state
 
-- Intended repository visibility: **Private**
-- GitHub Pages: **Disabled**
-- Deployment workflow: **Not included**
+- Repository visibility: **Private**
+- GitHub Pages: **Public preview requested; source contains no real medical records yet**
+- Deployment workflow: **Included**
 - Search analytics, trackers, remote fonts, external embeds: **Not included**
 
-`robots.txt`와 `noindex` 메타 태그는 방어적 보조 장치일 뿐 접근 통제가 아닙니다. 실제 기록을 공개 웹에 배포하려면 별도의 명시적 결정과 비식별 검토가 필요합니다.
+`robots.txt`와 `noindex` 메타 태그는 방어적 보조 장치일 뿐 접근 통제가 아닙니다. GitHub Pages는 저장소가 비공개여도 공개 웹사이트이므로 실제 의료 기록과 원본 미디어를 추가하지 않습니다.
+
+## Hosting roadmap
+
+- **Current:** GitHub Pages에서 구조와 사용성을 확인하는 공개 미리보기
+- **Before sensitive imports:** Pages 공개 배포 중단 및 게시 대상 재검토
+- **Future:** Cloudflare 기반 동적 사이트로 전환하고 로그인 사용자에게만 접근 허용
 
 ## Experience
 
@@ -43,7 +49,7 @@ npm run build
 npm run dev
 ```
 
-The configured base path is `/sj-resurrection/` for a possible future GitHub Pages deployment. Public deployment is deliberately not automated.
+The configured base path is `/sj-resurrection/` for the GitHub Pages public preview.
 
 ## Add a draft post
 
