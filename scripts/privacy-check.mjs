@@ -10,6 +10,10 @@ const rules = [
   ['OpenAI token', /\bsk-[A-Za-z0-9_-]{20,}\b/g],
   ['AWS access key', /\bAKIA[0-9A-Z]{16}\b/g],
   ['Korean resident number', /\b\d{6}-[1-4]\d{6}\b/g],
+  ['patient full name', /김\s*선진/g],
+  ['Korean mobile number', /\b01[016789]-?\d{3,4}-?\d{4}\b/g],
+  ['Korean phone number', /\b0\d{1,2}-\d{3,4}-\d{4}\b/g],
+  ['email address', /\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b/gi],
 ];
 
 async function walk(directory) {

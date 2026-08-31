@@ -2,11 +2,11 @@
 import { getCollection } from 'astro:content';
 import PostCard from '../../components/PostCard.astro';
 import { boardMap } from '../../data/boards';
-import { assertArchiveIntegrity, withBase } from '../../lib/archive';
+import { assertArchiveIntegrity, isPublicPost, withBase } from '../../lib/archive';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('posts', ({ data }) => data.status !== 'draft');
+  const posts = await getCollection('posts', ({ data }) => isPublicPost(data));
   assertArchiveIntegrity(posts);
   return posts.map((post) => ({ params: { id: post.id }, props: { post } }));
 }

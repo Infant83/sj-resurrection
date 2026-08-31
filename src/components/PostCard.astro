@@ -23,7 +23,7 @@ const sourceLabels = [...new Set(post.data.sources.map((source) => source.label)
   data-record-id={post.data.recordId}
   data-board={post.data.board}
   data-month={monthKey(post.data.eventAt)}
-  data-event-at={post.data.eventAt.start}
+  data-event-at={post.data.eventAt.end ?? post.data.eventAt.start}
   data-search={searchableText(post)}
 >
   <header class="card-header">

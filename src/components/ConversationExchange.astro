@@ -13,6 +13,20 @@ const showsCorrected = Boolean(user.corrected);
 const assistant = exchange.assistant;
 const replyPreview = assistant?.text.replace(/\s+/g, ' ').trim().slice(0, 110);
 const exchangeLabel = index > 0 ? `이어진 기록 ${index + 1}` : '당시 기록';
+const fidelityLabels: Record<string, string> = {
+  exact: '원문 확인',
+  'typo-corrected': '오탈자 교정본',
+  'summary-reconstruction': '대화 요약 복원본',
+  'pending-original': '원문 확인 필요',
+};
+const userFidelityLabel = fidelityLabels[user.fidelity] ?? '원문 확인 필요';
+const assistantFidelityLabel = assistant?.fidelity === 'exact'
+  ? '당시 답변 원문'
+  : assistant?.fidelity === 'typo-corrected'
+    ? '당시 답변 교정본'
+    : assistant?.fidelity === 'summary-reconstruction'
+      ? '당시 답변 요약 복원본'
+      : '답변 원문 확인 필요';
 ---
 
 <section class="conversation-exchange" aria-label={`${exchangeLabel}과 GPT 답변`}>
@@ -24,9 +38,7 @@ const exchangeLabel = index > 0 ? `이어진 기록 ${index + 1}` : '당시 기�
     <div class="thread-content">
       <div class="thread-label-row">
         <strong>{exchangeLabel}</strong>
-        <span class="fidelity-label">
-          {user.fidelity === 'exact' ? '원문 확인' : user.fidelity === 'typo-corrected' ? '오탈자 교정본' : '원문 확인 필요'}
-        </span>
+        <span class="fidelity-label">{userFidelityLabel}</span>
       </div>
       <div class="message-text" set:html={safeTextToHtml(primaryText)} />
       {
@@ -56,7 +68,7 @@ const exchangeLabel = index > 0 ? `이어진 기록 ${index + 1}` : '당시 기�
           </summary>
           <div class="reply-body">
             <div class="message-text" set:html={safeTextToHtml(assistant.text)} />
-            <p class="reply-provenance">{assistant.modelLabel} · 당시 답변 보존본 · {assistant.fidelity === 'exact' ? '원문 확인' : '원문 확인 필요'}</p>
+            <p class="reply-provenance">{assistant.modelLabel} · {assistantFidelityLabel}</p>
           </div>
         </details>
       </div>

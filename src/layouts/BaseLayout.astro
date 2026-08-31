@@ -11,7 +11,7 @@ interface Props {
 
 const {
   title = 'SJ Resurrection',
-  description = '선진의 회복 과정과 가족의 기록을 보존하는 비공개 아카이브',
+  description = '선진의 회복 과정과 가족의 기록을 보존하는 공개 미리보기 아카이브',
   activeBoard,
 } = Astro.props;
 const documentTitle = title === 'SJ Resurrection' ? title : `${title} · SJ Resurrection`;
@@ -43,7 +43,7 @@ const documentTitle = title === 'SJ Resurrection' ? title : `${title} · SJ Resu
             <small>선진 부활 프로젝트</small>
           </span>
         </a>
-        <span class="privacy-chip preview-chip" title="현재 구조 확인을 위한 공개 미리보기입니다">
+        <span class="privacy-chip preview-chip" title="현재 누구나 접근할 수 있는 공개 미리보기입니다">
           <span aria-hidden="true">●</span> Public preview
         </span>
       </div>

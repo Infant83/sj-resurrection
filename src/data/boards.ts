@@ -1,9 +1,9 @@
 export const boards = [
   {
     id: 'trauma',
-    label: '중증외상 예후',
-    shortLabel: '중증외상',
-    description: '날짜별 상태, 의료진 설명, 보호자 관찰과 당시 분석',
+    label: '경과기록',
+    shortLabel: '경과기록',
+    description: '날짜별 상태 변화, 치료 경과, 의료진 설명, 보호자 관찰과 당시 분석',
   },
   {
     id: 'life',

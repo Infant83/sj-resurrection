@@ -13,7 +13,7 @@ These rules apply to every agent or contributor updating this archive.
 9. Use stable `recordId`, exchange IDs, source IDs, and media IDs. Do not reuse IDs.
 10. Update `src/data/import-ledger.json` for every source import so repeated runs remain idempotent.
 11. Run `npm run privacy:check`, `npm run check`, and `npm run build` before committing.
-12. Keep GitHub Pages and any public deployment disabled unless the user makes a new explicit publication decision.
+12. GitHub Pages is currently public by explicit user decision. Publish only privacy-reviewed summaries with direct identifiers minimized or selected excerpts; do not call them anonymous, and do not commit full conversation exports, official medical records, identifiers, or original media before authenticated hosting is available.
 
 ## Update workflow
 

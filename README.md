@@ -8,18 +8,19 @@
 
 ## Current privacy state
 
-- Repository visibility: **Private**
-- GitHub Pages: **Public preview requested; source contains no real medical records yet**
+- Repository visibility: **Public**
+- GitHub Pages: **Public preview active**
+- Published content: **privacy-reviewed summaries with direct identifiers minimized, plus selected excerpts**
 - Deployment workflow: **Included**
 - Search analytics, trackers, remote fonts, external embeds: **Not included**
 
-`robots.txt`와 `noindex` 메타 태그는 방어적 보조 장치일 뿐 접근 통제가 아닙니다. GitHub Pages는 저장소가 비공개여도 공개 웹사이트이므로 실제 의료 기록과 원본 미디어를 추가하지 않습니다.
+`robots.txt`와 `noindex` 메타 태그는 방어적 보조 장치일 뿐 접근 통제가 아닙니다. 현재 공개 저장소에는 공식 의무기록, 전체 대화 원문, 환자번호, 연락처, 원본 사진·영상은 추가하지 않습니다.
 
 ## Hosting roadmap
 
-- **Current:** GitHub Pages에서 구조와 사용성을 확인하는 공개 미리보기
-- **Before sensitive imports:** Pages 공개 배포 중단 및 게시 대상 재검토
-- **Future:** Cloudflare 기반 동적 사이트로 전환하고 로그인 사용자에게만 접근 허용
+- **Current:** GitHub Pages에서 직접 식별정보를 제한한 경과 요약과 사용성을 확인하는 공개 미리보기
+- **Before full-source imports:** Pages 공개 배포 중단 및 전체 대화·미디어의 게시 대상 재검토
+- **Future:** Cloudflare 기반 동적 사이트로 전환하고 로그인 사용자에게만 전체 기록 접근 허용
 
 ## Experience
 
@@ -34,7 +35,7 @@
 
 ## Boards
 
-1. `trauma` — 중증외상 예후와 상태
+1. `trauma` — 경과기록
 2. `life` — 선진과 함께하는 삶
 3. `medical` — 의학 지식
 4. `rehabilitation` — 재활 준비

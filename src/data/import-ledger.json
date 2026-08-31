@@ -1,14 +1,30 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Seoul",
-  "lastUpdated": "2026-08-30",
+  "lastUpdated": "2026-08-31",
   "boards": {
     "trauma": {
-      "status": "pending-source-import",
+      "status": "partial-summary-import",
       "sourceThreads": [
         "중증 외상 예후 분석",
         "중증 외상 예후 분석 (phase2)",
         "중증 외상 예후 분석 (phase 3)"
+      ],
+      "importedRecords": [
+        "trauma-2026-06-18-initial-emergency",
+        "trauma-2026-08-01-cardiac-arrest",
+        "trauma-2026-08-04-pneumonia-neuro-evaluation",
+        "trauma-2026-08-08-sedation-fever",
+        "trauma-2026-08-09-nutrition-respiratory",
+        "trauma-2026-08-10-alertness-tracheostomy-discussion",
+        "trauma-2026-08-12-tracheostomy",
+        "trauma-2026-08-20-family-response",
+        "trauma-2026-08-21-to-22-feeding-respiratory",
+        "trauma-2026-08-25-fever-interview-prep",
+        "trauma-2026-08-26-dai-and-respiratory",
+        "trauma-2026-08-28-vomiting-feeding",
+        "trauma-2026-08-29-recovery-monitoring",
+        "trauma-2026-08-30-feeding-skin-sputum"
       ]
     },
     "life": {
@@ -34,10 +50,88 @@
   },
   "imports": [
     {
-      "recordId": "meta-2026-08-30-project-start",
-      "source": "current-conversation",
-      "fidelity": "exact",
-      "importedAt": "2026-08-30"
+      "recordId": "trauma-2026-06-18-initial-emergency",
+      "source": "personal-context-summary",
+      "fidelity": "summary-reconstruction",
+      "importedAt": "2026-08-31"
+    },
+    {
+      "recordId": "trauma-2026-08-01-cardiac-arrest",
+      "source": "personal-context-summary",
+      "fidelity": "summary-reconstruction",
+      "importedAt": "2026-08-31"
+    },
+    {
+      "recordId": "trauma-2026-08-04-pneumonia-neuro-evaluation",
+      "source": "personal-context-summary",
+      "fidelity": "summary-reconstruction",
+      "importedAt": "2026-08-31"
+    },
+    {
+      "recordId": "trauma-2026-08-08-sedation-fever",
+      "source": "personal-context-summary",
+      "fidelity": "summary-reconstruction",
+      "importedAt": "2026-08-31"
+    },
+    {
+      "recordId": "trauma-2026-08-09-nutrition-respiratory",
+      "source": "personal-context-summary",
+      "fidelity": "summary-reconstruction",
+      "importedAt": "2026-08-31"
+    },
+    {
+      "recordId": "trauma-2026-08-10-alertness-tracheostomy-discussion",
+      "source": "personal-context-summary-and-visible-excerpts",
+      "fidelity": "mixed",
+      "importedAt": "2026-08-31"
+    },
+    {
+      "recordId": "trauma-2026-08-12-tracheostomy",
+      "source": "personal-context-summary-and-visible-excerpts",
+      "fidelity": "mixed",
+      "importedAt": "2026-08-31"
+    },
+    {
+      "recordId": "trauma-2026-08-20-family-response",
+      "source": "personal-context-summary",
+      "fidelity": "summary-reconstruction",
+      "importedAt": "2026-08-31"
+    },
+    {
+      "recordId": "trauma-2026-08-21-to-22-feeding-respiratory",
+      "source": "personal-context-summary",
+      "fidelity": "summary-reconstruction",
+      "importedAt": "2026-08-31"
+    },
+    {
+      "recordId": "trauma-2026-08-25-fever-interview-prep",
+      "source": "personal-context-summary-and-visible-excerpts",
+      "fidelity": "mixed",
+      "importedAt": "2026-08-31"
+    },
+    {
+      "recordId": "trauma-2026-08-26-dai-and-respiratory",
+      "source": "personal-context-summary-and-visible-excerpts",
+      "fidelity": "mixed",
+      "importedAt": "2026-08-31"
+    },
+    {
+      "recordId": "trauma-2026-08-28-vomiting-feeding",
+      "source": "personal-context-summary",
+      "fidelity": "summary-reconstruction",
+      "importedAt": "2026-08-31"
+    },
+    {
+      "recordId": "trauma-2026-08-29-recovery-monitoring",
+      "source": "personal-context-summary",
+      "fidelity": "summary-reconstruction",
+      "importedAt": "2026-08-31"
+    },
+    {
+      "recordId": "trauma-2026-08-30-feeding-skin-sputum",
+      "source": "personal-context-summary-and-visible-excerpts",
+      "fidelity": "mixed",
+      "importedAt": "2026-08-31"
     }
   ]
 }
