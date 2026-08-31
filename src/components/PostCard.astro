@@ -22,20 +22,18 @@ const sourceLabels = [...new Set(post.data.sources.map((source) => source.label)
   data-post-card
   data-record-id={post.data.recordId}
   data-board={post.data.board}
-  data-month={monthKey(post.data.eventAt)}
-  data-event-at={post.data.eventAt.end ?? post.data.eventAt.start}
+  data-month={monthKey(post.data.recordedAt)}
+  data-recorded-at={post.data.recordedAt.end ?? post.data.recordedAt.start}
   data-search={searchableText(post)}
 >
   <header class="card-header">
     <div class="card-meta">
       <span class={`section-badge section-${post.data.board}`}>{board.label}</span>
-      <time datetime={post.data.eventAt.start}>{formatKoreanStamp(post.data.eventAt)}</time>
-      {post.data.status === 'needs-original-check' && <span class="review-badge">원문 확인 대기</span>}
+      <time datetime={post.data.recordedAt.start}>{formatKoreanStamp(post.data.recordedAt)}</time>
     </div>
     <h2 class="card-title">
       {detailed ? post.data.title : <a href={detailHref}>{post.data.title}</a>}
     </h2>
-    <p class="card-summary">{post.data.summary}</p>
     {
       sourceLabels.length > 0 && (
         <div class="source-row" aria-label="자료 출처">

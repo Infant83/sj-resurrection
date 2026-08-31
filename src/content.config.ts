@@ -27,31 +27,29 @@ const source = z.object({
   accessedAt: stamp.optional(),
 });
 
-const messageFidelity = z.enum([
-  'exact',
-  'typo-corrected',
-  'summary-reconstruction',
-  'pending-original',
-]);
+const userMessageFidelity = z.enum(['exact', 'typo-corrected', 'pending-original']);
 
 const exchange = z.object({
   id: z.string(),
   recordedAt: stamp,
+  sourceVerified: z.boolean().default(false),
+  sourceVerifiedAt: stamp.optional(),
   user: z.object({
     sourceMessageId: z.string().optional(),
     rawRef: z.string().optional(),
-    original: z.string(),
+    original: z.string().min(1),
     originalSha256: z.string().regex(/^sha256:[a-f0-9]{64}$/).optional(),
     corrected: z.string().optional(),
     correctionPolicy: z.literal('typos-only').optional(),
-    fidelity: messageFidelity,
+    fidelity: userMessageFidelity,
   }),
   assistant: z
     .object({
       sourceMessageId: z.string().optional(),
-      text: z.string(),
+      text: z.string().min(1),
+      textSha256: z.string().regex(/^sha256:[a-f0-9]{64}$/).optional(),
       modelLabel: z.string().default('ChatGPT'),
-      fidelity: messageFidelity,
+      fidelity: z.literal('exact'),
     })
     .optional(),
   sourceRefs: z.array(z.string()).default([]),
@@ -67,6 +65,7 @@ const amendment = z.object({
   sourceRefs: z.array(z.string()).default([]),
 });
 
+// The public repository accepts only complete, source-verified conversation records.
 const posts = defineCollection({
   loader: glob({ base: './src/content/posts', pattern: '**/*.{md,mdx}' }),
   schema: z.object({
@@ -82,10 +81,9 @@ const posts = defineCollection({
       'project-log',
     ]),
     title: z.string(),
-    summary: z.string(),
-    status: z.enum(['draft', 'published', 'needs-original-check']).default('draft'),
+    status: z.enum(['draft', 'published']).default('draft'),
     sensitivity: z.enum(['private', 'highly-sensitive']).default('highly-sensitive'),
-    eventAt: stamp,
+    eventAt: stamp.optional(),
     recordedAt: stamp,
     updatedAt: stamp.optional(),
     tags: z.array(z.string()).default([]),

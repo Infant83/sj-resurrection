@@ -10,16 +10,16 @@
 
 - Repository visibility: **Public**
 - GitHub Pages: **Public preview active**
-- Published content: **privacy-reviewed summaries with direct identifiers minimized, plus selected excerpts**
+- Published content: **source-verified complete user prompts and complete GPT replies only**
 - Deployment workflow: **Included**
 - Search analytics, trackers, remote fonts, external embeds: **Not included**
 
-`robots.txt`와 `noindex` 메타 태그는 방어적 보조 장치일 뿐 접근 통제가 아닙니다. 현재 공개 저장소에는 공식 의무기록, 전체 대화 원문, 환자번호, 연락처, 원본 사진·영상은 추가하지 않습니다.
+`robots.txt`와 `noindex` 메타 태그는 방어적 보조 장치일 뿐 접근 통제가 아닙니다. 요약·재구성본은 게시하지 않으며, 원 대화에서 사용자 프롬프트와 GPT 답변 전문이 함께 확인된 기록만 공개합니다.
 
 ## Hosting roadmap
 
-- **Current:** GitHub Pages에서 직접 식별정보를 제한한 경과 요약과 사용성을 확인하는 공개 미리보기
-- **Before full-source imports:** Pages 공개 배포 중단 및 전체 대화·미디어의 게시 대상 재검토
+- **Current:** GitHub Pages에서 원문 전용 기록 구조와 사용성을 확인하는 공개 미리보기
+- **Before original-media imports:** Pages 공개 배포 중단 및 미디어 게시 대상 재검토
 - **Future:** Cloudflare 기반 동적 사이트로 전환하고 로그인 사용자에게만 전체 기록 접근 허용
 
 ## Experience
@@ -28,8 +28,8 @@
 - Stable detail URL for every post
 - Original user prompt as the main post
 - GPT response immediately below as an expandable reply
-- Board, date, search, newest/oldest controls
-- Separate event time and conversation-recorded time
+- Board, conversation date, search, newest/oldest controls
+- Feed grouping by original conversation time; optional event time stays separate
 - Explicit provenance for medical records, clinician reports, caregiver observations, and GPT interpretation
 - Corrections are appended; original text is not silently overwritten
 
@@ -58,4 +58,4 @@ The configured base path is `/sj-resurrection/` for the GitHub Pages public prev
 npm run new:post -- --board=trauma --date=2026-08-30 --slug=status-update --title="상태 업데이트"
 ```
 
-Every imported entry must be reviewed under [EDITORIAL_POLICY.md](EDITORIAL_POLICY.md) before changing `status` to `published`.
+The generated draft intentionally contains an unverified placeholder and fails the privacy gate until the complete source pair, source IDs, hashes, and verification time are filled in. Every imported entry must be reviewed under [EDITORIAL_POLICY.md](EDITORIAL_POLICY.md) before changing `status` to `published`.

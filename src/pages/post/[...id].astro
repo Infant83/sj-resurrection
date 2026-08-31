@@ -6,8 +6,9 @@ import { assertArchiveIntegrity, isPublicPost, withBase } from '../../lib/archiv
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('posts', ({ data }) => isPublicPost(data));
-  assertArchiveIntegrity(posts);
+  const allPosts = await getCollection('posts');
+  assertArchiveIntegrity(allPosts);
+  const posts = allPosts.filter(({ data }) => isPublicPost(data));
   return posts.map((post) => ({ params: { id: post.id }, props: { post } }));
 }
 
@@ -15,7 +16,7 @@ const { post } = Astro.props;
 const board = boardMap[post.data.board];
 ---
 
-<BaseLayout title={post.data.title} description={post.data.summary} activeBoard={post.data.board}>
+<BaseLayout title={post.data.title} description={`${post.data.title} — 보호자 원문과 당시 GPT 답변 전문`} activeBoard={post.data.board}>
   <nav class="breadcrumb" aria-label="현재 위치">
     <a href={withBase()}>전체 기록</a>
     <span aria-hidden="true">/</span>

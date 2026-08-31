@@ -10,7 +10,7 @@ interface Props {
 
 const { posts, boardLabel = '전체 기록' } = Astro.props;
 const sortedPosts = sortPosts(posts);
-const months = [...new Set(sortedPosts.map((post) => post.data.eventAt.start.slice(0, 7)))].filter((month) => /^\d{4}-\d{2}$/.test(month));
+const months = [...new Set(sortedPosts.map((post) => post.data.recordedAt.start.slice(0, 7)))].filter((month) => /^\d{4}-\d{2}$/.test(month));
 ---
 
 <section class="archive-feed" data-archive-feed>
@@ -78,7 +78,7 @@ const months = [...new Set(sortedPosts.map((post) => post.data.eventAt.start.sli
         })
         .sort((a, b) => {
           if (!(a instanceof HTMLElement) || !(b instanceof HTMLElement)) return 0;
-          const result = (a.dataset.eventAt ?? '').localeCompare(b.dataset.eventAt ?? '');
+          const result = (a.dataset.recordedAt ?? '').localeCompare(b.dataset.recordedAt ?? '');
           return direction === 'desc' ? -result : result;
         });
     }

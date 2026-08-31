@@ -4,16 +4,16 @@ These rules apply to every agent or contributor updating this archive.
 
 1. The user's named target board always overrides automatic classification.
 2. Never reconstruct an unavailable original prompt from memory or a summary and label it exact.
-3. Preserve the original user message and original GPT reply. Add later corrections as amendments.
-4. For `life` letters, change only unambiguous spelling and spacing in `corrected`; preserve voice, repetition, rhythm, and emotion.
-5. Keep `eventAt` separate from `recordedAt`. Do not invent an exact time.
+3. Preserve every source user message and its corresponding GPT reply as complete messages. Never split, merge, shorten, or reorder a source message, even when it mentions several event dates. Add later corrections as amendments.
+4. For every user-authored prompt or letter, display only a typo-and-spacing correction in `corrected`; preserve the complete input text in `original` and preserve voice, repetition, rhythm, and emotion.
+5. Group and sort posts by `recordedAt`, the source conversation time. Keep optional `eventAt` separate and never invent an exact time.
 6. Label each claim as medical record, physician/nurse report, caregiver observation, recollection, external reference, or GPT analysis.
 7. Never promote a caregiver observation or GPT inference to a confirmed clinical fact.
 8. Do not commit patient numbers, resident numbers, addresses, signatures, access tokens, temporary attachment URLs, or raw unreviewed medical documents.
 9. Use stable `recordId`, exchange IDs, source IDs, and media IDs. Do not reuse IDs.
 10. Update `src/data/import-ledger.json` for every source import so repeated runs remain idempotent.
 11. Run `npm run privacy:check`, `npm run check`, and `npm run build` before committing.
-12. GitHub Pages is currently public by explicit user decision. Publish only privacy-reviewed summaries with direct identifiers minimized or selected excerpts; do not call them anonymous, and do not commit full conversation exports, official medical records, identifiers, or original media before authenticated hosting is available.
+12. GitHub Pages is currently public by explicit user decision. A post may be public only when the complete user message and complete GPT reply have been verified against the source conversation, assigned source message IDs, and hashed. Never publish or commit summaries, reconstructions, or excerpts as substitutes for the original exchange.
 
 ## Update workflow
 
@@ -21,8 +21,9 @@ When the user says “재활준비 게시판을 업데이트하자” or names a
 
 1. Read this file and `EDITORIAL_POLICY.md`.
 2. Compare the requested conversation/messages with `import-ledger.json`.
-3. Create one dated post per coherent event or letter.
-4. Store the exact message in `exchanges[].user.original`; add `corrected` only when the board policy allows it.
-5. Store the corresponding GPT answer in `exchanges[].assistant.text` without rewriting it.
-6. Add source and certainty labels, related posts, amendments, and media IDs.
-7. Validate, build, commit atomically, and report what was added, corrected, or held for source verification.
+3. Create one post per source conversation date. Preserve the original message order within that date; do not regroup text by clinical event.
+4. Store each complete source message in `exchanges[].user.original`; add `corrected` only for unambiguous typos and spacing.
+5. Store the complete corresponding GPT answer in `exchanges[].assistant.text` without rewriting it or generating a preview summary.
+6. Record source message IDs and SHA-256 hashes, then mark completeness verified only after comparing both sides with the source.
+7. Add source and certainty labels, related posts, amendments, and media IDs.
+8. Validate, build, commit atomically, and report what was added, corrected, or held for source verification.

@@ -39,10 +39,8 @@ recordId: ${recordId}
 board: ${board}
 entryType: ${entryType}
 title: ${JSON.stringify(title)}
-summary: "작성 필요"
 status: draft
 sensitivity: highly-sensitive
-eventAt: { start: "${date}", precision: day, timezone: Asia/Seoul }
 recordedAt: { start: "${date}", precision: day, timezone: Asia/Seoul }
 tags: []
 sources:
@@ -53,6 +51,7 @@ sources:
 exchanges:
   - id: exchange-${recordId}-001
     recordedAt: { start: "${date}", precision: day, timezone: Asia/Seoul }
+    sourceVerified: false
     user:
       original: |-
         원문을 입력하세요.

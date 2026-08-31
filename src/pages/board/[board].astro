@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import ArchiveFeed from '../../components/ArchiveFeed.astro';
 import { boards, boardMap, type BoardId } from '../../data/boards';
-import { isPublicPost } from '../../lib/archive';
+import { assertArchiveIntegrity, isPublicPost } from '../../lib/archive';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export function getStaticPaths() {
@@ -11,10 +11,9 @@ export function getStaticPaths() {
 
 const boardId = Astro.params.board as BoardId;
 const board = boardMap[boardId];
-const posts = await getCollection(
-  'posts',
-  ({ data }) => isPublicPost(data) && data.board === boardId,
-);
+const allPosts = await getCollection('posts');
+assertArchiveIntegrity(allPosts);
+const posts = allPosts.filter(({ data }) => isPublicPost(data) && data.board === boardId);
 ---
 
 <BaseLayout title={board.label} description={board.description} activeBoard={boardId}>

@@ -467,12 +467,6 @@ select {
   text-decoration: underline;
 }
 
-.card-summary {
-  margin: 0;
-  color: var(--ink-soft);
-  font-size: 0.9rem;
-}
-
 .source-row {
   display: flex;
   flex-wrap: wrap;
@@ -553,20 +547,27 @@ select {
 
 .thread-label-row {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 7px;
 }
 
 .thread-label-row strong,
-.reply-summary-copy strong {
+.reply-label strong {
   font-size: 0.83rem;
 }
 
 .fidelity-label {
+  margin-left: auto;
   color: var(--ink-soft);
   font-size: 0.66rem;
+}
+
+.thread-label-row time {
+  color: var(--ink-soft);
+  font-size: 0.68rem;
 }
 
 .message-text {
@@ -630,19 +631,10 @@ select {
   display: none;
 }
 
-.reply-summary-copy {
+.reply-label {
   min-width: 0;
   display: grid;
   gap: 1px;
-}
-
-.reply-preview {
-  max-width: 620px;
-  color: var(--ink-soft);
-  font-size: 0.77rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .reply-action {
@@ -654,10 +646,6 @@ select {
 
 .reply-action::after {
   content: " ＋";
-}
-
-.reply-details[open] .reply-preview {
-  display: none;
 }
 
 .reply-details[open] .reply-action::after {
@@ -1032,10 +1020,6 @@ select {
 
   .reply-details > summary {
     min-height: 58px;
-  }
-
-  .reply-preview {
-    max-width: 48vw;
   }
 
   .amendments {
