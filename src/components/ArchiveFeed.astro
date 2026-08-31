@@ -72,7 +72,7 @@ const months = [...new Set(sortedPosts.map((post) => post.data.recordedAt.start.
       return cards
         .filter((card) => {
           if (!(card instanceof HTMLElement)) return false;
-          const matchesQuery = !query || (card.dataset.search ?? '').includes(query);
+          const matchesQuery = !query || (card.textContent ?? '').toLocaleLowerCase('ko-KR').includes(query);
           const matchesMonth = monthValue === 'all' || card.dataset.month === monthValue;
           return matchesQuery && matchesMonth;
         })
@@ -130,6 +130,19 @@ const months = [...new Set(sortedPosts.map((post) => post.data.recordedAt.start.
       visibleCount += batchSize;
       renderFeed();
     });
+
+    if (loadMore instanceof HTMLButtonElement && 'IntersectionObserver' in window) {
+      const infiniteScroll = new IntersectionObserver(
+        (entries) => {
+          if (entries.some((entry) => entry.isIntersecting) && !loadMore.hidden) {
+            visibleCount += batchSize;
+            renderFeed();
+          }
+        },
+        { rootMargin: '0px 0px 480px 0px' },
+      );
+      infiniteScroll.observe(loadMore);
+    }
 
     const targetId = decodeURIComponent(window.location.hash.replace('#', ''));
     if (targetId) {

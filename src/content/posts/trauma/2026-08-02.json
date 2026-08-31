@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 2,
+  "recordId": "trauma-2026-08-02-conversation",
+  "board": "trauma",
+  "entryType": "clinical-update",
+  "title": "2026년 8월 2일 경과 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-08-02",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "원문 대화",
+    "날짜별 기록"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-trauma-phase-2",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "중증 외상 예후 분석 (phase2)",
+      "accessedAt": {
+        "start": "2026-08-31T18:13:51+09:00",
+        "precision": "minute",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-3e308b82-ad4c-4ecb-8ac4-1f770836a4a0",
+      "role": "user",
+      "recordedAt": {
+        "start": "2026-08-02T10:41:45.320562+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-08-31T18:13:51+09:00",
+        "precision": "minute",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "3e308b82-ad4c-4ecb-8ac4-1f770836a4a0",
+      "sourceOrdinal": 43,
+      "turnId": "498ccc3b-12a3-45ac-92eb-e9c8d26cb3c3",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-2"
+      ],
+      "original": "오늘 선진이의 결과에 대해 들었어. 어제 밤에 소리를 지르는 경우가 많았대. 그래서 오늘부터 진통제 하나를 더 걸자고 하셨대. 콧줄을 통해서 들어가는 영양은 200에서 800으로 올린 상태고, 혈압은 잘 유지되고 있고, 가스 체크했을 때도 정상이래. 고용량산소치료는 계속 진행중이라고 하셨어. 다른 것에대한 소견은 못 받았고, 어제 측두쪽 CT를 찍었대. 오늘은 따로 검사 예정은 없다고 해.",
+      "originalSha256": "sha256:274eea8992fdcb042583a4d4c60ee64edbaf59c9f58a02b98638ee627255eb4b",
+      "corrected": "오늘 선진이의 결과에 대해 들었어. 어제 밤에 소리를 지르는 경우가 많았대. 그래서 오늘부터 진통제 하나를 더 걸자고 하셨대. 콧줄을 통해서 들어가는 영양은 200에서 800으로 올린 상태고, 혈압은 잘 유지되고 있고, 가스 체크했을 때도 정상이래. 고용량 산소 치료는 계속 진행 중이라고 하셨어. 다른 것에 대한 소견은 못 받았고, 어제 측두 쪽 CT를 찍었대. 오늘은 따로 검사 예정은 없다고 해.",
+      "correctionPolicy": "typos-only",
+      "fidelity": "typo-corrected"
+    },
+    {
+      "id": "message-0269ca63-29a0-49aa-8b8c-12d403c3d5b8",
+      "role": "assistant",
+      "recordedAt": {
+        "start": "2026-08-02T10:41:46.434923+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-08-31T18:13:51+09:00",
+        "precision": "minute",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "0269ca63-29a0-49aa-8b8c-12d403c3d5b8",
+      "sourceOrdinal": 44,
+      "turnId": "498ccc3b-12a3-45ac-92eb-e9c8d26cb3c3",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-2"
+      ],
+      "channel": "final",
+      "text": "오늘 소식도 잘 읽었습니다.\n\n처음 선진이 이야기를 들었던 날부터 지금까지의 경과를 계속 함께 따라오고 있는데, **오늘 보고는 \"크게 좋아졌다\"는 소식은 아니지만, \"나빠지지 않고 회복의 방향을 유지하고 있다\"는 점에서 의미가 있습니다.**\n\n중증외상에서는 이런 날들이 굉장히 중요합니다.\n\n---\n\n# 제가 가장 눈에 들어온 것은 네 가지입니다.\n\n## ① 밤에 많이 소리를 질렀다\n\n처음 들으면 보호자는 굉장히 놀랍니다.\n\n하지만 외상중환자실에서는\n\n**의외로 흔한 현상**입니다.\n\n원인은 여러 가지가 겹칩니다.\n\n- 통증\n- 외상 후 섬망(ICU delirium)\n- 잠에서 깨어나는 과정\n- 기관삽관 후 불편했던 기억\n- 방향감각 상실\n- 뇌손상 회복 과정\n\n특히 선진이는\n\n- 진정제를 끊었고\n- 인공호흡기를 제거했고\n- 몸을 움직일 수 있게 되었기 때문에\n\n이런 행동이 나타날 수 있습니다.\n\n---\n\n## 진통제를 하나 더 추가했다는 것\n\n이 결정은 저는 오히려 좋게 봅니다.\n\n왜냐하면\n\n의료진이\n\n\"의식을 다시 재우자.\"\n\n가 아니라\n\n> **통증을 더 잘 조절해 주자.**\n\n를 선택한 것이기 때문입니다.\n\n즉\n\n선진이를 다시 깊게 재우는 것이 아니라\n\n회복을 유지하면서\n\n고통만 줄여주려는 것입니다.\n\n---\n\n# ② 영양을 200 → 800으로 올렸다\n\n이게 오늘 소식 중\n\n가장 반가운 부분입니다.\n\n이 숫자는 아마\n\n하루 영양 공급량 또는 목표량을 크게 올렸다는 의미일 가능성이 큽니다.\n\n---\n\n왜 중요할까요?\n\n며칠 전까지만 해도\n\n선진이는\n\n출혈\n\n↓\n\n쇼크\n\n↓\n\n장기부전\n\n상태였습니다.\n\n그때는\n\n영양을 많이 넣을 수 없었습니다.\n\n---\n\n그런데 지금은\n\n**몸이 영양을 받아들일 준비가 되었다**는 뜻입니다.\n\n즉\n\n- 장이 버틴다.\n\n- 혈압이 버틴다.\n\n- 순환이 버틴다.\n\n- 대사가 안정된다.\n\n는 의미입니다.\n\n이건 회복 단계에서\n\n매우 중요한 변화입니다.\n\n---\n\n# ③ 혈압 정상\n\n이제는\n\n혈압 이야기가\n\n항상\n\n\"정상\"\n\n으로 나오고 있습니다.\n\n이건 정말 좋습니다.\n\n출혈성 쇼크 환자에서\n\n혈압이 안정적으로 유지된다는 것은\n\n회복의 가장 기본 조건입니다.\n\n---\n\n# ④ 혈액가스도 정상\n\n이 부분도\n\n굉장히 좋은 소식입니다.\n\n혈액가스는\n\n단순히 산소만 보는 것이 아닙니다.\n\n보통\n\n- 산소\n\n- 이산화탄소\n\n- pH\n\n- 젖산\n\n등을 함께 봅니다.\n\n정상이라는 것은\n\n적어도\n\n현재\n\n호흡과 순환이\n\n잘 유지되고 있다는 뜻입니다.\n\n---\n\n# 고용량 산소치료는 그대로\n\n여기서는\n\n\"그대로\"\n\n라는 것이 중요합니다.\n\n나빠졌다면\n\n산소를 더 올렸을 것입니다.\n\n좋아졌다면\n\n줄였을 것입니다.\n\n---\n\n지금은\n\n유지하고 있다는 뜻입니다.\n\n즉\n\n아직 폐가\n\n혼자 충분히 일하려면 시간이 더 필요하지만\n\n악화는 아니라는 의미입니다.\n\n---\n\n# CT를 찍었다\n\n이것도 저는 좋게 봅니다.\n\n왜냐하면\n\n며칠 전에는\n\n움직여서 못 찍었습니다.\n\n이번에는\n\n찍었다는 뜻입니다.\n\n---\n\n더 중요한 것은\n\n오늘\n\n추가 설명이 없었다는 점입니다.\n\n만약\n\nCT에서\n\n출혈이 크게 늘었거나\n\n새로운 문제가 있었다면\n\n보호자에게\n\n바로 설명했을 가능성이 큽니다.\n\n물론 이것만으로 정상이라고 단정할 수는 없습니다.\n\n하지만\n\n적어도\n\n응급으로 알려야 할 변화는 없었을 가능성이 있습니다.\n\n---\n\n# 오늘까지의 회복을 보면\n\n처음\n\n생존\n\n↓\n\n출혈 조절\n\n↓\n\n장기부전 극복\n\n↓\n\n손목 수술\n\n↓\n\n자가호흡\n\n↓\n\n영양 증가\n\n↓\n\n가래 관리\n\n↓\n\n통증 조절\n\n↓\n\n뇌 회복 관찰\n\n이 단계까지 왔습니다.\n\n---\n\n# 앞으로 제가 가장 기대하는 변화\n\n이제부터는\n\n숫자보다\n\n행동 변화가 중요합니다.\n\n예를 들면\n\n- 소리를 지르는 횟수가 줄어든다.\n\n- 가족을 더 오래 바라본다.\n\n- 이름을 부르면 눈을 돌린다.\n\n- 손을 쥔다.\n\n- 고개를 끄덕인다.\n\n- 간단한 명령을 따른다.\n\n이런 변화가\n\n뇌 회복에서는\n\n가장 중요합니다.\n\n---\n\n# 제가 오늘 보호자분께 드리고 싶은 말씀\n\n사실 오늘 소식을 읽으면서\n\n가장 인상 깊었던 것은\n\n**\"영양을 800까지 올렸다.\"**\n\n였습니다.\n\n왜냐하면 외상외과에서는\n\n영양을 늘린다는 것은\n\n몸이\n\n\"이제 상처를 본격적으로 회복할 준비를 시작했다.\"\n\n는 의미이기도 하기 때문입니다.\n\n그리고\n\n진통제를 추가했다는 것도\n\n\"의식을 다시 눌러야 한다.\"\n\n가 아니라\n\n**\"회복은 유지하면서 고통을 줄여주자.\"**\n\n라는 방향으로 치료가 가고 있다는 뜻입니다.\n\n---\n\n오늘 하루는 아주 극적인 변화는 없었지만, **안정적인 혈압과 정상 혈액가스, 증가한 영양 공급, 그리고 새로운 급성 악화 소견이 없었다는 점을 함께 보면 회복의 흐름은 유지되고 있다고 평가할 수 있습니다.**\n\n저는 오늘 밤에는 선진이가 통증이 조금 덜해서 편안하게 쉬고, 가래를 조금 더 잘 배출하고, 뇌가 회복할 시간을 충분히 갖기를 함께 바랍니다.\n\n그리고 내일이나 모레쯤에는 **가족을 바라보는 시간이 조금 더 길어졌다**, **간단한 명령을 한 번이라도 더 따라했다** 같은 소식을 들을 수 있기를 진심으로 기대합니다.",
+      "textSha256": "sha256:64367f4a0625ccbb335d3fbf79e89102c99ff77be3f5daddca172cc0cc74a0a8",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "references": []
+    },
+    {
+      "id": "message-83d39c94-641c-4e54-afdb-13cd060f5fde",
+      "role": "user",
+      "recordedAt": {
+        "start": "2026-08-02T14:19:36.991928+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-08-31T18:13:51+09:00",
+        "precision": "minute",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "83d39c94-641c-4e54-afdb-13cd060f5fde",
+      "sourceOrdinal": 45,
+      "turnId": "88baa5e1-2218-4f0b-bf10-735e2eaeadad",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-2"
+      ],
+      "original": "전화로 **'조형술 CT(조영제 관주 CT, Dynamic Contrast CT)'**를 전체적으로 찍는다는 소식을 들으셨군요. 연락을 받으셨을 때 \"갑자기 또 무슨 검사지?\", \"몸 전체를 다 찍는다니 무슨 문제가 생긴 건 아닌가?\" 하고 다시 한번 가슴이 철렁하셨을 것 같습니다.\n하지만 중증 외상 센터에서 시행하는 조형술(조영) CT의 목적을 이해하시면 마음을 훨씬 놓으실 수 있습니다. 결론부터 말씀드리면, **위험해서 찍는 것이 아니라 안전하게 다음 단계(일반병동 이동 및 정형외과 치료 등)로 넘어가기 위한 '최종 정밀 점검'**입니다.\n의학적 관점에서 이번 전체 조형술 CT가 가진 의미를 설명해 드릴게요.\n1. 조형술(조영제) CT를 찍는 진짜 이유\n조영제라는 약물을 혈관으로 주입하면서 찍는 CT는 혈관의 흐름과 장기의 미세한 혈류 상태를 선명하게 시각화해 줍니다.\n * 지혈 상태 및 미세 출혈 '최종 확인' (복부 및 골반)\n   * 선진이는 간 봉합, 비장 절제, 골반 출혈 지혈(패킹) 수술을 받았습니다.\n   * 조영제를 넣고 CT를 찍으면, 수술했던 장기들이 잘 아물고 있는지, 혹시 우리가 눈으로 보지 못하는 아주 미세한 지혈 누출(Extravasation)이나 가성동맥류(False Aneurysm) 같은 위험 요인이 남아있지 않은지 샅샅이 잡아가며 확인할 수 있습니다.\n * 뇌 혈관 및 미세 손상 재평가 (두부)\n   * 지난번 측두부 CT 및 MRI에 이어, 조영제를 통해 뇌 혈관의 흐름이 원활한지, 뇌 부기가 얼마나 가라앉았는지, 기두증(공기 유입) 부위가 잘 메워지고 있는지를 정밀하게 평가합니다.\n * 다음 수술 및 일반병동 이송을 위한 '안전판 마련'\n   * 중환자실에서 일반병동으로 옮기거나, 향후 골반 및 나머지 골절 부위에 대한 추가 치료 계획을 세우려면 **\"배 안과 머릿속에 시한폭탄 같은 미세 출혈이나 위험 요소가 단 1%도 없다\"**는 완벽한 확인이 필요합니다. 이번 CT가 바로 그 '안전 승인 검사' 역할을 합니다.\n2. 지금 시점에 찍을 수 있다는 것의 숨은 의미\n이 검사를 진행한다는 것 자체가 아이의 상태에 대해 매우 긍정적인 메시지를 주고 있습니다.\n * 신장(콩팥) 기능이 양호하다는 뜻입니다.\n   조영제는 신장을 통해 배출되기 때문에, 환자의 혈액검사 수치(신장 기능 수치)가 나쁘거나 전신 상태가 불안정하면 절대 찍을 수 없습니다. 선진이의 콩팥과 전신 대사 수치가 조영제를 충분히 감당할 만큼 깨끗하고 건강해졌다는 증거입니다.\n * 검사를 견딜 만큼 호흡과 혈압이 안정적이라는 뜻입니다.\n   조영제 주입 시 온몸이 화끈거리는 느낌이 들 수 있고 검사대에 누워있어야 하는데, 선진이의 혈압과 산소 수치(산소마스크)가 이 과정을 충분히 버틸 수 있다고 의료진이 판단한 것입니다.\n3. 검사 후 관전 포인트\n검사가 잘 끝나고 나면 주치의 선생님께 다음 내용을 확인해 보시면 좋습니다.\n * 복부/골반: \"수술했던 간과 지혈했던 골반 부위에 미세 출혈이나 이상 소견 없이 깨끗하게 잘 아물었나요?\"\n * 뇌/머리: \"머리 쪽 부기나 혈관 흐름은 안전한 단계인가요?\"\n * 향후 일정: \"이 검사 결과가 깨끗하다면, 중환자실에서 일반병동으로 이동하는 일정을 고려할 수 있나요?\"\n선진이는 지금 중환자실 퇴록과 본격적인 회복을 향해 마지막 관문들을 하나씩 완벽하게 도장 깨기 하듯 지나가고 있는 중입니다.\n아이가 검사받느라 고생하겠지만, 이 검사만 잘 마치고 나면 앞으로의 치료 방향이 훨씬 더 명확해지고 가벼워질 것입니다. 너무 걱정하지 마시고, 선진이가 검사를 무사히 잘 마치고 오도록 따뜻한 마음으로 응원해 주세요!\n",
+      "originalSha256": "sha256:84c14de9b8b47fbf89040c0a08296916a4d207fb5709305913348216faf111d4",
+      "fidelity": "exact"
+    },
+    {
+      "id": "message-b7f8834b-c35c-4d0d-a9f8-cb47dc7f25b6",
+      "role": "assistant",
+      "recordedAt": {
+        "start": "2026-08-02T14:19:40.125536+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-08-31T18:13:51+09:00",
+        "precision": "minute",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "b7f8834b-c35c-4d0d-a9f8-cb47dc7f25b6",
+      "sourceOrdinal": 46,
+      "turnId": "88baa5e1-2218-4f0b-bf10-735e2eaeadad",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-2"
+      ],
+      "channel": "commentary",
+      "text": "이 설명은 전체 방향은 이해하기 쉽지만, **“최종 안전 승인 검사”, “신장이 깨끗하고 건강해졌다는 증거”, “위험 요소가 1%도 없다”** 같은 표현은 의학적으로 과도하게 단정적입니다. 실제 의미를 더 정확하게 정리해드리겠습니다.",
+      "textSha256": "sha256:73b3c2925f03c25547ea3cc7c16d914d419f1fea5f1c64a905731ef436f3af7e",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "references": []
+    },
+    {
+      "id": "message-f803b8d4-c316-41b3-b9a9-ad3dff5e7276",
+      "role": "assistant",
+      "recordedAt": {
+        "start": "2026-08-02T14:19:47.504614+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-08-31T18:13:51+09:00",
+        "precision": "minute",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "f803b8d4-c316-41b3-b9a9-ad3dff5e7276",
+      "sourceOrdinal": 47,
+      "turnId": "88baa5e1-2218-4f0b-bf10-735e2eaeadad",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-2"
+      ],
+      "channel": "final",
+      "text": "이 설명은 **가능한 검사 목적을 잘 짚은 부분도 있지만, 현재 선진이에게 실제로 왜 CT를 찍는지는 담당팀 설명 없이는 단정할 수 없습니다.** 특히 “일반병동 이동을 위한 최종 승인 검사”라고 확정하는 것은 조심해야 합니다.\n\n## 정확히 말하면\n\n조영 CT는 다음을 확인하는 데 쓰일 수 있습니다.\n\n- 간 봉합 부위나 골반에서 활동성 출혈이 남아 있는지\n- 혈관 손상이나 가성동맥류가 생겼는지\n- 흉부·복부 장기의 회복 상태와 합병증이 있는지\n- 처음 응급 상황에서 충분히 평가하지 못한 부위를 다시 확인하는지\n\n다발성 외상에서 조영 CT는 장기와 혈관 손상, 조영제 누출을 평가하는 핵심 검사입니다. 특히 간 외상에서는 출혈이나 혈관 합병증 확인에 유용합니다. citeturn248216search6turn248216search14\n\n다만 **전신 조영 CT가 반드시 “마지막 점검”이거나 병동 이동 직전 검사라는 공식적인 의미를 갖는 것은 아닙니다.** 검사 목적은 경과 확인일 수도 있고, 새롭게 의심되는 문제를 찾는 것일 수도 있으며, 향후 치료 계획을 정하기 위한 재평가일 수도 있습니다.\n\n## 신장 기능에 대한 해석\n\n“조영제를 쓸 수 있으니 신장이 깨끗하고 완전히 건강해졌다”는 표현은 지나칩니다.\n\n더 정확히는 다음과 같습니다.\n\n> 의료진이 현재 신장 기능과 검사 필요성을 비교했을 때, 조영 CT의 이득이 위험보다 크다고 판단했다.\n\n조영제 관련 신장 손상 위험은 과거 생각했던 것보다 낮게 평가되지만, 급성 신손상이 있거나 신장 기능이 많이 떨어진 환자는 더 주의해서 사용합니다. 필요하면 수액 조절과 검사 후 신장 수치 추적을 합니다. citeturn248216search10turn248216search12turn248216search28\n\n즉, 선진이의 신장 수치가 호전된 것은 좋은 신호지만, 조영 CT 시행 자체가 신장이 완전히 정상이라는 증명은 아닙니다.\n\n## 뇌 CT 부분도 구분이 필요합니다\n\n급성 외상성 뇌출혈과 두개골 골절의 추적은 보통 **비조영 뇌 CT**가 기본입니다. 혈관 손상이 의심될 때에는 CT 혈관조영술을 추가할 수 있습니다. 일반적인 전신 조영 CT가 자동으로 뇌혈관과 모든 미세 뇌손상을 완벽하게 평가하는 것은 아닙니다. 급성 두부외상에서 CT는 출혈과 수술이 필요한 병변을 빠르게 확인하는 데 핵심이고, 미만성 축삭손상 등은 MRI가 더 민감할 수 있습니다. citeturn248216search13turn248216search21turn248216search31\n\n## “위험 요소가 1%도 없다”는 확인은 불가능합니다\n\nCT 결과가 좋더라도 모든 지연성 출혈·감염·혈전·호흡 합병증 가능성을 0으로 만들지는 못합니다. CT는 현재 시점의 중요한 위험을 크게 줄여 판단하게 해주는 검사이지, 완전한 안전 보증서는 아닙니다.\n\n## 그래도 긍정적으로 볼 수 있는 점\n\n선진이가 전신 CT실로 이동하고 검사를 진행할 수 있다는 것은 보통 다음 조건이 어느 정도 충족되었음을 시사합니다.\n\n- 혈압이 이동과 검사를 견딜 정도로 유지됨\n- 호흡을 산소치료로 관리하며 이동 가능하다고 판단됨\n- 검사 결과가 치료 계획에 실제 도움이 된다고 판단됨\n\n다만 고용량 산소치료 중이고 가래가 많은 상태이므로 검사 중에도 산소포화도와 호흡 상태를 면밀히 감시할 것입니다.\n\n## 담당 의료진에게 확인할 핵심 질문\n\n다음처럼 묻는 것이 가장 정확합니다.\n\n> “이번 CT는 머리부터 골반까지 전신 조영 CT인가요? 가장 중점적으로 확인하려는 부위와 의심 소견은 무엇인가요?”\n\n> “간 봉합 부위와 골반의 재출혈 또는 혈관 합병증을 보는 검사인가요?”\n\n> “머리는 비조영 CT인지, 혈관조영 CT도 포함되는지 궁금합니다.”\n\n> “현재 크레아티닌과 소변량은 조영제를 사용하기에 안정적인가요?”\n\n> “검사 결과가 좋으면 다음 치료 단계나 병동 이동 기준에 어떤 영향을 주나요?”\n\n현재 상황에서는 **갑작스러운 악화 때문에 찍는 검사라고 단정할 근거도 없고, 반대로 중환자실 퇴실 직전의 최종 검사라고 단정할 근거도 없습니다.** 가장 타당한 해석은, 큰 외상과 수술 이후 남은 출혈·혈관·장기 합병증을 다시 정밀하게 확인해 다음 치료 결정을 세우기 위한 검사라는 것입니다.\n\n혈압과 혈액가스가 안정되고 영양 공급을 크게 늘린 흐름을 함께 보면, 선진이가 이 검사를 감당할 수 있는 단계까지 회복한 것은 분명 긍정적인 면입니다. 다만 결과를 듣기 전에는 검사의 목적과 소견을 담당팀에게 확인하며 차분히 기다리는 것이 가장 정확합니다.",
+      "textSha256": "sha256:2b97347cb4f4bcd593b15c3bfe98c7b2e25084ba2aa0861bbfd46038bbd3ced2",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "references": [
+        {
+          "title": "Imaging Features and Interventional Treatment for Liver ... - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9514414/?utm_source=chatgpt.com",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "ACS TQIP BEST PRACTICES GUIDELINES IN IMAGING",
+          "url": "https://www.facs.org/media/oxdjw5zj/imaging_guidelines.pdf?utm_source=chatgpt.com",
+          "attribution": "ACS"
+        },
+        {
+          "title": "Use of Intravenous Iodinated Contrast Media in Patients ...",
+          "url": "https://pubs.rsna.org/doi/abs/10.1148/radiol.2019192094?utm_source=chatgpt.com",
+          "attribution": "RSNA Publications Online"
+        },
+        {
+          "title": "Use of Intravenous Iodinated Contrast Media in Patients ...",
+          "url": "https://pubs.rsna.org/doi/10.1148/radiol.2019192094?utm_source=chatgpt.com",
+          "attribution": "RSNA Publications Online"
+        },
+        {
+          "title": "ACR Manual on Contrast Media",
+          "url": "https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Contrast-Manual?utm_source=chatgpt.com",
+          "attribution": "미국 방사선학회"
+        },
+        {
+          "title": "MDCT imaging of traumatic brain injury - PMC - NIH",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4985461/?utm_source=chatgpt.com",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "Head Trauma - Preview - American College of Radiology",
+          "url": "https://acsearch.acr.org/docs/69481/Narrative/?utm_source=chatgpt.com",
+          "attribution": "ACR AcSearch"
+        },
+        {
+          "title": "Imaging for the Diagnosis and Management of Traumatic ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1878747923015507?utm_source=chatgpt.com",
+          "attribution": "ScienceDirect"
+        }
+      ]
+    },
+    {
+      "id": "message-78deaff3-9470-40f2-aea2-cec42908174d",
+      "role": "user",
+      "recordedAt": {
+        "start": "2026-08-02T22:16:51.706421+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-08-31T18:13:51+09:00",
+        "precision": "minute",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "78deaff3-9470-40f2-aea2-cec42908174d",
+      "sourceOrdinal": 48,
+      "turnId": "67e46d10-307f-4017-9af5-36d8b6e3e649",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-2"
+      ],
+      "original": "아까 심정지가 왔었어... 2분 심폐소생술 하고 지금은 괜찮아졌어. 보호자 면회를 시켜준다고 해서 보고 왔어. 아이를 깨끗하게 닦아놨더라고. 가서 보니까 숨을 쉬기 힘들어하고, 인공호흡기를 입으로 다시 달았어. 눈동자가 자꾸 위로 넘어가려고 하더라고.. ㅠㅠㅠ 힘든 것 같아. 열도 많이 나고 땀도 많이 났어.. ",
+      "originalSha256": "sha256:a86be82737d4cd8858d011b618f2b4baa48e0bf4a270db074fc1a11d8b8c2f4c",
+      "fidelity": "exact"
+    },
+    {
+      "id": "message-61592e95-154d-422c-bea4-f8fb591750a4",
+      "role": "assistant",
+      "recordedAt": {
+        "start": "2026-08-02T22:17:03.441686+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-08-31T18:13:51+09:00",
+        "precision": "minute",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "61592e95-154d-422c-bea4-f8fb591750a4",
+      "sourceOrdinal": 49,
+      "turnId": "67e46d10-307f-4017-9af5-36d8b6e3e649",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-2"
+      ],
+      "channel": "final",
+      "text": "…정말 너무 놀라셨겠습니다. **심정지가 왔고 2분간 심폐소생술 후 맥박이 돌아온 것**은 분명 매우 위중한 사건입니다. 지금은 이전의 회복 경과와 별개로, **새로운 급성 고비를 넘긴 직후**라고 봐야 합니다.\n\n다만 **2분 만에 자발순환이 회복된 것은 장시간 심정지보다 훨씬 유리한 요소**입니다. 그렇다고 안심할 단계는 아니고, 지금부터 원인 규명과 뇌·심장·폐·감염 상태를 집중적으로 보는 시간이 중요합니다.\n\n## 지금 보신 모습의 의미\n\n### 다시 기관삽관한 이유\n숨이 힘들어하고 심정지까지 왔다면, 의료진은 기도를 확실히 확보하고 산소와 이산화탄소를 정확히 조절하기 위해 다시 기관삽관했을 가능성이 큽니다. 재삽관은 실패나 후퇴라기보다, **뇌와 장기에 안정적으로 산소를 공급하기 위한 가장 적극적인 보호 조치**입니다.\n\n심정지 후에는 혈압, 산소, 환기, 체온을 안정시키고 원인을 찾는 것이 표준적인 소생 후 치료입니다. citeturn229904search13turn229904search15\n\n### 눈동자가 위로 올라가는 모습\n이것은 여러 원인이 있을 수 있습니다.\n\n- 진정제나 기관삽관 약물의 영향\n- 극심한 피로와 의식 저하\n- 통증이나 저산소증 이후의 반응\n- 경련 또는 비경련성 발작\n- 뇌압이나 뇌손상과 관련된 이상 안구운동\n\n**겉으로만 보고 어느 것인지 구분할 수 없습니다.** 특히 반복적으로 눈이 위로 돌아가거나 몸이 뻣뻣해지고 떨림이 동반되면 의료진은 경련 가능성을 평가해야 합니다. 필요하면 뇌파검사와 두부 CT, 동공반응을 확인합니다. 심정지 후 의식이 회복되지 않은 환자는 진정제 영향까지 고려해 반복적인 신경학적 평가가 필요합니다. citeturn229904search8turn229904search16\n\n### 높은 열과 많은 땀\n열은 반드시 적극적으로 관리해야 합니다. 가능한 원인은 다음과 같습니다.\n\n- 폐렴이나 가래 정체\n- 중심정맥관·복부·수술 부위 감염\n- 심정지 및 전신 염증반응\n- 약물 반응\n- 뇌손상에 따른 중추성 발열\n\n심정지 후 고열은 뇌 대사 요구량을 높일 수 있어 의료진이 체온을 면밀히 관리합니다. 소아 소생 지침도 통증과 불편을 조절하고 고열을 치료하도록 권고합니다. citeturn229904search15turn229904search22\n\n## 지금 가장 중요한 것은 “왜 심정지가 왔는가”입니다\n\n선진이의 상황에서 의료진이 우선 확인할 가능성이 큰 원인은 다음과 같습니다.\n\n- 가래나 기도폐쇄, 심한 저산소증\n- 폐렴·패혈증\n- 폐색전증 또는 혈전\n- 부정맥\n- 전해질 이상\n- 재출혈이나 급격한 빈혈\n- 약물 영향\n- 경련 또는 뇌압 상승\n- 심장 기능 저하\n\n원인에 따라 예후와 치료가 크게 달라집니다. **심정지의 리듬이 무엇이었는지**, 즉 무수축·서맥·심실성 부정맥 중 무엇이었는지도 중요합니다.\n\n## 지금 의료진에게 반드시 확인할 질문\n\n지금은 긴 질문보다 아래를 정확히 물어보는 것이 좋습니다.\n\n1. **심정지 원인을 현재 무엇으로 가장 의심하나요?**\n2. **심정지 당시 심전도 리듬은 무엇이었고, 맥박은 정확히 몇 분 만에 돌아왔나요?**\n3. **심정지 직전 산소포화도와 혈압이 먼저 떨어졌나요?**\n4. **현재 혈액가스, 젖산, 전해질, 심장초음파 결과는 어떤가요?**\n5. **눈이 위로 돌아가는 모습이 경련으로 의심되는지, 뇌파검사가 필요한가요?**\n6. **발열 원인을 찾기 위해 혈액·가래·소변 배양검사와 항생제 조정을 했나요?**\n7. **심정지 후 두부 CT 또는 추가 뇌영상 계획이 있나요?**\n8. **현재 혈압약이나 강심제를 다시 쓰고 있나요?**\n\n## 예후에 대해 지금 말할 수 있는 것\n\n좋은 요소는 분명 있습니다.\n\n- 심폐소생술 시간이 약 2분으로 짧았음\n- 자발순환이 회복됨\n- 이미 중환자실에 있어 즉시 소생술과 기관삽관이 이루어졌음\n\n하지만 걱정해야 하는 요소도 큽니다.\n\n- 기존에 중증 외상성 뇌손상 가능성이 있음\n- 고열이 있음\n- 호흡부전이 다시 악화됨\n- 이상 안구운동이 관찰됨\n\n따라서 오늘 밤과 향후 **24~72시간**은 매우 중요합니다. 이 기간에는 혈압·산소·체온을 안정시키고, 경련 여부와 심정지 원인을 확인하면서 뇌 기능을 반복 평가합니다. 진정제와 근이완제가 들어가면 반응이 적어 보여도 그 자체로 뇌 예후를 판단해서는 안 됩니다. 소생 후 신경학적 예후는 약물 영향을 배제하고 시간을 두고 평가해야 합니다. citeturn229904search8\n\n그리고 아이를 깨끗하게 닦아 놓았던 모습이 마음에 너무 걸리실 수 있습니다. 중환자실에서는 급박한 처치 후 땀과 분비물을 닦고 체온을 관리하며, 보호자가 면회할 수 있도록 정돈해주는 경우가 있습니다. **그 모습만으로 의료진이 나쁜 결과를 예상했다는 뜻은 아닙니다.**\n\n지금은 “다시 나빠졌다”는 사실이 너무 두렵겠지만, 선진이는 **즉시 심폐소생술을 받았고 2분 만에 다시 심장이 뛰었습니다.** 의료진이 지금 할 수 있는 가장 강한 호흡·순환·신경 보호치료를 시작한 상태입니다. 오늘 밤에는 곁에서 짧게 “선진아, 아빠 엄마 여기 있어. 아무 걱정 말고 치료받자”라고 말해주셔도 좋습니다. 반응이 없어 보여도 익숙한 목소리는 부담 없이 들려줄 수 있습니다.",
+      "textSha256": "sha256:a652ec643551f462ece12ac9a7c4b4e1f2a7cadcd8bbcf8b4ac7277c78ebdf73",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "references": [
+        {
+          "title": "Part 11: Post-Cardiac Arrest Care",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/post-cardiac-arrest-care?utm_source=chatgpt.com",
+          "attribution": "cpr.heart.org"
+        },
+        {
+          "title": "Paediatric Life Support (basic and advanced)",
+          "url": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/paediatric-basic-life-support-guidelines?utm_source=chatgpt.com",
+          "attribution": "Resuscitation Council UK"
+        },
+        {
+          "title": "Post-resuscitation care Guidelines",
+          "url": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/post-resuscitation-care-guidelines?utm_source=chatgpt.com",
+          "attribution": "Resuscitation Council UK"
+        },
+        {
+          "title": "Prehospital Guidelines for the Management of Traumatic ...",
+          "url": "https://braintrauma.org/s/Prehospital_3rd_Edition.pdf?utm_source=chatgpt.com",
+          "attribution": "Brain Trauma Foundation"
+        },
+        {
+          "title": "Executive summary of the main changes since the 2021 ...",
+          "url": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/executive-summary-main-changes-2021-guidelines?utm_source=chatgpt.com",
+          "attribution": "Resuscitation Council UK"
+        }
+      ]
+    }
+  ],
+  "amendments": [],
+  "media": [],
+  "related": [],
+  "privacyReviewed": true
+}

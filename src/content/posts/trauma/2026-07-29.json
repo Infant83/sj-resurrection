@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 2,
+  "recordId": "trauma-2026-07-29-conversation",
+  "board": "trauma",
+  "entryType": "clinical-update",
+  "title": "2026년 7월 29일 경과 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-07-29",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "원문 대화",
+    "날짜별 기록"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-trauma-phase-2",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "중증 외상 예후 분석 (phase2)",
+      "accessedAt": {
+        "start": "2026-08-31T18:13:51+09:00",
+        "precision": "minute",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-d54b779a-6693-45bb-a2d0-8d9f7a24e81a",
+      "role": "user",
+      "recordedAt": {
+        "start": "2026-07-29T10:16:51.654831+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-08-31T18:13:51+09:00",
+        "precision": "minute",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "d54b779a-6693-45bb-a2d0-8d9f7a24e81a",
+      "sourceOrdinal": 17,
+      "turnId": "82481d9a-9046-4c04-9262-694a26ceebdb",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-2"
+      ],
+      "original": "골반뼈와 쇄골뼈는 수술하지 않고 손목만 내일 수술한다고 하셨어. 두 개의 뼈가 다 골절되어서 판을 3개 심을거래. 6-12개월 회복기를 말씀하셨거든. 골반뼈와 쇄골뼈 수술하지 않는 이유와 손목수술 후 예후에 대해 알고 싶어",
+      "originalSha256": "sha256:11d68390408d3fdd307b50034e48e9419e4d0aae951fcf86fec7986877705549",
+      "corrected": "골반뼈와 쇄골뼈는 수술하지 않고 손목만 내일 수술한다고 하셨어. 두 개의 뼈가 다 골절되어서 판을 3개 심을거래. 6-12개월 회복기를 말씀하셨거든. 골반뼈와 쇄골뼈 수술하지 않는 이유와 손목 수술 후 예후에 대해 알고 싶어",
+      "correctionPolicy": "typos-only",
+      "fidelity": "typo-corrected"
+    },
+    {
+      "id": "message-d585959a-d17c-4218-9cef-fdb0305ff888",
+      "role": "assistant",
+      "recordedAt": {
+        "start": "2026-07-29T10:16:53.425479+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-08-31T18:13:51+09:00",
+        "precision": "minute",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "d585959a-d17c-4218-9cef-fdb0305ff888",
+      "sourceOrdinal": 18,
+      "turnId": "82481d9a-9046-4c04-9262-694a26ceebdb",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-2"
+      ],
+      "channel": "commentary",
+      "text": "말씀해주신 치료 결정은 외상 정형외과에서 흔히 사용하는 **“수술의 이득이 위험보다 큰 부위만 먼저 고정한다”**는 원칙과 잘 맞습니다. 골반·쇄골을 보존 치료하는 이유와 손목의 예상 경과를 나누어 설명드리겠습니다.",
+      "textSha256": "sha256:ee781513aef456084a9d99fd2496fcc6d37d5918474b19111bb3bb2782bf3624",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "references": []
+    },
+    {
+      "id": "message-12a8fd40-2a6c-4251-96d9-6e08ee3421cb",
+      "role": "assistant",
+      "recordedAt": {
+        "start": "2026-07-29T10:17:01.895430+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-08-31T18:13:51+09:00",
+        "precision": "minute",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "12a8fd40-2a6c-4251-96d9-6e08ee3421cb",
+      "sourceOrdinal": 19,
+      "turnId": "82481d9a-9046-4c04-9262-694a26ceebdb",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-2"
+      ],
+      "channel": "final",
+      "text": "수술 계획을 보면 정형외과에서는 **골반과 쇄골은 현재 위치에서 자연 유합을 기대할 수 있지만, 손목·전완은 그대로 두면 정렬과 기능을 회복하기 어렵다**고 판단한 것으로 보입니다. 이는 “골반·쇄골은 덜 다쳤다”는 뜻이라기보다, **수술의 이득과 전신 부담을 비교한 결정**입니다.\n\n## 1. 골반을 수술하지 않는 이유\n\n소아·청소년 골반 골절은 양쪽에 골절선이 있어도 골반 고리가 크게 벌어지지 않고, 체중을 받을 때 구조적으로 안정적이며, 출혈이 이미 조절됐다면 보존적으로 치료할 수 있습니다. 안정형 골반 골절은 보호적 체중부하와 재활로 치료하는 것이 일반적입니다. 반대로 골반이 수직·회전 방향으로 불안정하거나 심하게 어긋났거나, 관절면이 크게 손상된 경우에는 수술을 고려합니다. citeturn981386search0turn981386search12turn981386search13\n\n선진이는 현재 다음 조건에 해당할 가능성이 큽니다.\n\n- 골반 출혈이 조절됨\n- 골반 고리의 정렬이 수술 없이 허용 가능한 범위\n- 고관절 관절면이 크게 어긋나지 않음\n- 전신 상태를 고려하면 추가 수술 부담이 이득보다 큼\n\n골반 수술은 깊은 부위에 금속 나사나 판을 넣는 큰 수술이므로, 간 손상·비장절제·장기기능 저하·뇌손상 가능성이 있는 다발성 외상 환자에게는 **꼭 필요한 경우에만 시행**합니다. 수술하지 않는다는 것은 현재 영상에서 골반이 스스로 붙을 가능성이 충분하다고 판단했다는 의미일 수 있습니다.\n\n치료는 대개 통증 조절, 침상에서 자세 변경, 혈전·욕창 예방, 이후 단계적인 앉기와 체중부하, 보행 재활로 진행합니다. 다만 실제 체중부하 시작 시점은 골절 위치와 안정성에 따라 달라 정형외과의 지시가 절대적으로 우선합니다.\n\n## 2. 쇄골을 수술하지 않는 이유\n\n소아·청소년 쇄골 골절은 겉으로 튀어나오거나 많이 어긋나 보여도 대부분 수술 없이 잘 붙습니다. 보통 팔걸이로 통증을 줄이고 시간이 지나며 유합을 기다립니다. 소아 쇄골은 재형성 능력이 좋고, 불유합도 성인보다 드뭅니다. citeturn981386search5turn981386search34\n\n쇄골 수술이 반드시 필요한 대표 상황은 다음과 같습니다.\n\n- 뼈가 피부를 뚫고 나온 개방성 골절\n- 뼈가 피부를 심하게 밀어 피부 괴사가 우려되는 경우\n- 큰 혈관이나 신경 손상\n- 흉곽과 어깨 연결부가 매우 불안정한 경우\n- 불유합이나 재골절\n\n이런 문제가 없다면 수술로 얻는 이득보다 감염, 흉터, 금속판 자극, 재수술 가능성 같은 부담이 더 클 수 있습니다. 청소년 쇄골 골절에서도 절대적인 수술 적응증은 개방성 골절, 피부 손상 위험, 주요 혈관 손상 등으로 제한되는 경우가 많습니다. citeturn981386search4\n\n처음에는 어깨가 처지거나 골절 부위가 튀어나와 보여도 뼈가 붙고 성장하면서 상당 부분 완화될 수 있습니다. 통증은 보통 초기 수주 동안 뚜렷하며, 팔의 운동은 영상상 유합 정도에 맞춰 점진적으로 늘립니다. citeturn981386search34\n\n## 3. 손목은 왜 판을 3개 넣어야 하나\n\n“두 개의 뼈가 모두 골절됐다”는 설명은 보통 전완의 **요골과 척골이 모두 완전히 골절**됐다는 뜻일 가능성이 큽니다. 다만 정확히 손목 가까운 부위인지, 전완 몸통 부위인지, 관절면까지 부서졌는지는 영상 없이는 알 수 없습니다.\n\n“판 3개”라는 것은 다음 중 하나일 수 있습니다.\n\n- 요골에 두 개, 척골에 한 개\n- 두 뼈 골절 외에 별도의 큰 골편이나 관절면을 추가 고정\n- 한 뼈가 여러 조각으로 부서져 서로 다른 면에서 고정\n- 손목 관절과 전완 골절을 각각 안정화\n\n따라서 판의 숫자만으로 성장판 손상 여부를 판단할 수는 없습니다. 그러나 판을 세 개 사용할 정도라면 **골절이 심하게 어긋났거나 여러 조각으로 부서진 매우 불안정한 손상**일 가능성이 높습니다.\n\n중2 정도의 청소년은 어린아이보다 남은 성장과 재형성 능력이 적기 때문에, 요골·척골의 각도나 회전이 크게 틀어진 상태를 남겨두면 손바닥을 위아래로 돌리는 동작이 제한될 수 있습니다. 나이가 많은 소아에서 정복 후에도 정렬이 유지되지 않거나 심한 전위·회전 변형이 있으면 수술적 고정을 고려합니다. citeturn981386search6turn981386search16turn981386search37\n\n판과 나사로 직접 고정하는 목적은 다음과 같습니다.\n\n- 뼈 길이와 축을 정확히 복원\n- 요골의 자연스러운 곡선을 회복\n- 요골과 척골 사이의 회전 관계 복원\n- 다시 어긋나는 것을 방지\n- 관절면이 손상됐다면 최대한 매끈하게 복원\n- 재활을 비교적 안정적으로 진행\n\n## 4. 손목 수술 후 예후\n\n### 전반적인 전망\n\n혈관과 주요 신경이 보존되어 있고, 감염 없이 뼈의 길이·축·회전이 잘 맞는다면 **손과 손목 기능을 상당히 회복할 가능성이 충분합니다.** 소아 전완 양골 골절의 수술 치료는 대부분 양호한 기능적 결과를 보이지만, 심한 손상에서는 회전 제한, 신경 자극, 감염, 재골절 같은 합병증 가능성이 있습니다. citeturn981386search7turn981386search17\n\n수술 직후 모양보다 장기 기능을 좌우하는 요소는 다음입니다.\n\n1. 혈관과 신경 손상 여부  \n2. 성장판과 관절면 침범 여부  \n3. 개방성 골절 여부  \n4. 근육·힘줄·피부 손상 정도  \n5. 뼈 정렬과 회전축이 정확히 복원되는지  \n6. 감염이나 구획증후군이 생기지 않는지  \n7. 전신 상태가 안정돼 재활을 제대로 시작할 수 있는지  \n\n선진이는 중환자실 치료와 골반 골절 때문에 일반적인 손목 골절 환자보다 손목 재활 시작이 늦어질 수 있습니다. 그래서 의료진이 **6~12개월**을 말한 것은 뼈가 붙는 데만 1년이 걸린다는 의미보다는, 뼈 유합 이후 관절 가동범위·근력·회전 기능·일상 동작까지 회복하는 전체 기간을 뜻할 가능성이 큽니다.\n\n### 예상 회복 과정\n\n대략 다음과 같이 진행될 수 있습니다. 실제 속도는 손상 정도와 전신 상태에 따라 크게 달라집니다.\n\n- **수술 직후~2주:** 부종·상처·손가락 혈류와 신경 확인\n- **2~6주:** 고정 유지, 손가락 운동, 반복 X-ray\n- **6~12주:** 영상상 유합 진행을 보며 손목·팔꿈치 운동 확대\n- **3~6개월:** 전완 회전과 손목 근력 회복\n- **6~12개월:** 정교한 손 사용, 근력, 스포츠와 고강도 활동 회복 평가\n\n판을 언제 제거할지는 일률적이지 않습니다. 성장, 판의 위치, 통증, 힘줄 자극, 감염 위험과 재골절 위험을 비교해 수개월 또는 그 이후에 결정하며, 증상이 없으면 반드시 제거하지 않는 경우도 있습니다.\n\n## 5. 성장판이 손상됐다면\n\n판을 세 개 넣는다고 해서 성장판이 반드시 손상된 것은 아닙니다. 수술할 때도 가능하면 성장판을 피해서 나사를 배치합니다. 성장판을 침범한 골절이라면 골절 형태에 따라 수개월에서 1년 이상 추적 X-ray가 필요합니다. 특히 Salter–Harris III·IV형처럼 관절면과 성장판을 함께 침범한 경우에는 6~12개월 추적을 통해 성장 정지를 확인하도록 권고됩니다. citeturn981386search11turn981386search20\n\n성장판 일부가 멈추면 요골과 척골의 길이 차이, 손목 기울어짐 또는 통증이 생길 수 있지만, 모든 성장판 손상이 성장 정지로 이어지는 것은 아닙니다. 외상 후 원위 요골 성장 정지는 드문 편으로 보고되지만, 고에너지 압궤 손상이나 심한 전위가 있으면 일반적인 단순 골절보다 주의 깊게 추적해야 합니다. citeturn981386search31\n\n## 지금 설명만으로 판단한 핵심\n\n현재의 결정은 다음처럼 이해할 수 있습니다.\n\n> **골반과 쇄골은 수술하지 않아도 허용 가능한 위치에서 붙을 가능성이 높고, 손목·전완은 수술하지 않으면 정상적인 길이·축·회전을 유지하기 어려울 정도로 불안정하기 때문에 수술하는 것입니다.**\n\n손목 손상이 심한 것은 맞습니다. 하지만 심한 골절일수록 **정확하게 맞추고 단단히 고정하기 위해 판을 사용하는 것**이며, 판 세 개 자체가 나쁜 예후를 의미하지는 않습니다. 오히려 기능 회복을 최대화하기 위한 적극적인 재건 치료입니다.\n\n수술 전 정형외과에 다음 네 가지를 확인하면 예후를 가장 정확히 알 수 있습니다.\n\n- “요골과 척골의 어느 부위가 각각 골절됐나요?”\n- “성장판과 손목 관절면을 침범했나요?”\n- “혈관·신경·힘줄 손상이나 개방성 골절이 있었나요?”\n- “말씀하신 6~12개월은 뼈 유합 기간인가요, 전체 기능 회복 기간인가요?”\n\n특히 **수술 후 손가락 색·온도·혈류가 정상이고, 손가락을 움직이며 감각이 확인된다면 매우 중요한 긍정적 소견**입니다.",
+      "textSha256": "sha256:928858a63fe3f92194575042635f6259aef6f8ac60904863a234ea9cbf581683",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "references": [
+        {
+          "title": "Paediatric pelvic fractures – an updated literature review - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10084350/?utm_source=chatgpt.com",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "Pelvic Fractures",
+          "url": "https://posna.org/physician-education/study-guide/pelvic-fractures?utm_source=chatgpt.com",
+          "attribution": "소아정형외과학회"
+        },
+        {
+          "title": "Pelvic fractures in children (pelvic ring and acetabulum)",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1877056819302208?utm_source=chatgpt.com",
+          "attribution": "ScienceDirect"
+        },
+        {
+          "title": "Clavicle Fracture - StatPearls - NCBI Bookshelf - NIH",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK507892/?utm_source=chatgpt.com",
+          "attribution": "NCBI"
+        },
+        {
+          "title": "Clavicle fractures - Emergency Department",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/fractures/clavicle_fractures_emergency_department/?utm_source=chatgpt.com",
+          "attribution": "Royal Children's Hospital"
+        },
+        {
+          "title": "Management of Displaced Midshaft Clavicle Fractures in ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9636878/?utm_source=chatgpt.com",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "Management of pediatric forearm fractures: what is the best ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8578082/?utm_source=chatgpt.com",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "Both Bone Forearm Fracture - Pediatric",
+          "url": "https://www.orthobullets.com/pediatrics/4126/both-bone-forearm-fracture--pediatric?utm_source=chatgpt.com",
+          "attribution": "Orthobullets"
+        },
+        {
+          "title": "Forearm - Radius and Ulnar Shaft Fractures",
+          "url": "https://posna.org/physician-education/study-guide/forearm-radius-and-ulnar-shaft-fractures?utm_source=chatgpt.com",
+          "attribution": "소아정형외과학회"
+        },
+        {
+          "title": "Forearm Fractures in Older Children and Adolescents: ORIF is ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11789594/?utm_source=chatgpt.com",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "Treatment outcomes of both-bone diaphyseal paediatric ...",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0020138313701906?utm_source=chatgpt.com",
+          "attribution": "ScienceDirect"
+        },
+        {
+          "title": "Distal radial physeal fractures - Emergency Department",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/fractures/distal_radial_physeal_fractures_emergency_department_setting/?utm_source=chatgpt.com",
+          "attribution": "Royal Children's Hospital"
+        },
+        {
+          "title": "Clinical Practice Guidelines : Distal radial physeal fractures",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/fractures/Distal_radial_physeal_fractures_Outpatient_fracture_clinics/?utm_source=chatgpt.com",
+          "attribution": "Royal Children's Hospital"
+        },
+        {
+          "title": "Physeal Growth Arrest in Distal Radius Fracture: A Case Report",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11258728/?utm_source=chatgpt.com",
+          "attribution": "PubMed Central (PMC)"
+        }
+      ]
+    }
+  ],
+  "amendments": [],
+  "media": [],
+  "related": [],
+  "privacyReviewed": true
+}

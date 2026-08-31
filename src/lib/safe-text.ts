@@ -1,3 +1,6 @@
+import { micromark } from 'micromark';
+import { gfm, gfmHtml } from 'micromark-extension-gfm';
+
 const URL_PATTERN = /(https?:\/\/[^\s<]+)/g;
 const MARKDOWN_LINK_PATTERN = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g;
 
@@ -10,21 +13,38 @@ function escapeHtml(value: string) {
     .replaceAll("'", '&#039;');
 }
 
-export function safeTextToHtml(value: string) {
+export function safePlainTextToHtml(value: string) {
   const escaped = escapeHtml(value);
-  const links: string[] = [];
-  const withMarkdownLinks = escaped.replace(MARKDOWN_LINK_PATTERN, (_match, label, url) => {
-    const token = `__SAFE_LINK_${links.length}__`;
-    links.push(
-      `<a href="${url}" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">${label}</a>`,
-    );
-    return token;
+  const linkifyUrls = (text: string) =>
+    text.replace(URL_PATTERN, (url) => {
+      return `<a href="${url}" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">${url}</a>`;
+    });
+  let output = '';
+  let cursor = 0;
+  for (const match of escaped.matchAll(MARKDOWN_LINK_PATTERN)) {
+    output += linkifyUrls(escaped.slice(cursor, match.index));
+    output += `<a href="${match[2]}" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">${match[1]}</a>`;
+    cursor = (match.index ?? 0) + match[0].length;
+  }
+  output += linkifyUrls(escaped.slice(cursor));
+  return output.replaceAll('\n', '<br />');
+}
+
+export function safeMarkdownToHtml(value: string) {
+  let html = micromark(value, {
+    allowDangerousHtml: false,
+    extensions: [gfm()],
+    htmlExtensions: [gfmHtml()],
   });
 
-  const withUrls = withMarkdownLinks.replace(URL_PATTERN, (url) => {
-    return `<a href="${url}" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">${url}</a>`;
+  html = html.replace(/<img\b([^>]*)>/gi, (_match, attributes) => {
+    const source = attributes.match(/\bsrc="([^"]*)"/i)?.[1];
+    const alt = attributes.match(/\balt="([^"]*)"/i)?.[1] || '이미지 링크';
+    return source ? `<a href="${source}">${alt}</a>` : alt;
   });
 
-  const restored = links.reduce((html, link, index) => html.replace(`__SAFE_LINK_${index}__`, link), withUrls);
-  return restored.replaceAll('\n', '<br />');
+  return html.replace(
+    /<a href="([^"]+)"([^>]*)>/g,
+    '<a href="$1"$2 target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">',
+  );
 }

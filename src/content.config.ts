@@ -5,9 +5,11 @@ import { glob } from 'astro/loaders';
 const stamp = z.object({
   start: z.string(),
   end: z.string().optional(),
-  precision: z.enum(['minute', 'hour', 'day', 'range', 'unknown']),
+  precision: z.enum(['second', 'minute', 'hour', 'day', 'range', 'unknown']),
   timezone: z.literal('Asia/Seoul').default('Asia/Seoul'),
 });
+
+const httpUrl = z.url().refine((url) => /^https?:\/\//i.test(url), 'Only HTTP(S) URLs are allowed');
 
 const source = z.object({
   id: z.string(),
@@ -23,37 +25,51 @@ const source = z.object({
   ]),
   certainty: z.enum(['confirmed', 'reported', 'observed', 'inferred', 'uncertain']),
   label: z.string(),
-  url: z.url().optional(),
+  url: httpUrl.optional(),
   accessedAt: stamp.optional(),
 });
 
 const userMessageFidelity = z.enum(['exact', 'typo-corrected', 'pending-original']);
 
-const exchange = z.object({
+const messageBase = z.object({
   id: z.string(),
   recordedAt: stamp,
   sourceVerified: z.boolean().default(false),
   sourceVerifiedAt: stamp.optional(),
-  user: z.object({
-    sourceMessageId: z.string().optional(),
-    rawRef: z.string().optional(),
-    original: z.string().min(1),
-    originalSha256: z.string().regex(/^sha256:[a-f0-9]{64}$/).optional(),
-    corrected: z.string().optional(),
-    correctionPolicy: z.literal('typos-only').optional(),
-    fidelity: userMessageFidelity,
-  }),
-  assistant: z
-    .object({
-      sourceMessageId: z.string().optional(),
-      text: z.string().min(1),
-      textSha256: z.string().regex(/^sha256:[a-f0-9]{64}$/).optional(),
-      modelLabel: z.string().default('ChatGPT'),
-      fidelity: z.literal('exact'),
-    })
-    .optional(),
+  sourceMessageId: z.string().optional(),
+  sourceOrdinal: z.number().int().positive().optional(),
+  turnId: z.string().optional(),
   sourceRefs: z.array(z.string()).default([]),
 });
+
+const userMessage = messageBase.extend({
+  role: z.literal('user'),
+  original: z.string().min(1),
+  originalSha256: z.string().regex(/^sha256:[a-f0-9]{64}$/).optional(),
+  corrected: z.string().optional(),
+  correctionPolicy: z.literal('typos-only').optional(),
+  fidelity: userMessageFidelity,
+});
+
+const assistantMessage = messageBase.extend({
+  role: z.literal('assistant'),
+  channel: z.enum(['commentary', 'final', 'unknown']).default('unknown'),
+  text: z.string().min(1),
+  textSha256: z.string().regex(/^sha256:[a-f0-9]{64}$/).optional(),
+  modelLabel: z.string().default('ChatGPT'),
+  fidelity: z.literal('exact'),
+  references: z
+    .array(
+      z.object({
+        title: z.string().min(1),
+        url: httpUrl,
+        attribution: z.string().optional(),
+      }),
+    )
+    .default([]),
+});
+
+const archiveMessage = z.discriminatedUnion('role', [userMessage, assistantMessage]);
 
 const amendment = z.object({
   id: z.string(),
@@ -67,9 +83,9 @@ const amendment = z.object({
 
 // The public repository accepts only complete, source-verified conversation records.
 const posts = defineCollection({
-  loader: glob({ base: './src/content/posts', pattern: '**/*.{md,mdx}' }),
+  loader: glob({ base: './src/content/posts', pattern: '**/*.{md,mdx,json}' }),
   schema: z.object({
-    schemaVersion: z.literal(1),
+    schemaVersion: z.literal(2),
     recordId: z.string(),
     board: z.enum(['trauma', 'life', 'medical', 'rehabilitation', 'media']),
     entryType: z.enum([
@@ -88,7 +104,7 @@ const posts = defineCollection({
     updatedAt: stamp.optional(),
     tags: z.array(z.string()).default([]),
     sources: z.array(source).default([]),
-    exchanges: z.array(exchange).min(1),
+    messages: z.array(archiveMessage).min(1),
     amendments: z.array(amendment).default([]),
     media: z
       .array(

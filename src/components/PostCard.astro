@@ -1,9 +1,9 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { boardMap } from '../data/boards';
-import { formatKoreanStamp, monthKey, searchableText, withBase } from '../lib/archive';
-import { safeTextToHtml } from '../lib/safe-text';
-import ConversationExchange from './ConversationExchange.astro';
+import { formatKoreanStamp, monthKey, withBase } from '../lib/archive';
+import { safePlainTextToHtml } from '../lib/safe-text';
+import ConversationMessage from './ConversationMessage.astro';
 
 interface Props {
   post: CollectionEntry<'posts'>;
@@ -24,7 +24,6 @@ const sourceLabels = [...new Set(post.data.sources.map((source) => source.label)
   data-board={post.data.board}
   data-month={monthKey(post.data.recordedAt)}
   data-recorded-at={post.data.recordedAt.end ?? post.data.recordedAt.start}
-  data-search={searchableText(post)}
 >
   <header class="card-header">
     <div class="card-meta">
@@ -44,7 +43,11 @@ const sourceLabels = [...new Set(post.data.sources.map((source) => source.label)
   </header>
 
   <div class="card-thread">
-    {post.data.exchanges.map((exchange, index) => <ConversationExchange exchange={exchange} index={index} />)}
+    {
+      post.data.messages.map((message, index) => (
+        <ConversationMessage message={message} isLast={index === post.data.messages.length - 1} />
+      ))
+    }
   </div>
 
   {
@@ -54,7 +57,7 @@ const sourceLabels = [...new Set(post.data.sources.map((source) => source.label)
         {post.data.amendments.map((amendment) => (
           <div class={`amendment amendment-${amendment.kind}`}>
             <strong>{amendment.kind === 'correction' ? '정정' : amendment.kind === 'clarification' ? '보충' : '후속 기록'}</strong>
-            <p set:html={safeTextToHtml(amendment.note)} />
+            <p set:html={safePlainTextToHtml(amendment.note)} />
           </div>
         ))}
       </section>

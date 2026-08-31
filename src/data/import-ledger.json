@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "timezone": "Asia/Seoul",
   "lastUpdated": "2026-08-31",
   "historyPolicy": {
@@ -9,14 +9,14 @@
   },
   "boards": {
     "trauma": {
-      "status": "awaiting-exact-source-import",
+      "status": "published-through-2026-08-31",
       "sourceThreads": [
         "중증 외상 예후 분석",
         "중증 외상 예후 분석 (phase2)",
         "중증 외상 예후 분석 (phase 3)"
       ],
-      "publicationRule": "complete-user-prompt-and-complete-gpt-reply-only",
-      "sourceRequirement": "chatgpt-data-export-or-complete-user-provided-transcript"
+      "publicationRule": "complete-visible-source-messages-only",
+      "sourceRequirement": "confirmed-chatgpt-shared-conversation-snapshot"
     },
     "life": {
       "status": "pending-source-import",
@@ -28,16 +28,116 @@
     },
     "medical": {
       "status": "pending-source-import",
-      "sourceThreads": ["김마루 교수님 정보"]
+      "sourceThreads": [
+        "김마루 교수님 정보"
+      ]
     },
     "rehabilitation": {
       "status": "pending-source-import",
-      "sourceThreads": ["재활병원 전원 계획"]
+      "sourceThreads": [
+        "재활병원 전원 계획"
+      ]
     },
     "media": {
       "status": "initialized",
       "sourceThreads": []
     }
   },
-  "imports": []
+  "imports": [
+    {
+      "id": "trauma-shared-conversations-2026-08-31",
+      "board": "trauma",
+      "verifiedAt": "2026-08-31T18:13:51+09:00",
+      "publication": {
+        "status": "published",
+        "privacyReviewed": true,
+        "publicPreviewAuthorizedByUser": true
+      },
+      "sources": [
+        {
+          "sourceId": "chatgpt-trauma-phase-1",
+          "title": "중증 외상 예후 분석",
+          "rawSnapshotSha256": "9a51c75f9fc5b695cd5258ffaea2ec768927c3543c899c1d947462fd00ad2cd5",
+          "visibleMessageCount": 103,
+          "visibleSequenceSha256": "56bb04861ee38e1c139bd8fddf84cbeb514c7efa15f7feceb16fb29371801761",
+          "currentNode": "c05202fc-69a2-4905-bb8b-bd05c96c27f2"
+        },
+        {
+          "sourceId": "chatgpt-trauma-phase-2",
+          "title": "중증 외상 예후 분석 (phase2)",
+          "rawSnapshotSha256": "442311bd8a0bc53906029e1207175ce41ca275701bb700e3697c17abc02446c9",
+          "visibleMessageCount": 226,
+          "visibleSequenceSha256": "e33459ac76a46d74c64bf1487c54c98bf030fc4e55fc4aefde9a13e4146bcd09",
+          "currentNode": "07e727a4-fb1a-540f-aefb-d171b016769f"
+        },
+        {
+          "sourceId": "chatgpt-trauma-phase-3",
+          "title": "중증 외상 예후 분석 (phase 3)",
+          "rawSnapshotSha256": "afc67ca7b8b57b9849464075f2796405e1a26abdcf8e1dfbc65ef1aba9bf6add",
+          "visibleMessageCount": 39,
+          "visibleSequenceSha256": "66fecad623ee73e7e9cfad6b77f7d990db4a527e765080338a6730aa80abc0b8",
+          "currentNode": "73e12691-c3d0-5d46-8b8f-cb6678b4abba"
+        }
+      ],
+      "merge": {
+        "phase1Phase2DuplicateMessageCount": 98,
+        "publishedMessageCount": 268,
+        "publishedUserMessageCount": 100,
+        "publishedAssistantMessageCount": 168,
+        "correctedUserMessageCount": 64,
+        "retainedReferenceLinkCount": 154,
+        "dailyPostCount": 36,
+        "publishedContentSha256": "e175d7f494f868810f7902afe43ad9e30674274ef4a16a229418a83b5e820a2c"
+      },
+      "withheld": [
+        {
+          "userSourceMessageId": "ff502b50-5e26-4b11-82b2-572ba874d411",
+          "userOriginalSha256": "sha256:74ab1e4723d913a64a71f2f08616b6596cb58816e77fc580e247b5e1094f40cf",
+          "recordedAt": "2026-08-08T11:13:22.621+09:00",
+          "assistantSourceMessageId": "95b0c5ce-9ecb-47b9-b731-eb91c4870cb1",
+          "sourcePlaceholderSha256": "sha256:1ba02833be2d6ca79f567795a0cdcd029dbe2f93a013bab5ed52ca2ae9eba546",
+          "reason": "complete-gpt-reply-not-present-in-shared-source",
+          "publicationStatus": "withheld-pending-complete-source"
+        }
+      ],
+      "posts": [
+        "trauma-2026-07-26-conversation",
+        "trauma-2026-07-27-conversation",
+        "trauma-2026-07-29-conversation",
+        "trauma-2026-07-30-conversation",
+        "trauma-2026-07-31-conversation",
+        "trauma-2026-08-01-conversation",
+        "trauma-2026-08-02-conversation",
+        "trauma-2026-08-03-conversation",
+        "trauma-2026-08-04-conversation",
+        "trauma-2026-08-05-conversation",
+        "trauma-2026-08-06-conversation",
+        "trauma-2026-08-07-conversation",
+        "trauma-2026-08-08-conversation",
+        "trauma-2026-08-09-conversation",
+        "trauma-2026-08-10-conversation",
+        "trauma-2026-08-11-conversation",
+        "trauma-2026-08-12-conversation",
+        "trauma-2026-08-13-conversation",
+        "trauma-2026-08-14-conversation",
+        "trauma-2026-08-15-conversation",
+        "trauma-2026-08-16-conversation",
+        "trauma-2026-08-17-conversation",
+        "trauma-2026-08-18-conversation",
+        "trauma-2026-08-19-conversation",
+        "trauma-2026-08-20-conversation",
+        "trauma-2026-08-21-conversation",
+        "trauma-2026-08-22-conversation",
+        "trauma-2026-08-23-conversation",
+        "trauma-2026-08-24-conversation",
+        "trauma-2026-08-25-conversation",
+        "trauma-2026-08-26-conversation",
+        "trauma-2026-08-27-conversation",
+        "trauma-2026-08-28-conversation",
+        "trauma-2026-08-29-conversation",
+        "trauma-2026-08-30-conversation",
+        "trauma-2026-08-31-conversation"
+      ]
+    }
+  ]
 }

@@ -3,7 +3,7 @@
 ## 1. Three layers
 
 - **Source archive:** selected exact messages and original attachments, kept read-only and eventually linked by hash.
-- **Normalized record:** structured post metadata, exchanges, sources, amendments, and media references.
+- **Normalized record:** structured post metadata, chronological messages, sources, amendments, and media references.
 - **Rendered site:** the family-readable continuous feed generated from the normalized record.
 
 Conversation summaries are discovery indexes, not publishable records. Text recovered only from a summary is never rendered on the site and is not committed as a substitute for the source message.
@@ -14,8 +14,9 @@ The existing repository history is retained as a record of the project's develop
 
 ## 2. Original prompts and letters
 
-- Every board preserves the complete user prompt and complete GPT answer from the source conversation.
+- Every board preserves every included visible user prompt, GPT commentary, and GPT final answer from the source conversation.
 - A source message remains one message. It is never split, merged, shortened, or reordered to fit event-based sections.
+- When a user adds information before the final GPT answer, the intervening user and GPT messages remain in their actual order; they are not forced into artificial one-to-one pairs.
 - User-authored prompts and letters display a typo-and-spacing-only corrected copy by default and retain the complete input text behind “입력 당시 원문 보기”.
 - Ambiguous medical terms, dates, numbers, units, drug names, and anatomical terms are never silently corrected.
 - A stylistic rewrite, if ever requested, is stored as a separate proposal and never replaces the letter.
@@ -34,14 +35,16 @@ Every post distinguishes:
 
 Exact quotes use quotation marks only when the exact wording is available. A remembered clinician explanation is labeled as a caregiver's recollection of that explanation.
 
-Before publication, each user/GPT pair is checked against a confirmed conversation source. The source message IDs, UTF-8 SHA-256 hashes, and verification time are stored with the record.
+Before publication, each visible message is checked against a confirmed conversation source. The source message ID, source ordinal, UTF-8 SHA-256 hash, and verification time are stored with the record.
+
+If the shared source omits or redacts a reply, the missing reply is never reconstructed. Its identifiers and hash evidence may be recorded in the import ledger, but that incomplete exchange remains off the public feed until a complete source is supplied.
 
 ## 4. Time
 
 - `eventAt` is when the event, observation, call, meeting, test, or treatment occurred.
 - `recordedAt` is when it was recorded in the conversation.
 - The feed is grouped and sorted by `recordedAt`. `eventAt` is optional supporting metadata and never causes a source message to be split or rearranged.
-- `precision` retains whether a minute, hour, day, range, or unknown time is available.
+- `precision` retains whether a second, minute, hour, day, range, or unknown time is available.
 - Relative expressions such as “today”, “yesterday”, and “overnight” remain in the original text. They are converted to absolute dates only when the timestamp and context make the conversion certain.
 
 ## 5. Corrections

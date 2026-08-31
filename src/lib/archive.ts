@@ -18,6 +18,9 @@ export function isPublicPost(data: ArchivePost['data']) {
 
 export function assertArchiveIntegrity(posts: ArchivePost[]) {
   const recordIds = new Set<string>();
+  const messageIds = new Set<string>();
+  const sourceMessageIds = new Set<string>();
+  const sourceOrdinals = new Set<string>();
 
   for (const post of posts) {
     if (recordIds.has(post.data.recordId)) {
@@ -31,61 +34,100 @@ export function assertArchiveIntegrity(posts: ArchivePost[]) {
 
     const sourceIds = new Set(post.data.sources.map((source) => source.id));
     const sourceById = new Map(post.data.sources.map((source) => [source.id, source]));
-    const exchangeIds = new Set<string>();
-    for (const exchange of post.data.exchanges) {
-      if (exchangeIds.has(exchange.id)) {
-        throw new Error(`Duplicate exchange id in ${post.data.recordId}: ${exchange.id}`);
+    let previousMessageTime = '';
+    let userMessageCount = 0;
+    let assistantMessageCount = 0;
+    for (const message of post.data.messages) {
+      if (messageIds.has(message.id)) {
+        throw new Error(`Duplicate archive message id: ${message.id}`);
       }
-      exchangeIds.add(exchange.id);
-      for (const sourceRef of exchange.sourceRefs) {
+      messageIds.add(message.id);
+      for (const sourceRef of message.sourceRefs) {
         if (!sourceIds.has(sourceRef)) {
           throw new Error(`Unknown source ref in ${post.data.recordId}: ${sourceRef}`);
         }
       }
 
-      const corrected = exchange.user.corrected;
-      if (corrected !== undefined) {
-        if (!corrected.trim()) {
-          throw new Error(`Corrected user text is empty: ${post.data.recordId}/${exchange.id}`);
+      if (previousMessageTime && message.recordedAt.start.localeCompare(previousMessageTime) < 0) {
+        throw new Error(`Messages are not chronological: ${post.data.recordId}/${message.id}`);
+      }
+      previousMessageTime = message.recordedAt.start;
+
+      if (message.role === 'user') {
+        userMessageCount += 1;
+        const corrected = message.corrected;
+        if (corrected !== undefined) {
+          if (!corrected.trim()) {
+            throw new Error(`Corrected user text is empty: ${post.data.recordId}/${message.id}`);
+          }
+          if (message.correctionPolicy !== 'typos-only' || message.fidelity !== 'typo-corrected') {
+            throw new Error(`Corrected user text is not marked typos-only: ${post.data.recordId}/${message.id}`);
+          }
+        } else if (message.correctionPolicy || message.fidelity === 'typo-corrected') {
+          throw new Error(`Correction metadata has no corrected text: ${post.data.recordId}/${message.id}`);
         }
-        if (exchange.user.correctionPolicy !== 'typos-only' || exchange.user.fidelity !== 'typo-corrected') {
-          throw new Error(`Corrected user text is not marked typos-only: ${post.data.recordId}/${exchange.id}`);
+      } else {
+        assistantMessageCount += 1;
+        const referenceUrls = new Set<string>();
+        for (const reference of message.references) {
+          if (referenceUrls.has(reference.url)) {
+            throw new Error(`Duplicate reply reference: ${post.data.recordId}/${message.id}/${reference.url}`);
+          }
+          referenceUrls.add(reference.url);
         }
-      } else if (exchange.user.correctionPolicy || exchange.user.fidelity === 'typo-corrected') {
-        throw new Error(`Correction metadata has no corrected text: ${post.data.recordId}/${exchange.id}`);
       }
 
       if (post.data.status === 'published') {
-        const confirmedConversationSource = exchange.sourceRefs.some((sourceRef) => {
+        const confirmedConversationSource = message.sourceRefs.some((sourceRef) => {
           const source = sourceById.get(sourceRef);
           return source?.type === 'chat-conversation' && source.certainty === 'confirmed';
         });
 
-        if (!exchange.sourceVerified || !exchange.sourceVerifiedAt) {
-          throw new Error(`Exchange completeness was not source-verified: ${post.data.recordId}/${exchange.id}`);
+        if (!message.sourceVerified || !message.sourceVerifiedAt) {
+          throw new Error(`Message completeness was not source-verified: ${post.data.recordId}/${message.id}`);
         }
         if (!confirmedConversationSource) {
-          throw new Error(`Published exchange has no confirmed conversation source: ${post.data.recordId}/${exchange.id}`);
+          throw new Error(`Published message has no confirmed conversation source: ${post.data.recordId}/${message.id}`);
         }
-        if (!['exact', 'typo-corrected'].includes(exchange.user.fidelity)) {
-          throw new Error(`User original is not verified: ${post.data.recordId}/${exchange.id}`);
+        if (!message.sourceMessageId || !message.sourceOrdinal) {
+          throw new Error(`Published message has no source identity: ${post.data.recordId}/${message.id}`);
         }
-        if (!exchange.user.original.trim() || !exchange.user.sourceMessageId || !exchange.user.originalSha256) {
-          throw new Error(`User source identity is incomplete: ${post.data.recordId}/${exchange.id}`);
+        if (message.sourceRefs.length !== 1) {
+          throw new Error(`Published message must have exactly one canonical source: ${post.data.recordId}/${message.id}`);
         }
-        if (exchange.user.originalSha256 !== sha256(exchange.user.original)) {
-          throw new Error(`User original hash mismatch: ${post.data.recordId}/${exchange.id}`);
+        if (sourceMessageIds.has(message.sourceMessageId)) {
+          throw new Error(`Duplicate source message id: ${message.sourceMessageId}`);
         }
-        if (!exchange.assistant || exchange.assistant.fidelity !== 'exact') {
-          throw new Error(`GPT reply is not verified: ${post.data.recordId}/${exchange.id}`);
+        sourceMessageIds.add(message.sourceMessageId);
+        const sourceOrdinalKey = `${message.sourceRefs[0]}:${message.sourceOrdinal}`;
+        if (sourceOrdinals.has(sourceOrdinalKey)) {
+          throw new Error(`Duplicate source ordinal: ${sourceOrdinalKey}`);
         }
-        if (!exchange.assistant.text.trim() || !exchange.assistant.sourceMessageId || !exchange.assistant.textSha256) {
-          throw new Error(`GPT source identity is incomplete: ${post.data.recordId}/${exchange.id}`);
-        }
-        if (exchange.assistant.textSha256 !== sha256(exchange.assistant.text)) {
-          throw new Error(`GPT reply hash mismatch: ${post.data.recordId}/${exchange.id}`);
+        sourceOrdinals.add(sourceOrdinalKey);
+
+        if (message.role === 'user') {
+          if (!['exact', 'typo-corrected'].includes(message.fidelity)) {
+            throw new Error(`User original is not verified: ${post.data.recordId}/${message.id}`);
+          }
+          if (!message.original.trim() || !message.originalSha256) {
+            throw new Error(`User source identity is incomplete: ${post.data.recordId}/${message.id}`);
+          }
+          if (message.originalSha256 !== sha256(message.original)) {
+            throw new Error(`User original hash mismatch: ${post.data.recordId}/${message.id}`);
+          }
+        } else {
+          if (!message.text.trim() || !message.textSha256 || message.fidelity !== 'exact') {
+            throw new Error(`GPT source identity is incomplete: ${post.data.recordId}/${message.id}`);
+          }
+          if (message.textSha256 !== sha256(message.text)) {
+            throw new Error(`GPT reply hash mismatch: ${post.data.recordId}/${message.id}`);
+          }
         }
       }
+    }
+
+    if (post.data.status === 'published' && (!userMessageCount || !assistantMessageCount)) {
+      throw new Error(`Published post must contain both user and GPT messages: ${post.data.recordId}`);
     }
 
     for (const amendment of post.data.amendments) {
@@ -115,10 +157,20 @@ export function formatKoreanStamp(stamp: ArchiveStamp) {
     return `${formatKoreanDateValue(start)}–${formatKoreanDateValue(stamp.end)}`;
   }
 
-  return formatKoreanDateValue(start, precision === 'minute' || precision === 'hour', precision === 'minute');
+  return formatKoreanDateValue(
+    start,
+    precision === 'second' || precision === 'minute' || precision === 'hour',
+    precision === 'second' || precision === 'minute',
+    precision === 'second',
+  );
 }
 
-function formatKoreanDateValue(value: string, includeHour = false, includeMinute = false) {
+function formatKoreanDateValue(
+  value: string,
+  includeHour = false,
+  includeMinute = false,
+  includeSecond = false,
+) {
   const dateOnly = value.match(/^(\d{4})-(\d{2})-(\d{2})$/);
   if (dateOnly) {
     return `${Number(dateOnly[1])}년 ${Number(dateOnly[2])}월 ${Number(dateOnly[3])}일`;
@@ -136,6 +188,7 @@ function formatKoreanDateValue(value: string, includeHour = false, includeMinute
   if (includeHour) {
     options.hour = '2-digit';
     if (includeMinute) options.minute = '2-digit';
+    if (includeSecond) options.second = '2-digit';
     options.hour12 = false;
   }
   return new Intl.DateTimeFormat('ko-KR', options).format(parsed);
@@ -147,14 +200,14 @@ export function monthKey(stamp: ArchiveStamp) {
 }
 
 export function searchableText(post: ArchivePost) {
-  const exchanges = post.data.exchanges
-    .flatMap((exchange) => [
-      exchange.user.original,
-      exchange.user.corrected ?? '',
-      exchange.assistant?.text ?? '',
-    ])
+  const messages = post.data.messages
+    .flatMap((message) =>
+      message.role === 'user'
+        ? [message.original, message.corrected ?? '']
+        : [message.text, message.references.map((reference) => reference.title).join(' ')],
+    )
     .join(' ');
-  return [post.data.title, post.data.tags.join(' '), exchanges]
+  return [post.data.title, post.data.tags.join(' '), messages]
     .join(' ')
     .toLocaleLowerCase('ko-KR');
 }

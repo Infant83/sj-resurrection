@@ -10,11 +10,11 @@
 
 - Repository visibility: **Public**
 - GitHub Pages: **Public preview active**
-- Published content: **source-verified complete user prompts and complete GPT replies only**
+- Published content: **source-verified complete visible user and GPT messages only**
 - Deployment workflow: **Included**
 - Search analytics, trackers, remote fonts, external embeds: **Not included**
 
-`robots.txt`와 `noindex` 메타 태그는 방어적 보조 장치일 뿐 접근 통제가 아닙니다. 요약·재구성본은 게시하지 않으며, 원 대화에서 사용자 프롬프트와 GPT 답변 전문이 함께 확인된 기록만 공개합니다.
+`robots.txt`와 `noindex` 메타 태그는 방어적 보조 장치일 뿐 접근 통제가 아닙니다. 요약·재구성본은 게시하지 않으며, 원 대화에서 확인한 사용자 입력, GPT 중간 답변, GPT 최종 답변을 각각 하나의 완전한 메시지로 공개합니다.
 
 ## Hosting roadmap
 
@@ -26,8 +26,8 @@
 
 - Facebook-style continuous feed without numbered pages
 - Stable detail URL for every post
-- Original user prompt as the main post
-- GPT response immediately below as an expandable reply
+- Original user messages as the main thread posts
+- Every visible GPT commentary/final message in its actual position as an expandable reply
 - Board, conversation date, search, newest/oldest controls
 - Feed grouping by original conversation time; optional event time stays separate
 - Explicit provenance for medical records, clinician reports, caregiver observations, and GPT interpretation
@@ -58,4 +58,4 @@ The configured base path is `/sj-resurrection/` for the GitHub Pages public prev
 npm run new:post -- --board=trauma --date=2026-08-30 --slug=status-update --title="상태 업데이트"
 ```
 
-The generated draft intentionally contains an unverified placeholder and fails the privacy gate until the complete source pair, source IDs, hashes, and verification time are filled in. Every imported entry must be reviewed under [EDITORIAL_POLICY.md](EDITORIAL_POLICY.md) before changing `status` to `published`.
+The generated draft intentionally contains an unverified placeholder and fails the privacy gate until every included message has its complete source text, source ID, source ordinal, hash, and verification time. Every imported entry must be reviewed under [EDITORIAL_POLICY.md](EDITORIAL_POLICY.md) before changing `status` to `published`.

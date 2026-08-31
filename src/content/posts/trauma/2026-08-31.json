@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 2,
+  "recordId": "trauma-2026-08-31-conversation",
+  "board": "trauma",
+  "entryType": "clinical-update",
+  "title": "2026년 8월 31일 경과 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-08-31",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "원문 대화",
+    "날짜별 기록"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-trauma-phase-3",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "중증 외상 예후 분석 (phase 3)",
+      "accessedAt": {
+        "start": "2026-08-31T18:13:51+09:00",
+        "precision": "minute",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-c4f7b5d7-dad6-443c-ab7a-c555d527227f",
+      "role": "user",
+      "recordedAt": {
+        "start": "2026-08-31T12:05:51.176033+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-08-31T18:13:51+09:00",
+        "precision": "minute",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "c4f7b5d7-dad6-443c-ab7a-c555d527227f",
+      "sourceOrdinal": 37,
+      "turnId": "1198522c-62af-44ab-b0ed-3b6a4bf36e56",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-3"
+      ],
+      "original": "8/31일 \n\n1. 환자 상태 및 치료 경과\n\n- 구토 증상 및 식사 조절: 환자가 어제부터 가래로 인한 자극으로 구토 증상을 보여, 오늘부터 식사 용량은 늘리되 주입 속도를 늦추는 방식으로 변경되었습니다.\n- 치료 경과: 그저께 오른쪽 손에 감았던 붕대를 제거했으며, 상태 확인을 위해 오늘 엑스레이 촬영을 진행할 예정입니다.\n- 혈액 검사 결과: 이전에 높았던 백혈구 수치는 정상화되었으나, 간 수치 등 다른 항목들이 여전히 높아 병실 이동은 어려우며 중환자실에 더 머물러야 합니다.\n- 진정제 투여 현황: 구토를 유발할 수 있는 기존의 진통제 겸 진정제는 어제 아침부로 중단되었으며, 대신 다른 종류의 진정제를 저용량으로 투여하고 있습니다.\n- 의식 및 반응 상태: 환자는 눈맞춤은 가능하지만, 이름을 불렀을 때 쳐다보기만 할 뿐 고개를 끄덕이는 등의 명확한 반응은 보이지 않는 상태입니다.\n\n2. 엑스레이 촬영 및 방문 일정 조율\n\n- 촬영 일정 제안: 병원 측은 보호자가 영상 검사 시 환자를 볼 수 있도록, 보호자의 이동 시간(1시간)을 고려하여 오후 2시경으로 엑스레이 촬영을 제안했습니다.\n- 보호자 방문 가능 여부: 보호자(아버지)는 해당 시간에 방문이 가능하지만, 아내(혜용)는 근무로 인해 방문이 어렵다고 답했습니다.\n- 대체 시간 문의: 보호자는 오후 4시나 5시 등 더 늦은 시간에도 방문이 가능한지 문의했으며, 병원 측은 시간 자체는 괜찮으나 응급 환자로 인해 촬영이 지연될 가능성이 있다고 설명했습니다.\n- 잠정 결론: 우선 오후 2시로 예약을 진행하되, 다른 가족이 더 늦은 시간에 방문하게 될 경우 보호자가 병원에 다시 연락하기로 했습니다.\n\nKey Decisions\n\n- 환자 엑스레이 촬영을 보호자 방문 시간에 맞춰 오후 2시로 우선 예약하기로 함. (잠정)\n\nAction Items\n\n- 병원 측: 김선진 환자 엑스레이 촬영을 오후 2시로 예약하기 — due 2026-08-31 [예정]\n- 보호자: 다른 가족이 더 늦은 시간에 방문 가능할 경우 병원에 다시 전화하기 [조건부]\n\nKey Numbers & Metrics\n\n- 보호자 이동 소요 시간: 1시간 (보호자가 병원까지 도착하는 데 걸리는 시간)\n- 제안된 방문 및 엑스레이 촬영 시간: 오후 2시\n- 보호자가 문의한 대체 방문 시간: 오후 4시 또는 5시",
+      "originalSha256": "sha256:2899d8cac7cb77b9fbd8c89d99ee880ffa016e204843cc97f6610ed403c0ad3d",
+      "fidelity": "exact"
+    },
+    {
+      "id": "message-6756858e-0eb8-539f-9cbe-289da745c6c3",
+      "role": "assistant",
+      "recordedAt": {
+        "start": "2026-08-31T12:06:23.416514+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-08-31T18:13:51+09:00",
+        "precision": "minute",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "6756858e-0eb8-539f-9cbe-289da745c6c3",
+      "sourceOrdinal": 38,
+      "turnId": "1198522c-62af-44ab-b0ed-3b6a4bf36e56",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-3"
+      ],
+      "channel": "commentary",
+      "text": "오늘 기록의 핵심은 **호흡·혈구는 안정화되는 반면, 가래 자극성 구토와 간수치가 일반병실 이동을 늦추고 있다는 것**입니다. 또한 “이름을 부르면 쳐다본다”는 것은 아무 반응이 없는 것과는 다르므로, 의식평가에서는 별도로 기록할 가치가 있습니다. 이전 경과와 비교하고 오늘 직접 확인할 항목을 추리기 위해 개인 맥락 지침을 적용하겠습니다.",
+      "textSha256": "sha256:fe24d050d792064d0ab58c4a6d5bb850961dba0f8a1d59f34f155527e8e91b36",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "references": []
+    },
+    {
+      "id": "message-73e12691-c3d0-5d46-8b8f-cb6678b4abba",
+      "role": "assistant",
+      "recordedAt": {
+        "start": "2026-08-31T12:07:17.559926+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-08-31T18:13:51+09:00",
+        "precision": "minute",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "73e12691-c3d0-5d46-8b8f-cb6678b4abba",
+      "sourceOrdinal": 39,
+      "turnId": "1198522c-62af-44ab-b0ed-3b6a4bf36e56",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-3"
+      ],
+      "channel": "final",
+      "text": "8월 31일 경과는 **급격한 악화라기보다, 호흡·백혈구는 안정됐지만 구토와 간수치 때문에 일반병실 이동을 조금 더 미루는 상태**로 해석됩니다. 어제 “다음 주 이동 가능성”은 조건부 전망이었고, 오늘 보류됐다고 해서 큰 후퇴가 생긴 것은 아닙니다.\n\n### 오늘 변화의 의미\n\n- **백혈구 정상화:** 주사 후 과도하게 올랐던 ANC가 정상 범위로 돌아온 것으로 보입니다. 다만 WBC뿐 아니라 현재 ANC가 정상에서 유지되는지 확인해야 합니다.\n- **영양량 증량＋속도 감속:** 시간당 위에 들어가는 양을 줄여 구토 부담은 낮추면서 하루 총영양량은 확보하려는 합리적인 방식입니다.\n- **가래 자극성 구토:** 기침이나 석션은 구역반사와 구토를 유발할 수 있습니다. [기관절개 흡인 합병증](https://www.ncbi.nlm.nih.gov/books/NBK593189/) 다만 구토가 식사 직후에도 나타나는지, 기침·석션 때만 나타나는지 구분해야 합니다.\n- **오피오이드 중단:** 장운동과 위 배출에는 긍정적일 가능성이 큽니다. 대신 골절·수술 부위의 통증이 진정제에 가려지지 않는지 행동통증척도로 확인해야 합니다.\n- **간수치 지속 상승:** 약물성 간손상 가능성은 있지만 AST·ALT만 높은 것과 빌리루빈·INR까지 이상한 것은 의미가 다릅니다. 약물 관련 간손상도 ALT, ALP, 빌리루빈과 INR의 추세로 중증도를 평가합니다. [EASL 약물성 간손상 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC9186030/)\n\n### 의식 반응은 ‘없음’으로만 기록하면 안 됩니다\n\n> “이름을 부르면 쳐다보지만 고개를 끄덕이지 않는다”\n\n이것은 **명령 수행은 아직 확인되지 않았지만, 소리 또는 이름에 시선을 돌리는 반응은 있을 가능성**을 뜻합니다. 고개 끄덕이기는 언어 이해, 지속적 주의, 운동계획과 실행이 모두 필요한 더 높은 단계입니다.\n\n반복해서 이름을 부를 때 부른 사람 쪽으로 시선이나 머리를 돌린다면 ‘청각적 위치 확인’으로 평가할 가치가 있습니다. 다만 우연한 시선 이동과 구분하기 위해 방향과 시간대를 달리해 반복해야 합니다. 저용량이라도 진정제는 반응을 약화시킬 수 있으므로 진정 효과가 가장 적을 때 CRS-R 같은 표준 평가가 필요합니다. [AAN 의식장애 평가 지침](https://www.neurology.org/doi/10.1212/WNL.0000000000005926)\n\n### 손의 좌우는 반드시 확인해야 합니다\n\n이전 기록에서는 **왼손목 골절 수술과 플레이트 3개 고정**으로 정리돼 있는데, 오늘은 “오른손 붕대 제거 후 X-ray”라고 되어 있습니다.\n\n가능성은 두 가지입니다.\n\n- 오늘 기록의 좌우가 잘못됨\n- 오른손 붕대는 수술 부위가 아니라 주사선·상처 등에 사용됐고, 별도로 검사하는 것임\n\n오늘 반드시 이렇게 물어보세요.\n\n> “오늘 X-ray를 찍는 곳이 오른손인가요, 수술한 왼손목인가요? 오른손에도 별도의 손상이나 처치가 있었나요?”\n\n### 오늘 현장에서 확인할 네 가지\n\n> 1. “현재 ANC는 얼마이며, 주사 효과가 끝난 뒤에도 정상 범위로 유지되고 있나요?”\n\n> 2. “일반병실 이동을 막고 있는 정확한 수치가 AST·ALT인가요? 빌리루빈과 INR은 정상인가요?”\n\n> 3. “새 진정제의 이름과 용량은 무엇이며, 진정이 가장 약할 때 의식평가를 할 수 있나요?”\n\n> 4. “오늘 손 X-ray의 정확한 좌우와 목적, 골절 유합 상태 및 움직여도 되는 범위를 알려주세요.”\n\n현재 가장 중요한 단기 목표는 **느린 속도의 1200 경장영양을 구토 없이 소화하고, ANC와 간수치가 며칠간 안정되며, 가래 관리가 일반병실 수준으로 가능해지는 것**입니다. 이 조건들이 유지되면 일반병실 이동 논의는 다시 빠르게 진행될 수 있습니다.",
+      "textSha256": "sha256:5ac361ce92fd03b9c9ca0337a74d66cd0e4210fee9a6cb394e63c2fea07008f8",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "references": []
+    }
+  ],
+  "amendments": [],
+  "media": [],
+  "related": [],
+  "privacyReviewed": true
+}

@@ -23,7 +23,7 @@ if (!allowedBoards.has(board) || !/^\d{4}-\d{2}-\d{2}$/.test(date ?? '') || !/^[
 
 const [year, month] = date.split('-');
 const directory = join('src', 'content', 'posts', year, month);
-const file = join(directory, `${date}-${slug}.md`);
+const file = join(directory, `${date}-${slug}.json`);
 const recordId = `${board}-${date}-${slug}`;
 const entryType = {
   trauma: 'clinical-update',
@@ -33,37 +33,42 @@ const entryType = {
   media: 'media-record',
 }[board];
 
-const template = `---
-schemaVersion: 1
-recordId: ${recordId}
-board: ${board}
-entryType: ${entryType}
-title: ${JSON.stringify(title)}
-status: draft
-sensitivity: highly-sensitive
-recordedAt: { start: "${date}", precision: day, timezone: Asia/Seoul }
-tags: []
-sources:
-  - id: source-${recordId}
-    type: chat-conversation
-    certainty: reported
-    label: "원본 대화 확인 필요"
-exchanges:
-  - id: exchange-${recordId}-001
-    recordedAt: { start: "${date}", precision: day, timezone: Asia/Seoul }
-    sourceVerified: false
-    user:
-      original: |-
-        원문을 입력하세요.
-      fidelity: pending-original
-    sourceRefs: [source-${recordId}]
-amendments: []
-media: []
-related: []
-privacyReviewed: false
----
-`;
+const sourceId = `source-${recordId}`;
+const template = {
+  schemaVersion: 2,
+  recordId,
+  board,
+  entryType,
+  title,
+  status: 'draft',
+  sensitivity: 'highly-sensitive',
+  recordedAt: { start: date, precision: 'day', timezone: 'Asia/Seoul' },
+  tags: [],
+  sources: [
+    {
+      id: sourceId,
+      type: 'chat-conversation',
+      certainty: 'reported',
+      label: '원본 대화 확인 필요',
+    },
+  ],
+  messages: [
+    {
+      id: `message-${recordId}-001`,
+      role: 'user',
+      recordedAt: { start: date, precision: 'day', timezone: 'Asia/Seoul' },
+      sourceVerified: false,
+      sourceRefs: [sourceId],
+      original: '원문을 입력하세요.',
+      fidelity: 'pending-original',
+    },
+  ],
+  amendments: [],
+  media: [],
+  related: [],
+  privacyReviewed: false,
+};
 
 await mkdir(directory, { recursive: true });
-await writeFile(file, template, { encoding: 'utf8', flag: 'wx' });
+await writeFile(file, `${JSON.stringify(template, null, 2)}\n`, { encoding: 'utf8', flag: 'wx' });
 console.log(file);

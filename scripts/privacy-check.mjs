@@ -14,7 +14,10 @@ const rules = [
   ['Korean phone number', /\b0\d{1,2}-\d{3,4}-\d{4}\b/g],
   ['email address', /\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b/gi],
   ['summary or reconstruction marker', /(?:summary-reconstruction|대화\s*요약\s*복원본)/g],
-  ['unverified conversation marker', /^\s*(?:fidelity:\s*pending-original|status:\s*needs-original-check)\s*$/gm],
+  [
+    'unverified conversation marker',
+    /(?:^\s*(?:fidelity:\s*pending-original|status:\s*needs-original-check)\s*$|"(?:fidelity|status)"\s*:\s*"(?:pending-original|needs-original-check)")/gm,
+  ],
 ];
 
 async function walk(directory) {
