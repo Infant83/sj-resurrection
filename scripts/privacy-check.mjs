@@ -4,9 +4,30 @@ import { extname, join } from 'node:path';
 const roots = ['src/content', 'src/data', 'public'];
 const extensions = new Set(['.md', '.mdx', '.json', '.yml', '.yaml', '.txt', '.html', '.xml']);
 const findings = [];
-// Public institutional contacts verified on the Uijeongbu St. Mary's Hospital
-// trauma-surgery page. Personal or unverified phone numbers remain blocked.
-const allowedPublicInstitutionalContacts = new Set(['010-8048-5200', '1661-7500', '1811-7755']);
+// Exact institutional contacts retained from source-reviewed hospital/rehab replies.
+// Personal or unverified numbers remain blocked.
+const allowedPublicInstitutionalContacts = new Set([
+  '010-8048-5200',
+  '02-2030-7080',
+  '02-2030-7083',
+  '02-2072-1002',
+  '02-2228-3763',
+  '02-2228-7700',
+  '02-3010-7769',
+  '02-901-1705',
+  '031-799-3882',
+  '031-820-3425',
+  '031-820-3470',
+  '031-820-3665',
+  '031-820-5432',
+  '031-851-0112',
+  '031-851-0712',
+  '031-900-0057',
+  '1577-0013',
+  '1577-3622',
+  '1661-7500',
+  '1811-7755',
+]);
 const rules = [
   ['private key', /-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----/g],
   ['GitHub token', /\b(?:ghp|github_pat)_[A-Za-z0-9_]{20,}\b/g],

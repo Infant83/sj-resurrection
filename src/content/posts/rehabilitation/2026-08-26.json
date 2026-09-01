@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 2,
+  "recordId": "rehabilitation-2026-08-26-conversation",
+  "board": "rehabilitation",
+  "entryType": "rehabilitation-plan",
+  "title": "2026년 8월 26일 재활병원 전원 계획",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-08-26",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "재활병원 전원",
+    "원문 질의응답",
+    "날짜별 기록"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-rehabilitation-plan-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "재활병원 전원 계획",
+      "accessedAt": {
+        "start": "2026-09-01T16:27:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-7464dddf-b814-4313-97df-c29ceb882619",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-08-26T12:01:53.838565+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-01T16:27:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "7464dddf-b814-4313-97df-c29ceb882619",
+      "sourceOrdinal": 1,
+      "turnId": "b4938f2f-6226-4667-a4de-541695bebfe0",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "original": "선진 앞으로 쟈활을 위한 병원으로 전원을 해야하기 때문에 병원을 알아보고 준비해야해. 김마루 교수님은 의정부 인근의 리하트 병원을 이야기 주시기도 했는데 확정은 아니고 의정부 부근의 병원 정보만 제한적으로 공유 가능하다했고 다른 서울이나 우리 사는 노원이나 다른 더 좋운 병원 가령 건대 병원의 소아 뇌손상 관련 재활 전문 병원등을 확인하고 전원 계획을 세워야해. 선진의 현재 상태와 치료 방향에 맞는 좋은 재활 병원을 알아봐줘.",
+      "originalSha256": "sha256:ff9a3670e81a50056cc392966b3e5712a47221bc071ab8cf6fcb0c5fa0c5c1e8",
+      "corrected": "선진 앞으로 재활을 위한 병원으로 전원을 해야 하기 때문에 병원을 알아보고 준비해야 해. 김마루 교수님은 의정부 인근의 리하트 병원을 이야기 주시기도 했는데 확정은 아니고 의정부 부근의 병원 정보만 제한적으로 공유 가능하다 했고 다른 서울이나 우리 사는 노원이나 다른 더 좋은 병원 가령 건대 병원의 소아 뇌손상 관련 재활 전문 병원 등을 확인하고 전원 계획을 세워야 해. 선진의 현재 상태와 치료 방향에 맞는 좋은 재활 병원을 알아봐 줘.",
+      "correctionPolicy": "typos-only",
+      "fidelity": "typo-corrected"
+    },
+    {
+      "id": "message-fbd79838-bb34-53ad-8bc9-f572fefe53a6",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-08-26T12:02:40.402564+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-01T16:27:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "fbd79838-bb34-53ad-8bc9-f572fefe53a6",
+      "sourceOrdinal": 2,
+      "turnId": "b4938f2f-6226-4667-a4de-541695bebfe0",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "channel": "commentary",
+      "text": "선진이의 현재 상태—중증 뇌손상 후 의식 회복 초기, 기관절개·호흡 보조, 잦은 흡인, 코줄 영양, 발열과 흉부 치료가 아직 필요한 점—를 기준으로 병원을 선별하겠습니다. 이전 진료 경과를 정확히 이어 쓰기 위해 `personal-context` 지침을 적용하고, 각 병원의 실제 입원 대상·소아 재활 역량·기관절개 환자 수용 가능성을 최신 공식 정보와 직접 문의 항목으로 나눠 확인하겠습니다.",
+      "textSha256": "sha256:a8b36945c68530fd88667a4dc58e50d72e7f8154a6cf25dd0be67cb42d354ec2",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "references": []
+    },
+    {
+      "id": "message-259323dc-2cb3-53e6-bba0-903d1e89a611",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-08-26T12:04:51.994579+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-01T16:27:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "259323dc-2cb3-53e6-bba0-903d1e89a611",
+      "sourceOrdinal": 3,
+      "turnId": "b4938f2f-6226-4667-a4de-541695bebfe0",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "channel": "commentary",
+      "text": "현재까지 확인된 핵심은, 김마루 교수님이 언급한 곳이 실제로 의정부 탑석역 인근의 **리하트병원**이며, 이곳은 보건복지부 ‘어린이 재활의료기관’과 2026–2029년 회복기 재활의료기관으로 지정된 병원이라는 점입니다. 다만 홈페이지상 소아치료실과 입원재활병동이 각각 확인될 뿐, **기관절개·인공호흡기·흉관이 있는 중학생을 소아 입원으로 받는지**는 공개 정보만으로 확정할 수 없어 별도 수용 심사가 반드시 필요합니다.",
+      "textSha256": "sha256:ea5e386156bb117352cf9911c655f431bff640dfa5259c553625e9590b33f00c",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "references": []
+    },
+    {
+      "id": "message-e859b161-b36f-565d-b791-b2a603c46c62",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-08-26T12:11:26.342481+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-01T16:27:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "e859b161-b36f-565d-b791-b2a603c46c62",
+      "sourceOrdinal": 4,
+      "turnId": "b4938f2f-6226-4667-a4de-541695bebfe0",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "channel": "commentary",
+      "text": "지금 결론은 “한 곳을 찍고 기다리기”보다, 현재 의료 안정성에 맞는 병원군과 안정화 뒤 집중재활 병원군을 나눠 동시에 심사받는 쪽입니다. 특히 뇌손상 회복기 입원은 시기 기준이 있어, 전원은 아직 이르더라도 서류 접수는 지금 시작해야 합니다.",
+      "textSha256": "sha256:055f9653e64b221596162cc9aca7b18ce0118a9345d4f157fa4182c249c296eb",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "references": []
+    },
+    {
+      "id": "message-2d7bb80d-8848-54f4-ac80-13312d20865a",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-08-26T12:13:56.543048+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-01T16:27:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "2d7bb80d-8848-54f4-ac80-13312d20865a",
+      "sourceOrdinal": 5,
+      "turnId": "b4938f2f-6226-4667-a4de-541695bebfe0",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "channel": "final",
+      "text": "결론부터 말씀드리면, 선진이의 전원은 **리하트냐 건대냐 한 곳을 고르는 문제가 아니라 2단계로 설계하는 것이 맞습니다.**\n\n지금까지 알려주신 상태가 현재도 비슷하다면—기관절개와 호흡지원, 잦은 흡인, 비위관 영양, 흉관, 반복 발열·감염평가—지금은 재활치료 장비보다 **24시간 기도·감염·흉관을 관리하면서 소아 중증 뇌손상 재활을 시작할 수 있는지**가 첫 번째 조건입니다.\n\n제 권고 순서는 다음과 같습니다.\n\n## 선진이에게 맞는 전원 방향\n\n| 단계 | 우선 후보 | 판단 |\n|---|---|---|\n| 지금 급성기 문제가 남아 있을 때 | 현재 서울성모병원에서 치료 유지 + 재활의학과 병상 내 조기재활 강화 | 흉관, 발열, 호흡지원이 변동 중이라면 가장 안전한 기본안입니다. 서울성모 재활의학과도 외상성 뇌손상과 소아재활을 진료합니다. [재활의학과](https://www.cmcseoul.or.kr/page/department/A/145/1) |\n| 외부 1단계 전원심사 | 국민건강보험 일산병원, 세브란스 재활병원 | 소아재활과 함께 호흡기·감염·응급 의료지원을 받을 가능성이 상대적으로 높은 후보입니다. 단, 현재 상태의 실제 수용은 별도 심사입니다. |\n| 인공호흡기 의존이 계속될 경우 | SRC재활병원 | 공개자료상 기관절개·인공호흡기 환자 호흡재활과 전문병동을 명시한 후보입니다. 다만 중학생 중증 뇌손상 소아입원과 흉관·감염 수용은 확인해야 합니다. |\n| 호흡·감염·흉관이 안정된 뒤 | 국립재활원, 리하트병원 | 노원·의정부 생활권에서 현실적인 집중재활 후보입니다. 지금부터 대기·사전심사를 시작해야 합니다. |\n| 안정 후 추가 후보 | 서울재활병원, 푸르메재단 넥슨어린이재활병원, 국립교통재활병원 | 소아·청소년 뇌손상 장기재활에는 강하지만 현재 의료복잡도 수용 여부와 거리·대기기간을 확인해야 합니다. |\n| 전문 자문 | 건국대학교병원 고성은 교수 | 소아뇌손상 전문성은 분명하지만, 장기 소아 집중재활병동 수용 여부는 공개자료로 확인되지 않습니다. 전원 목적지보다는 전문 평가와 치료방향 자문으로 우선 활용할 가치가 큽니다. |\n\n### 우선 전원심사 병원\n\n1. **국민건강보험 일산병원**\n\n   공공어린이재활병원으로 6~18세, 입원·낮병동·외래를 운영하며 소아호흡재활과 외상성 뇌손상 의료진을 함께 확인할 수 있습니다. 종합병원 내에 소아청소년과·호흡기·감염·응급의학과 등이 있다는 점이 현재 선진이 상태에 유리합니다. [어린이재활병원](https://www.nhimc.or.kr/conts/103009012000000.do), [재활의학과 의료진](https://www.nhimc.or.kr/dept/profList.do?deptNo=28)\n\n   - 진료협력센터: 031-900-0057, 0059\n   - 대표예약: 1577-0013\n\n2. **세브란스 재활병원**\n\n   공식 진료범위에 외상성 뇌손상, 소아재활, 중환자재활, 호흡재활, 연하곤란을 모두 명시합니다. 상급종합병원과 연결된 재활병원이라는 점에서 의료복잡도가 남아 있는 시기의 심사 가치가 큽니다. [재활의학과](https://sev-rehabil.severance.healthcare/sev-rehabil/department/department/rehabilitation.do)\n\n   - 진료의뢰: 02-2228-7700\n   - 입원 관련: 02-2228-3763, 3765\n\n3. **SRC재활병원**\n\n   기관절개관 또는 인공호흡기를 사용하는 환자, 석션·산소공급 설비와 호흡재활병동을 공식적으로 명시합니다. 다만 홈페이지 설명은 성인·척수손상 중심 내용도 포함하므로, **만 14세 소아 뇌손상 환자를 같은 병동에서 받을 수 있는지**가 핵심입니다. [호흡재활센터](https://www.srchospital.com/rehabilitation/breath.php), [소아재활](https://www.srchospital.com/rehabilitation/child.php)\n\n   - 입원상담: 031-799-3882\n   - 대표: 1577-3622\n\n## 리하트병원에 대한 판단\n\n리하트는 나쁜 후보가 아닙니다. 의정부 탑석역 인근이고, 공식적으로 경기북부 **어린이 재활의료기관**에 포함되며 물리·작업·인지·언어·소아·로봇재활을 운영합니다. 김마루 교수님이 실제 환자 의뢰 경험이나 의료진 연결을 알고 추천했을 가능성도 있으므로 **가장 먼저 사전심사할 병원 중 하나**입니다. [어린이 재활의료기관 공식 목록](https://www.nrc.go.kr/hmpd/service/childRehabtInstIntro.do), [리하트병원](https://rehart.co.kr/)\n\n다만 공개정보만으로는 다음을 확인할 수 없습니다.\n\n- 중학생의 24시간 소아 입원\n- 기관절개 및 야간 잦은 흡인\n- 고유량 산소 또는 인공호흡기\n- 흉관, 정맥항생제, 다제내성균 격리\n- 급격한 호흡악화 시 응급·중환자 대응\n\n따라서 김마루 교수님께 다음처럼 정확히 물어보는 것이 좋습니다.\n\n> “리하트 추천이 선진이가 지금 상태로도 전원 가능한 병원이라는 의미인지, 흉관 제거와 호흡·감염 안정 후 회복기 재활병원으로 적합하다는 의미인지 궁금합니다. 교수님께서 선진이 상태를 리하트 의료진에게 직접 전달하고 수용 가능 여부를 확인해주실 수 있을까요?”\n\n- 리하트: 031-851-0112, 팩스 031-851-0712\n\n## 국립재활원과 건국대의 역할\n\n**국립재활원은 안정화 후 노원 생활권에서 가장 강한 후보**입니다. 강북구에 있고 소아 외상성 뇌손상 입원재활, 연하·영양·인지·언어·물리·작업치료를 명시합니다. 기관절개와 NG가 안정적으로 관리되는 단계라면 우선순위가 높습니다. [국립재활원 소아재활](https://www.nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_04_05_01)\n\n- 입원상담: 02-901-1705, 1706\n\n**건국대 고성은 교수는 ‘소아재활·소아뇌손상·소아척수손상’이 공식 전문분야**입니다. 다만 장기간 소아 뇌손상 집중재활병상은 공개자료만으로 확인되지 않아, 우선은 전문 자문과 단기 대학병원 재활 가능성을 문의하는 것이 적절합니다. [고성은 교수](https://www.kuh.ac.kr/doctor/basicInfo.do?dr_sid=20000013)\n\n- 진료협력센터: 02-2030-7080\n- 팩스: 02-2030-7083\n\n## 이번 주 바로 할 일\n\n1. 서울성모 재활의학과 공식 협진을 요청합니다.\n\n   - 병상에서 PT·OT·연하/언어·호흡재활을 어느 정도 시작할 수 있는지\n   - 의식상태를 CRS-R 같은 표준화 도구로 반복 평가할 수 있는지\n   - 전원 가능 조건을 “흉관 제거 후”, “흡인 하루 ○회 이하”처럼 구체적으로 적어달라고 요청합니다.\n\n   의식이 낮고 명령수행이 아직 불확실하다는 이유만으로 재활을 미루는 것은 적절하지 않습니다. 의학적으로 안정되는 범위 안에서 다학제 재활과 반복 의식평가를 하는 것이 권고됩니다. [AAN/ACRM 의식장애 지침](https://pubmed.ncbi.nlm.nih.gov/30089618/)\n\n2. 서울성모 진료협력센터에서 동일한 자료를 아래 병원에 **동시에** 보내달라고 요청합니다.\n\n   - 국민건강보험 일산병원\n   - 세브란스 재활병원\n   - 국립재활원\n   - 리하트병원\n   - 필요하면 SRC재활병원\n\n3. 회복기 입원 시기를 확인합니다.\n\n   외상성 뇌손상 회복기 재활의료기관은 원칙적으로 발병·수술 후 **90일 이내 입원**, 입원일부터 **180일 이내** 기준이 적용됩니다. 대기 등록만으로 90일 기준을 충족하는 것은 아니므로 사고일 기준 90일째 날짜를 병원 보험심사팀과 확인해야 합니다. [심평원 회복기 재활 기준](https://www.hira.or.kr/dummy.do?pgmid=HIRAA020020000007)\n\n4. 전원 병원에는 다음 자료를 한 장으로 요약해 전달합니다.\n\n   - 현재 의식수준과 일관된 눈맞춤·반응\n   - 기관절개관 종류, 산소/인공호흡기 설정, 최근 24시간 흡인 횟수\n   - 흉관 배액량과 제거 예정 조건\n   - 최근 체온·CRP/WBC·배양균·항생제·격리 여부\n   - NG 영양량과 구토·흡인 위험\n   - 골반·쇄골·손목의 체중부하 및 관절운동 제한\n\n최종적으로는 **현재 서울성모에서 안정화하면서 일산병원·세브란스에 1단계 심사, 국립재활원·리하트에 2단계 사전접수, 건국대에 전문 자문**을 넣는 조합이 선진이에게 가장 안전하고 현실적인 계획입니다. 실제 이동은 반드시 받는 병원 의사가 현재 장치와 감염상태를 검토해 수용을 확정한 뒤 진행해야 합니다.",
+      "textSha256": "sha256:5d8b3063cc66aeec68130acc6da66ad9af92254a804d805b04ce60138f56dab8",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "references": []
+    }
+  ],
+  "amendments": [
+    {
+      "id": "amendment-rehabilitation-current-hospital-2026-08-27",
+      "recordedAt": {
+        "start": "2026-08-27T10:21:35.257212+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "correction",
+      "target": "message-2d7bb80d-8848-54f4-ac80-13312d20865a",
+      "note": "2026-08-27 후속 대화에서 현재 병원은 서울성모병원이 아니라 의정부성모병원임이 확인되었다. 기록 보존을 위해 원래 답변은 변경하지 않는다.",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [
+    "rehabilitation-2026-08-27-conversation"
+  ],
+  "privacyReviewed": true
+}
