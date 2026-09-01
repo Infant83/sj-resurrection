@@ -11,13 +11,22 @@ const { message, isLast = false } = Astro.props;
 const isUser = message.role === 'user';
 const primaryText = isUser ? (message.corrected ?? message.original) : message.text;
 const showsCorrected = isUser && Boolean(message.corrected);
+const isVoiceTranscript = message.sourceKind === 'voice-transcript';
+const isEmbeddedReport = message.sourceKind === 'embedded-app-report';
 const fidelityLabels: Record<string, string> = {
   exact: '원문 확인',
   'typo-corrected': '오탈자 교정본',
   'pending-original': '원문 확인 필요',
 };
 const userFidelityLabel = isUser ? (fidelityLabels[message.fidelity] ?? '원문 확인 필요') : '';
-const replyLabel = message.channel === 'commentary' ? 'GPT 중간 답변 원문' : 'GPT 답변 원문';
+const userLabel = isVoiceTranscript ? '보호자 음성 전사' : '보호자 기록';
+const replyLabel = isEmbeddedReport
+  ? 'GPT 심층 리서치 보고서 원문'
+  : isVoiceTranscript
+    ? 'GPT 음성 답변 전사'
+    : message.channel === 'commentary'
+      ? 'GPT 중간 답변 원문'
+      : 'GPT 답변 원문';
 ---
 
 <section class:list={['conversation-message', isUser ? 'user-message' : 'assistant-message']}>
@@ -31,7 +40,7 @@ const replyLabel = message.channel === 'commentary' ? 'GPT 중간 답변 원문'
       isUser ? (
         <div class="thread-content">
           <div class="thread-label-row">
-            <strong>보호자 기록</strong>
+            <strong>{userLabel}</strong>
             <time datetime={message.recordedAt.start}>{formatKoreanStamp(message.recordedAt)}</time>
             <span class="fidelity-label">{userFidelityLabel}</span>
           </div>

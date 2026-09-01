@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-08-22-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 8월 22일 의학지식 문의",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-08-22",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학 지식",
+    "원문 질의응답",
+    "날짜별 기록"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의",
+      "accessedAt": {
+        "start": "2026-09-01T15:16:35+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-3e46e451-1b88-48d2-8db1-8f160da858e9",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-08-22T06:08:28.519152+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-01T15:16:35+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "3e46e451-1b88-48d2-8db1-8f160da858e9",
+      "sourceOrdinal": 25,
+      "turnId": "e666749b-1cbb-4e0b-8218-99c395a196e5",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "original": "선진이가 음식을 제대로 소화시키지 못하고있는 것 같아. 콧줄로 내려간 미음같은 음식을 구토를 하는 것 겉은데 이것 때문에 가래 흡인이나 기침 등의 문제 구역 등이 발생하고 있는 것 같은데. 아무래도 폐 치료상황과 장기간 침상으로 인한 운동부족 등이 겹쳐 소화장애가 생긴건 아닌지 걱정이 되. ",
+      "originalSha256": "sha256:ea89e516d970e9926420de7f3903910014c135e928a9b08dcaf35567a2afdf34",
+      "corrected": "선진이가 음식을 제대로 소화시키지 못하고 있는 것 같아. 콧줄로 내려간 미음 같은 음식을 구토를 하는 것 같은데 이것 때문에 가래 흡인이나 기침 등의 문제 구역 등이 발생하고 있는 것 같은데. 아무래도 폐 치료 상황과 장기간 침상으로 인한 운동 부족 등이 겹쳐 소화 장애가 생긴 건 아닌지 걱정이 돼. ",
+      "correctionPolicy": "typos-only",
+      "fidelity": "typo-corrected"
+    },
+    {
+      "id": "message-2ae5bfbd-dab2-486b-a264-1416122e45f6",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-08-22T06:08:33.105592+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-01T15:16:35+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "2ae5bfbd-dab2-486b-a264-1416122e45f6",
+      "sourceOrdinal": 26,
+      "turnId": "e666749b-1cbb-4e0b-8218-99c395a196e5",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "channel": "final",
+      "text": "네. 말씀하신 상황이라면 **선진이가 현재 위장관 운동 저하, 특히 위 배출 지연(delayed gastric emptying)을 겪고 있을 가능성은 충분히 있습니다.** 그리고 이것은 중증 외상 후 장기간 ICU 치료를 받는 아이들에게 드물지 않습니다. 중환아에서 위 배출 지연이 최대 약 절반에서 관찰된다는 보고가 있고, 그 결과가 바로 **콧줄 영양 불내성 → 위에 음식이 남음 → 역류/구토 → 흡인 위험 → 가래·기침 및 폐 치료 방해**의 형태로 나타날 수 있습니다. citeturn0search0turn0search1\n\n다만 저는 이것을 단순히 **“오랫동안 누워 있어서 소화력이 떨어졌다”**고만 보지는 않겠습니다. 선진이에게는 여러 요인이 동시에 작용할 가능성이 큽니다.\n\n중증 외상과 감염 자체가 위장관 자율신경과 운동을 억제할 수 있고, 진정제·진통제, 특히 opioid 계열 약물은 위 배출과 장운동을 늦출 수 있습니다. 여기에 장기간 침상생활, 전신 근력 저하, 전해질 이상, 혈당 변화, 이전의 순환부전, 수술 및 장기간 금식 등이 겹칠 수 있습니다. 중환아에서 이런 여러 요소가 위장관 운동장애를 만드는 것은 잘 알려져 있습니다. citeturn0search0\n\n### 그리고 지금은 폐와 위가 서로 영향을 주는 악순환을 주의해서 볼 필요가 있습니다\n\n말씀하신 상황이 실제로 다음과 같은 구조라면 상당히 설명력이 있습니다.\n\n**중증 외상·폐렴·진정제·침상생활**  \n→ 위장 운동 저하  \n→ 콧줄 영양이 위에서 잘 내려가지 않음  \n→ 역류/구토  \n→ 기침·구역질  \n→ 일부 위 내용물 또는 분비물의 기도 흡인 위험  \n→ 가래 증가·폐 자극  \n→ 산소화와 폐 회복에 부담  \n→ 다시 진정·호흡치료가 필요  \n→ 활동량 감소  \n→ 위장운동 회복 지연\n\n특히 선진이는 지금 **기관절개 상태이고 스스로 가래를 충분히 배출할 정도의 기침력이 아직 회복되지 않았을 가능성**이 있기 때문에 의료진이 구토와 aspiration을 상당히 조심스럽게 볼 이유가 있습니다.\n\n위 배출 지연은 위식도 역류와 흡인 가능성을 증가시키고, 충분한 경장영양 공급을 어렵게 할 수 있습니다. citeturn0search0\n\n하지만 여기서 한 가지 중요한 점은 **“구토했다 = 음식이 폐로 들어갔다”는 것은 아닙니다.**\n\n실제 aspiration 여부는 산소 요구량 변화, 흉부영상, 발열·염증수치, 객담 상태, 호흡 양상 등을 함께 봐야 합니다.\n\n---\n\n## 그렇다면 해결할 방법이 있느냐 — 있습니다\n\n이 부분은 오히려 너무 비관적으로 생각하지 않으셔도 됩니다. **위장운동이 다시 돌아올 때까지 영양 공급 방법을 조절하는 방법들이 여러 단계로 존재합니다.**\n\n우선 의료진은 보통 원인을 살펴보면서 한 번에 들어가는 양을 줄이거나 주입 방법을 변경하고, 필요하면 영양액의 농도와 속도를 조절합니다.\n\n그리고 **위에서 계속 못 받아들이는 것이 명확하다면 위를 우회하는 방법도 있습니다.**\n\n현재 콧줄 끝이 위에 있다면 nasogastric(NG) feeding입니다. 반면 관을 조금 더 내려서 **십이지장이나 공장까지 넣는 nasoduodenal/nasojejunal(ND/NJ) feeding**, 즉 **post-pyloric feeding**을 할 수 있습니다.\n\n`코 → 식도 → 위 → 십이지장 → 소장`\n\n에서 NG는 **위에서 끝나지만**, NJ는 **위를 지나 소장까지 내려갑니다.**\n\n소아중환자 영양 가이드라인도 대부분에서는 위를 통한 영양을 우선하지만, **위 영양을 견디지 못하거나 aspiration 위험이 높은 아이에서는 post-pyloric feeding을 고려할 수 있다**고 권고합니다. citeturn0search1turn0search5\n\n최근 소아 ICU 연구에서도 post-pyloric feeding을 받은 아이들이 위 feeding을 받은 아이들보다 처방된 경장영양 목표량을 더 잘 공급받은 결과가 있습니다. 다만 이것이 모든 아이에서 폐렴이나 aspiration을 감소시킨다고 확정된 것은 아니므로 환자별 판단이 필요합니다. citeturn0search7\n\n따라서 **“위가 아직 회복되지 않았으니 영양을 줄 방법이 없다”는 상황은 아닙니다.**\n\n---\n\n## 선진이에게 지금 가장 확인하고 싶은 것은 이것입니다\n\n제가 보호자라면 오늘 회진에서 다음 세 가지를 한꺼번에 물어보겠습니다.\n\n> **“콧줄 영양 후 구토하는 것이 위 배출이 늦어서 음식이 위에 남아 있기 때문으로 보시나요?”**\n\n그리고\n\n> **“이 구토나 역류 때문에 aspiration이 생기거나 폐렴·가래가 악화되고 있다고 판단하시나요?”**\n\n마지막으로\n\n> **“위 영양을 계속 못 견디면 속도나 양을 줄이거나, 십이지장·공장 쪽으로 관을 내려서 feeding하는 방법을 고려할 수 있을까요?”**\n\n이 세 질문이면 **① 위장 문제의 원인, ② 폐와의 연관성, ③ 대안**을 모두 확인할 수 있습니다.\n\n### 그리고 저는 한 가지를 더 중요하게 보겠습니다.\n\n선진이는 최근 며칠간 콧줄 영양을 중단했다가 다시 시도하고 있는 상황이기 때문에, **위장관도 바로 이전과 같은 양을 받아들이지 못할 수 있습니다.** 그래서 처음부터 목표량을 모두 넣는 것이 아니라 적은 양부터 다시 올리는 과정이 필요할 수 있습니다.\n\n반대로 구토가 계속되는데도 같은 방식의 위 feeding을 반복한다면 의료진도 원인을 다시 평가하게 될 가능성이 높습니다.\n\n따라서 지금 관찰하신 **“콧줄 영양을 넣은 뒤 구토하고, 그 주변으로 기침·구역질과 가래 문제가 심해지는 것 같다”**는 시간적 관계는 의료진에게 꼭 말씀해주세요. 상당히 가치 있는 관찰입니다.\n\n그리고 이것이 정말 **gastric feeding intolerance**라면, 중증 외상과 장기간 ICU 치료에서 충분히 설명할 수 있는 현상이고 **회복 불가능한 소화기 손상을 의미하는 것은 아닙니다.** 폐와 전신 상태가 안정되고, 진정·진통제가 감소하고, 움직임과 재활이 늘어나면서 장운동도 다시 좋아질 여지가 있습니다. 지금은 **폐 회복과 영양 회복을 서로 방해하지 않도록 feeding 방법을 조율하는 단계**라고 보는 것이 더 적절합니다. memcite",
+      "textSha256": "sha256:73623ea0fd47493979c3eb8714b67e6be749f34cb07c983875130eb3ac05c7cc",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "references": [
+        {
+          "title": "Gastric Dysmotility in Critically Ill Children: pathophysiology, diagnosis and management - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4635032/",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "Nutritional support for children during critical illness: European Society of Pediatric and Neonatal Intensive Care (ESPNIC) metabolism, endocrine and nutrition section position statement and clinical recommendations - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7067708/",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "Nutrition in Pediatric Intensive Care: A Narrative Review - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9318205/",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "Post-pyloric versus gastric enteral nutrition in critically ill children – a single-center retrospective cohort study - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10464611/",
+          "attribution": "PubMed Central (PMC)"
+        }
+      ]
+    }
+  ],
+  "amendments": [],
+  "media": [],
+  "related": [],
+  "privacyReviewed": true
+}

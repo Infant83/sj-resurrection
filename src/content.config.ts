@@ -34,6 +34,9 @@ const userMessageFidelity = z.enum(['exact', 'typo-corrected', 'pending-original
 const messageBase = z.object({
   id: z.string(),
   recordedAt: stamp,
+  sourceKind: z
+    .enum(['conversation-message', 'voice-transcript', 'embedded-app-report'])
+    .default('conversation-message'),
   sourceVerified: z.boolean().default(false),
   sourceVerifiedAt: stamp.optional(),
   sourceMessageId: z.string().optional(),

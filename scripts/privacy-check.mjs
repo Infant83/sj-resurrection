@@ -4,6 +4,9 @@ import { extname, join } from 'node:path';
 const roots = ['src/content', 'src/data', 'public'];
 const extensions = new Set(['.md', '.mdx', '.json', '.yml', '.yaml', '.txt', '.html', '.xml']);
 const findings = [];
+// Public institutional contacts verified on the Uijeongbu St. Mary's Hospital
+// trauma-surgery page. Personal or unverified phone numbers remain blocked.
+const allowedPublicInstitutionalContacts = new Set(['010-8048-5200', '1661-7500', '1811-7755']);
 const rules = [
   ['private key', /-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----/g],
   ['GitHub token', /\b(?:ghp|github_pat)_[A-Za-z0-9_]{20,}\b/g],
@@ -36,6 +39,13 @@ async function walk(directory) {
       const text = await readFile(path, 'utf8');
       for (const [label, pattern] of rules) {
         pattern.lastIndex = 0;
+        if (label === 'Korean mobile number' || label === 'Korean phone number') {
+          const unapproved = [...text.matchAll(pattern)].some(
+            (match) => !allowedPublicInstitutionalContacts.has(match[0]),
+          );
+          if (unapproved) findings.push(`${path}: ${label}`);
+          continue;
+        }
         if (pattern.test(text)) findings.push(`${path}: ${label}`);
       }
     }

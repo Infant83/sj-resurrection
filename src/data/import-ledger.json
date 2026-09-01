@@ -29,10 +29,12 @@
       "sourceRequirement": "confirmed-chatgpt-shared-conversation-snapshot"
     },
     "medical": {
-      "status": "pending-source-import",
+      "status": "published-through-2026-08-30",
       "sourceThreads": [
-        "김마루 교수님 정보"
-      ]
+        "의학지식 문의"
+      ],
+      "publicationRule": "complete-public-source-messages-only",
+      "sourceRequirement": "confirmed-chatgpt-shared-conversation-snapshot-with-complete-audit"
     },
     "rehabilitation": {
       "status": "pending-source-import",
@@ -246,6 +248,294 @@
         "life-2026-08-26-conversation",
         "life-2026-08-27-conversation",
         "life-2026-08-28-conversation"
+      ]
+    },
+    {
+      "id": "medical-shared-conversation-2026-09-01",
+      "board": "medical",
+      "verifiedAt": "2026-09-01T15:16:35+09:00",
+      "publication": {
+        "status": "published",
+        "privacyReviewed": true,
+        "publicPreviewAuthorizedByUser": true
+      },
+      "source": {
+        "sourceId": "chatgpt-medical-knowledge-2026",
+        "title": "의학지식 문의",
+        "rawSnapshotSha256": "215e5497f8b04b0dc06219df08d2dde7265c00d5ad2638be014c5d57e978587d",
+        "rawSnapshotBytes": 1608594,
+        "visibleRecordsFileSha256": "3fea4e04e40bea03d953c8879aa6569d79eb09d74e7980d3035da8dca4060baf",
+        "allUserAssistantRecordsFileSha256": "31d8904c7aaf98278289472dddca37420a5667274a02fd829a5c7e4e4e1ecc88",
+        "allMessageRecordsFileSha256": "13a81290f8191be3d4942b468545d326eb7783b5c4ddbc94c557d7843c2da45d",
+        "extractionManifestFileSha256": "2c4235a0224b46afeb9a8ee97f00714c2ad3510eeeb256ae9efea2338b1e1e18",
+        "completeChronologyFileSha256": "defea2de18b0f19addccd558ac8e06395adf187b2653670c6ec3c803c4c8d36a",
+        "completeAuditManifestFileSha256": "024f9db7d1f8da9fdc3f8ac0389c5a7d90b9b326a1973e62995f4a68fd992f3c",
+        "correctionsFileSha256": "71332fad99cc3b59c39730b02a32a5e1f2ceed8627a7bdf1492628802faedc59",
+        "visibleMessageCount": 44,
+        "allUserAssistantRecordCount": 157,
+        "allMessageRecordCount": 273,
+        "completePublicMessageCount": 57,
+        "visibleSequenceSha256": "b901ce15cdb092ad62fa8c2cafe5c8197045bd845a2c335d0e406ffbaecf4e3a",
+        "completeSequenceSha256": "71c9b88892117e59500d3a1d9fc39e1ccce09b9cf672fbe61d259ed0c3382d56",
+        "embeddedReportSequenceSha256": "2afd763a006efcb0b8327f265d20e6b1359c7e46ef806d9569f8c538e249cc9b",
+        "currentNode": "a1983b07-d99a-466e-a66a-d25de304734d"
+      },
+      "selection": {
+        "publishedMessageCount": 52,
+        "publishedUserMessageCount": 22,
+        "publishedAssistantMessageCount": 30,
+        "publishedAssistantCommentaryCount": 4,
+        "publishedAssistantFinalCount": 22,
+        "publishedAssistantUnknownChannelCount": 4,
+        "sourceKindCounts": {
+          "conversation-message": 39,
+          "voice-transcript": 12,
+          "embedded-app-report": 1
+        },
+        "correctedUserMessageCount": 19,
+        "retainedReferenceLinkCount": 45,
+        "globallyUniqueReferenceLinkCount": 44,
+        "referenceUrlPolicy": "session-identifiers-and-tracking-query-parameters-removed",
+        "dailyPostCount": 8,
+        "firstRecordedAt": "2026-08-01T12:10:52.771184+09:00",
+        "lastRecordedAt": "2026-08-30T06:04:33.966781+09:00",
+        "publishedContentSha256": "93f2a1dcaa83790ecd54403cbc78defb491c1fd03c78f397335ad4559d24ee5e"
+      },
+      "withheld": [
+        {
+          "sourceMessageId": "dcab2305-fe27-4e4e-a5c5-d6fcd6a12c37",
+          "sourceOrdinal": 35,
+          "role": "user",
+          "recordedAt": "2026-08-26T00:43:56.878370+09:00",
+          "sourceTextSha256": "sha256:f99c27d220b7860b3b85ec7c1742c2e2c8f540634964e2a907300b71476d2064",
+          "sourceRecordSha256": "sha256:01401e37d1be6f79d907ffc43f13b4b8903302fd3f49cd1c29a30fbba525340c",
+          "reason": "complete-document-email-turn-contains-personal-email-and-temporary-artifact-links",
+          "publicationStatus": "withheld-without-text"
+        },
+        {
+          "sourceMessageId": "472ef46a-d261-4565-82d9-30bdf2b605dd",
+          "sourceOrdinal": 36,
+          "role": "assistant",
+          "channel": "commentary",
+          "recordedAt": "2026-08-26T00:44:15.012433+09:00",
+          "sourceTextSha256": "sha256:56a4d2b6104454cd316384a2262be2fcd3cbf0b17864f578356be937189d06ab",
+          "sourceRecordSha256": "sha256:bb04c56642d63fb49064a983f5255d28b66389aa9ba900d421db008eb7eac571",
+          "reason": "complete-document-email-turn-contains-personal-email-and-temporary-artifact-links",
+          "publicationStatus": "withheld-without-text"
+        },
+        {
+          "sourceMessageId": "3b22d631-fc83-4ccc-a642-2fd4fd1c6f0d",
+          "sourceOrdinal": 37,
+          "role": "assistant",
+          "channel": "commentary",
+          "recordedAt": "2026-08-26T00:47:19.723273+09:00",
+          "sourceTextSha256": "sha256:9d6b2c2a21d9d17a0ef89d551fbae8728fa9a789394323ed40649a2338749355",
+          "sourceRecordSha256": "sha256:6b446645c35f598479a99ddf6f09d20975d96302aff4d3e5298fb1a286781303",
+          "reason": "complete-document-email-turn-contains-personal-email-and-temporary-artifact-links",
+          "publicationStatus": "withheld-without-text"
+        },
+        {
+          "sourceMessageId": "fc5da018-a162-4e4f-b769-924d2a275bf0",
+          "sourceOrdinal": 38,
+          "role": "assistant",
+          "channel": "commentary",
+          "recordedAt": "2026-08-26T00:56:25.000020+09:00",
+          "sourceTextSha256": "sha256:bcdb600c53cd22c7116fdadc4a59bae6c379d83f77e875d781f322468a13a9c5",
+          "sourceRecordSha256": "sha256:fe456f424a42a8882f62cc96ec9a9daca3f7959131cddec06bf94c780b1df2b8",
+          "reason": "complete-document-email-turn-contains-personal-email-and-temporary-artifact-links",
+          "publicationStatus": "withheld-without-text"
+        },
+        {
+          "sourceMessageId": "077a0f6c-0ddf-4fd0-8f1b-715db4306f69",
+          "sourceOrdinal": 39,
+          "role": "assistant",
+          "channel": "final",
+          "recordedAt": "2026-08-26T00:57:01.537452+09:00",
+          "sourceTextSha256": "sha256:7aef1dec0c52cdb55abf6be5773facff2926d76fe3aa2fe3dc0353b94ec0cdc9",
+          "sourceRecordSha256": "sha256:72ad7d040f90b298b5bdaadd6439c29194b633e07a2b449068e0e825961f924a",
+          "reason": "complete-document-email-turn-contains-personal-email-and-temporary-artifact-links",
+          "publicationStatus": "withheld-without-text"
+        }
+      ],
+      "excludedSourceRecords": [
+        {
+          "sourceMessageId": "60d800f7-9c6f-4b5d-bb41-171729120c0e",
+          "role": "user",
+          "recordedAt": "2026-08-01T12:10:54.387746+09:00",
+          "contentType": "text",
+          "sourceTextSha256": "sha256:5c7c218b2327e3146c07b60eec368ff7f8c3cb9873645b76d13439f6a9b13ae4",
+          "sourceRecordSha256": "sha256:13d217998c01aa92089ebb9789f265088777f76fb34ad1a7cc7913f848792de0",
+          "visibility": {
+            "visuallyHidden": true,
+            "redacted": true
+          },
+          "reason": "source-record-is-visually-hidden-or-redacted",
+          "publicationStatus": "excluded-without-text"
+        },
+        {
+          "sourceMessageId": "7c441ee6-ea30-4049-a740-e9d6339a83ee",
+          "role": "assistant",
+          "recordedAt": "2026-08-01T12:10:54.351824+09:00",
+          "contentType": "text",
+          "sourceTextSha256": "sha256:1ba02833be2d6ca79f567795a0cdcd029dbe2f93a013bab5ed52ca2ae9eba546",
+          "sourceRecordSha256": "sha256:b464445f9c69302b86a750ce5fd793a6885be6982b4ee87cd94c304eaf238c70",
+          "visibility": {
+            "visuallyHidden": false,
+            "redacted": true
+          },
+          "reason": "source-record-is-visually-hidden-or-redacted",
+          "publicationStatus": "excluded-without-text"
+        },
+        {
+          "sourceMessageId": "adb073f9-9d44-4ca6-ab74-61f30b72ee21",
+          "role": "assistant",
+          "recordedAt": "2026-08-17T20:03:42.837737+09:00",
+          "contentType": "model_editable_context",
+          "sourceTextSha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceRecordSha256": "sha256:24a2ba98e478663db633d44583d5c859e21bcfe0fd0618e1113152c8475cea9a",
+          "visibility": {
+            "visuallyHidden": false,
+            "redacted": true
+          },
+          "reason": "source-record-is-visually-hidden-or-redacted",
+          "publicationStatus": "excluded-without-text"
+        },
+        {
+          "sourceMessageId": "11716cd8-83c7-467c-9088-675832ebd0a7",
+          "role": "assistant",
+          "recordedAt": "2026-08-18T22:08:23.833077+09:00",
+          "contentType": "model_editable_context",
+          "sourceTextSha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceRecordSha256": "sha256:1f457f8642507183940247c9709651b2a670e14eb806c8239757c8719a3006d5",
+          "visibility": {
+            "visuallyHidden": false,
+            "redacted": true
+          },
+          "reason": "source-record-is-visually-hidden-or-redacted",
+          "publicationStatus": "excluded-without-text"
+        },
+        {
+          "sourceMessageId": "a21d387e-968b-46e3-acb1-f148978b9d35",
+          "role": "assistant",
+          "recordedAt": "2026-08-18T22:13:12.390152+09:00",
+          "contentType": "model_editable_context",
+          "sourceTextSha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceRecordSha256": "sha256:6ea66e92d875183c9f08b870a22835489064ce24fe70b09b2faaeba65e380372",
+          "visibility": {
+            "visuallyHidden": false,
+            "redacted": true
+          },
+          "reason": "source-record-is-visually-hidden-or-redacted",
+          "publicationStatus": "excluded-without-text"
+        },
+        {
+          "sourceMessageId": "44584141-adde-48c1-8bec-5479ecd92a39",
+          "role": "assistant",
+          "recordedAt": "2026-08-22T06:08:30.246971+09:00",
+          "contentType": "model_editable_context",
+          "sourceTextSha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceRecordSha256": "sha256:aee9f990040c6add14f2fc30ee82a1049c71337bd1a7379996b92d38dba78423",
+          "visibility": {
+            "visuallyHidden": false,
+            "redacted": true
+          },
+          "reason": "source-record-is-visually-hidden-or-redacted",
+          "publicationStatus": "excluded-without-text"
+        },
+        {
+          "sourceMessageId": "c5f29f77-e818-4f7d-9a3a-80973580c8a8",
+          "role": "assistant",
+          "recordedAt": "2026-08-25T08:49:09.128401+09:00",
+          "contentType": "model_editable_context",
+          "sourceTextSha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceRecordSha256": "sha256:202b0d1b0dbe70e48d29139682fe0aaddce9fd3a629f282bf053e58d299de174",
+          "visibility": {
+            "visuallyHidden": false,
+            "redacted": true
+          },
+          "reason": "source-record-is-visually-hidden-or-redacted",
+          "publicationStatus": "excluded-without-text"
+        },
+        {
+          "sourceMessageId": "32c7db97-bafc-4f09-88b3-9a7422f35131",
+          "role": "assistant",
+          "recordedAt": "2026-08-26T00:38:07.060377+09:00",
+          "contentType": "model_editable_context",
+          "sourceTextSha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceRecordSha256": "sha256:8231041b95565fcd895e6d2bea0381b9693edc5073a36a533ee67e9a3fdbed9c",
+          "visibility": {
+            "visuallyHidden": false,
+            "redacted": true
+          },
+          "reason": "source-record-is-visually-hidden-or-redacted",
+          "publicationStatus": "excluded-without-text"
+        },
+        {
+          "sourceMessageId": "cab2e6b8-b489-495e-866c-aa933af331ea",
+          "role": "assistant",
+          "recordedAt": "2026-08-26T09:48:19.482495+09:00",
+          "contentType": "model_editable_context",
+          "sourceTextSha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceRecordSha256": "sha256:7bc7bb7826797cec6c1732feba4ecf0cc53a63bb02ab79b347ec7342703dcf00",
+          "visibility": {
+            "visuallyHidden": true,
+            "redacted": true
+          },
+          "reason": "source-record-is-visually-hidden-or-redacted",
+          "publicationStatus": "excluded-without-text"
+        },
+        {
+          "sourceMessageId": "ea4239fa-0e80-453e-93db-07d4b34b276b",
+          "role": "assistant",
+          "recordedAt": "2026-08-27T07:25:28.359342+09:00",
+          "contentType": "model_editable_context",
+          "sourceTextSha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceRecordSha256": "sha256:deac34cf8a70ae2a5ed41e054c89ab04443922fb3e27c56c3b0a824159123d87",
+          "visibility": {
+            "visuallyHidden": false,
+            "redacted": true
+          },
+          "reason": "source-record-is-visually-hidden-or-redacted",
+          "publicationStatus": "excluded-without-text"
+        },
+        {
+          "sourceMessageId": "3becb630-12f1-483a-ba3a-dfdfa43822df",
+          "role": "assistant",
+          "recordedAt": "2026-08-27T07:26:31.548495+09:00",
+          "contentType": "model_editable_context",
+          "sourceTextSha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceRecordSha256": "sha256:1c079e6b95567bcb8ec973711f03fb4cc97152ca23ef1c64d2ce3ecc8ea9d566",
+          "visibility": {
+            "visuallyHidden": false,
+            "redacted": true
+          },
+          "reason": "source-record-is-visually-hidden-or-redacted",
+          "publicationStatus": "excluded-without-text"
+        },
+        {
+          "sourceMessageId": "93047322-bcd6-466c-a69a-317d14b18a64",
+          "role": "assistant",
+          "recordedAt": "2026-08-30T06:04:33.967793+09:00",
+          "contentType": "model_editable_context",
+          "sourceTextSha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sourceRecordSha256": "sha256:2e2669c04a2225ba5b8000c9b25549d6528a7cf0f8878509cf77bd1ffd5e0a47",
+          "visibility": {
+            "visuallyHidden": false,
+            "redacted": true
+          },
+          "reason": "source-record-is-visually-hidden-or-redacted",
+          "publicationStatus": "excluded-without-text"
+        }
+      ],
+      "posts": [
+        "medical-2026-08-01-conversation",
+        "medical-2026-08-17-conversation",
+        "medical-2026-08-18-conversation",
+        "medical-2026-08-22-conversation",
+        "medical-2026-08-25-conversation",
+        "medical-2026-08-26-conversation",
+        "medical-2026-08-27-conversation",
+        "medical-2026-08-30-conversation"
       ]
     }
   ]

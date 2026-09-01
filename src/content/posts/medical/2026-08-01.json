@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-08-01-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 8월 1일 의학지식 문의",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-08-01",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학 지식",
+    "원문 질의응답",
+    "날짜별 기록"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의",
+      "accessedAt": {
+        "start": "2026-09-01T15:16:35+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-e46e64be-b051-4eae-a44f-81fb3027e5ce",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-08-01T12:10:52.771184+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-01T15:16:35+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "e46e64be-b051-4eae-a44f-81fb3027e5ce",
+      "sourceOrdinal": 1,
+      "turnId": "81120ec8-d030-402f-b51e-79716966256b",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "original": "의정부 성모병원 김마루 교수님은 어떤분이셔? 지금 선진이 치료해주시는 분인데 궁금해 @심층 리서치 ",
+      "originalSha256": "sha256:83863fea4cf3b90c6ceefd63c851ae9495b773d542a14bc45822caedd0570281",
+      "corrected": "의정부 성모병원 김마루 교수님은 어떤 분이셔? 지금 선진이 치료해주시는 분인데 궁금해 @심층 리서치 ",
+      "correctionPolicy": "typos-only",
+      "fidelity": "typo-corrected"
+    },
+    {
+      "id": "message-44e34fb4-5556-47e9-bb53-ff3b2fdf4440",
+      "role": "assistant",
+      "sourceKind": "embedded-app-report",
+      "recordedAt": {
+        "start": "2026-08-01T12:13:21.664865+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-01T15:16:35+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "44e34fb4-5556-47e9-bb53-ff3b2fdf4440",
+      "sourceOrdinal": 2,
+      "turnId": "81120ec8-d030-402f-b51e-79716966256b",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "channel": "final",
+      "text": "# 의정부성모병원 외상외과 김마루 교수 조사 보고서\n\n## 핵심 요약\n\n**김마루 교수는 가톨릭대학교 의정부성모병원 외상외과 부교수이자 경기북부 권역외상센터 외상중환자실 책임자로, 중증 다발외상·출혈성 쇼크·외상중환자 관리와 영양지원에 집중해 온 외상외과 의사다.** 가톨릭대학교 의과대학을 졸업하고 동 대학원에서 박사학위를 받았으며, 2022년 미국 Riverside University Health System·UC Riverside의 임상성과연구센터에서 국제 방문연구를 수행했다. 병원 공식 진료 분야는 **중증외상학과 중환자의학**이다. citeturn0search1turn10view0\n\n연구 측면에서는 손상통제소생술, 외상성 출혈·응고장애, 외상성 뇌손상 환자의 근감소증과 영양상태, 중환자 조기 영양공급, 외상환자의 영상·수술전략을 지속적으로 발표했다. 특히 외상중환자에서 “출혈을 빨리 멈추고 생리학적 붕괴를 교정하는 진료”와 “생존 이후 회복을 위한 영양·근육 평가”를 연결하는 연구 성향이 뚜렷하다. citeturn2search9turn7search1turn2search19\n\n공개적으로 확인되는 환자 개인후기는 매우 적어 친절도·설명력 등을 객관적으로 평가하기 어렵다. 반면, 고층 추락 다발외상 환자의 헬기이송·응급지혈·중환자 치료 사례와 재난현장 의료지원 활동이 보도됐다. 검색 가능한 공개 자료에서는 김 교수 개인에 대한 확정적 징계·행정처분·유죄판결은 확인되지 않았지만, 이는 “그런 기록이 절대 없다”는 의미는 아니다. citeturn1view3turn5search1\n\n**조사·열람 기준일: 2026년 8월 1일**\n\n## 핵심 사실 비교\n\n| 항목 | 확인 내용 |\n|---|---|\n| 현재 직위 | 가톨릭대학교 의정부성모병원 외상외과 **부교수**; 경기북부 권역외상센터 외상중환자실 책임자/Director로 2018년부터 기재 citeturn0search1turn10view0 |\n| 소속 부서 | 외상외과, 경기북부 권역외상센터 citeturn0search3turn0search5 |\n| 주요 연구 분야 | 중증외상, 출혈성 쇼크·손상통제소생술, 응고장애, 외상성 뇌손상, 근감소증, 중환자 영양지원 citeturn2search8turn0search12turn7search13turn2search19 |\n| 대표논문 | **Damage control strategy in bleeding trauma patients**(2020); **A Comprehensive Analysis of the Association of Psoas and Masseter Muscle With Traumatic Brain Injury**(2021); **Outcomes Comparison of Endovascular and Open Surgical Approaches for Subclavian Arterial Injury**(2025) citeturn2search9turn7search1turn11search24 |\n| 임상 전문 분야 | 공식 표기: 중증외상학·중환자의학. 공개 연구·사례상 출혈 조절, 쇼크 소생, 다발외상 수술 및 중환자실 치료, 영양지원에 관여 citeturn0search1turn1view3 |\n| 연락처·진료시간 | 외상외과 상담 **010-8048-5200, 평일 08:00–17:00**; 대표전화 1661-7500, 예약 1811-7755. 김 교수 개인 외래시간표는 현재 공식 페이지에서 **진료일정 없음/미확인** citeturn1view0turn0search3 |\n\n## 전문 프로필과 경력\n\n김 교수는 2006년 가톨릭대학교 의과대학을 졸업하고 2006–2011년 가톨릭중앙의료원에서 인턴·외과 전공의 과정을 밟았다. 2017년 가톨릭대학교 대학원 의학박사 학위를 취득했고, 2018년 의정부성모병원 외상외과 조교수 및 권역외상센터 외상중환자실 책임자가 됐다. 2022년 미국 Riverside University Health System·UC Riverside의 Comparative Effectiveness and Clinical Outcomes Research Center 방문연구를 거쳐 같은 해 외상외과 부교수로 승진한 것으로 2026년 국제학회 약력에 기재돼 있다. citeturn10view0\n\n```mermaid\ntimeline\n    title 김마루 교수 공개 경력 연표\n    2006 : 가톨릭대학교 의과대학 졸업\n    2006–2011 : 가톨릭중앙의료원 인턴·외과 전공의\n    2015 : 경기북부 권역외상센터 근무 시작으로 보도\n    2017 : 가톨릭대학교 대학원 의학박사\n    2018 : 의정부성모병원 외상외과 조교수\n         : 권역외상센터 외상중환자실 책임자\n    2022 : RUHS·UC Riverside 국제 방문연구\n         : 외상외과 부교수\n    2026 : 부교수 및 외상중환자실 책임자 재확인\n```\n\n2018년 기사에는 김 교수를 “외과 전문의”로 지칭하고, 외상외과 학회 등록자료에서도 전문의 회원으로 확인된다. 다만 **외과 전문의 자격번호, 외상외과·중환자의학 세부전문의 자격과 취득연도는 공개된 공식 프로필에서 미확인**이다. citeturn5search6turn4search7\n\n## 연구 성과와 학술 기여\n\n연구의 첫 번째 축은 **출혈성 외상과 소생술**이다. 2020년 논문에서는 출혈성 외상 환자의 손상통제전략을 정리했고, 2021년 연구에서는 의정부성모병원 외상환자 452명의 혈전탄성검사 자료를 분석해 응고·섬유소용해 이상과 사망위험의 연관성을 제시했다. 2024년 대한의사협회지에서는 대량수혈, 저체온·산증·응고장애 교정 등을 포함한 손상통제소생술을 국내 임상 맥락에서 재정리했다. citeturn2search9turn0search12turn2search8\n\n두 번째 축은 **외상환자의 근감소증·영양·예후**다. 복부 CT에서 측정한 요근과 저작근을 외상성 뇌손상 환자의 영양·예후 바이오마커로 평가했으며, 관련 연구는 가톨릭중앙의료원 연구재단의 2019년도 지원을 받았다. 이후 중환자실에서 충분한 조기 영양공급이 생존과 연관된다는 다학제 연구로 확장됐다. citeturn7search13turn6search14turn2search19\n\n세 번째 축은 **임상시스템과 수술전략**이다. 복부외상에서 복강경 수술의 안전성, 쇄골하동맥 손상의 혈관내치료 대 개복수술, 지역 간 외상 접근성, 의료경보시스템 등을 연구했다. 2022년 미국 방문연구 이후에는 미국 전국자료를 활용한 외상·응급외과 임상성과 연구가 늘어난 점이 특징적이다. citeturn2search22turn11search24turn11search5turn3search8\n\n통합된 Google Scholar 프로필이나 검증 가능한 h-index는 **미확인**이다. 검색결과에 표시된 논문별 인용 수는 플랫폼·갱신시점에 따라 다르지만, 손상통제전략 논문은 약 19회, 저작근 영양 바이오마커 연구는 약 33회, 근육량–외상성 뇌손상 연구는 약 5–6회 인용된 것으로 표시된다. 따라서 국제적 “대형 인용 연구자”라기보다는, **권역외상센터 임상자료를 실용적 연구로 연결하는 중견 임상의학자**로 평가하는 편이 타당하다. citeturn2search9turn6search14turn7search13\n\n주요 국가과제·연구비 총액은 **미확인**이며, 확인 가능한 지원은 가톨릭중앙의료원 연구재단 프로그램 연구비다. citeturn7search1\n\n## 임상 전문성과 치료 범위\n\n공식 전문분야는 중증외상학과 중환자의학이다. 실제 공개 사례와 연구를 종합하면 김 교수의 주된 역할은 단일 장기질환의 예약수술보다, 교통사고·추락·산업재해 등으로 발생한 **복부·흉부·골반·사지·두부 다발외상을 초기 평가하고 출혈과 쇼크를 통제하며 여러 진료과의 치료를 조정하는 것**에 가깝다. citeturn0search1turn1view3\n\n공개 자료로 뒷받침되는 진료·처치 범위에는 응급 지혈 및 봉합, 손상통제수술·소생술, 대량수혈과 응고장애 교정, 외상중환자실 인공호흡·순환관리, 복부외상 수술, 안정된 일부 복부외상 환자의 복강경 접근, 외상환자 영양지원이 포함된다. 다만 개별 환자에게 어떤 수술을 김 교수가 직접 집도하는지는 손상 부위와 협진과에 따라 달라지므로, 일반 외래의 “특정 수술 전문의”처럼 해석해서는 안 된다. citeturn2search15turn2search22turn4search10\n\n## 수상·학회활동과 대외 평가\n\n김 교수는 대한외상중환자외과학회 젊은 의학자상을 2015년과 2021년 두 차례 받았고, 2019년 외과대사영양학회 중외학술상, 2020년 대한외상학회 우수구연상을 수상했다. 2024년에는 의정부성모병원 영양지원팀 연구가 한국정맥경장영양학회 최고 구연·포스터 발표상을, 2025년과 2026년에도 영양 관련 연구가 학술대회 최우수·Excellent 발표상을 받은 것으로 보도됐다. citeturn4search1turn4search10turn5search4turn4search0\n\n2026년 약력에는 대한외상학회 국제협력위원장·부총무, 대한외상중환자외과학회 부총무, 대한외상술기연구회 편집위원장, 대한신경집중치료학회 특임이사, 대한외과대사영양학회 학술위원, 한국정맥경장영양학회 연구위원으로 기재돼 있다. 이는 임상뿐 아니라 학회 운영·교육·국제교류에도 관여한다는 근거다. citeturn10view0\n\n환자경험에 관한 독립적·정량적 리뷰는 **미확인**이다. 의료진 홍보성 데이터나 AI 평판 문구는 검증 방식이 공개되지 않아 평가 근거에서 제외하는 것이 안전하다. 언론에 소개된 대표 사례는 2024년 12월 고층 추락 다발외상 환자에게 헬기이송, 지혈·수혈, 협진수술과 집중치료를 시행해 퇴원까지 이끈 사례다. 다만 단일 성공 사례는 전체 치료성과를 대표하지 않으며, 병원 제공자료에 의존한 보도라는 한계가 있다. citeturn1view3\n\n## 예약 정보와 자료 신뢰도 평가\n\n외상외과 상담전화는 **010-8048-5200, 평일 08:00–17:00**이며 병원 대표전화는 **1661-7500**, 예약전화는 **1811-7755**다. 외상센터 자체는 24시간 중증환자를 담당하지만, 김 교수의 정규 외래 요일·시간은 공식 페이지에서 현재 “진료일정 없음”으로 표시돼 **미확인**이다. 기존 환자는 병동·외상센터 또는 예약창구를 통해 담당 진료일을 직접 확인하는 것이 가장 정확하다. citeturn1view0turn1view3\n\n**종합 신뢰도는 ‘높음–중간’**이다. 현재 직위·학력·경력·학회직책은 2026년 국제학회 공식 약력과 병원 페이지가 서로 일치해 신뢰도가 높고, 연구내용은 PubMed·KCI·학술지 원문으로 확인된다. 반면 전문의 세부자격, 개인별 수술량·사망률, 진료 만족도, 연구비 총액은 공개자료가 부족하다. 환자후기와 언론 성공사례는 선택편향이 크므로 김 교수의 실력을 단독으로 입증하는 자료로 보기는 어렵다. 전체적으로는 **장기간 권역외상센터에 근무하면서 외상중환자실 운영, 응급소생, 영양·근감소증 연구를 결합한 실무형 외상외과 전문 의료진**이라는 평가가 가장 근거에 부합한다. citeturn10view0turn0search12turn2search19",
+      "textSha256": "sha256:6148afebe23897ada27f1f6331b9990fae92df347d0d175416785baf466daac1",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "references": [
+        {
+          "title": "외상외과",
+          "url": "https://www.cmcujb.or.kr/page/department/A/126/3",
+          "attribution": "cmcujb.or.kr"
+        },
+        {
+          "title": "https://www.jstage.jst.go.jp/article/jjast/40/2/40_40.2_06/_pdf/-char/ja",
+          "url": "https://www.jstage.jst.go.jp/article/jjast/40/2/40_40.2_06/_pdf/-char/ja",
+          "attribution": "jstage.jst.go.jp"
+        },
+        {
+          "title": "Damage control strategy in bleeding trauma patients",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33423438/",
+          "attribution": "pubmed.ncbi.nlm.nih.gov"
+        },
+        {
+          "title": "A Comprehensive Analysis of the Association of Psoas and ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34689478/",
+          "attribution": "pubmed.ncbi.nlm.nih.gov"
+        },
+        {
+          "title": "Early Adequate Nutrition in ICU Is Associated with Survival ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39511706/",
+          "attribution": "pubmed.ncbi.nlm.nih.gov"
+        },
+        {
+          "title": "16층서 떨어졌는데…“살았다” 기적 만든 ‘막내 의사’ 사연",
+          "url": "https://v.daum.net/v/GN8tVSRuUw",
+          "attribution": "v.daum.net"
+        },
+        {
+          "title": "의정부성모병원 재해의료지원팀 출동 현장에서 직접 화재 ...",
+          "url": "https://www.ajunews.com/view/20190804123947891",
+          "attribution": "ajunews.com"
+        },
+        {
+          "title": "외상외과",
+          "url": "https://www.cmcujb.or.kr/page/department/A/126/2",
+          "attribution": "cmcujb.or.kr"
+        },
+        {
+          "title": "경기북부 권역외상센터 - 의정부시",
+          "url": "https://www.cmcujb.or.kr/page/department/A/345/2",
+          "attribution": "cmcujb.or.kr"
+        },
+        {
+          "title": "출혈성 중증 외상환자에서 손상통제소생술 - 한국학술지인용색인",
+          "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003160961",
+          "attribution": "kci.go.kr"
+        },
+        {
+          "title": "Application of Thromboelastographic Markers to Predict the Survival ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34107636/",
+          "attribution": "pubmed.ncbi.nlm.nih.gov"
+        },
+        {
+          "title": "A Comprehensive Analysis of the Association of Psoas ... - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8590921/",
+          "attribution": "pmc.ncbi.nlm.nih.gov"
+        },
+        {
+          "title": "Outcomes Comparison of Endovascular and Open Surgical ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39732326/",
+          "attribution": "pubmed.ncbi.nlm.nih.gov"
+        },
+        {
+          "title": "< What >골든타임 1시간인데.. 年12만 중증환자에 공식외상 ...",
+          "url": "https://v.daum.net/v/onR8F3qPpi",
+          "attribution": "v.daum.net"
+        },
+        {
+          "title": "대한외상중환자외과학회",
+          "url": "https://acs.thewithin.kr/register/2019_spring/entry/list.html?key=&keyword=&sort=category&start=225&xadmit=&xcategory=",
+          "attribution": "acs.thewithin.kr"
+        },
+        {
+          "title": "Applicability of the masseter muscle as a nutritional biomarker",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7015638/",
+          "attribution": "pmc.ncbi.nlm.nih.gov"
+        },
+        {
+          "title": "a single level I trauma center, propensity score matching ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39225806/",
+          "attribution": "pubmed.ncbi.nlm.nih.gov"
+        },
+        {
+          "title": "Deaths After Readmissions are Mostly Attributable to Failure-to ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38656140/",
+          "attribution": "pubmed.ncbi.nlm.nih.gov"
+        },
+        {
+          "title": "Early Experience of Medical Alert System in a Rural ...",
+          "url": "https://www.accjournal.org/journal/view.php?doi=10.4266%2Fkjccm.2016.00598",
+          "attribution": "accjournal.org"
+        },
+        {
+          "title": "Damage control resuscitation for patients with bleeding trauma",
+          "url": "https://jkma.org/m/journal/view.php?number=3586",
+          "attribution": "jkma.org"
+        },
+        {
+          "title": "외상외과 김마루 교수팀, 한국정맥경장영양학회 최고 구연 ...",
+          "url": "https://www.hinews.co.kr/news/articleView.html?idxno=48060",
+          "attribution": "hinews.co.kr"
+        },
+        {
+          "title": "의정부성모 외상외과 김마루 교수 '젊은 의학자상' 수상",
+          "url": "https://www.yna.co.kr/view/AKR20210518049000060",
+          "attribution": "yna.co.kr"
+        },
+        {
+          "title": "의정부성모병원 외상외과 김마루 교수팀, 국제학술대회 ...",
+          "url": "https://medicine.catholic.ac.kr/medicine/community/news.do?article.offset=590&articleLimit=10&articleNo=96191&mode=view",
+          "attribution": "medicine.catholic.ac.kr"
+        },
+        {
+          "title": "의정부성모병원 김마루 교수팀, 정맥경장영양학회 'Excellent' ...",
+          "url": "https://www.whosaeng.com/171450",
+          "attribution": "whosaeng.com"
+        }
+      ]
+    }
+  ],
+  "amendments": [],
+  "media": [],
+  "related": [],
+  "privacyReviewed": true
+}
