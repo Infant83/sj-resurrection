@@ -82,12 +82,22 @@ export function assertArchiveIntegrity(posts: ArchivePost[]) {
           const source = sourceById.get(sourceRef);
           return source?.type === 'chat-conversation' && source.certainty === 'confirmed';
         });
+        const verifiedEmbeddedReportSource =
+          message.sourceKind === 'embedded-app-report' &&
+          message.sourceRefs.some((sourceRef) => {
+            const source = sourceById.get(sourceRef);
+            return (
+              source !== undefined &&
+              ['caregiver-observation', 'user-recollection'].includes(source.type) &&
+              ['confirmed', 'reported', 'observed'].includes(source.certainty)
+            );
+          });
 
         if (!message.sourceVerified || !message.sourceVerifiedAt) {
           throw new Error(`Message completeness was not source-verified: ${post.data.recordId}/${message.id}`);
         }
-        if (!confirmedConversationSource) {
-          throw new Error(`Published message has no confirmed conversation source: ${post.data.recordId}/${message.id}`);
+        if (!confirmedConversationSource && !verifiedEmbeddedReportSource) {
+          throw new Error(`Published message has no verified archival source: ${post.data.recordId}/${message.id}`);
         }
         if (!message.sourceMessageId || !message.sourceOrdinal) {
           throw new Error(`Published message has no source identity: ${post.data.recordId}/${message.id}`);
@@ -126,8 +136,16 @@ export function assertArchiveIntegrity(posts: ArchivePost[]) {
       }
     }
 
-    if (post.data.status === 'published' && (!userMessageCount || !assistantMessageCount)) {
-      throw new Error(`Published post must contain both user and GPT messages: ${post.data.recordId}`);
+    const isVerifiedEmbeddedReportOnly =
+      post.data.messages.length > 0 &&
+      post.data.messages.every(
+        (message) => message.role === 'user' && message.sourceKind === 'embedded-app-report' && message.sourceVerified,
+      );
+    if (
+      post.data.status === 'published' &&
+      (!userMessageCount || (!assistantMessageCount && !isVerifiedEmbeddedReportOnly))
+    ) {
+      throw new Error(`Published post must contain a complete conversation or verified embedded report: ${post.data.recordId}`);
     }
 
     for (const amendment of post.data.amendments) {

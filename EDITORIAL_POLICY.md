@@ -2,7 +2,7 @@
 
 ## 1. Three layers
 
-- **Source archive:** selected exact messages and original attachments, kept read-only and eventually linked by hash.
+- **Source archive:** selected exact messages, complete embedded reports, and original attachments, kept read-only and eventually linked by hash.
 - **Normalized record:** structured post metadata, chronological messages, sources, amendments, and media references.
 - **Rendered site:** the family-readable continuous feed generated from the normalized record.
 
@@ -14,7 +14,7 @@ The existing repository history is retained as a record of the project's develop
 
 ## 2. Original prompts and letters
 
-- Every board preserves every included visible user prompt, GPT commentary, and GPT final answer from the source conversation.
+- Every board preserves every included visible user prompt, GPT commentary, and GPT final answer from the source conversation. A complete external or embedded report may also stand alone when it is source-verified, hashed, and clearly labeled as a report rather than a conversation reply.
 - A source message remains one message. It is never split, merged, shortened, or reordered to fit event-based sections.
 - When a user adds information before the final GPT answer, the intervening user and GPT messages remain in their actual order; they are not forced into artificial one-to-one pairs.
 - User-authored prompts and letters display a typo-and-spacing-only corrected copy by default and retain the complete input text behind “입력 당시 원문 보기”.
@@ -35,9 +35,9 @@ Every post distinguishes:
 
 Exact quotes use quotation marks only when the exact wording is available. A remembered clinician explanation is labeled as a caregiver's recollection of that explanation.
 
-Before publication, each visible message is checked against a confirmed conversation source. The source message ID, source ordinal, UTF-8 SHA-256 hash, and verification time are stored with the record.
+Before publication, each visible message is checked against its confirmed source conversation or complete embedded report. The source message ID, source ordinal, UTF-8 SHA-256 hash, and verification time are stored with the record.
 
-If the shared source omits or redacts a reply, the missing reply is never reconstructed. Its identifiers and hash evidence may be recorded in the import ledger, but that incomplete exchange remains off the public feed until a complete source is supplied.
+If the shared source omits or redacts a reply, the missing reply is never reconstructed. Detailed identifiers and hash evidence remain in private audit material; the public import ledger records only aggregate withheld counts and reasons. The incomplete exchange remains off the public feed until a complete source is supplied.
 
 ## 4. Time
 
@@ -58,7 +58,7 @@ This archive is a family record of observations, received explanations, and Chat
 ## 7. Privacy and media
 
 - The repository and GitHub Pages preview are public by the user's explicit publication decision.
-- The public preview may contain only privacy-reviewed, source-verified complete conversation exchanges. It does not present summaries or reconstructions as historical records.
+- The public preview may contain only privacy-reviewed, source-verified complete conversation exchanges or complete source-verified embedded reports. It does not present summaries or reconstructions as historical records.
 - Official medical records, patient numbers, contact details, and original media are not committed to the public repository.
 - `robots.txt` and `noindex` reduce discovery but do not provide access control. Content intended for the private source archive must never be assumed safe to publish here.
 - Original photos and documents are separated from web derivatives.

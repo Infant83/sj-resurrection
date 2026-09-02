@@ -9,6 +9,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "new:post": "node scripts/new-post.mjs",
+    "ledger:refresh": "node scripts/update-public-ledger.mjs",
     "privacy:check": "node scripts/privacy-check.mjs"
   },
   "dependencies": {

@@ -84,7 +84,7 @@ const amendment = z.object({
   sourceRefs: z.array(z.string()).default([]),
 });
 
-// The public repository accepts only complete, source-verified conversation records.
+// The public repository accepts only complete, source-verified conversations or embedded reports.
 const posts = defineCollection({
   loader: glob({ base: './src/content/posts', pattern: '**/*.{md,mdx,json}' }),
   schema: z.object({

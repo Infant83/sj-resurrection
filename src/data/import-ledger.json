@@ -1,25 +1,37 @@
 {
   "schemaVersion": 2,
   "timezone": "Asia/Seoul",
-  "lastUpdated": "2026-09-01",
+  "lastUpdated": "2026-09-02",
   "historyPolicy": {
     "mode": "retain-existing-commits",
     "decidedAt": "2026-08-31",
     "forcePushAllowed": false
   },
+  "auditPolicy": {
+    "mode": "public-safe-aggregate",
+    "excludedFromPublicLedger": [
+      "shared-conversation locators",
+      "raw snapshot hashes",
+      "source message identifiers",
+      "conversation node identifiers",
+      "withheld-message hashes"
+    ],
+    "idempotencyKey": "recordId"
+  },
   "boards": {
     "trauma": {
-      "status": "published-through-2026-08-31",
+      "status": "published-through-2026-09-02",
       "sourceThreads": [
         "중증 외상 예후 분석",
         "중증 외상 예후 분석 (phase2)",
-        "중증 외상 예후 분석 (phase 3)"
+        "중증 외상 예후 분석 (phase 3)",
+        "2026년 9월 2일 병원 통화 회의기록"
       ],
-      "publicationRule": "complete-visible-source-messages-only",
-      "sourceRequirement": "confirmed-chatgpt-shared-conversation-snapshot"
+      "publicationRule": "source-verified-complete-records-only",
+      "sourceRequirement": "confirmed shared-conversation snapshot or source-verified embedded report"
     },
     "life": {
-      "status": "published-through-2026-08-28",
+      "status": "published-through-2026-09-02",
       "sourceThreads": [
         "선진이와 함께하는 삶 (phase1)",
         "선진이와 함께하는 삶 (phase2)",
@@ -37,10 +49,12 @@
       "sourceRequirement": "confirmed-chatgpt-shared-conversation-snapshot-with-complete-audit"
     },
     "rehabilitation": {
-      "status": "pending-source-import",
+      "status": "published-through-2026-08-27",
       "sourceThreads": [
         "재활병원 전원 계획"
-      ]
+      ],
+      "publicationRule": "privacy-reviewed-complete-source-messages-only",
+      "sourceRequirement": "confirmed public conversation messages without personalized insurance locators"
     },
     "media": {
       "status": "initialized",
@@ -49,61 +63,27 @@
   },
   "imports": [
     {
-      "id": "trauma-shared-conversations-2026-08-31",
+      "id": "trauma-public-archive-2026-09-02",
       "board": "trauma",
-      "verifiedAt": "2026-08-31T18:13:51+09:00",
+      "throughDate": "2026-09-02",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
-      "sources": [
-        {
-          "sourceId": "chatgpt-trauma-phase-1",
-          "title": "중증 외상 예후 분석",
-          "rawSnapshotSha256": "9a51c75f9fc5b695cd5258ffaea2ec768927c3543c899c1d947462fd00ad2cd5",
-          "visibleMessageCount": 103,
-          "visibleSequenceSha256": "56bb04861ee38e1c139bd8fddf84cbeb514c7efa15f7feceb16fb29371801761",
-          "currentNode": "c05202fc-69a2-4905-bb8b-bd05c96c27f2"
+      "selection": {
+        "publishedPostCount": 38,
+        "publishedMessageCount": 274,
+        "publishedUserMessageCount": 102,
+        "publishedAssistantMessageCount": 172,
+        "correctedUserMessageCount": 65,
+        "sourceKindCounts": {
+          "conversation-message": 273,
+          "embedded-app-report": 1
         },
-        {
-          "sourceId": "chatgpt-trauma-phase-2",
-          "title": "중증 외상 예후 분석 (phase2)",
-          "rawSnapshotSha256": "442311bd8a0bc53906029e1207175ce41ca275701bb700e3697c17abc02446c9",
-          "visibleMessageCount": 226,
-          "visibleSequenceSha256": "e33459ac76a46d74c64bf1487c54c98bf030fc4e55fc4aefde9a13e4146bcd09",
-          "currentNode": "07e727a4-fb1a-540f-aefb-d171b016769f"
-        },
-        {
-          "sourceId": "chatgpt-trauma-phase-3",
-          "title": "중증 외상 예후 분석 (phase 3)",
-          "rawSnapshotSha256": "afc67ca7b8b57b9849464075f2796405e1a26abdcf8e1dfbc65ef1aba9bf6add",
-          "visibleMessageCount": 39,
-          "visibleSequenceSha256": "66fecad623ee73e7e9cfad6b77f7d990db4a527e765080338a6730aa80abc0b8",
-          "currentNode": "73e12691-c3d0-5d46-8b8f-cb6678b4abba"
-        }
-      ],
-      "merge": {
-        "phase1Phase2DuplicateMessageCount": 98,
-        "publishedMessageCount": 268,
-        "publishedUserMessageCount": 100,
-        "publishedAssistantMessageCount": 168,
-        "correctedUserMessageCount": 64,
-        "retainedReferenceLinkCount": 154,
-        "dailyPostCount": 36,
-        "publishedContentSha256": "e175d7f494f868810f7902afe43ad9e30674274ef4a16a229418a83b5e820a2c"
+        "withheldIncompleteExchangeCount": 1,
+        "publishedContentSha256": "ee3e7791db857f29811a84dfd7ef65be973a8028b19eb0816ccd947a132bb889"
       },
-      "withheld": [
-        {
-          "userSourceMessageId": "ff502b50-5e26-4b11-82b2-572ba874d411",
-          "userOriginalSha256": "sha256:74ab1e4723d913a64a71f2f08616b6596cb58816e77fc580e247b5e1094f40cf",
-          "recordedAt": "2026-08-08T11:13:22.621+09:00",
-          "assistantSourceMessageId": "95b0c5ce-9ecb-47b9-b731-eb91c4870cb1",
-          "sourcePlaceholderSha256": "sha256:1ba02833be2d6ca79f567795a0cdcd029dbe2f93a013bab5ed52ca2ae9eba546",
-          "reason": "complete-gpt-reply-not-present-in-shared-source",
-          "publicationStatus": "withheld-pending-complete-source"
-        }
-      ],
       "posts": [
         "trauma-2026-07-26-conversation",
         "trauma-2026-07-27-conversation",
@@ -140,94 +120,33 @@
         "trauma-2026-08-28-conversation",
         "trauma-2026-08-29-conversation",
         "trauma-2026-08-30-conversation",
-        "trauma-2026-08-31-conversation"
+        "trauma-2026-08-31-conversation",
+        "trauma-2026-09-01-conversation",
+        "trauma-2026-09-02-hospital-call-note"
       ]
     },
     {
-      "id": "life-shared-conversations-2026-09-01",
+      "id": "life-public-archive-2026-09-02",
       "board": "life",
-      "verifiedAt": "2026-09-01T14:06:03+09:00",
+      "throughDate": "2026-09-02",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
-      "sources": [
-        {
-          "sourceId": "chatgpt-life-phase-1",
-          "title": "선진이와 함께하는 삶 (phase1)",
-          "rawSnapshotSha256": "ed011ace9a6df5aceb94023a1265f36fe6041330257ebbe05de209aa6748b5c0",
-          "rawSnapshotBytes": 697301,
-          "visibleRecordsFileSha256": "b08253d6eac89d3bed0d1daddcb9c9039cbfa587ca7e556c921f47b30ab23b64",
-          "allRecordsFileSha256": "1fddc1274deb459af4e8ab440dd8cb32510b7656ff787c6a6f469eb1265b4a3c",
-          "manifestFileSha256": "1e881bf439729267d600d60c7c94da2c69fcb01daff4149ff2be547eb2eac0ac",
-          "visibleMessageCount": 14,
-          "allUserAssistantRecordCount": 35,
-          "visibleSequenceSha256": "38c424a55571860a7e6d045f8482fb466a8661dda7c01a805ba225a9bcab9003",
-          "currentNode": "de9e0032-ef9d-49ad-b8d9-6f4ca8f670e2"
+      "selection": {
+        "publishedPostCount": 20,
+        "publishedMessageCount": 51,
+        "publishedUserMessageCount": 20,
+        "publishedAssistantMessageCount": 31,
+        "correctedUserMessageCount": 20,
+        "sourceKindCounts": {
+          "conversation-message": 51
         },
-        {
-          "sourceId": "chatgpt-life-phase-2",
-          "title": "선진이와 함께하는 삶 (phase2)",
-          "rawSnapshotSha256": "b28acc9a0ce465178a09b6b9348c2b532311ee9c3463ae2ecbfa691e1267ea03",
-          "rawSnapshotBytes": 1002584,
-          "visibleRecordsFileSha256": "e14e195a0acf742996586f7c00727ac45bdb5d8e9c68be9d1ae5050b09959241",
-          "allRecordsFileSha256": "e81270b76c0fbd373c951296d0cbfb9423a6aa816fa3180f149526790caaf171",
-          "manifestFileSha256": "f0aaced459051df799e5f0a3444ad8311e5ea1d4f54cee2b12976f297023032b",
-          "visibleMessageCount": 39,
-          "allUserAssistantRecordCount": 112,
-          "visibleSequenceSha256": "0652753c7edded5178375d0abfb455b4c71b5dc950f47fd75a246e8893da64e3",
-          "currentNode": "25bcf6a6-3235-433a-829b-2c28c7f7c1f5"
-        },
-        {
-          "sourceId": "chatgpt-life-phase-3",
-          "title": "선진이와 함께하는 삶 (phase 3)",
-          "rawSnapshotSha256": "3d1b052ca2a0de7dad3f09129d6ad4eb08eeafdf938892a1e95ae4d70fa194fd",
-          "rawSnapshotBytes": 1058364,
-          "visibleRecordsFileSha256": "ff774a534b5f6043b183961ab65afbbab852f21b18ee1b96541aa6fd8ed420d5",
-          "allRecordsFileSha256": "88bb582cd916f1dc4fbd5dc2e127e314ac6d4220d0d9488c8d85dd3a61351042",
-          "manifestFileSha256": "a4281318df49105e257e5c132d021f65e9994c887b54348b3d8c238bdaf74f94",
-          "visibleMessageCount": 45,
-          "allUserAssistantRecordCount": 135,
-          "visibleSequenceSha256": "6f91440b8cf2be1d179f978f3dd2f0533be41bade8d9424b0bf166cbd290d1d8",
-          "currentNode": "786a7ebe-6575-56ab-9f16-7361e509511d"
-        }
-      ],
-      "merge": {
-        "phase1Phase2DuplicateMessageCount": 11,
-        "phase1Phase3DuplicateMessageCount": 11,
-        "phase2Phase3DuplicateMessageCount": 39,
-        "duplicateOccurrencesRemoved": 50,
-        "publishedMessageCount": 48,
-        "publishedUserMessageCount": 19,
-        "publishedAssistantMessageCount": 29,
-        "publishedAssistantCommentaryCount": 9,
-        "publishedAssistantFinalCount": 20,
-        "correctedUserMessageCount": 19,
-        "retainedReferenceLinkCount": 13,
-        "referenceUrlPolicy": "session-identifiers-and-tracking-query-parameters-removed",
-        "dailyPostCount": 19,
-        "firstRecordedAt": "2026-07-29T11:21:30.541809+09:00",
-        "lastRecordedAt": "2026-08-28T21:54:50.380062+09:00",
-        "publishedContentSha256": "274946ce96cd6dfc94959f4c037b070e5f9312ae6945551be3ba3c102240d4b1"
+        "withheldMessageCount": 0,
+        "excludedHiddenOrRedactedRecordCount": 2,
+        "publishedContentSha256": "b16e52095e57140ce604577ca13f0a04d0b119fcaf0590f9b4b6a060b88f1b6f"
       },
-      "withheld": [],
-      "excludedSourceRecords": [
-        {
-          "sourceMessageId": "6a6478da-71cf-4548-9ff1-efdb19e4404b",
-          "role": "user",
-          "recordedAt": "2026-07-31T22:04:16.787863+09:00",
-          "reason": "source-record-is-visually-hidden-and-redacted",
-          "publicationStatus": "excluded-without-text"
-        },
-        {
-          "sourceMessageId": "3942deca-5271-4628-b149-d6995a89ede1",
-          "role": "user",
-          "recordedAt": "2026-08-08T07:26:44.884561+09:00",
-          "reason": "source-record-is-visually-hidden-and-redacted",
-          "publicationStatus": "excluded-without-text"
-        }
-      ],
       "posts": [
         "life-2026-07-29-conversation",
         "life-2026-07-30-conversation",
@@ -247,286 +166,34 @@
         "life-2026-08-23-conversation",
         "life-2026-08-26-conversation",
         "life-2026-08-27-conversation",
-        "life-2026-08-28-conversation"
+        "life-2026-08-28-conversation",
+        "life-2026-09-02-conversation"
       ]
     },
     {
-      "id": "medical-shared-conversation-2026-09-01",
+      "id": "medical-public-archive-2026-08-30",
       "board": "medical",
-      "verifiedAt": "2026-09-01T15:16:35+09:00",
+      "throughDate": "2026-08-30",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
-      "source": {
-        "sourceId": "chatgpt-medical-knowledge-2026",
-        "title": "의학지식 문의",
-        "rawSnapshotSha256": "215e5497f8b04b0dc06219df08d2dde7265c00d5ad2638be014c5d57e978587d",
-        "rawSnapshotBytes": 1608594,
-        "visibleRecordsFileSha256": "3fea4e04e40bea03d953c8879aa6569d79eb09d74e7980d3035da8dca4060baf",
-        "allUserAssistantRecordsFileSha256": "31d8904c7aaf98278289472dddca37420a5667274a02fd829a5c7e4e4e1ecc88",
-        "allMessageRecordsFileSha256": "13a81290f8191be3d4942b468545d326eb7783b5c4ddbc94c557d7843c2da45d",
-        "extractionManifestFileSha256": "2c4235a0224b46afeb9a8ee97f00714c2ad3510eeeb256ae9efea2338b1e1e18",
-        "completeChronologyFileSha256": "defea2de18b0f19addccd558ac8e06395adf187b2653670c6ec3c803c4c8d36a",
-        "completeAuditManifestFileSha256": "024f9db7d1f8da9fdc3f8ac0389c5a7d90b9b326a1973e62995f4a68fd992f3c",
-        "correctionsFileSha256": "71332fad99cc3b59c39730b02a32a5e1f2ceed8627a7bdf1492628802faedc59",
-        "visibleMessageCount": 44,
-        "allUserAssistantRecordCount": 157,
-        "allMessageRecordCount": 273,
-        "completePublicMessageCount": 57,
-        "visibleSequenceSha256": "b901ce15cdb092ad62fa8c2cafe5c8197045bd845a2c335d0e406ffbaecf4e3a",
-        "completeSequenceSha256": "71c9b88892117e59500d3a1d9fc39e1ccce09b9cf672fbe61d259ed0c3382d56",
-        "embeddedReportSequenceSha256": "2afd763a006efcb0b8327f265d20e6b1359c7e46ef806d9569f8c538e249cc9b",
-        "currentNode": "a1983b07-d99a-466e-a66a-d25de304734d"
-      },
       "selection": {
+        "publishedPostCount": 8,
         "publishedMessageCount": 52,
         "publishedUserMessageCount": 22,
         "publishedAssistantMessageCount": 30,
-        "publishedAssistantCommentaryCount": 4,
-        "publishedAssistantFinalCount": 22,
-        "publishedAssistantUnknownChannelCount": 4,
+        "correctedUserMessageCount": 19,
         "sourceKindCounts": {
           "conversation-message": 39,
-          "voice-transcript": 12,
-          "embedded-app-report": 1
+          "embedded-app-report": 1,
+          "voice-transcript": 12
         },
-        "correctedUserMessageCount": 19,
-        "retainedReferenceLinkCount": 45,
-        "globallyUniqueReferenceLinkCount": 44,
-        "referenceUrlPolicy": "session-identifiers-and-tracking-query-parameters-removed",
-        "dailyPostCount": 8,
-        "firstRecordedAt": "2026-08-01T12:10:52.771184+09:00",
-        "lastRecordedAt": "2026-08-30T06:04:33.966781+09:00",
+        "withheldSensitiveTurnMessageCount": 5,
+        "excludedHiddenOrRedactedRecordCount": 12,
         "publishedContentSha256": "93f2a1dcaa83790ecd54403cbc78defb491c1fd03c78f397335ad4559d24ee5e"
       },
-      "withheld": [
-        {
-          "sourceMessageId": "dcab2305-fe27-4e4e-a5c5-d6fcd6a12c37",
-          "sourceOrdinal": 35,
-          "role": "user",
-          "recordedAt": "2026-08-26T00:43:56.878370+09:00",
-          "sourceTextSha256": "sha256:f99c27d220b7860b3b85ec7c1742c2e2c8f540634964e2a907300b71476d2064",
-          "sourceRecordSha256": "sha256:01401e37d1be6f79d907ffc43f13b4b8903302fd3f49cd1c29a30fbba525340c",
-          "reason": "complete-document-email-turn-contains-personal-email-and-temporary-artifact-links",
-          "publicationStatus": "withheld-without-text"
-        },
-        {
-          "sourceMessageId": "472ef46a-d261-4565-82d9-30bdf2b605dd",
-          "sourceOrdinal": 36,
-          "role": "assistant",
-          "channel": "commentary",
-          "recordedAt": "2026-08-26T00:44:15.012433+09:00",
-          "sourceTextSha256": "sha256:56a4d2b6104454cd316384a2262be2fcd3cbf0b17864f578356be937189d06ab",
-          "sourceRecordSha256": "sha256:bb04c56642d63fb49064a983f5255d28b66389aa9ba900d421db008eb7eac571",
-          "reason": "complete-document-email-turn-contains-personal-email-and-temporary-artifact-links",
-          "publicationStatus": "withheld-without-text"
-        },
-        {
-          "sourceMessageId": "3b22d631-fc83-4ccc-a642-2fd4fd1c6f0d",
-          "sourceOrdinal": 37,
-          "role": "assistant",
-          "channel": "commentary",
-          "recordedAt": "2026-08-26T00:47:19.723273+09:00",
-          "sourceTextSha256": "sha256:9d6b2c2a21d9d17a0ef89d551fbae8728fa9a789394323ed40649a2338749355",
-          "sourceRecordSha256": "sha256:6b446645c35f598479a99ddf6f09d20975d96302aff4d3e5298fb1a286781303",
-          "reason": "complete-document-email-turn-contains-personal-email-and-temporary-artifact-links",
-          "publicationStatus": "withheld-without-text"
-        },
-        {
-          "sourceMessageId": "fc5da018-a162-4e4f-b769-924d2a275bf0",
-          "sourceOrdinal": 38,
-          "role": "assistant",
-          "channel": "commentary",
-          "recordedAt": "2026-08-26T00:56:25.000020+09:00",
-          "sourceTextSha256": "sha256:bcdb600c53cd22c7116fdadc4a59bae6c379d83f77e875d781f322468a13a9c5",
-          "sourceRecordSha256": "sha256:fe456f424a42a8882f62cc96ec9a9daca3f7959131cddec06bf94c780b1df2b8",
-          "reason": "complete-document-email-turn-contains-personal-email-and-temporary-artifact-links",
-          "publicationStatus": "withheld-without-text"
-        },
-        {
-          "sourceMessageId": "077a0f6c-0ddf-4fd0-8f1b-715db4306f69",
-          "sourceOrdinal": 39,
-          "role": "assistant",
-          "channel": "final",
-          "recordedAt": "2026-08-26T00:57:01.537452+09:00",
-          "sourceTextSha256": "sha256:7aef1dec0c52cdb55abf6be5773facff2926d76fe3aa2fe3dc0353b94ec0cdc9",
-          "sourceRecordSha256": "sha256:72ad7d040f90b298b5bdaadd6439c29194b633e07a2b449068e0e825961f924a",
-          "reason": "complete-document-email-turn-contains-personal-email-and-temporary-artifact-links",
-          "publicationStatus": "withheld-without-text"
-        }
-      ],
-      "excludedSourceRecords": [
-        {
-          "sourceMessageId": "60d800f7-9c6f-4b5d-bb41-171729120c0e",
-          "role": "user",
-          "recordedAt": "2026-08-01T12:10:54.387746+09:00",
-          "contentType": "text",
-          "sourceTextSha256": "sha256:5c7c218b2327e3146c07b60eec368ff7f8c3cb9873645b76d13439f6a9b13ae4",
-          "sourceRecordSha256": "sha256:13d217998c01aa92089ebb9789f265088777f76fb34ad1a7cc7913f848792de0",
-          "visibility": {
-            "visuallyHidden": true,
-            "redacted": true
-          },
-          "reason": "source-record-is-visually-hidden-or-redacted",
-          "publicationStatus": "excluded-without-text"
-        },
-        {
-          "sourceMessageId": "7c441ee6-ea30-4049-a740-e9d6339a83ee",
-          "role": "assistant",
-          "recordedAt": "2026-08-01T12:10:54.351824+09:00",
-          "contentType": "text",
-          "sourceTextSha256": "sha256:1ba02833be2d6ca79f567795a0cdcd029dbe2f93a013bab5ed52ca2ae9eba546",
-          "sourceRecordSha256": "sha256:b464445f9c69302b86a750ce5fd793a6885be6982b4ee87cd94c304eaf238c70",
-          "visibility": {
-            "visuallyHidden": false,
-            "redacted": true
-          },
-          "reason": "source-record-is-visually-hidden-or-redacted",
-          "publicationStatus": "excluded-without-text"
-        },
-        {
-          "sourceMessageId": "adb073f9-9d44-4ca6-ab74-61f30b72ee21",
-          "role": "assistant",
-          "recordedAt": "2026-08-17T20:03:42.837737+09:00",
-          "contentType": "model_editable_context",
-          "sourceTextSha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-          "sourceRecordSha256": "sha256:24a2ba98e478663db633d44583d5c859e21bcfe0fd0618e1113152c8475cea9a",
-          "visibility": {
-            "visuallyHidden": false,
-            "redacted": true
-          },
-          "reason": "source-record-is-visually-hidden-or-redacted",
-          "publicationStatus": "excluded-without-text"
-        },
-        {
-          "sourceMessageId": "11716cd8-83c7-467c-9088-675832ebd0a7",
-          "role": "assistant",
-          "recordedAt": "2026-08-18T22:08:23.833077+09:00",
-          "contentType": "model_editable_context",
-          "sourceTextSha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-          "sourceRecordSha256": "sha256:1f457f8642507183940247c9709651b2a670e14eb806c8239757c8719a3006d5",
-          "visibility": {
-            "visuallyHidden": false,
-            "redacted": true
-          },
-          "reason": "source-record-is-visually-hidden-or-redacted",
-          "publicationStatus": "excluded-without-text"
-        },
-        {
-          "sourceMessageId": "a21d387e-968b-46e3-acb1-f148978b9d35",
-          "role": "assistant",
-          "recordedAt": "2026-08-18T22:13:12.390152+09:00",
-          "contentType": "model_editable_context",
-          "sourceTextSha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-          "sourceRecordSha256": "sha256:6ea66e92d875183c9f08b870a22835489064ce24fe70b09b2faaeba65e380372",
-          "visibility": {
-            "visuallyHidden": false,
-            "redacted": true
-          },
-          "reason": "source-record-is-visually-hidden-or-redacted",
-          "publicationStatus": "excluded-without-text"
-        },
-        {
-          "sourceMessageId": "44584141-adde-48c1-8bec-5479ecd92a39",
-          "role": "assistant",
-          "recordedAt": "2026-08-22T06:08:30.246971+09:00",
-          "contentType": "model_editable_context",
-          "sourceTextSha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-          "sourceRecordSha256": "sha256:aee9f990040c6add14f2fc30ee82a1049c71337bd1a7379996b92d38dba78423",
-          "visibility": {
-            "visuallyHidden": false,
-            "redacted": true
-          },
-          "reason": "source-record-is-visually-hidden-or-redacted",
-          "publicationStatus": "excluded-without-text"
-        },
-        {
-          "sourceMessageId": "c5f29f77-e818-4f7d-9a3a-80973580c8a8",
-          "role": "assistant",
-          "recordedAt": "2026-08-25T08:49:09.128401+09:00",
-          "contentType": "model_editable_context",
-          "sourceTextSha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-          "sourceRecordSha256": "sha256:202b0d1b0dbe70e48d29139682fe0aaddce9fd3a629f282bf053e58d299de174",
-          "visibility": {
-            "visuallyHidden": false,
-            "redacted": true
-          },
-          "reason": "source-record-is-visually-hidden-or-redacted",
-          "publicationStatus": "excluded-without-text"
-        },
-        {
-          "sourceMessageId": "32c7db97-bafc-4f09-88b3-9a7422f35131",
-          "role": "assistant",
-          "recordedAt": "2026-08-26T00:38:07.060377+09:00",
-          "contentType": "model_editable_context",
-          "sourceTextSha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-          "sourceRecordSha256": "sha256:8231041b95565fcd895e6d2bea0381b9693edc5073a36a533ee67e9a3fdbed9c",
-          "visibility": {
-            "visuallyHidden": false,
-            "redacted": true
-          },
-          "reason": "source-record-is-visually-hidden-or-redacted",
-          "publicationStatus": "excluded-without-text"
-        },
-        {
-          "sourceMessageId": "cab2e6b8-b489-495e-866c-aa933af331ea",
-          "role": "assistant",
-          "recordedAt": "2026-08-26T09:48:19.482495+09:00",
-          "contentType": "model_editable_context",
-          "sourceTextSha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-          "sourceRecordSha256": "sha256:7bc7bb7826797cec6c1732feba4ecf0cc53a63bb02ab79b347ec7342703dcf00",
-          "visibility": {
-            "visuallyHidden": true,
-            "redacted": true
-          },
-          "reason": "source-record-is-visually-hidden-or-redacted",
-          "publicationStatus": "excluded-without-text"
-        },
-        {
-          "sourceMessageId": "ea4239fa-0e80-453e-93db-07d4b34b276b",
-          "role": "assistant",
-          "recordedAt": "2026-08-27T07:25:28.359342+09:00",
-          "contentType": "model_editable_context",
-          "sourceTextSha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-          "sourceRecordSha256": "sha256:deac34cf8a70ae2a5ed41e054c89ab04443922fb3e27c56c3b0a824159123d87",
-          "visibility": {
-            "visuallyHidden": false,
-            "redacted": true
-          },
-          "reason": "source-record-is-visually-hidden-or-redacted",
-          "publicationStatus": "excluded-without-text"
-        },
-        {
-          "sourceMessageId": "3becb630-12f1-483a-ba3a-dfdfa43822df",
-          "role": "assistant",
-          "recordedAt": "2026-08-27T07:26:31.548495+09:00",
-          "contentType": "model_editable_context",
-          "sourceTextSha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-          "sourceRecordSha256": "sha256:1c079e6b95567bcb8ec973711f03fb4cc97152ca23ef1c64d2ce3ecc8ea9d566",
-          "visibility": {
-            "visuallyHidden": false,
-            "redacted": true
-          },
-          "reason": "source-record-is-visually-hidden-or-redacted",
-          "publicationStatus": "excluded-without-text"
-        },
-        {
-          "sourceMessageId": "93047322-bcd6-466c-a69a-317d14b18a64",
-          "role": "assistant",
-          "recordedAt": "2026-08-30T06:04:33.967793+09:00",
-          "contentType": "model_editable_context",
-          "sourceTextSha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-          "sourceRecordSha256": "sha256:2e2669c04a2225ba5b8000c9b25549d6528a7cf0f8878509cf77bd1ffd5e0a47",
-          "visibility": {
-            "visuallyHidden": false,
-            "redacted": true
-          },
-          "reason": "source-record-is-visually-hidden-or-redacted",
-          "publicationStatus": "excluded-without-text"
-        }
-      ],
       "posts": [
         "medical-2026-08-01-conversation",
         "medical-2026-08-17-conversation",
@@ -536,6 +203,32 @@
         "medical-2026-08-26-conversation",
         "medical-2026-08-27-conversation",
         "medical-2026-08-30-conversation"
+      ]
+    },
+    {
+      "id": "rehabilitation-public-archive-2026-08-27",
+      "board": "rehabilitation",
+      "throughDate": "2026-08-27",
+      "publication": {
+        "status": "published",
+        "privacyReviewed": true,
+        "publicPreviewAuthorizedByUser": true
+      },
+      "selection": {
+        "publishedPostCount": 2,
+        "publishedMessageCount": 11,
+        "publishedUserMessageCount": 3,
+        "publishedAssistantMessageCount": 8,
+        "correctedUserMessageCount": 3,
+        "sourceKindCounts": {
+          "conversation-message": 11
+        },
+        "withheldPersonalizedLinkMessageCount": 8,
+        "publishedContentSha256": "7a929534a7dcb7fcf1ec72a5954687a5cd6b876fc59a9f08185e750c608ccf74"
+      },
+      "posts": [
+        "rehabilitation-2026-08-26-conversation",
+        "rehabilitation-2026-08-27-conversation"
       ]
     }
   ]

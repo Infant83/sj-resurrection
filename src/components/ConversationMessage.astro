@@ -19,7 +19,11 @@ const fidelityLabels: Record<string, string> = {
   'pending-original': '원문 확인 필요',
 };
 const userFidelityLabel = isUser ? (fidelityLabels[message.fidelity] ?? '원문 확인 필요') : '';
-const userLabel = isVoiceTranscript ? '보호자 음성 전사' : '보호자 기록';
+const userLabel = isEmbeddedReport
+  ? '보호자가 제공한 자동 요약 원문'
+  : isVoiceTranscript
+    ? '보호자 음성 전사'
+    : '보호자 기록';
 const replyLabel = isEmbeddedReport
   ? 'GPT 심층 리서치 보고서 원문'
   : isVoiceTranscript
