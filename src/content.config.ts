@@ -43,6 +43,7 @@ const messageBase = z.object({
   sourceOrdinal: z.number().int().positive().optional(),
   turnId: z.string().optional(),
   sourceRefs: z.array(z.string()).default([]),
+  provenanceNote: z.string().optional(),
 });
 
 const userMessage = messageBase.extend({

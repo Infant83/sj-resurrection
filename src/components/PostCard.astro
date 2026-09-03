@@ -14,6 +14,8 @@ const { post, detailed = false } = Astro.props;
 const board = boardMap[post.data.board];
 const detailHref = withBase(`post/${post.id}/`);
 const sourceLabels = [...new Set(post.data.sources.map((source) => source.label))];
+const messageIds = new Set(post.data.messages.map((message) => message.id));
+const untargetedAmendments = post.data.amendments.filter((amendment) => !messageIds.has(amendment.target));
 ---
 
 <article
@@ -45,16 +47,20 @@ const sourceLabels = [...new Set(post.data.sources.map((source) => source.label)
   <div class="card-thread">
     {
       post.data.messages.map((message, index) => (
-        <ConversationMessage message={message} isLast={index === post.data.messages.length - 1} />
+        <ConversationMessage
+          message={message}
+          amendments={post.data.amendments.filter((amendment) => amendment.target === message.id)}
+          isLast={index === post.data.messages.length - 1}
+        />
       ))
     }
   </div>
 
   {
-    post.data.amendments.length > 0 && (
+    untargetedAmendments.length > 0 && (
       <section class="amendments" aria-label="후속 확인과 정정">
         <h3>후속 확인과 정정</h3>
-        {post.data.amendments.map((amendment) => (
+        {untargetedAmendments.map((amendment) => (
           <div class={`amendment amendment-${amendment.kind}`}>
             <strong>{amendment.kind === 'correction' ? '정정' : amendment.kind === 'clarification' ? '보충' : '후속 기록'}</strong>
             <p set:html={safePlainTextToHtml(amendment.note)} />

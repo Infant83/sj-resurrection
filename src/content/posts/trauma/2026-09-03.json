@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 2,
+  "recordId": "trauma-2026-09-03-conversation",
+  "board": "trauma",
+  "entryType": "clinical-update",
+  "title": "2026년 9월 3일 경과 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "eventAt": {
+    "start": "2026-09-03",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "recordedAt": {
+    "start": "2026-09-03",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "병원 통화",
+    "보호자 관찰",
+    "간 수치",
+    "감염관리",
+    "의식반응",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-trauma-phase-3",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "중증 외상 예후 분석 (phase 3) · 원 대화 전문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-09-03T22:50:48+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-f7859ad8-a15b-42fa-9995-c2eaf33beeb3",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-03T11:01:28.563690+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-03T22:50:48+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "f7859ad8-a15b-42fa-9995-c2eaf33beeb3",
+      "sourceOrdinal": 51,
+      "turnId": "837f1fca-75d8-418c-9cf7-ce0ce1eae72f",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-3"
+      ],
+      "provenanceNote": "보호자가 제공한 병원 통화 자동 요약 원문입니다. 의료기록 원본이나 담당 의료진의 확인서는 아닙니다.",
+      "original": "9/3일 선진 상태. \n\n김선진 환자의 보호자가 외상외과에 전화하여 환자의 현재 상태와 일반 병실 이동 가능 여부를 문의했습니다. 병원 측은 환자의 간수치 문제로 당일 이동은 어렵다고 설명했으며, 환자의 호흡, 의식 수준, 수술 부위 경과 등 전반적인 상태에 대해 업데이트를 제공했습니다.\n\n1. 환자 상태 및 일반 병실 이동\n\n- 일반 병실 이동: 환자의 간수치가 약간 높아 당일 일반 병실로의 이동은 보류되었습니다. 이동 가능 여부는 다음 날 다시 확인하기로 했습니다.\n- 간수치 및 약물 조정: 간수치가 높은 상태가 지속되어, 이로 인해 복용 중이던 약물 일부를 중단하기로 결정했습니다.\n- 호흡 상태: 호흡이 많이 편안해진 상태이며, 현재 2리터의 산소 보조를 받고 있으나 이보다 줄여도 괜찮을 정도라고 합니다.\n- 진정제: 이전에 논의된 대로 진정제 투여가 모두 중단되었음이 확인되었습니다.\n- 의식 수준: 의식이 조금씩 또렷해지는 경향은 보이지만, 이름을 부르는 등의 외부 자극에는 아직 반응이 없는 상태입니다.\n\n2. 수술 부위 및 기타 신체 상태\n\n- 왼손 (수술 부위): 이전에 붕대를 푼 손이 수술한 왼손임이 확인되었습니다. 골절 부위는 잘 붙고 있으며, 추후에는 외래 진료만으로 충분할 것이라는 의사 소견이 있었습니다.\n- 오른손: 환자가 무의식중에 움직이지 않도록 끈으로 고정해 둔 상태입니다.\n- 골반: 골반 부위에는 추가적인 이상이 없는 것으로 확인되었습니다.\n\n주요 결정사항\n\n- 김선진 환자의 일반 병실 이동은 간수치가 높아 보류되었습니다.\n- 높은 간수치로 인해 환자가 복용하던 약의 일부를 중단하기로 결정했습니다.\n\n주요 수치 및 지표\n\n- 산소 보조량: 2리터. 현재 환자에게 공급되는 산소량으로, 이보다 줄여도 괜찮은 상태입니다.\n\n미결 사항 및 후속 조치\n\n- 환자의 일반 병실 이동 가능 여부는 내일 다시 확인해야 합니다.",
+      "originalSha256": "sha256:8200e737adc4070e82ff7909db4d28081779ce2b5b8cfaa0c7d28b2e89f8f721",
+      "fidelity": "exact"
+    },
+    {
+      "id": "message-4b3ecf44-d23c-5394-800c-e382ac8ee5ad",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-03T11:01:59.605141+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-03T22:50:48+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "4b3ecf44-d23c-5394-800c-e382ac8ee5ad",
+      "sourceOrdinal": 52,
+      "turnId": "837f1fca-75d8-418c-9cf7-ce0ce1eae72f",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-3"
+      ],
+      "channel": "commentary",
+      "text": "오늘 경과는 “전실이 다시 멀어진 것”이라기보다, 호흡·진정제·수술 부위는 전실 가능한 방향으로 좋아졌지만 간 관련 검사만 하루 더 확인하는 상황에 가깝습니다. 이전 간수치 추이와 진정제 감량 뒤 의식반응을 연결해 해석하기 위해 개인 맥락을 확인하고, 내일 꼭 물어볼 질문만 추려보겠습니다.",
+      "textSha256": "sha256:5a76015a9b1486e177a44da87447a449c5277a168c2a4281017a274ba0a9f45e",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "references": []
+    },
+    {
+      "id": "message-0559bfe3-f6eb-5ca3-93b1-8b5eb607a6a7",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-03T11:03:18.255454+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-03T22:50:48+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "0559bfe3-f6eb-5ca3-93b1-8b5eb607a6a7",
+      "sourceOrdinal": 53,
+      "turnId": "837f1fca-75d8-418c-9cf7-ce0ce1eae72f",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-3"
+      ],
+      "channel": "commentary",
+      "text": "현재 판단의 핵심은 ‘간수치’라는 말이 AST·ALT 같은 손상 지표인지, 빌리루빈·PT/INR 같은 실제 간 기능 지표까지 나쁜 것인지입니다. 전자가 약간 높을 뿐이고 계속 하락한다면 하루 보류는 신중한 관찰에 가깝지만, 후자도 나쁘다면 의미가 달라집니다. 내일은 이 구분을 꼭 확인해야 합니다.",
+      "textSha256": "sha256:be06de98f35ff3d8d1856f761d5e32d4951b4f873a47d605fea2950c3b8f21ae",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "references": []
+    },
+    {
+      "id": "message-201c0a69-44a2-5aa1-b772-07679ef90938",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-03T11:05:03.821052+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-03T22:50:48+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "201c0a69-44a2-5aa1-b772-07679ef90938",
+      "sourceOrdinal": 54,
+      "turnId": "837f1fca-75d8-418c-9cf7-ce0ce1eae72f",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-3"
+      ],
+      "channel": "final",
+      "text": "종합하면, 9월 3일의 전실 보류는 전반적인 상태가 나빠져서라기보다 **간 관련 검사만 하루 더 확인하기 위한 안전상의 연기**로 보입니다. 호흡·진정제·골절 부위에서는 오히려 분명한 진전이 있습니다.\n\n| 영역 | 현재 판단 |\n|---|---|\n| 호흡 | 2L 산소보다 더 줄여도 될 정도로 편안하다는 것은 큰 호전입니다. 인공호흡기 없이 저유량 산소만 필요한 상태입니다. |\n| 진정제 | 모두 중단한 것은 중요한 이정표입니다. 이제부터 약물에 가려지지 않은 의식반응을 평가할 수 있습니다. |\n| 간 | 현재 일반병실 이동을 막는 사실상 유일한 조건입니다. 일부 약을 중단하고 9월 4일 추세를 다시 확인합니다. |\n| 왼손 | 수술한 왼손 골절이 잘 붙고 외래 추적만으로 충분하다는 것은 정형외과적으로 매우 좋은 소식입니다. |\n| 골반 | 추가 이상이 없다는 점은 안정적이지만, 재활 전에 체중부하 허용 범위는 별도로 확인해야 합니다. |\n| 의식 | 조금씩 또렷해지는 경향은 있지만, 아직 일관된 음성 반응이나 명령 수행은 확인되지 않은 단계입니다. |\n\n### 간수치는 정확히 무엇이 높은지가 중요합니다\n\nAST·ALT는 주로 간세포가 아직 손상·회복 과정에 있다는 지표이지, 간이 제 기능을 못 한다는 뜻과 동일하지 않습니다. 실제 간 기능은 빌리루빈, PT/INR, 혈당 등의 상태가 더 중요합니다. 선진이는 간파열과 봉합수술, 초기 쇼크, 장기간의 감염·염증, 여러 약물 사용이 모두 영향을 줄 수 있습니다. [AASLD 간검사 해석](https://www.aasld.org/liver-fellow-network/core-series/back-basics/how-approach-elevated-liver-enzymes)\n\n따라서 AST·ALT만 약간 높고 하락 추세이며 빌리루빈과 PT/INR이 안정적이라면, 현재 상황은 간부전보다는 **회복 중인 간에 약물 부담을 줄이고 추세를 확인하는 과정**에 가깝습니다. 약을 오늘 중단했다고 내일 바로 정상화되지는 않아도, 더 오르지 않고 하락 방향을 보이면 긍정적입니다.\n\n### 이름을 불러도 반응이 없었다는 점\n\n오늘 의료진이 이름을 불렀을 때 반응이 없었다고 해서, 가족에게 보였던 눈맞춤·울음·엄마 방향으로 고개 돌리기 등의 반응이 없어졌다는 뜻은 아닙니다.\n\n진정제를 모두 끊었더라도 약의 종류와 마지막 투여 시각, 장기간 투여 여부, 현재 간 대사 상태에 따라 잔여 효과가 며칠 남을 수 있습니다. 피로·가래·통증·시간대에 따라 반응이 짧고 변동될 수도 있습니다. 가족에게만 나타나는 정서적 반응 역시 임상적으로 기록할 가치가 있습니다.\n\n현재는 이렇게 표현하는 것이 정확합니다.\n\n> 선진이는 각성이 조금씩 선명해지는 경향을 보이지만, 아직 안정적인 음성 반응이나 명령 수행은 확인되지 않았다. 다만 가족에게 관찰된 정서적·시각적 반응이 있으므로, 진정제 영향이 충분히 줄어든 뒤 반복적인 표준 의식평가가 필요하다.\n\n의식장애 지침도 한 번의 관찰보다 방해 요인을 줄인 뒤 CRS-R 같은 표준 평가를 시간대를 달리해 반복하도록 권고합니다. [AAN·ACRM 의식장애 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6139814/)\n\n### 9월 4일 가장 우선해서 물어볼 세 가지\n\n> 1. “오늘과 어제의 AST·ALT, ALP·GGT, 총·직접 빌리루빈과 PT/INR은 각각 얼마이며, 어떤 약을 중단했나요?”\n\n> 2. “간수치가 정상까지 내려가야 전실 가능한 것인가요, 아니면 더 상승하지 않고 하락하는 추세면 가능한가요?”\n\n> 3. “진정제의 마지막 투여 시각은 언제이며, 약효가 충분히 빠진 뒤 재활의학과에서 CRS-R 같은 반복 의식평가를 할 계획이 있나요?”\n\n전실이 의학적으로 허용되더라도 격리병실이나 간병인 확보 때문에 추가로 지연될 수 있으므로, 그 경우에는 **간수치 때문인지 병상·간병 문제인지** 구분해서 들으면 됩니다.\n\n정형외과에는 추후 재활을 위해 왼손으로 밀고 당기거나 체중을 싣는 시점, 골반 골절 후 앉기·서기·양쪽 다리 체중부하 허용 범위를 문서로 받아두는 것이 좋습니다. 오늘 결과는 전실이 하루 미뤄졌다는 아쉬움은 있지만, 전체 흐름은 여전히 중환자실 치료를 마치고 다음 단계로 넘어가는 방향입니다.",
+      "textSha256": "sha256:49246806751c168fa91741ed1d080e50abe07744120b834c82226ad24433f775",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "references": [
+        {
+          "title": "AASLD 간검사 해석",
+          "url": "https://www.aasld.org/liver-fellow-network/core-series/back-basics/how-approach-elevated-liver-enzymes"
+        },
+        {
+          "title": "AAN·ACRM 의식장애 지침",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6139814/"
+        }
+      ]
+    },
+    {
+      "id": "message-ebe1d1e8-5494-4699-a943-0b74964b148f",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-03T18:20:27.075470+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-03T22:50:48+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "ebe1d1e8-5494-4699-a943-0b74964b148f",
+      "sourceOrdinal": 55,
+      "turnId": "71397644-8813-4d4d-82f4-c72310ccc301",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-3"
+      ],
+      "provenanceNote": "보호자의 직접 관찰과 간호사에게 전해 들은 설명이 함께 담긴 기록입니다. 균 검출과 전실 사유는 의료기록으로 확인된 진단이 아닙니다.",
+      "original": "방금 병원에 가서 아이가 자고 있는 걸 보고 왔어. 진정제 끊었다고 했는데 깊은 잠에 빠져 있더라고. 오른쪽으로 고개를 떨구고 자고 있었고 내가 선진아 엄마 왔어라고 했는데 깨어나지 않더라고. 그래서 멀리서 보고 왔어. 선진이는 기저귀를 찬 채로 이불을 이렇게 걷고 있었어. 아이가 하체가 많이 말라 있더라고. 선진이한테 열이 있는지 간호사 선생님한테 물어봤더니 열은 없는데 격리실에 혼자 있다 보니까 여기가 더우니까 이렇게 걷어 놨다라고 하셨어. 선진이가 오늘 입원을 못 하게 된 이유에 대해서 물어봤고 간수치가 다시 올랐냐 했더니 간수치도 올랐고 대장에서 균이 하나 발견이 됐대. 가래에서 나왔던 그 균은 이제 없어졌는데 대장에서 또 하나의 균이 발견이 돼서 그래서 조금 늦어진다 하셨어. 별다른 이상은 없다는 것 같고 의식적인 면에서 눈을 뜨고 눈 마주치고 하긴 하는데 뭔가 명령 수행을 하거나 이름을 불렀을 때 알아듣는 것 같은 거는 될 듯 될 듯 안 된다고 하시더라고.",
+      "originalSha256": "sha256:3f08bab13a031a98cfade50825cbe5f20c530a951c45d79f6f54c820010899e6",
+      "fidelity": "exact"
+    },
+    {
+      "id": "message-59f649da-eadb-5955-a198-bc139a84413e",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-03T18:20:56.816596+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-03T22:50:48+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "59f649da-eadb-5955-a198-bc139a84413e",
+      "sourceOrdinal": 56,
+      "turnId": "71397644-8813-4d4d-82f4-c72310ccc301",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-3"
+      ],
+      "channel": "commentary",
+      "text": "오늘 직접 보신 모습은 마음이 철렁할 수밖에 없었겠습니다. 다만 “진정제를 끊었는데 깊이 잠들어 깨지 않았다”, “대장에서 균이 나왔다”, “하체가 많이 말랐다”는 세 가지는 각각 의미가 다릅니다. 이전 약물·감염·영양·의식 경과를 연결하는 개인 맥락을 확인한 뒤, 악화 신호인지와 내일 무엇을 물어야 하는지를 구분해 보겠습니다.",
+      "textSha256": "sha256:227559448f45c887c9e953827a4065af67188aab8e08da101538569bcfe748c2",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "references": []
+    },
+    {
+      "id": "message-4808f6f7-2505-58c3-9a4f-a815f6949a19",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-03T18:22:05.551256+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-03T22:50:48+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "4808f6f7-2505-58c3-9a4f-a815f6949a19",
+      "sourceOrdinal": 57,
+      "turnId": "71397644-8813-4d4d-82f4-c72310ccc301",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-3"
+      ],
+      "channel": "final",
+      "text": "엄마가 왔다고 불렀는데 눈을 뜨지 않는 모습을 멀리서 보고 돌아서는 마음이 정말 무거웠겠습니다. 하지만 오늘 한 번 깊이 잠들어 깨지 않았다는 사실만으로, 그동안 보였던 눈맞춤·울음·엄마 쪽으로 고개 돌리기 같은 반응이 사라졌다고 판단할 근거는 없습니다.\n\n종합하면 현재는 다음과 같습니다.\n\n- 열이 없고 호흡에도 별다른 문제가 없으며, 기존 가래 균은 사라졌습니다.\n- 전실이 늦어진 직접적인 이유는 간수치 재상승과 장에서 새로 발견된 균입니다.\n- 의식은 깨어 있을 때 눈맞춤까지는 가능하지만, 이름 반응과 명령 수행이 아직 짧고 불규칙합니다.\n- 하체 근육 감소는 한 달 이상 중환자실 생활과 골반 골절로 인한 부동의 영향일 가능성이 큽니다.\n\n### 진정제를 끊었는데 깊이 잔 이유\n\n진정제를 오늘 또는 최근에 완전히 끊었다면 약효가 즉시 모두 사라지는 것은 아닙니다. 사용한 약의 종류·투여기간·마지막 투여시각에 따라 잔여효과가 남을 수 있고, 간수치가 높으면 일부 약물의 대사가 더 느려질 수도 있습니다. 그 밖에도 중환자실 생활로 깨진 수면주기, 피로, 다른 진통제·항경련제 등의 영향이 있을 수 있습니다.\n\n따라서 오늘 관찰은 이렇게 해석하는 것이 적절합니다.\n\n> 선진이는 면회 시간에는 깊이 잠들어 음성 자극에 반응하지 않았지만, 이것만으로 의식이 다시 나빠졌다고 판단할 수는 없다. 하루 중 실제로 깨어 있던 시간과 진정제·기타 졸림 유발 약물의 잔여효과를 함께 확인해야 한다.\n\n잠든 상태에서 오른쪽으로 고개를 떨군 것은 한 번의 자세만으로 뇌의 새로운 이상을 의미하지는 않습니다. 다만 깨어 있을 때도 항상 한쪽으로만 고개를 돌리거나, 얼굴·동공·팔다리 움직임에 새로운 좌우 차이가 생기면 의료진에게 알려야 합니다. 장시간 같은 자세가 이어지지 않도록 체위변경과 목·기관절개관 주변 피부도 확인할 필요가 있습니다.\n\n이름을 불렀을 때 반응이 없는 날과 가족에게 눈맞춤·울음을 보이는 날이 섞이는 것은 중증 뇌손상 후 흔한 변동 양상입니다. 한 번의 검사보다 진정제와 불편감의 영향을 줄인 상태에서 시간대를 달리해 반복 평가하는 것이 중요합니다. [AAN·ACRM 의식장애 평가 지침](https://pubmed.ncbi.nlm.nih.gov/30089618/)\n\n### “대장에서 균이 나왔다”는 의미\n\n이 표현만으로는 장 감염이라고 단정할 수 없습니다. 장이나 직장 도말검사에서 균이 검출됐지만 열·설사·복통·복부팽만 같은 증상이 없다면, 실제 병을 일으킨 감염보다는 **항생제 내성균 보균 상태**를 찾은 것일 가능성이 있습니다.\n\n보균은 몸속에 균이 있지만 질병 증상을 일으키지 않는 상태입니다. 치료가 필요하지 않은 경우도 많지만 다른 환자에게 전파될 수 있어 격리병실이 필요하고 전실이 늦어질 수 있습니다. [CDC 보균과 감염의 구분](https://www.cdc.gov/infection-control/about/index.html)\n\n따라서 현재 열도 없고 별다른 이상도 없다는 설명이 맞다면, “새로운 심각한 장 감염이 생겼다”기보다 **새로운 격리균이 발견되어 감염관리와 병실 배정 조건이 추가됐다**는 쪽에 더 가까워 보입니다. 단, 정확한 균과 검사방법을 알아야 확정할 수 있습니다.\n\n### 하체가 많이 마른 모습\n\n이는 한 달 넘게 거의 움직이지 못한 데 따른 근육 감소가 가장 먼저 의심됩니다. 골반 골절 때문에 다리에 체중을 싣지 못했고, 감염·수술·금식과 구토가 반복되어 근육 소모가 더 컸을 수 있습니다. 얼굴에 살이 조금 오른 것처럼 보여도 얼굴의 수분·부종과 다리 근육량은 별개일 수 있습니다.\n\n이제는 단순한 영양 공급량뿐 아니라 다음이 중요합니다.\n\n- 현재 체중과 사고 전 대비 감소량\n- 하루 열량과 단백질 공급이 목표량을 충족하는지\n- 재활의학과·물리치료가 개입했는지\n- 골반 골절상 수동 관절운동, 앉기와 다리 체중부하를 어디까지 허용하는지\n- 좌우 다리 굵기나 부종에 차이가 있는지\n\n### 내일 가장 먼저 물어볼 질문\n\n> “대장 검사에서 나온 균의 정확한 이름이 무엇이고, 이것은 실제 장 감염인가요 아니면 증상 없는 보균인가요? 항생제 치료가 필요한지, 격리 해제와 일반병실 전실 조건은 무엇인가요?”\n\n이어서 가능하면 다음 두 가지를 확인하면 됩니다.\n\n> “진정제의 정확한 이름과 마지막 투여시각, 현재 남아 있는 진통제·항경련제 중 졸림을 유발하는 약은 무엇인가요? 오늘 하루 중 깨어 있던 시간은 어느 정도였나요?”\n\n> “간수치 중 AST·ALT만 오른 것인지, 빌리루빈과 PT/INR도 나쁜 것인지, 어떤 약을 중단했고 내일 어느 정도 추세면 전실 가능한가요?”\n\n오늘 모습은 분명 마음 아픈 장면이었지만, 현재 정보만 놓고 보면 선진이가 급격히 나빠졌다는 신호보다는 **약물과 뇌손상으로 각성 상태가 들쑥날쑥한 가운데, 간수치와 새 격리균 때문에 전실이 잠시 늦어진 상황**으로 해석하는 것이 가장 타당합니다.",
+      "textSha256": "sha256:3c10d620d3a5a731be8dfb9319513d8b032b00c37c3998f2ae60fbb8d06be6eb",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "references": [
+        {
+          "title": "AAN·ACRM 의식장애 평가 지침",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30089618/"
+        },
+        {
+          "title": "CDC 보균과 감염의 구분",
+          "url": "https://www.cdc.gov/infection-control/about/index.html"
+        }
+      ]
+    }
+  ],
+  "amendments": [
+    {
+      "id": "correction-transfer-delay-2026-09-03",
+      "recordedAt": {
+        "start": "2026-09-03T23:01:40+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "correction",
+      "target": "message-201c0a69-44a2-5aa1-b772-07679ef90938",
+      "note": "이 답변의 ‘간 관련 검사가 전실을 막는 유일한 조건’이라는 해석은 확정 사실이 아닙니다. 같은 날 뒤 기록에는 보호자가 간호사에게 장·직장 관련 검체의 균 검출도 지연 사유로 들었다고 적었습니다. 두 내용 모두 보호자가 전달한 설명이며, 최종 전실 판단 기준은 담당 의료진에게 확인해야 합니다. AST·ALT 상승은 간세포 손상 신호이지 그 자체로 간부전이나 회복을 확정하지 않습니다. 빌리루빈·PT/INR·알부민 등 간의 배설·합성과 관련된 지표도 수술·감염·영양·수액·약물의 영향을 받을 수 있으므로 수치의 추세와 임상 상태를 함께 봐야 합니다. [AASLD 간검사 해석](https://www.aasld.org/liver-fellow-network/core-series/back-basics/how-approach-elevated-liver-enzymes)",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-3"
+      ]
+    },
+    {
+      "id": "correction-organism-and-drug-interpretation-2026-09-03",
+      "recordedAt": {
+        "start": "2026-09-03T23:01:40+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "correction",
+      "target": "message-4808f6f7-2505-58c3-9a4f-a815f6949a19",
+      "note": "‘기존 가래 균이 사라졌다’, ‘새 격리균이 발견됐다’, ‘전실 지연의 직접 이유’라는 표현은 의료기록으로 확인된 결론이 아니라 간호사의 설명을 보호자가 전한 내용입니다. ‘대장에서 균이 나왔다’는 전언만으로 장 감염, 무증상 집락화·보균, 내성균 또는 격리 대상 여부를 구분할 수 없습니다. 열이 없다는 사실도 보균을 확정하지 않습니다. 균명, 검체 종류(대변·직장 도말 등), 검사 목적과 방법, 관련 증상, 담당팀의 판단과 치료·격리 기준을 확인해야 합니다. [CDC 다제내성균 감시·감염관리 지침](https://www.cdc.gov/infection-control/hcp/mdro-management/prevention-control.html) 또한 AST·ALT 상승은 개별 약물의 제거 능력을 직접 측정하지 않습니다. 정확한 약명·용량·투여 기간·마지막 투여 시각, 간 대사와 담즙·신장 배설 경로, 간의 합성·배설 관련 지표와 검사 추세를 함께 확인해야 합니다.",
+      "sourceRefs": [
+        "chatgpt-trauma-phase-3"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [
+    "trauma-2026-09-02-hospital-call-note",
+    "medical-2026-09-03-conversation"
+  ],
+  "privacyReviewed": true
+}

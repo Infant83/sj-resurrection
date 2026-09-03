@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "timezone": "Asia/Seoul",
-  "lastUpdated": "2026-09-02",
+  "lastUpdated": "2026-09-03",
   "historyPolicy": {
     "mode": "retain-existing-commits",
     "decidedAt": "2026-08-31",
@@ -20,7 +20,7 @@
   },
   "boards": {
     "trauma": {
-      "status": "published-through-2026-09-02",
+      "status": "published-through-2026-09-03",
       "sourceThreads": [
         "중증 외상 예후 분석",
         "중증 외상 예후 분석 (phase2)",
@@ -41,7 +41,7 @@
       "sourceRequirement": "confirmed-chatgpt-shared-conversation-snapshot"
     },
     "medical": {
-      "status": "published-through-2026-08-30",
+      "status": "published-through-2026-09-03",
       "sourceThreads": [
         "의학지식 문의"
       ],
@@ -63,26 +63,27 @@
   },
   "imports": [
     {
-      "id": "trauma-public-archive-2026-09-02",
+      "id": "trauma-public-archive-2026-09-03",
       "board": "trauma",
-      "throughDate": "2026-09-02",
+      "throughDate": "2026-09-03",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
       "selection": {
-        "publishedPostCount": 38,
-        "publishedMessageCount": 274,
-        "publishedUserMessageCount": 102,
-        "publishedAssistantMessageCount": 172,
+        "publishedPostCount": 39,
+        "publishedMessageCount": 281,
+        "publishedUserMessageCount": 104,
+        "publishedAssistantMessageCount": 177,
         "correctedUserMessageCount": 65,
         "sourceKindCounts": {
-          "conversation-message": 273,
+          "conversation-message": 280,
           "embedded-app-report": 1
         },
         "withheldIncompleteExchangeCount": 1,
-        "publishedContentSha256": "ee3e7791db857f29811a84dfd7ef65be973a8028b19eb0816ccd947a132bb889"
+        "withheldSensitiveTurnMessageCount": 6,
+        "publishedContentSha256": "48b9355d260be5bd7e36e2df2bf6067d109ac7a131ee24c62a8e0c88923da5f6"
       },
       "posts": [
         "trauma-2026-07-26-conversation",
@@ -122,7 +123,8 @@
         "trauma-2026-08-30-conversation",
         "trauma-2026-08-31-conversation",
         "trauma-2026-09-01-conversation",
-        "trauma-2026-09-02-hospital-call-note"
+        "trauma-2026-09-02-hospital-call-note",
+        "trauma-2026-09-03-conversation"
       ]
     },
     {
@@ -171,28 +173,28 @@
       ]
     },
     {
-      "id": "medical-public-archive-2026-08-30",
+      "id": "medical-public-archive-2026-09-03",
       "board": "medical",
-      "throughDate": "2026-08-30",
+      "throughDate": "2026-09-03",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
       "selection": {
-        "publishedPostCount": 8,
-        "publishedMessageCount": 52,
-        "publishedUserMessageCount": 22,
-        "publishedAssistantMessageCount": 30,
-        "correctedUserMessageCount": 19,
+        "publishedPostCount": 9,
+        "publishedMessageCount": 54,
+        "publishedUserMessageCount": 23,
+        "publishedAssistantMessageCount": 31,
+        "correctedUserMessageCount": 20,
         "sourceKindCounts": {
-          "conversation-message": 39,
+          "conversation-message": 41,
           "embedded-app-report": 1,
           "voice-transcript": 12
         },
         "withheldSensitiveTurnMessageCount": 5,
         "excludedHiddenOrRedactedRecordCount": 12,
-        "publishedContentSha256": "93f2a1dcaa83790ecd54403cbc78defb491c1fd03c78f397335ad4559d24ee5e"
+        "publishedContentSha256": "f3b8138f32dbcf661c70ee70cfdd14247bea82ebfd5b1d9294f5ae191573fb75"
       },
       "posts": [
         "medical-2026-08-01-conversation",
@@ -202,7 +204,8 @@
         "medical-2026-08-25-conversation",
         "medical-2026-08-26-conversation",
         "medical-2026-08-27-conversation",
-        "medical-2026-08-30-conversation"
+        "medical-2026-08-30-conversation",
+        "medical-2026-09-03-conversation"
       ]
     },
     {

@@ -4,10 +4,11 @@ import { formatKoreanStamp } from '../lib/archive';
 
 interface Props {
   message: any;
+  amendments?: any[];
   isLast?: boolean;
 }
 
-const { message, isLast = false } = Astro.props;
+const { message, amendments = [], isLast = false } = Astro.props;
 const isUser = message.role === 'user';
 const primaryText = isUser ? (message.corrected ?? message.original) : message.text;
 const showsCorrected = isUser && Boolean(message.corrected);
@@ -48,6 +49,7 @@ const replyLabel = isEmbeddedReport
             <time datetime={message.recordedAt.start}>{formatKoreanStamp(message.recordedAt)}</time>
             <span class="fidelity-label">{userFidelityLabel}</span>
           </div>
+          {message.provenanceNote && <p class="message-provenance-note">{message.provenanceNote}</p>}
           <div class="message-text message-text-plain" set:html={safePlainTextToHtml(primaryText)} />
           {showsCorrected && (
             <details class="original-toggle">
@@ -88,4 +90,17 @@ const replyLabel = isEmbeddedReport
       )
     }
   </div>
+  {
+    amendments.length > 0 && (
+      <section class="amendments message-amendments" aria-label="이 메시지의 후속 확인과 정정">
+        <h3>이 원문에 대한 후속 확인과 정정</h3>
+        {amendments.map((amendment) => (
+          <div class={`amendment amendment-${amendment.kind}`}>
+            <strong>{amendment.kind === 'correction' ? '정정' : amendment.kind === 'clarification' ? '보충' : '후속 기록'}</strong>
+            <p set:html={safePlainTextToHtml(amendment.note)} />
+          </div>
+        ))}
+      </section>
+    )
+  }
 </section>
