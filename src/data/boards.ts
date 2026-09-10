@@ -21,7 +21,7 @@ export const boards = [
     id: 'rehabilitation',
     label: '재활 준비',
     shortLabel: '재활 준비',
-    description: '전원, 병원 비교, 질문과 실무 체크리스트',
+    description: '매일 병상 활동, 의료진과 정할 재활 범위, 전원 준비와 당시의 대화 기록',
   },
   {
     id: 'media',

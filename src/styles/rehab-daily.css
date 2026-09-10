@@ -1,0 +1,55 @@
+.rehab-daily { margin: 0 0 3rem; font-size: 1rem; scroll-margin-top: 10rem; }
+.rehab-daily h2 { font-size: clamp(1.5rem, 4vw, 2rem); margin: .25rem 0 .8rem; line-height: 1.4; }
+.rehab-daily h3 { font-size: 1.2rem; line-height: 1.5; margin: 0 0 .7rem; }
+.rehab-daily h4 { font-size: 1.05rem; margin: 0 0 .5rem; }
+.rehab-daily p { margin: .7rem 0; }
+.rehab-daily section, .rehab-daily details { scroll-margin-top: 10rem; }
+.rehab-heading { margin-bottom: 1.2rem; }
+.rehab-note { color: var(--ink-soft); font-size: .9rem; }
+.rehab-jumps, .rehab-actions { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1rem 0; }
+.rehab-jumps a { padding: .5rem .8rem; border: 1px solid var(--line-strong); background: var(--surface); border-radius: .5rem; font-size: .95rem; }
+.rehab-alert { border: 2px solid #993e35; border-left-width: 6px; background: #fff5f1; color: #58271f; padding: 1.2rem; border-radius: .6rem; margin: 1.2rem 0; }
+.rehab-panel { background: var(--surface); border: 1px solid var(--line); border-radius: .8rem; padding: 1.2rem; margin: 1rem 0; }
+.rehab-checks { display: grid; gap: .6rem; }
+.rehab-checks label { display: flex; align-items: flex-start; gap: .65rem; padding: .65rem; background: var(--surface-soft); border-radius: .4rem; }
+.rehab-daily input[type=checkbox] { width: 1.2rem; height: 1.2rem; flex-shrink: 0; margin-top: .3rem; accent-color: var(--rehabilitation); }
+.rehab-status, .rehab-task-hint { border-left: 3px solid var(--rehabilitation); padding: .6rem .8rem; background: var(--rehabilitation-bg); }
+.rehab-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; margin: 1rem 0; }
+.rehab-save-choice { display: flex; align-items: center; gap: .5rem; }
+.rehab-sessions { display: grid; gap: 1rem; margin-top: 1rem; }
+.rehab-session { border: 1px solid var(--line-strong); border-top: 4px solid var(--rehabilitation); padding: 1rem; border-radius: .6rem; min-width: 0; }
+.rehab-fields { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; }
+.rehab-session label, .rehab-review { display: grid; gap: .3rem; margin: .7rem 0; }
+.rehab-daily input:not([type=checkbox]), .rehab-daily select, .rehab-daily textarea { width: 100%; min-width: 0; max-width: 100%; padding: .65rem; border: 1px solid var(--line-strong); border-radius: .4rem; background: white; color: var(--ink); font: inherit; }
+.rehab-daily textarea { resize: vertical; }
+.rehab-daily button { min-height: 44px; padding: .6rem .85rem; background: var(--navy); color: white; border: 1px solid var(--navy); border-radius: .5rem; font: inherit; }
+.rehab-daily button.rehab-secondary { background: var(--surface-soft); color: var(--ink); border-color: var(--line-strong); }
+.rehab-daily button:hover { filter: brightness(.94); }
+.rehab-daily summary { cursor: pointer; font-size: 1rem; font-weight: 650; padding: .6rem 0; }
+.rehab-daily details:not(.rehab-panel) { padding: .6rem 0; border-top: 1px solid var(--line); }
+.rehab-daily li { margin: .65rem 0; }
+.rehab-limit { padding: 1rem; margin-top: 1rem; background: #fff5f1; border-left: 4px solid #993e35; }
+.rehab-activity-examples { padding: .8rem 1rem; background: var(--surface-soft); border-radius: .5rem; }
+.rehab-week-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; }
+.rehab-week-grid article { padding: 1rem; background: var(--surface-soft); border-radius: .5rem; }
+.rehab-table-wrap { overflow-x: auto; }
+.rehab-reference-table { width: 100%; border-collapse: collapse; line-height: 1.7; font-size: .95rem; }
+.rehab-reference-table th, .rehab-reference-table td { text-align: left; vertical-align: top; padding: .8rem; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
+.rehab-reference-table th { width: 30%; }
+.rehab-reference-table thead { background: var(--surface-soft); }
+.rehab-print-record { display: none; }
+.rehab-daily [hidden] { display: none !important; }
+@media (max-width: 760px) { .rehab-week-grid { grid-template-columns: 1fr; } }
+@media (max-width: 540px) { .rehab-fields { grid-template-columns: 1fr; } .rehab-panel, .rehab-session { padding: .9rem; } .rehab-actions button { width: 100%; } }
+@media print {
+  body:has(.rehab-daily) .site-header, body:has(.rehab-daily) .site-footer, body:has(.rehab-daily) .page-intro, body:has(.rehab-daily) .archive-feed { display: none; }
+  .rehab-daily button, .rehab-jumps, .rehab-record-form { display: none !important; }
+  .rehab-daily { font-size: 11pt; }
+  .rehab-panel { break-inside: auto; }
+  .rehab-week-grid { display: block; }
+  .rehab-week-grid article, .rehab-reference-table tr { break-inside: avoid; }
+  .rehab-daily h3, .rehab-daily h4, .rehab-daily summary { break-after: avoid; }
+  .rehab-table-wrap { overflow: visible; }
+  .rehab-print-record { display: block; white-space: pre-wrap; overflow-wrap: anywhere; font: inherit; line-height: 1.7; border: 0; background: transparent; }
+  .rehab-daily a { text-decoration: underline; }
+}

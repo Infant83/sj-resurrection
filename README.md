@@ -41,6 +41,25 @@
 4. `rehabilitation` — 재활 준비
 5. `media` — 자료·미디어 보관함
 
+## Daily bedside activity worksheet
+
+The rehabilitation board also includes a newly authored family activity worksheet at
+`board/rehabilitation/#daily-program`. It is explicitly labeled as a GPT planning draft,
+not a historical conversation, clinical prescription, or consciousness assessment.
+The existing source-verified archive and import ledger are unchanged. The worksheet
+separates low-demand interaction from therapist-authorized movement, includes stop
+criteria and infection precautions, and never advances activity difficulty automatically.
+Notes default to in-memory only; device-local saving is opt-in and never sends data to
+the public repository or a server. Safety checks are never persisted. The clinical team
+must review all patient-specific movement limits and activity timing before use.
+The September 10 family-provided three-week bedside reference is incorporated as
+reviewed planning material, not a verified prescription or an imported archive post.
+It adds approved finger/target activities, a rest-only bedtime slot, three-week review
+goals, and optional daily movement-limit and tremor notes. Forceful clonus suppression,
+unapproved fracture/core exercises, and the reference's blanket feeding-position rule
+are replaced with clinician-review guidance and linked medical sources. Print output
+includes full-length notes. Existing v1 local records remain readable.
+
 ## Local development
 
 ```bash

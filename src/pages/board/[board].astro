@@ -4,6 +4,7 @@ import ArchiveFeed from '../../components/ArchiveFeed.astro';
 import { boards, boardMap, type BoardId } from '../../data/boards';
 import { assertArchiveIntegrity, isPublicPost } from '../../lib/archive';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import RehabDaily from '../../components/RehabDaily.astro';
 
 export function getStaticPaths() {
   return boards.map((board) => ({ params: { board: board.id } }));
@@ -28,6 +29,8 @@ const posts = allPosts.filter(({ data }) => isPublicPost(data) && data.board ===
       <span>records</span>
     </div>
   </section>
+
+  {boardId === 'rehabilitation' && <RehabDaily />}
 
   {
     posts.length > 0 ? (
