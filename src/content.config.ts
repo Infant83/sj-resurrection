@@ -29,7 +29,7 @@ const source = z.object({
   accessedAt: stamp.optional(),
 });
 
-const userMessageFidelity = z.enum(['exact', 'typo-corrected', 'pending-original']);
+const userMessageFidelity = z.enum(['exact', 'typo-corrected', 'privacy-redacted', 'pending-original']);
 
 const messageBase = z.object({
   id: z.string(),
@@ -44,12 +44,16 @@ const messageBase = z.object({
   turnId: z.string().optional(),
   sourceRefs: z.array(z.string()).default([]),
   provenanceNote: z.string().optional(),
+  privacyRedactions: z.array(z.enum(['room-number', 'image', 'attachment', 'attachment-link'])).min(1).optional(),
+  privacyNote: z.string().min(1).optional(),
 });
 
 const userMessage = messageBase.extend({
   role: z.literal('user'),
-  original: z.string().min(1),
+  original: z.string().min(1).optional(),
   originalSha256: z.string().regex(/^sha256:[a-f0-9]{64}$/).optional(),
+  publicText: z.string().min(1).optional(),
+  publicTextSha256: z.string().regex(/^sha256:[a-f0-9]{64}$/).optional(),
   corrected: z.string().optional(),
   correctionPolicy: z.literal('typos-only').optional(),
   fidelity: userMessageFidelity,
@@ -61,7 +65,7 @@ const assistantMessage = messageBase.extend({
   text: z.string().min(1),
   textSha256: z.string().regex(/^sha256:[a-f0-9]{64}$/).optional(),
   modelLabel: z.string().default('ChatGPT'),
-  fidelity: z.literal('exact'),
+  fidelity: z.enum(['exact', 'privacy-redacted']),
   references: z
     .array(
       z.object({

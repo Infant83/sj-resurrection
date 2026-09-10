@@ -53,6 +53,26 @@ export function assertArchiveIntegrity(posts: ArchivePost[]) {
       }
       previousMessageTime = message.recordedAt.start;
 
+      const isRedacted = message.fidelity === 'privacy-redacted';
+      if (isRedacted) {
+        if (!message.privacyRedactions?.length || !message.privacyNote?.trim()) {
+          throw new Error(`Redacted message lacks a disclosure: ${post.data.recordId}/${message.id}`);
+        }
+        if (message.role === 'user' && (
+          message.original !== undefined || message.originalSha256 !== undefined ||
+          message.corrected !== undefined || message.correctionPolicy !== undefined ||
+          !message.publicText?.trim() || !message.publicTextSha256 ||
+          message.publicTextSha256 !== sha256(message.publicText)
+        )) {
+          throw new Error(`Redacted user text must contain only a verified public copy: ${post.data.recordId}/${message.id}`);
+        }
+      } else if (
+        message.privacyRedactions !== undefined || message.privacyNote !== undefined ||
+        (message.role === 'user' && (message.publicText !== undefined || message.publicTextSha256 !== undefined))
+      ) {
+        throw new Error(`Privacy metadata requires redacted fidelity: ${post.data.recordId}/${message.id}`);
+      }
+
       if (message.role === 'user') {
         userMessageCount += 1;
         const corrected = message.corrected;
@@ -115,18 +135,18 @@ export function assertArchiveIntegrity(posts: ArchivePost[]) {
         }
         sourceOrdinals.add(sourceOrdinalKey);
 
-        if (message.role === 'user') {
+        if (message.role === 'user' && !isRedacted) {
           if (!['exact', 'typo-corrected'].includes(message.fidelity)) {
             throw new Error(`User original is not verified: ${post.data.recordId}/${message.id}`);
           }
-          if (!message.original.trim() || !message.originalSha256) {
+          if (!message.original?.trim() || !message.originalSha256) {
             throw new Error(`User source identity is incomplete: ${post.data.recordId}/${message.id}`);
           }
           if (message.originalSha256 !== sha256(message.original)) {
             throw new Error(`User original hash mismatch: ${post.data.recordId}/${message.id}`);
           }
-        } else {
-          if (!message.text.trim() || !message.textSha256 || message.fidelity !== 'exact') {
+        } else if (message.role === 'assistant') {
+          if (!message.text.trim() || !message.textSha256 || !['exact', 'privacy-redacted'].includes(message.fidelity)) {
             throw new Error(`GPT source identity is incomplete: ${post.data.recordId}/${message.id}`);
           }
           if (message.textSha256 !== sha256(message.text)) {
@@ -221,7 +241,7 @@ export function searchableText(post: ArchivePost) {
   const messages = post.data.messages
     .flatMap((message) =>
       message.role === 'user'
-        ? [message.original, message.corrected ?? '']
+        ? [message.publicText ?? message.original ?? '', message.corrected ?? '']
         : [message.text, message.references.map((reference) => reference.title).join(' ')],
     )
     .join(' ');

@@ -56,6 +56,7 @@ for (const board of Object.keys(ledger.boards ?? {})) {
     publishedUserMessageCount: messages.filter((message) => message.role === 'user').length,
     publishedAssistantMessageCount: messages.filter((message) => message.role === 'assistant').length,
     correctedUserMessageCount: messages.filter((message) => message.role === 'user' && message.corrected).length,
+    privacyRedactedMessageCount: messages.filter((message) => message.fidelity === 'privacy-redacted').length,
     sourceKindCounts,
     ...aggregateCounts,
     publishedContentSha256: sha256(posts.map((post) => JSON.stringify(post)).join('\n')),

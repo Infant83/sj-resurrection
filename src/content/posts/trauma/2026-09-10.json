@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 2,
+  "recordId": "trauma-2026-09-10-conversation",
+  "board": "trauma",
+  "entryType": "clinical-update",
+  "title": "2026년 9월 10일 경과·간병 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "eventAt": {
+    "start": "2026-09-10",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "recordedAt": {
+    "start": "2026-09-10",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-09-11T07:14:14.840+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "일반병실",
+    "간병 기록",
+    "회진",
+    "경관영양",
+    "의식반응",
+    "재활",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-care-phase-4",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "간병 기록 정리 (phase 4) · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-09-11T07:14:14.840+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-fca8a64c-7e7d-416b-b48f-eb6d0de100cf",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-10T10:56:32.481145+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-11T07:14:14.840+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "fca8a64c-7e7d-416b-b48f-eb6d0de100cf",
+      "sourceOrdinal": 47,
+      "turnId": "37101040-1f4b-4c80-b298-112cbade22eb",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "provenanceNote": "보호자가 제공한 병원 통화·회진 자동 요약 본문입니다. 의료진의 설명을 보호자가 전달한 자료이며, 공식 진료기록이나 확정 진단이 아닙니다.",
+      "original": "오늘 회진 결과. \n\n1. 환자 섭식 상태 및 치료 계획\n\n의료진은 환자가 현재 경구 섭취 시 흡수가 원활하지 않으며, 어제 구토 증상을 보였다고 설명했습니다. 이에 따라 위가 계속 차면 반복적인 구토로 이어질 수 있어 좋지 않다고 판단했습니다. 보호자는 어제 환자에게 물을 조금 먹이고 구구단을 시켜보았을 때, 시각적 반응은 있었으나 말로 표현하는 데는 어려움을 보였다고 전했습니다.\n\n의료진은 환자의 소화 기능이 회복될 시간이 더 필요하다고 보고, 우선 콧줄을 삽입하여 위를 쉬게 할 계획이라고 밝혔습니다. 향후 장 기능이 원활한지 엑스레이로 확인한 후 식사를 다시 시작할 예정입니다.\n\n2. 환자 신체 반응 및 재활 관리\n\n보호자는 환자의 성기 주변 피부가 어두워진 것과 발을 떨고 몸을 한쪽으로 기울이는 행동에 대해 우려를 표했습니다. 의료진은 피부 상태는 확인 후 괜찮다고 답했으며, 환자의 움직임에 대해서는 다음과 같이 설명했습니다.\n\n- 환자가 말로 의사 표현이 어려워 발길질 등으로 표현할 수 있으며, 움직임의 의도성을 평가하기는 어렵습니다.\n- 힘 조절이 안 되어 다칠 수 있으므로 지속적인 관찰이 필요합니다.\n- 의식 호전과 움직임 개선은 함께 진행되는 경향이 있습니다.\n\n골반 골절 상태는 잘 붙고 있으며, 보호자가 환자를 앉히는 재활을 시작한 것에 대해 의료진은 계속해야 한다고 격려했습니다. 다만, 환자가 힘들다는 표현을 직접 하지 못하고 몸을 기울이는 방식으로 나타낼 수 있으므로, 자세 유지를 위한 근력 훈련을 장기적인 관점에서 꾸준히 진행해야 한다고 조언했습니다.\n\nKey Decisions\n\n- 환자의 경구 섭취를 중단하고, 콧줄을 삽입하여 위를 쉬게 한 후 상태를 보며 식사를 재개하기로 결정했습니다. 이는 환자의 구토 증상과 소화 불량에 따른 조치입니다.\n- 환자의 근력 강화를 위해 앉히는 등의 재활 훈련을 지속적으로 실시하기로 결정했습니다. 이는 환자가 스스로 자세를 유지할 근력을 기르기 위함입니다.\n\nAction Items\n\n- Speaker 1: 환자에게 콧줄을 삽입하여 위를 쉬게 하고 영양 공급 — due 2026-09-10 [실행 예정]\n- Speaker 2: 환자의 의도치 않은 움직임으로 인한 골절 등 부상을 방지하기 위해 잘 관찰하기 [계속 진행]\n- Speaker 2: 환자를 앉히는 등 재활 운동을 지속적으로 실행하기 [계속 진행]\n- Speaker 1: 식사 재개를 위해 엑스레이 촬영으로 환자의 장 상태 확인 [실행 예정]\n\n",
+      "originalSha256": "sha256:972d68989ef74f171b76a0dcefe82154bca67bcfff6c5b19a5924a5a7f9d7ffb",
+      "fidelity": "exact"
+    },
+    {
+      "id": "message-79e1ffc4-8ec7-59fb-8ed3-2cf3a8821bf6",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-10T10:59:56.029370+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-11T07:14:14.840+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "79e1ffc4-8ec7-59fb-8ed3-2cf3a8821bf6",
+      "sourceOrdinal": 48,
+      "turnId": "37101040-1f4b-4c80-b298-112cbade22eb",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "channel": "commentary",
+      "text": "오늘 회진 내용을 어제의 구토·콧줄 교체, 인지 반응과 연결해 살펴보겠습니다. 특히 ‘위를 쉬게 하는 콧줄’이 배액용인지 영양 공급용인지 구분해 설명드릴게요.",
+      "textSha256": "sha256:b506993034ac62fb9018fa0993fecfc667d62b8fc6092c11e1c76a88385b3338",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "provenanceNote": "당시 ChatGPT의 설명·분석입니다. 보호자 보고에 대한 해석과 일반 의학정보를 포함하며, 선진의 확정 진단이나 현재 처방이 아닙니다.",
+      "references": []
+    },
+    {
+      "id": "message-2faf8a87-b45a-5d38-bd68-544817d03aa9",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-10T11:01:20.219827+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-11T07:14:14.840+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "2faf8a87-b45a-5d38-bd68-544817d03aa9",
+      "sourceOrdinal": 49,
+      "turnId": "37101040-1f4b-4c80-b298-112cbade22eb",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "channel": "final",
+      "text": "오늘(9월 10일) 회진은 **“위장관이 영양 공급을 견디도록 조정하면서, 허용된 범위의 재활은 계속한다”**는 계획으로 이해됩니다. 어제 관찰된 인지 반응이 무효가 되거나, 이번 구토만으로 뇌 회복이 후퇴했다고 판단할 근거는 없습니다.\n\n## 1. ‘흡수가 안 된다’는 말은 정확한 의미를 구분해야 합니다\n\n회진 설명의 **“위가 계속 차서 토한다”**는 부분은, 영양분을 장에서 흡수하지 못한다는 뜻보다는 **위 내용물이 다음 단계로 잘 내려가지 않고 고이는 문제**를 설명한 것으로 보입니다. 다만 이것은 문맥에 따른 해석이며, 위 배출 지연이나 장운동 저하가 실제로 확인됐는지는 검사 결과가 필요합니다.\n\n구토·복부 팽만 등으로 경관영양을 견디지 못할 때는 공급량을 줄이거나 잠시 중단하고 원인을 평가할 수 있습니다. 따라서 이번 금식은 회복을 포기하는 조치가 아니라, 반복 구토를 줄이기 위한 치료 조정으로 이해할 수 있습니다. [소아 경관영양 지침](https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Enteral_feeding_and_medication_administration/)\n\n어제는 기침·가래 배출과 영양 공급이 겹친 상황도 있었으므로, **아버님이 주신 물 때문에 구토했다고 단정할 수도 없습니다.**\n\n### 콧줄의 ‘현재 용도’가 중요합니다\n\n콧줄은 영양을 **넣는 용도**와, 위에 고인 내용물·가스를 **빼내는 용도(배액·감압)**로 사용할 수 있습니다. 위를 쉬게 한다는 설명과 어제 배액관을 연결했다는 기록은 후자에 잘 맞습니다. [소아 비위관 관리 지침](https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Nasogastric_and_Orogastric_Tube_Insertion_and_Management/)\n\n따라서 요약문의 **“위를 쉬게 하고 영양 공급”**은 두 단계가 한 문장에 섞였을 가능성이 있습니다. 지금부터 콧줄로 영양을 준다는 뜻으로 받아들이지는 않는 것이 좋겠습니다.\n\n현재는 오늘의 경구 섭취 중단 지시를 따라 물 먹이기 시험도 중단하고, **콧줄 영양·물·약은 각각 어떤 처방인지 확인**해야 합니다. 배액 중인 관으로 약을 넣는 것도 의료진의 별도 지시가 필요합니다. [경관 투약 지침](https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Enteral_feeding_and_medication_administration/)\n\n## 2. 엑스레이는 무엇을 확인하려는 걸까요?\n\n오늘 검사는 문맥상 장의 팽창이나 막힘을 의심할 소견 등을 살피려는 것으로 보입니다. **어제 새 콧줄의 위치를 확인하려던 검사와는 목적이 다를 수 있습니다.**\n\n엑스레이 한 장으로 ‘흡수 기능이 정상’임을 직접 확인하는 것은 아닙니다. 영상과 함께 배의 팽만·압통, 구토, 배액량, 가스·대변 배출 등을 종합해 식사 재개를 판단하게 됩니다. 아직 이 기록만으로 장폐색이나 장마비가 확진됐다고 볼 수는 없습니다. [미국 국립보건원: 장운동 장애 평가](https://www.niddk.nih.gov/health-information/digestive-diseases/intestinal-pseudo-obstruction/diagnosis)\n\n## 3. 의식과 예후: 구구단 정답 선택은 여전히 중요한 관찰입니다\n\n의료진의 “움직임의 의도성을 판단하기 어렵다”는 설명은 발길질이나 떨림 같은 행동에 관한 것으로 이해됩니다. 이를 **“선진이의 모든 행동에 의도가 없다”**는 뜻으로 확대할 필요는 없습니다.\n\n어제 기록의 다음 행동은 따로 평가할 가치가 있습니다.\n\n- 세 개의 보기 중 구구단 정답을 네 번 모두 처음에 선택함.\n- 영상이 멈추면 재생 버튼을 스스로 누름.\n- 자세 변경 상황에서 난간을 잡고 몸을 움직여 협조함.\n\n특히 정답 선택은 **시각적 정보를 처리하고, 알고 있는 정보를 이용해 선택했을 가능성을 보여주는 긍정적인 관찰**입니다. 다만 반복 가능성, 도움이나 단서의 정도를 확인해야 하며, 이것만으로 전반적인 인지 회복이나 향후 독립생활 수준을 예측할 수는 없습니다. 의식 평가는 시각·청각·운동·의사소통 등을 나누어 평가하는 개정 혼수회복척도(CRS-R) 같은 방법이 도움이 됩니다. [CRS-R 설명](https://www.sralab.org/rehabilitation-measures/coma-recovery-scale-revised)\n\n또한 **말로 표현하지 못하는 것과 이해하지 못하는 것은 같은 뜻이 아닙니다.** 기관절개관 자체가 발성에 영향을 줄 수 있으므로, 발성 조건과 언어·인지 기능을 구분해서 봐야 합니다. [미국 언어청각협회 설명](https://www.asha.org/practice-portal/professional-issues/tracheostomy-and-ventilator-dependence/)\n\n## 4. 앉히는 재활을 계속하라는 것은 의미 있는 진전입니다\n\n어제는 침대를 세운 상태에서 약 20분간 앉아 스스로 자세를 고쳤고, 오늘은 의료진이 이를 계속하도록 권했습니다. **현재 시행한 수준의 재활을 이어갈 수 있다는 확인**으로 받아들일 수 있습니다.\n\n다만 다음은 구분해야 합니다.\n\n- 침대에서 등을 받쳐 앉기\n- 침대 가장자리에 걸터앉기\n- 휠체어로 옮기기\n- 다리에 체중을 싣고 서기\n\n이들은 서로 다른 단계입니다. 오늘의 격려가 휠체어 이동이나 서기까지 허용했다는 뜻은 아닙니다. 골절 후 체중부하 범위와 운동 강도는 정형외과·재활팀이 구체적으로 정해야 합니다. [NICE 외상 후 재활 지침](https://www.ncbi.nlm.nih.gov/books/NBK579697/)\n\n몸이 기울면 곧바로 억지로 세우기보다, 통증이나 피로를 나타내는지 살피고 지지를 조정해 주세요. **앉는 각도·시간·도움 방법을 치료사에게 직접 보여 달라고 요청하는 것**이 가장 실용적입니다.\n\n성기 주변 피부는 오늘 의료진이 확인하고 괜찮다고 했다는 점에서, 어제의 ‘아직 의사 확인을 못 받은 상태’보다 안심할 근거가 추가됐습니다. 다만 원인이 각질로 확정됐다고까지 기록하지는 않겠습니다.\n\n## 오늘 확인하면 좋은 네 가지\n\n1. **지금 콧줄은 배액용인가요? 경관영양도 중단한 상태인가요?**\n2. **엑스레이에서 어떤 소견을 보고, 어떤 조건이 되면 식사를 재개하나요?**\n3. **금식 중 수분·영양 공급과 약 투여 계획은 어떻게 되나요?** 어제 저녁 약은 모두 미투여였다는 점도 함께 확인하면 됩니다.\n4. **앉히기는 어느 자세로 얼마나 허용되며, 휠체어는 별도 승인이 필요한가요?**\n\n종합하면, **인지 반응과 골절 회복에서 긍정적인 관찰은 이어지고 있지만, 안정적인 영양 공급과 일관된 의사소통은 아직 확보해야 할 과제**입니다. 오늘은 회복 전체를 좋다·나쁘다로 판단하기보다, 위장관 치료와 재활을 각각 맞춰가는 단계로 보는 것이 가장 정확하겠습니다.",
+      "textSha256": "sha256:631d1f45e3bfe3db7d707c71fa90f6572a6b8357b3e82c5ca064b5346d3b8908",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "provenanceNote": "당시 ChatGPT의 설명·분석입니다. 보호자 보고에 대한 해석과 일반 의학정보를 포함하며, 선진의 확정 진단이나 현재 처방이 아닙니다.",
+      "references": [
+        {
+          "title": "소아 경관영양 지침",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Enteral_feeding_and_medication_administration/"
+        },
+        {
+          "title": "소아 비위관 관리 지침",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Nasogastric_and_Orogastric_Tube_Insertion_and_Management/"
+        },
+        {
+          "title": "미국 국립보건원: 장운동 장애 평가",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/intestinal-pseudo-obstruction/diagnosis"
+        },
+        {
+          "title": "CRS-R 설명",
+          "url": "https://www.sralab.org/rehabilitation-measures/coma-recovery-scale-revised"
+        },
+        {
+          "title": "미국 언어청각협회 설명",
+          "url": "https://www.asha.org/practice-portal/professional-issues/tracheostomy-and-ventilator-dependence/"
+        },
+        {
+          "title": "NICE 외상 후 재활 지침",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK579697/"
+        }
+      ]
+    }
+  ],
+  "amendments": [
+    {
+      "id": "drainage-and-rehabilitation-scope-2026-09-10-47",
+      "recordedAt": {
+        "start": "2026-09-11T07:14:14.840+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-fca8a64c-7e7d-416b-b48f-eb6d0de100cf",
+      "note": "자동 요약에 ‘경구 섭취 중단·위를 쉬게 함’과 ‘영양 공급’이 함께 적혀 있습니다. 이 글은 즉시 경관영양을 재개했다는 기록으로 해석하지 않습니다. 배액·감압 용도, 경관영양·물·약 처방, 검사 결과와 재개 조건은 아직 미확인입니다. 앉히기 지속 권고도 휠체어 이동이나 서기 허용으로 확대하지 않습니다. [RCH 경관영양·투약 지침](https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Enteral_feeding_and_medication_administration/)",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [
+    "trauma-2026-09-09-conversation"
+  ],
+  "privacyReviewed": true
+}
