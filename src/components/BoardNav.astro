@@ -15,7 +15,7 @@ const { activeBoard } = Astro.props;
       전체 기록
     </a>
     {
-      boards.map((board) => (
+      boards.map((board) => (<>
         <a
           class:list={['board-link', `board-${board.id}`, { active: activeBoard === board.id }]}
           href={withBase(`board/${board.id}/`)}
@@ -23,7 +23,13 @@ const { activeBoard } = Astro.props;
         >
           {board.shortLabel}
         </a>
-      ))
+        {board.id === 'rehabilitation' && (
+          <a class:list={['board-link', 'board-rehabilitation', { active: activeBoard === 'activities' }]}
+            href={withBase('activities/')} aria-current={activeBoard === 'activities' ? 'page' : undefined}>
+            인지 활동 앱
+          </a>
+        )}
+      </>))
     }
   </div>
 </nav>

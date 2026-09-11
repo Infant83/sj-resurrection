@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "astro dev",
     "check": "astro check",
+    "test:activities": "node --test tests/activities.test.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "new:post": "node scripts/new-post.mjs",

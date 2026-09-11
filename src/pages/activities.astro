@@ -1,0 +1,89 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { activities } from '../data/activities';
+import { withBase } from '../lib/archive';
+import '../styles/activities.css';
+---
+<BaseLayout title="선진 인지 활동 앱" description="큰 버튼으로 천천히 함께하는 다섯 가지 인지 활동" activeBoard="activities">
+  <section class="activity-app" data-activity-app>
+    <div data-activity-home>
+      <header class="activity-intro">
+        <h1>선진 인지 활동</h1>
+        <p>편안하게 깨어 있을 때, 하나씩 천천히.</p>
+      </header>
+      <p class="activity-care-note">허용된 자세와 손 사용 범위에서 보호자와 함께하세요. 피곤하거나 불편해하면 쉬어도 됩니다.</p>
+      <div class="activity-catalog">
+        {activities.map((activity) => (
+          <button type="button" class="activity-card" data-start-activity={activity.id}>
+            <span class="activity-stage">활동 {activity.stage} · {activity.focus}</span>
+            <span class="activity-card-symbol" aria-hidden="true">{activity.symbol}</span>
+            <strong>{activity.title}</strong>
+            <span>{activity.description}</span>
+          </button>
+        ))}
+      </div>
+      <details class="activity-help">
+        <summary>보호자 안내</summary>
+        <p>활동 번호는 과제의 구성 순서입니다. 의식 회복 단계나 통과 기준이 아니며, 선진이가 편안하게 참여하는 활동을 고르면 됩니다.</p>
+        <p>하나를 보여주고 충분히 기다려 주세요. 손이 닿기 쉬운 위치를 반복해서 누르는지, 시범이나 도움이 있었는지 함께 살핍니다. 터치가 어렵다면 보호자가 관찰한 선택을 대신 입력할 수 있습니다.</p>
+        <p>게임의 정답 수만으로 이해력·의식 수준·회복 여부를 판단할 수 없습니다. 졸리거나 반응이 줄면 재촉하거나 잠을 깨워 계속하지 마세요. 통증이나 호흡 불편이 있으면 활동을 멈추고 의료진에게 알리세요.</p>
+        <p>기록은 이번 실행 동안 화면에만 남습니다. 새로고침하면 사라지며, 필요하면 종료 화면에서 복사하세요.</p>
+        <p>활동 설계 참고: <a href="https://msktc.org/tbi/factsheets/facts-about-vegetative-and-minimally-conscious-states-after-severe-brain-injury" target="_blank" rel="noopener noreferrer">MSKTC 가족 상호작용 안내</a>, <a href="https://www.sralab.org/rehabilitation-measures/coma-recovery-scale-revised" target="_blank" rel="noopener noreferrer">표준 의식 평가 설명</a>. 이 앱 자체는 검증된 재활치료나 의식 평가 검사가 아닙니다.</p>
+        <a href={withBase('board/rehabilitation/')}>병상 활동·재활 준비 기록</a>
+      </details>
+      <noscript><p>활동을 실행하려면 브라우저에서 JavaScript를 허용해 주세요.</p></noscript>
+    </div>
+
+    <section class="activity-player" data-player hidden aria-label="인지 활동 화면">
+      <header class="player-toolbar">
+        <button type="button" data-finish>마치기</button>
+        <strong data-game-name></strong>
+        <button type="button" data-pause>쉬기</button>
+      </header>
+      <div class="player-task">
+        <div class="task-heading"><span data-progress>1 / 5</span><h2 data-prompt tabindex="-1"></h2></div>
+        <div class="task-stimulus" data-stimulus></div>
+        <button type="button" class="sequence-ready" data-sequence-ready hidden>기억했으면 가리고 시작</button>
+        <div class="task-choices" data-choices></div>
+        <p class="task-feedback" data-feedback role="status" aria-live="polite"></p>
+      </div>
+      <footer class="player-controls">
+        <button type="button" data-skip>이번 문제 건너뛰기</button>
+        <button type="button" data-next class="activity-primary" disabled>다음 문제 · 보호자</button>
+        <details class="player-settings">
+          <summary>보호자 설정</summary>
+          <div class="settings-fields">
+            <label data-difficulty-label>난도 <select data-difficulty><option value="easy">가볍게</option><option value="more">조금 더</option></select></label>
+            <label data-table-label hidden>구구단 <select data-table>{Array.from({ length: 8 }, (_, i) => <option value={i + 2}>{i + 2}단</option>)}<option value="mixed">2~9단 섞기</option></select></label>
+            <label>입력 방식 <select data-input-mode><option value="direct">직접 터치</option><option value="caregiver">보호자가 관찰해 입력</option></select></label>
+            <label><input type="checkbox" data-helped /> 이 문제에서 시범·도움 제공</label>
+          </div>
+          <p>난도·구구단 변경은 다음 문제부터 적용됩니다. 제한 시간은 없으며, 정답 위치는 문제마다 섞입니다.</p>
+        </details>
+      </footer>
+    </section>
+
+    <section class="activity-pause" data-pause-screen hidden aria-label="휴식">
+      <h2>잠깐 쉬어요</h2>
+      <p>편안해지면 이어가도 됩니다.</p>
+      <button type="button" data-resume class="activity-primary">이어서 하기</button>
+      <button type="button" data-finish>오늘은 여기까지</button>
+    </section>
+
+    <section class="activity-results" data-results hidden aria-label="이번 활동 기록">
+      <h2 tabindex="-1" data-results-title>함께한 활동</h2>
+      <p data-results-summary></p>
+      <p>아래는 이번 활동에서 누른 내용입니다. 의식 점수나 회복률이 아닙니다.</p>
+      <div class="activity-results-scroll"><table><thead><tr><th>문제</th><th>제시한 내용</th><th>선택</th><th>관찰</th></tr></thead><tbody data-results-rows></tbody></table></div>
+      <p data-position-note></p>
+      <button type="button" data-copy-results>기록 복사</button>
+      <p data-copy-status role="status"></p>
+      <textarea data-copy-fallback hidden readonly aria-label="복사할 활동 기록"></textarea>
+      <div class="results-actions"><button type="button" data-restart class="activity-primary">같은 활동 다시 하기</button><button type="button" data-back-home>활동 고르기</button></div>
+    </section>
+  </section>
+</BaseLayout>
+<script>
+  import { initializeActivities } from '../lib/activities';
+  initializeActivities();
+</script>
