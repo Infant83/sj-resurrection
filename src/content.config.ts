@@ -66,6 +66,10 @@ const assistantMessage = messageBase.extend({
   textSha256: z.string().regex(/^sha256:[a-f0-9]{64}$/).optional(),
   modelLabel: z.string().default('ChatGPT'),
   fidelity: z.enum(['exact', 'privacy-redacted']),
+  citationMarkers: z.array(z.object({
+    marker: z.string().min(1),
+    urls: z.array(httpUrl),
+  })).optional(),
   references: z
     .array(
       z.object({

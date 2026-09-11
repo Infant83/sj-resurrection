@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-09-09-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 9월 9일 의학지식 문의",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-09",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "원문 대화",
+    "의학지식",
+    "보호자 질문"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-09-11T08:55:15.269+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-3cd7dc13-1298-4734-b660-74dc83a79189",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-09T06:09:39.967137+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-11T08:55:15.269+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "3cd7dc13-1298-4734-b660-74dc83a79189",
+      "sourceOrdinal": 67,
+      "turnId": "35468ba6-93d6-40f8-b2da-e02770f0196a",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "provenanceNote": "보호자의 입력 기록입니다. 직접 관찰, 전해 들은 의료진 설명, 질문과 추정이 함께 포함될 수 있습니다.",
+      "original": "지금 선진이 먹는 약중에 설사 관련약이잇나",
+      "originalSha256": "sha256:39d42bf57854ecb14f93ddac37fbf702d9e65cd600b2e399d9aefc5bf59deeb6",
+      "fidelity": "typo-corrected",
+      "corrected": "지금 선진이 먹는 약 중에 설사 관련 약이 있나",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-d47551fb-e3fd-425d-978f-f0d3b441f450",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-09T06:09:41.984359+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-11T08:55:15.269+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "d47551fb-e3fd-425d-978f-f0d3b441f450",
+      "sourceOrdinal": 68,
+      "turnId": "35468ba6-93d6-40f8-b2da-e02770f0196a",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "text": "현재 제가 확인할 수 있는 기록에는 **선진이가 복용 중인 약의 정확한 약명 목록이 없어서**, 설사 치료제가 포함되어 있다고 단정할 수는 없습니다. 이전 기록에는 아침·점심·저녁에 여러 약을 콧줄로 투여한다는 것과 아스피린 등이 있다는 정도만 남아 있습니다. memcite\n\n특히 지금 확인하고 싶은 약은 두 종류입니다.\n\n- **C. difficile 치료제**: 경구/콧줄로 투여하는 **vancomycin(반코마이신)**, 경우에 따라 **fidaxomicin(피닥소마이신)** 등\n- **증상 조절제**: 정장제·유산균제 등. 반면 **loperamide 같은 지사제는 C. difficile 감염이 의심되는 상황에서 임의로 사용하는 약이 아닙니다.**\n\n지금 선진이가 먹는 **약 봉투나 약 사진을 찍어서 올려주시면 가장 좋습니다.** 약 이름을 하나씩 확인해서 **① 설사/C. difficile 치료약, ② 위장관 관련약, ③ 진통·신경계약, ④ 혈전·기타 약**으로 나눠드리고, 각각 왜 먹는 약인지까지 확인해볼게요.",
+      "textSha256": "sha256:2ccfb610a0bf63e37c226411cb52181b8817915a5ddf3bde11986a8094afdc10",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "provenanceNote": "당시 ChatGPT의 설명·분석입니다. 보호자 보고에 대한 해석과 일반 의학정보를 포함하며, 선진의 확정 진단이나 현재 처방이 아닙니다. 원문의 인용 표시는 확인 가능한 당시 링크로 표시했습니다. 연결 자료가 없는 표시는 ‘연결 미확인’으로 남기며, 이를 새로 검증된 출처로 간주하지 않습니다.",
+      "citationMarkers": [
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "references": []
+    },
+    {
+      "id": "message-c428e982-2c07-484a-a990-a64c0c0a3260",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-09T06:10:22.302030+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-11T08:55:15.269+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "c428e982-2c07-484a-a990-a64c0c0a3260",
+      "sourceOrdinal": 69,
+      "turnId": "c1447e31-3b1a-4bea-9a84-3f16a16c373f",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "provenanceNote": "보호자의 입력 기록입니다. 직접 관찰, 전해 들은 의료진 설명, 질문과 추정이 함께 포함될 수 있습니다.",
+      "publicText": "[첨부 사진 4장 비공개 — 텍스트 입력 없음]",
+      "publicTextSha256": "sha256:62cb4e34c7abb67788454a9ccd673a1801e397e16bfd7b2bb3c93288261d5d38",
+      "fidelity": "privacy-redacted",
+      "privacyRedactions": [
+        "image"
+      ],
+      "privacyNote": "사용자가 승인한 공개 범위에 따라 첨부 사진 4장을 공개하지 않습니다. 텍스트가 없는 사진 메시지도 원래 위치에 남겼습니다."
+    },
+    {
+      "id": "message-f25466bc-474f-4f07-9051-486c120c5787",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-09T06:10:25.862539+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-11T08:55:15.269+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "f25466bc-474f-4f07-9051-486c120c5787",
+      "sourceOrdinal": 70,
+      "turnId": "c1447e31-3b1a-4bea-9a84-3f16a16c373f",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "text": "사진에서 확인되는 약은 네 가지입니다.\n\n| 약 | 주된 역할 | 설사와의 관계 |\n|---|---|---|\n| **우루사정 100 mg** | 우르소데옥시콜산(UDCA), 담즙 흐름·간기능 관련 치료 | **설사 치료제가 아닙니다.** 오히려 드물게 설사/묽은 변이 부작용으로 생길 수 있습니다. |\n| **뮤테란캡슐 100 mg** | 아세틸시스테인 계열의 **거담제**. 끈적한 가래를 묽게 해 배출을 도움 | 설사 치료제 아님. 위장불편·구역·설사 등이 부작용으로 가능 |\n| **아스피린프로텍트정 100 mg** | 저용량 아스피린, **항혈소판제** | 설사 치료제 아님. 위장관 자극 가능 |\n| **셉트린정 400/80 mg** | sulfamethoxazole/trimethoprim 복합 **항생제** | 설사 치료제가 아닙니다. 오히려 항생제이므로 설사·장내 미생물 변화와 관련될 수 있음 |\n\n따라서 **이 사진에 보이는 네 약 중 C. difficile 장염이나 설사를 직접 치료하기 위한 약은 보이지 않습니다.**\n\n특히 앞에서 이야기했던 C. difficile 치료제인 **경구 vancomycin이나 fidaxomicin은 사진에는 없습니다.**\n\n### 선진이 상황에서 눈에 띄는 부분\n\n**셉트린(Septrin)**을 복용하고 있다는 점은 확인할 가치가 있습니다. 이 약은 항생제이기 때문에 현재 **무슨 감염을 치료/예방하기 위해 사용하는지**를 물어보세요. C. difficile을 치료하려고 쓰는 약은 아닙니다.\n\n반면 **뮤테란**은 지금까지 계속 문제가 됐던 가래를 묽게 만들어 배출하기 위한 약으로 이해할 수 있고, **우루사**는 최근 간수치가 오르내렸던 상황과 연결되어 처방됐을 가능성이 있습니다. 아스피린은 처방 목적을 별도로 확인해야 합니다.\n\n그리고 중요한 점 하나가 있습니다. **C. difficile이 검출됐다고 해서 반드시 치료약을 사용하는 것은 아닙니다.** 단순 보균이고 설사의 원인이 다른 것으로 판단했다면 C. difficile 자체를 치료하지 않을 수 있습니다. 반대로 실제 C. difficile infection으로 진단했다면 치료제가 **정맥주사가 아니라 콧줄로 따로 들어가고 있을 수도 있어서**, 지금 보여주신 정규 약 봉투에 없다고 해서 치료를 안 하고 있다고 단정할 수 없습니다.\n\n오늘 간호사에게는 이렇게 한 번에 물어보세요.\n\n> **“선진이가 설사를 계속하는데 C. difficile이 검출된 게 맞나요? 단순 보균인가요, 실제 장염으로 보고 있나요? 치료 중이라면 어떤 약을 쓰고 있나요? 그리고 지금 먹는 셉트린은 어떤 감염 때문에 먹는 건가요?”**\n\n그리고 **다른 시간대 약 봉투나 주사약 목록도 사진으로 보여주시면**, 현재 선진이의 약을 전부 모아서 **약명–목적–간/장/가래와의 관계–주의할 부작용**까지 하나의 투약표로 정리해드릴게요.",
+      "textSha256": "sha256:e9558df82781fe91d2701e52da26e9345fa63bd372de009fade556a4f0def9fc",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "provenanceNote": "당시 ChatGPT의 설명·분석입니다. 보호자 보고에 대한 해석과 일반 의학정보를 포함하며, 선진의 확정 진단이나 현재 처방이 아닙니다. 당시 첨부 사진을 해석한 답변입니다. 이번 업데이트에서는 사진 원본을 공개하거나 약 봉투 판독을 독립적으로 재확인하지 않았습니다.",
+      "references": []
+    }
+  ],
+  "amendments": [
+    {
+      "id": "update-medication-image-scope-f25466bc-474f-4f07-9051-486c120c5787",
+      "recordedAt": {
+        "start": "2026-09-11T08:55:15.269+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-f25466bc-474f-4f07-9051-486c120c5787",
+      "note": "이 답변은 당시 사진 네 장에 보였다고 설명한 약 목록에 한정됩니다. 사진 밖의 주사·별도 처방까지 포함한 전체 투약 목록이나 C. difficile 치료 여부를 확인한 것은 아닙니다. 당시 사진 판독과 현재 처방을 구분해야 합니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [],
+  "privacyReviewed": true,
+  "updatedAt": {
+    "start": "2026-09-11T08:55:15.269+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  }
+}

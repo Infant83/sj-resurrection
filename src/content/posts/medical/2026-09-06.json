@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-09-06-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 9월 6일 의학지식 문의",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-06",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "원문 대화",
+    "의학지식",
+    "보호자 질문"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-09-11T08:55:15.269+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    },
+    {
+      "id": "chatgpt-care-phase-4",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "간병 기록 정리 (phase 4) · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-09-11T08:55:15.269+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-5f80e68d-2c23-4f9c-9937-fc48c541c7af",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-06T12:29:16.143176+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-11T08:55:15.269+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "5f80e68d-2c23-4f9c-9937-fc48c541c7af",
+      "sourceOrdinal": 63,
+      "turnId": "22316e1a-ab91-40d1-9985-651dfb13ac70",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "provenanceNote": "보호자의 입력 기록입니다. 직접 관찰, 전해 들은 의료진 설명, 질문과 추정이 함께 포함될 수 있습니다.",
+      "original": "맞아 간호사 선생님이 씨디피신인가 시디토신인가 이렇게 발음햤는데. ",
+      "originalSha256": "sha256:61077fc54655d761aee315c7b5200526f8923910c2a87fa41db4f41036bdeb3f",
+      "fidelity": "typo-corrected",
+      "corrected": "맞아 간호사 선생님이 씨디피신인가 시디토신인가 이렇게 발음했는데. ",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-65218031-a4f5-4f89-b001-cc9bea59eaac",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-06T12:29:18.191689+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-11T08:55:15.269+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "65218031-a4f5-4f89-b001-cc9bea59eaac",
+      "sourceOrdinal": 64,
+      "turnId": "22316e1a-ab91-40d1-9985-651dfb13ac70",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "text": "아, 그러면 **C. difficile(클로스트리디오이데스 디피실)**을 말씀했을 가능성이 꽤 있습니다. 의료진이 흔히 **“씨 디피실(C. diff)”**이라고 부르기 때문에 말씀하신 “씨디피신/시디토신”과 비슷하게 들릴 수 있습니다. 다만 정확한 균명은 오늘 간호사에게 한 번 확인해야 합니다.\n\n만약 정말 **C. difficile**이라면 지금 선진이의 설사를 이해하는 데 상당히 중요한 정보가 됩니다. 장기간 입원하면서 여러 항생제를 사용하면 정상 장내 미생물총이 크게 변화하고, 그 틈에서 C. difficile이 증식해 독소를 만들어 설사와 대장염을 일으킬 수 있습니다. 다만 **검출됐다는 것과 실제 C. difficile 감염(CDI)이 있다는 것은 다릅니다.** 증상이 없는 보균도 있기 때문에 설사 양상, 검사법(PCR/독소검사), 다른 원인 등을 함께 판단합니다.\n\n그리고 이것이 확인된다면 제가 앞서 말씀드린 **“항생제 → 장내 환경 변화 → 설사”**라는 가능성이 훨씬 구체화됩니다. 반면 선진이의 **구토까지 C. difficile 하나로 설명되지는 않습니다.** 구토는 여전히 위 배출 지연, 장운동 저하, 콧줄 영양 방식, 약물, 기침·구역반사 등의 영향을 별도로 봐야 합니다.\n\n오늘 간호사 선생님께는 딱 이렇게 물어보세요.\n\n> **“어제 말씀하신 장에서 나온 균 이름이 C. difficile인가요? 검사에서 균만 검출된 건가요, 아니면 독소까지 확인돼 실제 장염으로 치료하고 있는 건가요?”**\n\n그리고 이어서,\n\n> **“그래서 지금 설사를 C. difficile 때문이라고 보고 있나요? 현재 치료는 무엇을 하고 있고, 격리 해제나 일반병실 이동에 이것이 영향을 주고 있나요?”**\n\n이 두 질문이 굉장히 중요합니다.\n\n특히 **일반병실 전원이 늦어지는 이유가 C. difficile 감염과 접촉격리 때문인지**, 아니면 구토·영양 불내성, 폐·가래, 간수치 등 **여러 문제가 아직 충분히 안정되지 않았기 때문인지**를 구분해서 물어보세요. 전자라면 치료와 격리 기준이라는 비교적 명확한 문제가 되고, 후자라면 전신 안정화가 기준이 됩니다.\n\n그리고 C. difficile이 맞다고 확인되면 **검사 결과가 정확히 무엇이었는지와 현재 치료약 이름**까지 알려주세요. 그 정보를 가지고 선진이의 설사·구토와 장 회복 예상 시간, 일반병실 전원에 어느 정도 영향을 줄 수 있는지를 훨씬 구체적으로 같이 판단할 수 있습니다. memcite",
+      "textSha256": "sha256:58e8b90081203f867ba9b2c4b14cf4afd3c49cce6a1ba7a66c400c4ef54c30a0",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "provenanceNote": "당시 ChatGPT의 설명·분석입니다. 보호자 보고에 대한 해석과 일반 의학정보를 포함하며, 선진의 확정 진단이나 현재 처방이 아닙니다. 원문의 인용 표시는 확인 가능한 당시 링크로 표시했습니다. 연결 자료가 없는 표시는 ‘연결 미확인’으로 남기며, 이를 새로 검증된 출처로 간주하지 않습니다.",
+      "citationMarkers": [
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "references": []
+    },
+    {
+      "id": "message-b0ac2223-1573-4614-8440-283c988688f6",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-06T12:30:35.306511+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-11T08:55:15.269+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "b0ac2223-1573-4614-8440-283c988688f6",
+      "sourceOrdinal": 65,
+      "turnId": "bfc7bbaa-d61b-455e-9169-d6e8e5156b12",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "provenanceNote": "보호자의 입력 기록입니다. 직접 관찰, 전해 들은 의료진 설명, 질문과 추정이 함께 포함될 수 있습니다.",
+      "original": "이 균이 맞으면 어떤 상태이고 어떤 치료와 어려윰이 있눈거야",
+      "originalSha256": "sha256:fedc04e53f192268addeba9cf6aa6db11e9e6417bb66d6e6698642036d6272b2",
+      "fidelity": "typo-corrected",
+      "corrected": "이 균이 맞으면 어떤 상태이고 어떤 치료와 어려움이 있는 거야",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-9f9d9065-ecf0-40e1-bbce-eaa28c6335d5",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-06T12:30:40.606504+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-11T08:55:15.269+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "9f9d9065-ecf0-40e1-bbce-eaa28c6335d5",
+      "sourceOrdinal": 66,
+      "turnId": "bfc7bbaa-d61b-455e-9169-d6e8e5156b12",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "text": "네. **만약 간호사 선생님이 말한 균이 정말 C. difficile(C. diff)이고, 단순 보균이 아니라 실제 감염(CDI, C. difficile infection)이라면**, 선진이의 지속되는 설사를 상당히 잘 설명할 수 있습니다. 장기간 입원하면서 여러 항생제를 사용한 상황은 대표적인 위험요인입니다. 다만 **치료 가능한 감염이고, 대부분은 적절한 치료에 반응합니다.** citeturn0search0turn0search1\n\n## C. difficile에서는 무슨 일이 생기는가\n\n정상 장에는 수많은 균이 서로 경쟁하면서 C. difficile이 과도하게 증식하는 것을 막습니다. 그런데 광범위 항생제를 오래 사용하면 정상 장내 미생물총이 크게 교란됩니다.\n\n**여러 항생제 사용**\n→ 정상 장내 세균 감소  \n→ C. difficile 증식  \n→ toxin A/B 생성  \n→ 대장 점막 염증  \n→ **물설사·복통·발열·영양 불내성**\n\n이런 구조입니다. CDC에 따르면 항생제 사용 중과 종료 후 약 한 달 동안 C. difficile 감염 위험이 특히 높고, 항생제에 의한 장내 미생물 변화 자체는 수개월 지속될 수 있습니다. citeturn0search0turn0search1\n\n선진이는 **장기간 입원 + 여러 항생제 + 중증 질환 + 영양 공급의 반복적인 중단**이 있었으므로, 만약 C. difficile이 확인됐다면 임상적으로 충분히 설명 가능한 상황입니다.\n\n---\n\n## 그런데 아주 중요한 구분이 있습니다\n\n### `C. difficile 양성 ≠ 반드시 C. difficile 장염`\n\nC. difficile을 장에 가지고 있으면서 증상이 없는 **colonization(집락/보균)**도 있습니다.\n\n특히 PCR 검사는 독소를 만들 수 있는 C. difficile의 유전자를 매우 민감하게 찾아내기 때문에 **다른 원인으로 설사하는 사람에게서도 양성이 나올 수 있습니다.** 그래서 실제 감염 여부는\n\n**설사 증상 + 검사 결과 + 임상상**\n\n을 함께 판단해야 합니다. CDC도 이 부분을 명확히 강조합니다. citeturn0search1turn0search9\n\n따라서 선진이에게 가장 중요한 것은\n\n> **“PCR만 양성인가요, 아니면 toxin A/B도 확인돼 실제 C. difficile 장염으로 판단하신 건가요?”**\n\n입니다.\n\n---\n\n# 실제 감염이라면 어떻게 치료하나\n\n첫 번째 원칙은 **현재 다른 감염 때문에 사용 중인 항생제 중 불필요한 것을 가능한 범위에서 중단하거나 좁히는 것**입니다.\n\n그런데 선진이에게는 폐렴이나 다른 감염 문제가 있기 때문에 이것이 쉽지 않을 수 있습니다. 이것이 선진이 같은 중환자에서 치료가 복잡해지는 이유 중 하나입니다. citeturn0search6\n\n그리고 C. difficile 자체를 죽이는 항생제를 사용합니다.\n\n현재 일반적으로 사용되는 약은 **경구 vancomycin(반코마이신)** 또는 **fidaxomicin(피닥소마이신)**이며, 흔히 약 **10일 정도** 치료합니다. 소아의 정확한 약제 선택과 용량은 중증도·연령·기존 치료 등에 따라 담당 소아과/감염팀이 결정합니다. 중증 소아 CDI에서는 경구 vancomycin이 중요한 치료입니다. citeturn0search0turn0search6\n\n여기서 흥미로운 점은 **“항생제 때문에 생겼는데 다시 항생제로 치료한다”**는 것입니다.\n\n모순처럼 보이지만,\n\n**불필요한 광범위 항생제는 줄이고  \n+ C. difficile을 선택적으로 억제하는 약을 투여**\n\n하는 전략입니다.\n\n동시에 설사로 빠져나가는 **수분과 Na/K/Mg 같은 전해질을 보충하고 영양 상태를 관리**합니다.\n\n---\n\n# 선진이에게 어떤 어려움이 생길 수 있나\n\n가장 흔한 문제는 역시 **설사와 영양 공급의 어려움**입니다.\n\n선진이는 이미 콧줄 영양을 조절하고 있고 구토도 있었기 때문에,\n\n`설사`\n→ 수분·전해질 손실  \n→ 영양 공급 어려움  \n→ 체력·근육 회복 지연\n\n이 문제가 생길 수 있습니다.\n\n그리고 지금 선진이에게는 **폐 회복과도 간접적으로 연결**될 수 있습니다.\n\n영양·수분 상태가 좋지 않음  \n→ 전신 근력 회복 지연  \n→ 호흡근·기침력 회복에도 부담  \n→ 가래 관리 어려움  \n→ 재활 진행 속도에도 영향\n\n이런 연결은 충분히 생각할 수 있습니다.\n\n하지만 **C. difficile이 직접 폐렴이나 가래를 만드는 것은 아닙니다.**\n\n---\n\n## 심한 경우에는 대장 자체가 크게 염증을 일으킬 수도 있습니다\n\n드물지만 중증 CDI에서는\n\n- 심한 대장염\n- 탈수\n- 전해질 이상\n- 장마비(ileus)\n- toxic megacolon\n- 장 천공\n- 패혈증\n\n까지 진행할 수 있습니다. citeturn0search0turn0search1\n\n그래서 선진이에게 **배가 갑자기 많이 팽창하거나, 혈변, 심한 발열, 혈압저하, 장운동 소실, 염증수치 급상승** 같은 것이 나타난다면 단순 설사와는 다르게 평가합니다.\n\n다만 지금까지 말씀해주신 경과만으로 이런 중증 합병증이 있다는 의미는 아닙니다.\n\n---\n\n# 또 하나의 어려움은 재발입니다\n\nC. difficile은 치료가 끝난 뒤에도 일부에서 재발할 수 있습니다.\n\nCDC에서는 감염된 사람 중 약 **9명 중 1명 정도가 이후 2–8주 안에 다시 감염되는 것**으로 설명합니다. 그래서 치료 후에는 검사 결과를 무조건 음성으로 만드는 것이 목표가 아니라 **설사가 실제로 좋아지는 것**을 봅니다. 증상이 없어졌다면 검사만 반복해서 음성을 확인하는 것은 일반적으로 권장되지 않습니다. citeturn0search4turn0search1\n\n반복 재발하는 경우에는 vancomycin 치료 방법을 바꾸거나 fidaxomicin 등을 고려하고, 여러 차례 재발하는 매우 제한적인 상황에서는 장내 미생물 복원 치료를 검토하기도 합니다. citeturn0search6\n\n---\n\n# 일반병실 전원이 늦어지는 것과도 관련될 수 있습니다\n\n이건 **가능합니다. 하지만 C. difficile 하나 때문이라고 단정할 수는 없습니다.**\n\nC. difficile이 의심되거나 확인되면 **접촉주의(contact precautions)**가 필요합니다. 의료진은 장갑과 가운을 사용하고 환경 소독도 일반적인 방식보다 엄격하게 합니다. C. difficile은 **포자(spore)**를 만들기 때문에 환경에서 잘 버팁니다. citeturn0search1\n\n그렇지만 격리가 필요하다고 해서 반드시 중환자실에 있어야 하는 것은 아닙니다. 일반병실에서도 격리 관리가 가능합니다.\n\n따라서 선진이의 전실이 지연되는 진짜 이유는\n\n**C. difficile/설사 + 영양 불안정 + 구토/흡인 위험 + 가래/폐 상태 + 간수치**\n\n중에서 무엇인지 따로 확인해야 합니다.\n\n---\n\n## 오늘 간호사에게 이것만 정확하게 확인해 주세요\n\n제가 지금이라면 네 가지를 물어보겠습니다.\n\n> **① “어제 말씀하신 균 이름이 정확히 C. difficile 맞나요?”**\n\n> **② “PCR에서 균만 나온 건가요, toxin까지 확인돼서 실제 C. difficile 장염으로 치료하는 건가요?”**\n\n> **③ “현재 C. difficile 치료약을 쓰고 있나요? 약 이름이 무엇이고 언제부터 시작했나요?”**\n\n> **④ “일반병실 이동이 늦어지는 주된 이유가 이 장염과 설사 때문인가요, 아니면 폐·가래나 간수치까지 같이 안정되기를 기다리는 건가요?”**\n\n특히 **③의 약 이름**을 알려주세요.\n\n예를 들어 “먹는 반코마이신”, “피닥소마이신”, 다른 약 이름을 말씀하시면, 그 순간 **실제 CDI로 치료하고 있는지와 현재 치료 단계**를 상당히 구체적으로 파악할 수 있습니다.\n\n그리고 저는 현재 상황에서 **C. difficile이 맞다는 사실 자체보다, 선진이의 설사 횟수가 며칠 동안 감소하는지, 복부팽만이 없는지, 영양을 다시 안정적으로 받을 수 있는지**를 더 중요한 회복지표로 보겠습니다. 이것들이 좋아지기 시작하면 일반병실 전원을 가로막고 있는 하나의 병목이 풀리고 있다는 의미가 될 수 있습니다. memcite",
+      "textSha256": "sha256:703bd78e86282cca6d4d18d0ced21e732b553976a8cee3cfb062e03077a72f9a",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "fidelity": "exact",
+      "provenanceNote": "당시 ChatGPT의 설명·분석입니다. 보호자 보고에 대한 해석과 일반 의학정보를 포함하며, 선진의 확정 진단이나 현재 처방이 아닙니다. 원문의 인용 표시는 확인 가능한 당시 링크로 표시했습니다. 연결 자료가 없는 표시는 ‘연결 미확인’으로 남기며, 이를 새로 검증된 출처로 간주하지 않습니다.",
+      "citationMarkers": [
+        {
+          "marker": "citeturn0search0turn0search1",
+          "urls": [
+            "https://www.cdc.gov/c-diff/about/index.html?utm_source=chatgpt.com",
+            "https://www.cdc.gov/c-diff/hcp/clinical-overview/?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search1turn0search9",
+          "urls": [
+            "https://www.cdc.gov/c-diff/hcp/clinical-overview/?utm_source=chatgpt.com",
+            "https://www.cdc.gov/c-diff/hcp/diagnosis-testing/index.html?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search6",
+          "urls": [
+            "https://www.idsociety.org/practice-guideline/clostridium-difficile?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search0turn0search6",
+          "urls": [
+            "https://www.cdc.gov/c-diff/about/index.html?utm_source=chatgpt.com",
+            "https://www.idsociety.org/practice-guideline/clostridium-difficile?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search4turn0search1",
+          "urls": [
+            "https://www.cdc.gov/c-diff/after/index.html?utm_source=chatgpt.com",
+            "https://www.cdc.gov/c-diff/hcp/clinical-overview/?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search1",
+          "urls": [
+            "https://www.cdc.gov/c-diff/hcp/clinical-overview/?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "references": [
+        {
+          "title": "About C. diff | C. diff | CDC",
+          "url": "https://www.cdc.gov/c-diff/about/index.html?utm_source=chatgpt.com",
+          "attribution": "CDC"
+        },
+        {
+          "title": "C. diff: Facts for Clinicians | C. diff | CDC",
+          "url": "https://www.cdc.gov/c-diff/hcp/clinical-overview/?utm_source=chatgpt.com",
+          "attribution": "CDC"
+        },
+        {
+          "title": "Clinical Testing and Diagnosis for C. diff Infection | C. diff | CDC",
+          "url": "https://www.cdc.gov/c-diff/hcp/diagnosis-testing/index.html?utm_source=chatgpt.com",
+          "attribution": "CDC"
+        },
+        {
+          "title": "SHEA/IDSA 2017 Clinical Practice Guideline Update for Clostridium difficile Infection in Adults and Children",
+          "url": "https://www.idsociety.org/practice-guideline/clostridium-difficile?utm_source=chatgpt.com",
+          "attribution": "IDSA"
+        },
+        {
+          "title": "After C. diff: Caring for Yourself and Others | C. diff | CDC",
+          "url": "https://www.cdc.gov/c-diff/after/index.html?utm_source=chatgpt.com",
+          "attribution": "CDC"
+        }
+      ]
+    }
+  ],
+  "amendments": [
+    {
+      "id": "update-organism-name-65218031-a4f5-4f89-b001-cc9bea59eaac",
+      "recordedAt": {
+        "start": "2026-09-11T08:55:15.269+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "correction",
+      "target": "message-65218031-a4f5-4f89-b001-cc9bea59eaac",
+      "note": "전해 들은 발음만으로 C. difficile이라고 판단한 표현은 근거가 부족합니다. [9월 10일 간병 기록](https://infant83.github.io/sj-resurrection/post/trauma/2026-09-10/#message-bf6f85ce-8078-4eb1-b09a-8f03e07f27e2)에서 간호사가 CRE 양성이라고 설명했다는 후속 전언이 추가됐습니다. CRE와 C. difficile은 다른 대상이며, 이 전언은 C. difficile 감염의 확인 또는 배제를 뜻하지 않습니다. 원래 검사명·검체·결과지는 아직 확인되지 않았습니다. [CDC CRE 안내](https://www.cdc.gov/cre/about/index.html)",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026",
+        "chatgpt-care-phase-4"
+      ]
+    },
+    {
+      "id": "update-cdiff-testing-9f9d9065-ecf0-40e1-bbce-eaa28c6335d5",
+      "recordedAt": {
+        "start": "2026-09-11T08:55:15.269+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-9f9d9065-ecf0-40e1-bbce-eaa28c6335d5",
+      "note": "이 답변은 C. difficile이 맞다는 가정 아래의 설명입니다. PCR 양성만으로 활동성 감염을 확정할 수 없고, 독소검사 음성만으로 감염을 배제할 수도 없습니다. 증상, 검사 방식과 결과를 함께 해석해야 합니다. 특정 약 이름만으로 진단을 역추정하지 않으며, 치료제와 기간은 나이·중증도·처방에 따라 확인해야 합니다. 이후 보고된 CRE를 이 답변의 C. difficile과 혼동하지 않아야 합니다. [CDC C. difficile 검사 안내](https://www.cdc.gov/c-diff/hcp/diagnosis-testing/index.html)",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [],
+  "privacyReviewed": true,
+  "updatedAt": {
+    "start": "2026-09-11T08:55:15.269+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  }
+}

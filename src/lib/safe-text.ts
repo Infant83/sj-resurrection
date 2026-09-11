@@ -30,7 +30,16 @@ export function safePlainTextToHtml(value: string) {
   return output.replaceAll('\n', '<br />');
 }
 
-export function safeMarkdownToHtml(value: string) {
+export function safeMarkdownToHtml(value: string, citationMarkers?: { marker: string; urls: string[] }[]) {
+  // Keep the archived source unchanged; resolve only its presentation markup.
+  if (citationMarkers) {
+    const urls = [...new Set(citationMarkers.flatMap((item) => item.urls))];
+    for (const item of citationMarkers) {
+      const links = item.urls.filter((url) => /^https?:\/\//i.test(url)).map((url) => `[출처 ${urls.indexOf(url) + 1}](<${url}>)`);
+      value = value.replaceAll(item.marker, links.length ? `(${links.join(', ')})` : item.marker.includes('memcite') ? '(이전 대화 참조 · 연결 미확인)' : '(당시 출처 연결 미확인)');
+    }
+  }
+  value = value.replace(/^:::writing\{[^\n]*\}\r?\n([\s\S]*?)\r?\n:::\s*$/, '$1');
   let html = micromark(value, {
     allowDangerousHtml: false,
     extensions: [gfm()],

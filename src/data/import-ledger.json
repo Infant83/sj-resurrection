@@ -32,17 +32,18 @@
       "sourceRequirement": "confirmed shared-conversation snapshot or source-verified embedded report"
     },
     "life": {
-      "status": "published-through-2026-09-02",
+      "status": "published-through-2026-09-10",
       "sourceThreads": [
         "선진이와 함께하는 삶 (phase1)",
         "선진이와 함께하는 삶 (phase2)",
-        "선진이와 함께하는 삶 (phase 3)"
+        "선진이와 함께하는 삶 (phase 3)",
+        "선진과 함께하는 삶 (phase 4)"
       ],
       "publicationRule": "complete-visible-source-messages-only",
       "sourceRequirement": "confirmed-chatgpt-shared-conversation-snapshot"
     },
     "medical": {
-      "status": "published-through-2026-09-03",
+      "status": "published-through-2026-09-10",
       "sourceThreads": [
         "의학지식 문의"
       ],
@@ -74,18 +75,18 @@
       },
       "selection": {
         "publishedPostCount": 46,
-        "publishedMessageCount": 355,
-        "publishedUserMessageCount": 129,
-        "publishedAssistantMessageCount": 226,
+        "publishedMessageCount": 359,
+        "publishedUserMessageCount": 130,
+        "publishedAssistantMessageCount": 229,
         "correctedUserMessageCount": 73,
-        "privacyRedactedMessageCount": 8,
+        "privacyRedactedMessageCount": 9,
         "sourceKindCounts": {
-          "conversation-message": 354,
+          "conversation-message": 358,
           "embedded-app-report": 1
         },
         "withheldIncompleteExchangeCount": 1,
         "withheldSensitiveTurnMessageCount": 6,
-        "publishedContentSha256": "1077dbdfa34424eb2a1dcea24ff96d45f0904aea0d8669b94101008e870a8d90"
+        "publishedContentSha256": "6384f981675cb9cd0047c59d24d6fdad5f0fd3a0b420555fd79e2564176ec33e"
       },
       "posts": [
         "trauma-2026-07-26-conversation",
@@ -137,27 +138,27 @@
       ]
     },
     {
-      "id": "life-public-archive-2026-09-02",
+      "id": "life-public-archive-2026-09-10",
       "board": "life",
-      "throughDate": "2026-09-02",
+      "throughDate": "2026-09-10",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
       "selection": {
-        "publishedPostCount": 20,
-        "publishedMessageCount": 51,
-        "publishedUserMessageCount": 20,
-        "publishedAssistantMessageCount": 31,
-        "correctedUserMessageCount": 20,
+        "publishedPostCount": 21,
+        "publishedMessageCount": 54,
+        "publishedUserMessageCount": 21,
+        "publishedAssistantMessageCount": 33,
+        "correctedUserMessageCount": 21,
         "privacyRedactedMessageCount": 0,
         "sourceKindCounts": {
-          "conversation-message": 51
+          "conversation-message": 54
         },
         "withheldMessageCount": 0,
         "excludedHiddenOrRedactedRecordCount": 2,
-        "publishedContentSha256": "b16e52095e57140ce604577ca13f0a04d0b119fcaf0590f9b4b6a060b88f1b6f"
+        "publishedContentSha256": "917ad47b9a6f2dca7759647467f5ff5db25d74e9e3f814e26c048172bcce29bf"
       },
       "posts": [
         "life-2026-07-29-conversation",
@@ -179,33 +180,34 @@
         "life-2026-08-26-conversation",
         "life-2026-08-27-conversation",
         "life-2026-08-28-conversation",
-        "life-2026-09-02-conversation"
+        "life-2026-09-02-conversation",
+        "life-2026-09-10-conversation"
       ]
     },
     {
-      "id": "medical-public-archive-2026-09-03",
+      "id": "medical-public-archive-2026-09-10",
       "board": "medical",
-      "throughDate": "2026-09-03",
+      "throughDate": "2026-09-10",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
       "selection": {
-        "publishedPostCount": 9,
-        "publishedMessageCount": 54,
-        "publishedUserMessageCount": 23,
-        "publishedAssistantMessageCount": 31,
-        "correctedUserMessageCount": 20,
-        "privacyRedactedMessageCount": 0,
+        "publishedPostCount": 13,
+        "publishedMessageCount": 69,
+        "publishedUserMessageCount": 30,
+        "publishedAssistantMessageCount": 39,
+        "correctedUserMessageCount": 25,
+        "privacyRedactedMessageCount": 1,
         "sourceKindCounts": {
-          "conversation-message": 41,
+          "conversation-message": 56,
           "embedded-app-report": 1,
           "voice-transcript": 12
         },
         "withheldSensitiveTurnMessageCount": 5,
         "excludedHiddenOrRedactedRecordCount": 12,
-        "publishedContentSha256": "f3b8138f32dbcf661c70ee70cfdd14247bea82ebfd5b1d9294f5ae191573fb75"
+        "publishedContentSha256": "1d6157cd5872059d262340c062e62f9d1b8ea14e31048c647e3c5a7d6903f52b"
       },
       "posts": [
         "medical-2026-08-01-conversation",
@@ -216,7 +218,11 @@
         "medical-2026-08-26-conversation",
         "medical-2026-08-27-conversation",
         "medical-2026-08-30-conversation",
-        "medical-2026-09-03-conversation"
+        "medical-2026-09-03-conversation",
+        "medical-2026-09-05-conversation",
+        "medical-2026-09-06-conversation",
+        "medical-2026-09-09-conversation",
+        "medical-2026-09-10-conversation"
       ]
     },
     {

@@ -75,7 +75,7 @@ const replyLabel = isRedacted
           <div class="reply-body">
             {message.provenanceNote && <p class="message-provenance-note">{message.provenanceNote}</p>}
             {message.privacyNote && <p class="message-provenance-note">{message.privacyNote}</p>}
-            <div class="message-text" set:html={safeMarkdownToHtml(primaryText)} />
+            <div class="message-text" set:html={safeMarkdownToHtml(primaryText, message.citationMarkers)} />
             {message.references.length > 0 && (
               <section class="reply-references" aria-label="당시 답변에 연결된 참고 링크">
                 <strong>당시 답변에 연결된 참고 링크</strong>
