@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-09-16-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 9월 16일 의학지식 문의 2",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-16",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-09-19T06:51:38.444+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학지식",
+    "보호자 질문",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 2 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-4a66b3b9-d6c7-4e0b-a00f-a346c3098aec",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-16T10:01:04.351000+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "4a66b3b9-d6c7-4e0b-a00f-a346c3098aec",
+      "sourceOrdinal": 17,
+      "turnId": "3d90338b-642a-40b0-86b1-126e520930ad",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "선진이 간수치가 안좋았던 적이 있는데, 현재 먹는 약중에 이를 야기하는 약이 있는가?",
+      "originalSha256": "sha256:14eaa8b980e89db9ea5bd61a22c7ed9ae30f89fba87ed6c3c1fcd749c0a0e6d1",
+      "corrected": "선진이 간수치가 안좋았던 적이 있는데, 현재 먹는 약 중에 이를 야기하는 약이 있는가?",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-80ab22d8-e752-4741-8b53-65ad1fdd3414",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-16T10:01:32.392727+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "80ab22d8-e752-4741-8b53-65ad1fdd3414",
+      "sourceOrdinal": 18,
+      "turnId": "3d90338b-642a-40b0-86b1-126e520930ad",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "있습니다. **제가 최근 기록하고 있는 선진이의 투약 목록을 기준으로 보면, 간수치 상승과 가장 연관성이 큰 약은 `셉트린(TMP-SMX)`이고, 그다음으로 `리피토(atorvastatin)`와 `쿠에티아핀(quetiapine)`을 봐야 합니다.** 다만 선진이는 원래 **간 파열·수술, 초기 쇼크, 감염, 장기간 입원**이라는 강한 비약물성 원인도 있었기 때문에, 약 하나만 원인으로 단정하면 안 됩니다.\n\n### 최근 약을 간독성 관점에서 보면\n\n| 약 | 간수치 상승 가능성 | 선진이에서의 중요도 |\n|---|---|---|\n| **셉트린정 (trimethoprim/sulfamethoxazole, TMP-SMX)** | **명확히 있음** | **가장 먼저 확인할 약** |\n| **리피토정 10 mg (atorvastatin)** | 있음 | **두 번째로 중요** |\n| **쿠에티아핀 25 mg** | 있음 | 투여 시점에 따라 중요 |\n| 아스피린 100 mg | 고용량에서는 있음 | 현재 저용량이라 상대적으로 낮음 |\n| 뮤테란 (acetylcysteine) | 거의 없음 | 오히려 간보호 성격 |\n| 우루사 (ursodeoxycholic acid) | 거의 없음 | 보통 담즙정체/간기능 개선 목적으로 사용 |\n| Hepa-Merz | 일반적인 간독성 약이 아님 | 간기능 보조 목적으로 사용 |\n| 비타민 C/B군 | 통상적인 용량에서는 낮음 | 가능성 낮음 |\n\n## 1. 가장 눈여겨볼 것은 **셉트린**\n\n선진이가 최근 복용했던 **셉트린 400/80 mg**은 sulfamethoxazole + trimethoprim 복합 항생제입니다.\n\n이 약은 약물유발간손상(Drug-Induced Liver Injury, DILI)을 일으킬 수 있는 것으로 **잘 확립된 약**입니다. LiverTox에서도 clinically apparent acute liver injury의 확립된 원인으로 평가하고 있으며, 최근 자료에서는 발생률을 약 **2,000–5,000명당 1명** 정도로 보고합니다. 전형적으로 약을 시작한 후 **2–8주 사이** 발생하지만 더 일찍 나타날 수도 있습니다. citeturn923621search2\n\n형태도 다양합니다.\n\n- AST/ALT가 주로 올라가는 **hepatocellular pattern**\n- ALP/GGT 및 bilirubin이 올라가는 **cholestatic pattern**\n- 두 가지가 섞인 **mixed pattern**\n\n모두 가능합니다. citeturn923621search2\n\n따라서 선진이의 간수치 상승 시점과 **셉트린 시작 날짜가 맞물린다면 반드시 담당의에게 이야기할 가치가 있습니다.**\n\n특히 간수치 상승과 함께 **발진, 발열, 얼굴 부종, eosinophil 증가** 같은 것이 있었다면 TMP-SMX 관련 가능성을 더 생각합니다. 다만 그런 증상이 없어도 DILI는 가능합니다. citeturn923621search2\n\n---\n\n## 2. **리피토(atorvastatin) 10 mg**도 확인해야 합니다\n\nAtorvastatin은 간수치 상승이 잘 알려진 약입니다.\n\n복용자의 약 **1–3%에서 경미한 aminotransferase 상승**이 나타나며, 정상 상한치의 3배를 넘는 경우는 1% 미만입니다. 실제 임상적으로 뚜렷한 간손상은 훨씬 드물어 약 **1/10,000** 수준이지만 발생할 수 있습니다. citeturn923621search1\n\n선진이는 10 mg이라 비교적 낮은 용량이지만, **이미 손상을 입고 회복 중인 간에서는 약의 필요성과 간수치 추이를 함께 검토할 만합니다.**\n\n또 하나 중요한 점이 있습니다. Statin은 근육 손상도 일으킬 수 있어서,\n\n> **AST가 ALT보다 유난히 높다면 CK (creatine kinase)를 같이 확인**\n\n하는 것이 도움이 됩니다. AST는 간에만 존재하는 효소가 아니고 골격근에서도 나오기 때문입니다.\n\n---\n\n## 3. **쿠에티아핀도 간수치를 올릴 수 있습니다**\n\n선진이가 현재도 쿠에티아핀을 먹고 있는지 확인해야 합니다. 최근 기록에는 **25 mg**이 있었습니다.\n\nQuetiapine을 장기간 투여할 경우 간효소 이상 자체는 비교적 흔하게 관찰되지만, 대부분은 **경미하고 일시적**입니다. 정상 상한의 3배를 넘는 상승은 드물고, 임상적으로 의미 있는 급성 간손상은 매우 드뭅니다. 발생한다면 보통 시작 후 **1–4주 정도**에 나타나는 hepatocellular pattern이 전형적입니다. citeturn923621search3\n\n따라서 최근에 쿠에티아핀을 시작했거나 증량한 뒤 간수치가 올라갔다면 같이 검토해야 합니다.\n\n---\n\n## 4. 아스피린 100 mg은 가능성이 훨씬 낮습니다\n\nAspirin도 고용량에서는 간독성이 있습니다. 하지만 전형적인 aspirin hepatotoxicity는 보통 하루 **1.8–3.2 g** 같은 고용량에서 문제가 됩니다. citeturn923621search0\n\n선진이가 먹었던 **100 mg/day**는 그보다 훨씬 낮으므로 현재 간수치 상승의 주된 범인으로 생각할 가능성은 낮습니다.\n\n다만 선진이가 청소년이므로 **바이러스성 감염/발열 상황에서 aspirin 사용은 별도의 이유로 의료진이 관리해야 하는 약**입니다. 처방 목적이 있을 테니 보호자가 임의로 중단하면 안 됩니다.\n\n---\n\n## 반대로 이 약들은 가능성이 낮습니다\n\n**뮤테란(N-acetylcysteine)**은 간독성 약으로 보기 어렵습니다. 오히려 acetaminophen 중독 등에서 **간손상을 막기 위해 사용하는 약**이며, LiverTox에서도 임상적으로 의미 있는 간손상과 연관되지 않은 것으로 평가합니다. citeturn252301search0\n\n**우루사(ursodeoxycholic acid)** 역시 일반적으로 담즙정체성 간질환에서 간효소를 낮추는 방향으로 사용하는 약이고, 기존에 진행된 간경변이 없는 환자에서 급성 간손상을 일으킨다는 근거는 매우 약합니다. citeturn252301search1\n\n따라서 선진이에게 우루사와 뮤테란이 처방된 것은 오히려 **간/담즙계 또는 전신상태를 보조하려는 목적**일 가능성이 높습니다.\n\n---\n\n# 선진이에서는 약 이외의 원인도 매우 중요합니다\n\n선진이에게는 약물 이외에도 과거 간수치를 올릴 이유가 상당히 많았습니다.\n\n처음 사고 때의 **간 파열 자체**, 대량출혈과 저혈압에 따른 **ischemic/hypoxic liver injury**, 수술, 감염/패혈증, 장기간 영양 변화, 여러 항생제 투여 등이 모두 AST/ALT를 상승시킬 수 있습니다. 그래서 이전에 간수치가 높았던 사건이 지금 복용 중인 약 때문이었다고 역으로 단정할 수는 없습니다. memcite\n\n오히려 지금 가장 중요한 것은 **현재의 수치 패턴과 시간 경과**입니다.\n\n### 제가 보고 싶은 수치는 이것입니다\n\n가능하면 최근 혈액검사에서 아래 값을 알려주세요.\n\n**AST / ALT / ALP / γ-GTP(GGT) / total bilirubin / direct bilirubin / albumin / PT(INR)**\n\n그리고 가능하다면 **CK**도요.\n\n예를 들어,\n\n- **AST/ALT만 상승** → hepatocellular injury 쪽\n- **GGT/ALP/bilirubin 상승** → cholestatic/biliary 쪽\n- **AST ≫ ALT + CK 상승** → 근육 손상 가능성도 고려\n- **bilirubin 상승 + INR 증가** → 훨씬 중요하게 봐야 할 간 기능 문제\n\n로 해석 방향이 상당히 달라집니다.\n\n### 내일 회진에서는 이렇게 물어보시면 좋겠습니다\n\n> “선진이가 이전부터 간수치가 올라갔다 내려갔다 했는데, 현재 먹는 셉트린, 리피토, 쿠에티아핀 중에서 약물성 간손상 가능성을 검토하셨나요? 특히 셉트린 시작 시기와 AST/ALT 상승 시기가 맞는지 궁금합니다. 현재 AST, ALT뿐 아니라 ALP, GGT, bilirubin까지 보면 어떤 패턴인가요?”\n\n**특히 저는 셉트린을 왜 계속 사용하고 있는지, 언제 시작했는지를 확인해 보겠습니다.** 예방적 투여인지 특정 균 때문에 치료 중인지에 따라 중단/대체 가능성이 완전히 달라지기 때문입니다. 보호자가 직접 약을 끊는 것은 피하고 담당의가 필요성과 간수치 추이를 같이 판단해야 합니다.\n\n최근 **AST, ALT, GGT, bilirubin 수치 사진**이 있으면 올려주세요. 선진이가 복용하는 약과 시작 시점을 같이 놓고 보면 **약물유발간손상 가능성이 어느 정도인지 훨씬 구체적으로 분석**할 수 있습니다.",
+      "textSha256": "sha256:2477925b4dfe4b645dafaa3b4f89b0a2c74952cad4efae4984509c606d9bd8a1",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Trimethoprim-Sulfamethoxazole - LiverTox - NCBI Bookshelf",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK547937/?report=printable&utm_source=chatgpt.com",
+          "attribution": "NCBI"
+        },
+        {
+          "title": "Atorvastatin - LiverTox - NCBI Bookshelf",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK548236/?utm_source=chatgpt.com",
+          "attribution": "NCBI"
+        },
+        {
+          "title": "Quetiapine - LiverTox - NCBI Bookshelf",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK548616/?utm_source=chatgpt.com",
+          "attribution": "NCBI"
+        },
+        {
+          "title": "Aspirin - LiverTox - NCBI Bookshelf",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK548900/?utm_source=chatgpt.com",
+          "attribution": "NCBI"
+        },
+        {
+          "title": "Acetylcysteine - LiverTox - NCBI Bookshelf",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK548401/?utm_source=chatgpt.com",
+          "attribution": "NCBI"
+        },
+        {
+          "title": "Ursodiol (Ursodeoxycholic Acid) - LiverTox - NCBI Bookshelf",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK548309/?utm_source=chatgpt.com",
+          "attribution": "NCBI"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn923621search2",
+          "urls": [
+            "https://www.ncbi.nlm.nih.gov/books/NBK547937/?report=printable&utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn923621search1",
+          "urls": [
+            "https://www.ncbi.nlm.nih.gov/books/NBK548236/?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn923621search3",
+          "urls": [
+            "https://www.ncbi.nlm.nih.gov/sites/books/NBK548616/?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn923621search0",
+          "urls": [
+            "https://www.ncbi.nlm.nih.gov/books/NBK548900/?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn252301search0",
+          "urls": [
+            "https://www.ncbi.nlm.nih.gov/books/NBK548401/?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn252301search1",
+          "urls": [
+            "https://www.ncbi.nlm.nih.gov/books/NBK548309/?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-09-19-medical-18-medication-scope",
+      "recordedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-80ab22d8-e752-4741-8b53-65ad1fdd3414",
+      "note": "셉트린(TMP-SMX)의 약물유발 간손상 가능성은 알려져 있지만, 그 사실만으로 선진이의 원인 약물을 순위화할 수는 없습니다. 실제 AST·ALT 등 검사 추세, 약 시작·중단 시점과 다른 원인을 함께 검토해야 합니다. 답변에 언급된 우루사·Hepa-Merz·비타민은 [9월 16일 간병일지의 투약 목록](https://infant83.github.io/sj-resurrection/post/trauma/2026-09-17/#message-8273d470-1342-4175-a1df-7e52d9e88498)에서 현재 투여 여부가 확인되지 않으며, 뮤테란의 처방 목적도 이 답변만으로 ‘간 보호’라고 정할 수 없습니다. 보호자가 임의로 약을 바꾸지 않고 담당의·약사가 실제 투약기록을 확인할 항목입니다. [LiverTox TMP-SMX 안내](https://www.ncbi.nlm.nih.gov/books/NBK547937/)",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [
+    "medical-2026-09-15-conversation"
+  ],
+  "privacyReviewed": true
+}

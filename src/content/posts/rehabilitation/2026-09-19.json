@@ -1,0 +1,531 @@
+{
+  "schemaVersion": 2,
+  "recordId": "rehabilitation-2026-09-19-conversation",
+  "board": "rehabilitation",
+  "entryType": "rehabilitation-plan",
+  "title": "2026년 9월 19일 재활병원 전원 계획",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-19",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-09-19T06:51:38.444+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "재활병원 전원",
+    "원문 질의응답",
+    "날짜별 기록"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-rehabilitation-plan-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "재활병원 전원 계획 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-fbb7d2a8-9dcc-4256-a49a-83fbb89bd5ca",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-19T06:11:38.155128+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "fbb7d2a8-9dcc-4256-a49a-83fbb89bd5ca",
+      "sourceOrdinal": 42,
+      "turnId": "107b20c7-4064-4f0e-b21b-ff8fec85f4fc",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "고은재 교수님도 추천받았어. 아산병원",
+      "originalSha256": "sha256:17ca2546237cfefd29b306173c7ba5f7d48b12465f1bca43920be642e080850f"
+    },
+    {
+      "id": "message-fdaf2fa6-1449-5fea-a912-2c67e85c923a",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-19T06:11:54.207559+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "fdaf2fa6-1449-5fea-a912-2c67e85c923a",
+      "sourceOrdinal": 43,
+      "turnId": "107b20c7-4064-4f0e-b21b-ff8fec85f4fc",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "서울아산병원 고은재 교수님의 진료분야를 확인하고, 나동욱 교수님과 비교해 선진이의 재활 상담에 어떤 점이 맞는지 정리하겠습니다.",
+      "textSha256": "sha256:c1c9984b435aa122e5ae6656e3115484b85fc7cc57d07b6c35d68950e5bd5368",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-1f6f8a5c-9918-40ec-95af-c6b4c8184e7e",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-19T06:12:51.402292+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "1f6f8a5c-9918-40ec-95af-c6b4c8184e7e",
+      "sourceOrdinal": 44,
+      "turnId": "107b20c7-4064-4f0e-b21b-ff8fec85f4fc",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "위 두 교수님의 전문성과 연구내용등을 파악해보고 선진이 어떤 분에게 더 맞을지 생각해줘 필요 정보가 더 있다면 이야기해주고",
+      "originalSha256": "sha256:b5f90a8f20e4a0d9c7090ceb817944fa1bf0e0a30c038f121d370cd026229048",
+      "corrected": "위 두 교수님의 전문성과 연구 내용 등을 파악해보고 선진이 어떤 분에게 더 맞을지 생각해줘 필요 정보가 더 있다면 이야기해주고",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-42ce2687-de03-5032-822a-c5c740414519",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-19T06:14:20.290226+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "42ce2687-de03-5032-822a-c5c740414519",
+      "sourceOrdinal": 45,
+      "turnId": "107b20c7-4064-4f0e-b21b-ff8fec85f4fc",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "두 교수님의 공식 진료분야와 연구논문을 비교해, 선진이의 뇌손상 재활에 얼마나 직접 연결되는지 살펴보겠습니다. 이전 상태를 정확히 이어가기 위해 `personal-context` 지침을 적용하고, 전문성에 대한 판단과 CRE·기관절개 환자의 실제 입원 가능성은 구분하겠습니다.",
+      "textSha256": "sha256:6d558644ffcfd4dbe30ee15d7d654865b04a011282ec0751a482be52bab86448",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-05409baf-0bbf-5f30-97ad-220f60ce90d1",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-19T06:15:26.513499+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "05409baf-0bbf-5f30-97ad-220f60ce90d1",
+      "sourceOrdinal": 46,
+      "turnId": "107b20c7-4064-4f0e-b21b-ff8fec85f4fc",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현재 확인된 자료에서는 나동욱 교수님은 소아 운동기능·보행·로봇재활, 고은재 교수님은 소아재활과 소아 심폐재활 연구가 눈에 띕니다. 다만 선진이에게 중요한 것은 ‘중증 외상성 뇌손상 후 의식·인지 회복’과의 직접적인 관련성이어서, 논문의 대상이 뇌성마비인지 외상성 뇌손상인지까지 확인하고 있습니다.",
+      "textSha256": "sha256:1838e712b1636a728f42938f32a0323096fdee503c914216572c5c5050c634c2",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-52f34a56-0f02-54ab-ab5d-3eb5bf43c454",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-19T06:17:20.616347+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "52f34a56-0f02-54ab-ab5d-3eb5bf43c454",
+      "sourceOrdinal": 47,
+      "turnId": "107b20c7-4064-4f0e-b21b-ff8fec85f4fc",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "비교에 중요한 차이를 찾았습니다. 고은재 교수님은 소아 인지·언어훈련 연구도 했고, 나동욱 교수님의 ‘소아 뇌손상’ VR 연구는 실제로 뇌성마비·소아 뇌졸중 환자 중심이었습니다. 따라서 논문 제목만으로 어느 분이 선진이 같은 외상 후 의식회복에 더 강하다고 판단할 수는 없습니다. 지금 필요한 상담과 이후 운동재활을 나눠 추천드리겠습니다.",
+      "textSha256": "sha256:5c0cde29aa910795dfda49f2b8f135edbd30c6989b8cea2b773b35dc9b24bfc0",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-77864a76-a467-5ca8-8cb3-c94e0cac6dc0",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-19T06:18:46.014909+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "77864a76-a467-5ca8-8cb3-c94e0cac6dc0",
+      "sourceOrdinal": 48,
+      "turnId": "107b20c7-4064-4f0e-b21b-ff8fec85f4fc",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "논문과 공식 진료분야를 비교해보니, **선진이의 현재 상태를 종합적으로 상담할 첫 진료는 고은재 교수님을 조금 더 우선하고, 운동기능·보행 회복 계획은 나동욱 교수님께도 평가받는 방향**이 합리적이라고 생각합니다.\n\n다만 이것은 **공개된 연구와 선진이의 현재 과제를 연결한 잠정 판단**입니다. 두 분 중 누가 중증 외상성 뇌손상 환자를 더 많이 치료하는지, 회복 결과가 더 좋은지는 공개자료로 비교할 수 없습니다. 실제 전원 결정은 담당 경험과 입원 조건을 확인한 뒤 해야 합니다.\n\n## 1. 나동욱 교수님: 운동기능·보행·재활공학 연구가 뚜렷합니다\n\n세브란스 공식 소개는 소아재활, 특히 뇌성마비 등 소아 장애의 재활과 생체역학·보조공학·착용형 로봇 연구를 강조합니다. **움직임을 정밀하게 평가하고, 반복 훈련을 실제 기능으로 연결하는 분야**가 눈에 띕니다. [세브란스 공식 소개](https://sev.severance.healthcare/sev/story/doctor.do?articleNo=116267&mode=view&title=%EC%B0%A9%EC%9A%A9%ED%98%95+%EB%A1%9C%EB%B4%87+%EA%B0%9C%EB%B0%9C+%EC%9D%B4%EB%81%84%EB%8A%94+%EB%82%98%EB%8F%99%EC%9A%B1+%EA%B5%90%EC%88%98)\n\n대표 연구를 보면 다음과 같습니다.\n\n- **2021년 소아 뇌손상 환자의 VR 상지재활 연구 — 교신저자**  \n  손목·팔 움직임을 게임과 연결한 다기관 무작위시험입니다. 기존 작업치료와 비교해 손의 능숙한 사용, 일상생활 수행 등에서 추가 개선을 보고했습니다. 다만 등록 환자 80명은 **뇌성마비 74명, 소아 뇌졸중 5명, 외상성 뇌손상 1명**이었고, 발병 후 최소 12개월이 지나 지시를 이해하고 수행할 수 있는 아이들이 대상이었습니다. 따라서 선진이의 현재 의식회복 단계에 그대로 적용할 근거는 아닙니다. [논문 원문](https://onlinelibrary.wiley.com/doi/10.1111/dmcn.14762)\n\n- **2023년 가정용 VR 상지훈련 연구 — 교신저자**  \n  뇌성마비·소아 뇌졸중 환자 40명을 대상으로 병원 치료를 가정까지 확장하는 방법을 연구했습니다. 일부 지표는 훈련 전보다 좋아졌지만, **대조군보다 기능이 더 좋아졌다는 유의한 차이는 없었습니다.** ‘첨단 장비이면 더 효과적’이라고 해석하면 안 되는 연구입니다. [논문 원문](https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2023.1131573/full)\n\n- **2025년 착용형 보행로봇 종설**  \n  보행훈련과 일상생활 보조에 사용하는 로봇의 적용과 한계를 정리했습니다. 최근까지도 보행·운동재활 분야를 지속적으로 연구하고 있음을 확인할 수 있습니다. [논문](https://pubmed.ncbi.nlm.nih.gov/40819657/)\n\n**선진이와 연결되는 부분:** 좌우 운동 차이, 팔·손 사용, 몸통 균형, 서기·걷기로 넘어가는 단계의 목표 설정을 상담하기에 연구 방향이 잘 맞습니다. 다만 골절·수술 부위 제한을 먼저 반영해야 하며, 로봇치료가 지금 가능하다는 뜻은 아닙니다.\n\n## 2. 고은재 교수님: 소아 인지·언어훈련과 심폐재활 연구가 함께 있습니다\n\n서울아산병원 공식 전문분야에 **소아재활과 소아 심장·호흡재활**이 명시되어 있습니다. 단순히 소아호흡기센터에 소속된 것만이 아니라, 실제 관련 연구도 확인됩니다. [서울아산병원 공식 소개](https://eng.amc.seoul.kr/gb/lang/specialities/doctors/doctorsDetail.do?drEmpId=N1BJUSt2MzgzNlFRVkJjU2hpZXJVZz09&searchHpCd=D164)\n\n- **2021년 터치스크린 기반 인지훈련 연구 — 공동저자**  \n  중증 인지장애가 있는 특수학교 아동 29명을 대상으로 훈련을 비교했습니다. 주의 전환과 개별 목표 달성에서 개선을 보고했습니다. 가족이 관찰한 선진이의 퍼즐·화면 선택 반응을 바탕으로 **어떤 과제를 어떤 난도로 제공하고, 진전을 어떻게 평가할지** 상담하는 데 관련성이 있습니다. 다만 외상 후 회복 중인 청소년을 연구한 것은 아닙니다. [논문](https://pubmed.ncbi.nlm.nih.gov/34943401/)\n\n- **2021년 인지훈련과 경두개직류자극(tDCS) 병합 연구 — 제1저자**  \n  인지장애를 동반한 뇌성마비 아동 13명의 인지·언어·일상생활 기능을 평가한 소규모 무작위 예비시험입니다. 인지·언어재활을 직접 연구했다는 근거지만, **선진이에게 뇌자극치료를 권하거나 의식회복 효과를 보장할 근거는 아닙니다.** [논문](https://pubmed.ncbi.nlm.nih.gov/34513765/)\n\n- **2024년 소아 만성호흡기질환의 가정 호흡재활 연구 — 교신저자 중 한 명**  \n  만성호흡기질환 아동 20명에서 호흡재활의 실행 가능성과 기능 변화를 평가했습니다. 다만 대조군이 없고 심폐 상태가 안정된 아이들이 대상이어서, 기관절개·잦은 흡인이 필요한 뇌손상 환자와는 구분해야 합니다. [논문](https://pubmed.ncbi.nlm.nih.gov/38790529/)\n\n**선진이와 연결되는 부분:** 인지·의사소통 훈련을 운동재활과 함께 설계하고, 호흡 문제가 재활 참여에 미치는 영향을 상담하기에 공개된 전문분야가 잘 맞습니다. 그렇다고 기관절개관 제거나 CRE 환자 입원을 직접 책임진다는 뜻은 아닙니다.\n\n## 3. 그래서 선진이에게는 어떻게 선택할까?\n\n이전 기록을 대조하면, 선진이는 **의정부 성모병원에서 회복 중이고, 가족 관찰상 목적 있는 움직임과 과제 수행이 늘지만 말·지시 반응은 불안정하며, 기관절개·경관영양·CRE 이력과 골절 문제가 함께 있는 상태**로 이해하고 있습니다. 가족 관찰을 공식 의식·인지 평가 결과로 간주하지는 않았습니다.\n\n이 상황을 기준으로 제 판단은 다음과 같습니다.\n\n| 현재 가장 해결하고 싶은 문제 | 우선 상담 방향 |\n|---|---|\n| 반응을 어떻게 해석하고 인지·의사소통 훈련을 설계할지, 호흡 문제까지 함께 상담 | **고은재 교수님을 조금 더 우선** |\n| 팔·손 사용, 좌우 운동 차이, 균형·보행 회복을 정밀하게 평가 | **나동욱 교수님을 우선 고려** |\n| 중증 DAI 후 의식장애 평가·치료 자체가 가장 큰 과제 | **두 분의 해당 환자 진료 경험과 담당팀을 먼저 확인 — 논문만으로 우열 판단 불가** |\n| 지금 입원해서 전문재활을 시작할 병원을 결정 | 교수님 이름보다 **실제 수용 가능일·격리 중 치료 제공·치료량·의료지원**을 우선 확인 |\n\n여기서 인지훈련 연구와 의식회복 연구는 같은 것이 아닙니다. **고은재 교수님의 인지 연구가 있다는 이유만으로 ‘의식을 더 잘 깨워준다’고 판단할 수 없고, 나동욱 교수님의 운동재활 연구가 있다는 이유만으로 ‘인지재활은 덜 한다’고 판단할 수도 없습니다.**\n\n또한 두 병원 모두 공식 진료범위에 소아재활과 외상성 뇌손상을 포함합니다. 어느 한 곳만 선진이의 질환을 다룬다고 볼 근거는 없습니다. [세브란스 재활의학과](https://sev-rehabil.severance.healthcare/sev-rehabil/department/department/rehabilitation.do), [아산 소아재활의학과](https://eng.amc.seoul.kr/gb/lang/specialities/children.do?hpCd=D164)\n\n## 4. 판단을 더 정확하게 해줄 정보\n\n아래는 제가 아직 최신 상태를 확실히 모르는 부분입니다. 전부 준비하실 필요 없이, 아는 것부터 알려주세요.\n\n1. **현재 호흡 상태:** 산소나 인공호흡기를 쓰는지, 석션은 대략 몇 시간마다 필요한지.\n2. **최근 지시수행·의사소통:** 간단한 지시를 반복해서 따르는지, ‘예/아니오’를 일관되게 표현하는지. 재활의학과의 의식평가 결과가 있다면 그 내용.\n3. **CRE 상태:** 보균인지 실제 감염인지, 최근 검사 결과와 현재 항생제 사용 여부.\n4. **재활·골절 제한:** 현재 PT·OT·언어/연하치료 횟수, 의료진이 허용한 앉기·서기·체중부하 범위.\n5. **정확한 사고일과 최근 뇌 MRI 판독·재활의학과 소견:** 회복 단계와 동반 손상을 판단하는 데 필요합니다.\n6. **두 교수님을 추천받은 경위:** 선진이 상태나 기록을 보고 추천한 것인지, 실제로 조기 진료나 의료진 간 연결이 가능한지도 중요합니다.\n\n지금은 의정부 성모병원 담당팀을 통해 두 곳에 **“중학생 중증 외상성 뇌손상·의식 및 인지 회복·기관절개·CRE 상태를 검토할 담당팀 연결과 전원 사전심사”**를 요청하는 것이 좋겠습니다. 한 곳만 먼저 상담해야 한다면 현재 정보로는 고은재 교수님 쪽에 조금 더 무게를 두지만, **나동욱 교수님 팀에서 더 빠르게 적합한 입원재활을 제공할 수 있다면 그 판단은 달라집니다.**",
+      "textSha256": "sha256:108146524f35eddcbad81d6bb3c6b53efaa34d32b6494a15df4dc3b33dd3e283",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "세브란스 공식 소개",
+          "url": "https://sev.severance.healthcare/sev/story/doctor.do?articleNo=116267&mode=view&title=%EC%B0%A9%EC%9A%A9%ED%98%95+%EB%A1%9C%EB%B4%87+%EA%B0%9C%EB%B0%9C+%EC%9D%B4%EB%81%84%EB%8A%94+%EB%82%98%EB%8F%99%EC%9A%B1+%EA%B5%90%EC%88%98"
+        },
+        {
+          "title": "논문 원문",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/dmcn.14762"
+        },
+        {
+          "title": "논문 원문",
+          "url": "https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2023.1131573/full"
+        },
+        {
+          "title": "논문",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40819657/"
+        },
+        {
+          "title": "서울아산병원 공식 소개",
+          "url": "https://eng.amc.seoul.kr/gb/lang/specialities/doctors/doctorsDetail.do?drEmpId=N1BJUSt2MzgzNlFRVkJjU2hpZXJVZz09&searchHpCd=D164"
+        },
+        {
+          "title": "논문",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34943401/"
+        },
+        {
+          "title": "논문",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34513765/"
+        },
+        {
+          "title": "논문",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38790529/"
+        },
+        {
+          "title": "세브란스 재활의학과",
+          "url": "https://sev-rehabil.severance.healthcare/sev-rehabil/department/department/rehabilitation.do"
+        },
+        {
+          "title": "아산 소아재활의학과",
+          "url": "https://eng.amc.seoul.kr/gb/lang/specialities/children.do?hpCd=D164"
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-fee29a44-cbac-4bac-93c6-b92ebb14d1fa",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-19T06:22:24.443291+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "fee29a44-cbac-4bac-93c6-b92ebb14d1fa",
+      "sourceOrdinal": 49,
+      "turnId": "0e5e7780-8fd8-468f-92a9-69e167a0df77",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "꼭 두 분만 고려하는것은 아니고 앞서 우리가 검색했던 많은 정보를 확인해서 추려줘 누나가 추천해주고 와이프가 추천해준 것들도 같이. ",
+      "originalSha256": "sha256:7a21ff0608b69369cbc4456e6418ab378541753728bdedac1cd4aca62a5cac28",
+      "corrected": "꼭 두 분만 고려하는 것은 아니고 앞서 우리가 검색했던 많은 정보를 확인해서 추려줘 누나가 추천해주고 와이프가 추천해준 것들도 같이. ",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-2881d572-b1d5-5f79-b1da-7b937150be11",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-19T06:22:34.804614+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "2881d572-b1d5-5f79-b1da-7b937150be11",
+      "sourceOrdinal": 50,
+      "turnId": "0e5e7780-8fd8-468f-92a9-69e167a0df77",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "두 분에 한정하지 않고, 혜용님과 누나가 보내주신 링크·병원 목록까지 다시 대조하겠습니다. 이전 조사 내용을 이어가기 위해 `personal-context` 지침을 적용하고, 선진이의 전문 평가를 받을 곳과 실제 입원재활을 이어갈 곳을 나눠 후보를 추리겠습니다.",
+      "textSha256": "sha256:ac0742d9126b2ffb38c8fa144ac265608e5c82d230641892c6b51e8b89c1eadd",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-9555fc91-8188-5edd-a011-8eaad46b229f",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-19T06:25:55.749969+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "9555fc91-8188-5edd-a011-8eaad46b229f",
+      "sourceOrdinal": 51,
+      "turnId": "0e5e7780-8fd8-468f-92a9-69e167a0df77",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "가족 추천까지 합쳐 보니, 건국대 고성은 교수의 ‘소아뇌손상’ 진료와 서울재활병원의 소아·청소년 재활도 중요하게 비교해야겠습니다. 다만 교수님의 전문성과 실제 입원 가능성은 별개라, 선진이의 CRE·기관절개 상태에서 받을 수 있는 재활치료까지 확인하는 기준으로 추리고 있습니다.",
+      "textSha256": "sha256:325f3b4830947de76de172a22122f1baaec08a6e33d46aac153121057ea3ecc7",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-877def34-e42c-5351-adc8-3793898100cd",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-19T06:28:02.966115+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "877def34-e42c-5351-adc8-3793898100cd",
+      "sourceOrdinal": 52,
+      "turnId": "0e5e7780-8fd8-468f-92a9-69e167a0df77",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "누나가 보내주신 세 곳 중에서는 서울재활병원을 우선 검토군에 넣을 근거가 가장 분명합니다. 소아·청소년 입원재활과 호흡재활 의료진을 확인했습니다. 푸르메도 후보로 유지하되 CRE·기관절개 수용 여부를 확인해야 하고, 제인병원은 소아 중증 뇌손상 재활체계를 확인하지 못해 우선순위를 낮추겠습니다.",
+      "textSha256": "sha256:5a6abc01aa10b7d54197ec59a1ffb3b384e06ba2b87daa5479ee09616a9274c6",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-aa029fbf-38af-515b-a134-2ec212999a44",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-19T06:29:44.809161+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "aa029fbf-38af-515b-a134-2ec212999a44",
+      "sourceOrdinal": 53,
+      "turnId": "0e5e7780-8fd8-468f-92a9-69e167a0df77",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "네. **혜용님과 누나가 보내주신 추천, 김마루 교수님이 말씀하신 리하트, 우리가 추가로 찾았던 병원까지 합쳐서 다시 추렸습니다.**\n\n제 판단은 **“입원재활 후보 4곳을 동시에 심사받고, 전문 자문은 그중 연결되는 곳 또는 별도 1곳에서 받는 방식”**이 좋겠습니다. 여러 교수님 외래를 모두 다니자는 뜻은 아닙니다.\n\n현재 기준은 **의정부성모병원 입원 중인 청소년, 중증 외상성 뇌손상 후 회복 과정, CRE, 기관절개·비위관, 다발성 골절**입니다. 최근 반응과 움직임이 좋아지고 있다는 가족 관찰도 고려하되, 이를 공식 의식·인지 평가 결과로 단정하지 않았습니다.\n\n아래 우선순위는 공개된 전문분야와 치료체계에 근거한 **문의·심사 순서**이며, 실제 수용이나 치료 성적의 순위는 아닙니다.\n\n## 1. 실제 입원재활은 이 네 곳을 우선 남기겠습니다\n\n| 우선 검토 병원 | 선진이에게 맞는 근거 | 반드시 확인할 부분 |\n|---|---|---|\n| **세브란스 재활병원 — 나동욱 교수 포함 소아재활팀** | 외상성 뇌손상·소아재활·호흡재활·중환자재활·연하곤란을 모두 진료합니다. **전문 평가와 입원재활 연결을 함께 타진할 첫 후보**입니다. [공식 진료범위](https://sev-rehabil.severance.healthcare/sev-rehabil/department/department/rehabilitation.do) | 청소년 뇌손상 입원 담당팀, CRE 격리병상, 기관절개 관리, 입원 시점과 치료기간 |\n| **국민건강보험 일산병원 공공어린이재활병원** | 소아호흡재활과 물리·작업·언어·심리치료, 입원·낮병동·외래 체계를 명시합니다. **의료적 관리와 어린이 재활을 함께 검토할 후보**입니다. [공식 안내](https://www.nhimc.or.kr/conts/103009012000000.do) | 선진이 나이와 후천성 뇌손상에 맞는 병동·담당의, 격리 중 실제 치료 방식 |\n| **국립재활원 — 소아재활팀** | 소아 **외상성 뇌손상**, 입원재활, 연하·영양·경직·근골격계 평가를 명시합니다. 강북구여서 노원 생활권도 고려할 수 있습니다. [소아재활 안내](https://www.nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_04_04_01) | CRE와 기관절개 상태의 입원 가능 여부, 중학생의 의식·인지 평가 및 치료 구성 |\n| **서울재활병원 — 소아·청소년재활팀** | **누나가 보내주신 세 곳 중 우선 검토할 곳**입니다. 소아·청소년 입원재활이 확인되고, 김지용 진료부장의 전문분야에 소아중도장애·호흡재활이 명시됩니다. [입원·의료진 안내](https://www.seoulrh.com/service/page02.html) | 후천성 중증 뇌손상 청소년 담당 의료진, CRE 격리와 야간 흡인 관리, 격리 중 치료량 |\n\n**세브란스와 일산병원에 먼저 수용 검토를 요청하면서, 국립재활원과 서울재활병원에도 같은 자료를 보내는 조합**을 권합니다. 먼저 답을 준 병원으로 바로 결정하기보다는, 실제 제공할 치료와 의료 관리 조건을 비교해야 합니다.\n\n참고로 일산병원 김성우 교수는 공식 안내상 **2026년 10월 31일까지 국내연수**로 표시되어 있어, 특정 교수님을 기다리기보다 현재 진료하는 어린이재활팀으로 의뢰하는 것이 좋겠습니다. [의료진 안내](https://www.nhimc.or.kr/dept/profList.do?deptNo=28)\n\n## 2. 교수님 개인의 전문성으로는 이렇게 구분하겠습니다\n\n### 건국대 고성은 교수: 소아뇌손상 맞춤 자문을 우선 부탁할 후보\n\n공식 전문분야가 **소아재활·소아뇌손상·소아척수손상**입니다. UCSF 뇌·척수손상센터 연수 경력도 확인됩니다. 선진이의 나이와 손상 유형에 직접 맞닿는 진료분야라는 점에서, 가족 추천 중 중요하게 남길 분입니다. [공식 약력](https://www.kuh.ac.kr/doctor/basicInfo.do?dr_sid=20000013)\n\n공개 연구에는 소아 신체·뇌병변 장애의 의료이용, 뇌성마비의 경직·체중부하 운동, 뇌손상 후 경직 등이 있습니다. 다만 이 연구만으로 **의식 회복 치료 성적이 다른 교수님보다 우수하다**고 말할 수는 없습니다. [공식 논문 목록](https://www.kuh.ac.kr/doctor/paper.do?dept_cd=000374&dr_sid=20000013)\n\n**제 판단:** 지금의 의식·인지·운동 상태를 함께 평가하고 재활 목표와 전원 방향을 정하는 자문 후보입니다. 건국대에서 지속적인 소아 입원재활까지 가능한지는 별도로 확인해야 합니다.\n\n### 세브란스 나동욱 교수: 운동 회복 전문성과 재활병원 체계를 함께 볼 후보\n\n소아재활, 생체역학·보조공학·로봇재활 연구가 확인됩니다. 소아 뇌손상 환자의 상지 기능을 다룬 가상현실 재활 무작위시험의 교신저자이기도 합니다. 다만 해당 연구 대상 80명은 뇌성마비 74명, 소아 뇌졸중 5명, 외상성 뇌손상 1명으로, **선진이 같은 초기 중증 외상성 뇌손상의 의식 회복을 직접 입증한 연구는 아닙니다.** [연구 원문](https://onlinelibrary.wiley.com/doi/10.1111/dmcn.14762)\n\n**제 판단:** 나동욱 교수님을 ‘나중에 걷기만 볼 분’으로 좁힐 필요는 없습니다. 현재부터 자세·상지·이동 기능을 평가할 후보이며, 특히 **세브란스 재활병원의 다른 전문팀과 입원치료로 연결될 수 있는지**가 중요합니다.\n\n### 서울아산병원 고은재 교수: 소아재활에 호흡·인지 문제를 함께 상의할 후보\n\n공식 전문분야에 소아재활과 **소아 심장·호흡재활**이 명시됩니다. 중증 인지장애 아동의 터치스크린 인지훈련 연구에도 참여했습니다. 다만 특수교육 환경의 인지훈련 연구이지, 급성 외상성 뇌손상 후 의식 회복 연구는 아닙니다. [공식 전문분야](https://eng.amc.seoul.kr/gb/lang/specialities/doctors/doctorsDetail.do?drEmpId=N1BJUSt2MzgzNlFRVkJjU2hpZXJVZz09&searchHpCd=D164), [인지훈련 연구](https://pubmed.ncbi.nlm.nih.gov/34943401/)\n\n**제 판단:** 기관절개가 유지되는 상황에서 호흡 문제와 소아 기능 회복을 함께 상의할 가치가 있습니다. 하지만 **인지훈련 논문이 있다는 이유만으로 나동욱 교수보다 의식 회복에 더 적합하다고 단정하지는 않겠습니다.** 아산에서 어떤 입원재활 경로를 제공할 수 있는지도 확인해야 합니다.\n\n### 서울대병원: 오병모 교수와 어린이병원팀을 구분해서 문의할 후보\n\n오병모 교수의 공식 진료분야는 **외상성 뇌손상·뇌졸중 재활과 삼킴장애**입니다. 연구도 뇌손상과 연하 분야가 확인되어, 뇌손상 후 기능 회복과 비위관·삼킴 문제에 대한 전문 자문 후보로 남길 만합니다. 다만 청소년 진료 접수와 어린이병원 연계 여부를 먼저 확인해야 합니다. [오병모 교수](https://www.snuh.org/blog/01313/philosophy.do)\n\n가족이 보내주신 어린이병원 링크에서는 다음을 확인했습니다.\n\n- **현성은 교수:** 소아재활·호흡재활·중환자재활.\n- **신형익 교수:** 소아재활·호흡재활·신경근육재활.\n- 이우형 교수: 뇌성마비·발달지연·소아심장재활.\n- 이민용 교수: 척수손상·절단·의지보조기.\n\n공개 전문분야만 놓고 보면, 현재 선진이의 호흡·의료복잡도에는 **현성은·신형익 교수 진료와 뇌손상 전문팀의 연계 가능성**을 문의하는 편이 합리적입니다. 어린이병원이 있다는 사실만으로 중증 후천성 뇌손상 장기 입원이 보장되지는 않습니다. [어린이병원 의료진](https://child.snuh.org/reservation/meddept/PRH/childDoctor.do)\n\n## 3. 나머지 가족 추천과 이전 후보는 이렇게 정리합니다\n\n| 후보 | 이번 분류와 이유 |\n|---|---|\n| **리하트병원 — 김마루 교수 추천** | **생활권 후보로 계속 유지합니다.** 소아재활 운영은 확인되지만, 그것이 기관절개·CRE가 있는 중학생의 입원 수용을 뜻하지는 않습니다. 김마루 교수님께 현재 상태를 전달한 **직접 수용 확인**을 부탁할 가치가 있습니다. [진료 안내](https://rehart.co.kr/new2022/mobile/mn01/mn01_02.php) |\n| **푸르메재단 넥슨어린이재활병원 — 누나 추천** | **조건부 입원 후보로 유지합니다.** 이전 조사에서는 소아·청소년 입원재활을 확인했습니다. 이번에는 상세 페이지 재열람에 실패해 현재 조건까지 재확인하지 못했습니다. CRE·기관절개 관리와 후천성 뇌손상 치료 구성을 확인하면 우선순위를 올릴 수 있습니다. [입원 안내](https://www.purmehospital.org/page/?pid=ward) |\n| **국립교통재활병원** | **거리까지 감수할 만한 조건인지 확인할 예비 후보**입니다. 외상성 뇌손상·인지·의식장애 전문분야가 확인됩니다. 다만 김태우 교수는 홈페이지상 **2027년 2월 28일까지 휴진**으로 표시되어, 현재 담당팀과 청소년 입원을 문의해야 합니다. [의료진·휴진 안내](https://ntrh.or.kr/) |\n| **SRC재활병원** | **호흡 관리 필요도가 전원 선택을 크게 제한할 때 검토할 후보**입니다. 호흡재활병동과 흡인·산소 장비는 확인되지만, 청소년 뇌손상 입원과 CRE 수용은 별개입니다. [호흡재활센터](https://www.srchospital.com/rehabilitation/breath.php) |\n| **삼성서울병원 장원혁 교수 — 이전 가족 링크 조사 후보** | 뇌손상·인지·언어·삼킴 재활 전문성은 확인됩니다. 다만 공개 프로필에서 소아 전문 진료가 명확하지 않아, **청소년 진료와 소아팀 연계가 확인될 때 추가 자문 후보**로 두겠습니다. [공식 프로필](https://www.samsunghospital.com/m/smc/reservation/common/doctorProfile.do?DR_NO=539) |\n| **제인병원 — 누나 추천** | **현재는 후순위**입니다. 재활치료 제공과 별개로, 선진이에게 필요한 소아 중증 뇌손상·의식인지 평가·기도 관리가 결합된 입원체계를 공개자료에서 확인하지 못했습니다. 이는 치료 수준이 낮다는 판단이 아니라, 우선 추천할 근거가 부족하다는 뜻입니다. |\n\n가족의 Greenpio 개인 안내 링크는 이번에 다시 열리지 않았습니다. 따라서 고성은·오병모·장원혁 교수는 **이전 조사에서 확인한 후보를 각 병원 공식 프로필로 재검증**했고, 어느 링크를 혜용님과 누나가 각각 보내셨는지는 임의로 배정하지 않았습니다.\n\n## 4. 이제 실제로 할 일\n\n**첫째, 의정부성모 진료협력센터에 네 곳의 병행 심사를 요청합니다.**\n\n세브란스 → 일산병원 → 국립재활원·서울재활병원 순으로 연락하되, 한 곳의 결과를 기다렸다가 다음 곳을 시작할 필요는 없습니다. 이미 의뢰한 곳은 중복 접수하지 말고 진행 상황을 확인하면 됩니다.\n\n**둘째, 전문 자문은 우선 한 곳으로 좁힙니다.**\n\n- 세브란스에서 평가·입원 연결이 가능하면 그 경로를 우선합니다.\n- 입원 대기가 길거나 재활 방향에 대한 별도 의견이 필요하면 **건국대 고성은 교수**에게 먼저 자문 가능 여부를 문의하겠습니다.\n- 호흡·기관절개 문제가 중심이면 **아산 고은재 교수 또는 서울대 어린이재활팀**의 우선순위를 올리겠습니다.\n\n환자를 이동시키는 외래 방문은 현재 주치의와 조율하고, 먼저 진료의뢰 자료를 통한 검토가 가능한지 확인하는 편이 좋겠습니다.\n\n**셋째, ‘입원 가능’뿐 아니라 ‘격리 중 무엇을 해주는지’를 확인합니다.**\n\n병원마다 반드시 받아야 할 답은 다음 네 가지입니다.\n\n1. CRE 상태에서 입원 가능한가? 불가능하다면 필요한 조건은 무엇인가?\n2. 기관절개·야간 흡인·비위관을 현재 수준 그대로 관리할 수 있는가?\n3. 격리 중에도 물리·작업·언어·연하·인지치료를 각각 어느 정도 제공하는가?\n4. 의식·인지·의사소통과 운동 기능을 누가 평가하고, 재평가 결과를 가족에게 어떻게 설명하는가?\n\nCRE가 있다고 모든 전원이 일률적으로 금지되는 것은 아닙니다. 감염관리 지침에서도 CRE 감염·보균 정보를 받는 기관에 전달하는 전원 절차를 다루지만, **선진이의 실제 전원은 양쪽 병원의 감염관리·진료팀 수용 판단이 필요합니다.** [CDC 전원 관련 지침](https://www.cdc.gov/cre/hcp/infection-control/index.html)\n\n**정리하면, 지금은 ‘세브란스·일산·국립재활원·서울재활’의 입원 가능성을 먼저 비교하고, ‘고성은·고은재·서울대팀’의 전문 자문을 필요에 맞게 붙이는 방향이 제 추천입니다. 리하트는 담당 교수님의 직접 연결을 활용할 병행 후보로 남기겠습니다.**\n\n순위를 더 좁히는 데는 **최근 CRE 검사 결과와 보균/감염 구분, 최근 24시간 흡인 횟수·산소 필요 여부, 이미 전원 문의한 병원들의 답변**이 가장 도움이 됩니다.\n\n원하시면 “병원별 전원심사 회신 확인” 알림을 설정해 답변이 늦어진 곳을 놓치지 않도록 도울 수 있습니다.\n\ngenui{\"suggest_automation\":{\"label\":\"병원별 전원심사 회신 확인\"}}",
+      "textSha256": "sha256:fada6ac9a817faaa39989365dd10cb42818b972e5879fbeb0b49566424eb6c1e",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "공식 진료범위",
+          "url": "https://sev-rehabil.severance.healthcare/sev-rehabil/department/department/rehabilitation.do"
+        },
+        {
+          "title": "공식 안내",
+          "url": "https://www.nhimc.or.kr/conts/103009012000000.do"
+        },
+        {
+          "title": "소아재활 안내",
+          "url": "https://www.nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_04_04_01"
+        },
+        {
+          "title": "입원·의료진 안내",
+          "url": "https://www.seoulrh.com/service/page02.html"
+        },
+        {
+          "title": "의료진 안내",
+          "url": "https://www.nhimc.or.kr/dept/profList.do?deptNo=28"
+        },
+        {
+          "title": "공식 약력",
+          "url": "https://www.kuh.ac.kr/doctor/basicInfo.do?dr_sid=20000013"
+        },
+        {
+          "title": "공식 논문 목록",
+          "url": "https://www.kuh.ac.kr/doctor/paper.do?dept_cd=000374&dr_sid=20000013"
+        },
+        {
+          "title": "연구 원문",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/dmcn.14762"
+        },
+        {
+          "title": "공식 전문분야",
+          "url": "https://eng.amc.seoul.kr/gb/lang/specialities/doctors/doctorsDetail.do?drEmpId=N1BJUSt2MzgzNlFRVkJjU2hpZXJVZz09&searchHpCd=D164"
+        },
+        {
+          "title": "인지훈련 연구",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34943401/"
+        },
+        {
+          "title": "오병모 교수",
+          "url": "https://www.snuh.org/blog/01313/philosophy.do"
+        },
+        {
+          "title": "어린이병원 의료진",
+          "url": "https://child.snuh.org/reservation/meddept/PRH/childDoctor.do"
+        },
+        {
+          "title": "진료 안내",
+          "url": "https://rehart.co.kr/new2022/mobile/mn01/mn01_02.php"
+        },
+        {
+          "title": "입원 안내",
+          "url": "https://www.purmehospital.org/page/?pid=ward"
+        },
+        {
+          "title": "의료진·휴진 안내",
+          "url": "https://ntrh.or.kr/"
+        },
+        {
+          "title": "호흡재활센터",
+          "url": "https://www.srchospital.com/rehabilitation/breath.php"
+        },
+        {
+          "title": "공식 프로필",
+          "url": "https://www.samsunghospital.com/m/smc/reservation/common/doctorProfile.do?DR_NO=539"
+        },
+        {
+          "title": "CDC 전원 관련 지침",
+          "url": "https://www.cdc.gov/cre/hcp/infection-control/index.html"
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-09-19-rehab-48-comparison",
+      "recordedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "follow-up",
+      "target": "message-77864a76-a467-5ca8-8cb3-c94e0cac6dc0",
+      "note": "고은재 교수를 조금 더 우선한 것은 당시 공개 연구를 바탕으로 한 GPT의 잠정 판단입니다. 같은 날 [이어진 전체 후보 검토](https://infant83.github.io/sj-resurrection/post/rehabilitation/2026-09-19/#message-aa029fbf-38af-515b-a134-2ec212999a44)에서는 이 비교의 한계를 다시 설명하고, 실제 입원재활 수용 조건과 전문 자문을 구분합니다. 개인별 치료 성적이나 선진이의 예후를 비교한 근거로 사용하지 않습니다.",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ]
+    },
+    {
+      "id": "review-2026-09-19-rehab-53-availability",
+      "recordedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-aa029fbf-38af-515b-a134-2ec212999a44",
+      "note": "이 후보 목록은 9월 19일 대화 당시의 문의·심사 제안입니다. 병상, CRE·기관절개 수용, 청소년 의식평가, 치료량, 담당 의료진·휴진 일정에 대한 병원의 개별 회신은 이 공유 대화에 없습니다. 전원 확정이나 의료진별 치료 성적 순위로 표시하지 않습니다.",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [
+    "rehabilitation-2026-09-17-conversation"
+  ],
+  "privacyReviewed": true
+}

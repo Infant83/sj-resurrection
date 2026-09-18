@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-09-18-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 9월 18일 의학지식 문의 2",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-18",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-09-19T06:51:38.444+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학지식",
+    "보호자 질문",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 2 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-16a7a439-d28e-45db-9c53-10a770911287",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-18T07:54:04.651450+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "16a7a439-d28e-45db-9c53-10a770911287",
+      "sourceOrdinal": 21,
+      "turnId": "4b154102-f842-41fa-9458-4d12dc923545",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "privacy-redacted",
+      "privacyRedactions": [
+        "image"
+      ],
+      "privacyNote": "첨부 사진과 원본 연결정보는 공개하지 않습니다. 그 외 입력 텍스트는 원문대로 보존했습니다.",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "publicText": "선진이 걑은 와상 환자를 침대에서 휠체어로 이동하는 아전하고 쉬운 방법을 알려줘. 보통 사진처럼 콧줄과 혈관 영양줄을 달고있어. 오른쪽 팔은 조금 자유로운데 왼팔은 힘을 많이 못써 오른다리는 힘을 쓰지 못하고 움직임도 부자연 스럽고 왼다리는 상대적으로 움직이고 힘을 쓰지만 힘을 쓸때마다 경련처럼 떨리는 경우가 많고 심헌것 같아. 일단 참댜에서 내려와 서게하면 힘겹게 앞의 사람을 안으며  지탱받으며 두다리에 힘주어 서 있어. 약간 떠는 느낌. ",
+      "publicTextSha256": "sha256:46459419db3830b2d55417bf9dbe46e5acaa72874d437652dd57c18472fd739f"
+    },
+    {
+      "id": "message-05bc630b-8a74-4e84-9594-cfc361bb5b6d",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-18T07:54:58.930442+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "05bc630b-8a74-4e84-9594-cfc361bb5b6d",
+      "sourceOrdinal": 22,
+      "turnId": "4b154102-f842-41fa-9458-4d12dc923545",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "선진이의 다리 지지력과 떨림, 연결된 관들을 함께 고려해 보겠습니다. 지금 상태에서는 혼자 안아 세워 옮기지 말고, 간호사나 치료사의 도움을 요청하세요.",
+      "textSha256": "sha256:cb7c79167ed4d579f7b44df33dd6b8a135d66b1869d034f81360b4579b936d19",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-e999d32f-86e6-4c64-a88a-debb4117caa0",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-18T08:01:23.547192+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "e999d32f-86e6-4c64-a88a-debb4117caa0",
+      "sourceOrdinal": 23,
+      "turnId": "4b154102-f842-41fa-9458-4d12dc923545",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **지금 설명하신 선진이 상태에서는 아버지가 혼자 앞에서 안아 세운 뒤 몸을 돌려 휠체어에 앉히는 방법은 피하시는 것이 좋겠습니다.** 잠깐 서 있을 수 있는 것과, 이동하는 동안 다리로 체중을 지탱하고 방향을 바꾼 뒤 안전하게 앉을 수 있는 것은 다릅니다. 특히 **지탱하는 다리에서도 심하게 떨림이 생긴다면, 그 힘을 믿고 이동하기 전에 재활팀의 직접 평가가 필요합니다.** 일반적인 서서 돌려 앉히기 방법도 환자가 체중을 지지하고 이동에 참여할 수 있다는 전제에서 사용합니다. citeturn838068view3\n\n**우선 병동에 요청할 방법은 ‘전신 슬링형 환자 리프트’를 이용한 이동입니다.** 몸 전체를 받치는 천 형태의 받침인 *슬링*으로 몸통·골반·허벅지를 지지하고, 기계가 체중을 들어 침대에서 휠체어로 옮기는 방식입니다. 선진이의 골절·경직·기관절개관을 고려해 적합성을 확인하고, **교육받은 직원 2명 이상이 필요한지와 각자의 역할을 정해 시행**하는 것이 좋겠습니다. 리프트도 체격과 상태에 맞는 슬링을 고르고 교육받은 사람이 사용해야 안전합니다. citeturn588310view0\n\n## 1. 선진이는 ‘힘이 좋은 쪽으로 돌리면 된다’고 단순하게 정하기 어렵습니다\n\n말씀하신 상태는 **오른팔과 왼다리가 상대적으로 낫지만, 왼팔과 오른다리는 약하고 왼다리에도 떨림이 있는 상태**입니다. 따라서 흔히 보는 편마비 환자 이동 영상의 ‘건강한 쪽으로 옮기기’를 그대로 적용하기 어렵습니다. 이동 방법은 팔·다리의 힘뿐 아니라 앉은 균형, 지시 수행, 체중지지 능력을 함께 보고 결정해야 합니다. citeturn198166view0\n\n또한 이전에 말씀해 주신 **골반·쇄골·왼손목 골절의 현재 체중부하 허용 범위는 제가 확인하지 못했습니다.** ‘관절을 움직여도 된다’는 것과 ‘그 팔로 침대를 밀거나 다리에 몸무게를 실어도 된다’는 것은 별도로 확인해야 합니다. 리프트를 쓰더라도 골절 부위에 맞는 자세와 슬링을 선택해야 합니다. citeturn588310view0\n\n## 2. 실제로 옮길 때는 이렇게 준비해 주세요\n\n아래는 **병동 직원과 함께 시행할 때 확인할 순서**입니다. 슬링을 몸 아래에 넣는 방법과 연결 고리 선택은 선진이의 골절·경직 상태 및 장비에 맞춰 직접 교육받으셔야 합니다.\n\n### ① 몸을 움직이기 전에, 휠체어와 도와줄 사람부터 준비합니다\n\n휠체어를 가까이 놓고 **침대와 휠체어의 브레이크를 잠그며, 발판을 이동 경로에서 치웁니다.** 바닥의 물건과 전선을 정리하고, 선진이에게도 “이제 휠체어로 옮길 거야. 기계가 몸을 받쳐줄 거야”라고 짧게 설명해 주세요. 먼저 세워놓고 나서 휠체어 위치를 바꾸거나 관을 정리하는 순서가 되어서는 안 됩니다. citeturn838068view3turn198166view1\n\n### ② ‘몸을 담당하는 사람’과 ‘관·수액대를 담당하는 사람’을 나눕니다\n\n선진이는 **콧줄·정맥주사줄에 더해 기관절개관까지 고려**해야 합니다. 한 사람이 선진이의 체중을 지탱하면서 수액대와 모든 줄까지 동시에 관리하려고 해서는 안 됩니다.\n\n간호사와 함께 각 관을 **몸에 들어가는 부위부터 연결된 기기까지 따라가며**, 몸 아래나 침대 난간에 끼어 있지 않은지, 이동할 만큼 여유 길이가 있는지, 바퀴나 발판에 걸리지 않을지 확인합니다. 이동 중 관의 이탈을 막기 위한 줄 정리와 여유 확보는 별도의 중요한 작업입니다. **편하게 옮기려고 보호자가 임의로 관을 분리하거나 수액 펌프를 끄지는 마세요.** citeturn656985search0\n\n기관절개관과 목의 고정끈에는 슬링·옷·보호자의 팔이 걸리지 않도록 해야 합니다. 특히 **관이 당겨지거나 눌리지 않는지 담당 직원이 계속 볼 수 있어야 합니다.** 기관절개관의 이탈이나 막힘은 긴급한 호흡 문제로 이어질 수 있습니다. citeturn198166view3\n\n### ③ 콧줄 영양을 주입 중이라면, 이동 시점과 자세를 먼저 간호사에게 확인합니다\n\n슬링을 넣기 위해 눕히거나 자세를 바꿔야 할 수 있으므로, **주입을 잠시 조절할지와 어느 정도까지 눕혀도 되는지는 간호사가 판단하도록** 해주세요. 콧줄 영양 중에는 가능한 한 상체를 세우며, 누운 자세로 주입하면 흡인 위험이 커집니다. 영양주입을 계속하면서 편의상 침대를 완전히 평평하게 만들지는 마세요. citeturn588310view2\n\n### ④ 서게 하지 않고, 슬링으로 몸을 받쳐 옮깁니다\n\n직원이 허용된 체위변경 범위 안에서 슬링을 넣고, 머리·몸통 지지가 충분한지와 골반·허벅지에 불편한 압박이 없는지 확인합니다. 이후 **침대에서 조금만 들어 올린 상태에서 먼저 멈춰**, 슬링 연결, 몸의 균형, 관의 당김, 아파하는 표정을 확인하고 이동에 필요한 높이만큼 천천히 올립니다. 아버지가 옆에서 몸을 추가로 들어 올리는 것이 아니라, 직원의 안내에 따라 관이나 주변 장애물을 확인하는 역할을 맡는 편이 좋습니다. citeturn588310view0\n\n### ⑤ 휠체어에 완전히 지지된 다음, 관과 자세를 다시 확인합니다\n\n엉덩이가 좌석에 제대로 놓이고 몸통이 앞으로 무너지지 않는지 확인한 뒤 슬링을 해제합니다. **왼팔은 아래로 매달리지 않게 받치고, 발이 바닥에 끌리거나 발판 밖으로 떨어지지 않도록** 치료사에게 맞춰 달라고 해주세요. 앉자마자 몸이 한쪽으로 무너지거나 머리를 유지하기 어렵다면 휠체어의 지지 방식부터 다시 평가해야 합니다. 슬링 제거 중에도 앞으로 넘어지지 않도록 보호가 필요합니다. citeturn588310view0\n\n마지막으로 간호사가 **콧줄의 외부 길이·고정 상태, 정맥주사 부위, 기관절개관, 호흡 상태**를 다시 확인하도록 합니다. 콧줄이 당겨졌거나 위치가 달라진 것 같다면, 위치 확인 없이 영양이나 약물을 다시 주입하지 않아야 합니다. citeturn588310view2turn198166view3\n\n## 3. 리프트가 없을 때, 다른 방법을 바로 써도 될까요?\n\n**리프트가 없다는 이유로 아버지와 다른 보호자가 겨드랑이와 다리를 잡아 들어 옮기는 방식으로 대체하지는 마세요.** 두 사람이 한다고 해서 체중을 직접 들어 옮기는 위험이 없어지는 것은 아닙니다. 병동이나 재활치료팀에 장비를 확보하거나 선진이에게 가능한 다른 이동 방법을 직접 정해 달라고 요청하는 것이 좋습니다. citeturn198166view0\n\n다른 보조도구들도 적용 조건이 있습니다.\n\n| 방법 | 선진이에게 먼저 확인할 점 |\n|---|---|\n| **기립형 리프트·서기 보조기** | 전신을 받쳐 드는 리프트와 다릅니다. 일정한 다리 지지력과 협조가 필요하므로, 심한 떨림이 있는 상태에서 임의로 사용하지 않습니다. |\n| **이동보드로 앉아서 옆으로 이동** | 앉은 균형과 체중 이동, 팔로 지지하는 능력을 평가해야 합니다. 왼팔·손목의 약화와 골절 이력을 고려해야 합니다. |\n| **이동벨트를 이용한 서서 돌려 앉히기** | 벨트는 다리의 힘을 대신하는 장비가 아닙니다. 치료사가 실제 체중지지 능력을 확인하고 보호자에게 직접 교육한 경우에 검토합니다. |\n\n이 구분은 환자의 체중지지 능력·상지 힘·협조 정도에 따라 장비를 선택하는 안전이동 원칙을 선진이의 상황에 적용한 것입니다. **지금 설명만으로는 위 세 방법 중 어느 것도 ‘아버지가 혼자 해도 된다’고 판단할 수 없습니다.** citeturn198166view0\n\n특히 **선진이가 아버지의 목에 팔을 걸고 매달리게 하지는 마세요.** 서로 균형을 잃거나 아버지 목·허리에 큰 하중이 실릴 수 있으며, 일반적인 이동 안내에서도 목이나 머리를 감싸 잡지 않도록 합니다. citeturn838068view3\n\n## 4. 왼다리의 심한 떨림은 이동 방법을 정하기 전에 보여주세요\n\n뇌손상 후에는 근육이 과도하게 긴장하는 **경직**과, 관절이 의지와 관계없이 반복적으로 떨리는 **간대성 경련〔클로누스, clonus〕**이 나타날 수 있습니다. 다리를 움직이거나 힘을 줄 때 두드러질 수 있지만, **말씀만으로 선진이의 떨림이 클로누스인지, 다른 원인인지 확정할 수는 없습니다.** citeturn198166view4\n\n중요한 것은 **“떨면서라도 서 있으니 더 버티게 하면 된다”가 아니라는 점**입니다. 떨림이 심해지면 동작을 중단하고, 함께 있는 의료진이 지지하면서 안전한 자세로 돌아가도록 해야 합니다. 떨림을 멈추려고 발목을 강하게 꺾거나 무릎을 억지로 펴는 행동도 피하세요. 통증·피부 자극·방광 팽만 등도 경직을 악화시킬 수 있어 함께 확인할 필요가 있습니다. citeturn198166view4\n\n이동 중 **평소보다 반응이 떨어지거나, 숨이 가빠지거나, 산소포화도가 내려가거나, 기관절개관이 당겨진다면 즉시 중단하고 간호사를 불러주세요.** citeturn198166view3\n\n## 병동에는 이렇게 요청하시면 됩니다\n\n> “선진이가 오른다리로는 힘을 잘 못 쓰고, 상대적으로 힘이 있는 왼다리도 체중을 실으면 심하게 떨립니다. 앞사람에게 기대면 잠깐 서지만 혼자 안전하게 옮기기는 어려워 보입니다. 골반과 왼손목의 체중부하 허용 범위를 확인해 주시고, 재활치료사가 침대에서 휠체어로 옮기는 방법을 직접 평가해 주세요. 전신 슬링형 리프트 사용이 가능한지, 몇 명이 도와야 하는지, 관은 누가 관리할지 정해서 저도 현장에서 교육받고 싶습니다.”\n\n**지금은 ‘서기 연습’과 ‘휠체어로 옮기는 일’을 분리해서 계획하는 것이 좋겠습니다.** 이동할 때는 장비와 인력으로 안전을 확보하고, 서는 연습은 치료사가 다리의 지지력과 떨림을 보며 별도로 진행하도록 요청하세요. 휠체어에 한번 태우는 것뿐 아니라 **피곤해진 뒤 다시 침대로 돌아오는 방법과 도와줄 사람까지 먼저 정해두는 것**이 중요합니다.",
+      "textSha256": "sha256:d8ca9efbd9a02be43575bbc562e6c53eb113a49f194c366453789c38fd384d7a",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Moving a patient from bed to a wheelchair: MedlinePlus Medical Encyclopedia",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000428.htm",
+          "attribution": "MedlinePlus"
+        },
+        {
+          "title": "https://www.fda.gov/files/medical%20devices/published/Patient-Lifts-Safety-Guide.pdf",
+          "url": "https://www.fda.gov/files/medical%20devices/published/Patient-Lifts-Safety-Guide.pdf",
+          "attribution": "U.S. Food and Drug Administration"
+        },
+        {
+          "title": "https://www.cdc.gov/niosh/docs/2009-127/pdfs/2009-127.pdf",
+          "url": "https://www.cdc.gov/niosh/docs/2009-127/pdfs/2009-127.pdf",
+          "attribution": "Krankheitskontrolle Zentrum"
+        },
+        {
+          "title": "Patient Lifts | FDA",
+          "url": "https://www.fda.gov/medical-devices/general-hospital-devices-and-supplies/patient-lifts",
+          "attribution": "U.S. Food and Drug Administration"
+        },
+        {
+          "title": "Management of patient tubes and lines during early mobility in the ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2772501422000148?utm_source=chatgpt.com",
+          "attribution": "ScienceDirect"
+        },
+        {
+          "title": "Nursing guidelines : Tracheostomy management",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Tracheostomy_management/",
+          "attribution": "Royal Children's Hospital"
+        },
+        {
+          "title": "Nursing guidelines : Enteral feeding and medication administration",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Enteral_feeding_and_medication_administration/",
+          "attribution": "Royal Children's Hospital"
+        },
+        {
+          "title": "Spasticity After Traumatic Brain Injury (TBI) | MSKTC",
+          "url": "https://msktc.org/tbi/factsheets/spasticity",
+          "attribution": "MSKTC"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn838068view3",
+          "urls": [
+            "https://medlineplus.gov/ency/patientinstructions/000428.htm"
+          ]
+        },
+        {
+          "marker": "citeturn588310view0",
+          "urls": [
+            "https://www.fda.gov/files/medical%20devices/published/Patient-Lifts-Safety-Guide.pdf"
+          ]
+        },
+        {
+          "marker": "citeturn198166view0",
+          "urls": [
+            "https://www.cdc.gov/niosh/docs/2009-127/pdfs/2009-127.pdf"
+          ]
+        },
+        {
+          "marker": "citeturn838068view3turn198166view1",
+          "urls": [
+            "https://medlineplus.gov/ency/patientinstructions/000428.htm",
+            "https://www.fda.gov/medical-devices/general-hospital-devices-and-supplies/patient-lifts"
+          ]
+        },
+        {
+          "marker": "citeturn656985search0",
+          "urls": [
+            "https://www.sciencedirect.com/science/article/pii/S2772501422000148?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn198166view3",
+          "urls": [
+            "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Tracheostomy_management/"
+          ]
+        },
+        {
+          "marker": "citeturn588310view2",
+          "urls": [
+            "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Enteral_feeding_and_medication_administration/"
+          ]
+        },
+        {
+          "marker": "citeturn588310view2turn198166view3",
+          "urls": [
+            "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Enteral_feeding_and_medication_administration/",
+            "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Tracheostomy_management/"
+          ]
+        },
+        {
+          "marker": "citeturn198166view4",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/spasticity"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-09-19-medical-23-transfer-scope",
+      "recordedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-e999d32f-86e6-4c64-a88a-debb4117caa0",
+      "note": "전신 슬링형 리프트는 담당팀에 적합성 평가를 요청할 후보입니다. 이 답변은 골반·왼팔 골절의 현재 체중부하 허용, 장비·슬링 적합성 또는 필요한 인원을 확정한 처방이 아닙니다. 공유 대화에는 치료사가 선진이에게 직접 시행해 확인한 이동 방법이 제시돼 있지 않습니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [
+    "medical-2026-09-17-conversation"
+  ],
+  "privacyReviewed": true
+}

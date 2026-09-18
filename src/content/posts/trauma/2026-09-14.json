@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 2,
+  "recordId": "trauma-2026-09-14-conversation",
+  "board": "trauma",
+  "entryType": "clinical-update",
+  "title": "2026년 9월 14일 경과·간병 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-14",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-09-19T06:51:38.444+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "간병 기록",
+    "회진",
+    "재활",
+    "원문 대화",
+    "9월 17일 간병 기록",
+    "9월 16일 간병 기록",
+    "간병 인수인계"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-care-phase-4",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "간병 기록 정리 (phase 4) · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-b3d511eb-e6db-42c5-a009-0b18fb611f3d",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-14T10:35:49.662034+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "b3d511eb-e6db-42c5-a009-0b18fb611f3d",
+      "sourceOrdinal": 75,
+      "turnId": "5f513880-ad23-44d5-87a7-0f8011ff40a6",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "9/14일 10시 회진 결과:\n피검사 수치 안내: 검사 결과는 좋음. 수치는 좋아졌음. \n예방 접종 안내\n수막구균: 현재 접종 후 2개월 뒤 추가 접종이 필요하며, 그 후 5년마다 재접종해야 합니다.\n폐렴구균: 한 번만 접종하면 됩니다.\n독감: 매년 접종이 필요합니다.\n경구 식사 및 재활 계획\n경구 식사: 환자가 구토하는 상황을 고려할 때, 현재 경구 식사는 시기상조로 판단되었습니다. 뇌 기능과 연하 기능이 함께 호전될 때까지 보류하기로 결정했습니다.\n섣불리 시도할 경우, 구토 중 음식물이 기도로 넘어가는 등 상황이 악화될 위험이 있어 서두르지 않기로 했습니다.\n정형외과 협진 및 재활 병원 전원: 환자는 이미 일반실에 있으며, 재활을 위해 정형외과 협진이 필요합니다.\n수술 부위가 재활이 가능한 상태인지 정형외과에서 확인해야 합니다.\n일반적으로 수술 후 한 달이 지나면 뼈가 회복되기 시작해 재활을 고려할 수 있습니다.\n정형외과 진료 결과를 확인한 후 재활 병원 전원 여부를 안내하기로 했습니다.\n진행 상황은 확인되는 대로 공유하기로 약속했습니다.\n환자 상태 관련 Q&A\n두부 손상 및 탈모: \n보호자는 환자의 머리 뒤쪽에 머리카락이 나지 않는 부분과, 그 옆에 볼록한 부분에 대해 문의했습니다.\n의료진은 과거 뇌출혈 이력으로 인해 관련이 있을 수 있으며, 충격이 가해진 반대편에서 출혈이 발생하는 '카운터 인절(counter injury)' 현상일 가능성을 설명했습니다.\n탈모의 원인이 부상 때문인지 스트레스성인지는 좀 더 관찰이 필요하다고 덧붙였습니다.\n소변줄 교체:\n어제 소변이 심하게 탁해 교체할 예정이었으며, 현재는 호전되었으나 관을 통한 감염(방광염 등) 예방을 위해 주기적으로 교체한다고 설명했습니다.\n보호자가 소변줄 교체 전 잠시 환자를 씻기는 것은 괜찮다고 허락받았습니다.\n발뒤꿈치 상처:\n지난 주말(10일)에 환자의 발뒤꿈치에서 욕창패드가 떨어졌습니다.\n떨어진 욕창패드는 재사용하지 않고, 간호사가 가져온 새 욕창패드를 발을 씻긴 후에 붙이기로 했습니다.\n보호자가 직접 환자의 발을 닦아주기로 했습니다.\n\nKey Decisions\n- 환자의 경구 식사는 구토 및 기도 흡인 위험으로 인해 뇌 기능과 연하 기능이 호전될 때까지 보류한다.\n\n예정사항\n의료진: 정형외과에 수술 부위 재활 가능 여부 확인 [예정]\n의료진: 소변줄 교체 — due 2026-09-14 [예정]\n보호자 (아빠): 환자 발 닦아주기, 성기 소변줄 나오는 부분 닦아주기 — due 2026-09-14 [예정]",
+      "originalSha256": "sha256:d24ffa23c78573b7c5002ca4cbcf69abe630566b42f99aaa000eb098c81e8ba6"
+    },
+    {
+      "id": "message-b0735f8b-ef1b-57c3-a667-7a85d4481cd6",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-14T10:36:02.092006+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "b0735f8b-ef1b-57c3-a667-7a85d4481cd6",
+      "sourceOrdinal": 76,
+      "turnId": "5f513880-ad23-44d5-87a7-0f8011ff40a6",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "text": "이번 회진으로 경구 섭취 보류와 정형외과 확인 후 전원 검토라는 계획이 분명해졌습니다. 혈액검사 호전의 의미를 지난 경과와 연결하고, 비장절제 후 예방접종 일정과 ‘반대편 손상’ 설명에서 확인할 점도 짚겠습니다.\n",
+      "textSha256": "sha256:f5a10acc45b419be0228fb40c5d9bdb1b952eb235e8faffec258de6771947047",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-050c00d4-29e5-5cd5-b31b-261d0515d797",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-14T10:41:35.411744+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "050c00d4-29e5-5cd5-b31b-261d0515d797",
+      "sourceOrdinal": 77,
+      "turnId": "5f513880-ad23-44d5-87a7-0f8011ff40a6",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "text": "이번 회진은 **전신 상태가 호전되어 재활·전원을 구체적으로 검토하되, 반복 구토와 삼킴 문제 때문에 입으로 먹는 것은 아직 보류하는 단계**로 이해하면 됩니다. 지난주 관찰한 움직임과 상호작용의 개선에 더해 혈액검사도 좋아졌다는 점은 긍정적입니다. 다만 이것만으로 뇌 손상의 회복 정도나 향후 독립생활 가능성을 판단할 수는 없습니다.\n\n**혈액검사는 어떤 항목이 얼마나 좋아졌는지 확인하면 경과를 더 정확히 볼 수 있습니다.** 앞서 간수치와 염증수치가 문제가 되었으므로, 다음에는 간수치(AST·ALT), 염증수치(CRP), 빈혈 정도(혈색소)의 최근 값과 이전 값을 받아두면 좋겠습니다. 현재 기록으로 확인되는 것은 ‘호전되었다’는 설명까지이며, 모두 정상화되었다고 단정할 수는 없습니다.\n\n**경구 섭취에 대해서는 오늘 지시를 기준으로 업데이트해야 합니다.** 9월 9일에는 소량의 물을 시도해보자는 설명이 있었지만, 이후 영양액 역류와 구토가 반복되었고 오늘은 보류하기로 했습니다. 따라서 **물도 별도로 허용받기 전에는 보호자가 시험 삼아 먹이지 않는 편이 안전합니다.** 콧줄 영양은 현재 처방에 따라 진행하면 됩니다.\n\n빨대로 물을 빨아들이는 능력과, 그 물을 기도로 흘리지 않고 삼키는 능력은 각각 평가해야 합니다. 기침하지 않거나 기관절개관으로 물이 나오지 않아도 흡인이 생길 수 있어, 경구 섭취 재개 전에는 연하 평가가 중요합니다. 필요하면 연하조영검사(VFSS)나 내시경 연하검사(FEES)를 검토합니다. [ASHA 기관절개 환자의 연하 평가 안내](https://www.asha.org/practice-portal/professional-issues/tracheostomy-and-ventilator-dependence/)\n\n9월 13일 도형을 집어 맞는 자리에 넣고, 잘못 맞춘 것을 수정한 행동은 여전히 의미 있는 관찰입니다. **그런 인지·운동 반응이 나타나면서도 안전하게 삼키는 능력은 충분히 회복되지 않은 상태가 가능하므로**, 이번 경구 섭취 보류를 곧바로 의식 회복의 후퇴로 해석하지는 않겠습니다.\n\n예방접종은 앞서 알려주신 **비장절제 후 감염 예방**과 연결되는 계획입니다. 다만 백신 이름과 과거 접종 이력에 따라 일정이 달라집니다.\n\n| 회진에서 들은 내용 | 확인해둘 점 |\n|---|---|\n| 수막구균: 2개월 뒤 추가, 이후 5년마다 | 비장절제 환자의 **MenACWY 백신** 일정과 부합합니다. 다른 종류인 MenB에는 같은 간격을 적용하지 않습니다. |\n| 폐렴구균: 한 번 접종 | **PCV20을 사용하는 경우 등에는 한 번의 추가 접종으로 완료될 수 있습니다.** 제품과 기존 접종 이력을 확인해야 합니다. |\n| 독감: 매년 | 매년 접종하는 계획으로 기록하면 됩니다. |\n\n위 내용은 미국 CDC의 고위험군 지침을 참고한 설명이며, 최종 일정은 국내 사용 백신과 선진이의 접종 이력을 반영해 담당팀이 정해야 합니다. **백신 제품명·실제 접종일·다음 접종일**을 받아두고, Hib와 MenB도 접종 이력이나 추가 접종 필요성을 확인해달라고 하면 좋겠습니다. 아직 오늘 실제로 맞았는지는 기록상 확인되지 않습니다. [CDC 수막구균 권고](https://www.cdc.gov/meningococcal/hcp/vaccine-recommendations/index.html), [폐렴구균 고위험군 권고](https://www.cdc.gov/pneumococcal/hcp/vaccine-recommendations/risk-indications.html), [소아·청소년 접종 지침](https://www.cdc.gov/vaccines/hcp/imz-schedules/child-adolescent-notes.html)\n\n**뒤통수에 대한 ‘카운터 인절’ 설명은 보통 ‘반충손상(contrecoup injury)’을 뜻합니다.** 충격을 받은 지점의 반대편에서도 뇌가 두개골 안쪽에 부딪혀 뇌좌상이나 출혈이 생기는 기전입니다. 따라서 겉으로 다친 위치와 뇌출혈 위치가 다를 수 있습니다. [존스홉킨스 두부 손상 설명](https://www.hopkinsmedicine.org/health/conditions-and-diseases/head-injury)\n\n다만 이 설명만으로 **탈모 부위나 옆의 볼록한 부분이 뇌출혈 때문에 생겼다고 확정할 수는 없습니다.** 다음에는 “볼록한 것은 두피의 부종·혈종·흉터 중 무엇으로 보이는지, 기존 CT/MRI에서 실제 뇌출혈은 어느 쪽 어느 부위였는지”를 구분해 설명받는 것이 좋겠습니다. 머리카락이 자라지 않는 모습으로 뇌 손상이나 예후를 판단할 수는 없습니다.\n\n**정형외과 협진은 재활의 구체적인 허용 범위를 정하는 과정입니다.** 이미 9월 11일부터 침상 물리치료를 받았으므로, 앞으로는 왼팔의 관절 운동 범위, 골반과 오른다리에 체중을 실어도 되는지, 휠체어 이동이 가능한지를 확인하게 됩니다. ‘수술 후 한 달’이라는 설명을 모든 부위에 동일하게 적용해 서거나 걷게 해도 된다는 뜻으로 받아들이면 안 됩니다. 지금까지 허용된 운동을 통증에 맞춰 진행하면서 새 지시를 받으면 됩니다.\n\n소변줄 교체 때에는 **침전물이나 막힘 우려가 있는지, 현재도 소변줄 유지가 필요한지**를 함께 확인하면 좋겠습니다. 방광 안에 들어가는 유치도뇨관의 경우, 일반 지침은 감염 예방만을 목적으로 일정한 간격마다 교체하기보다 막힘·감염·연결부 오염 등 임상적 필요에 따라 교체하도록 합니다. 이번 교체의 구체적인 이유는 담당팀의 판단을 확인하면 됩니다. 씻길 때는 관을 당기거나 연결부를 분리하지 않도록 해주세요. [CDC 도뇨관 관리 지침](https://www.cdc.gov/infection-control/hcp/cauti/summary-of-recommendations.html)\n\n발뒤꿈치는 새 패드를 붙이기 전에 간호사에게 피부를 직접 보여주어 **실제 상처가 있는지, 예방용 패드였는지** 확인받으세요. 다음 기록에 혈액검사 실제 수치, 백신 접종 내역, 정형외과에서 허용한 활동 범위가 추가되면 회복 경과와 전원 준비 상태를 훨씬 정확하게 판단할 수 있습니다.",
+      "textSha256": "sha256:0f3704666cc39e9266fb420f4be0959580c7687f11317f9e499f159ddb8d70f5",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "ASHA 기관절개 환자의 연하 평가 안내",
+          "url": "https://www.asha.org/practice-portal/professional-issues/tracheostomy-and-ventilator-dependence/"
+        },
+        {
+          "title": "CDC 수막구균 권고",
+          "url": "https://www.cdc.gov/meningococcal/hcp/vaccine-recommendations/index.html"
+        },
+        {
+          "title": "폐렴구균 고위험군 권고",
+          "url": "https://www.cdc.gov/pneumococcal/hcp/vaccine-recommendations/risk-indications.html"
+        },
+        {
+          "title": "소아·청소년 접종 지침",
+          "url": "https://www.cdc.gov/vaccines/hcp/imz-schedules/child-adolescent-notes.html"
+        },
+        {
+          "title": "존스홉킨스 두부 손상 설명",
+          "url": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/head-injury"
+        },
+        {
+          "title": "CDC 도뇨관 관리 지침",
+          "url": "https://www.cdc.gov/infection-control/hcp/cauti/summary-of-recommendations.html"
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    }
+  ],
+  "amendments": [],
+  "media": [],
+  "related": [
+    "trauma-2026-09-13-conversation"
+  ],
+  "privacyReviewed": true
+}

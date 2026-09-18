@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 2,
+  "recordId": "trauma-2026-09-16-conversation",
+  "board": "trauma",
+  "entryType": "clinical-update",
+  "title": "2026년 9월 16일 경과·간병 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-16",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-09-19T06:51:38.444+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "간병 기록",
+    "회진",
+    "재활",
+    "원문 대화",
+    "9월 17일 간병 기록",
+    "9월 16일 간병 기록",
+    "간병 인수인계"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-care-phase-4",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "간병 기록 정리 (phase 4) · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-f15f51c4-5ff1-48f0-997d-78d162bdfad2",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-16T10:14:35.980013+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "f15f51c4-5ff1-48f0-997d-78d162bdfad2",
+      "sourceOrdinal": 86,
+      "turnId": "1ae2c9cb-3745-4539-a3a7-bf3c01a1ecb4",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "# 환자 회복 경과 및 향후 치료 계획 관련 업데이트\n\n## 1. 환자 회복 상태 및 향후 계획\n\n- 환자의 전반적인 상태는 양호하며 대부분 나아가는 중인 것으로 공유되었습니다.\n- 머리 쪽에는 이상이 없으며, 다리 기능도 회복 중입니다. 다른 사람이 잡아주면 어느 정도 활동이 가능한 상태입니다.\n- 향후 재활 치료를 시작하기 전, 신경외과적인 확인이 선행되어야 합니다.\n- 참석자들은 환자가 휠체어를 타고 공원이나 병원 1층으로 나가보는 등 활동을 재개하도록 격려했습니다.\n\n## Open Questions & Follow-ups\n\n- 휠체어 대여 가능 여부 및 절차 확인 필요\n\n오늘 회진 결과",
+      "originalSha256": "sha256:7474ae269956c93c1a4440b0b5dc2573efe0e99abcb04a4a396d6cf0d37af5fc"
+    },
+    {
+      "id": "message-13ad852d-6aa3-535e-a580-bf2133a1402d",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-16T10:14:48.628259+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "13ad852d-6aa3-535e-a580-bf2133a1402d",
+      "sourceOrdinal": 87,
+      "turnId": "1ae2c9cb-3745-4539-a3a7-bf3c01a1ecb4",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "text": "오늘 말씀은 휠체어 활동을 검토할 만큼 상태가 좋아졌다는 긍정적인 소식입니다. 다만 실제로 허용된 활동 범위와 아직 필요한 신경외과 확인을 구분해서 해석하겠습니다.",
+      "textSha256": "sha256:0230fec0481fdf61f01808b3843c4fbf068fc8d6e8e6df3e9af9d5d560b93845",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-19cf818e-cd26-5136-a9b6-6cbb4e131215",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-16T10:15:47.809714+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "19cf818e-cd26-5136-a9b6-6cbb4e131215",
+      "sourceOrdinal": 88,
+      "turnId": "1ae2c9cb-3745-4539-a3a7-bf3c01a1ecb4",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "text": "오늘 회진은 **안전성을 확인한 뒤, 침상 안에서 하던 재활을 휠체어와 침상 밖 활동으로 넓혀갈 수 있다는 긍정적인 소식**입니다. 어제 왼팔을 들어 손을 내밀고 퍼즐 조각을 직접 회전시켰던 변화와도 방향이 맞습니다.\n\n다만 두 가지는 구분해서 이해해야 합니다.\n\n- **“머리 쪽에 이상이 없다”**는 말이 기존 미만성 축삭손상이 모두 회복됐다는 뜻인지는 확인되지 않았습니다. 두피 상태를 말한 것인지, 출혈 등 새 문제가 없다는 뜻인지 설명을 받아야 합니다.\n- **“잡아주면 활동할 수 있다”**는 말만으로 서기·걷기까지 허용됐다고 볼 수는 없습니다. 특히 선진이는 골반 손상과 오른다리 통증이 있었으므로, 다리에 체중을 실어도 되는지와 휠체어로 옮기는 방법을 따로 확인해야 합니다.\n\n오늘의 **신경외과 확인 계획은 어제보다 구체화된 부분**입니다. 재활을 확대하기 위한 안전성 확인인지, 추가 영상검사가 필요한지, 언제 협진하는지 물어보세요. 이것과 의식·인지 기능을 평가하는 CRS-R 등의 검사는 목적이 다를 수 있습니다. 이미 허용받아 진행 중인 침상 관절운동까지 중단해야 한다는 뜻으로 해석할 필요는 없습니다.\n\n휠체어는 다음 순서로 준비하면 좋겠습니다.\n\n1. **병동 간호사에게 병원 내 대여 가능 여부를 먼저 문의하세요.** 재활치료사에게는 일반 휠체어로 충분한지, 머리·몸통 지지나 등받이 조절 기능이 필요한지 평가를 요청하면 됩니다.\n2. **첫 이동은 간호사나 치료사의 도움을 받아 배우세요.** 왼팔을 잡아당기거나, 오른다리를 딛게 해서 옮겨도 되는지 임의로 판단하지 않는 것이 중요합니다. 필요한 보조도구와 인원은 선진이의 상태에 맞춰 정해야 합니다. [NHS 안전한 환자 이동 안내](https://www.nhs.uk/social-care-and-support/practical-tips-if-you-care-for-someone/how-to-move-lift-and-handle-someone-else/)\n3. **먼저 병실에서 앉은 자세를 얼마나 편하게 유지하는지 확인하세요.** 어제 앉아서 퍼즐을 할 때 찡그리고 피곤해했던 만큼, 처음부터 오래 외출하기보다는 짧게 시도하고 반응을 보며 늘리는 편이 좋겠습니다.\n4. **병동 밖 이동 조건을 확인하세요.** 기관절개관이 있고 HME가 가래로 막혔던 기록이 있으므로, 동행 인력·휴대용 석션과 응급장비·필요한 모니터링을 병동과 정해야 합니다. 기관절개 환자의 병동 외 이동은 상태의 안정성과 돌봄 인력의 대응 능력을 함께 평가합니다. CRE 접촉주의에 따른 이동 가능 구역도 확인하세요. [소아 기관절개 환자 이동 지침](https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Tracheostomy_management/)\n\n지금 가장 먼저 확인할 질문은 **“신경외과 확인 전에도 휠체어 탑승이 가능한가요? 가능하다면 처음 옮기고 앉히는 것을 재활선생님과 함께 해볼 수 있을까요?”**입니다. 대여 여부뿐 아니라 이 답을 받아두면 실제 활동을 안전하게 시작할 수 있습니다.",
+      "textSha256": "sha256:8f17f8e29c139850de5ec07cc3bf519563014a27f479ab5eb893127cd06ec7b6",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "NHS 안전한 환자 이동 안내",
+          "url": "https://www.nhs.uk/social-care-and-support/practical-tips-if-you-care-for-someone/how-to-move-lift-and-handle-someone-else/"
+        },
+        {
+          "title": "소아 기관절개 환자 이동 지침",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Tracheostomy_management/"
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    }
+  ],
+  "amendments": [],
+  "media": [],
+  "related": [
+    "trauma-2026-09-15-conversation"
+  ],
+  "privacyReviewed": true
+}

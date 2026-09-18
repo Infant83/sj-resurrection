@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 2,
+  "recordId": "rehabilitation-2026-09-17-conversation",
+  "board": "rehabilitation",
+  "entryType": "rehabilitation-plan",
+  "title": "2026년 9월 17일 재활병원 전원 계획",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-17",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-09-19T06:51:38.444+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "재활병원 전원",
+    "원문 질의응답",
+    "날짜별 기록"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-rehabilitation-plan-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "재활병원 전원 계획 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-0e405773-d119-4182-b6a9-e96deda40229",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-17T13:26:59.703899+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "0e405773-d119-4182-b6a9-e96deda40229",
+      "sourceOrdinal": 35,
+      "turnId": "1e4948ab-dab5-40d7-8b14-49da78d0f890",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "선진 재활뱡원 알아보기 위해 문의하눈 글을 쓰고싶어 간단하게 아이상태를 이야기하며 도움을 받는 헌두문단 글울 적자",
+      "originalSha256": "sha256:e196948885fa2ee350b866a4124b9016a2ae7b5a66cb8186c8a6a69fadda9188",
+      "corrected": "선진 재활병원 알아보기 위해 문의하는 글을 쓰고 싶어 간단하게 아이 상태를 이야기하며 도움을 받는 한두 문단 글을 적자",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-803b97e1-663c-50ae-9726-5736edc57c43",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-17T13:27:37.307918+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "803b97e1-663c-50ae-9726-5736edc57c43",
+      "sourceOrdinal": 36,
+      "turnId": "1e4948ab-dab5-40d7-8b14-49da78d0f890",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현재까지 알려주신 상태를 바탕으로, 병원이나 재활 경험이 있는 분께 바로 보낼 수 있는 두 문단 문의글로 정리하겠습니다. 문안 작성 지침을 적용해 필요한 정보만 담겠습니다.",
+      "textSha256": "sha256:fa72440d9620076b944f8c7a4953a6c97e94e5a0aa9173a7a3ee747eaad39ede",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-c6815e50-02e9-5cb6-847b-91730345481d",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-17T13:27:57.553906+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "c6815e50-02e9-5cb6-847b-91730345481d",
+      "sourceOrdinal": 37,
+      "turnId": "1e4948ab-dab5-40d7-8b14-49da78d0f890",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": ":::writing{variant=\"chat_message\" id=\"73926\"}\n안녕하세요. 중학교 2학년 아들의 재활병원을 알아보고 있어 도움을 부탁드립니다. 아이는 큰 사고로 뇌손상(미만성 축삭손상)과 여러 골절을 입었고, 중환자실 치료를 마친 뒤 현재 의정부 성모병원 일반병실에서 회복 중입니다. 가족에게 반응하고 간단한 지시를 따르는 모습이 조금씩 나타나고 있지만, 아직 의사소통과 움직임에 어려움이 있어 전문적인 재활치료를 준비하고 있습니다.\n\n서울·경기권에서 소아청소년 뇌손상 환자의 입원재활이 가능하고, 의식·인지·운동 기능을 함께 평가하고 치료하는 병원이나 의료진을 찾고 있습니다. 기관절개관 관리가 필요하고 CRE 검출 이력이 있어, 이러한 상태에서도 입원할 수 있는지 확인해야 합니다. 집이 노원구라 가까우면 좋겠지만 아이에게 적합한 곳이라면 지역을 넓혀 알아보려 합니다. 추천할 만한 병원이나 재활 경험, 전원 상담 창구를 알려주시면 큰 도움이 되겠습니다. 감사합니다.\n:::",
+      "textSha256": "sha256:8c4a151e3034754b0df2447ecaf819c84d597c6f224ab0269a8cc91c9393ab0b",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-367d277a-2d2b-4960-b51a-5fa0adf42a4b",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-17T15:44:12.459941+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "367d277a-2d2b-4960-b51a-5fa0adf42a4b",
+      "sourceOrdinal": 38,
+      "turnId": "9591a61f-988a-49d2-a4b9-e7741513d6c5",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "나동욱 교수님 어때",
+      "originalSha256": "sha256:c3413f708738fcb64495748d785eda0e891b17ed6182a6c36befeb02ad273d83"
+    },
+    {
+      "id": "message-cf491554-c156-5c7b-b970-f4c5c21ffd9e",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-17T15:44:42.250689+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "cf491554-c156-5c7b-b970-f4c5c21ffd9e",
+      "sourceOrdinal": 39,
+      "turnId": "9591a61f-988a-49d2-a4b9-e7741513d6c5",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "나동욱 교수님의 현재 소속과 소아 뇌손상 재활 전문분야를 확인하고, 선진이의 평가·입원재활 상담에 얼마나 맞는지 살펴보겠습니다.",
+      "textSha256": "sha256:1078aeba97547006f976aa7ee8ab83c30f010d5767027aaaf32096b49b1ac5c7",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-584c4d49-746c-578b-9291-2a54e409ea49",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-17T15:45:57.006926+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "584c4d49-746c-578b-9291-2a54e409ea49",
+      "sourceOrdinal": 40,
+      "turnId": "9591a61f-988a-49d2-a4b9-e7741513d6c5",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "공식 안내에서 소아재활 전문분야를 확인했습니다. 세브란스 재활병원에는 소아 운동·인지·언어·연하 치료 체계도 있어 상담할 가치가 있습니다. 다만 나동욱 교수님 진료로 선진이의 외상성 뇌손상을 평가받을 수 있는지, CRE·기관절개 상태로 입원 가능한지는 별도로 확인해야 합니다.",
+      "textSha256": "sha256:02fa0de49ea69a60bde65340068174ad1b5c8f96ac1d63fc16a13b65e070ce9e",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-c070321e-ec42-56f9-bcf2-86aaaac161e8",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-17T15:49:28.694251+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "c070321e-ec42-56f9-bcf2-86aaaac161e8",
+      "sourceOrdinal": 41,
+      "turnId": "9591a61f-988a-49d2-a4b9-e7741513d6c5",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "**신촌 세브란스 재활의학과 나동욱 교수님이라면, 선진이의 재활 방향을 잡기 위해 우선 상담해볼 만한 분이라고 생각합니다.** 다만 전문평가를 받는 것과 실제 입원·전원이 가능한지는 따로 확인해야 합니다.\n\n나동욱 교수님은 공식 의료진 검색정보에서 **소아재활·뇌성마비·발달장애·언어장애** 등을 진료분야로 안내하고 있습니다. 세브란스 재활병원은 외상성 뇌손상과 소아재활을 진료하며, 소아 물리·작업·인지·연하치료와 언어치료 시설을 갖추고 있습니다. 이 점에서 선진이처럼 운동과 의사소통 회복을 함께 평가해야 하는 아이의 상담 후보로 적합하다고 판단합니다. [세브란스 재활의학과 안내](https://sev-rehabil.severance.healthcare/sev-rehabil/department/department/rehabilitation.do)\n\n다만 **소아재활 전문이라는 사실만으로 중증 외상성 뇌손상·의식장애 치료 경험이나 입원 수용까지 확정할 수는 없습니다.** 예약할 때 다음 세 가지를 확인하면 좋겠습니다.\n\n- **중학생의 미만성 축삭손상 재활을 교수님이 직접 담당하는지**, 별도의 소아 뇌손상 담당팀이 있는지\n- **개정 혼수회복척도(CRS-R) 등을 통한 의식평가와 인지·의사소통 평가**를 받을 수 있는지\n- **기관절개관과 CRE 검출 이력이 있는 상태에서 입원재활이 가능한지**, 어렵다면 어떤 조건을 충족해야 하는지\n\n저라면 **의정부 성모병원 담당팀을 통해 나동욱 교수님 또는 소아 뇌손상 담당팀으로 진료의뢰와 전원 사전심사를 요청**하겠습니다. 외래 대기가 길다면 다른 담당 교수에게 먼저 평가받을 수 있는지도 함께 문의하세요.\n\n- 진료협력센터: **02-2228-7700** — [진료의뢰 안내](https://sev-rehabil.severance.healthcare/sev-rehabil/expert/cooperation/request.do)\n- 보호자 진료예약: **1599-1004** — [공식 전화번호 안내](https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/number.do)",
+      "textSha256": "sha256:223cb1d70165d7369495ef416b33e41768fcdd7e1f5df80f6457ea3e8179f5f9",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "세브란스 재활의학과 안내",
+          "url": "https://sev-rehabil.severance.healthcare/sev-rehabil/department/department/rehabilitation.do"
+        },
+        {
+          "title": "진료의뢰 안내",
+          "url": "https://sev-rehabil.severance.healthcare/sev-rehabil/expert/cooperation/request.do"
+        },
+        {
+          "title": "공식 전화번호 안내",
+          "url": "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/number.do"
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    }
+  ],
+  "amendments": [],
+  "media": [],
+  "related": [
+    "rehabilitation-2026-09-10-conversation"
+  ],
+  "privacyReviewed": true
+}

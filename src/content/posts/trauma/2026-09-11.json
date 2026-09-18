@@ -1,0 +1,544 @@
+{
+  "schemaVersion": 2,
+  "recordId": "trauma-2026-09-11-conversation",
+  "board": "trauma",
+  "entryType": "clinical-update",
+  "title": "2026년 9월 11일 경과·간병 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-11",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-09-19T06:51:38.444+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "간병 기록",
+    "회진",
+    "재활",
+    "원문 대화",
+    "9월 17일 간병 기록",
+    "9월 16일 간병 기록",
+    "간병 인수인계"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-care-phase-4",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "간병 기록 정리 (phase 4) · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-95d6476f-9690-4e1c-8d96-a4d5b32b8705",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T10:05:31.430079+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "95d6476f-9690-4e1c-8d96-a4d5b32b8705",
+      "sourceOrdinal": 54,
+      "turnId": "b3d2e04e-2b4f-4518-b189-7db73779a1c2",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "typo-corrected",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "오전 회진시 의사선생님께서 영양공급을 콧줄로 재개할것을 처방함. \n",
+      "originalSha256": "sha256:8b81556740afb35b017826324f51c3d01ac5da8b90fd5bfcc37cc2c10419303c",
+      "corrected": "오전 회진시 의사선생님께서 영양공급을 콧줄로 재개할 것을 처방함. \n",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-cc9f710e-eedc-5710-9322-4a3aedc33c41",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T10:06:04.053889+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "cc9f710e-eedc-5710-9322-4a3aedc33c41",
+      "sourceOrdinal": 55,
+      "turnId": "b3d2e04e-2b4f-4518-b189-7db73779a1c2",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "text": "어제 금식·정맥영양에서 오늘 콧줄 영양 재개로 바뀐 점을 반영해, 경과를 어떻게 볼지 설명드리겠습니다.",
+      "textSha256": "sha256:116309345c4b191c828d397855fb3d21eedf36200e08313253897fc3ff107199",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-43163030-2d90-50c9-9113-90705d7cf202",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T10:06:12.511748+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "43163030-2d90-50c9-9113-90705d7cf202",
+      "sourceOrdinal": 56,
+      "turnId": "b3d2e04e-2b4f-4518-b189-7db73779a1c2",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "text": "**9월 11일 오전 회진에서 ‘콧줄을 통한 경관영양 재개 처방’이 내려진 것으로 반영하겠습니다.** 실제 공급 시작 여부와 시간은 별도로 기록하면 됩니다.\n\n어제 금식과 정맥영양이 필요했던 상황에서, 의료진이 **위장관으로 영양을 다시 공급해볼 수 있다고 판단한 점은 긍정적**입니다. 다만 소화 기능이 완전히 회복됐는지는 재개 후 반응을 봐야 합니다.\n\n오늘은 다음 세 가지가 중요합니다.\n\n- **공급 조건:** 시작 시간, 제품·용량, 주입 속도, 정맥영양 병행 여부.\n- **소화 반응:** 구토·헛구역질, 배가 부풀거나 불편해하는 모습.\n- **호흡 반응:** 영양 공급 중 그렁거림·기침 증가, 산소포화도 변화.\n\n처방된 영양을 반복해서 공급해도 구토나 복부 팽만 없이 견디는지가 다음 회복 판단의 근거가 됩니다. 구토나 호흡곤란이 생기면 즉시 간호사에게 알려주세요. [소아 경관영양 지침](https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Enteral_feeding_and_medication_administration/)\n\n**이번 처방은 콧줄 영양 재개이므로, 입으로 물을 먹이는 것은 별도 허용 여부를 확인해야 합니다.**",
+      "textSha256": "sha256:b3e0c22f66e044562349c640f7f64654ba48192dbacaae246cbdeb6f6ab73297",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "소아 경관영양 지침",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Enteral_feeding_and_medication_administration/"
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-0f3230c6-632b-435a-9477-81e5f6b76ca7",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T20:12:43.546871+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "0f3230c6-632b-435a-9477-81e5f6b76ca7",
+      "sourceOrdinal": 57,
+      "turnId": "5089b97b-0082-4aba-bb9d-731f60cce87a",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "privacy-redacted",
+      "privacyRedactions": [
+        "image"
+      ],
+      "privacyNote": "첨부 사진과 원본 연결정보는 공개하지 않습니다. 그 외 입력 텍스트는 원문대로 보존했습니다.",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "publicText": "선진이의 현재 뒤통수 부분 머리 상태야. 사고덩시 다친 것인데 머리를 깎은지 적어도 일주일 되었을텐데 머리카락이 안자란것이 이상하고 상처가 있거나 더쳤던 부위였던거 같은데 해당 부위가 다쳤다면 어느 우려를 하게 되는건지 ",
+      "publicTextSha256": "sha256:f7a49d2d5bb22ea018ed37209abb73ddb71542940b4820104290df6b43e431ed"
+    },
+    {
+      "id": "message-a5a16cd2-6b2d-5d95-b184-eb87b0ea7b17",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T20:13:08.105504+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "a5a16cd2-6b2d-5d95-b184-eb87b0ea7b17",
+      "sourceOrdinal": 58,
+      "turnId": "5089b97b-0082-4aba-bb9d-731f60cce87a",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "text": "사진에서 보이는 두피 상태를 살펴보고, 오래 누워 있었던 영향과 사고 당시 상처 때문에 머리가 덜 자라는 경우를 구분해 설명드리겠습니다. 두피의 변화가 뇌 손상과도 관련 있는지 함께 짚어볼게요.",
+      "textSha256": "sha256:b7f2966be55daafd287c983df732f70a2b867a025e9f8a07b9625e5dc4807e15",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-55519fde-9ecb-47c0-8875-f5955f7e6801",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T20:13:09.513280+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "55519fde-9ecb-47c0-8875-f5955f7e6801",
+      "sourceOrdinal": 59,
+      "turnId": "5089b97b-0082-4aba-bb9d-731f60cce87a",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "typo-corrected",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "검사를 위해 머리를 깎었던걸까",
+      "originalSha256": "sha256:76b2cf05273300f3e7bf5afff655dd15dde62a272cf1af09f3f04aacda034359",
+      "corrected": "검사를 위해 머리를 깎었던 걸까",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-158f641d-3ad1-45a5-9f13-cdd534b8154e",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T20:14:04.778696+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "158f641d-3ad1-45a5-9f13-cdd534b8154e",
+      "sourceOrdinal": 60,
+      "turnId": "5089b97b-0082-4aba-bb9d-731f60cce87a",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "typo-corrected",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "지난달 담당의사 면담사애는 오른쩍 머리가 부어있었는데 ",
+      "originalSha256": "sha256:0ae33e3fa7ff356d27c02979bf4f5d2ead3634fb531549c5f175eae20ab07b8b",
+      "corrected": "지난달 담당의사 면담 시에는 오른쪽 머리가 부어있었는데 ",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-e8914df2-7df9-58f5-940b-0abc8f2497c1",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T20:14:31.918326+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "e8914df2-7df9-58f5-940b-0abc8f2497c1",
+      "sourceOrdinal": 61,
+      "turnId": "5089b97b-0082-4aba-bb9d-731f60cce87a",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "text": "지난달 오른쪽 머리가 부어 있었다는 말씀도 중요합니다. 다만 당시 부종이 두피의 부기·혈종이었는지, 영상에서 확인한 뇌부종이었는지에 따라 의미가 달라서, 지금 머리카락이 적은 부위와 바로 연결하지 않고 구분해서 보겠습니다.",
+      "textSha256": "sha256:7ed218b7e07706fb33b06a005b54cf7ef729563de152bdb91c96d97c89232c1b",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-b65ff36d-a7a2-5f88-8884-0f8f4b59b758",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T20:18:32.861050+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "b65ff36d-a7a2-5f88-8884-0f8f4b59b758",
+      "sourceOrdinal": 62,
+      "turnId": "5089b97b-0082-4aba-bb9d-731f60cce87a",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "text": "지난달 오른쪽 머리가 부어 있었다면, **그때의 부기가 ‘겉의 두피’였는지, ‘두개골 안의 뇌부종’이었는지를 먼저 구분해야 합니다.** 지금 사진의 머리카락이 없는 부위와 같은 원인이라고 바로 연결할 수는 없습니다.\n\n사진에서는 경계가 비교적 뚜렷하게 머리카락이 적은 부위가 보입니다. 뚜렷한 벌어진 상처나 고름은 보이지 않지만, **깎은 자리인지, 실제로 빠진 자리인지, 흉터가 있는지는 사진만으로 확정하기 어렵습니다.**\n\n검사 때문에 깎았을 가능성도 있을까요?\n\n일반적인 **CT·MRI 촬영 자체에는 머리를 깎을 필요가 없습니다.** 다만 사고 당시 두피 상처를 확인하거나 봉합·처치하기 위해 해당 부위만 짧게 깎았을 가능성은 있습니다. 실제로 무엇을 했는지는 중환자실 처치 기록을 확인해야 합니다. [CT 검사 안내](https://www.radiologyinfo.org/en/info/headct)\n\n선진이의 경과를 고려하면 다음 가능성을 구분해 볼 필요가 있습니다.\n\n- **처치를 위해 깎은 자리:** 짧은 머리카락은 사진에서 잘 보이지 않을 수 있습니다. 일주일 정도 자라지 않은 것처럼 보인다는 이유만으로 영구적인 탈모라고 판단하지 않습니다.\n- **오래 누워 지내면서 생긴 압박성 탈모:** 중환자실에서 뒤통수가 오랫동안 눌리면 두피 혈류가 줄어 국소적으로 머리카락이 빠질 수 있습니다. 선진이처럼 장기간 누워 있었던 경우 확인할 만한 가능성입니다. 흉터가 없는 경우 수개월에 걸쳐 다시 자랄 수 있지만, 깊은 손상으로 흉터가 남았다면 일부는 회복되지 않을 수 있습니다. [압박성 탈모 연구](https://pmc.ncbi.nlm.nih.gov/articles/PMC8923146/)\n- **사고 당시 상처에 따른 모낭 손상:** 같은 자리에 깊은 찰과상·찢어진 상처 등이 있었다면 흉터성 탈모인지 확인해야 합니다. 현재 사진만으로 모낭 손상 여부는 알 수 없습니다.\n\n지난달의 ‘오른쪽 부기’와 관련해서는, 겉으로 부풀어 오른 **두피 부종·혈종**이었다면 피부 손상과 관계가 있을 수 있습니다. 반면 의료진이 영상에서 **뇌부종**을 설명한 것이었다면 별개의 평가가 필요합니다. **머리카락이 없는 위치만으로 그 아래 뇌의 손상 위치나 회복 가능성을 판단할 수는 없습니다.** 뇌 상태는 기존 CT·MRI와 신경학적 진찰을 함께 봐야 합니다. [존스홉킨스 두부 손상 안내](https://www.hopkinsmedicine.org/health/conditions-and-diseases/head-injury)\n\n오늘 의료진에게 사진과 실제 두피를 보여주면서 이렇게 물어보시면 좋겠습니다.\n\n> “이 부분을 상처 처치 때문에 깎았던 기록이 있나요? 아니면 오래 눌려 생긴 탈모나 상처 흉터인가요? 지난달 오른쪽 머리가 부었다는 설명은 두피 혈종이었나요, 뇌부종이었나요?”\n\n그전에는 해당 부위를 세게 문지르지 말고, 간호사에게 뒤통수 압박을 줄이는 자세도 확인해 주세요. 새로 붓거나 붉어짐·진물·통증이 생기면 바로 보여주세요.\n\n**당시 오른쪽 부기는 아버님이 겉으로 직접 보셨던 건가요, 아니면 의사 선생님이 영상검사를 보며 “뇌가 부어 있다”고 설명하셨던 건가요?**",
+      "textSha256": "sha256:b726da72b50ac05bacbc4892dcb2c8e4d5bffe649f8c23d9874303d973bbc72d",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "CT 검사 안내",
+          "url": "https://www.radiologyinfo.org/en/info/headct"
+        },
+        {
+          "title": "압박성 탈모 연구",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8923146/"
+        },
+        {
+          "title": "존스홉킨스 두부 손상 안내",
+          "url": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/head-injury"
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-ffbe61c1-05f4-4742-9e56-1bb980be13de",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T22:47:46.988782+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "ffbe61c1-05f4-4742-9e56-1bb980be13de",
+      "sourceOrdinal": 63,
+      "turnId": "57cdbdee-5c0c-42a2-81a4-eca996e7ac7f",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "privacy-redacted",
+      "privacyRedactions": [
+        "room-number"
+      ],
+      "privacyNote": "병실번호를 가렸습니다. 그 외 입력 텍스트는 원문대로 보존했습니다.",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "publicText": "# 선진이 일반병실 간병·경과 기록\n> 날짜와 시간은 가능한 한 정확히 기록하고, 확실하지 않으면 ‘경’ 또는 ‘미확인’으로 적는다.  \n> 방향은 항상 선진이 본인 기준 왼쪽·오른쪽으로 기록한다.  \n> 직접 관찰한 사실과 보호자의 추정은 구분해서 기록한다.\n\n## 1. 기본 정보\n- 날짜: 2026년 9월 11일 (금요일)\n- 기록 시간: 05시 00분 ~23시 00분\n- 병실: [병실번호 비공개]\n- 보호자: 김현중 (아빠)\n\n## 2. 주요 일정과 할 일\n발톱깎아줄것.\n\n## 3. 소변\n> 소변을 비울 때마다 측정하고, 13시와 19시에 해당 구간의 총합을 간호사에게 알린다.\n| 시간 | 소변량(mL) | 색·냄새·침전물 | 배뇨 장치·누출 상태 | 간호사 보고 |\n05시: 600 ml\n13시: 850 ml\n18시 40분 : 550 ml\n\n## 4. 대변·기저귀\n> 대변량(g) = 사용 후 기저귀 무게 − 사용 전 기저귀 무게\n| 시간 | 사용 전(g) | 사용 후(g) | 대변량(g) | 대변 상태 | 피부·연고 | 보고 |\n15시경 대변 기저귀 갈아줌. 성기주변 샴푸로 닦고 물로 씻어줌. 기본좋아 보임.\n40 g 배출 (기저귀 무게 제거)\n대변은 여전히 설사형태 짙은 갈색.\n17시경 대변 기저귀 갈아줌. 320 g 배출. (기저귀 무게 제거)\n대변색 설사형태 짙은 갈색.\n\n## 5. 경관영양·수분 공급\n| 시작 | 종료 | 제품명 | 용량(mL) | 열량(kcal) | 주입 속도·소요시간 | 반응 |\n올리엘 N12E 40 cc/hr\n플라즈마솔루션 60 cc/hr\n오전 9:30 경 담당 의사 회진시 선진 상태에 대해 확인후 콧줄을 통한 영양 공급을 재개할 것임을 알려줌.\n오전 10시부근 경장 영양공급 콧줄로 시작. 400 ml, 100 ml/hr 13:20 분경 끝남.\n오후 13:30 경장 영양공급 새 팩 다시 시작. 400 ml, 100 ml/hr \n오후 17:30 경장 영양 공급 새 팩 다시 시작. 400 ml, 100 ml/hr\n\n물마시기를 다시 해봄. (점심때)\n침대를 세우고 앉힌뒤, 빨대로 물을 먹게 함. 전과 다르게 빨대를 씹지 않고 바로 물을 쪽 빨아 먹음. 대략 100 ml 정도 먹은 듯. 이상없는 느낌. \n17시경에 다시 한번 물 먹임. 이번에 50 ml (두모금) 잘 먹음.\n두번째 모금은 한번에 다 삼키지 않고 어느정도 입에 머금고 삼키는 것 같음 \n\n## 6. 혈당\n> 혈당값과 함께 경관영양 시작 전·공급 중·종료 후인지 기록한다.\n| 시간 | 혈당(mg/dL) | 영양 공급과의 관계 | 마지막 영양 시작·종료 시각 | 증상·조치 |\n혈당 96 : 정맥 주사 영양 공급을 하면 평소보다 높아질 수 있다 하였음.\n\n## 7. 투약\n| 시간 | 약 이름 | 용량 | 투여 목적 | 경로 | 투여 전 상태 | 투여 후 변화 |\n오전 투약\n뮤테란캅셀 1정 (가루) 100 mg\n셉트린정400 (가루) 80mg\n아스피린프로텍트 (가루) 100 mg\n리피토정 10 mg (가루)\n가스모틴정 5 mg (알약 물에 녹여)\n점심 투약 13:20 분\n뮤테란캅셀 1정 (가루) 100 mg\n기스모틴정 5mg (알약 물에 녹여)\n저녁 투약\n뮤테란캅셀 1정 (가루) 100 mg\n셉트린정400 (가루) 80mg\n가스모틴정 5 mg (알약 물에 녹여)\n쿠에타핀정 25 mg (가루)\n\n## 8. 체온·산소포화도·호흡\n| 시간 | 체온(℃) | 산소포화도(%) | 산소 공급량·장치 | 호흡 상태·소리 | 조치·보고 |\n05시: 산소포화도 96, 호흡 안정, 체온 36.6\n8:30분: 산소포화도 97, 호흡 안정되나 가래 소리 약간.\n\n## 9. 가래·석션\n| 시간 | 영양과의 관계 | 배출 방법 | 가래 색 | 점도·거품 | 대략적인 양 | 전후 호흡 상태 |\n05시: 석션은 안하고, 목관 부품만 교체함. \n08시 석션\n17시 30분 석션: 흡인통 눈금 200 ml (오전 석션 포함), 구토 안함. 힘들어하나 전보다 양호함.\n18시경 가래 내뱉음 (목관을 통해). 끈적함. 10분뒤 다시 내뱉음 (목관을 통해). HME 가래 묻어 교체하였음. 침대를 뒤로 눞히면 가래가 있는 경우 불편한 것 같음. 침대를 눞힐때 가래를 끓어올리는 경우가 많음.\n20시 40분경 가래 내뱉음. 끈적함. \n21시경 가래 내뱉음. 끈적함. 약기운 때문인지 바로 잠에 들음. 석션안함.\n\n## 10. 통증·피부·상처\n| 시간 | 부위 | 직접 관찰한 증상 | 통증을 유발한 동작 | 선진이의 표현 | 조치·의료진 확인 |\n왼손 건드리면 쳐다봄. 피부가 어제보다 좋아짐 씻겨서 그런 것 같음. 왼팔 상박부 주사를 위해 오전에 간호사가 바늘을 찔러 넣을 때 아픈지 찡그림. 왼팔 감각은 있는 것 같음.\n11시경 왼손을 다시 물을 받아 씻어줌. 어제는 골절된 손이어서 많이 씻겨주지 못했는데 오늘은 좀 더 많이 손이 펴져서 좀 더 깨끗하게 씻겨줌. 때도 많이 벗겨지고 한결 더 피부색이 밝아짐. 아직 검은느낌은 있지만 많이 깨끗해짐. \n11시경 머리를 한번 더 감겨줌. 삼푸로 하지는 않고, 따뜻한 물로만 감겨줌. 자세가 오른 다리가 힘들어함. 구부러진 자세를 펴기가 쉽지 않은가봄. 아파해서 많이 씻겨주지 못하였고, 영양 공급중이라 머리가 낮은 자세를 취하기 쉽지 않음. 스스로 고개를 많이 들려고 하고 손으로 머리를 자꾸 긁으려해서 물로 헹궈주기만 함. 그래도 한결 더 깔끔해짐.\n12시경 발톱 깎아줌.\n\n## 11. 움직임·체위·돌봄 협조\n> ‘움직이지 못함’, ‘통증 때문에 움직임을 피함’, ‘움직이지만 힘이 약함’을 구분해서 기록한다.\n| 부위 | 자발적 움직임 | 지시에 따른 움직임 | 힘·범위 | 통증·떨림·경직 |\n05시: 왼다리 떨림은 평소보다 줄어든듯한데 지속 관찰해야 할 것 같음. 다리 움직일 때 평소 떨렸는데, 어제 저녁부터는 줄은 느낌임 (같은 동작시). 아주 없는 것은 아님. 다리를 구부리고 들었다가 다리 위치를 바꿀 때 평소 떨었는데 오늘은 그 동작이 약간 자연스러운 느낌.\n09시경: 30도 정도 기울인 상태에서 잠을 자다가 불편한지, 스스로 앉을려고 하였음. 오른손으로 상체를 당겨 거의 앉을 정도까지 상체를 들어 앉았다가 자세를 고쳐잡고 다시 누워서 잠을 잠.\n오전에 잠을 많이 잠.\n10:30 분경: 왼다리 떨림이 다시 관찰됨. 체위나 다리위치를 움직이고자 할 때에 스스로 다리를 들고 위치 변경을 시도하는데 이 때에 다시 다리를 떨면서 움직이게 됨. 아마도 어제 저녁 약효가 다 되서 그런것 일수도 있음. 저녁까지 지속적으로확인해 보겠음. \n다리 떨림은 지속적으로 관찰됨. 항상 그런 것은 아니나 주로 힘주어 다리 위치 이동시킬 때에 떨림. (저녁때까지 관찰함)\n가끔 구부린 다리를 쭉 펴면서 기지개 펴듣이 두 다리를 펼 때가 있으나 다시 오른다리는 구부림. 펼때 다리가 떨림 (심하지 않음)\n\n## 12. 의식·상호작용\n> 선진이가 깨어 있고 편안할 때 짧게 확인한다. 한 번의 성공보다 같은 반응이 반복되는지를 기록한다.\n| 시간 | 각성 상태 | 보호자가 한 말·과제 | 시범 여부 | 선진이의 정확한 반응 | 반복 결과 |\n11시 40분경: 유투브 시청. 기후 온난화 관련 시사프로그램을 시청하게 하였음. 다른 넷플릭스 애니랑 다르게 무표정하게 쳐다보고 집중하지 못함. 재미없는지 15분뒤에 잠듬.\n12시 40분경: 넷플릭스 시청. 보고싶은 것을 보게하려고 핸드폰을 손옆에 보여줌. 손가락으로 아래로 움직이고 “못미더운 악녀입니다만” 애니를 선택함. 재생을 누르려고 할 때 다른 것을 눌렀을 때 x 버튼을 찾아 뒤로감. 다시 재생버튼을 누름. 표정이 한결 밝아짐. 어제처럼 방긋웃지는 않는데, 재미있는 표정으로 시청함. 자지 않고 20분정도 시리즈를 3편정도 봄.\n13시 30분경: 인지기능 체크 앱을 실행해서 시켜봄. 구구단, 도형 누르기 등. 핸드폰 조작 (화면 터치, 올리기 내리기, 버튼 누르기) 은 어느정도 하나, 어떤 의도를 가지고 진행하는지 말은 하지 못하니 잘 알지 못하겠음. 구구단 5문제중 3문제 정도를 맞춤. 우연인지 쉬운 위치의 버튼을 무작위로 누른건지는 잘 모르겠음. 그러나 항상 같은 버튼을 누르지는 않음. 잘못 누른 버튼에 대해서는 살짝 웃음을 보임. ”다음“ 문제 보는 버튼은 스스로 누름. 인터넷 웹페이지에 주소나 검색어를 누르는 행동을 함. 핸드폰 자판을 누름. 완성된 단어를 만들지는 못하나 자판을 누르고 지우기 버튼도 누르고 다시 자판을 누름. 잠깐 하다가 피곤했는지 손으로 머리 카락을 쥐어내는 행동을 하고 따분해함. 그 후, 그만하자 한뒤에 가만히 있다가 곧 잠듬.  ”어“ 라는 글자를 완성하고 잠듬.\n재활의학과 선생님 가시고 나서 잠듬. \n엄마 왔다 감.\n17:40 분경. 20분정도 있다 감.\n상호작용을 함. 손바닥 마주치기. 손가락 끝 맞대기.\n얼굴보고 웃기. 손발에 로션을 발라줌. 편안해 보임.\n18:10 분경 하트모양 손가락을 해주면, 오른 손으로 따라함 (오전에는 웃었음), 20시 20분경 잠깨고 나서 시켰을 때에는 따라하지 않았음. \n\n### 세부 관찰\n- 눈맞춤: yes\n- 시선 추적: yes\n- 이름을 부르면 보거나 반응함: yes but not always\n- 가족을 구분하는 것으로 보이는 반응: not sure but 엄마, 누나, 할머니 등 보면 웃음.\n\n## 13. 수면·뒤척임\n| 시간대 | 수면 상태 | 뒤척임·자세 변경 | 관련된 관찰 | 조치 |\n낮잠잘 때에 뒤척이지 않음.\n오전에도 잘때에 뒤척이지 않았음.\n낮잠등 잘 때 편안히 잠.\n18시 정도부터 20시 정도 까지 잠.\n21시경부터 잠을 자기 시작함.\n약기운 때문인지 약을 먹고 바로 잠.\n뒤척이지 않음\n\n## 14. 검사·치료·의료진 설명\n| 시간 | 검사·치료 | 결과 또는 설명 | 다음 계획 |\n오전 8:00 엑스레이 검사 : 뱃속 콧줄 상태 확인\n15시 30분경: 재활의학과에서 선진 물리치료 함. \n다리, 손 주무르고 굽혔다 폈다. 마사지와 회전을 할 수 있도록 함.\n중환자실에 있을 때보다 좋아졌다 말함.\n현재 상대적으로 잘 움직이는 왼쪽 다리도 현재의 오른쪽 다리 처럼 개구리 자세만 하려고 하였다고 함. 현재는 움직이고 들고 하는 움직임이 좋아진 것같다고 함.\n오른손도 마찬가지 좋아졌고 상대적으로 중환자실보다 좋아진것 같다고 함. 회전반경등.\n왼손은 움직여주고 풀어주는 것, 구부리는 것을 지속적으로 해주어야 한다고 함. 굳게 되면 계속 풀어주어야 함. 신경과 뇌의 기능상 문제일 수 있기 때문에 시간을 두고 다시 회복될 것을 기대하여야 한다고 함.\n오른손 쥐어봐 하면 쥠. 꽉쥐어봐 하면 약간의 힘을 줌. 왼손은 힘을 주지 못함. 그러나 움찔 정도는 하는 것 같음. 오른손 팔꿈치를 구부리면 아파하나 어제 그제보다 나아진 것 같음.\n보호자가 재활선생님처럼 움직여주는 것이 도움이 될것이므로 수시로 움직여주도록 해도 된다고 함. \n\n- 감염·배양검사: 어제 항문을 통해 균검사하기 위한 검체를 수거해 갔음.\n- 의료진이 설명한 현재 상태: 오늘 영양 공급 재개할 것. —> done\n\n## 15. 의료진에게 확인할 사항\n기관절개관은 언제까지 해야하는가.\n간수치/피수치등은 어떤가.\n머리부분 뒤통수 부분의 머리깎인 부분은왜 머리가 안나는가. 원래 다친 곳이었나. 측두부가 다친것인줄 알았는데 상태는 어떤가. 신경/정신과의 의식평가는 일정에 없는가. \n물을 마시는데 식사를 입으로 하는 것은 언제부터 가능한가.\n\n",
+      "publicTextSha256": "sha256:400eaee7d77fd976662e6b794841e197e068ba9ec1becfee6c5d7602a7dcbd38"
+    },
+    {
+      "id": "message-48342282-c82a-599e-82ee-e7fa700be0b9",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T22:48:02.971812+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "48342282-c82a-599e-82ee-e7fa700be0b9",
+      "sourceOrdinal": 64,
+      "turnId": "57cdbdee-5c0c-42a2-81a4-eca996e7ac7f",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "text": "오늘 기록에서는 영양 공급 재개, 재활팀이 확인한 움직임의 호전, 휴대전화 조작이 중요한 변화입니다. 이전 기록과 비교해 회복의 의미를 짚고, 물 마시기와 기관절개관 제거에 필요한 안전 조건도 함께 확인하겠습니다.\n",
+      "textSha256": "sha256:7a1628fae796fe2f68b019884615be2ec6ab0b60fbca4004f44bb9acbd6fad7e",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-6d77c940-3fb9-5c47-9f72-b0eb45f53d1c",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T22:48:55.743489+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "6d77c940-3fb9-5c47-9f72-b0eb45f53d1c",
+      "sourceOrdinal": 65,
+      "turnId": "57cdbdee-5c0c-42a2-81a4-eca996e7ac7f",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "text": "오늘은 단순히 화면을 누르는 데서 더 나아가, 잘못 열린 화면을 닫고 다시 재생하는 행동이 기록되어 있습니다. 의도 있는 조작을 평가할 중요한 단서입니다. 다만 물을 잘 빨아 마시는 것과 기도로 넘어가지 않게 삼키는 것은 별개여서, 다음 물 섭취 전에 현재 허용 범위를 확인하는 것이 우선입니다.\n",
+      "textSha256": "sha256:b104ddfd47bcfd76fda85e81e9d240ee5eb714fc730e8968e3c51b430f3c0010",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-54f949df-7902-52a2-a212-247066f70a90",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T22:49:40.788602+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "54f949df-7902-52a2-a212-247066f70a90",
+      "sourceOrdinal": 66,
+      "turnId": "57cdbdee-5c0c-42a2-81a4-eca996e7ac7f",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "text": "9월 11일 기록은 **선진이가 회복 방향으로 움직이고 있다는 근거가 더해진 하루**로 읽힙니다. 특히 재활팀이 중환자실 때와 비교해 움직임의 호전을 확인한 점, 휴대전화에서 여러 동작을 연결한 점, 경관영양을 실제로 재개한 점이 중요합니다. 다만 의사소통의 일관성과 안전한 삼킴은 아직 별도로 확인해야 합니다.\n\n## 1. 먼저 확인할 것은 물 마시기의 안전성입니다\n\n빨대를 씹지 않고 바로 빨아 마신 것은 이전보다 나아진 **입술·혀의 사용과 빨대 사용 행동**입니다. 하지만 그것만으로 물이 기도로 넘어가지 않았다고 판단할 수는 없습니다.\n\n선진이처럼 뇌손상과 기관절개관이 있는 경우에는 **사레나 기침 없이 물이 기도로 들어가는 ‘무증상 흡인’**이 가능합니다. 기관절개관 밖으로 물이 나오지 않거나 산소포화도가 괜찮아도 배제되지 않습니다. 필요하면 비디오투시연하검사(VFSS) 또는 내시경연하검사(FEES)로 확인합니다. [ASHA 삼킴 평가 안내](https://www.asha.org/practice-portal/professional-issues/tracheostomy-and-ventilator-dependence/)\n\n이전 회진의 “물을 조금 시험해 보자”는 안내와 오늘의 **한 차례 약 100mL, 하루 약 150mL**가 같은 허용 범위인지는 확인이 필요합니다. 특히 물을 입에 머금었다가 삼킨 모습도 그대로 전달해 주세요.\n\n**다음 물 섭취 전 간호사에게 현재 허용된 양·방법·감독 조건을 확인하고, 확인 전에는 추가 시험을 보류하는 편이 안전합니다.** 콧줄 영양 재개 처방이 경구 섭취 허용을 뜻하지는 않습니다.\n\n## 2. 인지·의식: 오늘은 구구단 점수보다 ‘잘못된 화면에서 돌아온 행동’이 중요합니다\n\n지난 기록과 비교하면 변화가 있습니다.\n\n- **9월 9일:** 구구단 네 문제를 맞췄지만 실제 계산인지 확인하기 어려웠습니다.\n- **9월 10일:** 가운데 선택지를 반복해서 눌러 위치에 따른 선택 가능성이 드러났습니다.\n- **9월 11일:** 목록을 움직여 콘텐츠를 선택하고, 다른 화면이 열리면 **X를 찾아 닫은 뒤 다시 재생**했습니다.\n\n기록처럼 동작이 연결되었다면, 오늘의 휴대전화 사용은 단순한 반복 터치보다 **화면 변화에 맞춰 행동을 조절한 것으로 볼 근거가 더 있습니다.** 익숙한 사용 방식이 일부 보존되어 있거나 다시 활용되고 있을 가능성을 보여줍니다. 다만 이것이 영상 내용을 모두 이해하거나 기억·판단력이 정상화되었다는 뜻은 아닙니다.\n\n구구단 5문제 중 3문제 정답은 여전히 문제 수가 적고 선택 위치의 영향을 배제하지 못해 계산 능력의 회복 여부를 판단하기 어렵습니다. 하트 모양 따라 하기, 손바닥 맞대기, “꽉 쥐어봐”에 힘을 더 주는 반응을 함께 보는 것이 좋습니다.\n\n**오후에 했던 동작을 밤에 못했다고 곧바로 회복이 후퇴했다고 보지는 않습니다.** 뇌손상 후에는 각성·주의력과 반응의 일관성이 떨어질 수 있습니다. [의식 회복 과정 설명](https://msktc.org/tbi/factsheets/facts-about-vegetative-and-minimally-conscious-states-after-severe-brain-injury)\n\n이제 재활팀이 방문했으므로 **개정 혼수회복척도(CRS-R) 등 현재 단계에 맞는 반복 평가**를 요청할 좋은 시점입니다. 복잡한 신경심리검사는 협조가 더 필요할 수 있지만, 의식·명령 수행 평가는 명료한 대화가 가능해질 때까지 기다려야만 하는 검사는 아닙니다. [CRS-R 평가 안내](https://www.sralab.org/rehabilitation-measures/coma-recovery-scale-revised)\n\n## 3. 운동: 재활팀의 비교 관찰이 회복 판단을 뒷받침합니다\n\n오늘 가장 신뢰를 더해주는 대목은 재활팀이 **예전에는 왼다리도 구부린 자세를 고집했지만, 지금은 들고 움직이는 범위가 좋아졌다**고 설명한 점입니다. 아버님의 관찰과 치료사의 관찰이 같은 방향입니다.\n\n오른손으로 몸을 당겨 상체를 세우고 자세를 고친 행동도 의미가 있습니다. 다만 아직 **보조 없이 안전하게 앉기·이동하기가 가능하다는 뜻은 아니므로**, 휠체어 이동과 체중 부하는 별도의 허용 범위를 확인해야 합니다.\n\n왼팔의 경우에는 다음을 구분해야 합니다.\n\n- 만지거나 주삿바늘에 찡그리는 반응은 **자극에 반응한다는 관찰**입니다.\n- 이것만으로 왼팔 감각이 정상이라거나 운동신경이 온전하다고 확정할 수는 없습니다.\n- 통증·관절 굳음·근력 저하·뇌나 말초신경 문제가 각각 얼마나 기여하는지 진찰이 필요합니다.\n\n보호자 운동은 오늘 치료사가 보여준 **범위·속도·관절 지지 방법 안에서** 진행하세요. 아파하는 관절을 강제로 펴는 방식은 피해야 합니다.\n\n왼다리 떨림은 힘을 줄 때 생긴다는 점에서 근력 저하나 운동 조절 문제, 경직에 동반되는 반복 수축 등을 구분해야 합니다. 잠잘 때 줄거나 시간에 따라 달라진다는 사실만으로 약효나 원인을 정할 수 없습니다. 같은 동작에서 나타나는 모습을 짧게 촬영해 재활팀에 보여주면 도움이 됩니다. [뇌손상 후 경직 안내](https://msktc.org/tbi/factsheets/spasticity)\n\n## 4. 영양·호흡: 재개 후 경과는 긍정적이지만 아직 관찰 단계입니다\n\n9월 9~10일의 구토·금식 이후 오늘 실제로 경관영양을 재개했고, 기록상 재구토가 없습니다. 이는 긍정적입니다. 다만 **설사가 두 차례 이어졌으므로 위장 기능이 완전히 정상화되었다고 보기는 어렵습니다.**\n\n수치를 정리하면 다음과 같습니다.\n\n| 항목 | 오늘 기록의 의미 |\n|---|---|\n| 소변 | 수거량 합계 **2,000mL**. 정확한 시간 구간·체중·수액량과 함께 판단 |\n| 대변 | 합계 **360g**, 짙은 갈색 설사. 이전 검붉은 변과 색 표현이 달라졌으나 색만으로 출혈 여부 판단 불가 |\n| 경관영양 | 400mL 팩 3개를 연결해 **총 1,200mL분 시작**. 실제 완료량은 별도 확인 |\n| 정맥 주입 | 영양 40＋수액 60＝**100mL/시간**. 24시간 유지했다면 2,400mL |\n| 혈당 | **96mg/dL**는 높은 수치가 아님. 정맥영양 중에도 추적 측정은 필요 |\n\n경관영양과 정맥영양을 함께 쓰는 것은 전환 과정에서 가능하지만, **경관영양이 유지되면 정맥영양·수액을 언제 조정할지** 확인하면 좋겠습니다. 첫 팩은 400mL를 100mL/시간으로 주었다면 4시간이므로, 기록된 시작·종료 시간과 실제 주입량도 한번 맞춰 주세요.\n\n또한 영양 공급 중에는 머리를 낮추는 세발 자세를 피하고, 가능한 경우 상체를 30~45도 올리는 것이 권고됩니다. 씻기기 위해 자세를 크게 바꿔야 하면 간호사와 시간을 조율하세요. [경관영양 관리 지침](https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Enteral_feeding_and_medication_administration/)\n\n## 5. 기관절개관 제거와 낮잠은 이렇게 해석합니다\n\n산소포화도 96~97%, 안정적인 호흡, 스스로 가래를 배출하는 모습은 좋은 변화입니다. 그러나 **기관절개관을 통한 기침이 가능하다는 것과 관 없이 분비물을 처리할 수 있다는 것은 다릅니다.**\n\n제거 여부는 산소포화도뿐 아니라 상기도가 잘 열려 있는지, 기침·분비물 처리 능력, 삼킴과 기도 보호, 수면 중 호흡 등을 평가하고 필요에 따라 의료진 감독하에 막음 시험 등을 거쳐 결정합니다. 날짜를 예측하기보다 **“현재 제거를 위해 아직 충족하지 못한 조건이 무엇인가요?”**라고 묻는 편이 구체적인 답을 얻기 좋습니다. 보호자가 직접 관을 막아 시험하지는 마세요. [소아 기관절개관 제거 지침](https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Tracheostomy_management/)\n\n쿠에타핀은 졸음을 유발할 수 있어 저녁 투약 후 수면에 영향을 줬을 가능성이 있습니다. 하지만 낮잠 전체나 다리 떨림의 변화를 모두 약 때문이라고 설명할 수는 없습니다. **낮 재활 참여를 방해할 정도로 졸린지, 투약 목적과 시간·용량을 재검토할 필요가 있는지** 의료진에게 물어보세요. 임의로 중단하지는 않아야 합니다. [쿠에티아핀 허가 정보](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f927ae2-a0ae-4953-99ba-8de59ee5bfca)\n\n## 다음 회진에서 우선 물어볼 내용\n\n1. **물·식사:** “현재 입으로 허용된 양과 방법은 무엇이며, 연하 평가를 잡을 수 있나요?”\n2. **의식·소통:** “CRS-R 등 반복 평가와 언어·의사소통 평가를 시작할 수 있나요?”\n3. **기관절개관:** “제거를 위해 남아 있는 조건과 발성밸브 평가 가능 여부는 무엇인가요?”\n4. **검사·영양:** “간수치·빌리루빈·혈색소·염증수치의 최근 추세와 정맥영양 감량 계획은 어떤가요?”\n5. **운동·두피:** “왼팔·오른다리의 운동 제한 원인과 허용 범위, 뒤통수의 삭모·상처 기록을 확인해 주세요.”\n\n항문으로 채취한 검체는 CRE 장내 보균을 확인하는 검사일 가능성이 있지만 결과와 검사 목적을 확인해야 합니다. **보균과 실제 감염은 다르며, 오늘 설사를 CRE 때문이라고 단정할 수 없습니다.** [CDC CRE 안내](https://www.cdc.gov/cre/about/index.html)\n\n마지막으로 오늘 기록의 ‘오른손 팔꿈치를 구부리면 아픔’은 이전의 왼팔 통증과 별개인지, 좌우 오기인지 확인해 두면 좋겠습니다.\n\n**현재 가장 타당한 평가는 “움직임과 목적 있는 행동이 늘고 있지만, 이를 일관된 의사소통과 안전한 일상 기능으로 연결하는 재활이 필요한 단계”입니다.** 오늘 관찰은 희망적인 근거이지만, 최종 회복 범위나 시점을 확정할 근거는 아직 아닙니다.",
+      "textSha256": "sha256:8819e24996dd6d06d02283be68a29c5e86e4e63050bf950be6bd30664be54639",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "ASHA 삼킴 평가 안내",
+          "url": "https://www.asha.org/practice-portal/professional-issues/tracheostomy-and-ventilator-dependence/"
+        },
+        {
+          "title": "의식 회복 과정 설명",
+          "url": "https://msktc.org/tbi/factsheets/facts-about-vegetative-and-minimally-conscious-states-after-severe-brain-injury"
+        },
+        {
+          "title": "CRS-R 평가 안내",
+          "url": "https://www.sralab.org/rehabilitation-measures/coma-recovery-scale-revised"
+        },
+        {
+          "title": "뇌손상 후 경직 안내",
+          "url": "https://msktc.org/tbi/factsheets/spasticity"
+        },
+        {
+          "title": "경관영양 관리 지침",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Enteral_feeding_and_medication_administration/"
+        },
+        {
+          "title": "소아 기관절개관 제거 지침",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Tracheostomy_management/"
+        },
+        {
+          "title": "쿠에티아핀 허가 정보",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f927ae2-a0ae-4953-99ba-8de59ee5bfca"
+        },
+        {
+          "title": "CDC CRE 안내",
+          "url": "https://www.cdc.gov/cre/about/index.html"
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-6b665bfd-d684-4ac4-a0c7-c2f93da6c6de",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T23:00:27.608552+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "6b665bfd-d684-4ac4-a0c7-c2f93da6c6de",
+      "sourceOrdinal": 67,
+      "turnId": "27ef41c1-c3a1-422a-b442-1369da5cd22d",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "팔꿈치 통증은 오기였어. 왼팔을 아파해.",
+      "originalSha256": "sha256:69ceda4cc9f010fd0189f16f6d490d78e05d31e103781205e94319e03995eb39"
+    },
+    {
+      "id": "message-e145bff3-ca9f-53ce-97df-555e9f848a5e",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T23:00:43.448216+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "e145bff3-ca9f-53ce-97df-555e9f848a5e",
+      "sourceOrdinal": 68,
+      "turnId": "27ef41c1-c3a1-422a-b442-1369da5cd22d",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "text": "확인했습니다. **9월 11일 기록의 ‘팔꿈치를 구부릴 때 통증이 있는 쪽’은 왼팔**로 정정해서 이후 경과 분석에 반영하겠습니다. 이전부터 이어진 왼팔의 통증·움직임 제한과 연결해서 보겠습니다.",
+      "textSha256": "sha256:57edf2b5286ec57ffca7feec5fe6add6b20289cff14b71734a95cdde0ef4118b",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-09-19-care-63-left-elbow",
+      "recordedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "correction",
+      "target": "message-ffbe61c1-05f4-4742-9e56-1bb980be13de",
+      "note": "본문의 ‘오른손 팔꿈치’는 보호자가 같은 날 23시 기록에서 ‘왼팔’ 오기라고 명시했습니다. 입력 당시 본문은 보존하고, 팔꿈치 통증의 방향은 왼팔로 정정합니다. [보호자의 정정](https://infant83.github.io/sj-resurrection/post/trauma/2026-09-11/#message-6b665bfd-d684-4ac4-a0c7-c2f93da6c6de)",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [],
+  "privacyReviewed": true
+}

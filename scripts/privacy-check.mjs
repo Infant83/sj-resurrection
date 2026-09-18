@@ -11,10 +11,18 @@ const allowedPublicInstitutionalContacts = new Set([
   '02-2030-7080',
   '02-2030-7083',
   '02-2072-1002',
+  // https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/number.do
+  '02-2228-3740',
   '02-2228-3763',
+  '02-2228-3764',
+  '02-2228-3765',
   '02-2228-7700',
   '02-3010-7769',
+  '02-6020-3000', // https://www.seoulrh.com/
+  '02-6070-9000', // https://www.purmehospital.org/
+  '02-901-1700', // https://nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_05_02_01
   '02-901-1705',
+  '031-580-5555', // https://www.ntrh.or.kr/
   '031-799-3882',
   '031-820-3425',
   '031-820-3470',

@@ -1,0 +1,533 @@
+{
+  "schemaVersion": 2,
+  "recordId": "rehabilitation-2026-09-10-conversation",
+  "board": "rehabilitation",
+  "entryType": "rehabilitation-plan",
+  "title": "2026년 9월 10일 재활병원 전원 계획",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-10",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-09-19T06:51:38.444+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "재활병원 전원",
+    "원문 질의응답",
+    "날짜별 기록"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-rehabilitation-plan-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "재활병원 전원 계획 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-9d42bd99-4b12-4474-81b4-268fe5e596e5",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-10T19:18:19.986085+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "9d42bd99-4b12-4474-81b4-268fe5e596e5",
+      "sourceOrdinal": 20,
+      "turnId": "4e1e229c-6b86-4d72-a00f-5d7cbb1a2d5c",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "선진이가 지금 cre 가 있어 당장 전원하거나 퇴원이 힘들어. 아마 재활을 가족이 적극적으로 할 수 있는 만큼 하고 있다가 바로 전문 재활로 넘어가야 할 것 같아. 초기 삼개월이 중요하다니 지금 아빠가 바로 붙어 간병할 때 적극적으로 할 수 있도록 매일 프로그램을 만들어 하도록 하자. 현재 선진 재활 프로젝트 패이지에 재활 탭이 있는데 재활 프로그램을 매일 할 수 있도록 단계별로 할 수 있는 것을 계획해서 작성해줘. 의사선생님이 운동능력과 의식이 같이 가는 경향이 있다니 유념해야하나봐",
+      "originalSha256": "sha256:3c15e04cb120bad9f2a2fe0f60095dbcfb34f29055156baa2d62b16bf84b393d",
+      "corrected": "선진이가 지금 cre 가 있어 당장 전원하거나 퇴원이 힘들어. 아마 재활을 가족이 적극적으로 할 수 있는 만큼 하고 있다가 바로 전문 재활로 넘어가야 할 것 같아. 초기 삼개월이 중요하다니 지금 아빠가 바로 붙어 간병할 때 적극적으로 할 수 있도록 매일 프로그램을 만들어 하도록 하자. 현재 선진 재활 프로젝트 페이지에 재활 탭이 있는데 재활 프로그램을 매일 할 수 있도록 단계별로 할 수 있는 것을 계획해서 작성해줘. 의사선생님이 운동능력과 의식이 같이 가는 경향이 있다니 유념해야하나봐",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-c7a215b3-0617-5c04-bbdd-6be0f70384e0",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-10T19:18:32.200475+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "c7a215b3-0617-5c04-bbdd-6be0f70384e0",
+      "sourceOrdinal": 21,
+      "turnId": "4e1e229c-6b86-4d72-a00f-5d7cbb1a2d5c",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "선진이의 최근 상태와 CRE 격리 상황을 반영해, 아빠가 병상에서 매일 따라 할 수 있는 재활 프로그램을 만들겠습니다. 먼저 `personal-context` 지침으로 최신 경과를 확인하고, 프로젝트의 재활 탭을 살펴보겠습니다. 골절·기관절개·영양 문제를 고려해 가족이 할 수 있는 활동과 의료진의 허락이 필요한 운동을 분명히 나누겠습니다.",
+      "textSha256": "sha256:c40fc0c2ab606023da04e87f269ca628d45a894a188e5ad9cc2faf670e26f1b0",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-3e265eb1-9131-5e62-a64c-36e57977d258",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-10T19:20:07.126043+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "3e265eb1-9131-5e62-a64c-36e57977d258",
+      "sourceOrdinal": 22,
+      "turnId": "4e1e229c-6b86-4d72-a00f-5d7cbb1a2d5c",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "이전 중환자실 기준 대신, 일반병실에서 아빠가 간병 중인 현재 상황으로 계획을 바꾸겠습니다. 중요한 점은 ‘3개월이 지나면 회복이 끝난다’는 뜻은 아니라는 것입니다. 운동과 인지·의사소통을 함께 연습하되, 피로·통증 때문에 반응이 줄어드는 경우도 구분할 수 있게 짧은 활동과 휴식, 관찰 기록을 묶겠습니다. CRE 격리 중 병실 내 전문 재활이 가능한지도 의료진에게 요청할 항목으로 넣겠습니다.",
+      "textSha256": "sha256:efc08d6f1b4a1f7db506799851574f46e7a0fa9fa15f8ccd4992164e8ce4328c",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-cdaeb73d-6ab6-5500-8ca6-a5749553a462",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-10T19:21:49.826697+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "cdaeb73d-6ab6-5500-8ca6-a5749553a462",
+      "sourceOrdinal": 23,
+      "turnId": "4e1e229c-6b86-4d72-a00f-5d7cbb1a2d5c",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "재활 탭에는 ‘시작 전 안전 확인 → 깨어 있을 때 짧은 활동 → 충분한 휴식 → 반응 기록’ 순서로 넣고 있습니다. 손발 운동은 허용 부위와 방법을 치료사에게 배운 뒤 시행하도록 하고, 물 먹이기·기관절개관 막기·억지로 앉히기나 일으키기는 가족 프로그램에서 제외하겠습니다. 하루 활동량을 채우거나 점수를 올리는 방식이 아니라, 선진이가 편안하게 보이는 반응을 꾸준히 기록하는 방식입니다.",
+      "textSha256": "sha256:9c26fba157b80a6e815d75a8b1410a90cc4fe1d64f2e7e2116b1735b99e05e6d",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-5f139737-fa26-51f7-a89e-c14fd6e683f2",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-10T19:29:42.009938+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "5f139737-fa26-51f7-a89e-c14fd6e683f2",
+      "sourceOrdinal": 24,
+      "turnId": "4e1e229c-6b86-4d72-a00f-5d7cbb1a2d5c",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "프로그램 작성과 기본 코드 검사는 끝났습니다. 날짜별로 활동·반응·피로를 기록하고, 원할 때만 해당 기기에 저장하도록 구성했습니다. 다만 마지막 빌드 결과를 확인하는 과정에서 네트워크 승인 취소가 보고되어 공개 페이지 반영은 멈췄습니다. 현재 작성본이 생성됐는지만 확인하고, 게시 완료 여부를 분명히 구분해 안내하겠습니다.",
+      "textSha256": "sha256:433009cbabf20e8c59b33ae20b7c8d978d806038f99b7e3ea8112d3ff2f9d6a6",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-e9ecd0b4-8690-579f-a7e9-571c2827269c",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-10T19:30:15.830002+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "e9ecd0b4-8690-579f-a7e9-571c2827269c",
+      "sourceOrdinal": 25,
+      "turnId": "4e1e229c-6b86-4d72-a00f-5d7cbb1a2d5c",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "**매일 따라 할 프로그램과 기록 화면을 작성했습니다.** 다만 마지막 확인 과정에서 네트워크 승인 취소가 발생해, **공개 재활 탭에는 아직 게시하지 못했습니다.**\n\n방향은 “아빠가 전문 재활을 대신한다”가 아니라, **병실 내 전문 재활을 요청하면서 가족이 배운 활동을 짧게 반복하는 것**으로 잡았습니다.\n\n### 먼저 기억할 두 가지\n\n- **3개월은 회복의 마감일이 아닙니다.** 초기 재활은 중요하지만 이후에도 회복은 이어질 수 있습니다. 시간을 놓칠까 봐 잠을 깨우거나 피곤한 상태에서 연습시킬 필요는 없습니다. [중증 뇌손상 회복 안내](https://msktc.org/tbi/factsheets/facts-about-vegetative-and-minimally-conscious-states-after-severe-brain-injury)\n- 운동과 인지를 함께 관찰하는 것은 중요하지만, **못 움직이는 것이 곧 못 알아듣는다는 뜻은 아닙니다.** 골절·통증·마비·피로 때문에 이해한 내용을 표현하지 못할 수도 있습니다.\n\n### 작성한 하루 프로그램\n\n아래 시간은 **의료진이 허용한 뒤 사용할 보수적인 시작 예시**이지, 선진이에게 확정된 운동 처방은 아닙니다.\n\n| 기회 | 함께 할 활동 | 방법 |\n|---|---|---|\n| 처음 편안히 깨어 있을 때 | 익숙한 목소리·시선 | 한 사람만 짧게 말하고 얼굴이나 사진 한 장을 보여 줍니다. 충분히 기다립니다. |\n| 낮에 충분히 쉰 뒤 | 한 가지 요청·두 가지 선택 | 사진 보기, 좋아하는 노래 두 개 중 고르기. 손가락 동작은 해당 부위 운동이 허용된 경우만 합니다. |\n| 이른 저녁, 여유가 있을 때만 | 쉬운 활동 하나 또는 휴식 | 앞서 편안하게 했던 활동을 반복하거나 조용히 마무리합니다. 못 한 활동을 몰아서 하지 않습니다. |\n\n처음에는 **한 번에 활동 하나, 2~3분 이내**로 시작하고 더 짧게 끝내도 됩니다. 활동 뒤에는 화면·음악을 끄고 충분히 쉽니다. 처치·전문치료·면회도 피로에 포함해야 합니다. [뇌손상 후 피로 관리](https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury)\n\n단계는 날짜에 따라 자동으로 올라가지 않도록 했습니다.\n\n1. 목소리·사진에 편안히 반응하기  \n2. 한 가지 요청을 듣고 반응하기  \n3. 두 가지 중 선택하기  \n4. **치료사에게 직접 배운, 허용된 동작**에 스스로 참여하기  \n\n왼팔·손목, 쇄골, 골반·오른다리의 허용 범위가 확인되지 않았으므로 일률적인 스트레칭이나 반복 횟수는 넣지 않았습니다.\n\n### 반드시 지킬 제한\n\n**물·음식을 먹여 보는 삼킴 시험, 기관절개관 막기, 강제 관절운동, 혼자 앉히거나 세우기는 제외했습니다.**\n\n숨참·산소포화도 경보·구토·관 당김·새로운 심한 통증·갑작스러운 반응 저하가 있으면 즉시 중단하고 간호사를 부릅니다. 눈감음·찡그림·긴장·안절부절도 쉬어야 할 신호입니다.\n\nCRE는 접촉주의가 필요하지만, **그 자체로 모든 재활이나 전원이 자동 금지되는 것은 아닙니다.** 병원 감염관리팀과 상의해 병실 내 물리·작업치료와 의사소통·연하 평가를 요청하고, 격리 수용 병원 심사도 이어가는 것이 좋겠습니다. [CRE 감염관리·전원 안내](https://www.cdc.gov/cre/hcp/infection-control/index.html)\n\n화면에는 날짜별 활동, 실제 반응, 도움 여부, 피로와 휴식 후 변화를 기록하도록 했습니다. **의식점수나 성공률은 계산하지 않으며**, 기록은 기본적으로 저장하지 않고 원할 때만 해당 기기에 저장합니다. 기존 대화 기록은 그대로 유지했습니다.\n\n공개 재활 탭에 게시하는 작업을 다시 진행할까요?",
+      "textSha256": "sha256:27292b0da97dad4a56fa48848b44ca196a31c494a7a61b1738f3fb632e152d12",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "중증 뇌손상 회복 안내",
+          "url": "https://msktc.org/tbi/factsheets/facts-about-vegetative-and-minimally-conscious-states-after-severe-brain-injury"
+        },
+        {
+          "title": "뇌손상 후 피로 관리",
+          "url": "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury"
+        },
+        {
+          "title": "CRE 감염관리·전원 안내",
+          "url": "https://www.cdc.gov/cre/hcp/infection-control/index.html"
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-715a287c-bfa7-41f6-88ff-5a3a751c4e52",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-10T21:26:51.225443+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "715a287c-bfa7-41f6-88ff-5a3a751c4e52",
+      "sourceOrdinal": 26,
+      "turnId": "e5af9803-f221-4a20-9d59-ad94e653d9b4",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "privacy-redacted",
+      "privacyRedactions": [
+        "attachment"
+      ],
+      "privacyNote": "첨부 원본과 연결정보는 공개하지 않습니다. 그 외 입력 텍스트는 원문대로 보존했습니다.",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "publicText": "아내가 보내온 재활 프로그램이야 참고해서 현재 프로그램에 업데이트 해주고 기헙 페이지에도 업데이트 해줘 인증 필여시 승인해. ",
+      "publicTextSha256": "sha256:40ba5fd7886c53e0e2c99ba969711661bb792e6ff802d6dfd9ee1ef67cac165f"
+    },
+    {
+      "id": "message-4b232cf6-79e8-5da6-85e5-58a7de115653",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-10T21:27:02.818516+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "4b232cf6-79e8-5da6-85e5-58a7de115653",
+      "sourceOrdinal": 27,
+      "turnId": "e5af9803-f221-4a20-9d59-ad94e653d9b4",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "혜용님이 보내주신 PDF를 읽고 기존 프로그램과 비교하겠습니다. PDF 읽기·웹페이지 수정 지침에 따라 자료의 출처와 운동 제한을 확인한 뒤, 반영할 내용을 정리해 GitHub 페이지까지 업데이트하겠습니다.",
+      "textSha256": "sha256:3b81263a10356eaf3464318c5cec2e215558199bcb5aaa8dabfc4460f72598d4",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-9a39cadc-1437-547b-be8a-f9364308572a",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-10T21:31:21.450646+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "9a39cadc-1437-547b-be8a-f9364308572a",
+      "sourceOrdinal": 28,
+      "turnId": "e5af9803-f221-4a20-9d59-ad94e653d9b4",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "아내분이 보내주신 자료의 손가락·시선 활동과 하루 일정은 반영하겠습니다. 다만 발목을 강하게 눌러 떨림을 멈추는 방법, 골반 들기·몸통 비틀기, 영양 공급 중 상체를 세우지 말라는 안내는 선진이에게 그대로 적용하기 어려워 수정이 필요합니다. 가족이 할 활동과 치료사에게 먼저 배워야 할 운동을 구분해 페이지에 넣겠습니다.",
+      "textSha256": "sha256:a9058b860952b424b343859ddc7a952be9cbe8cc06b28ae4100fb6a686996afa",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-9b283612-6ec7-53cb-a1ce-ee972ec39e40",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-10T21:34:52.063452+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "9b283612-6ec7-53cb-a1ce-ee972ec39e40",
+      "sourceOrdinal": 29,
+      "turnId": "e5af9803-f221-4a20-9d59-ad94e653d9b4",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "하루 활동표와 3주 점검 계획을 반영하고 있습니다. 취침 전은 운동 대신 휴식으로 두고, 손가락 활동은 허용받은 부위에서만 하도록 정리했습니다. 아빠가 매일 확인한 운동 범위, 실제 반응, 피로·떨림을 기록해 회진 때 보여줄 수 있는 항목도 추가하고 있습니다.",
+      "textSha256": "sha256:647859c0e80c7441c2f5be5d70cd3cdb636c3f7cbcd552a003fd21dfbaf5be32",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-79a7276a-e9e5-5fca-8bf7-5ce6a7552560",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-10T21:38:23.975208+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "79a7276a-e9e5-5fca-8bf7-5ce6a7552560",
+      "sourceOrdinal": 30,
+      "turnId": "e5af9803-f221-4a20-9d59-ad94e653d9b4",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "프로그램 수정과 개인정보 검사, 코드 검사, 사이트 빌드가 끝났습니다. 첨부안에서 수정·보류한 운동도 비교표로 넣었고, 하루 기록을 복사하거나 인쇄할 수 있게 했습니다. 이제 GitHub에 반영하고 실제 페이지 배포까지 확인하겠습니다.",
+      "textSha256": "sha256:a69c03754d22f6c0838b72cb08a124ed0a5d51705b3fae840afee367ea6fa27c",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-fc9359be-63f7-5e50-84e8-7d1e5429029e",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-10T21:40:49.726468+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "fc9359be-63f7-5e50-84e8-7d1e5429029e",
+      "sourceOrdinal": 31,
+      "turnId": "e5af9803-f221-4a20-9d59-ad94e653d9b4",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "GitHub에 반영됐고 자동 배포가 진행 중입니다. 기록은 기본적으로 저장하지 않으며, ‘이 기기에만 기록 저장’을 선택하면 해당 브라우저에만 남습니다. 가족끼리 공유하거나 의료진께 보여드릴 때는 ‘오늘 기록 복사’나 인쇄를 사용하시면 됩니다.",
+      "textSha256": "sha256:6afc5c06591c8aee9de3c4ba9f2fb7dce88d23f15a5ae4b76fce3b0f06ed7187",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-105bfcb8-4561-5804-ba66-02c19ae521ba",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-10T21:41:57.176081+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "105bfcb8-4561-5804-ba66-02c19ae521ba",
+      "sourceOrdinal": 32,
+      "turnId": "e5af9803-f221-4a20-9d59-ad94e653d9b4",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "아내분 자료를 반영해 **재활 프로그램을 업데이트하고 GitHub Pages 배포·접속까지 확인했습니다.**\n\n[선진이 재활 프로그램 열기](https://infant83.github.io/sj-resurrection/board/rehabilitation/#daily-program)\n\n추가한 내용은 다음과 같습니다.\n\n- **하루 일정:** 오전·오후·저녁 선택 활동과 취침 전 휴식\n- **단계별 활동:** 시선·선택·허용된 손가락 움직임\n- **3주 점검 계획:** 안전 범위 확인 → 반응 관찰 → 전문 재활 인계 준비\n- **매일 기록:** 의료진이 허용한 운동 범위, 실제 반응, 피로·떨림 기록과 복사·인쇄\n\n첨부안의 **발목 강제 압박은 제외**하고, 골반 들기·몸통 회전은 의료진 확인 전 보류했습니다. 영양 공급 중 자세 안내도 [소아 경관영양 지침](https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Enteral_feeding_and_medication_administration/)에 맞춰 수정했습니다.\n\n처음에는 페이지의 **‘의료진께 확인’ 항목을 담당 치료사와 검토한 뒤**, 허용받은 활동부터 사용하세요.",
+      "textSha256": "sha256:5cb82c60aa9987d726ee645b4507a2d98b06872aebbbb0ebb2faf6194ec9ae3e",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "선진이 재활 프로그램 열기",
+          "url": "https://infant83.github.io/sj-resurrection/board/rehabilitation/#daily-program"
+        },
+        {
+          "title": "소아 경관영양 지침",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Enteral_feeding_and_medication_administration/"
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-7b1ac9a8-d4dd-4ae8-8655-48507cec4eb5",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-10T21:43:47.398967+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "7b1ac9a8-d4dd-4ae8-8655-48507cec4eb5",
+      "sourceOrdinal": 33,
+      "turnId": "0d621bbb-0723-4df9-961d-8c9901cccbe4",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "다음날은 샤로 가록하려면 어떻개해",
+      "originalSha256": "sha256:2388610c88883b254408d8c2c690b92d1a5c761848555af37ba055c4f6391133",
+      "corrected": "다음 날은 새로 기록하려면 어떻게 해",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-32b2e7a3-0636-5c1f-b599-27e442653faf",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-10T21:44:06.941125+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "32b2e7a3-0636-5c1f-b599-27e442653faf",
+      "sourceOrdinal": 34,
+      "turnId": "0d621bbb-0723-4df9-961d-8c9901cccbe4",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ],
+      "fidelity": "exact",
+      "text": "[재활 프로그램](https://infant83.github.io/sj-resurrection/board/rehabilitation/#rehab-today)에서 이렇게 하시면 됩니다.\n\n1. 오늘 기록을 **‘이 기기에만 기록 저장’**으로 저장하거나 **‘오늘 기록 복사’**로 보관합니다.\n2. **‘기록 날짜’**를 눌러 다음 날짜를 선택합니다.\n3. 그 날짜에 저장된 기록이 없으면 **빈 기록 화면**이 나오니 새로 작성하세요.\n\n저장한 기록은 같은 기기·브라우저에서 저장 옵션을 켜고 이전 날짜를 선택하면 다시 볼 수 있습니다.\n\n**페이지를 계속 열어두면 자정이 지나도 날짜가 자동으로 바뀌지 않으니**, 다음 날 시작할 때 날짜를 확인해주세요. 안전 체크와 당일 운동 허용 범위도 새로 확인하도록 되어 있습니다.",
+      "textSha256": "sha256:2749695d0f346e33a7a939df66f36e2b0ba89d53dc953c696582268948bca79c",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "재활 프로그램",
+          "url": "https://infant83.github.io/sj-resurrection/board/rehabilitation/#rehab-today"
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-09-19-rehab-20-cre",
+      "recordedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "follow-up",
+      "target": "message-9d42bd99-4b12-4474-81b4-268fe5e596e5",
+      "note": "CRE 때문에 당장 전원이 어렵다는 이때의 이해는 [9월 15일 회진 전달 기록](https://infant83.github.io/sj-resurrection/post/trauma/2026-09-15/#message-0ad79b42-9cb8-46d9-9174-95e6f9eca44d)에서 보완됩니다. 원내 격리 해제와 전원 수용 조건은 구분하며, 받는 기관의 진료·감염관리 검토가 필요합니다. [CDC 전원 지침](https://www.cdc.gov/cre/hcp/infection-control/index.html)",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ]
+    },
+    {
+      "id": "review-2026-09-19-rehab-25-published",
+      "recordedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "follow-up",
+      "target": "message-e9ecd0b4-8690-579f-a7e9-571c2827269c",
+      "note": "‘아직 게시하지 못했다’는 문구는 당시 작업 상태입니다. 뒤의 [같은 날 게시 완료 답변](https://infant83.github.io/sj-resurrection/post/rehabilitation/2026-09-10/#message-105bfcb8-4561-5804-ba66-02c19ae521ba)과 현재 [하루 재활 프로그램](https://infant83.github.io/sj-resurrection/board/rehabilitation/#daily-program), [인지 활동 앱](https://infant83.github.io/sj-resurrection/activities/)을 함께 연결합니다.",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-plan-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [],
+  "privacyReviewed": true
+}

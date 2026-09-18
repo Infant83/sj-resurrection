@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "timezone": "Asia/Seoul",
-  "lastUpdated": "2026-09-10",
+  "lastUpdated": "2026-09-19",
   "historyPolicy": {
     "mode": "retain-existing-commits",
     "decidedAt": "2026-08-31",
@@ -20,7 +20,7 @@
   },
   "boards": {
     "trauma": {
-      "status": "published-through-2026-09-10",
+      "status": "published-through-2026-09-18",
       "sourceThreads": [
         "중증 외상 예후 분석",
         "중증 외상 예후 분석 (phase2)",
@@ -43,15 +43,16 @@
       "sourceRequirement": "confirmed-chatgpt-shared-conversation-snapshot"
     },
     "medical": {
-      "status": "published-through-2026-09-10",
+      "status": "published-through-2026-09-18",
       "sourceThreads": [
-        "의학지식 문의"
+        "의학지식 문의",
+        "의학지식 문의 2"
       ],
       "publicationRule": "complete-public-source-messages-only",
       "sourceRequirement": "confirmed-chatgpt-shared-conversation-snapshot-with-complete-audit"
     },
     "rehabilitation": {
-      "status": "published-through-2026-08-27",
+      "status": "published-through-2026-09-19",
       "sourceThreads": [
         "재활병원 전원 계획"
       ],
@@ -65,28 +66,28 @@
   },
   "imports": [
     {
-      "id": "trauma-public-archive-2026-09-10",
+      "id": "trauma-public-archive-2026-09-18",
       "board": "trauma",
-      "throughDate": "2026-09-10",
+      "throughDate": "2026-09-18",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
       "selection": {
-        "publishedPostCount": 46,
-        "publishedMessageCount": 359,
-        "publishedUserMessageCount": 130,
-        "publishedAssistantMessageCount": 229,
-        "correctedUserMessageCount": 73,
-        "privacyRedactedMessageCount": 9,
+        "publishedPostCount": 54,
+        "publishedMessageCount": 405,
+        "publishedUserMessageCount": 145,
+        "publishedAssistantMessageCount": 260,
+        "correctedUserMessageCount": 76,
+        "privacyRedactedMessageCount": 16,
         "sourceKindCounts": {
-          "conversation-message": 358,
+          "conversation-message": 404,
           "embedded-app-report": 1
         },
         "withheldIncompleteExchangeCount": 1,
         "withheldSensitiveTurnMessageCount": 6,
-        "publishedContentSha256": "6384f981675cb9cd0047c59d24d6fdad5f0fd3a0b420555fd79e2564176ec33e"
+        "publishedContentSha256": "3f63f162f0b9e5857f8d64bd34ffe074febccf6b321bb072ea7e31307640e954"
       },
       "posts": [
         "trauma-2026-07-26-conversation",
@@ -134,7 +135,15 @@
         "trauma-2026-09-07-conversation",
         "trauma-2026-09-08-conversation",
         "trauma-2026-09-09-conversation",
-        "trauma-2026-09-10-conversation"
+        "trauma-2026-09-10-conversation",
+        "trauma-2026-09-11-conversation",
+        "trauma-2026-09-12-conversation",
+        "trauma-2026-09-13-conversation",
+        "trauma-2026-09-14-conversation",
+        "trauma-2026-09-15-conversation",
+        "trauma-2026-09-16-conversation",
+        "trauma-2026-09-17-conversation",
+        "trauma-2026-09-18-conversation"
       ]
     },
     {
@@ -185,29 +194,29 @@
       ]
     },
     {
-      "id": "medical-public-archive-2026-09-10",
+      "id": "medical-public-archive-2026-09-18",
       "board": "medical",
-      "throughDate": "2026-09-10",
+      "throughDate": "2026-09-18",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
       "selection": {
-        "publishedPostCount": 13,
-        "publishedMessageCount": 69,
-        "publishedUserMessageCount": 30,
-        "publishedAssistantMessageCount": 39,
-        "correctedUserMessageCount": 25,
-        "privacyRedactedMessageCount": 1,
+        "publishedPostCount": 17,
+        "publishedMessageCount": 92,
+        "publishedUserMessageCount": 40,
+        "publishedAssistantMessageCount": 52,
+        "correctedUserMessageCount": 30,
+        "privacyRedactedMessageCount": 4,
         "sourceKindCounts": {
-          "conversation-message": 56,
+          "conversation-message": 79,
           "embedded-app-report": 1,
           "voice-transcript": 12
         },
         "withheldSensitiveTurnMessageCount": 5,
         "excludedHiddenOrRedactedRecordCount": 12,
-        "publishedContentSha256": "1d6157cd5872059d262340c062e62f9d1b8ea14e31048c647e3c5a7d6903f52b"
+        "publishedContentSha256": "753257101c6ef8a06a92ea8185f092230558c75016f816526da70330f52d8fcd"
       },
       "posts": [
         "medical-2026-08-01-conversation",
@@ -222,34 +231,41 @@
         "medical-2026-09-05-conversation",
         "medical-2026-09-06-conversation",
         "medical-2026-09-09-conversation",
-        "medical-2026-09-10-conversation"
+        "medical-2026-09-10-conversation",
+        "medical-2026-09-15-conversation",
+        "medical-2026-09-16-conversation",
+        "medical-2026-09-17-conversation",
+        "medical-2026-09-18-conversation"
       ]
     },
     {
-      "id": "rehabilitation-public-archive-2026-08-27",
+      "id": "rehabilitation-public-archive-2026-09-19",
       "board": "rehabilitation",
-      "throughDate": "2026-08-27",
+      "throughDate": "2026-09-19",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
       "selection": {
-        "publishedPostCount": 2,
-        "publishedMessageCount": 11,
-        "publishedUserMessageCount": 3,
-        "publishedAssistantMessageCount": 8,
-        "correctedUserMessageCount": 3,
-        "privacyRedactedMessageCount": 0,
+        "publishedPostCount": 5,
+        "publishedMessageCount": 45,
+        "publishedUserMessageCount": 11,
+        "publishedAssistantMessageCount": 34,
+        "correctedUserMessageCount": 8,
+        "privacyRedactedMessageCount": 1,
         "sourceKindCounts": {
-          "conversation-message": 11
+          "conversation-message": 45
         },
         "withheldPersonalizedLinkMessageCount": 8,
-        "publishedContentSha256": "7a929534a7dcb7fcf1ec72a5954687a5cd6b876fc59a9f08185e750c608ccf74"
+        "publishedContentSha256": "b2cd6204406e25ff89becb3084a03922a8d2772067f1ff493847d86e6b553b76"
       },
       "posts": [
         "rehabilitation-2026-08-26-conversation",
-        "rehabilitation-2026-08-27-conversation"
+        "rehabilitation-2026-08-27-conversation",
+        "rehabilitation-2026-09-10-conversation",
+        "rehabilitation-2026-09-17-conversation",
+        "rehabilitation-2026-09-19-conversation"
       ]
     }
   ]

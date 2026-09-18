@@ -1,0 +1,1042 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-09-15-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 9월 15일 의학지식 문의 2",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-15",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-09-19T06:51:38.444+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학지식",
+    "보호자 질문",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 2 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-66c926c3-30eb-45e7-ac1a-9901021bc813",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-15T15:58:41.062148+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "66c926c3-30eb-45e7-ac1a-9901021bc813",
+      "sourceOrdinal": 1,
+      "turnId": "427689eb-1649-42c2-9f43-b3ae51fadb99",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "선진이가 잠이 상당히 많고 놀이나 도형, 앉아있는 자세등에 많은 피로를 느끼는 것 같아. 머리로 손을 가져가서 긁으면서 괴로운 표정을 짓기도 해. 어제 예방접종을 받아서 그런가? 아니면 뇌손상 회복기에 일어나는 일인가",
+      "originalSha256": "sha256:58ec9b3ed7ddff1f78a4a31ed7cee8662d313f642fc15e1d8e7e8b9a4cbab4db",
+      "corrected": "선진이가 잠이 상당히 많고 놀이나 도형, 앉아있는 자세 등에 많은 피로를 느끼는 것 같아. 머리로 손을 가져가서 긁으면서 괴로운 표정을 짓기도 해. 어제 예방접종을 받아서 그런가? 아니면 뇌손상 회복기에 일어나는 일인가",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-8bb456e3-f8b8-4735-9a01-bc0ca18f6a26",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-15T15:58:57.695845+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "8bb456e3-f8b8-4735-9a01-bc0ca18f6a26",
+      "sourceOrdinal": 2,
+      "turnId": "427689eb-1649-42c2-9f43-b3ae51fadb99",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "회복기 피로나 예방접종 후 반응 가능성을 함께 살펴보겠습니다. 다만 평소보다 처지거나 깨우기 어렵고 반응이 줄었다면 바로 의료진에게 알려주세요.",
+      "textSha256": "sha256:c42e6f6b014607dcd1f9dbc53929d4cd1a3cb82f685cfbc7f3500477498344b7",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-3ca2803d-3477-4fb8-9203-ff05e4c9fabd",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-15T16:02:04.201517+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "3ca2803d-3477-4fb8-9203-ff05e4c9fabd",
+      "sourceOrdinal": 3,
+      "turnId": "427689eb-1649-42c2-9f43-b3ae51fadb99",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "뇌손상 뒤에는 간단한 놀이나 자세 유지도 큰 피로를 줄 수 있습니다. 특히 머리를 만지며 괴로워하는 행동은 두통이나 통증 신호인지 확인할 필요가 있습니다.",
+      "textSha256": "sha256:6bbbb629387a9cc93daaab850c7ebc9f819aea5fa6e3cb8041e0886087aae601",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-64cd9b15-7606-444a-886a-57cf760e1b14",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-15T16:04:31.316549+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "64cd9b15-7606-444a-886a-57cf760e1b14",
+      "sourceOrdinal": 4,
+      "turnId": "427689eb-1649-42c2-9f43-b3ae51fadb99",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **뇌손상 회복기에 나타나는 피로와 졸림일 수도 있고, 어제 예방접종으로 인한 피로·두통이 더해졌을 수도 있습니다.** 두 가지가 겹치는 것도 가능합니다. 다만 **“잠이 많다”는 것과 “평소보다 깨우기 어렵고 반응이 떨어졌다”는 것은 구분해야 합니다.** 지금처럼 머리를 만지며 괴로운 표정까지 반복한다면, 접종이나 회복 과정 때문이라고만 판단하지 말고 **오늘 병동 간호사와 주치의에게 직접 확인받는 것이 좋겠습니다.** citeturn428330view1turn428330view2turn428330view3turn428330view7\n\n## 먼저, 이런 변화가 있으면 바로 간호사를 불러주세요\n\n- **평소보다 깨우기 어렵거나**, 깨어도 눈맞춤·익숙한 간단한 지시에 대한 반응이 뚜렷하게 줄어드는 경우.\n- 머리를 아파하는 듯한 행동이 점점 심해지면서 **반복 구토, 새로 생긴 경련, 기존보다 뚜렷한 한쪽 팔다리 움직임 감소, 동공 크기 차이**가 동반되는 경우. 이런 변화는 단순 피로로 넘기지 않고 즉시 평가해야 합니다. citeturn428330view7turn173079search9\n- **숨쉬기 힘들어 보이거나 산소포화도가 평소보다 떨어지는 경우, 발열과 함께 처짐이 심해지는 경우.** 특히 선진이는 비장절제 수술을 받았기 때문에, 열이 나면 “예방접종 때문이겠지” 하고 기다리지 말고 의료진에게 바로 알려야 합니다. citeturn584525view2turn428330view5\n\n여기서 비교 대상은 건강했을 때가 아니라, **최근 며칠 동안 선진이가 보였던 평소의 깨어 있는 모습과 반응**입니다.\n\n## 1. 놀이·도형·앉아 있기에 쉽게 지치는 것은 뇌손상 후에 생길 수 있습니다\n\n뇌손상 후에는 **인지 피로**, 즉 생각하고 집중하는 활동을 오래 유지하기 어려운 상태가 나타날 수 있습니다. 우리에게는 간단한 도형 맞추기라도 선진이에게는 ‘모양 보기 → 구분하기 → 선택하기 → 손으로 가리키기’를 함께 해야 하는 과제입니다. 이 과정에서 빨리 지치고, 반응이 느려지거나 졸리고, 두통·어지럼·짜증 같은 불편이 나타날 수 있습니다. citeturn428330view6\n\n**문제를 이해하거나 정답을 맞히는 능력과, 그 활동을 오래 지속하는 능력은 별개입니다.** 지난번 손가락을 따라 하고 구구단을 맞혔다고 해서 긴 시간 놀이를 견딜 준비까지 되었다고 볼 수는 없습니다. 인지 피로가 있다는 것 자체가 지적 능력이 떨어졌다는 뜻도 아닙니다. citeturn428330view4\n\n앉아 있는 자세 역시 단순히 “가만히 있는 것”은 아닙니다. 선진이에게는 몸통과 머리를 유지하는 신체 활동이고, 기존 골절 부위의 통증이 겹치는지도 살펴야 합니다. 따라서 앉을 때 괴로워한다면 **인지 피로뿐 아니라 자세 유지의 부담과 통증도 함께 평가**해 달라고 요청하는 것이 좋습니다. 뇌손상 후 피로에는 신체 활동 감소, 통증, 빈혈, 약물 같은 여러 요인이 영향을 줄 수 있습니다. citeturn428330view0turn584525view1\n\n또한 뇌손상 자체가 수면과 각성을 조절하는 기능에 영향을 주어 수면 시간이 늘어날 수도 있습니다. 그렇다고 **“잠이 많을수록 회복이 잘되는 것”이라고 해석할 수는 없습니다.** 수면량만으로 원인을 구분할 수 없고, 깨어 있을 때의 상태와 함께 보아야 합니다. citeturn428330view1\n\n## 2. 예방접종 영향도 시기상 가능합니다\n\n실제로 맞은 백신 종류는 병동 기록으로 확인해야 하지만, 최근 안내받으셨던 백신들을 기준으로 보면 **수막구균 백신은 피로·두통·근육통 등이 대개 1–3일**, **폐렴구균 백신은 졸림·두통·발열 등이 대개 1–2일** 나타날 수 있습니다. 따라서 접종 다음 날 더 피곤해 보이는 것은 가능한 반응입니다. citeturn428330view2turn428330view3\n\n다만 **접종 전부터 계속되던 심한 졸림까지 예방접종 하나로 설명할 수는 없습니다.** 접종 전후로 얼마나 달라졌는지가 중요하며, 위 기간은 *가벼운 접종 반응의 일반적인 지속 기간*이지 **반응이 떨어지는 아이를 며칠 기다려도 된다는 기준은 아닙니다.** citeturn428330view2turn428330view3turn428330view7\n\n## 3. 머리를 긁으며 괴로워하는 행동은 통증 신호로도 봐야 합니다\n\n**그 행동만으로 두통인지, 가려움인지, 다른 불편감인지 판단할 수는 없습니다.** 특히 선진이처럼 말로 충분히 표현하기 어려운 상태에서는 표정과 몸짓이 중요한 단서입니다. 의료진에게 머리 피부나 눌리는 부위를 확인하고, 쉬고 있을 때와 놀이·앉기 중의 통증 반응을 비교해 달라고 해주세요. 말로 답하기 어려운 아이도 행동과 표정을 이용해 통증을 평가할 수 있습니다. citeturn584525view1\n\n아버지가 관찰하실 때는 **어떤 활동에서 시작되는지, 같은 부위를 계속 만지는지, 활동을 멈추고 편안하게 쉬면 표정이 풀리는지**를 짧게 기록해 전달하면 좋겠습니다. 다만 쉬고 나아지는 모습을 보이더라도, 그것만으로 다른 원인을 배제할 수는 없습니다.\n\n## 오늘은 재활량을 늘리기보다, 상태를 확인하고 부담을 줄여주세요\n\n의료진에게 상태 확인을 요청하는 동안에는 **도형이나 구구단으로 반복해서 능력을 확인하려고 하지 말고**, 괴로운 표정이나 졸림이 나타나면 활동을 멈춰주세요. 재개가 괜찮다고 확인되면, 자연스럽게 깨어 있고 편안해 보일 때 익숙한 활동 하나를 짧게 하는 방식이 좋습니다. 휴식 시간에는 화면과 질문을 줄이고 실제로 쉴 수 있게 해주세요. 뇌손상 후 피로 관리는 지칠 때까지 밀어붙이기보다, 피로 신호를 알아차리고 활동과 휴식을 조절하는 것이 중요합니다. citeturn428330view0turn428330view6\n\n앉기 훈련도 괴로워하는데 시간을 채우려고 버티게 하지는 마세요. 치료사가 허용한 방법 안에서 시행하고, 통증이나 불편이 나타나면 중단한 뒤 자세와 강도를 다시 확인받으세요. citeturn584525view1turn428330view0\n\n**현재 약도 함께 확인할 필요가 있습니다.** 이전 기록에 있었던 쿠에타핀〔쿠에티아핀〕을 지금도 투여 중이라면 졸림·피로·어지럼에 영향을 줄 수 있습니다. 현재 투약 여부와 시간, 최근 변경 사항을 확인해 달라고 하되, 보호자가 임의로 중단하거나 줄이지는 마세요. citeturn584525view0\n\n병동에는 이렇게 말씀하시면 됩니다.\n\n> “선진이가 잠이 상당히 많고, 도형 놀이를 하거나 앉아 있을 때 금방 지칩니다. 머리를 긁으면서 괴로운 표정도 보여요. 어제 예방접종을 받았는데, 평소보다 의식 반응이 떨어진 건 아닌지, 통증이나 약물 영향이 있는지 확인해 주세요. 체온과 산소포화도도 같이 봐주시고, 오늘 재활은 어느 정도로 줄이면 좋을지 알려주세요.”\n\n**회복기의 피로는 충분히 가능한 설명입니다. 하지만 지금의 졸림과 괴로운 표정을 “회복에 좋은 신호”로 단정할 수는 없습니다. 오늘 한 번 직접 평가받고, 선진이가 편안하게 참여할 수 있는 만큼으로 활동을 조절하는 것이 좋겠습니다.** citeturn428330view4turn584525view1",
+      "textSha256": "sha256:974d13abf5732fa60e80beefa95a3d1042855a178d22fc577a928b27e7e4d06a",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Sleep Problems After Traumatic Brain Injury (TBI) | MSKTC",
+          "url": "https://msktc.org/tbi/factsheets/sleep-and-traumatic-brain-injury",
+          "attribution": "MSKTC"
+        },
+        {
+          "title": "Meningococcal Vaccine Safety | Vaccine Safety | CDC",
+          "url": "https://www.cdc.gov/vaccine-safety/vaccines/meningococcal.html",
+          "attribution": "CDC"
+        },
+        {
+          "title": "Pneumococcal Vaccine Safety | Vaccine Safety | CDC",
+          "url": "https://www.cdc.gov/vaccine-safety/vaccines/pneumococcal.html",
+          "attribution": "CDC"
+        },
+        {
+          "title": "Traumatic brain injury: MedlinePlus Medical Encyclopedia",
+          "url": "https://medlineplus.gov/ency/article/000799.htm",
+          "attribution": "MedlinePlus"
+        },
+        {
+          "title": "Signs and Symptoms of Concussion | HEADS UP - CDC",
+          "url": "https://www.cdc.gov/heads-up/signs-symptoms/index.html?utm_source=chatgpt.com",
+          "attribution": "CDC"
+        },
+        {
+          "title": "Tracheostomy: a guide for parents and carers | CUH",
+          "url": "https://www.cuh.nhs.uk/patient-information/tracheostomy-a-guide-for-parents-and-carers/",
+          "attribution": "Cambridge University Hospitals"
+        },
+        {
+          "title": "Splenectomy in children – Information for parents and carers | CUH",
+          "url": "https://www.cuh.nhs.uk/patient-information/splenectomy-in-children-information-for-parents-and-carers/",
+          "attribution": "Cambridge University Hospitals"
+        },
+        {
+          "title": "Brain Injury - Mental Fatigue | KidsHealth New Zealand's Trusted Voice On Children's Health",
+          "url": "https://www.kidshealth.org.nz/brain-injury-mental-fatigue",
+          "attribution": "KidsHealth"
+        },
+        {
+          "title": "Kids Health Info : Brain injury - Cognitive fatigue",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/",
+          "attribution": "Royal Children's Hospital"
+        },
+        {
+          "title": "Fatigue After Traumatic Brain Injury (TBI) | MSKTC",
+          "url": "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury",
+          "attribution": "MSKTC"
+        },
+        {
+          "title": "Nursing guidelines : Pain assessment and measurement",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Pain_assessment_and_measurement/",
+          "attribution": "Royal Children's Hospital"
+        },
+        {
+          "title": "www.nhs.uk",
+          "url": "https://www.nhs.uk/medicines/quetiapine/",
+          "attribution": "nhs.uk"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn428330view1turn428330view2turn428330view3turn428330view7",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/sleep-and-traumatic-brain-injury",
+            "https://www.cdc.gov/vaccine-safety/vaccines/meningococcal.html",
+            "https://www.cdc.gov/vaccine-safety/vaccines/pneumococcal.html",
+            "https://medlineplus.gov/ency/article/000799.htm"
+          ]
+        },
+        {
+          "marker": "citeturn428330view7turn173079search9",
+          "urls": [
+            "https://medlineplus.gov/ency/article/000799.htm",
+            "https://www.cdc.gov/heads-up/signs-symptoms/index.html?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn584525view2turn428330view5",
+          "urls": [
+            "https://www.cuh.nhs.uk/patient-information/tracheostomy-a-guide-for-parents-and-carers/",
+            "https://www.cuh.nhs.uk/patient-information/splenectomy-in-children-information-for-parents-and-carers/"
+          ]
+        },
+        {
+          "marker": "citeturn428330view6",
+          "urls": [
+            "https://www.kidshealth.org.nz/brain-injury-mental-fatigue"
+          ]
+        },
+        {
+          "marker": "citeturn428330view4",
+          "urls": [
+            "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/"
+          ]
+        },
+        {
+          "marker": "citeturn428330view0turn584525view1",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury",
+            "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Pain_assessment_and_measurement/"
+          ]
+        },
+        {
+          "marker": "citeturn428330view1",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/sleep-and-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn428330view2turn428330view3",
+          "urls": [
+            "https://www.cdc.gov/vaccine-safety/vaccines/meningococcal.html",
+            "https://www.cdc.gov/vaccine-safety/vaccines/pneumococcal.html"
+          ]
+        },
+        {
+          "marker": "citeturn428330view2turn428330view3turn428330view7",
+          "urls": [
+            "https://www.cdc.gov/vaccine-safety/vaccines/meningococcal.html",
+            "https://www.cdc.gov/vaccine-safety/vaccines/pneumococcal.html",
+            "https://medlineplus.gov/ency/article/000799.htm"
+          ]
+        },
+        {
+          "marker": "citeturn584525view1",
+          "urls": [
+            "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Pain_assessment_and_measurement/"
+          ]
+        },
+        {
+          "marker": "citeturn428330view0turn428330view6",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury",
+            "https://www.kidshealth.org.nz/brain-injury-mental-fatigue"
+          ]
+        },
+        {
+          "marker": "citeturn584525view1turn428330view0",
+          "urls": [
+            "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Pain_assessment_and_measurement/",
+            "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn584525view0",
+          "urls": [
+            "https://www.nhs.uk/medicines/quetiapine/"
+          ]
+        },
+        {
+          "marker": "citeturn428330view4turn584525view1",
+          "urls": [
+            "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/",
+            "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Pain_assessment_and_measurement/"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-b023f6c7-8948-4d28-9143-624fe29a2089",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-15T18:01:54.004512+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "b023f6c7-8948-4d28-9143-624fe29a2089",
+      "sourceOrdinal": 5,
+      "turnId": "89adae94-187d-471e-aaec-f25605130dcf",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "privacy-redacted",
+      "privacyRedactions": [
+        "attachment"
+      ],
+      "privacyNote": "첨부 원본과 연결정보는 공개하지 않습니다. 그 외 입력 텍스트는 원문대로 보존했습니다.",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "publicText": "선진이가 오줌이 나오고 난 뒤에 이렇게 굳는 것 같아. ",
+      "publicTextSha256": "sha256:3efa4959ec5ab64e9910a64a73560ba0f74a94fc185b8adc37d9f8badbced9cb"
+    },
+    {
+      "id": "message-59e241c9-fec1-4987-bb2f-373d5b32ddb7",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-15T18:02:04.581088+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "59e241c9-fec1-4987-bb2f-373d5b32ddb7",
+      "sourceOrdinal": 6,
+      "turnId": "89adae94-187d-471e-aaec-f25605130dcf",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "네. **소변이 나온 뒤 소변줄이나 소변백 안에서 침전물처럼 굳는다는 의미라면**, 지금 말씀하신 **“배출된 직후에는 소변인데 시간이 지나면서 굳거나 결정처럼 보인다”**는 관찰은 꽤 중요한 단서입니다.\n\n다만 첨부하신 파일은 제가 현재 **사진으로 정상적으로 읽을 수 있는 형식이 아니어서 외관을 직접 판독하지는 못했습니다.** 가능하면 같은 모습을 **사진으로 한 장 다시 올려주세요.** 그러면 색, 결정 형태, 혈액/점액 여부 등을 같이 보겠습니다.\n\n소변이 나온 뒤에 생기는 침전이라면 몇 가지 가능성이 있습니다.\n\n- **요중 결정(crystalluria)**: 소변이 식거나 농축되면서 요산염, 인산염 등의 결정이 석출될 수 있습니다. 특히 소변백이나 관 안에서 시간이 지나면서 더 뚜렷해질 수 있습니다.\n- **침전물·점액·세포 찌꺼기**: 유치도뇨관을 오래 사용하면 이런 물질이 관 안에 쌓일 수 있습니다.\n- **세균에 의한 결정 형성**: 일부 요로감염, 특히 urease를 만드는 균이 있으면 소변 pH가 올라가면서 magnesium ammonium phosphate(struvite)나 calcium phosphate가 침전하여 **도뇨관을 막는 encrustation**으로 발전할 수 있습니다.\n- 단순히 **소변이 마르면서 농축되어 굳은 것**이라면 체내에서 이미 결정이 만들어지고 있다는 뜻은 아닙니다.\n\n### 선진이에게 특히 확인해야 할 것\n\n최근 기록에서도 **배뇨관에 침전물이 계속 보였던 것**을 고려하면, 이번에는 간호사에게 실제 침전물을 보여주면서 다음을 확인해 달라고 하는 것이 좋겠습니다.\n\n**“소변이 나올 때부터 이런 침전물이 있는 건지, 아니면 나온 뒤 소변줄이나 백 안에서 시간이 지나면서 결정화되는 건지 확인해 주세요. 소변검사에서 pH, 혈뇨, 백혈구, nitrite, crystal을 확인할 필요가 있는지도 봐주세요. 배양검사가 필요한지도 궁금합니다.”**\n\n특히 **도뇨관 내부에서 하얗거나 모래 같은 물질이 점점 쌓이고 관이 잘 막히는 모습**이라면 의료진에게 바로 보여주세요. 소변량이 갑자기 줄거나 방광이 팽팽해지거나, 소변이 관 주위로 새거나, 혈뇨·발열이 동반되는 경우에는 **도뇨관 폐색이나 요로감염 여부를 바로 확인해야 합니다.**\n\n반대로 소변은 맑게 잘 나오고 **소변백에 들어간 뒤 한참 지나서만 침전되는 것**이라면 급성 폐색 가능성은 상대적으로 낮습니다.\n\n**사진을 다시 올려주시면**, 이전에 보여주셨던 선진이 소변 모습과 연결해서 **결정성 침전인지, 점액성 침전인지, 혈뇨성 찌꺼기에 가까운지** 외관상 구분할 수 있는 범위까지 자세히 보겠습니다. memcite",
+      "textSha256": "sha256:b3a86e391c304b625d774e3a053e040f3b792d1d73bdc836347f5f60edec7fae",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "citationMarkers": [
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-5dec7eb5-8589-4faf-8622-04e332e85902",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-15T18:03:42.545762+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "5dec7eb5-8589-4faf-8622-04e332e85902",
+      "sourceOrdinal": 7,
+      "turnId": "7da2214b-b8a9-4957-b511-f0ab2be7db6c",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "privacy-redacted",
+      "privacyRedactions": [
+        "image"
+      ],
+      "privacyNote": "첨부 사진과 원본 연결정보는 공개하지 않습니다. 그 외 입력 텍스트는 원문대로 보존했습니다.",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "publicText": "[첨부 사진 1장 비공개 — 텍스트 입력 없음]",
+      "publicTextSha256": "sha256:3da6ae03b2fef4b5f9446a3c00e0e65be00a2fe3bc20886a7471f1daecca5997"
+    },
+    {
+      "id": "message-f6b4db1b-9b6e-4eee-b3a4-f20f53fce85c",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-15T18:03:46.571784+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "f6b4db1b-9b6e-4eee-b3a4-f20f53fce85c",
+      "sourceOrdinal": 8,
+      "turnId": "7da2214b-b8a9-4957-b511-f0ab2be7db6c",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "네, 이제 사진을 보니 말씀하신 의미를 알겠습니다. **소변줄 안의 침전물이 아니라, 소변이 피부에 묻은 뒤 마르면서 피부 표면에 이런 노란색·흰색의 작은 조각/가루처럼 남는다는 말씀이시죠.**\n\n사진에서는 피부 표면에 **작은 흰색~연노란색의 불규칙한 결정/각질 같은 물질**이 여러 군데 보입니다. 주변 피부에는 심한 발적이나 출혈, 진물이 뚜렷하게 보이지는 않습니다.\n\n### 소변이 마른 뒤 생긴다면\n\n가장 먼저 생각할 수 있는 것은 **소변 속 용질이 수분 증발 후 피부에 남은 침전물**입니다. 소변에는 요소(urea), 나트륨·칼륨·염화물, 인산염, 요산염 등 여러 용질이 들어 있기 때문에 피부에 묻은 소변이 마르면 고형물이 남을 수 있습니다.\n\n특히 선진이처럼 입원 중이고 수분섭취·경관영양·수액량 등이 변하는 상황에서는 소변 농도가 달라질 수 있습니다. 따라서 **사진만 보고 이것을 요로결석이나 특정 결정뇨라고 진단할 수는 없습니다.**\n\n또 하나 가능성이 높은 것은 **소변에 의해 불었던 피부 각질이 마르면서 떨어져 나온 것**입니다. 사진에서 보이는 비교적 큰 노란 조각들은 전형적인 결정 모양이라기보다는 각질이나 피부 잔여물일 가능성도 있습니다. 실제로는 두 가지가 섞여 있을 수도 있습니다.\n\n### 한 가지 간단한 관찰이 꽤 도움이 됩니다\n\n다음번 소변을 본 직후 깨끗한 피부에서 관찰해 보세요.\n\n**소변 직후에는 아무것도 없음 → 닦지 않고 젖은 부분이 마른 후 흰색/노란색 가루가 생김**\n\n이라면 소변이 증발하면서 남는 물질일 가능성이 상당히 높아집니다.\n\n반대로 **소변이 나오는 순간부터 소변 자체에 모래 같은 알갱이나 침전물이 섞여 있는 것**이라면 이야기가 달라집니다. 그 경우에는 소변검사(urinalysis)에서 **specific gravity, pH, blood, leukocyte, nitrite와 urine crystal**을 확인하는 것이 좋습니다.\n\n### 선진이에게는 한 번 보여주는 게 좋겠습니다\n\n사진 자체만으로는 응급상황처럼 보이지 않습니다. 하지만 이전부터 소변/배뇨관의 침전물을 관찰하셨기 때문에 간호사에게 **이 사진을 그대로 보여주세요.**\n\n특히 **소변량 감소, 소변 볼 때 통증을 나타내는 행동, 혈뇨, 탁하고 악취 나는 소변, 발열, 아랫배나 옆구리 통증**이 함께 나타나면 의료진에게 바로 이야기해야 합니다.\n\n그리고 피부에 계속 소변이 닿는다면 굳은 것을 긁어내기보다는 **미지근한 물이나 젖은 거즈로 부드럽게 씻고 완전히 말린 후**, 병동에서 사용하는 피부보호제를 적용하는 편이 좋습니다.\n\n사진에서 제가 오히려 관심 있게 보는 부분은 **결정 자체보다는 피부가 전반적으로 상당히 건조하고 미세한 각질이 많이 보인다는 점**입니다. 이전에 의료진도 피부 각질을 언급했으므로, 지금 보이는 큰 노란 조각 중 일부는 **소변 잔류물 + 불어난 각질**의 조합일 가능성도 있어 보입니다. memcite",
+      "textSha256": "sha256:5b8f96fce746b2f1254b16db1815d62374a75eba3c43251a7af45b2bb9f709b6",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "citationMarkers": [
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-f3d610e2-2006-4318-8aef-a241f2c12250",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-15T18:07:54.445585+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "f3d610e2-2006-4318-8aef-a241f2c12250",
+      "sourceOrdinal": 9,
+      "turnId": "1ab9f7e4-80fd-4d2d-ae4e-dca3ddfbd99e",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "각질은 아냐. 내가 물로 닦이고 했거든. 저 물질은 내가 지난번 선진이 성기 포피 안쪽에 있는 노란느낌의 이물같은 것을 씻겼을 때 봤던거랑 비슷해 그게 마르면 저렇게 되는 것 같아. 그런데 그게 그 때는 물이 젖어있을 때에는 뭔가 부드러운 느낌이었는데. 말라서 그런가.",
+      "originalSha256": "sha256:daf7ccdad0c0cae005f27942a39abaef59093a62bf49c7fd9c92fa61464704d7",
+      "corrected": "각질은 아냐. 내가 물로 닦이고 했거든. 저 물질은 내가 지난번 선진이 성기 포피 안쪽에 있는 노란 느낌의 이물 같은 것을 씻겼을 때 봤던 거랑 비슷해 그게 마르면 저렇게 되는 것 같아. 그런데 그게 그때는 물이 젖어있을 때에는 뭔가 부드러운 느낌이었는데. 말라서 그런가.",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-22451a67-75d9-45d1-9b1a-9d708e12355d",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-15T18:07:59.080672+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "22451a67-75d9-45d1-9b1a-9d708e12355d",
+      "sourceOrdinal": 10,
+      "turnId": "1ab9f7e4-80fd-4d2d-ae4e-dca3ddfbd99e",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "네. **그 설명이라면 사진의 물질을 단순한 피부 각질로 보는 것보다는, 포피 안쪽에 있던 부드러운 황백색 물질이 씻겨 나온 뒤 피부에서 말라 굳은 것일 가능성을 먼저 생각하는 게 맞겠습니다.**\n\n가장 흔하게 생각할 수 있는 것은 **스메그마(smegma, 구지)**입니다. 포피 안쪽에서는 탈락한 상피세포와 피지성 분비물 등이 섞여 **젖어 있을 때는 희거나 연노란색의 부드럽고 크림·치즈 같은 물질**처럼 보일 수 있습니다. 밖으로 나온 뒤 수분이 증발하면 지금 사진처럼 **작고 단단한 황백색 조각이나 가루처럼** 변할 수 있습니다.\n\n특히 현중님이 관찰한 순서가 중요합니다.\n\n**포피 안쪽의 황백색이고 부드러운 물질 → 물로 씻겨 나옴 → 피부에 묻음 → 마른 후 사진처럼 황백색 작은 조각**\n\n이라면 이 설명과 상당히 잘 맞습니다. 사진만으로 물질의 성분을 확정할 수는 없지만, **소변 자체가 굳어서 생긴 결정이라는 처음 가정보다는 포피 안의 분비물/스메그마가 씻겨 나온 것이라는 설명이 더 자연스럽습니다.**\n\n다만 한 가지는 꼭 구별해야 합니다. **스메그마와 고름성 분비물**입니다. 포피 끝이나 귀두가 붉고 붓거나, 만질 때 상당히 아파하거나, 악취가 심하거나, 끈적한 노란/녹색 분비물이 계속 새어 나오거나, 배뇨할 때 아파하는 모습 또는 발열이 있다면 단순 스메그마로 생각하지 말고 **귀두포피염(balanoposthitis)이나 요로감염 여부를 의료진에게 확인**받아야 합니다.\n\n반대로 그런 염증 소견 없이 **포피 안에서만 황백색의 부드러운 물질이 조금씩 나오고 씻은 후 없어지는 정도**라면 그 자체는 스메그마일 가능성이 높습니다.\n\n그리고 **포피 안쪽을 완전히 깨끗하게 만들려고 반복적으로 벌려서 닦거나 긁어낼 필요는 없습니다.** 쉽게 노출되는 범위만 미지근한 물로 부드럽게 씻고 잘 말리는 정도가 좋습니다. 억지로 포피를 뒤로 당기거나 안쪽을 강하게 문지르면 미세한 상처와 염증을 오히려 만들 수 있습니다.\n\n선진이는 이전에 **성기 주변 색깔 변화와 불편감도 관찰됐었기 때문에**, 다음번에 그 부드러운 노란 물질이 다시 포피 안에서 보이면 **씻기 전에 간호사에게 한번 직접 보여주는 것**을 권합니다. 그러면 의료진이 실제 질감과 냄새, 귀두·포피의 발적을 함께 보고 단순 스메그마인지 분비물인지 훨씬 쉽게 판단할 수 있습니다. memcite",
+      "textSha256": "sha256:3ade5f4556b5d920bdf30c6825613b42b962a8cf737202d34114b1c811959073",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "citationMarkers": [
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-8adb0dff-ab8b-4a7b-906e-73ad106705dd",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-15T18:08:55.197711+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "8adb0dff-ab8b-4a7b-906e-73ad106705dd",
+      "sourceOrdinal": 11,
+      "turnId": "ea589e68-c221-4d95-95b7-751870be567d",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "염증은 보이지 않아. 성기 포피 안쪽에도 안보였어.",
+      "originalSha256": "sha256:bbe9b24d1c845d027a21a097274eaa4c622d43b3d47e0034d5f64ef6177cc4e5",
+      "corrected": "염증은 보이지 않아. 성기 포피 안쪽에도 안 보였어.",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-683fc91a-6dab-4838-a253-b5520a4fa5df",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-15T18:08:58.475826+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "683fc91a-6dab-4838-a253-b5520a4fa5df",
+      "sourceOrdinal": 12,
+      "turnId": "ea589e68-c221-4d95-95b7-751870be567d",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "그렇다면 **감염성 분비물의 가능성은 한층 낮아 보입니다.** 특히 포피 안쪽에 발적·부종·진물·고름이 없고, 선진이가 그 부위를 만질 때 특별히 아파하지 않는다면 급성 귀두포피염의 전형적인 모습과는 거리가 있습니다.\n\n그리고 말씀하신 관찰을 종합하면 제가 앞서 말한 **스메그마도 조금 수정해서 생각할 필요가 있습니다.** 지금은 포피 안쪽에서도 같은 물질이 보이지 않는다고 하셨으니까요.\n\n가능성이 높은 순서로 보면:\n\n1. **당시에 포피 안쪽에 일시적으로 모여 있던 스메그마/상피세포성 물질이 씻겨 나온 경우**  \n   젖었을 때에는 부드러운 황백색 덩어리였다가 마르면 사진처럼 부스러질 수 있습니다. 한번 씻겨 나간 뒤 지금 포피 안쪽이 깨끗한 것도 이상하지 않습니다.\n\n2. **소변과 함께 나온 점액·세포성 침전물이 마른 경우**  \n   특히 도뇨관을 사용하고 있다면 소량의 점액이나 세포성 debris가 존재할 수 있습니다. 이것 역시 젖어 있을 때는 말랑하고 마르면 딱딱한 황백색 조각처럼 될 수 있습니다.\n\n3. **소변의 결정성 침전물**  \n   가능성은 남아 있지만, 현중님이 표현한 **“젖었을 때 부드러운 물질”**이라는 특징은 전형적인 모래 같은 결정보다는 유기물성 물질에 좀 더 잘 맞습니다.\n\n지금 사진과 설명만으로는 **위험한 이상 소견이라는 증거는 없습니다.** 오히려 다음에 다시 나타났을 때가 원인을 구분하기 가장 좋은 기회입니다. **씻어내기 전에 사진을 찍고**, 가능하면 “소변이 나오기 전에는 없음 → 소변 직후 나타남 → 젖었을 때의 모습 → 마른 뒤의 모습”을 비교해 주세요.\n\n특히 **소변이 나오는 순간 요도구에서 이 황백색 물질이 같이 나오는 것이 확인된다면** 그건 중요한 정보입니다. 그 경우에는 단순 스메그마보다는 요로에서 나온 sediment/debris인지 확인해야 하므로 간호사에게 보여주고 **일반 소변검사와 urine microscopy(침사검사)**가 필요한지 물어보는 게 좋겠습니다.\n\n반대로 포피 아래에서만 가끔 나오고 소변 자체는 맑으며, 발적·통증·악취·발열도 없다면 훨씬 덜 걱정스러운 상황입니다.\n\n**다음번에는 바로 씻지 말고 젖어 있는 상태를 사진으로 한번 보여주세요.** 지금의 마른 사진과 비교하면 무엇에 가까운지 판단하는 데 훨씬 도움이 됩니다.",
+      "textSha256": "sha256:9903d18d673a6377ce695f45ed7d30899c2fa56d40f7a99d43a6fb2655dcec3c",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-5ece0255-a36c-448a-8cb5-c0eabf2f2d3e",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-15T22:20:52.126080+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "5ece0255-a36c-448a-8cb5-c0eabf2f2d3e",
+      "sourceOrdinal": 13,
+      "turnId": "f36d941d-2650-466a-9f9a-4cfb92cba8dc",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "국냐 csr-r 프둥위 의식평가와 뇌손상환자 재활이 가능한 병원을 알아봐줘",
+      "originalSha256": "sha256:21ca1ffce43947994f6061a09444698291f5e0df124e7a1fcc32d3d10c579092",
+      "corrected": "국내 csr-r 프둥위 의식평가와 뇌손상환자 재활이 가능한 병원을 알아봐줘",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-cd584f3b-d283-4747-a749-dd69bdd6b587",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-15T22:21:02.790367+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "cd584f3b-d283-4747-a749-dd69bdd6b587",
+      "sourceOrdinal": 14,
+      "turnId": "f36d941d-2650-466a-9f9a-4cfb92cba8dc",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "map\n\n네. **선진이처럼 중학생 연령의 중증 외상성 뇌손상(Traumatic Brain Injury, TBI) 후 의식이 회복되는 단계**라면, 단순히 “재활을 많이 해주는 병원”보다 다음 두 가지를 모두 할 수 있는 곳을 찾아야 합니다.\n\n1. **Coma Recovery Scale–Revised (CRS-R), 가능하면 Korean CRS-R (K-CRS-R)**를 이용해 UWS/MCS/MCS+/emergence를 반복적으로 평가할 역량\n2. 그 결과에 따라 **소아·청소년 후천성 뇌손상 집중재활**—물리·작업·인지·언어·연하·기립/보행—을 입원 상태에서 시행할 역량\n\nK-CRS-R 자체는 국내에서 정식 번역·검증되어 있고, 중증 뇌손상 환자의 **최소의식상태(Minimally Conscious State, MCS)와 무반응각성증후군(UWS)을 구별**하는 데 사용할 수 있습니다. citeturn0search2turn0search8\n\n제가 현재 국내 자료를 다시 찾아보니, **선진이에게 우선 연락할 병원은 다음 순서로 압축하는 것이 좋겠습니다.**\n\n| 우선순위 | 기관 | CRS-R 근거 | 소아 TBI 집중재활 | 선진이 적합성 |\n|---|---|---|---|---|\n| **1** | 국립재활원 | 의식장애/뇌손상 전문역량 확인 필요 | **매우 강함** | **★★★★★** |\n| **2** | 국립교통재활병원 | **K-CRS-R 기반 DOC 연구를 실제 수행** | 중증 외상·뇌손상 매우 강함 | **★★★★★** |\n| **3** | 세브란스 재활병원 | 대학병원 뇌손상 재활 | 소아/청소년 포함 전문재활 | **★★★★☆** |\n| **4** | 인하대병원 재활의학과 | **K-CRS-R 국내 검증 연구 중심기관** | 대학병원 뇌손상 재활 | **★★★★☆** |\n| **5** | 서울재활병원 | 회복기 집중재활 강점 | 소아재활 강점 | **★★★★☆** |\n| 보완후보 | 푸르메재단 넥슨어린이재활병원 | CRS-R 여부 직접 확인 필요 | **소아재활 특화** | ★★★★☆ |\n\n### 1순위로 알아볼 곳: 국립재활원\n\nentity[\"turn0business0\",\"국립재활원\"]\nentity_metadata[\"turn0business0\",\"two-lines\",\"국립재활원\"]\n\n선진이에게 상당히 잘 맞는 후보입니다. 공식적으로 **외상성 뇌손상 아동을 소아재활 대상으로 명시**하고 있으며, 소아 **입원병실**도 운영합니다. 물리치료·작업치료·언어치료뿐 아니라 **인지·심리치료, 전산화 인지재활, 연하재활, 자세평가, 로봇재활**까지 가능합니다. citeturn1search0turn1search7\n\n특히 현재 선진이에게 필요한 **앉기, 몸통조절, 상하지 운동, 손기능, 시지각, 인지, 연하**를 한 기관에서 묶어 진행할 수 있다는 장점이 큽니다. 뇌손상 자체에 대해서도 별도의 뇌신경재활 프로그램을 운영합니다. citeturn1search4\n\n다만 제가 공개 자료에서 **“소아 입원환자에게 K-CRS-R을 정규적으로 시행한다”는 문구까지는 확인하지 못했습니다.** 따라서 이것은 전화할 때 반드시 물어봐야 합니다.\n\n### 의식평가를 특히 중시한다면: 국립교통재활병원\n\nentity[\"turn0business13\",\"국립교통재활병원\"]\nentity_metadata[\"turn0business13\",\"two-lines\",\"국립교통재활병원\"]\n\n여기는 매우 흥미로운 후보입니다.\n\n국립교통재활병원 연구진은 **Prolonged Disorders of Consciousness (pDOC)** 환자를 대상으로 K-CRS-R을 primary outcome으로 사용하면서, 정량 EEG와 개인화된 경두개직류자극(tDCS)을 병행하는 연구를 수행했습니다. 즉 **CRS-R이라는 이름만 아는 수준이 아니라 실제 의식장애 환자의 평가와 치료 연구에 사용하고 있는 기관**이라는 객관적인 근거가 있습니다. citeturn1search11\n\n선진이는 **7층 추락에 의한 중증 외상성 뇌손상**이라는 점에서도 이 병원의 교통·외상 후 뇌손상 재활 전문성과 잘 맞습니다.\n\n다만 중요한 문제가 하나 있습니다. **중학생 환자를 현재 입원 재활로 받아주는지, 기관절개관을 유지한 상태에서도 가능한지**를 직접 확인해야 합니다.\n\n### CRS-R 자체의 국내 전문성을 따진다면: 인하대병원·고려대 안암\n\nK-CRS-R을 국내에서 검증한 연구는 **인하대학교병원 재활의학과와 고려대학교 안암병원 재활의학과 연구진**이 수행했습니다. 중증 TBI·뇌졸중·저산소성 뇌손상 환자를 대상으로 두 명의 재활의학과 의사가 독립적으로 K-CRS-R을 평가했고, 검사자 간 신뢰도 κ=0.929, 검사자 내 신뢰도 κ=0.938이라는 높은 결과를 얻었습니다. citeturn0search2turn0search5\n\nentity[\"turn0business11\",\"고려대학교 안암병원\"]\nentity_metadata[\"turn0business11\",\"two-lines\",\"고려대학교 안암병원\"]\n\n따라서 **“선진이의 현재 의식수준을 정확하게 CRS-R로 다시 진단하고 싶다”**는 목적이라면 이 연구계열의 대학병원 재활의학과도 가치가 큽니다.\n\n다만 이것과 **몇 달간 집중 입원재활을 제공할 수 있느냐는 별개의 문제**입니다. 그래서 저는 평가와 장기 재활을 반드시 같은 병원에서 해결하려고 할 필요는 없다고 봅니다.\n\n### 세브란스 재활병원\n\nentity[\"turn0business2\",\"연세대학교 세브란스 재활병원\"]\nentity_metadata[\"turn0business2\",\"two-lines\",\"연세대학교 세브란스 재활병원\"]\n\n대학병원급에서 신경계·소아 재활을 함께 검토할 수 있는 후보입니다. 특히 선진이처럼 **뇌손상 외에도 골반·쇄골·손목 골절, 기관절개, 연하, 인지, 운동 문제가 동시에 존재하는 복합 환자**에게는 상급종합병원 재활의학과의 장점이 있습니다.\n\n다만 이번 검색에서 **세브란스가 CRS-R을 정규 임상평가로 시행한다고 명시한 공식 자료는 확인하지 못했습니다.** 이것도 전원 문의 시 직접 확인하는 것이 필요합니다.\n\n### 집중재활 관점에서는 서울재활병원도 여전히 좋은 후보입니다\n\n서울재활병원은 보건복지부 회복기 재활의료기관으로서 **뇌손상 환자가 발병 3개월 이내 입원하면 최대 6개월의 회복기 집중재활**을 받을 수 있다고 안내하고 있습니다. citeturn1search9\n\n다만 CRS-R을 명시적으로 시행한다는 공개 근거는 이번 검색에서 확인되지 않았습니다.\n\n그리고 기존에 검토했던 entity[\"turn0business7\",\"푸르메재단 넥슨어린이재활병원\"]은 **소아재활이라는 점에서는 매우 매력적**이지만, 현재 선진이에게 중요한 것은 단순 발달재활이 아니라 **중증 후천성 뇌손상 + 의식장애 + 기관절개 + 집중 입원재활**이므로 이 조건들을 모두 받을 수 있는지를 먼저 확인해야 합니다.\n\n---\n\n## 선진이의 경우 제가 추천하는 전원 전략\n\n지금은 **“CRS-R 가능한 병원” 하나만 찾는 것보다 두 트랙으로 동시에 진행하는 게 좋겠습니다.**\n\n**A. 의식상태의 정밀평가:** K-CRS-R을 한 번 하는 데 그치지 않고 **여러 날 반복 측정**해서 선진이가 현재 MCS인지, MCS+인지, MCS에서 벗어나는 단계인지 객관적으로 기록합니다. CRS-R은 청소년에서도 사용할 수 있으며, 23개 항목을 청각·시각·운동·구강운동/언어·의사소통·각성 영역으로 평가합니다. citeturn0search7\n\n**B. 동시에 집중재활 전원:** 의식평가 결과와 관계없이 소아 TBI 집중재활을 바로 이어갑니다. 현재 선진이가 보이는 **가족에 대한 미소와 정서반응, 손가락 모방, 화면에서 답 선택, 간단한 지시 수행, 목적성 있는 터치** 같은 행동은 단순 GCS 총점보다 CRS-R의 각 하위항목으로 구조화해서 기록하는 것이 훨씬 유용합니다.\n\n제가 현재 자료를 기준으로 **실제로 내일 전원협력센터에 넣을 우선순위**를 정한다면,\n\n**국립재활원 → 국립교통재활병원 → 세브란스 재활병원 / 인하대병원 → 서울재활병원 → 푸르메재단 넥슨어린이재활병원**\n\n순으로 **동시에 여러 곳에 문의**하겠습니다. 한 곳의 답을 기다렸다가 다음 병원에 연락하는 방식은 지금 시기에는 권하지 않습니다.\n\n그리고 문의할 때 단순히 “입원 가능합니까?”라고 하지 말고 다음 내용을 그대로 전달하는 게 중요합니다.\n\n> **“중학교 2학년 남아, 중증 외상성 뇌손상 및 diffuse axonal injury 이후 의식회복 단계입니다. 현재 간단한 명령 수행과 목적성 있는 선택 반응이 관찰됩니다. K-CRS-R 또는 CRS-R을 이용한 반복적인 의식수준 평가가 가능한지, 소아·청소년 후천성 뇌손상 집중 입원재활이 가능한지 확인하고 싶습니다. 기관절개관이 남아 있고 NG feeding 중인데 입원이 가능한지도 확인 부탁드립니다.”**\n\n**여기에 한 가지 더 반드시 물어보세요.**\n\n> **“CRS-R을 한 번 평가하는 것이 아니라 입원 중 serial CRS-R로 추적할 수 있습니까?”**\n\n이게 중요합니다. 선진이처럼 **각성도와 피로에 따라 수행능력이 상당히 달라질 수 있는 환자**는 한 번의 검사보다 반복평가가 훨씬 가치가 있습니다.\n\n원하시면 제가 다음 단계로 **국립재활원·국립교통재활병원·세브란스·인하대·서울재활병원·푸르메를 하나씩 더 깊게 조사해서 `① 중학생 입원 가능 ② CRS-R ③ 기관절개관 ④ NG feeding ⑤ CRE 격리 ⑥ 하루 재활시간 ⑦ 인지/언어/연하 ⑧ 보호자 간병 ⑨ 현재 병상/전원절차`까지 전원 체크리스트 형태로 비교**해드리겠습니다. 이 정도까지 확인하면 실제로 어디부터 전원 의뢰서를 넣을지 상당히 명확해질 겁니다. memcite",
+      "textSha256": "sha256:ddc936adbaa102e749c3275a11a90a77ec5cd7b3dfb9a1e0dc2f2d47569af225",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Validation of Korean Version of Coma Recovery Scale-Revised (K-CRSR) - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6129706/?utm_source=chatgpt.com",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "Validation of Korean Version of Coma Recovery Scale-Revised (K-CRSR)",
+          "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002377312&utm_source=chatgpt.com",
+          "attribution": "KCI"
+        },
+        {
+          "title": "과소개 < 재활의학과(소아재활) < 진료과/의료진 < 진료안내 | 국립재활원 재활병원",
+          "url": "https://www.nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_04_04_01&utm_source=chatgpt.com",
+          "attribution": "국립재활원"
+        },
+        {
+          "title": "소아 < 로봇재활 < 재활 치료 < 전문재활 | 국립재활원 재활병원",
+          "url": "https://www.nrc.go.kr/hospital/html/content.do?depth=pr&menu_cd=02_05_06_02&utm_source=chatgpt.com",
+          "attribution": "국립재활원"
+        },
+        {
+          "title": "과소개 < 재활의학과(뇌신경재활) < 진료과/의료진 < 진료안내 | 국립재활원 재활병원",
+          "url": "https://www.nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_04_03_01&utm_source=chatgpt.com",
+          "attribution": "국립재활원"
+        },
+        {
+          "title": "Safety and therapeutic effects of personalized transcranial direct current stimulation based on electrical field simulation for prolonged disorders of consciousness: study protocol for a multi-center, double-blind, randomized controlled trial > 임상연구 | 국립교통재활병원 교통재활연구소",
+          "url": "https://ntrri.org/bbs/board.php?bo_table=sub1_1_a&wr_id=151&utm_source=chatgpt.com",
+          "attribution": "NTRRI"
+        },
+        {
+          "title": "Validation of Korean Version of Coma Recovery Scale-Revised (K-CRSR).",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30180522/?utm_source=chatgpt.com",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "서울재활병원",
+          "url": "https://www.seoulrh.com/service/page09.html?utm_source=chatgpt.com",
+          "attribution": "Seoul Riding House"
+        },
+        {
+          "title": "Coma Recovery Scale - Revised | RehabMeasures Database",
+          "url": "https://www.sralab.org/rehabilitation-measures/coma-recovery-scale-revised?utm_source=chatgpt.com",
+          "attribution": "Shirley Ryan AbilityLab"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn0search2turn0search8",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6129706/?utm_source=chatgpt.com",
+            "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002377312&utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn1search0turn1search7",
+          "urls": [
+            "https://www.nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_04_04_01&utm_source=chatgpt.com",
+            "https://www.nrc.go.kr/hospital/html/content.do?depth=pr&menu_cd=02_05_06_02&utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn1search4",
+          "urls": [
+            "https://www.nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_04_03_01&utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn1search11",
+          "urls": [
+            "https://ntrri.org/bbs/board.php?bo_table=sub1_1_a&wr_id=151&utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search2turn0search5",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6129706/?utm_source=chatgpt.com",
+            "https://pubmed.ncbi.nlm.nih.gov/30180522/?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn1search9",
+          "urls": [
+            "https://www.seoulrh.com/service/page09.html?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search7",
+          "urls": [
+            "https://www.sralab.org/rehabilitation-measures/coma-recovery-scale-revised?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-7b5c3a21-e45c-46c5-8a70-572e874345e1",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-15T22:33:51.931345+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "7b5c3a21-e45c-46c5-8a70-572e874345e1",
+      "sourceOrdinal": 15,
+      "turnId": "9a811f90-5f6e-4b22-8bd8-7875a791ab76",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "조사해줘",
+      "originalSha256": "sha256:3ea19bddaceaca97ab85a727a2ae58bbad329d8cf0014c48cf8589f3ad499782"
+    },
+    {
+      "id": "message-59aae4e1-eeeb-4124-9d56-9dfda551e3da",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-15T22:34:08.947482+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "59aae4e1-eeeb-4124-9d56-9dfda551e3da",
+      "sourceOrdinal": 16,
+      "turnId": "9a811f90-5f6e-4b22-8bd8-7875a791ab76",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "map\n\n네. 이번에는 **선진이의 현재 조건을 기준으로 실제 전원 후보를 다시 조사**했습니다. 결론부터 말하면, **지금 가장 먼저 전원의뢰를 넣어볼 곳은 국립재활원과 국립교통재활병원**입니다. 다만 두 기관의 장점이 조금 다릅니다.\n\n중요한 점도 하나 발견했습니다. 국내 K-CRS-R 검증 논문은 **18세 미만을 제외한 성인 연구**였습니다. 따라서 “K-CRS-R이 국내에서 검증되었다”와 “중2 환자에게 해당 병원이 serial K-CRS-R을 정규 시행한다”는 별개의 문제입니다. 후자는 병원에 직접 확인해야 합니다. citeturn1search4turn1search2\n\n## 선진이 기준 우선순위\n\n| 순위 | 병원 | 청소년 TBI | 의식장애/CRS-R | 집중 입원재활 | 기관절개·NG | CRE | 제 판단 |\n|---|---|---|---|---|---|---|---|\n| **1** | 국립재활원 | **명시적 대상** | 확인 필요 | **매우 강함** | 개별 심사 | **균배양 결과 요구** | **최우선** |\n| **2** | 국립교통재활병원 | **소아·청소년 프로그램** | **인지/의식장애 전문의 있음** | **매우 강함** | 개별 심사 | 확인 필요 | **최우선** |\n| 3 | 세브란스 재활병원 | 가능 | 확인 필요 | 강함 | 대학병원이라 유리 | 확인 필요 | 복합 의료문제 시 유리 |\n| 4 | 서울재활병원 | 소아재활 강점 | 확인 필요 | 강함 | 반드시 확인 | 확인 필요 | 회복기 재활 후보 |\n| 5 | 푸르메 넥슨어린이재활병원 | **소아 특화** | 확인 필요 | 소아재활 강함 | 반드시 확인 | 확인 필요 | 의료적 안정 후 후보 |\n| 별도 평가 | 인하대병원 | 소아 입원재활 별도 확인 | **K-CRS-R 개발·검증기관** | 장기재활보다는 평가 가치 | 대학병원 | 가능성 높음 | CRS-R 자문 후보 |\n\n---\n\n# 1. entity[\"turn0business0\",\"국립재활원\"] — 현재로서는 가장 먼저 의뢰\nentity_metadata[\"turn0business0\",\"two-lines\",\"국립재활원\"]\n\n이곳은 공식적으로 소아재활 대상에 **외상성 뇌손상(TBI)**을 명시하고 있고, 소아 환자를 위한 **24시간 입원병실**을 운영합니다. citeturn0search9\n\n더 중요한 것은 회복기 재활의료기관 기준으로 **외상성·비외상성 뇌손상은 발병/수술 후 90일 이내 입원하여 최대 180일의 적용기간**을 두고 있다는 점입니다. 인지·언어·연하·상하지·보행 집중재활도 공식 프로그램에 포함되어 있습니다. citeturn1search6\n\n선진이는 이 시간창에 들어가므로 **지금 전원 신청을 서두르는 것이 의미가 큽니다.**\n\n### 특히 중요한 발견: CRE\n\n국립재활원 입원 준비서류에 **“최근 소변(미생물) 검사 결과지”**가 명시되어 있고, 회복기 입원진료에도 소변 균배양검사 결과를 요구합니다. citeturn1search3turn1search6\n\n이것은 국립재활원이 감염 상태를 입원심사에서 실제로 확인한다는 뜻입니다. 별도의 감염관리실도 운영합니다. citeturn1search1\n\n다만 공개 자료만으로는 **CRE 보균자를 받아준다/받지 않는다**고 확정할 수 없습니다. CRE 검출 부위와 최근 배양 결과, 격리병실 상황에 따라 판단할 가능성이 높기 때문에 **전원 의뢰서에 처음부터 CRE를 명시해야 합니다.**\n\n### 기관절개관과 NG tube\n\n공식 페이지에서 기관절개관 또는 NG tube가 있으면 입원이 불가능하다는 규정은 찾지 못했습니다. 그렇다고 입원 가능하다고 확정할 수도 없습니다.\n\n선진이의 경우 이것은 반드시 **의료진 간 전원심사**로 확인해야 합니다.\n\n입원 초진 예약은 **02-901-1705 / 1706**, 대표전화는 **02-901-1700**입니다. 준비자료는 진료의뢰서·소견서·CT/MRI 영상이며, 최근 소변 미생물 검사 결과도 준비하는 것이 좋습니다. citeturn1search3turn1search13\n\nurl국립재활원 소아재활 안내https://www.nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_04_04_01\n\n---\n\n# 2. entity[\"turn0business5\",\"국립교통재활병원\"] — 의식장애 전문성 때문에 매우 매력적\nentity_metadata[\"turn0business5\",\"two-lines\",\"국립교통재활병원\"]\n\n이번에 다시 조사하면서 **선진이에게 이 병원의 우선순위를 상당히 높게 평가하게 됐습니다.**\n\n공식적으로 진료과가\n\n**뇌손상재활 + 소아재활**\n\n로 나뉘어 있고, 소아치료 프로그램은 명시적으로 **“소아·청소년 환자”**를 대상으로 합니다. 1:1 물리치료와 자세조절·균형·보행훈련도 제공합니다. citeturn0search5\n\n그리고 결정적인 부분이 있습니다.\n\n현재 뇌손상재활 의료진의 전문분야에 공식적으로\n\n> **외상성 뇌손상, 뇌졸중, 뇌손상 후 뇌전증, 인지/의식장애**\n\n가 명시되어 있습니다. citeturn0search2turn0search3\n\n즉 선진이에게 필요한 **TBI + DAI + consciousness disorder + rehabilitation**을 직접 진료영역으로 갖는 병원입니다.\n\n또 서울대학교병원이 위탁운영하고 있고, 뇌손상·소아재활을 각각 전문분과로 운영하며 1:1 집중재활과 multidisciplinary team 접근을 시행합니다. citeturn0search4\n\n### 단점\n\n양평입니다. 의정부에서 국립재활원보다 이동 부담이 큽니다.\n\n그리고 공개 자료에서는 다음을 확정하지 못했습니다.\n\n**CRS-R을 현재 소아 환자에게 serial하게 시행하는가 / 기관절개관을 받아주는가 / NG feeding 환자를 받아주는가 / CRE 격리 환자를 받을 수 있는가.**\n\n이 네 가지는 직접 심사가 필요합니다.\n\n전원은 현재 병원의 **진료협력센터를 통해 국립교통재활병원 진료협력파트로 직접 의뢰할 수 있습니다.** 이것은 병원 공식 안내에도 명시되어 있습니다. citeturn0search6\n\n대표전화는 **031-580-5555**입니다.\n\nurl국립교통재활병원turn0search2\n\n### 저는 이 병원에 이렇게 질문하겠습니다\n\n> “중학교 2학년 남아이고 중증 외상성 뇌손상 및 diffuse axonal injury 후 의식회복 단계입니다. 간단한 명령수행과 목적성 있는 선택반응이 있습니다. 뇌손상재활과 소아재활을 함께 받을 수 있습니까?”\n\n그리고 바로 이어서\n\n> “CRS-R 또는 K-CRS-R을 이용하여 disorders of consciousness를 반복 평가할 수 있습니까?”\n\n라고 물어보겠습니다.\n\n---\n\n# 3. entity[\"turn0business1\",\"연세대학교 세브란스 재활병원\"]\nentity_metadata[\"turn0business1\",\"two-lines\",\"연세대학교 세브란스 재활병원\"]\n\n여기는 선진이에게 **backup 이상의 가치**가 있습니다.\n\n이유는 재활만 필요한 환자가 아니기 때문입니다. 선진이는 TBI뿐 아니라 기관절개관, NG feeding, 골절 회복, 감염관리 등 여러 의료문제가 동시에 있습니다.\n\n따라서 재활병원 단독으로 감당하기 어려운 문제가 생긴다면 **상급종합병원 안에 있는 재활병원**이라는 것이 큰 장점입니다.\n\n재활병원 입원 원무 연락처가 별도로 운영됩니다.\n\n**외래접수 02-2228-3740/3744  \n입원수속 02-2228-3764/3766** citeturn0search1\n\n다만 공개 자료에서 **소아 acquired TBI + serial CRS-R + 장기 집중재활**이라는 조합을 명확하게 확인하지 못했습니다.\n\n따라서 여기는 현재 성모병원 재활의학과에서 **세브란스 소아재활/뇌손상재활로 직접 전원 문의**를 넣는 것이 효율적입니다.\n\n---\n\n# 4. entity[\"turn0business2\",\"서울재활병원\"]\nentity_metadata[\"turn0business2\",\"two-lines\",\"서울재활병원\"]\n\n서울재활병원은 은평에 있기 때문에 **의정부에서 장기간 보호자가 다니기에는 상당한 장점**이 있습니다.\n\n소아재활과 회복기 집중재활이라는 측면에서는 좋은 후보입니다.\n\n다만 이번 조사에서 제가 가장 중요하게 본\n\n**중증 의식장애 청소년 + serial CRS-R + tracheostomy + NG feeding + CRE**\n\n조합에 대해 공식적으로 확인할 수 있는 자료가 부족했습니다.\n\n따라서 **CRS-R을 실제로 반복 시행하는지부터 확인**해야 합니다.\n\n대표전화는 **02-6020-3000**입니다.\n\n---\n\n# 5. entity[\"turn0business3\",\"푸르메재단 넥슨어린이재활병원\"]\nentity_metadata[\"turn0business3\",\"two-lines\",\"푸르메재단 넥슨어린이재활병원\"]\n\n소아재활이라는 점만 놓고 보면 매우 좋은 기관입니다.\n\n하지만 **지금 선진이에게 필요한 것은 일반적인 소아 신경재활과 조금 다릅니다.**\n\n현재 핵심은\n\n**severe acquired brain injury → disorder of consciousness → consciousness emergence → intensive neurorehabilitation**\n\n이기 때문입니다.\n\n그래서 지금 단계에서는 국립재활원이나 국립교통재활병원을 먼저 보고, 기관절개관 제거·연하 개선·의식수준 향상 등으로 medical complexity가 떨어진 이후에는 푸르메의 장점이 훨씬 커질 수 있다고 봅니다.\n\n대표전화 **02-6070-9000**입니다.\n\n---\n\n# K-CRS-R 전문성을 별도로 이용하는 방법\n\n여기서 꽤 좋은 전략이 하나 있습니다.\n\n국내 K-CRS-R validation 연구는 **인하대학교 의과대학 재활의학과와 고려대학교 안암병원 재활의학과**에서 이루어졌습니다. 검사자 간 κ=0.929, 검사자 내 κ=0.938로 높은 신뢰도를 확인했습니다. citeturn1search2turn1search4\n\n따라서 장기 입원재활을 이곳에서 하지 않더라도,\n\n**“현재 선진이의 의식수준을 CRS-R 전문가에게 정식 평가받고 싶다.”**\n\n는 목적으로 대학병원 자문을 받는 방법도 있습니다.\n\n다만 이 연구 자체는 **18세 미만 환자를 제외**했습니다. citeturn1search4\n\n따라서 중2인 선진이에게 K-CRS-R을 어떻게 적용하고 해석할지는 **소아재활 전문의 판단이 필요합니다.**\n\n---\n\n# 선진이에게는 이 순서로 움직이는 것을 권합니다\n\n현재 성모병원에서 이미 진료협력센터 전원을 알아보고 있으므로, **한 병원씩 기다리지 말고 동시에 의뢰**하는 것이 좋겠습니다.\n\n1. **국립재활원 소아재활**\n2. **국립교통재활병원 뇌손상재활 + 소아재활**\n3. **세브란스 재활병원**\n4. **서울재활병원**\n5. **푸르메 넥슨어린이재활병원**\n\n그리고 의뢰서에는 단순히 **“재활치료 필요”**라고 쓰는 것보다 현재 회복상태를 구체적으로 넣는 것이 중요합니다.\n\n> **14세 남아. Severe traumatic brain injury with diffuse axonal injury following fall. Recovering disorder of consciousness. Shows reproducible visual fixation/tracking, emotional response to family, simple command following, finger imitation and purposeful touchscreen selection. Requires formal consciousness assessment including CRS-R if applicable and intensive pediatric acquired brain injury rehabilitation. Currently with tracheostomy and NG feeding. CRE colonization/history present.**\n\n여기에 **최근 MRI, 수술기록, 현재 약물, 최근 CBC/CRP/LFT, CRE 배양검사 결과, 기관절개관 종류 및 산소 필요 여부, suction 횟수, NG feeding 상태, 현재 PT/OT/ST 평가**를 붙이는 게 좋겠습니다.\n\n특히 국립재활원은 공식적으로 **최근 소변 균배양검사 결과**를 요구하므로 CRE 관련 최신 결과를 준비해 두는 것이 중요합니다. citeturn1search3turn1search6\n\n## 내일 진료협력센터에는 이렇게 요청하세요\n\n> **“국립재활원과 국립교통재활병원 두 곳에는 우선 동시에 전원 의뢰를 넣어주세요. 선진이가 소아 외상성 뇌손상이고 의식회복 단계라서, 단순 운동재활보다 CRS-R 같은 구조화된 의식평가와 뇌손상 집중재활이 가능한지가 중요합니다. 기관절개관, NG tube, CRE 때문에 입원이 가능한지도 함께 확인해주세요. 세브란스 재활병원과 서울재활병원도 병행해서 알아봐 주세요.”**\n\n### 현재 제 1·2 선택\n\n**국립재활원**은 **소아 TBI + 입원 집중재활 + 회복기 180일 + 인지/연하/언어재활**이라는 조건이 명확해서 가장 안정적인 1차 선택입니다. citeturn0search9turn1search6\n\n반면 **국립교통재활병원은 “외상성 뇌손상 + 인지/의식장애”를 전문분야로 명시한 뇌손상재활팀과 소아·청소년 재활팀이 동시에 있다는 점**에서 선진이의 현재 신경학적 상태에는 매우 매력적입니다. citeturn0search2turn0search5\n\n따라서 저는 **둘 중 하나를 미리 포기하지 않고 두 곳 모두 심사를 넣겠습니다.** 실제로 `중2 + 기관절개관 + NG + CRE`를 받아줄 수 있는지가 최종 선택을 크게 좌우합니다.\n\n그리고 **CRS-R을 실제로 하는지 여부는 웹페이지에 적혀 있지 않은 병원이 많아서 전화 확인이 필요합니다.** 이 부분은 제가 추측해서 “가능”이라고 표시하지 않았습니다. 병원에서 답변을 받으시면 내용을 그대로 알려주세요. 제가 그 결과와 선진이의 현재 상태를 놓고 **어느 병원이 신경학적 회복에 가장 유리한지 최종 비교**해드리겠습니다. memcite",
+      "textSha256": "sha256:dd0496751340eb4e33dc49e3005c345f189065118a0a0ee1577f1ffe9a609af4",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Validation of Korean Version of Coma Recovery Scale-Revised (K-CRSR) - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6129706/?utm_source=chatgpt.com",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "Validation of Korean Version of Coma Recovery Scale-Revised (K-CRSR)",
+          "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002377312&utm_source=chatgpt.com",
+          "attribution": "KCI"
+        },
+        {
+          "title": "과소개 < 재활의학과(소아재활) < 진료과/의료진 < 진료안내 | 국립재활원 재활병원",
+          "url": "https://www.nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_04_04_01&utm_source=chatgpt.com",
+          "attribution": "국립재활원"
+        },
+        {
+          "title": "재활의료기관 지정사업 < 재활사업 | 국립재활원 재활병원",
+          "url": "https://nrc.go.kr/hospital/html/content.do?depth=rb&menu_cd=03_05&utm_source=chatgpt.com",
+          "attribution": "국립재활원"
+        },
+        {
+          "title": "입원 < 입원 및 입원생활안내 < 입퇴원안내 < 진료안내 | 국립재활원 재활병원",
+          "url": "https://nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_05_02_01&utm_source=chatgpt.com",
+          "attribution": "국립재활원"
+        },
+        {
+          "title": "감염관리실 < 진료지원 < 전문재활 | 국립재활원 재활병원",
+          "url": "https://www.nrc.go.kr/hospital/html/content.do?depth=pr&menu_cd=02_04_06&utm_source=chatgpt.com",
+          "attribution": "국립재활원"
+        },
+        {
+          "title": "국립재활원",
+          "url": "https://www.nrc.go.kr/hospital/board/boardView.do%3Bjsessionid%3DTJNHH30hL9ENlw7zhQSE90HqxpaP4aoEDs7oRG3ss1xcWN83VllHXcc9ICIEqZwH.mohwwas2_servlet_engine30?bn=qnaView&fno=7&menu_cd=01_13_00_03&no=7005&pageIndex=1&part_no=1&tab_no=1&utm_source=chatgpt.com",
+          "attribution": "국립재활원"
+        },
+        {
+          "title": "국립교통재활병원 재활·치료 > 재활치료 > 소아치료",
+          "url": "https://ntrh.or.kr/index.php/html/58?utm_source=chatgpt.com",
+          "attribution": "국립교통재활병원"
+        },
+        {
+          "title": "국립교통재활병원",
+          "url": "https://www.ntrh.or.kr/?utm_source=chatgpt.com",
+          "attribution": "국립교통재활병원"
+        },
+        {
+          "title": "국립교통재활병원",
+          "url": "https://ntrh.or.kr/?utm_source=chatgpt.com",
+          "attribution": "국립교통재활병원"
+        },
+        {
+          "title": "국립교통재활병원 병원소개 > 병원개요",
+          "url": "https://ntrh.or.kr/index.php/html/36?utm_source=chatgpt.com",
+          "attribution": "국립교통재활병원"
+        },
+        {
+          "title": "국립교통재활병원 열린공간 > 자주묻는 질문",
+          "url": "https://ntrh.or.kr/index.php/board/list/faq/33/srchCate/%EC%9E%85%EC%9B%90?utm_source=chatgpt.com",
+          "attribution": "국립교통재활병원"
+        },
+        {
+          "title": "주요전화번호 | 세브란스병원",
+          "url": "https://sev.severance.healthcare/sev/patient-carer/guide/number.do?utm_source=chatgpt.com",
+          "attribution": "세브란스병원"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn1search4turn1search2",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6129706/?utm_source=chatgpt.com",
+            "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002377312&utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search9",
+          "urls": [
+            "https://www.nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_04_04_01&utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn1search6",
+          "urls": [
+            "https://nrc.go.kr/hospital/html/content.do?depth=rb&menu_cd=03_05&utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn1search3turn1search6",
+          "urls": [
+            "https://nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_05_02_01&utm_source=chatgpt.com",
+            "https://nrc.go.kr/hospital/html/content.do?depth=rb&menu_cd=03_05&utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn1search1",
+          "urls": [
+            "https://www.nrc.go.kr/hospital/html/content.do?depth=pr&menu_cd=02_04_06&utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn1search3turn1search13",
+          "urls": [
+            "https://nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_05_02_01&utm_source=chatgpt.com",
+            "https://www.nrc.go.kr/hospital/board/boardView.do%3Bjsessionid%3DTJNHH30hL9ENlw7zhQSE90HqxpaP4aoEDs7oRG3ss1xcWN83VllHXcc9ICIEqZwH.mohwwas2_servlet_engine30?bn=qnaView&fno=7&menu_cd=01_13_00_03&no=7005&pageIndex=1&part_no=1&tab_no=1&utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "url국립재활원 소아재활 안내https://www.nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_04_04_01",
+          "urls": [
+            "https://www.nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_04_04_01&utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search5",
+          "urls": [
+            "https://ntrh.or.kr/index.php/html/58?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search2turn0search3",
+          "urls": [
+            "https://www.ntrh.or.kr/?utm_source=chatgpt.com",
+            "https://ntrh.or.kr/?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search4",
+          "urls": [
+            "https://ntrh.or.kr/index.php/html/36?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search6",
+          "urls": [
+            "https://ntrh.or.kr/index.php/board/list/faq/33/srchCate/%EC%9E%85%EC%9B%90?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "url국립교통재활병원turn0search2",
+          "urls": [
+            "https://www.ntrh.or.kr/?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search1",
+          "urls": [
+            "https://sev.severance.healthcare/sev/patient-carer/guide/number.do?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn1search2turn1search4",
+          "urls": [
+            "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002377312&utm_source=chatgpt.com",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6129706/?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn1search4",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6129706/?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search9turn1search6",
+          "urls": [
+            "https://www.nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_04_04_01&utm_source=chatgpt.com",
+            "https://nrc.go.kr/hospital/html/content.do?depth=rb&menu_cd=03_05&utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search2turn0search5",
+          "urls": [
+            "https://www.ntrh.or.kr/?utm_source=chatgpt.com",
+            "https://ntrh.or.kr/index.php/html/58?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-09-19-medical-6-catheter",
+      "recordedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-59e241c9-fec1-4987-bb2f-373d5b32ddb7",
+      "note": "이 답변은 소변줄·소변백의 침전물을 가정했지만, 바로 다음 대화에서는 피부에 남은 물질을 논의합니다. 또한 [9월 15일 간병 기록](https://infant83.github.io/sj-resurrection/post/trauma/2026-09-15/#message-5c9d1fa5-e91e-4094-88b6-b3697b41ed01)은 소변줄 제거 후 배뇨를 보고합니다. 답변에 남은 도뇨관 사용 가정을 당시 실제 상태로 확정하지 않습니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    },
+    {
+      "id": "review-2026-09-19-medical-8-skin-care",
+      "recordedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "correction",
+      "target": "message-f6b4db1b-9b6e-4eee-b3a4-f20f53fce85c",
+      "note": "사진과 보호자 설명만으로 물질의 성분이나 감염 여부, 응급성을 확정할 수 없습니다. ‘닦지 않고 마를 때까지’ 또는 ‘바로 씻지 말고’라는 관찰 제안은 피부에 소변을 일부러 남겨두라는 돌봄 지침으로 사용하지 않습니다. 젖거나 오염된 피부는 병동 지침에 따라 부드럽게 세정하고 건조시키며, 물질이 다시 보이면 간호사에게 확인을 요청합니다. [RCH 피부·포피 관리 안내](https://www.rch.org.au/kidsinfo/fact_sheets/penis_and_foreskin_care/)",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    },
+    {
+      "id": "review-2026-09-19-medical-12-skin-care",
+      "recordedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "correction",
+      "target": "message-683fc91a-6dab-4838-a253-b5520a4fa5df",
+      "note": "사진과 보호자 설명만으로 물질의 성분이나 감염 여부, 응급성을 확정할 수 없습니다. ‘닦지 않고 마를 때까지’ 또는 ‘바로 씻지 말고’라는 관찰 제안은 피부에 소변을 일부러 남겨두라는 돌봄 지침으로 사용하지 않습니다. 젖거나 오염된 피부는 병동 지침에 따라 부드럽게 세정하고 건조시키며, 물질이 다시 보이면 간호사에게 확인을 요청합니다. [RCH 피부·포피 관리 안내](https://www.rch.org.au/kidsinfo/fact_sheets/penis_and_foreskin_care/)",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    },
+    {
+      "id": "review-2026-09-19-medical-14-research-scope",
+      "recordedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-cd584f3b-d283-4747-a749-dd69bdd6b587",
+      "note": "K-CRS-R 검증 연구는 성인을 대상으로 했습니다. 중학생에게 어떤 의식평가를 적용할지와 각 병원의 반복 평가·입원 수용 여부는 별도 확인이 필요합니다. 인용된 국립교통재활병원 tDCS 자료는 연구계획서(study protocol)여서 치료 효과의 결과 보고로 해석하지 않습니다. [K-CRS-R 검증 논문](https://pmc.ncbi.nlm.nih.gov/articles/PMC6129706/), [연구소의 연구계획서 소개](https://ntrri.org/bbs/board.php?bo_table=sub1_1_a&wr_id=151). 별점과 우선순위는 당시 GPT의 문의 후보 제안이며 치료 성적 순위가 아닙니다. [후속 답변](https://infant83.github.io/sj-resurrection/post/medical/2026-09-15/#message-59aae4e1-eeeb-4124-9d56-9dfda551e3da)",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    },
+    {
+      "id": "review-2026-09-19-medical-16-referral-scope",
+      "recordedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-59aae4e1-eeeb-4124-9d56-9dfda551e3da",
+      "note": "영문 의뢰문에 쓰인 ‘reproducible’과 ‘CRE colonization/history’는 공식 검사로 확인한 진단 문구가 아닙니다. 보호자는 반응의 불규칙함을 계속 기록했고, CRE의 보균·감염 구분도 이 대화에서 확정되지 않았습니다. 실제 의뢰서는 담당팀이 현재 진찰·검사로 확인해야 합니다. 회복기 적용기간 안내 역시 선진이의 입원·급여·치료기간 확정을 뜻하지 않습니다. 병원 후보는 [9월 19일 후속 논의](https://infant83.github.io/sj-resurrection/post/rehabilitation/2026-09-19/#message-aa029fbf-38af-515b-a134-2ec212999a44)와 함께 보세요.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    },
+    {
+      "id": "review-2026-09-19-medical-16-contacts",
+      "recordedAt": {
+        "start": "2026-09-19T06:51:38.444+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "correction",
+      "target": "message-59aae4e1-eeeb-4124-9d56-9dfda551e3da",
+      "note": "본문의 세브란스 입원수속 연락처 표기는 현재 공식 안내와 다릅니다. 재활병원 공식 페이지는 외래접수 02-2228-3740, 입원수속 02-2228-3763·3765로 안내하고, 3764는 진료비 수납, 3766은 입원진료비 계산으로 분류합니다. [공식 주요전화번호](https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/number.do)",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [],
+  "privacyReviewed": true
+}
