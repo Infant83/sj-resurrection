@@ -54,6 +54,7 @@ const replyLabel = isRedacted
             <span class="fidelity-label">{userFidelityLabel}</span>
           </div>
           {message.provenanceNote && <p class="message-provenance-note">{message.provenanceNote}</p>}
+          {message.sourceOrderNote && <p class="message-provenance-note">{message.sourceOrderNote}</p>}
           {message.privacyNote && <p class="message-provenance-note">{message.privacyNote}</p>}
           <div class="message-text message-text-plain" set:html={safePlainTextToHtml(primaryText)} />
           {showsCorrected && (
@@ -74,6 +75,7 @@ const replyLabel = isRedacted
           </summary>
           <div class="reply-body">
             {message.provenanceNote && <p class="message-provenance-note">{message.provenanceNote}</p>}
+            {message.sourceOrderNote && <p class="message-provenance-note">{message.sourceOrderNote}</p>}
             {message.privacyNote && <p class="message-provenance-note">{message.privacyNote}</p>}
             <div class="message-text" set:html={safeMarkdownToHtml(primaryText, message.citationMarkers)} />
             {message.references.length > 0 && (

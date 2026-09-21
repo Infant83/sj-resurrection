@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "timezone": "Asia/Seoul",
-  "lastUpdated": "2026-09-19",
+  "lastUpdated": "2026-09-21",
   "historyPolicy": {
     "mode": "retain-existing-commits",
     "decidedAt": "2026-08-31",
@@ -20,7 +20,7 @@
   },
   "boards": {
     "trauma": {
-      "status": "published-through-2026-09-18",
+      "status": "published-through-2026-09-21",
       "sourceThreads": [
         "중증 외상 예후 분석",
         "중증 외상 예후 분석 (phase2)",
@@ -32,7 +32,7 @@
       "sourceRequirement": "confirmed shared-conversation snapshot or source-verified embedded report"
     },
     "life": {
-      "status": "published-through-2026-09-10",
+      "status": "published-through-2026-09-21",
       "sourceThreads": [
         "선진이와 함께하는 삶 (phase1)",
         "선진이와 함께하는 삶 (phase2)",
@@ -43,7 +43,7 @@
       "sourceRequirement": "confirmed-chatgpt-shared-conversation-snapshot"
     },
     "medical": {
-      "status": "published-through-2026-09-18",
+      "status": "published-through-2026-09-21",
       "sourceThreads": [
         "의학지식 문의",
         "의학지식 문의 2"
@@ -66,28 +66,28 @@
   },
   "imports": [
     {
-      "id": "trauma-public-archive-2026-09-18",
+      "id": "trauma-public-archive-2026-09-21",
       "board": "trauma",
-      "throughDate": "2026-09-18",
+      "throughDate": "2026-09-21",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
       "selection": {
-        "publishedPostCount": 54,
-        "publishedMessageCount": 405,
-        "publishedUserMessageCount": 145,
-        "publishedAssistantMessageCount": 260,
-        "correctedUserMessageCount": 76,
-        "privacyRedactedMessageCount": 16,
+        "publishedPostCount": 57,
+        "publishedMessageCount": 425,
+        "publishedUserMessageCount": 153,
+        "publishedAssistantMessageCount": 272,
+        "correctedUserMessageCount": 79,
+        "privacyRedactedMessageCount": 19,
         "sourceKindCounts": {
-          "conversation-message": 404,
+          "conversation-message": 424,
           "embedded-app-report": 1
         },
         "withheldIncompleteExchangeCount": 1,
         "withheldSensitiveTurnMessageCount": 6,
-        "publishedContentSha256": "3f63f162f0b9e5857f8d64bd34ffe074febccf6b321bb072ea7e31307640e954"
+        "publishedContentSha256": "eceb199a15f842489487c937d05fbc13fb74d46dbbe0e0401b89520599531c46"
       },
       "posts": [
         "trauma-2026-07-26-conversation",
@@ -143,31 +143,34 @@
         "trauma-2026-09-15-conversation",
         "trauma-2026-09-16-conversation",
         "trauma-2026-09-17-conversation",
-        "trauma-2026-09-18-conversation"
+        "trauma-2026-09-18-conversation",
+        "trauma-2026-09-19-conversation",
+        "trauma-2026-09-20-conversation",
+        "trauma-2026-09-21-conversation"
       ]
     },
     {
-      "id": "life-public-archive-2026-09-10",
+      "id": "life-public-archive-2026-09-21",
       "board": "life",
-      "throughDate": "2026-09-10",
+      "throughDate": "2026-09-21",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
       "selection": {
-        "publishedPostCount": 21,
-        "publishedMessageCount": 54,
-        "publishedUserMessageCount": 21,
-        "publishedAssistantMessageCount": 33,
-        "correctedUserMessageCount": 21,
+        "publishedPostCount": 22,
+        "publishedMessageCount": 56,
+        "publishedUserMessageCount": 22,
+        "publishedAssistantMessageCount": 34,
+        "correctedUserMessageCount": 22,
         "privacyRedactedMessageCount": 0,
         "sourceKindCounts": {
-          "conversation-message": 54
+          "conversation-message": 56
         },
         "withheldMessageCount": 0,
         "excludedHiddenOrRedactedRecordCount": 2,
-        "publishedContentSha256": "917ad47b9a6f2dca7759647467f5ff5db25d74e9e3f814e26c048172bcce29bf"
+        "publishedContentSha256": "eae6bfff8bb12d55a5ef1ff7e3ad1b60db84a5f3864490b146f0154e0a35a26c"
       },
       "posts": [
         "life-2026-07-29-conversation",
@@ -190,33 +193,34 @@
         "life-2026-08-27-conversation",
         "life-2026-08-28-conversation",
         "life-2026-09-02-conversation",
-        "life-2026-09-10-conversation"
+        "life-2026-09-10-conversation",
+        "life-2026-09-21-conversation"
       ]
     },
     {
-      "id": "medical-public-archive-2026-09-18",
+      "id": "medical-public-archive-2026-09-21",
       "board": "medical",
-      "throughDate": "2026-09-18",
+      "throughDate": "2026-09-21",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
       "selection": {
-        "publishedPostCount": 17,
-        "publishedMessageCount": 92,
-        "publishedUserMessageCount": 40,
-        "publishedAssistantMessageCount": 52,
-        "correctedUserMessageCount": 30,
-        "privacyRedactedMessageCount": 4,
+        "publishedPostCount": 23,
+        "publishedMessageCount": 120,
+        "publishedUserMessageCount": 54,
+        "publishedAssistantMessageCount": 66,
+        "correctedUserMessageCount": 39,
+        "privacyRedactedMessageCount": 7,
         "sourceKindCounts": {
-          "conversation-message": 79,
+          "conversation-message": 107,
           "embedded-app-report": 1,
           "voice-transcript": 12
         },
         "withheldSensitiveTurnMessageCount": 5,
         "excludedHiddenOrRedactedRecordCount": 12,
-        "publishedContentSha256": "753257101c6ef8a06a92ea8185f092230558c75016f816526da70330f52d8fcd"
+        "publishedContentSha256": "d3d687a3754f1b43a9cbb36bef7ac66ad346dc84d06304d18016f3a1571f6551"
       },
       "posts": [
         "medical-2026-08-01-conversation",
@@ -232,10 +236,16 @@
         "medical-2026-09-06-conversation",
         "medical-2026-09-09-conversation",
         "medical-2026-09-10-conversation",
+        "medical-2026-09-11-conversation",
+        "medical-2026-09-12-conversation",
+        "medical-2026-09-13-conversation",
+        "medical-2026-09-14-conversation",
         "medical-2026-09-15-conversation",
         "medical-2026-09-16-conversation",
         "medical-2026-09-17-conversation",
-        "medical-2026-09-18-conversation"
+        "medical-2026-09-18-conversation",
+        "medical-2026-09-19-conversation",
+        "medical-2026-09-21-conversation"
       ]
     },
     {

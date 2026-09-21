@@ -44,6 +44,7 @@ const messageBase = z.object({
   turnId: z.string().optional(),
   sourceRefs: z.array(z.string()).default([]),
   provenanceNote: z.string().optional(),
+  sourceOrderNote: z.string().trim().min(1).optional(),
   privacyRedactions: z.array(z.enum(['room-number', 'image', 'attachment', 'attachment-link'])).min(1).optional(),
   privacyNote: z.string().min(1).optional(),
 });

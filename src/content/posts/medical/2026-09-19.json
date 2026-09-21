@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-09-19-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 9월 19일 의학지식 문의",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-19",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-09-22T06:39:02.995+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학지식",
+    "보호자 질문",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-a1e56b67-6892-49d3-85fa-dfa91edd4309",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-19T12:08:40.818336+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "a1e56b67-6892-49d3-85fa-dfa91edd4309",
+      "sourceOrdinal": 95,
+      "turnId": "987c2cf7-2914-4df3-9322-406a4e79339c",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "선진이가 잠이 상당히 많고 놀이나 도형, 앉아있는 자세등에 많은 피로를 느끼는 것 같아. 머리로 손을 가져가서 긁으면서 괴로운 표정을 짓기도 해. 어제 예방접종을 받아서 그런가? 아니면 뇌손상 회복기에 일어나는 일인가\n",
+      "originalSha256": "sha256:387db2e863b15ae0d74d2a3bb03605e9c6b9ce7dc2ae5a21ab7b48858fdf7dde",
+      "corrected": "선진이가 잠이 상당히 많고 놀이나 도형, 앉아있는 자세 등에 많은 피로를 느끼는 것 같아. 머리로 손을 가져가서 긁으면서 괴로운 표정을 짓기도 해. 어제 예방접종을 받아서 그런가? 아니면 뇌손상 회복기에 일어나는 일인가\n",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-a3e9546d-8ee5-4b64-ad8a-bbcacdb7e15d",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-19T12:08:48.479094+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "a3e9546d-8ee5-4b64-ad8a-bbcacdb7e15d",
+      "sourceOrdinal": 96,
+      "turnId": "987c2cf7-2914-4df3-9322-406a4e79339c",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "exact",
+      "text": "둘 다 가능성이 있습니다. 다만 **선진이의 현재 전체 경과를 보면 “어제 예방접종 때문에 오늘만 피곤하다” 하나로 설명하기보다는, 뇌손상 회복기에 나타나는 낮은 각성 지속시간과 인지·신체 피로 위에 예방접종 후 피로가 일시적으로 더해졌을 가능성**을 먼저 생각하겠습니다.\n\n특히 선진이가 최근 보여준 패턴, 즉 어떤 때는 구구단 문제를 맞히고 손가락 모방이나 가족과의 상호작용도 가능한데, 다른 때는 멍하고 같은 활동을 금방 힘들어한다는 것은 **현재 능력이 없어졌다기보다 그 능력을 지속해서 발휘할 수 있는 ‘인지적 endurance’가 아직 매우 짧은 상태**일 수 있습니다. 다만 이것은 직접 진찰 없이 가능한 해석이고, 오늘처럼 졸림이나 괴로운 표정이 평소보다 뚜렷하다면 병동 의료진이 확인해야 합니다. memcite\n\n### 예방접종 영향은 충분히 있을 수 있습니다\n\n선진이는 비장절제 후 필요한 예방접종을 받고 있는 상황으로 보이는데, 어떤 백신을 맞았는지에 따라 차이가 있지만 **폐렴구균·수막구균 등의 백신에서도 접종 다음 날 피로감, 두통, 근육통, 미열 등이 나타날 수 있습니다.** 대부분의 백신 반응은 경미하고 며칠 이내 좋아집니다. citeturn0search0turn0search9\n\n따라서 **어제 접종 → 오늘 평소보다 더 잠이 많음 + 활동하면 쉽게 지침**이라는 시간관계는 백신 반응과 충분히 양립합니다.\n\n특히 말을 못 하는 선진이는 “머리가 아프다”, “몸살 같다”, “주사 맞은 데가 아프다”를 말로 표현할 수 없으므로 **눈을 찡그리거나 머리를 만지거나 활동을 피하는 식으로 표현**할 수도 있습니다. 하지만 머리를 긁는 행동 자체가 두통의 증거는 아닙니다.\n\n## 그런데 ‘머리로 손을 가져가면서 괴로운 표정’은 한번 알려주세요\n\n이건 제가 오늘 간호사에게 전달하겠습니다.\n\n단순히 머리가 간지럽거나, 습관적인 움직임이거나, 피곤할 때 나오는 행동일 수도 있습니다. 두통이나 불편감을 표현하는 행동일 수도 있고요.\n\n**선진이는 중증 외상성 뇌손상과 DAI, 저산소성 손상이 있었기 때문에 새로운 신경학적 변화는 일반적인 아이보다 보수적으로 확인하는 편이 안전합니다.**\n\n특히 다음 중 하나라도 같이 나타나면 바로 간호사를 부르세요.\n\n- 평소보다 **확연히 깨우기 어려움**\n- 최근 가능했던 눈맞춤·명령반응이 뚜렷하게 감소\n- 반복적인 구토\n- 한쪽 동공이 다른 쪽보다 커짐\n- 새로 생긴 경련\n- 이전보다 한쪽 팔다리 움직임이 급격히 감소\n- 심하게 괴로워하는 모습이 지속되거나 점점 심해짐\n- 발열 또는 호흡·SpO₂의 변화\n\n두부손상 후 **악화되는 두통, 반복 구토, 심한 졸림/깨우기 어려움, 경련, 동공 비대칭, 새로운 신경학적 변화**는 즉시 평가해야 할 경고신호입니다. citeturn0search1turn0search48\n\n반대로 **깨우면 평소 수준으로 눈을 맞추고 가족에게 반응하며, 활력징후가 안정적이고, 잠시 활동한 뒤 피곤해서 다시 자는 형태**라면 상황의 성격이 상당히 다릅니다.\n\n### 오늘은 재활 강도를 조금 낮춰도 괜찮습니다\n\n어제 예방접종을 했고 오늘 유난히 피곤해 보인다면, **오늘 하루 재활량이 조금 줄어드는 것을 두려워할 필요는 없습니다.**\n\n오히려\n\n**자연스럽게 깨어 있음 → 5~10분 정도 편안한 활동 → 피로 신호 → 휴식**\n\n처럼 운영하는 것이 좋겠습니다.\n\n도형 맞추기나 구구단을 계속 시켜서 의식 수준을 확인할 필요도 없습니다. 오늘 컨디션이 떨어져 못 한다고 해서 인지능력이 퇴행했다고 판단할 수도 없습니다.\n\n관절운동 역시 재활팀이 알려준 범위에서 짧게 하되 **잠든 선진이를 계속 깨워서 반복할 필요는 없습니다.**\n\n---\n\n## 앞으로 48–72시간이 좋은 비교 구간입니다\n\n저라면 세 가지만 기록하겠습니다.\n\n**각성:** 하루 중 자연스럽게 깨어 있는 시간이 얼마나 되는가  \n**지속력:** 깨어난 뒤 활동을 몇 분 정도 견디는가  \n**인지:** 컨디션이 가장 좋을 때 최근에 가능했던 반응이 다시 나타나는가\n\n예를 들어 오늘은 5분 만에 피곤해졌는데 접종 후 2~3일이 지나 **10분 → 15분으로 다시 늘어난다면**, 일시적인 전신 피로가 겹쳤을 가능성을 생각할 수 있습니다. 백신의 일반적인 전신 반응은 보통 접종 후 며칠 이내 호전됩니다. citeturn0search0\n\n반대로 **2~3일이 지나도 계속 이전보다 현저하게 더 자고, 깨어 있을 때도 기존에 하던 반응이 줄어 있거나, 머리를 만지면서 괴로워하는 행동이 반복·증가한다면** “뇌손상 회복기니까 그렇겠지”라고 넘기지 말고 주치의에게 이야기해서 약물, 감염, 통증, 수면 문제, 전해질·혈액검사 및 신경학적 상태를 함께 점검하는 것이 좋겠습니다.\n\n오늘 간호사에게는 이렇게 전달하면 충분합니다.\n\n> **“어제 예방접종 후 오늘 평소보다 많이 자고, 도형이나 앉기 같은 활동을 금방 힘들어합니다. 가끔 머리에 손을 가져가 긁으면서 괴로운 표정을 짓기도 합니다. 예방접종 후 피로 정도로 보이는지, 최근 신경학적 반응이나 활력징후와 비교해서 한번 봐주세요.”**\n\n그리고 **어제 어떤 예방접종을 몇 가지 맞았는지** 알려주시면, 각각에서 예상되는 접종 후 반응과 발생 시점을 선진이의 오늘 증상과 맞춰서 더 구체적으로 판단해볼 수 있습니다.",
+      "textSha256": "sha256:6e05e0555ce24387cf36f9c1c245fde3f0c984fbc4a78edd2836d02ee7afd788",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Possible Side Effects from Vaccines | Vaccines & Immunizations | CDC",
+          "url": "https://www.cdc.gov/vaccines/basics/possible-side-effects.html?utm_source=chatgpt.com",
+          "attribution": "질병통제예방센터"
+        },
+        {
+          "title": "Before, During, and After Shots | Childhood Vaccines | CDC",
+          "url": "https://cdc.gov/vaccines-children/before-during-after-shots/index.html?utm_source=chatgpt.com",
+          "attribution": "질병통제예방센터"
+        },
+        {
+          "title": "Symptoms of Mild TBI and Concussion | Traumatic Brain Injury & Concussion | CDC",
+          "url": "https://www.cdc.gov/traumatic-brain-injury/signs-symptoms/index.html?utm_source=chatgpt.com",
+          "attribution": "질병통제예방센터"
+        },
+        {
+          "title": "Danger Signs",
+          "url": "https://www.cdc.gov/heads-up/media/pdfs/schools/tbi_factsheets_parents-508-a.pdf?utm_source=chatgpt.com",
+          "attribution": "질병통제예방센터"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn0search0turn0search9",
+          "urls": [
+            "https://www.cdc.gov/vaccines/basics/possible-side-effects.html?utm_source=chatgpt.com",
+            "https://cdc.gov/vaccines-children/before-during-after-shots/index.html?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search1turn0search48",
+          "urls": [
+            "https://www.cdc.gov/traumatic-brain-injury/signs-symptoms/index.html?utm_source=chatgpt.com",
+            "https://www.cdc.gov/heads-up/media/pdfs/schools/tbi_factsheets_parents-508-a.pdf?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search0",
+          "urls": [
+            "https://www.cdc.gov/vaccines/basics/possible-side-effects.html?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-09-21-medical-96-vaccine-and-action",
+      "recordedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-a3e9546d-8ee5-4b64-ad8a-bbcacdb7e15d",
+      "note": "‘어제 예방접종’은 9월 19일 입력 기준 9월 18일 접종을 가리키지만 백신명·용량은 이 입력에 없습니다. 접종이 피로의 원인이라는 결론이나 48–72시간 기다려도 된다는 뜻으로 사용하지 않습니다. 새로 깨우기 어렵거나 반응·호흡이 악화되면 즉시 병동 평가가 필요한 상황입니다. ‘제가 오늘 간호사에게 전달하겠습니다’라는 GPT 문구는 실제 전달 완료를 뜻하지 않습니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [
+    "medical-2026-09-15-conversation"
+  ],
+  "privacyReviewed": true
+}

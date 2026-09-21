@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 2,
+  "recordId": "trauma-2026-09-19-conversation",
+  "board": "trauma",
+  "entryType": "clinical-update",
+  "title": "2026년 9월 19일 경과·간병 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-19",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-09-22T06:39:02.995+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "간병 기록",
+    "회진",
+    "재활",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-care-phase-4",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "간병 기록 정리 (phase 4) · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-99c37baa-8f02-4dfc-a6da-6c187e4f4561",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-19T10:03:35.366324+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "99c37baa-8f02-4dfc-a6da-6c187e4f4561",
+      "sourceOrdinal": 100,
+      "turnId": "4a206090-94cc-48b9-9900-6ae507c2b605",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "privacy-redacted",
+      "privacyRedactions": [
+        "image"
+      ],
+      "privacyNote": "첨부 사진과 원본 연결정보는 공개하지 않습니다. 그 외 입력 텍스트는 원문대로 보존했습니다.",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "publicText": "사진은 아빠의 간병기록이고 이후 기록은 엄마의 기록이야. // 17:00 소변 봄 - 시트와 상의 하의 다 젖음\n총 367g\n기저귀 무게 177g - 80 ‎ = 97그램\n시트, 바지, 상의 총 무게 1196g - 바지 상의 - 620g - 반시트 무게 350 = 270 \n18:00 잠 - 18:24 주변 소리에 살짝 깸\n\n(오전5시 노티 할 것)\n19:30 소변 봄 238-60=178\n19:40 요플레 4숟가락 먹음 \n20:10 찐득하고 누런 가래를 목관으로 뱉어냄 \n산소포화도는 97 (오른손) 93(왼손)2\n\n20:20 약먹음 400ml 영양 끝\n20:30 200ml 영양 시작 21:45 영양끝\n\n9:00 기저귀 109. // 약 150\n          바지, 시트 749 - ? \n\n22:20 \n총 277+157=\n기저귀 190-60‎ = 130\n바지, 대시트 957 - 800 =\n윗옷 397 - 250 ‎ = 147\n\n석션 23:00 뒤척거리다 잠듦\n자면서 왼쪽다리 움찔거리며 깨기도 함.\n사타구니, 특히 항문이 많이 간지러운지 손을 묶어두지 않으면 계속 긁음 ㅜㅜ 손가락을 넣어서 긁으려고 함. 물티슈로 닦고 연고 바르고 선풍기로 말리고 자연건조 되는동안 옷을 갈아입히고 기저귀차고 바지 입음\n\n새벽3시 50분, 가래때문에 너무 힘들어함\n석션함 3:50 HME빼주니 다시 잠듦\n가래가 더 건조해지는 느낌\n\n4:10 기저귀 288-60‎ = 228윗옷 바지(308)젖음\n4:10 // \n178+150+434‎ = 762\n762+228+20\n            (젖은거 포함 한 1100정도)\n\n5:44 가래 덩어리 뱉어냄 - 산소포화도 97\n\n\n6:10 석션 후 목관 교체함\n          하얀관이 많이 나온 것 같아서 이야기 함\n           소독할 때 봐주시기로 함\n\n7:20 콧줄 빼냄!! \n\n식사 전에 기저귀 확인했으나 소변 없음\n가스만 4~5차례 뀜\n\n8:21 첫 식사 1/3 정도 죽 먹음 , 죽은 맛 없어하고 콩나물국은 잘 먹음\n\n식사 마치자마저 잠듦\n\n8:55 아침약을 먹었는데 4숟가락에 걸쳐서 먹다가 마지막에 토해버림 ㅠ 기침 심하게 하다가 목관이 튀어나와버림 \n\n그 후 1시간 가량 잠\n\n9:55 목관 소독, 파란거 빼지 않도록 할 것\n          목관 소독하려고하니까 거부해서 간호사 선생님께서 도와주셔서 함. 눕히니까 가래 기침을 심하게 해서 일어나 앉힌다음에 함\n\n소독 끝나고 다시 잠듦",
+      "publicTextSha256": "sha256:be3d6cd84ec0c45fb2703578ccceac199c64e19bc8f7c594cd31a5f19bdcdad9"
+    },
+    {
+      "id": "message-ca7400e3-8cb8-5cde-b947-3a3536d8b9a7",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-19T10:03:50.414185+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "ca7400e3-8cb8-5cde-b947-3a3536d8b9a7",
+      "sourceOrdinal": 101,
+      "turnId": "4a206090-94cc-48b9-9900-6ae507c2b605",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "text": "사진의 아빠 기록은 9월 18일 오전, 엄마 기록은 18일 오후부터 19일 오전까지로 읽었습니다. 먼저 **구토·심한 기침 뒤 “목관이 튀어나왔다”는 부분은 현재 관이 제자리에 있고 호흡이 안정적인지 확인이 필요합니다.** 아직 의료진이 확인하지 않았거나 지금 숨쉬기 힘들어한다면 바로 호출벨을 누르세요. 기록을 나눠 보면서 경구 식사와 가래 관리에서 확인할 점을 정리하겠습니다.",
+      "textSha256": "sha256:ab6c64345e852ed2811a6a1600bf508fe308f59f29b38b15cf1f2ea2ac0c98b6",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-ddfcfd45-f457-5a29-83e5-93c05c79d73d",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-19T10:05:09.315706+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "ddfcfd45-f457-5a29-83e5-93c05c79d73d",
+      "sourceOrdinal": 102,
+      "turnId": "4a206090-94cc-48b9-9900-6ae507c2b605",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "text": "사진은 **9월 18일 아빠 기록**, 이어지는 글은 **18일 오후부터 19일 오전까지 엄마 기록**으로 구분하겠습니다. 첫 간병 중 반복되는 기저귀 누출과 밤중 가래, 아침 구토까지 겹쳐 많이 힘드셨겠습니다.\n\n이번 기록에서는 회복 평가보다 **목관 이탈 여부와 식사·투약 후 흡인 위험을 먼저 확인해야 합니다.**\n\n## 1. “목관이 튀어나왔다”는 부분이 가장 중요합니다\n\n**지금 의료진이 관을 다시 확인·고정했고, 선진이 호흡이 평소처럼 안정적인가요?**\n\n기록만으로는 빠진 것이 **기관 안으로 들어가는 관 전체인지, 안쪽 관인지, 외부 연결 부품인지** 구분되지 않습니다. ‘하얀 관’, ‘파란 것’이라는 색만으로도 판단할 수 없습니다.\n\n- **관 전체가 빠지거나 일부 밀려 나온 것이라면 응급 평가가 필요한 상황**입니다.\n- 아직 위치를 확인받지 않았다면 소독 시간까지 기다리지 말고 즉시 간호사를 부르세요.\n- 보호자가 밀어 넣거나 부품을 임의로 빼지 마세요.\n- 이미 조치받았다면 **무엇이 빠졌고, 무엇을 다시 넣었으며, 현재 위치·고정 상태가 확인됐는지**를 기록해 주세요.\n\n기관절개관의 막힘과 이탈은 호흡 응급상황을 일으킬 수 있습니다. **새벽 5시 44분의 산소포화도 97%는 오전 8시 55분 구토·관 이탈 이후의 안전성을 보장하는 수치가 아닙니다.** [기관절개관 안전관리 지침](https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Tracheostomy_management/)\n\n## 2. 경구 식사가 시작됐지만, 지금은 다시 안전성을 확인해야 합니다\n\n이번에는 이전과 달리 요플레·죽·국·약을 입으로 먹은 기록이 있습니다. **의료진이 새로 허용한 식사의 종류와 양이 무엇인지** 확인이 필요합니다. 사진의 ‘요플레 먹어보기’만으로 국이나 물, 가루약까지 모두 허용됐는지는 알 수 없습니다.\n\n요플레나 죽을 먹는 것과 **묽은 국물이나 물을 안전하게 삼키는 것은 다릅니다.** 잘 먹는 모습이나 기침이 없다는 사실만으로 흡인을 배제할 수 없으며, 기관절개관도 흡인을 완전히 막아주지 못합니다. 필요하면 비디오투시연하검사(VFSS)나 내시경연하검사(FEES)로 평가합니다. [기관절개관 환자의 연하 평가](https://www.asha.org/practice-portal/professional-issues/tracheostomy-and-ventilator-dependence/)\n\n특히 오늘은 다음 순서가 있었습니다.\n\n> 콧줄을 스스로 뽑음 → 죽·국 섭취 → 경구 투약 중 구토 → 심한 기침과 목관 이탈로 보이는 사건\n\n이것만으로 음식물이 폐로 들어갔다고 확정할 수는 없습니다. 하지만 **다음 음식·물·경구약은 우선 보류하고, 담당 간호사·의사가 이 사건을 평가한 뒤 재개 방법을 정하도록 해야 합니다.**\n\n같이 확인할 사항은 다음과 같습니다.\n\n- 콧줄을 다시 넣을지, 다른 경로로 영양·수분·약을 공급할지\n- 허용된 음식의 질감, 한 번에 줄 양, 먹이는 자세와 관찰 방법\n- 오늘 약 중 실제로 삼킨 양과 토한 뒤 추가 투약 필요 여부\n\n**토한 약은 임의로 다시 먹이지 마세요.** 얼마나 흡수됐는지 알 수 없어 중복 투약이 될 수 있습니다. 식사 후 잠든 것 자체는 피로일 수 있지만, 평소보다 깨우기 어렵거나 호흡이 달라지면 바로 알려야 합니다.\n\n## 3. 밤중 가래 문제는 ‘가습 계획’을 다시 정할 필요가 있습니다\n\n엄마 기록에서도 **가래가 더 건조해짐, 덩어리 배출, HME 제거 후 편해짐**이 반복됩니다.\n\nHME가 가래로 막히면 교체가 필요하지만, 다른 가습 없이 오래 빼놓으면 분비물이 더 굳어 관을 막을 수 있습니다. **“HME를 계속 끼울지 뺄지”를 보호자가 혼자 결정하기보다, 자주 막히는 이유와 대체 가습 방법을 의료진이 정해야 합니다.** [기관절개관 가습 관리](https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Tracheostomy_management/)\n\n간호사에게 이렇게 전달하면 됩니다.\n\n> “밤중에 가래 때문에 힘들어했고, HME를 빼면 편해지지만 가래가 더 마르고 덩어리집니다. 오늘 구토와 목관 이탈도 있었으니 관 상태와 가습·석션 계획을 함께 확인해 주세요.”\n\n누런 가래만으로 감염이라고 단정할 수는 없습니다. 다만 새 발열, 호흡 증가, 산소포화도 저하, 악취·피 섞인 가래가 동반되면 바로 보고하세요.\n\n오른손 97%, 왼손 93%라는 차이는 손의 온도·혈액순환·움직임·센서 상태에 영향을 받을 수 있습니다. **좋게 나온 수치만 선택하거나 평균 내지 말고**, 간호사에게 양쪽 측정값을 모두 알려 같은 조건에서 재확인받으세요. [FDA 산소포화도 측정 안내](https://www.fda.gov/medical-devices/products-and-medical-procedures/pulse-oximeters)\n\n## 4. 항문 가려움은 보호제만 계속 바르기보다 피부를 다시 봐야 합니다\n\n아빠와 엄마 기록 모두 **회음부·항문 가려움과 반복되는 소변 누출**을 보여 줍니다. 젖은 피부와 대변 자극으로 생긴 피부염일 수 있지만, 피부 벗겨짐·접촉 자극·곰팡이 감염 등이 동반됐는지는 진찰해야 합니다.\n\n- 보호제를 발라도 계속 심하게 긁는다는 점을 간호사에게 보여 주세요.\n- 물티슈로 반복해서 문지르지 말고, 병동에서 권한 방법으로 부드럽게 씻고 톡톡 말립니다.\n- 손가락을 넣어 긁으려 한다면 상처와 오염 위험이 있어 **가려움 원인과 치료를 먼저 해결**해야 합니다.\n- 손을 더 세게 묶어 해결하려 하지 말고, 필요한 관찰·보호 방법은 병동과 정하세요.\n\n반복되는 습기 노출은 피부 손상을 악화시킬 수 있어, 기저귀의 착용 상태와 누출 방지 방법도 함께 점검해야 합니다. [배설물 관련 피부 손상 안내](https://yourhealth.leicestershospitals.nhs.uk/library/emergency-specialist-medicine/elderly/3241-incontinence-associated-dermatitis/file)\n\n## 5. 배설량은 확실한 값과 추정치를 나눠 기록하면 됩니다\n\n옷과 시트까지 재신 것은 누출량을 파악하는 데 도움이 됩니다. 다만 **같은 물품의 마른 무게를 정확히 알고, 다른 물",
+      "textSha256": "sha256:dac8976760035638ac613fae6643ec55ca83d27e2cc9094c67458431661279b0",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "기관절개관 가습 관리",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Tracheostomy_management/"
+        },
+        {
+          "title": "기관절개관 환자의 연하 평가",
+          "url": "https://www.asha.org/practice-portal/professional-issues/tracheostomy-and-ventilator-dependence/"
+        },
+        {
+          "title": "FDA 산소포화도 측정 안내",
+          "url": "https://www.fda.gov/medical-devices/products-and-medical-procedures/pulse-oximeters"
+        },
+        {
+          "title": "배설물 관련 피부 손상 안내",
+          "url": "https://yourhealth.leicestershospitals.nhs.uk/library/emergency-specialist-medicine/elderly/3241-incontinence-associated-dermatitis/file"
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-f98863ed-ddb7-4860-b76c-32ea7f4c15bf",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-19T10:05:08.365913+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "f98863ed-ddb7-4860-b76c-32ea7f4c15bf",
+      "sourceOrdinal": 103,
+      "turnId": "7228e3e4-09b0-4459-b4c6-df4f9a1be281",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "ㅇㅇ 목관은 의료진이 확인했고 이제 괜찮아",
+      "originalSha256": "sha256:b789718f469aa0840df29b10503bd01bcfb1d5a0e7db809934b9f5940a234e45",
+      "sourceOrderNote": "공유 대화에서 이 입력의 시각은 앞선 답변보다 약 1초 이릅니다. 시각을 바꾸지 않고 확인된 원문 대화 순서(답변 다음 보호자 확인)를 보존했습니다."
+    },
+    {
+      "id": "message-06de5198-c9bf-4046-bcdc-e1ec3400d78b",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-19T10:08:24.791265+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "06de5198-c9bf-4046-bcdc-e1ec3400d78b",
+      "sourceOrdinal": 104,
+      "turnId": "7228e3e4-09b0-4459-b4c6-df4f9a1be281",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "typo-corrected",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "콧줄은 의료진 판단으로 이제 뺀거야",
+      "originalSha256": "sha256:e1b8e247224ae84115f6529cf9bb2fb6f8985b84f02a0bed66ad8c93a87775f5",
+      "corrected": "콧줄은 의료진 판단으로 이제 뺀 거야",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-8e2a3f1e-78c5-5c82-b2c6-dcb2824e90db",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-19T10:09:30.872308+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "8e2a3f1e-78c5-5c82-b2c6-dcb2824e90db",
+      "sourceOrdinal": 105,
+      "turnId": "7228e3e4-09b0-4459-b4c6-df4f9a1be281",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "text": "**콧줄은 의료진 판단으로 제거한 것으로 정정할게요.** 제가 앞서 임의로 빠진 상태로만 이해했어요. 앞으로는 의료진이 정한 경구 섭취 계획을 기준으로 보되, 아침 구토를 반영해 식사·투약 방법을 확인하면 됩니다.\n\n사진에는 **황갈색 또는 주황빛의, 형태를 유지하는 끈끈한 분비물 덩어리**가 보입니다. 다만 사진만으로는 **농축된 가래인지, 소량의 오래된 피나 다른 물질이 섞였는지 구별할 수 없고, 색만으로 폐렴을 진단할 수도 없습니다.**\n\n이번에는 색보다 **밤에 가래 때문에 숨쉬기 힘들었고, 건조해지는 느낌이 있었으며, 덩어리로 배출됐다는 점**이 더 중요해요. 점액이 농축돼 뭉쳤을 가능성은 있지만, 실제로 관을 막았던 ‘점액 마개’였는지는 확인이 필요합니다. 기관절개관에서는 끈끈한 분비물이 관을 막을 수 있어 가습 관리가 중요합니다. [기관절개 관리 지침](https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Tracheostomy_management/)\n\n지금 호흡이 편안하고 목관도 확인받았다면, 사진을 간호사에게 보여주며 이렇게 말씀하세요.\n\n> “밤에 숨쉬기 힘들어하다 이런 덩어리를 뱉었어요. HME를 빼면 편해지지만 가래가 더 마르는 느낌입니다. 관 안에 굳은 가래가 남았는지, 가습 방법이나 HME 교체 기준을 확인해 주세요.”\n\n- **HME를 계속 빼놓는 것으로 해결하지 말고**, 막히는 경우 사용할 대체 가습 방법을 정해달라고 하세요.\n- 관에 물·생리식염수를 임의로 붓거나, 면봉으로 안쪽 가래를 떼어내지는 마세요.\n- 다시 숨쉬기 힘들어하거나, 숨소리가 갑자기 달라지거나, 산소포화도가 떨어지거나, 선홍색 피가 나오면 즉시 호출하세요.\n\n**스스로 이 덩어리를 뱉어낸 것은 기침으로 분비물을 배출했다는 점에서 다행이지만, 가래 관리가 더는 필요 없다는 뜻은 아닙니다.** 이번 사진은 밤 동안의 가습·가래 관리 계획을 조정하는 데 도움이 되는 기록이에요.",
+      "textSha256": "sha256:07a94feea3c21b620acef4e169c5864d58806ff0ad6c3fce908212206013a8b1",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "기관절개 관리 지침",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Tracheostomy_management/"
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-09-21-care-100-photo-boundary",
+      "recordedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-99c37baa-8f02-4dfc-a6da-6c187e4f4561",
+      "note": "보호자가 붙인 텍스트는 교대 간병 중의 저녁~다음 날 오전 기록이며, 사진으로만 제공된 아빠의 간병일지 본문은 공개하지 않았습니다. 사진 내용을 별도 간병 원문으로 재구성하지 않았고, GPT의 사진 해석은 당시 답변으로만 보존합니다.",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ]
+    },
+    {
+      "id": "review-2026-09-21-care-102-interrupted",
+      "recordedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-ddfcfd45-f457-5a29-83e5-93c05c79d73d",
+      "note": "공유 원문에서 답변 생성이 중단되어 마지막 문장이 끝나지 않은 상태입니다. 당시 화면에 표시된 답변 텍스트 전체를 그대로 보존했으며, 없는 뒷부분을 완성하거나 추정하지 않았습니다.",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ]
+    },
+    {
+      "id": "review-2026-09-21-care-102-tubes",
+      "recordedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "correction",
+      "target": "message-ddfcfd45-f457-5a29-83e5-93c05c79d73d",
+      "note": "본문의 ‘콧줄을 스스로 뽑음’은 [바로 뒤 보호자의 설명](https://infant83.github.io/sj-resurrection/post/trauma/2026-09-19/#message-06de5198-c9bf-4046-bcdc-e1ec3400d78b)에 따라 ‘의료진 판단으로 제거’로 정정합니다. [목관도 의료진이 확인했고 괜찮다는 후속 입력](https://infant83.github.io/sj-resurrection/post/trauma/2026-09-19/#message-f98863ed-ddb7-4860-b76c-32ea7f4c15bf)이 있습니다. 다만 어느 관·부품이 빠졌는지와 구체적인 조치 내용은 이 대화에 없습니다.",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [],
+  "privacyReviewed": true
+}

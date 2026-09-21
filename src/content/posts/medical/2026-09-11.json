@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-09-11-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 9월 11일 의학지식 문의",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-11",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-09-22T06:39:02.995+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학지식",
+    "보호자 질문",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-4cb822b4-cf88-47e9-bc0a-140eeac7f872",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T21:05:06.946412+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "4cb822b4-cf88-47e9-bc0a-140eeac7f872",
+      "sourceOrdinal": 75,
+      "turnId": "e38fdf88-786c-4506-9566-7b5d1c0f56be",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "끈적한 흰색 가래가 계속되는 이유가 뭐지. 보통 감기걸리면 처음엔 가래가 맑다가 녹색같이 짙어지다가 노란색등 되고 낫게 되잖아. ",
+      "originalSha256": "sha256:f646864ceac1cb618c840bb70e27e48baf7ff364d94eee87768952b2ab63d35f",
+      "corrected": "끈적한 흰색 가래가 계속되는 이유가 뭐지. 보통 감기 걸리면 처음엔 가래가 맑다가 녹색 같이 짙어지다가 노란색 등 되고 낫게 되잖아. ",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-4bcfe514-4739-4a36-b19e-14ba45414dea",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T21:05:12.169367+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "4bcfe514-4739-4a36-b19e-14ba45414dea",
+      "sourceOrdinal": 76,
+      "turnId": "e38fdf88-786c-4506-9566-7b5d1c0f56be",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "exact",
+      "text": "네. 그런데 **기관절개를 하고 장기간 폐 치료를 받은 선진이의 가래는 일반적인 감기의 ‘맑음 → 누런/녹색 → 회복’ 패턴으로 해석하면 안 됩니다.** 지금 말씀하신 **끈적한 흰색 가래**는 오히려 감염의 색깔보다는 **분비물이 농축되어 있고, 스스로 배출하는 능력이 아직 충분하지 않은 상태**를 먼저 생각하게 합니다.\n\n### 왜 흰색인데 계속 끈적할까?\n\n선진이에게는 몇 가지 원인이 동시에 있을 수 있습니다.\n\n**첫째, 기관절개 때문에 정상적인 가습 기능을 우회합니다.** 정상적으로는 코와 인두를 지나면서 들이마신 공기가 따뜻해지고 수분을 얻습니다. 기관절개관은 이 과정을 건너뛰어 비교적 건조한 공기가 바로 기관으로 들어갑니다. 그러면 기관·기관지 분비물의 수분이 줄어 **하얗고 끈끈한 점액**이 되기 쉽습니다. 그래서 기관절개 환자에게 HME(heat-moisture exchanger)나 가온가습이 중요한 이유입니다.\n\n**둘째, 폐와 기관지가 아직 분비물을 많이 만드는 상태일 수 있습니다.** 폐렴이 호전되었다고 해서 기도 점막의 염증과 분비물 생산이 즉시 정상으로 돌아오는 것은 아닙니다. 기관절개관 자체도 기관 점막을 자극합니다.\n\n**셋째, 선진이는 아직 기침으로 분비물을 완전히 청소하는 능력이 회복 중입니다.** 장기간 침상생활, 폐 타박상, 늑골 골절, 복부 외상·수술, 전신 근육 감소 등이 모두 영향을 줄 수 있습니다. 그러면 만들어지는 가래의 양이 특별히 많지 않아도 **배출 속도 < 생성 속도**가 되어 계속 쌓입니다.\n\n**넷째, 수분 상태도 영향을 줍니다.** 설사·구토와 경관영양 문제를 겪었던 선진이에게는 이것도 생각해야 합니다. 체내 수분이 부족하면 기관분비물도 더 끈적해질 수 있습니다.\n\n그래서 지금 사용하고 있는 **뮤테란(acetylcysteine)**도 이 문제와 연결됩니다. 앞서 보여주신 약 중 뮤테란은 점액의 점도를 낮춰 가래를 배출하기 쉽게 만드는 거담제입니다. 즉 의료진도 끈적한 분비물을 관리 대상으로 보고 있을 가능성이 있습니다. memcite\n\n---\n\n## 그런데 흰색이라는 것은 좋은 것인가?\n\n**색 하나만으로 감염 여부를 판단할 수 없습니다.**\n\n일반 감기에서도 “녹색이면 세균감염, 맑아지면 완치”라는 공식은 정확하지 않습니다. 녹색·노란색은 호중구와 그 효소 등의 영향을 받아 나타날 수 있어서 바이러스 감염에서도 생깁니다.\n\n기관절개 환자에서는 더욱 그렇습니다.\n\n따라서 저는 **색보다 다음 추세를 훨씬 중요하게 봅니다.**\n\n**좋은 방향**\n`노랗거나 녹색 → 흰색/맑은색`\n+ 발열 감소\n+ CRP/WBC 감소\n+ 산소 요구량 감소\n+ 흉부영상 호전\n+ suction 빈도 감소\n+ **스스로 기침해서 배출하는 양 증가**\n\n라면 상당히 좋은 그림입니다.\n\n반대로\n\n`흰색 가래가 계속됨`\n+ 양이 갑자기 증가\n+ 악취\n+ 발열\n+ 산소포화도 저하\n+ 호흡수 증가\n+ CRP/WBC 상승\n+ 새로운 X-ray 침윤\n\n이라면 색이 흰색이라고 안심할 수 없습니다.\n\n---\n\n## 선진이의 최근 경과에서는 조금 흥미로운 부분이 있습니다\n\n최근 기록에서는 선진이가 **산소 없이 SpO₂ 95% 정도를 유지했고**, 9월 9일에는 오후부터 **자발적으로 기침해서 기관절개관 밖으로 가래를 반복해서 배출하여 suction 없이도 일부 처리할 수 있었던 것**으로 되어 있습니다.\n\n이건 제가 꽤 중요하게 보는 변화입니다.\n\n이전에는\n\n**가래 생성 → 스스로 못 올림 → suction 필요**\n\n였다면,\n\n최근에는 적어도 일부 시간에\n\n**가래 생성 → 기침 → 기관절개관까지 이동 → 스스로 배출**\n\n이 가능해졌다는 뜻이기 때문입니다.\n\n따라서 **가래가 아직 많다는 것과 기침·기도 청소 기능이 좋아지고 있다는 것은 동시에 존재할 수 있습니다.**\n\n오히려 지금 단계에서는 가래가 하루아침에 없어지는 것보다 **스스로 처리할 수 있는 비율이 증가하는 것**이 중요한 기능적 회복 지표입니다.\n\n---\n\n### 지금 간호사에게는 이것을 물어보세요\n\n> **“가래가 계속 흰색이고 많이 끈적인데, 폐렴은 현재 거의 잡힌 것으로 보시나요? 지금 가래가 많은 것은 감염 때문이라기보다 기관절개와 기도 분비물, 가습이나 배출 문제 때문으로 보시는 건가요?”**\n\n그리고 하나 더 중요한 질문은,\n\n> **“가래가 너무 끈적인데 현재 HME나 가습은 충분한가요? 수분 공급이나 네뷸라이저를 조절할 필요는 없나요?”**\n\n입니다.\n\n특히 **가래가 너무 끈적해서 suction catheter가 잘 안 들어가거나, 기관절개관을 막을 정도의 mucus plug가 만들어지는 것**은 피해야 합니다. 갑자기 숨쉬기 힘들어하거나, 기관절개관에서 공기가 잘 안 나오거나, SpO₂가 떨어지거나, 가래가 갑자기 안 나오면서 호흡음이 거칠어지면 바로 간호사를 불러야 합니다.\n\n지금 선진이에게 제가 보고 싶은 다음 변화는 **“가래가 없어지는 것” 하나가 아니라 `가래 점도 ↓ → 자발기침 배출 ↑ → suction 횟수 ↓ → 산소포화도 안정`이라는 연속적인 변화**입니다. 최근의 자발적인 기침 배출은 이 과정에서 의미 있는 변화로 볼 수 있습니다.",
+      "textSha256": "sha256:2a174983b1c6412cc7327c3617b416ca05ce37e6088413110b3c0355c18d520c",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "citationMarkers": [
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-cf7b32ad-1328-4e47-bc54-f4a6847f3a30",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T21:23:58.267145+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "cf7b32ad-1328-4e47-bc54-f4a6847f3a30",
+      "sourceOrdinal": 77,
+      "turnId": "1a6fd68c-8f81-4d17-9ac3-2740a6432e5e",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "손발이 따뜻해. 체온은 정상인데. 무슨 문제가 있는건 아닌가. 손은 36.9 얼글이나 몸은 36.7",
+      "originalSha256": "sha256:d5bd4b0486690c5c9bc29c2638e953535469be4ea92921c58a1c69010214e90b",
+      "corrected": "손발이 따뜻해. 체온은 정상인데. 무슨 문제가 있는 건 아닌가. 손은 36.9 얼굴이나 몸은 36.7",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-0979bb79-0f36-4a20-8d36-8fe2c3d5e51b",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T21:24:02.271866+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "0979bb79-0f36-4a20-8d36-8fe2c3d5e51b",
+      "sourceOrdinal": 78,
+      "turnId": "1a6fd68c-8f81-4d17-9ac3-2740a6432e5e",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "exact",
+      "text": "지금 말씀하신 정도라면 **손발이 따뜻하다는 것만으로 이상을 의심할 상황은 아닙니다.** 손에서 36.9℃, 얼굴·몸에서 36.7℃라면 차이는 **0.2℃에 불과하고 모두 정상 체온 범위**입니다.\n\n오히려 선진이처럼 장기간 중환자 치료를 받은 경우에는 손발이 차갑지 않고 따뜻하다는 것은 말초혈액순환이 잘 되고 있을 때 흔히 볼 수 있습니다. 이불, 자세, 실내온도, 손을 움직인 정도 등에 따라서도 손발 온도는 쉽게 달라집니다.\n\n다만 **손발이 따뜻한 것과 발열은 별개의 문제**입니다. 손으로 만져서 뜨겁다고 느끼는 것보다 병원에서 사용하는 체온계로 같은 부위에서 반복 측정한 체온 추세가 더 중요합니다. 특히 피부 표면 온도계라면 손·얼굴 위치에 따라 0.2℃ 정도 차이는 충분히 생길 수 있습니다.\n\n### 선진이에게 지금 같이 보면 좋은 것은\n\n체온만 보지 말고 다음을 같이 보세요.\n\n**괜찮은 모습이라면**\n- 체온 36.7–36.9℃\n- 손발 색깔이 평소와 같음\n- 땀이 갑자기 많이 나지 않음\n- 호흡이 평소와 비슷함\n- 산소포화도가 평소 수준\n- 맥박이 평소 범위\n- 갑자기 처지거나 심하게 초조해지지 않음\n\n이라면 **손발이 따뜻한 것 때문에 별도의 문제를 걱정할 이유는 크지 않습니다.**\n\n반대로 체온이 정상이어도 **갑자기 손발이 매우 뜨겁고 얼굴이 붉어지면서 땀이 많이 난다거나, 맥박·호흡수가 갑자기 증가하거나, 혈압이 변하거나, 평소보다 의식이나 행동이 확연히 달라지는 경우**에는 간호사에게 알려주세요. 뇌손상 환자에서는 드물게 자율신경계 조절 이상이 나타날 수도 있지만, **현재 말씀하신 손발의 따뜻함과 36.7–36.9℃만으로 그것을 의심할 근거는 없습니다.**\n\n그리고 선진이는 비장절제 후이고 최근 감염 문제도 있었으므로 **실제 발열이 시작되면 손의 촉감보다는 측정 체온과 함께 맥박·호흡·SpO₂를 보는 것**이 좋습니다.\n\n지금 수치라면 저는 **정상 체온으로 기록하고 지켜보겠습니다.** 예를 들어 간병기록에는 `체온 36.7℃, 손 36.9℃, 손발 따뜻함, 기타 이상징후 없음` 정도로 남기면 충분합니다. memcite",
+      "textSha256": "sha256:c9518d8763fe31f60fd7351c4c8a53cadf794f77ef6c765b500eab8978b7b793",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "citationMarkers": [
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-8a1235e9-19f7-4879-a91e-7a3457a7baff",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T21:50:49.377818+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "8a1235e9-19f7-4879-a91e-7a3457a7baff",
+      "sourceOrdinal": 79,
+      "turnId": "2b26e6b7-25ac-4d17-931a-1f82b1c780d8",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "exact",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "cre 때문에 비장절제 위험성은 어때",
+      "originalSha256": "sha256:d62bd021bbacdf028d22a734e4d0cd6dfe4a46c67d0438767803b063c4ad1042"
+    },
+    {
+      "id": "message-0580cc57-8381-43b7-8917-f7062c381582",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-11T21:50:54.790208+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "0580cc57-8381-43b7-8917-f7062c381582",
+      "sourceOrdinal": 80,
+      "turnId": "2b26e6b7-25ac-4d17-931a-1f82b1c780d8",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "exact",
+      "text": "조금 더 주의해서 봐야 하는 조합은 맞습니다. 하지만 **“CRE가 있고 비장을 절제했으니 매우 위험하다”라고 바로 연결해서 생각할 필요는 없습니다.** 핵심은 현재 CRE가 **보균(colonization)**인지 실제 **감염(infection)**인지입니다.\n\n비장절제와 CRE는 서로 다른 위험축입니다. 비장이 없으면 특히 **폐렴구균, 수막구균, Hib 같은 피막세균(encapsulated bacteria)**에 대한 방어력이 떨어집니다. 그래서 비장절제 환자에서 가장 전형적으로 우려하는 것은 CRE 자체가 아니라 이런 균에 의한 빠른 패혈증입니다. citeturn0search10\n\n반면 **CRE(carbapenem-resistant Enterobacterales)**는 대장 등에 아무 증상 없이 보균될 수 있습니다. 실제로 CRE는 주로 소화관에 집락화하며, 보균은 수개월 이상 지속될 수도 있습니다. 보균 자체에는 보통 CRE를 없애기 위한 항생제를 투여하지 않습니다. citeturn0search36turn0search1\n\n### 선진이에게 중요한 것은 이 구분입니다\n\n**CRE 보균만 있는 경우**\n\n`장에서 CRE 검출 → 격리/접촉주의 필요 → 현재 감염은 아님`\n\n이라면 비장이 없다는 이유로 CRE가 갑자기 혈액으로 퍼진다고 볼 수는 없습니다. 다만 선진이는 장기간 입원, 최근 항생제 사용, 기관절개, 각종 의료기구 등의 요인이 있어 일반인보다 CRE가 실제 감염으로 전환될 위험은 높게 관리해야 합니다. CRE 보균 환자는 비보균 환자보다 이후 CRE 감염 위험이 높다는 것이 알려져 있습니다. citeturn0search36turn0search8\n\n반대로 **CRE가 혈액·폐·소변·상처 등에서 실제 감염을 일으킨 경우**는 이야기가 달라집니다. CRE는 carbapenem 계열을 포함한 여러 항생제에 내성을 보일 수 있어서 적절한 항생제를 선택하기 어렵고, 특히 혈류감염 같은 침습성 감염은 중증으로 진행할 수 있습니다. citeturn0search0turn0search4\n\n비장이 없는 선진이에게 그런 **전신 세균감염이 발생한다면 더욱 적극적으로 대응해야 하는 상황**인 것은 맞습니다.\n\n## 그래서 현재 선진이에게 가장 중요한 질문\n\n간호사나 교수님께 이것부터 확인해 보세요.\n\n> **“선진이 CRE는 지금 장내 보균인가요, 아니면 실제 감염인가요? 어느 검체에서 어떤 균이 검출된 건가요?”**\n\n그리고 균 이름까지 받아오세요.\n\n예를 들어 **Klebsiella pneumoniae, E. coli, Enterobacter** 중 무엇인지, 그리고 가능하면 **KPC, NDM 같은 carbapenemase가 확인됐는지**도 감염내과에서는 알고 있을 수 있습니다. CRE는 하나의 균 이름이 아니라 carbapenem에 내성을 가진 Enterobacterales 계열을 의미합니다. citeturn0search36turn0search9\n\n### 비장절제 때문에 제가 오히려 꼭 확인하고 싶은 것은 따로 있습니다\n\n선진이가 안정되어 가는 지금은 **비장절제 후 감염예방 계획**을 명확하게 만들어 놓는 것이 중요합니다.\n\n의료진에게\n\n> **“비장절제 후 폐렴구균·수막구균·Hib 예방접종 일정이 어떻게 되나요?”**\n\n그리고\n\n> **“퇴원 후 열이 나면 몇 도부터 바로 병원으로 와야 하나요? 선진이처럼 비장이 없는 아이의 발열 행동지침을 따로 받을 수 있나요?”**\n\n를 꼭 확인해 두세요.\n\n비장절제 환자는 발열성 감염을 일반적인 아이보다 훨씬 신속하게 평가하는 것이 중요합니다. CDC도 해부학적 무비증(asplenia)을 감염 위험이 증가하는 상태로 분류하고 이에 맞는 예방접종을 권고합니다. citeturn0search10\n\n**현재 선진이가 열이 없고, 혈압·호흡이 안정적이며, CRE가 단지 장에서 보균 상태로 검출된 것이라면 “CRE + 비장절제”라는 두 단어만으로 당장 패혈증 위험이 임박했다고 생각할 상황은 아닙니다.** 오히려 지금은 `보균인지 감염인지 확인 → 접촉주의 철저 → 불필요한 항생제 최소화 → 비장절제 후 예방접종 및 발열대응 계획 확립`이 가장 중요한 관리 방향입니다.\n\nCRE가 **어디에서 검출됐는지(대변/직장도말, 가래, 소변, 혈액)**를 알려주시면 위험도를 훨씬 정확하게 구분해드릴 수 있습니다.",
+      "textSha256": "sha256:ea8a3b2363cb1c5405379285c606644bb7cc658a2ff2490671e9be622f3bc3a5",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Altered Immunocompetence | Vaccines & Immunizations | CDC",
+          "url": "https://www.cdc.gov/vaccines/hcp/imz-best-practices/altered-immunocompetence.html?utm_source=chatgpt.com",
+          "attribution": "Krankheitskontrolle und Prävention"
+        },
+        {
+          "title": "CRE Carbapenem-resistant Entrobacterales Handout",
+          "url": "https://www.cdc.gov/healthcare-associated-infections/media/pdfs/CRE-handout-V7-508.pdf?utm_source=chatgpt.com",
+          "attribution": "Krankheitskontrolle und Prävention"
+        },
+        {
+          "title": "Preventing MDROs: FAQs | HAIs | CDC",
+          "url": "https://www.cdc.gov/healthcare-associated-infections/php/preventing-mdros/preventing-mdros-faqs.html?utm_source=chatgpt.com",
+          "attribution": "Krankheitskontrolle und Prävention"
+        },
+        {
+          "title": "About Microbial Ecology | Antimicrobial Resistance | CDC",
+          "url": "https://www.cdc.gov/antimicrobial-resistance/about/about-microbial-ecology.html?utm_source=chatgpt.com",
+          "attribution": "Krankheitskontrolle und Prävention"
+        },
+        {
+          "title": "Carbapenem-resistant Enterobacterales (CRE) Infection Control | CRE | CDC",
+          "url": "https://www.cdc.gov/cre/hcp/infection-control/index.html?utm_source=chatgpt.com",
+          "attribution": "Krankheitskontrolle und Prävention"
+        },
+        {
+          "title": "CDC Report Finds Sharp Rise in Dangerous Drug-Resistant Bacteria | CDC Newsroom",
+          "url": "https://www.cdc.gov/media/releases/2025/2025-cdc-report-finds-sharp-rise-in-dangerous-drug-resistant-bacteria.html?utm_source=chatgpt.com",
+          "attribution": "Krankheitskontrolle und Prävention"
+        },
+        {
+          "title": "Antimicrobial Resistance Laboratory Network Testing | ARLN | CDC",
+          "url": "https://www.cdc.gov/antimicrobial-resistance-laboratory-networks/php/about/testing-services.html?utm_source=chatgpt.com",
+          "attribution": "Krankheitskontrolle und Prävention"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn0search10",
+          "urls": [
+            "https://www.cdc.gov/vaccines/hcp/imz-best-practices/altered-immunocompetence.html?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search36turn0search1",
+          "urls": [
+            "https://www.cdc.gov/healthcare-associated-infections/media/pdfs/CRE-handout-V7-508.pdf?utm_source=chatgpt.com",
+            "https://www.cdc.gov/healthcare-associated-infections/php/preventing-mdros/preventing-mdros-faqs.html?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search36turn0search8",
+          "urls": [
+            "https://www.cdc.gov/healthcare-associated-infections/media/pdfs/CRE-handout-V7-508.pdf?utm_source=chatgpt.com",
+            "https://www.cdc.gov/antimicrobial-resistance/about/about-microbial-ecology.html?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search0turn0search4",
+          "urls": [
+            "https://www.cdc.gov/cre/hcp/infection-control/index.html?utm_source=chatgpt.com",
+            "https://www.cdc.gov/media/releases/2025/2025-cdc-report-finds-sharp-rise-in-dangerous-drug-resistant-bacteria.html?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "citeturn0search36turn0search9",
+          "urls": [
+            "https://www.cdc.gov/healthcare-associated-infections/media/pdfs/CRE-handout-V7-508.pdf?utm_source=chatgpt.com",
+            "https://www.cdc.gov/antimicrobial-resistance-laboratory-networks/php/about/testing-services.html?utm_source=chatgpt.com"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-09-21-medical-78-temperature",
+      "recordedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-0979bb79-0f36-4a20-8d36-8fe2c3d5e51b",
+      "note": "손 36.9℃와 얼굴·몸 36.7℃는 측정기 종류·부위·방법이 확인되지 않은 보호자 측정값입니다. 이 값만으로 중심체온 정상이나 충분한 말초순환을 확정하지 않습니다. 답변의 예시 ‘기타 이상징후 없음’은 보호자가 확인해 입력한 사실이 아닙니다. 같은 기기의 지정된 측정부위·사용법으로 병동이 확인한 체온과 구분해 기록합니다. [FDA 비접촉 체온계 안내](https://www.fda.gov/medical-devices/general-hospital-devices-and-supplies/non-contact-infrared-thermometers)",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [],
+  "privacyReviewed": true
+}

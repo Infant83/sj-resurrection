@@ -35,6 +35,8 @@ export function assertArchiveIntegrity(posts: ArchivePost[]) {
     const sourceIds = new Set(post.data.sources.map((source) => source.id));
     const sourceById = new Map(post.data.sources.map((source) => [source.id, source]));
     let previousMessageTime = '';
+    let previousMessage: ArchivePost['data']['messages'][number] | undefined;
+    const lastOrdinalBySource = new Map<string, number>();
     let userMessageCount = 0;
     let assistantMessageCount = 0;
     for (const message of post.data.messages) {
@@ -48,10 +50,31 @@ export function assertArchiveIntegrity(posts: ArchivePost[]) {
         }
       }
 
-      if (previousMessageTime && message.recordedAt.start.localeCompare(previousMessageTime) < 0) {
+      const canonicalSource = message.sourceRefs.length === 1 ? message.sourceRefs[0] : undefined;
+      const lastOrdinal = canonicalSource ? lastOrdinalBySource.get(canonicalSource) : undefined;
+      if (lastOrdinal !== undefined && message.sourceOrdinal !== undefined && message.sourceOrdinal <= lastOrdinal) {
+        throw new Error(`Messages contradict source order: ${post.data.recordId}/${message.id}`);
+      }
+      if (canonicalSource && message.sourceOrdinal !== undefined) {
+        lastOrdinalBySource.set(canonicalSource, message.sourceOrdinal);
+      }
+      // Interrupted streaming replies can have a later creation time than the
+      // next input. Only an explicitly reviewed, same-source sequence may use
+      // source ordinals instead; never rewrite the original timestamps.
+      const reviewedSourceOrder = Boolean(
+        message.sourceOrderNote?.trim() && previousMessage?.sourceVerified && message.sourceVerified &&
+        canonicalSource && previousMessage.sourceRefs.length === 1 &&
+        canonicalSource === previousMessage.sourceRefs[0] &&
+        sourceById.get(canonicalSource)?.type === 'chat-conversation' &&
+        sourceById.get(canonicalSource)?.certainty === 'confirmed' &&
+        previousMessage.sourceOrdinal !== undefined && message.sourceOrdinal !== undefined &&
+        message.sourceOrdinal > previousMessage.sourceOrdinal,
+      );
+      if (previousMessageTime && message.recordedAt.start.localeCompare(previousMessageTime) < 0 && !reviewedSourceOrder) {
         throw new Error(`Messages are not chronological: ${post.data.recordId}/${message.id}`);
       }
       previousMessageTime = message.recordedAt.start;
+      previousMessage = message;
 
       const isRedacted = message.fidelity === 'privacy-redacted';
       if (isRedacted) {

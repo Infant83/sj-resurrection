@@ -3,7 +3,7 @@
   "recordId": "medical-2026-09-15-conversation",
   "board": "medical",
   "entryType": "medical-knowledge",
-  "title": "2026년 9월 15일 의학지식 문의 2",
+  "title": "2026년 9월 15일 의학지식 문의",
   "status": "published",
   "sensitivity": "highly-sensitive",
   "recordedAt": {
@@ -12,7 +12,7 @@
     "timezone": "Asia/Seoul"
   },
   "updatedAt": {
-    "start": "2026-09-19T06:51:38.444+09:00",
+    "start": "2026-09-22T06:39:02.995+09:00",
     "precision": "second",
     "timezone": "Asia/Seoul"
   },
@@ -32,9 +32,101 @@
         "precision": "second",
         "timezone": "Asia/Seoul"
       }
+    },
+    {
+      "id": "chatgpt-medical-knowledge-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
     }
   ],
   "messages": [
+    {
+      "id": "message-a74af4f3-22fa-4fd4-8df0-85e6092a584a",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-15T13:46:09.915354+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "a74af4f3-22fa-4fd4-8df0-85e6092a584a",
+      "sourceOrdinal": 93,
+      "turnId": "c780f193-78d2-49a6-be61-966e6d309cb9",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "original": "전원 준비 해야하눈데 어디에 먼저 연럭해",
+      "originalSha256": "sha256:1f314cfca296298480457ce24cec974adf2147320fcf453f7e6cde798a1315d3",
+      "corrected": "전원 준비 해야 하는데 어디에 먼저 연락해",
+      "correctionPolicy": "typos-only"
+    },
+    {
+      "id": "message-4eebb498-4597-4915-9940-ca9460c9889c",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-15T13:46:55.874406+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "4eebb498-4597-4915-9940-ca9460c9889c",
+      "sourceOrdinal": 94,
+      "turnId": "c780f193-78d2-49a6-be61-966e6d309cb9",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "exact",
+      "text": "map\n\n지금은 **개별 재활병원에 무작정 전화하는 것보다, 먼저 현재 입원 중인 entity[\"turn0business4\",\"가톨릭대학교 의정부성모병원\"]의 주치의/병동에 “재활병원 전원 절차를 오늘 시작하고 싶다”고 말하고 전원 담당 부서(진료협력센터·의료사회복지팀 등)를 연결받는 것이 1순위**입니다.\n\n선진이는 단순 재활환자가 아니라 **소아·청소년 + 중증 외상성/저산소성 뇌손상 및 DAI + 기관절개 + suction 필요 + NG feeding + CRE 격리/보균 문제 + 여러 골절**이 있기 때문에, 병원마다 받을 수 있는 조건이 크게 다릅니다. 따라서 현재 병원에서 최신 진료요약서와 검사자료를 갖춰 **여러 후보에 동시에 전원 의뢰**하는 것이 가장 빠릅니다. memcite\n\n제가 지금 순서를 잡는다면 다음과 같습니다.\n\n1. **오늘 병동 간호사에게 바로 요청:**  \n   “선진이 재활병원 전원을 준비하려고 합니다. 전원 담당 선생님이나 사회사업팀/진료협력센터와 연결해주세요. 주치의께도 재활병원 전원 의뢰를 시작하고 싶다고 전달해주세요.”\n\n2. **재활의학과에 요청:**  \n   “선진이에게 필요한 재활 수준과 전원 가능한 병원 후보를 추천해주시고, 기관절개·CRE 상태에서도 받을 수 있는 병원인지 확인해주세요.”\n\n3. 병원 측 전원 절차와 병행해서 후보 병원에는 **동시에** 문의하는 것이 좋습니다. 현재 후보 중에서는 소아·청소년 재활 전문성이 높은 entity[\"turn0business2\",\"서울재활병원\"]과 푸르메재단 넥슨어린이재활병원을 우선 검토할 가치가 있습니다. 푸르메는 재활의학과 5명과 소아청소년과를 갖추고 있고 어린이 전문 재활 프로그램을 운영합니다. 다만 공개된 시설정보에는 격리병상이 0으로 표시되어 있어 **현재 CRE 상태와 기관절개관을 가진 선진이의 입원 수용 가능 여부는 반드시 직접 확인해야 합니다.** citeturn0search0turn0search2\n\n가까운 곳에서는 entity[\"turn0business8\",\"리하트병원\"]도 후보지만, 지금 선진이에게 필요한 것은 단순 물리치료가 아니라 **뇌손상 후 의식·인지재활 + 기관절개/흡인 + 연하·영양 + 골절재활을 동시에 감당할 수 있는 입원재활**이므로 이 조건을 먼저 확인해야 합니다.\n\n### 오늘 제가 가장 먼저 할 한마디\n\n간호사에게 지금 이렇게 말씀하세요.\n\n> **“선진이가 이제 본격적인 뇌손상 재활을 빨리 시작해야 할 것 같아서 재활병원 전원 준비를 오늘부터 시작하고 싶습니다. 기관절개관과 CRE 때문에 받을 수 있는 병원이 제한될 것 같은데, 전원 담당자와 재활의학과 선생님을 연결해서 서울재활병원·푸르메 등 여러 곳에 동시에 의뢰할 수 있도록 도와주세요.”**\n\n그리고 전원 담당자를 만나면 **“기관절개관 유지 중, 현재 산소 필요 여부, 하루 suction 횟수, NG feeding 여부, CRE가 어느 검체에서 나온 보균인지 감염인지, 현재 의식수준/명령수행, 골반·손목 체중부하 제한”**을 최신 상태로 정리해달라고 요청하세요. 이 정보가 전원 가능 여부를 좌우합니다.\n\n현재 상황에서는 **한 병원의 답을 기다렸다가 안 되면 다음 병원을 알아보는 방식보다 3–5곳에 동시에 의뢰하는 것이 좋습니다.** 특히 CRE 때문에 거절될 가능성을 고려해야 하기 때문입니다.\n\n원하시면 제가 **서울재활병원·푸르메·리하트 등을 실제 선진이 상태 기준으로 하나씩 확인해서, “오늘 전화할 순서 + 전화번호 + 담당부서 + 무엇을 말해야 하는지 + 기관절개/CRE 수용 여부”까지 전원 후보표로 만들어드릴 수 있습니다.**",
+      "textSha256": "sha256:d3744c2e3ea3aa42356d30aa28317a326cf29d26fdbd3f0d60366a7a9be9ae38",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "재활의료사업 | 푸르메재단",
+          "url": "https://purme.org/rehabilitation?utm_source=chatgpt.com",
+          "attribution": "푸르메재단"
+        },
+        {
+          "title": "< 건강보험심사평가원",
+          "url": "https://www.hira.or.kr/ra/hosp/hospInfoAjax.do?ykiho=JDQ4MTg4MSM1MSMkMSMkMCMkOTkkNTgxMzUxIzIxIyQyIyQxIyQwMCQyNjEwMDIjNTEjJDEjJDIjJDgz&utm_source=chatgpt.com",
+          "attribution": "Hira"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn0search0turn0search2",
+          "urls": [
+            "https://purme.org/rehabilitation?utm_source=chatgpt.com",
+            "https://www.hira.or.kr/ra/hosp/hospInfoAjax.do?ykiho=JDQ4MTg4MSM1MSMkMSMkMCMkOTkkNTgxMzUxIzIxIyQyIyQxIyQwMCQyNjEwMDIjNTEjJDEjJDIjJDgz&utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
     {
       "id": "message-66c926c3-30eb-45e7-ac1a-9901021bc813",
       "role": "user",
@@ -1034,9 +1126,25 @@
       "sourceRefs": [
         "chatgpt-medical-knowledge-2-2026"
       ]
+    },
+    {
+      "id": "review-2026-09-21-medical-94-transfer-status",
+      "recordedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "follow-up",
+      "target": "message-4eebb498-4597-4915-9940-ca9460c9889c",
+      "note": "이 답변은 9월 15일 당시의 전원 문의 제안입니다. 병원의 의료진 수·격리병상 표시·입원 수용 여부는 현재 상태로 재확인되지 않았습니다. 9월 21일 간병일지는 [진료협력팀에 문의를 넣었다는 회진 전달과 당일 연락 미수신](https://infant83.github.io/sj-resurrection/post/trauma/2026-09-21/#message-99241cb7-1cae-4d1a-8cf6-7d40f3afd4f8)을 기록합니다. 전원 확정은 아니며, 의뢰 자료의 콧줄·경구식·기관절개관·균 검사 상태는 최근 기록으로 갱신해야 합니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ]
     }
   ],
   "media": [],
-  "related": [],
+  "related": [
+    "medical-2026-09-14-conversation"
+  ],
   "privacyReviewed": true
 }

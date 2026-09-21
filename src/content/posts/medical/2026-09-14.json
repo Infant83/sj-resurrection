@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-09-14-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 9월 14일 의학지식 문의",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-14",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-09-22T06:39:02.995+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학지식",
+    "보호자 질문",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-260cb0ca-6f42-4c65-84e4-b489b8170ce8",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-14T08:17:21.577165+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "260cb0ca-6f42-4c65-84e4-b489b8170ce8",
+      "sourceOrdinal": 91,
+      "turnId": "44f5fa83-a771-4277-bf24-b496e6d1d4f3",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "privacy-redacted",
+      "privacyRedactions": [
+        "image"
+      ],
+      "privacyNote": "첨부 사진과 원본 연결정보는 공개하지 않습니다. 그 외 입력 텍스트는 원문대로 보존했습니다.",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명은 보호자가 옮긴 내용이며 공식 의무기록이나 검사 결과지 확인과 구분합니다.",
+      "publicText": "자세는 이렇게 해주고있어",
+      "publicTextSha256": "sha256:345163a57988d7469f1bb2f7f7601b48478efd31d9917222a792da049d101f3f"
+    },
+    {
+      "id": "message-12db50e6-c54b-4423-97c4-1ac46c68827a",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-14T08:17:24.711434+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "12db50e6-c54b-4423-97c4-1ac46c68827a",
+      "sourceOrdinal": 92,
+      "turnId": "44f5fa83-a771-4277-bf24-b496e6d1d4f3",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "exact",
+      "text": "네. 이 사진은 이전 사진보다 **상체가 올라가 있고, 양쪽 다리가 모두 침대 위에서 지지되고 있다는 점은 좋아 보입니다.** 다만 선진이의 골반 골절과 최근 자세 습관을 생각하면 몇 가지는 조정 여부를 재활치료사에게 확인하고 싶습니다.\n\n### 사진에서 보이는 자세\n\n사진상 선진이는 대략 **30–45° 정도 상체를 올린 반좌위**이고, 한쪽 고관절·무릎은 상당히 굽혀져 있으며 반대쪽 다리는 비교적 길게 내려와 있습니다. 기관절개관도 크게 꺾여 보이지 않습니다.\n\n이 자세의 장점은 **호흡과 가래 배출, 경관영양 후 역류·흡인 예방** 측면입니다. 지금처럼 가래와 기관절개관 문제가 있는 선진이에게 완전히 평평하게 누워 있는 것보다 이런 반좌위가 유리한 경우가 많습니다.\n\n다만 제가 가장 신경 쓰이는 것은 **골반의 좌우 비대칭**입니다.\n\n한쪽 무릎을 많이 굽힌 상태가 장시간 지속되면 골반이 회전하거나 한쪽으로 기울어진 자세가 고착될 수 있습니다. 그렇다고 지금 다리를 억지로 펴서는 안 됩니다. 선진이는 특정 고관절 회전에서 골반 통증을 보였기 때문입니다. memcite\n\n## 지금처럼 하되, 세 가지를 추가하면 좋겠습니다\n\n**첫째, 굽힌 다리가 스스로 그 위치를 유지하도록 내버려두기보다 부드럽게 받쳐주세요.** 사진의 분홍색 베개처럼 무릎이나 허벅지를 지지하는 것은 괜찮은 방향입니다. 다만 베개가 다리를 더 벌리거나 특정 방향으로 밀어내는 역할을 하지 않도록 해야 합니다.\n\n**둘째, 발뒤꿈치 압박을 확인하세요.** 사진에서는 발뒤꿈치가 침대에 상당 시간 닿을 수 있습니다. 장시간 누워 있는 환자에서는 뒤꿈치가 욕창이 생기기 쉬운 곳입니다. 재활팀이나 간호사에게 **종아리 아래를 부드럽게 받쳐 뒤꿈치 압력을 줄이는 방식이 선진이에게 가능한지** 물어보세요. 골절 때문에 임의로 적용하지 말고 한 번 시범을 받는 것이 좋습니다.\n\n**셋째, 같은 반좌위라도 2–3시간 내내 정확히 같은 압박점에 있지 않도록 합니다.** 큰 체위변경이 어렵다면 몸통이나 골반의 압박점을 조금씩 바꿔주는 방법을 간호사에게 배우세요.\n\n---\n\n### 한 가지는 굳이 하지 않으셔도 됩니다\n\n사진을 볼 때\n\n> “오른쪽 다리는 구부러졌고 왼쪽은 펴져 있으니까 양쪽을 똑같이 만들어야겠다.”\n\n라고 생각해서 **두 다리를 강제로 대칭으로 만들 필요는 없습니다.**\n\n현재 목표는 **미적으로 반듯한 자세가 아니라**\n\n**통증 최소화 + 호흡 편안함 + 관절가동범위 보존 + 피부 압박 방지**\n\n입니다.\n\n오히려 지금처럼 깨어 있을 때는 선진이가 **스스로 다리를 펴거나 굽히거나 위치를 바꾸려 하는지**도 관찰해보세요. 스스로 다른 자세를 취할 수 있다는 것은 관절이 이미 굳어버린 것과는 상당히 다른 상황입니다.\n\n그리고 오늘 재활치료사가 오면 이 사진을 그대로 보여주면서 딱 한 가지만 부탁하는 게 좋겠습니다.\n\n> **“이 자세로 오래 있는 경우가 많은데, 골반 골절을 고려해서 낮에 깨어 있을 때와 잘 때 각각 베개를 어디에 받쳐야 하는지 실제로 한번 만들어주세요. 사진 찍어서 그대로 따라 하겠습니다.”**\n\n이렇게 해서 **‘선진이 표준 침상 자세’ 한두 가지를 만들어 놓는 것**이 가장 실용적입니다. 보호자가 매번 자세가 맞는지 고민할 필요도 줄고, 아빠·엄마·간호사 모두 같은 방식으로 체위를 관리할 수 있습니다.",
+      "textSha256": "sha256:ebaacdfb19881ffceacc95713fab069724059b45535dad2af6e1ce2bf4822fbc",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "citationMarkers": [
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-09-21-medical-92-position-scope",
+      "recordedAt": {
+        "start": "2026-09-22T06:39:02.995+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-12db50e6-c54b-4423-97c4-1ac46c68827a",
+      "note": "사진에서 추정한 30–45°는 실제로 측정한 침상 각도가 아닙니다. 사진 한 장으로 골반 정렬·관절 구축·기관절개관의 안전성을 확정하지 않으며, 자세와 체위변경 간격은 골절·호흡·피부 상태를 직접 본 병동·재활팀의 지시를 따릅니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [
+    "medical-2026-09-13-conversation"
+  ],
+  "privacyReviewed": true
+}
