@@ -36,10 +36,41 @@
 ## Boards
 
 1. `trauma` — 경과기록
-2. `life` — 선진과 함께하는 삶
-3. `medical` — 의학 지식
-4. `rehabilitation` — 재활 준비
-5. `media` — 자료·미디어 보관함
+2. `rehab-care` — 재활 기록: 외래 준비·진료, 전원·입원 상담, 입원 재활, 재평가
+3. `life` — 선진과 함께하는 삶
+4. `medical` — 의학 지식
+5. `rehabilitation` — 재활 준비
+6. `media` — 자료·미디어 보관함
+
+## Rehabilitation records
+
+`board/rehab-care/` keeps clinical rehabilitation conversations separate from the
+existing preparation resources. It includes source-linked appointment records for
+국립재활원, 한양대학교병원, 서울아산병원 and 세브란스병원. The first imported
+conversation is the September 30 pre-visit preparation for 국립재활원, not a visit
+result or admission decision. Existing care and preparation records keep their
+original locations and are linked as evidence without duplicating their messages.
+
+New posts use `board: "rehab-care"` and `rehab.hospitalIds` / `rehab.phases` from
+`src/data/rehab.ts`. Both arrays can contain several labels when a complete dated
+conversation concerns multiple hospitals or stages. Never split the conversation
+to fit a filter. Stages describe the record's content, not a medical recovery grade.
+
+For a later visit, transfer decision or inpatient update:
+
+1. Import the complete verified dialogue by its conversation date with the usual
+   message hashes, provenance and privacy review.
+2. Set the hospital and stage labels using the latest source, distinguishing
+   preparation, completed visits, admission discussions and actual inpatient care.
+3. Update `src/data/rehab-hospitals.json` only when a new source establishes a
+   booking change. Keep the confirmation date and links to the source messages.
+   A date passing does not establish that a visit took place or admission occurred.
+4. Add amendments for changed information and retain older source posts. Run
+   `npm run ledger:refresh`, `npm run test:archive`, privacy, check and build.
+
+Hospital and phase filters, record counts and the inpatient section derive from
+published posts. Original attachments, contact details and account information
+remain excluded. No patient information is entered into or sent from the page.
 
 ## Daily bedside activity worksheet
 

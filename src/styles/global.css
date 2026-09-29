@@ -295,6 +295,7 @@ select {
 .board-link.board-life.active { background: var(--life); }
 .board-link.board-medical.active { background: var(--medical); }
 .board-link.board-rehabilitation.active { background: var(--rehabilitation); }
+.board-link.board-rehab-care.active { background: #2e675e; }
 .board-link.board-media.active { background: var(--media); }
 
 .main-shell {
@@ -495,6 +496,7 @@ select {
 .feed-card-life::before { background: var(--life); }
 .feed-card-medical::before { background: var(--medical); }
 .feed-card-rehabilitation::before { background: var(--rehabilitation); }
+.feed-card-rehab-care::before { background: #2e675e; }
 .feed-card-media::before { background: var(--media); }
 
 .card-header {
@@ -525,6 +527,12 @@ select {
 .section-life { color: var(--life); background: var(--life-bg); }
 .section-medical { color: var(--medical); background: var(--medical-bg); }
 .section-rehabilitation { color: var(--rehabilitation); background: var(--rehabilitation-bg); }
+.section-rehab-care { color: #22534b; background: #dcefe7; }
+.rehab-context-label { font-size: 0.75rem; color: var(--ink-soft); }
+.rehab-feed-filters { display: flex; flex-wrap: wrap; align-items: end; gap: 12px; margin-bottom: 16px; }
+.rehab-feed-filters label { display: grid; gap: 5px; flex: 1 1 180px; font-size: 0.85rem; color: var(--ink-soft); }
+.rehab-feed-filters select, .rehab-feed-filters button { min-height: 44px; padding: 8px 12px; border: 1px solid var(--line-strong); border-radius: 10px; background: var(--surface); color: var(--ink); }
+.rehab-feed-filters select { width: 100%; }
 .section-media { color: var(--media); background: var(--media-bg); }
 
 .review-badge {

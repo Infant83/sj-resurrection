@@ -2,18 +2,37 @@
 import type { CollectionEntry } from 'astro:content';
 import { sortPosts } from '../lib/archive';
 import PostCard from './PostCard.astro';
+import { rehabHospitals, rehabPhases } from '../data/rehab';
 
 interface Props {
   posts: CollectionEntry<'posts'>[];
   boardLabel?: string;
+  rehabFilters?: boolean;
 }
 
-const { posts, boardLabel = '전체 기록' } = Astro.props;
+const { posts, boardLabel = '전체 기록', rehabFilters = false } = Astro.props;
 const sortedPosts = sortPosts(posts);
 const months = [...new Set(sortedPosts.map((post) => post.data.recordedAt.start.slice(0, 7)))].filter((month) => /^\d{4}-\d{2}$/.test(month));
 ---
 
 <section class="archive-feed" data-archive-feed>
+  {rehabFilters && (
+    <div class="rehab-feed-filters" aria-label="재활 기록 분류">
+      <label>병원
+        <select data-hospital-filter>
+          <option value="all">모든 병원</option>
+          {rehabHospitals.map(h => <option value={h.id}>{h.label}</option>)}
+        </select>
+      </label>
+      <label>기록 단계
+        <select data-rehab-phase-filter>
+          <option value="all">모든 단계</option>
+          {rehabPhases.map(p => <option value={p.id}>{p.label}</option>)}
+        </select>
+      </label>
+      <button type="button" data-feed-reset>전체 기록 보기</button>
+    </div>
+  )}
   <div class="feed-toolbar" aria-label={`${boardLabel} 찾기와 정렬`}>
     <label class="search-field">
       <span class="sr-only">기록 검색</span>
@@ -58,6 +77,8 @@ const months = [...new Set(sortedPosts.map((post) => post.data.recordedAt.start.
     const cards = Array.from(feed.querySelectorAll('[data-post-card]'));
     const search = feed.querySelector('[data-feed-search]');
     const month = feed.querySelector('[data-month-filter]');
+    const hospital = feed.querySelector('[data-hospital-filter]');
+    const phase = feed.querySelector('[data-rehab-phase-filter]');
     const sortButtons = Array.from(feed.querySelectorAll('[data-sort]'));
     const loadMore = feed.querySelector('[data-load-more]');
     const empty = feed.querySelector('[data-feed-empty]');
@@ -69,12 +90,16 @@ const months = [...new Set(sortedPosts.map((post) => post.data.recordedAt.start.
     function filteredCards() {
       const query = search instanceof HTMLInputElement ? search.value.trim().toLocaleLowerCase('ko-KR') : '';
       const monthValue = month instanceof HTMLSelectElement ? month.value : 'all';
+      const hospitalValue = hospital instanceof HTMLSelectElement ? hospital.value : 'all';
+      const phaseValue = phase instanceof HTMLSelectElement ? phase.value : 'all';
       return cards
         .filter((card) => {
           if (!(card instanceof HTMLElement)) return false;
           const matchesQuery = !query || (card.textContent ?? '').toLocaleLowerCase('ko-KR').includes(query);
           const matchesMonth = monthValue === 'all' || card.dataset.month === monthValue;
-          return matchesQuery && matchesMonth;
+          const matchesHospital = hospitalValue === 'all' || (card.dataset.hospitals ?? '').split(' ').includes(hospitalValue);
+          const matchesPhase = phaseValue === 'all' || (card.dataset.rehabPhases ?? '').split(' ').includes(phaseValue);
+          return matchesQuery && matchesMonth && matchesHospital && matchesPhase;
         })
         .sort((a, b) => {
           if (!(a instanceof HTMLElement) || !(b instanceof HTMLElement)) return 0;
@@ -108,10 +133,25 @@ const months = [...new Set(sortedPosts.map((post) => post.data.recordedAt.start.
     function resetAndRender() {
       visibleCount = batchSize;
       renderFeed();
+      if (hospital instanceof HTMLSelectElement && phase instanceof HTMLSelectElement) {
+        const url = new URL(window.location.href);
+        for (const [control, key] of [[hospital, 'hospital'], [phase, 'phase']] as const) {
+          if (control.value === 'all') url.searchParams.delete(key);
+          else url.searchParams.set(key, control.value);
+        }
+        window.history.replaceState(null, '', url);
+      }
     }
 
     search?.addEventListener('input', resetAndRender);
     month?.addEventListener('change', resetAndRender);
+    hospital?.addEventListener('change', resetAndRender);
+    phase?.addEventListener('change', resetAndRender);
+    feed.querySelector('[data-feed-reset]')?.addEventListener('click', () => {
+      if (search instanceof HTMLInputElement) search.value = '';
+      for (const select of [month, hospital, phase]) if (select instanceof HTMLSelectElement) select.value = 'all';
+      resetAndRender();
+    });
     sortButtons.forEach((button) => {
       button.addEventListener('click', () => {
         if (!(button instanceof HTMLButtonElement)) return;
@@ -144,6 +184,12 @@ const months = [...new Set(sortedPosts.map((post) => post.data.recordedAt.start.
       infiniteScroll.observe(loadMore);
     }
 
+    // A hospital link remains shareable and the source post is kept complete.
+    const params = new URLSearchParams(window.location.search);
+    for (const [control, key] of [[hospital, 'hospital'], [phase, 'phase']] as const) {
+      const requested = params.get(key);
+      if (control instanceof HTMLSelectElement && requested && Array.from(control.options).some(o => o.value === requested)) control.value = requested;
+    }
     const targetId = decodeURIComponent(window.location.hash.replace('#', ''));
     if (targetId) {
       const targetIndex = cards.findIndex((card) => card.id === targetId);

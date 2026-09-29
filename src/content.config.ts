@@ -1,6 +1,7 @@
 import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
+import { rehabHospitals, rehabPhases } from './data/rehab';
 
 const stamp = z.object({
   start: z.string(),
@@ -103,7 +104,7 @@ const posts = defineCollection({
   schema: z.object({
     schemaVersion: z.literal(2),
     recordId: z.string(),
-    board: z.enum(['trauma', 'life', 'medical', 'rehabilitation', 'media']),
+    board: z.enum(['trauma', 'rehab-care', 'life', 'medical', 'rehabilitation', 'media']),
     entryType: z.enum([
       'clinical-update',
       'letter',
@@ -119,6 +120,10 @@ const posts = defineCollection({
     recordedAt: stamp,
     updatedAt: stamp.optional(),
     tags: z.array(z.string()).default([]),
+    rehab: z.object({
+      hospitalIds: z.array(z.enum(rehabHospitals.map(h => h.id))).min(1),
+      phases: z.array(z.enum(rehabPhases.map(p => p.id))).min(1),
+    }).optional(),
     sources: z.array(source).default([]),
     messages: z.array(archiveMessage).min(1),
     amendments: z.array(amendment).default([]),

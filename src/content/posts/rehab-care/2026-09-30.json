@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 2,
+  "recordId": "rehab-care-2026-09-30-conversation",
+  "board": "rehab-care",
+  "entryType": "clinical-update",
+  "title": "2026년 9월 30일 국립재활원 첫 외래 준비",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-30",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-09-30T06:48:44.379+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "국립재활원",
+    "김현경",
+    "외래 준비",
+    "인지·언어 평가",
+    "입원 재활 상담"
+  ],
+  "rehab": {
+    "hospitalIds": [
+      "nrc"
+    ],
+    "phases": [
+      "outpatient-preparation"
+    ]
+  },
+  "sources": [
+    {
+      "id": "chatgpt-rehabilitation-clinical-course-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "재활진료 경과정리 · 진료 전 대화 원문 확인(진료 결과 아님)",
+      "accessedAt": {
+        "start": "2026-09-30T06:48:44.379+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-b078b79a-0a39-4d3e-90d7-79b811435eee",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-30T06:07:36.454172+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-30T06:48:44.379+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "b078b79a-0a39-4d3e-90d7-79b811435eee",
+      "sourceOrdinal": 1,
+      "turnId": "26811381-4b8c-4b4c-ab45-80836bb76860",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-clinical-course-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "오늘 선진이 국립 재활원에 외래 진료를 처음가게 되. 김현경 교수님 진료를 보는데, 그간의 사고 이후의 경과와 간병기록등을 바탕으로 현재 회복기의 경과와 전달할만한 이야기들을 정리해서 알려줘. ",
+      "originalSha256": "sha256:df457303ad97990f3dde51a926f37ee6ef51d99482c897327516d31e1339f7dd",
+      "corrected": "오늘 선진이 국립재활원에 외래 진료를 처음 가게 돼. 김현경 교수님 진료를 보는데, 그간의 사고 이후의 경과와 간병 기록 등을 바탕으로 현재 회복기의 경과와 전달할만한 이야기들을 정리해서 알려줘. ",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 진료 전에 입력한 준비 요청입니다. 진료 완료나 입원 결정 보고가 아닙니다."
+    },
+    {
+      "id": "message-d0f1e03c-96ad-52f6-bcb0-9d575b937cd5",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-30T06:07:44.652222+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-30T06:48:44.379+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "d0f1e03c-96ad-52f6-bcb0-9d575b937cd5",
+      "sourceOrdinal": 2,
+      "turnId": "26811381-4b8c-4b4c-ab45-80836bb76860",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-clinical-course-2026"
+      ],
+      "fidelity": "exact",
+      "text": "최근 간병기록과 사고 이후 경과를 확인해, 오늘 진료에서 바로 말씀드릴 수 있는 요약과 재활 평가 때 확인할 질문을 정리하겠습니다. 최근에 달라진 반응과 아직 도움이 필요한 기능을 중심으로 살펴볼게요.",
+      "textSha256": "sha256:ef84472f3d89135545e7387ac58805ec33190d650c45f54724794996e4441d03",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "진료 전에 GPT가 이전 대화를 바탕으로 작성한 설명·브리핑 원문입니다. 공식 진료기록, 전문의 평가나 입원 수용 결과와 구분합니다. 참고 링크는 당시 답변의 출처입니다."
+    },
+    {
+      "id": "message-e7a2c881-17c5-5665-9637-70d78aa701a5",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-30T06:07:56.773214+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-30T06:48:44.379+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "e7a2c881-17c5-5665-9637-70d78aa701a5",
+      "sourceOrdinal": 3,
+      "turnId": "26811381-4b8c-4b4c-ab45-80836bb76860",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-clinical-course-2026"
+      ],
+      "fidelity": "exact",
+      "text": "이전 대화 확인 스킬로 최근 기록을 대조하겠습니다. 특히 쿠에타핀 중단 뒤 깨어 있는 시간의 변화, 의사표현, 식사와 보행 상태를 확인해 진료 요약에 반영하겠습니다.",
+      "textSha256": "sha256:1a5c047454ca2ab4daeeb2a3e85de2cca3af8bfb0d6a7aca177fb904762455c6",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "진료 전에 GPT가 이전 대화를 바탕으로 작성한 설명·브리핑 원문입니다. 공식 진료기록, 전문의 평가나 입원 수용 결과와 구분합니다. 참고 링크는 당시 답변의 출처입니다."
+    },
+    {
+      "id": "message-0b99f17e-942e-5cb9-a4f3-68a26193083d",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-30T06:09:10.756039+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-30T06:48:44.379+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "0b99f17e-942e-5cb9-a4f3-68a26193083d",
+      "sourceOrdinal": 4,
+      "turnId": "26811381-4b8c-4b4c-ab45-80836bb76860",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-clinical-course-2026"
+      ],
+      "fidelity": "exact",
+      "text": "9월 28~29일 기록에서 이름 쓰기, 음식 요구 손짓, 가족사진을 10분 이상 직접 조작해 보기, 부축 보행이 확인됩니다. 동시에 말로만 하는 지시에는 반응이 일정하지 않고, 식사 자세·목관과 가래·다리 조절에도 도움이 필요합니다. 이 차이를 구체적인 사례로 전달하는 것이 오늘 평가에 중요하겠습니다.",
+      "textSha256": "sha256:c9d28a05b1ce9b456130633764cc016e2d69db6ba1c531a941f3cbbdd71760ab",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "진료 전에 GPT가 이전 대화를 바탕으로 작성한 설명·브리핑 원문입니다. 공식 진료기록, 전문의 평가나 입원 수용 결과와 구분합니다. 참고 링크는 당시 답변의 출처입니다."
+    },
+    {
+      "id": "message-f016bc03-925e-56df-969b-2a5c17c7e94a",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-30T06:09:50.446412+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-30T06:48:44.379+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "f016bc03-925e-56df-969b-2a5c17c7e94a",
+      "sourceOrdinal": 5,
+      "turnId": "26811381-4b8c-4b4c-ab45-80836bb76860",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-clinical-course-2026"
+      ],
+      "fidelity": "privacy-redacted",
+      "privacyRedactions": [
+        "date-of-birth"
+      ],
+      "privacyNote": "출생연월을 가렸습니다. 그 외 답변 텍스트는 원문대로 보존했습니다.",
+      "text": "현중님, 오늘은 **“사고 후 어떤 치료를 받았는지”와 함께, “최근 스스로 할 수 있게 된 일과 여전히 어려운 일이 무엇인지”를 구체적으로 전달하는 것**이 중요하겠습니다. 특히 선진이는 최근 **목적 있는 행동과 의사표현이 늘고 있지만, 말로 하는 지시의 이해·수행은 일정하지 않다**는 점을 중심으로 평가받으면 좋겠습니다.\n\n아래는 **9월 29일까지의 보호자 기록을 바탕으로 정리한 진료용 요약**입니다. 검사 결과와 현재 약은 의뢰서·처방전으로 대조해야 합니다.\n\n진료실에서는 먼저 이렇게 말씀하시면 됩니다.\n\n> 선진이는 [출생연월 비공개], 중학교 2학년 남자아이입니다. 7월 25일 추락사고로 중증 다발성 외상을 입어 의정부성모병원에서 치료 중입니다. 진단서에는 외상성·저산소성 뇌손상이 기재되어 있고, MRI에 대해서는 미만성 축삭손상이라는 설명을 들었습니다. 비장절제와 간 손상 수술, 손목 골절 수술을 받았고, 중환자실 치료와 기관절개를 거쳐 9월 7일 일반병실로 옮겼습니다.\n>\n> 처음에는 눈맞춤과 가족을 보고 웃는 반응이 중심이었는데, 최근에는 젓가락으로 음식을 먹고, 원하는 음식을 손짓으로 요구하고, 가족사진을 직접 조작해서 봅니다. 9월 28일에는 자기 이름과 엄마 이름을 쓰기도 했습니다. 다만 말로만 지시하면 반응이 일정하지 않고, 말로 의사를 표현하는 것도 아직 어렵습니다.\n>\n> 부축해서 일어서고 짧게 걷는 것이 좋아지고 있지만, 오른다리가 바깥으로 돌아가고 왼다리가 움직일 때 떨리는 모습이 있습니다. 식사는 일반식까지 먹고 있지만 자세가 기울거나 급하게 먹기도 합니다. 기관절개관은 유지 중이고 가래를 관 밖으로 배출합니다. 쿠에타핀을 먹지 않은 뒤 낮에 깨어 있고 활동하는 시간이 늘었다고 관찰했습니다.\n>\n> 현재 인지·언어·운동 기능을 함께 평가받고, 입원 재활 가능 여부와 앞으로 몇 주 동안 우선해야 할 치료를 구체적으로 정하고 싶습니다.\n\n사고 이후의 큰 경과는 다음처럼 전달하면 됩니다.\n\n| 시기 | 주요 경과 |\n|---|---|\n| **7월 25일 사고 및 초기 치료** | 추락에 따른 중증 다발성 외상. 초기 의식 저하와 심한 순환 불안정. 비장절제·간 손상 수술, 손목 골절 수술. 골반·쇄골·늑골 골절과 폐 손상 이력. |\n| **중환자실 치료기** | 인공호흡기 치료, 재삽관과 심폐소생술 이력. 당시 보호자 기록에는 **8월 1일 약 2분간 심폐소생술**로 남아 있어 의무기록 확인 필요. 이후 기관절개 시행. 폐렴·흉수, 발열, 간수치 상승, 영양 공급의 어려움 등을 치료받음. |\n| **8월 하순** | MRI에 대해 **미만성 축삭손상**이라는 설명을 들음. 눈맞춤과 가족·소리에 대한 반응이 점차 관찰됨. |\n| **9월 7일 일반병실 전실** | 아버지가 직접 간병 시작. 가족을 보고 웃거나 눈물을 보이고, 아빠를 찾는 질문에 시선을 돌리는 등의 반응. 이후 손가락 따라 하기, 화면 선택, 간단한 놀이 참여가 증가. |\n| **9월 하순, 특히 27~29일** | 글쓰기, 음식 요구 손짓, 자발적인 사진 보기, 식사 도구 사용, 부축 보행 등 여러 기능에서 새로운 수행이 관찰됨. 낮 동안의 각성·활동성도 호전되었다는 보호자 보고. |\n\n**최근 상태는 아래의 ‘잘하는 모습’과 ‘어려운 모습’을 함께 보여주세요.** 좌우는 모두 선진이 본인 기준입니다.\n\n| 평가 영역 | 최근 관찰한 회복 | 함께 전달할 어려움·확인할 점 |\n|---|---|---|\n| **각성·수면·피로** | 쿠에타핀 미투약·중단 이후 낮에 깨어 있는 시간과 활동성이 증가했다는 관찰. 9/25 감량 처방 뒤 자연히 잠들어 미투약했고, 9/26에도 수면제 없이 잠든 기록. | 활동 후 하품·집중력 저하·휴식 필요. **마지막 실제 투여일과 현재 처방을 구분**해 전달. 약 변화와 자연 회복의 영향을 기록만으로 분리할 수는 없음. |\n| **가족과의 상호작용** | 가족을 보고 웃고, 상황에 맞는 표정과 애정 표현을 함. 가까이 가면 끌어안거나 뽀뽀함. | 자연스러운 표정이 늘어난 정도와 말의 내용을 이해하는 정도는 별도로 평가받을 필요. |\n| **인지·글쓰기** | 9/27 `3+6=9`를 쓴 기록. 9/28 이름을 묻는 상황에서 **‘김선진’, ‘김혜용’**을 작성. 9/29 가족사진을 **10분 이상 직접 조작하며 봄**. | 아빠·누나 이름은 쓰지 못한 사례. **보고 따라 썼는지, 말만 듣고 썼는지, 어느 정도 도움을 받았는지**를 사진·영상과 함께 설명. |\n| **언어 이해·의사표현** | 얼음이나 음식을 더 달라는 손짓, 햄버거 요구 등 상황에 맞는 표현. 소리 방향을 가리키는 수행이 3~4회 관찰됨. | 말로만 하는 지시에는 반응이 불규칙. “그만”, “하지 마” 등에 잘 반응하지 않는다는 관찰. 발화 제한에 **언어·인지 문제와 목관에 따른 발성 제한이 각각 얼마나 관여하는지** 평가 필요. |\n| **운동·자세·이동** | 침대와 휠체어 사이 이동, 일어서기와 짧은 부축 보행이 호전. 9/29 부축해 휠체어 주위를 한 바퀴 걸음. 오른손으로 도구 조작 가능. | 오른다리 외회전, 9/28 왼다리 움직임 시 떨림, 몸통 기울어짐. 이전부터 왼팔 사용 제한이 있었음. **근력·근긴장·관절 제한·통증·균형을 구분**해 평가 요청. 독립 보행은 아님. |\n| **식사·삼킴** | 9/28 일반식 비빔밥 약 절반, 김에 싸서 젓가락으로 섭취. 9/29 저녁 햄버거 약 2/3와 미역국에 밥 약 1/3을 먹은 기록. | 상체를 숙이거나 급하게 먹음. 졸려서 식사를 거부하는 때도 있음. **씹고 먹는 모습과 안전하게 삼키는 능력은 구분**해서 평가. 연하검사 시행·결과는 확인이 필요. |\n| **호흡·기관절개관** | 최근 체온·산소포화도가 정상이라는 보호자 기록. 가래를 목관 밖으로 세차게 배출하며 양이 감소했다는 관찰. | 9/29에도 목관 유지. **자발적으로 가래를 배출하는 것과 지시에 따라 기침하는 것은 차이**가 있음. 관 제거 일정은 확정되지 않음. |\n| **대소변·일상생활** | 소변·대변 배출은 기록되고 있음. | 기저귀 사용 중. 배설 전 신호, 배설 인식, 의사표현과 실제 조절 능력은 아직 분명하지 않음. 단계적인 배변·배뇨 훈련 방법을 문의. |\n\n기록에서 제가 읽는 가장 중요한 변화는 **상황에 맞춰 행동하고, 원하는 것을 표현하며, 도구나 글을 사용하는 사례가 늘고 있다는 것**입니다. 회복을 보여주는 의미 있는 관찰입니다. 다만 한두 번 성공한 과제가 일상에서 안정적으로 가능한지는 별도로 확인해야 합니다.\n\n특히 **“젓가락질이나 사진 조작은 하는데 말로 시키면 잘 안 된다”**는 차이를 강조해 주세요. 언어 이해뿐 아니라 주의집중, 정보 처리 속도, 기억, 행동을 시작하거나 실행하는 능력 등이 함께 영향을 줄 수 있습니다. 소아 뇌손상 평가에서도 이러한 인지·언어·말하기·삼킴 기능을 나누어 살피고 회복 과정에서 반복 평가하도록 권고합니다. genui{\"citation\":{\"ref\":\"turn1search0\"}}\n\n오늘 질문은 다음 순서로 준비하시면 좋겠습니다.\n\n1. **“현재 선진이의 회복 단계와 가장 큰 재활 과제는 무엇인가요?”**  \n   “의식과 주의력, 언어 이해, 행동 수행을 어떻게 구분해서 평가할 수 있을까요? 앞으로 비교할 수 있는 기능평가 기준을 남겨주실 수 있을까요?”  \n   과거 의식 점수만으로 현재 상태를 표현하기보다, 지금의 실제 기능을 기준으로 평가받는 것이 목적입니다.\n\n2. **“말로 하는 지시에 잘 반응하지 않는 원인을 어떻게 평가하나요?”**  \n   “그림·물건·몸짓이 있을 때와 말만 들을 때 수행이 다릅니다. 언어치료와 인지재활을 지금 어떻게 시작하면 좋을까요? 글쓰기·그림 선택·예/아니오 손짓 중 어떤 의사소통 방법이 적절할까요?”  \n   이름 쓰기 사진과 평소 반응 영상을 보여주면 설명에 도움이 됩니다.\n\n3. **“지금 먹는 식사의 안전성과 목관 제거 준비를 함께 평가받고 싶습니다.”**  \n   “현재 식사 형태와 물의 농도, 식사 자세가 적절한가요? 비디오투시연하검사나 내시경 연하검사가 필요한가요? 목관 제거 전에는 어떤 조건을 확인해야 하나요?”  \n   **잘 씹거나 사레가 없어 보인다는 것만으로 흡인 위험이 없다고 판단할 수는 없습니다.** 기관절개 상태에서는 눈에 띄는 기침 없이 흡인이 나타날 수도 있어 이 부분을 따로 확인할 가치가 있습니다. genui{\"citation\":{\"ref\":\"turn1search1\"}}\n\n4. **“오른다리 외회전과 왼다리 떨림, 왼팔 사용 제한은 각각 무엇 때문인가요?”**  \n   “경직이나 반복적인 근육 수축인지, 근력·균형·관절 문제인지 평가해 주세요. 골반과 손목 골절을 고려해 체중을 싣거나 부축할 때 지켜야 할 제한이 있나요? 보조기나 보행 보조도구가 필요한가요?”  \n   특히 **걸음 수를 늘리는 것과 올바른 자세·안전한 보행을 만드는 것 중 현재 우선순위**를 물어보세요.\n\n5. **“하루 재활량과 휴식, 수면·약물은 어떻게 조정하면 좋을까요?”**  \n   “약을 먹지 않은 뒤 낮 활동성이 좋아졌지만 활동 후 피로가 있습니다. 치료를 얼마나 나누어 하고, 어떤 반응이 보이면 쉬게 해야 하나요?”  \n   현재 약 중 졸림이나 재활 참여에 영향을 줄 수 있는 약이 있는지도 **실제 투약표를 보며** 검토받으세요.\n\n6. **“국립재활원 입원 재활이 가능한가요? 가능하다면 다음 단계는 무엇인가요?”**  \n   9/29 전화에서는 진단서의 외상성·저산소성 뇌손상이 입원 대상에 해당한다는 안내를 받았지만, **입원 확정이나 일정 확정은 아니었습니다.** 현재 목관 관리, 과거 내성균 검출 및 최신 검사 결과, 치료 참여 정도를 기준으로 필요한 조건과 대기 중 치료 계획을 확인하세요.  \n   가능하면 **향후 2~4주 목표, 필요한 치료 종류, 재평가 시점**까지 정해 달라고 요청하면 좋겠습니다.\n\n오늘 가져갈 자료는 **CT·MRI 영상 CD와 판독지, 9월 23일 의뢰서, 최신 처방 및 실제 투약기록, 최근 혈액·배양검사 결과, 골절 수술·체중부하 제한 관련 기록**입니다. 병원 안내대로 보호자 신분증과 3개월 이내 가족관계증명서도 챙기세요. 예약 기록은 **오늘 9월 30일 13:10 진료, 12:40 신관 1층 접수**입니다.\n\n휴대전화에는 **① 이름 쓰기 ② 음식 요구나 말 지시에 반응하는 모습 ③ 앉기·일어서기·부축 보행** 영상 중 짧은 것 2~3개를 골라두세요. 잘된 장면뿐 아니라 평소 어려운 장면도 함께 보여주고, 촬영 당시의 도움·힌트·피로 정도를 설명하면 좋겠습니다. 오늘 진료 중 낯선 환경이나 피로 때문에 평소 능력을 충분히 보여주지 못할 때도 이 자료가 도움이 됩니다.",
+      "textSha256": "sha256:b139ec53700c7b8427f70cc60b84f66e4c76245f0a4432b84a0740673cfc5fe6",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Pediatric Traumatic Brain Injury",
+          "url": "https://www.asha.org/practice-portal/clinical-topics/pediatric-traumatic-brain-injury/?utm_source=chatgpt.com",
+          "attribution": "asha.org"
+        },
+        {
+          "title": "Tracheostomy and Ventilator Dependence",
+          "url": "https://www.asha.org/practice-portal/professional-issues/tracheostomy-and-ventilator-dependence/?utm_source=chatgpt.com",
+          "attribution": "asha.org"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "genui{\"citation\":{\"ref\":\"turn1search0\"}}",
+          "urls": [
+            "https://www.asha.org/practice-portal/clinical-topics/pediatric-traumatic-brain-injury/?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "genui{\"citation\":{\"ref\":\"turn1search1\"}}",
+          "urls": [
+            "https://www.asha.org/practice-portal/professional-issues/tracheostomy-and-ventilator-dependence/?utm_source=chatgpt.com"
+          ]
+        }
+      ],
+      "provenanceNote": "진료 전에 GPT가 이전 대화를 바탕으로 작성한 설명·브리핑 원문입니다. 공식 진료기록, 전문의 평가나 입원 수용 결과와 구분합니다. 참고 링크는 당시 답변의 출처입니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-09-30-rehab-1-before-visit",
+      "recordedAt": {
+        "start": "2026-09-30T06:48:44.379+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-b078b79a-0a39-4d3e-90d7-79b811435eee",
+      "note": "이 대화는 9월 30일 06시 07~09분에 작성된 첫 외래 진료 준비입니다. [9월 29일 보호자 예약 기록](https://infant83.github.io/sj-resurrection/post/trauma/2026-09-29/#message-4c699241-bd78-4d13-a73a-4cf55b0c849b)의 당일 13시 10분 진료에 앞선 내용이며, 김현경 의료진의 진료 결과·처방·입원 결정으로 표시하지 않습니다.",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-clinical-course-2026"
+      ]
+    },
+    {
+      "id": "review-2026-09-30-rehab-5-source-boundary",
+      "recordedAt": {
+        "start": "2026-09-30T06:48:44.379+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-f016bc03-925e-56df-969b-2a5c17c7e94a",
+      "note": "큰 경과표와 최근 상태표는 당시 GPT가 이전 대화를 참조해 만든 진료용 정리입니다. 이 표를 새 검사 결과나 보호자가 같은 시각에 직접 관찰한 별도 기록으로 세지 않습니다. 진단명·수술·심폐소생술 날짜·검사 판독과 현재 처방의 확정에는 원 의무기록 확인이 필요합니다.",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-clinical-course-2026"
+      ]
+    },
+    {
+      "id": "review-2026-09-30-rehab-5-written-name",
+      "recordedAt": {
+        "start": "2026-09-30T06:48:44.379+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-f016bc03-925e-56df-969b-2a5c17c7e94a",
+      "note": "9월 28일 이름 쓰기의 조건은 [당일 보호자 입력](https://infant83.github.io/sj-resurrection/post/trauma/2026-09-28/#message-849a8b63-e48c-4812-b7e7-3cf0154a89f9)에서 확인됩니다. 휴대전화에 ‘이름’, ‘엄마 이름’을 글로 제시했고, 자기 이름 과제는 말로 지시하지 않았다고 적었습니다. 이를 말만 듣고 이름을 쓴 사례로 바꾸지 않으며, 특정 실어증·의식 단계·가족 인식 전반의 회복을 확정하지 않습니다.",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-clinical-course-2026"
+      ]
+    },
+    {
+      "id": "review-2026-09-30-rehab-5-hearing-context",
+      "recordedAt": {
+        "start": "2026-09-30T06:48:44.379+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-f016bc03-925e-56df-969b-2a5c17c7e94a",
+      "note": "언어 이해 평가와 함께 참고할 내용으로, [9월 23일 경과를 담은 9월 24일 입력](https://infant83.github.io/sj-resurrection/post/trauma/2026-09-24/#message-ba3c1eb6-ac76-4a9d-89df-36c000974de8)에는 중이 기능 검사에 대한 정상 설명과 청력검사를 충분히 시행하지 못했다는 보호자 전달이 함께 있습니다. 정상 청력이 확인된 검사 결과로 합치지 않으며, 이비인후과 원 판독·검사 범위 확인과 구분합니다.",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-clinical-course-2026"
+      ]
+    },
+    {
+      "id": "review-2026-09-30-rehab-5-vitals-and-medication",
+      "recordedAt": {
+        "start": "2026-09-30T06:48:44.379+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-f016bc03-925e-56df-969b-2a5c17c7e94a",
+      "note": "표의 ‘최근 체온·산소포화도가 정상’은 GPT의 종합 표현입니다. [9월 29일 입력](https://infant83.github.io/sj-resurrection/post/trauma/2026-09-29/#message-4c699241-bd78-4d13-a73a-4cf55b0c849b)에는 체온 36.6과 혈압 110/70이 기록돼 있으나 같은 날 산소포화도 수치는 제시되지 않았습니다. 쿠에타핀 9월 25~26일 미투약 기록도 마지막 실제 복용 시각이나 현재 처방전 확인을 대신하지 않습니다.",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-clinical-course-2026"
+      ]
+    },
+    {
+      "id": "review-2026-09-30-rehab-5-movement-and-admission",
+      "recordedAt": {
+        "start": "2026-09-30T06:48:44.379+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-f016bc03-925e-56df-969b-2a5c17c7e94a",
+      "note": "부축 보행·일반식 섭취는 보호자 관찰과 전달 기록입니다. 이 브리핑 자체가 독립 보행·체중부하·음료 농도에 대한 새로운 허가가 되지는 않습니다. 국립재활원 외래 예약 및 입원 대상 질환 안내와 실제 입원 수용·입원일 결정도 구분하며, 이번 대화에는 진료 후 결과가 없습니다.",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-clinical-course-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [
+    "trauma-2026-09-28-conversation",
+    "trauma-2026-09-29-conversation"
+  ],
+  "privacyReviewed": true
+}

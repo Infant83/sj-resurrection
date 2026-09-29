@@ -28,6 +28,11 @@ export function assertArchiveIntegrity(posts: ArchivePost[]) {
     }
     recordIds.add(post.data.recordId);
 
+    if (post.data.board === 'rehab-care' && post.data.status === 'published' &&
+        (!post.data.rehab?.hospitalIds.length || !post.data.rehab?.phases.length)) {
+      throw new Error(`Rehabilitation record needs hospital and phase labels: ${post.data.recordId}`);
+    }
+
     if (post.data.status !== 'draft' && !post.data.privacyReviewed) {
       throw new Error(`Visible post has not passed privacy review: ${post.data.recordId}`);
     }

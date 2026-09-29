@@ -8,7 +8,7 @@ const args = Object.fromEntries(
   }),
 );
 
-const allowedBoards = new Set(['trauma', 'life', 'medical', 'rehabilitation', 'media']);
+const allowedBoards = new Set(['trauma', 'rehab-care', 'life', 'medical', 'rehabilitation', 'media']);
 const board = args.board;
 const date = args.date;
 const slug = args.slug;
@@ -27,6 +27,7 @@ const file = join(directory, `${date}-${slug}.json`);
 const recordId = `${board}-${date}-${slug}`;
 const entryType = {
   trauma: 'clinical-update',
+  'rehab-care': 'clinical-update',
   life: 'letter',
   medical: 'medical-knowledge',
   rehabilitation: 'rehabilitation-plan',

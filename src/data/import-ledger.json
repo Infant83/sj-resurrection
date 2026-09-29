@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "timezone": "Asia/Seoul",
-  "lastUpdated": "2026-09-29",
+  "lastUpdated": "2026-09-30",
   "historyPolicy": {
     "mode": "retain-existing-commits",
     "decidedAt": "2026-08-31",
@@ -62,6 +62,12 @@
     "media": {
       "status": "initialized",
       "sourceThreads": []
+    },
+    "rehab-care": {
+      "status": "published-through-2026-09-30",
+      "sourceThreads": [
+        "재활진료 경과정리"
+      ]
     }
   },
   "imports": [
@@ -282,6 +288,31 @@
         "rehabilitation-2026-09-10-conversation",
         "rehabilitation-2026-09-17-conversation",
         "rehabilitation-2026-09-19-conversation"
+      ]
+    },
+    {
+      "id": "rehab-care-public-archive-2026-09-30",
+      "board": "rehab-care",
+      "throughDate": "2026-09-30",
+      "publication": {
+        "status": "published",
+        "privacyReviewed": true,
+        "publicPreviewAuthorizedByUser": true
+      },
+      "selection": {
+        "publishedPostCount": 1,
+        "publishedMessageCount": 5,
+        "publishedUserMessageCount": 1,
+        "publishedAssistantMessageCount": 4,
+        "correctedUserMessageCount": 1,
+        "privacyRedactedMessageCount": 1,
+        "sourceKindCounts": {
+          "conversation-message": 5
+        },
+        "publishedContentSha256": "70c3f437db9a7979e401296b9eb0c45d28501a9867a9b40bb777247754f18525"
+      },
+      "posts": [
+        "rehab-care-2026-09-30-conversation"
       ]
     }
   ]

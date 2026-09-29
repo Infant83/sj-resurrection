@@ -6,6 +6,12 @@ export const boards = [
     description: '날짜별 상태 변화, 치료 경과, 의료진 설명, 보호자 관찰과 당시 분석',
   },
   {
+    id: 'rehab-care',
+    label: '재활 기록',
+    shortLabel: '재활 기록',
+    description: '병원별 외래 준비와 진료, 전원·입원 상담부터 입원 재활과 재평가까지',
+  },
+  {
     id: 'life',
     label: '선진과 함께하는 삶',
     shortLabel: '함께하는 삶',

@@ -4,6 +4,7 @@ import { boardMap } from '../data/boards';
 import { formatKoreanStamp, monthKey, withBase } from '../lib/archive';
 import { safePlainTextToHtml } from '../lib/safe-text';
 import ConversationMessage from './ConversationMessage.astro';
+import { rehabLabels } from '../data/rehab';
 
 interface Props {
   post: CollectionEntry<'posts'>;
@@ -16,6 +17,7 @@ const detailHref = withBase(`post/${post.id}/`);
 const sourceLabels = [...new Set(post.data.sources.map((source) => source.label))];
 const messageIds = new Set(post.data.messages.map((message) => message.id));
 const untargetedAmendments = post.data.amendments.filter((amendment) => !messageIds.has(amendment.target));
+const contextLabels = post.data.rehab ? rehabLabels(post.data.rehab.hospitalIds, post.data.rehab.phases) : [];
 ---
 
 <article
@@ -26,10 +28,13 @@ const untargetedAmendments = post.data.amendments.filter((amendment) => !message
   data-board={post.data.board}
   data-month={monthKey(post.data.recordedAt)}
   data-recorded-at={post.data.recordedAt.end ?? post.data.recordedAt.start}
+  data-hospitals={post.data.rehab?.hospitalIds.join(' ')}
+  data-rehab-phases={post.data.rehab?.phases.join(' ')}
 >
   <header class="card-header">
     <div class="card-meta">
       <span class={`section-badge section-${post.data.board}`}>{board.label}</span>
+      {contextLabels.map(label => <span class="rehab-context-label">{label}</span>)}
       <time datetime={post.data.recordedAt.start}>{formatKoreanStamp(post.data.recordedAt)}</time>
     </div>
     <h2 class="card-title">
