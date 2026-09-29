@@ -45,6 +45,10 @@ const rules = [
   ['Korean mobile number', /\b01[016789]-?\d{3,4}-?\d{4}\b/g],
   ['Korean phone number', /\b0\d{1,2}-\d{3,4}-\d{4}\b/g],
   ['email address', /\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b/gi],
+  // Check both plain-text lines and escaped newlines inside serialized JSON.
+  // Report only the rule and path, never the matched credential itself.
+  ['account credential', /(?:^|\\n|[\r\n])[\t ]*(?:[-*][\t ]+)?(?:ID|PW|password|비밀번호|아이디)(?::|=|[\t ])[\t ]*(?![\t ]|\[계정정보 비공개\])[^\s"\\]+/gim],
+  ['personal birth date', /(?:19|20)\d{2}년\s*\d{1,2}월\s*\d{1,2}일생/g],
   ['summary or reconstruction marker', /(?:summary-reconstruction|대화\s*요약\s*복원본)/g],
   [
     'unverified conversation marker',

@@ -58,6 +58,15 @@ export function safeMarkdownToHtml(value: string, citationMarkers?: { marker: st
       return '(당시 장소 표시 확인 불가)';
     }
   });
+  // Unresolved citations must remain visible as missing provenance, not disappear
+  // along with interface-only GenUI controls such as suggested reminders.
+  value = value.replace(/\uE200genui\uE202([^\uE201]*)\uE201/g, (_marker, payload) => {
+    try {
+      return JSON.parse(payload)?.citation ? '(당시 출처 연결 미확인)' : '';
+    } catch {
+      return /"citation"\s*:/.test(payload) ? '(당시 출처 연결 미확인)' : '';
+    }
+  });
   value = value.replace(/\uE200(?:map|entity_metadata|genui)(?:\uE202[^\uE201]*)?\uE201/g, '');
   value = value.replace(/\uE200filecite(?:\uE202[^\uE201]*)?\uE201/g, '(당시 첨부 참조 · 원본 비공개)');
   value = value.replace(/^:::writing\{[^\n]*\}\r?\n([\s\S]*?)\r?\n:::\s*$/, '$1');

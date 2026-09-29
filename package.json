@@ -7,7 +7,7 @@
     "dev": "astro dev",
     "check": "astro check",
     "test:activities": "node --test tests/activities.test.mjs",
-    "test:archive": "node --test tests/archive-integrity.test.mjs",
+    "test:archive": "node --test tests/archive-integrity.test.mjs tests/privacy-scan.test.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "new:post": "node scripts/new-post.mjs",

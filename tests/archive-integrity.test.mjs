@@ -49,3 +49,22 @@ test('source presentation keeps HTML escaped and omits interface controls', () =
   assert.doesNotMatch(html, /<script>|genui|suggest_automation/);
   assert.match(html, /&lt;script&gt;/);
 });
+
+test('GenUI citations resolve without changing the archived source text', () => {
+  const marker = 'genui{"citation":{"refs":["turn1view0","turn2view0"]}}';
+  const original = '설명 ' + marker;
+  const html = safeMarkdownToHtml(original, [{marker, urls: ['https://example.org/one', 'https://example.org/two']}]);
+  assert.match(html, /href="https:\/\/example.org\/one"/);
+  assert.match(html, /href="https:\/\/example.org\/two"/);
+  assert.doesNotMatch(html, /genui|turn1view0|turn2view0/);
+  assert.equal(original, '설명 ' + marker);
+});
+
+test('unresolved GenUI citations are disclosed rather than silently removed', () => {
+  const original = '설명 genui{"citation":{"ref":"turn1view0"}}';
+  for (const markers of [undefined, [{marker: original.slice(3), urls: []}]]) {
+    const html = safeMarkdownToHtml(original, markers);
+    assert.match(html, /당시 출처 연결 미확인/);
+    assert.doesNotMatch(html, /genui|turn1view0/);
+  }
+});

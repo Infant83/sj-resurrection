@@ -12,7 +12,7 @@
     "timezone": "Asia/Seoul"
   },
   "updatedAt": {
-    "start": "2026-09-22T06:39:02.995+09:00",
+    "start": "2026-09-30T05:55:11.684+09:00",
     "precision": "second",
     "timezone": "Asia/Seoul"
   },
@@ -427,6 +427,20 @@
       "kind": "clarification",
       "target": "message-99241cb7-1cae-4d1a-8cf6-7d40f3afd4f8",
       "note": "회진의 보행 제한과 별개로 오후 일지에는 두 걸음 걷기와 병동 밖 이동이 기록돼 있습니다. 그 사이에 허가가 변경됐다는 의료진 설명은 이 원문에 없습니다. 식사 중 머리·몸통이 기울어지는 모습과 알약을 씹는 문제도 이전 안전 안내가 해결됐다는 근거로 해석하지 않습니다. 담당팀의 이동·연하·약제 지침을 확인할 항목입니다.",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ]
+    },
+    {
+      "id": "review-2026-09-30-care-110-later-care",
+      "recordedAt": {
+        "start": "2026-09-30T05:55:11.684+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "follow-up",
+      "target": "message-a48ba058-ae7e-42e9-bb4d-1a90914f1ec7",
+      "note": "9월 21일 회진 이후의 변화는 [9월 28일 보호자 기록](https://infant83.github.io/sj-resurrection/post/trauma/2026-09-28/#message-849a8b63-e48c-4812-b7e7-3cf0154a89f9)에서 일반식 제공, 가루약 조제, 재활 외래 일정 변경으로 이어집니다. [9월 29일 기록](https://infant83.github.io/sj-resurrection/post/trauma/2026-09-29/#message-4c699241-bd78-4d13-a73a-4cf55b0c849b)에는 국립재활원 소아재활 외래 예약이 추가됐습니다. 이 후속 기록에도 기관절개관 제거 완료나 CRE 음성 확인·입원 확정은 없습니다.",
       "sourceRefs": [
         "chatgpt-care-phase-4"
       ]

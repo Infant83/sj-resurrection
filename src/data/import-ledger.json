@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "timezone": "Asia/Seoul",
-  "lastUpdated": "2026-09-21",
+  "lastUpdated": "2026-09-29",
   "historyPolicy": {
     "mode": "retain-existing-commits",
     "decidedAt": "2026-08-31",
@@ -20,7 +20,7 @@
   },
   "boards": {
     "trauma": {
-      "status": "published-through-2026-09-21",
+      "status": "published-through-2026-09-29",
       "sourceThreads": [
         "중증 외상 예후 분석",
         "중증 외상 예후 분석 (phase2)",
@@ -66,28 +66,28 @@
   },
   "imports": [
     {
-      "id": "trauma-public-archive-2026-09-21",
+      "id": "trauma-public-archive-2026-09-29",
       "board": "trauma",
-      "throughDate": "2026-09-21",
+      "throughDate": "2026-09-29",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
       "selection": {
-        "publishedPostCount": 57,
-        "publishedMessageCount": 425,
-        "publishedUserMessageCount": 153,
-        "publishedAssistantMessageCount": 272,
+        "publishedPostCount": 63,
+        "publishedMessageCount": 457,
+        "publishedUserMessageCount": 162,
+        "publishedAssistantMessageCount": 295,
         "correctedUserMessageCount": 79,
-        "privacyRedactedMessageCount": 19,
+        "privacyRedactedMessageCount": 27,
         "sourceKindCounts": {
-          "conversation-message": 424,
+          "conversation-message": 456,
           "embedded-app-report": 1
         },
         "withheldIncompleteExchangeCount": 1,
         "withheldSensitiveTurnMessageCount": 6,
-        "publishedContentSha256": "eceb199a15f842489487c937d05fbc13fb74d46dbbe0e0401b89520599531c46"
+        "publishedContentSha256": "bff5ae967b1b1bf6a0d477f2c989eb093ba542f6d52b06e673a0babc48cee30e"
       },
       "posts": [
         "trauma-2026-07-26-conversation",
@@ -146,7 +146,13 @@
         "trauma-2026-09-18-conversation",
         "trauma-2026-09-19-conversation",
         "trauma-2026-09-20-conversation",
-        "trauma-2026-09-21-conversation"
+        "trauma-2026-09-21-conversation",
+        "trauma-2026-09-24-conversation",
+        "trauma-2026-09-25-conversation",
+        "trauma-2026-09-26-conversation",
+        "trauma-2026-09-27-conversation",
+        "trauma-2026-09-28-conversation",
+        "trauma-2026-09-29-conversation"
       ]
     },
     {

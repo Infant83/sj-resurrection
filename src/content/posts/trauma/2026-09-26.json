@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 2,
+  "recordId": "trauma-2026-09-26-conversation",
+  "board": "trauma",
+  "entryType": "clinical-update",
+  "title": "2026년 9월 26일 경과·간병 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-26",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-09-30T05:55:11.684+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "간병 기록",
+    "회진",
+    "재활",
+    "원문 대화",
+    "투약·침 삼킴 관찰",
+    "아산 외래 예약"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-care-phase-4",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "간병 기록 정리 (phase 4) · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-09-30T05:55:11.684+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-d5789180-05c6-43af-9177-1dd3d80318e7",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-26T23:01:15.369661+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-30T05:55:11.684+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "d5789180-05c6-43af-9177-1dd3d80318e7",
+      "sourceOrdinal": 137,
+      "turnId": "ed58dbd0-cbe1-47f7-83fd-059807742f74",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "privacy-redacted",
+      "privacyRedactions": [
+        "room-number"
+      ],
+      "privacyNote": "병실번호를 가렸습니다. 그 외 입력 텍스트는 원문대로 보존했습니다.",
+      "provenanceNote": "보호자가 입력한 관찰·질문·전달 기록입니다. 의료진 설명과 통화 정리는 보호자가 옮긴 내용이며 공식 의무기록·검사 결과지·예약 확인서의 직접 확인과 구분합니다.",
+      "publicText": "# 선진이 일반병실 간병·경과 기록\n> 날짜와 시간은 가능한 한 정확히 기록하고, 확실하지 않으면 ‘경’ 또는 ‘미확인’으로 적는다.  \n> 방향은 항상 선진이 본인 기준 왼쪽·오른쪽으로 기록한다.  \n> 직접 관찰한 사실과 보호자의 추정은 구분해서 기록한다.\n\n## 1. 기본 정보 \n- 날짜: 2026년 09월 26일 (토요일)\n- 기록 시간: 05시 00분 ~ 22시 00분\n- 병실: [병실번호 비공개]\n- 보호자: 김현중 (아빠)\n\n## 2. 주요 일정과 할 일\n외할아버지 방문\n아산병원에서 예약담당자로부터 연락옴\n소아재활과 고은재 교수님 외래 진료 일정을 수립함\n10월 7일 10시 10분\n진료의뢰서, 영상자료 CD, 검사 결과지, 약 복용시 약 처방전, 신분증 지참\n외래 진료후 바로 입원하는 것은 아니고 상황을 봐야함. 대기가 있을 수 있음.\n\n\n\n## 3. 소변·대변·기저귀\n> 소변/대변 횟수에 대해 05시, 13시와 19시에 해당 구간에 대해 간호사에게 알린다. 필요시 색,냄새, 침전물, 대변상태등에 대해 언급할것.\n오전 소변 기저귀 갈아줌. 2차례. 10시쯤. 11시 30분쯤.\n오후 소변 기저귀 갈아줌. 3차례 가량.\n\n## 4. 경관영양·수분 공급\n| 시작 | 종료 | 제품명 | 용량(mL) | 열량(kcal) | 주입 속도·소요시간 | 반응 |\n오전 \n연하 곤란죽 먹지 않음\n요플레\n계란찜 먹음\n==> 가래 올리며 기침하는 중에 구토해서 거의 모두 게워냄.\n바나나우유\n점심\n미역국에 밥을 말아 같이 먹었음.\n연하곤란죽은 전혀 먹지 않았음.\n오랜만에 점심을 아주 잘 먹어주었음.\n저녁\n쌀밥에 연하곤란죽의 반찬을 갈은 것 (소고기 사태 간것)을 섞어서 줌. 여기에 계란찜과 소고기 불고기를 같이 곁들여 줌. 잘 먹음. 반공기 정도 먹음\n연하곤란죽은 거부함.\n요플레 먹지 않음\n\n## 5. 투약\n| 시간 | 약 이름 | 용량 | 투여 목적 | 경로 | 투여 전 상태 | 투여 후 변화 |\n오전 투약 알약. ==> 모두 뱉어냄. 먹기 힘든가봄.\n간호사가 오전 아이가 활력이 없는 것을 확인하고 먹는 약을 조절해야하는지 다시 한번 확인해보겠다고 이야기함.\n점심투약 입에 머금고 있다가 뱉어냄.\n저녁 투약: 입에 머금고 있다가 뱉어냄.\n이후 계속 입에 있는 침을 뱉어냄.\n침을 삼키지 않고 계속해서 모았다가 뱉어냄.\n\n## 6. 체온·산소포화도·호흡·혈당\n체온 정상\n혈압 110/70\n\n## 7. 가래·석션\n| 시간 | 영양과의 관계 | 배출 방법 | 가래 색 | 점도·거품 | 대략적인 양 | 전후 호흡 상태 |\n가래 수시로 기침해서 뱉어냄\n\n## 8. 통증·피부·상처\n| 시간 | 부위 | 직접 관찰한 증상 | 통증을 유발한 동작 | 선진이의 표현 | 조치·의료진 확인 |\n\n## 9. 움직임·체위·돌봄 협조\n> ‘움직이지 못함’, ‘통증 때문에 움직임을 피함’, ‘움직이지만 힘이 약함’을 구분해서 기록한다.\n| 부위 | 자발적 움직임 | 지시에 따른 움직임 | 힘·범위 | 통증·떨림·경직 |\n침상에서 잘 상체를 안일으키려고 함. 계속 옆으로 누워있으려함\n오전 10시: 휠체어 산책함. 4층, 6층 옥상 정원 다녀옴. 한시간 정도.\n오늘은 전반적으로 상호작용을 잘 하였음. 오후에 저녁쯤에 피곤한지 침을 잘 삼키지 않았는데, 알약을 입에 넣고 써서 잘 넘기지 못한 뒤에 침을 뱉어내는 버릇이 생겼음. 내일도 그렇게 하는지 관찰하겠음. 입에 넣고 넘치면 고개를 옆으로 돌려 침대나 옷에 그냥 흘려보냄. \n전반적으로 어제보다는 협조가 잘 되는 느낌이나, 도구 사용이나 행동이 어린아이 같은 면이 종종 보임.  (침을 삼키지 않는 것등)\n다리를 떠는 것은 좀 더 제어가 되는 느낌임. 어떤 경우 자기가 천천히 자세를 낮추어 다리가 안정적으로 움직일 수 있도록 휠체어의 다리 거치대를 조정하기도 함.\n\n## 10. 의식·상호작용\n> 선진이가 깨어 있고 편안할 때 짧게 확인한다. 한 번의 성공보다 같은 반응이 반복되는지를 기록한다. 단순 명령 수행, 선택형 의사표현, 물건의 목적 있는 사용, 감정 표현, 글자·그림·휴대전화 입력등에 대한 내용을 기록함.\n| 시간 | 각성 상태 | 보호자가 한 말·과제 | 시범 여부 | 선진이의 정확한 반응 | 반복 결과 |\n칠판의 글씨에 반응하지 않음.\n전에는 ~~ 그려봐 하면 그렸는데, 오늘은 전혀 반응하지않음\n”이름이 뭐야“ 하고 선택하는 것도 아무 반응이 없음. \n이전에 했던 것을 못하는 것이 많아짐.\n쉽게 포기함. 한번 두번 시도해보고 잘 되지 않으면 포기함.\n11시 50분경:\n “4 + 4” 문제는 답을 8로 함. 처음에는 보드마커 펜을 들지도 않으려 하였으나, 눈 앞에 갖다 대고 눈을 펜에 맞추게 하니 펜을 손으로 집어 문제를 품. \n이어서 “4 x 4” 문제를 바로내니, 처음에는 이번에도 펜을 관심에 두지 않음. 눈이 펜에 시선을 고정시켰을 때 펜을 다시 주니 ”8 - 4“ 라고 오답을 씀.\n이어서 다른 문제를 내니 이번에는 아주 관심을 끄고 외면함.\n집중력이나 흥미가 전혀 생기지 않는 것 같음.\n12시 30분경 엄마 누나 이모 외할아버지 방문\n1층에서 만났고 잘 웃고 잘 반응하였음.\n이상한 표정도 많이 짓지 않았고, 자세도 많이 무너지지 않았음.\n밥을 먹기 전에 만나서 만난뒤 요플레와 계란찜 등을 먹였음. \n13시경: 다시 병실로 올라와 미역국에 밥을 말아 근래에(3일만) 가장 잘 먹음. \n이번에는 토하지 않았고, 미역국을 맛있게 먹음. 다른 흥미없는 반찬은 먹지 않으려고 하였음. 가령, 연하 곤란죽이나, 어제 엄마가 가져온 소고기 죽같은 것은 먹지 않음. 씹는 맛이 있는 것과 먹었을 때 감칠맛이 있고 맛있는 것을 선호하는 것 같음.\n식사를 다하고 점심 약을 먹였는데 모두 뱉어냄.\n13시 20분경:\n다시 할아버지와 누나, 이모, 엄마가 있는 1층으로 내려감. \n아까보다 더욱 활발하게 상호작용 하였음. 처음으로 “손키스 해줘” 하였을 때 엄마에게 “손키스를 해줌”.\n잘 웃었고, 가족이랑 있을 때 심리적인 안정감을 느끼는 것 같은 표정을 지었음. 표정도 일상 표정으로 바뀌었음. 어제 아랫입술을 뒤집는 듯한 모습은 오늘은 많이 보이지 않았음. 누나와 상호작용을 잘햇고, 누나를 반가워 하는듯하였음. 장난도 쳐주면 잘 웃어주었음.\n16시 넷플릭스 시청. “지” 시청함. \n19시 30분: 엄마, 누나와 화상통화. 반가워 하지만 집중하지 않음.\n집중력이 떨어진 느낌.\n20시 넷플릭스 “약사의 혼잣말” 시청. 집중하는 것 같지 않음.\n\n## 11. 수면·뒤척임\n| 시간대 | 수면 상태 | 뒤척임·자세 변경 | 관련된 관찰 | 조치 |\n잠은 잘 잠.\n11시 휠체어 산책후 돌아와서 곧 잠듬. 30분가량 잠.\n외할아버지, 엄마, 이모, 누나 면회후 돌아와 잠듬. 대략 한시간 이상 잔것 같음.\n21시 50분경 잠듬. 오늘은 수면제가 없어서 그런지 약간 늦게 잠듬. 그러나 심하게 뒤척이지는 않음. 자기전에 스스로 웃는 모습을 보임. 뭔가 기분좋은 생각을 한 것 같음.\n## 12. 검사·치료·의료진 설명\n| 시간 | 검사·치료 | 결과 또는 설명 | 다음 계획 |\n목관 소독함.\n수면제 투약하지 않고도 잘 잤다는 설명을 간호사에게 하였음. 간호사도 더 줄여볼 여지가 있고 의사선생님께 이야기 해보겠다 하였음.\n\n## 13. 의료진에게 확인할 사항\n\n\n\n\n\n\n\n\n\n\n\n",
+      "publicTextSha256": "sha256:bad45ecedbf21b608d529d03b9a0cbdeb919b673f5f0237b833a9af46db7239d"
+    },
+    {
+      "id": "message-7d0a0251-49fa-5762-bf62-6a2aba6dab52",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-26T23:04:15.263257+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-30T05:55:11.684+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "7d0a0251-49fa-5762-bf62-6a2aba6dab52",
+      "sourceOrdinal": 138,
+      "turnId": "ed58dbd0-cbe1-47f7-83fd-059807742f74",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "text": "어제와 비교해 좋아진 반응과, 이전에 하던 행동을 덜 하는 부분을 나눠 살펴볼게요. 특히 오늘은 약을 세 차례 뱉고 침도 삼키지 않은 변화가 있어, 단순한 습관인지보다 삼킴과 투약 안전을 먼저 확인할 필요가 있습니다.",
+      "textSha256": "sha256:65d8c7a566cefc3b97407d4071f0ba44f36aa51f8feb2fa51f1b5aa6733e6593",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-56ff53b9-db7c-516c-b11c-49438edbf58b",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-26T23:05:38.746368+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-30T05:55:11.684+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "56ff53b9-db7c-516c-b11c-49438edbf58b",
+      "sourceOrdinal": 139,
+      "turnId": "ed58dbd0-cbe1-47f7-83fd-059807742f74",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "text": "가족과 손키스를 주고받고 점심·저녁을 더 잘 먹은 것은 반가운 변화입니다. 다만 이런 반응과 글·문제에 집중하는 능력은 다르게 나타날 수 있어요. 오늘 웃고 잘 먹은 시간이 있었다는 사실만으로, 최근의 수행 저하나 새로 생긴 침 삼킴 문제를 괜찮다고 판단할 수는 없습니다.",
+      "textSha256": "sha256:c3e6be804b4c725989c13f907348f6f08b1d0bfd003a5291d3bfd6c7d3187a5a",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    },
+    {
+      "id": "message-a594398d-82d9-50e0-9723-f67a652db36c",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-26T23:05:57.192286+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-09-30T05:55:11.684+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "a594398d-82d9-50e0-9723-f67a652db36c",
+      "sourceOrdinal": 140,
+      "turnId": "ed58dbd0-cbe1-47f7-83fd-059807742f74",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ],
+      "fidelity": "exact",
+      "text": "9월 26일은 **가족과의 상호작용과 식사량은 어제보다 좋아졌지만, 글·문제에 대한 반응은 여전히 떨어지고, 약 복용과 침 삼킴에 새로운 어려움이 나타난 날**로 보입니다.\n\n좋아진 순간들은 분명 의미가 있습니다. 다만 최근 며칠간의 수행 저하를 모두 ‘피곤해서’라고 설명하기보다는, 입원 중인 지금 원인을 함께 확인해야 합니다.\n\n## 1. 가장 먼저 확인할 것은 ‘침을 삼키지 않는 변화’입니다\n\n쓴 약을 먹은 뒤 침을 모아 뱉기 시작했다는 점에서, 쓴맛이나 입안 불편감 때문에 삼키기를 피했을 가능성은 있습니다. 하지만 **삼키기 싫은 것인지, 피곤해서 삼킴을 시작·유지하기 어려운 것인지는 기록만으로 구분할 수 없습니다.** 입안에 오래 머금는 행동은 연하 평가에서 확인하는 중요한 증상입니다. genui{\"citation\":{\"ref\":\"turn18view1\"}}\n\n이 행동만으로 ‘어린아이처럼 퇴행했다’고 해석하지는 않는 것이 좋겠습니다. 우선은 **입안의 침과 음식물을 처리하는 기능의 변화**로 보고 확인해야 합니다.\n\n아직 전달하지 않으셨다면, 담당 간호사에게 다음 내용을 함께 알려주세요.\n\n> “오늘 아침·점심·저녁 약을 모두 뱉었습니다. 저녁에는 약을 뱉은 뒤에도 침을 삼키지 않고 모았다가 뱉거나 흘렸습니다. 아침에는 기침하다 먹은 것을 거의 다 토했습니다. 입안 상태와 삼킴, 투약 방법을 확인해 주세요.”\n\n- 지금도 침이 계속 고이거나 사레가 나면, 물이나 음식을 더 넣어 넘기게 하지 말고 먼저 의료진에게 확인받으세요.\n- 숨이 힘들어지거나, 평소보다 깨우기 어렵거나, 갑자기 반응·팔다리 움직임이 감소하면 즉시 호출해야 합니다.\n- **약이 입에 들어간 것과 처방량을 복용한 것은 다릅니다.** 오늘은 ‘세 차례 뱉음, 실제 삼킨 양 미확인’으로 전달하고, 보호자 판단으로 추가 투약하지 마세요.\n\n이번에는 단순히 약을 줄이는 것뿐 아니라, **각 약이 계속 필요한지, 안전하게 투여할 제형이나 경로가 있는지**까지 의사·약사에게 검토받을 필요가 있습니다. genui{\"citation\":{\"ref\":\"turn18view3\"}} 이전 목록의 아스피린프로텍트는 장용정이므로, 과자와 함께 씹히거나 임의로 분쇄되는 방식도 반드시 확인해야 합니다. genui{\"citation\":{\"refs\":[\"turn18search14\",\"turn17view1\"]}}\n\n## 2. 오늘 좋아진 점도 분명히 있습니다\n\n| 관찰 | 의미와 해석의 한계 |\n|---|---|\n| 가족에게 웃고 손키스를 함 | 상황에 맞는 사회적 반응이 나타났습니다. 다만 말만 듣고 수행했는지, 표정·몸짓의 도움도 있었는지는 구분해야 합니다. |\n| 점심을 최근 3일 중 가장 잘 먹고 저녁도 반 공기 정도 먹음 | 음식에 대한 선호와 식사 참여가 살아 있는 모습입니다. 다만 삼킴 안전이나 하루 영양 충족을 보장하지는 않습니다. |\n| 다리가 덜 떨리도록 천천히 움직이고 발판을 조정함 | 기록대로라면 자신의 몸과 환경에 맞춰 움직임을 조절하는 목적성 행동으로 볼 여지가 있습니다. |\n| 아랫입술을 뒤집는 행동이 줄고 자연스러운 표정이 늘어남 | 어제 관찰된 얼굴 움직임이 오늘 지속적으로 심해지지는 않았습니다. 원인이 밝혀진 것은 아닙니다. |\n\n이 때문에 오늘을 **‘모든 기능이 일괄적으로 나빠진 날’로 보기는 어렵습니다.** 그렇다고 가족과 잘 웃었다는 이유로 인지·연하 문제를 가볍게 보아도 된다는 뜻은 아닙니다.\n\n## 3. 가족에게 잘 반응하면서 글·문제에는 반응하지 않는 이유\n\n가족의 표정이나 익숙한 장난에 반응하는 것과, 글을 읽고 지시를 이해해 답을 만드는 것은 요구하는 능력이 다릅니다.\n\n후자는 주의를 기울이고, 지시를 기억하고, 행동을 시작하고, 다음 문제로 생각을 전환해야 합니다. 소아·청소년 뇌손상에서는 이러한 **주의 지속, 과제 전환, 행동 시작**이 각각 어려워질 수 있습니다. 따라서 겉으로 ‘의지가 없어 보인다’고 해서 의지 부족이나 이해력 상실 중 하나로 단정할 수 없습니다. genui{\"citation\":{\"ref\":\"turn17view3\"}}\n\n오늘 계산은 이렇게 해석하는 것이 적절합니다.\n\n- **4＋4＝8:** 시선을 펜으로 유도하자 과제에 참여하고 정답을 쓴 사례입니다.\n- **4×4에 ‘8－4’:** 계산 자체뿐 아니라 기호 구분, 앞선 답의 영향, 주의 전환 등이 관여했을 수 있습니다.\n- **이후 외면:** 피로·불편·흥미 저하·이해 어려움 등을 구분할 수 없습니다.\n\n즉, 한 문제의 성공으로 계산 능력이 정상이라고 할 수도, 다음 문제 실패로 그 능력을 잃었다고 할 수도 없습니다.\n\n다만 **9월 24일에는 글로 보여준 ‘강아지·햄버거 그리기’를 했는데, 오늘은 비슷한 요청에 반응하지 않았다는 변화**는 의료진에게 전달할 가치가 있습니다. “전보다 멍하다”보다 이처럼 구체적인 비교가 평가에 도움이 됩니다.\n\n## 4. 쿠에타핀 없이 자는 것은 반가운 변화지만, 약 효과를 단정할 단계는 아닙니다\n\n기록상 다음과 같이 이해하겠습니다.\n\n- **9월 25일:** 12.5mg으로 감량 처방을 받았으나, 자연스럽게 잠들어 실제로는 투여하지 않음.\n- **9월 26일:** 오늘도 수면제 없이 21시 50분경 잠듦.\n\n쿠에타핀은 졸림과 인지·운동 수행 저하를 유발할 수 있어, 의료진이 약을 검토하는 것은 타당합니다. 다만 오늘 좋아진 상호작용을 전부 미복용 효과라고 하거나, 아직 무기력하므로 약과 무관하다고 결론 내리기는 이릅니다. genui{\"citation\":{\"ref\":\"turn17view4\"}}\n\n또한 **9월 21일에 기존 정맥 진통제는 중단됐다는 내용을 유지해 참고하겠습니다.** 이번에 추가로 조절할 약이 무엇인지는 이름과 실제 변경 내용을 확인하면 좋겠습니다.\n\n오늘은 한 시간 산책에 가족 면회와 여러 차례 이동까지 있었습니다. 뇌손상 후 피로는 집중·기억·의사소통을 떨어뜨릴 수 있으므로, 면회와 활동 사이에 충분히 쉬게 하고 식사 직전에는 지치지 않도록 조절하는 편이 좋습니다. 피로가 심해지는 원인으로 약뿐 아니라 영양 부족이나 다른 신체 문제도 확인해야 합니다. genui{\"citation\":{\"ref\":\"turn16view0\"}}\n\n## 5. 잘 먹는 음식을 찾은 것은 좋지만, 식감 변경은 확인이 필요합니다\n\n미역국에 밥을 말아 먹거나 불고기를 곁들여 먹은 것은 식사 참여 측면에서는 반갑습니다. 그러나 **잘 씹고 좋아하는 음식과, 현재 안전하게 삼킬 수 있는 음식은 같지 않을 수 있습니다.**\n\n특히 국물과 밥알이 섞인 음식, 질긴 고기는 처방된 연하식과 성질이 다릅니다. 연하곤란죽을 거부한다면 일반식으로 계속 대체하기보다, 연하 담당자·영양사에게 **선진이가 좋아하는 맛을 살리면서도 처방된 질감을 유지하는 대안**을 요청하는 것이 좋겠습니다. 침 머금기와 구토까지 있어, 기존 연하 평가 결과 및 필요시 VFSS·FEES 같은 검사 여부도 확인할 이유가 있습니다. genui{\"citation\":{\"ref\":\"turn18view2\"}}\n\n오늘의 결론은 이렇습니다.\n\n> **가족과의 교류와 식사 참여가 좋아지는 시간은 분명히 있습니다. 하지만 최근의 과제 수행 저하에 더해 오늘은 침 처리와 투약 실패가 나타났으므로, 회복의 기복으로만 넘기지 말고 현재 병동에서 재평가받아야 합니다.**\n\n특히 **약을 먹지 않는 시간에도 침을 계속 모으거나 흘리는지**가 중요한 추가 관찰입니다. 이를 확인하려고 물을 먹여 시험하지는 마세요.\n\n아산병원 고은재 교수님 외래는 **10월 7일 오전 10시 10분, 입원 여부는 별도 판단**으로 확인했습니다. 원하시면 준비 서류를 빠뜨리지 않도록 진료 전 알림을 설정할 수 있습니다.\ngenui{\"suggest_automation\":{\"label\":\"아산병원 진료 전 준비물 확인 알림\"}}",
+      "textSha256": "sha256:527280b1a69b32b9acfef0dbfa4238107deb4f5f639c9bf70f4b2e3e7fad916e",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Pediatric Feeding and Swallowing",
+          "url": "https://www.asha.org/practice-portal/clinical-topics/pediatric-feeding-and-swallowing/?utm_source=chatgpt.com",
+          "attribution": "asha.org"
+        },
+        {
+          "title": "Swallowing difficulties: supporting adherence – NHS SPS - Specialist Pharmacy Service – The first stop for professional medicines advice",
+          "url": "https://sps.nhs.uk/articles/swallowing-difficulties-supporting-adherence/?utm_source=chatgpt.com",
+          "attribution": "sps.nhs.uk"
+        },
+        {
+          "title": "[제품명] \n아스피린프로텍트정100밀리그램 \n \n[원료약품 및 그 분량] 이 약 1정(13",
+          "url": "https://www.bayer.com/sites/default/files/2021-12/Aspirin%20Protect%20100mg_KPC_Dec2021_for%20homepage.pdf?utm_source=chatgpt.com",
+          "attribution": "bayer.com"
+        },
+        {
+          "title": "Checking if tablets can be crushed or capsules opened – NHS SPS - Specialist Pharmacy Service – The first stop for professional medicines advice",
+          "url": "https://www.sps.nhs.uk/articles/checking-if-tablets-can-be-crushed-or-capsules-opened/?utm_source=chatgpt.com",
+          "attribution": "sps.nhs.uk"
+        },
+        {
+          "title": "Pediatric Traumatic Brain Injury",
+          "url": "https://www.asha.org/practice-portal/clinical-topics/pediatric-traumatic-brain-injury/?utm_source=chatgpt.com",
+          "attribution": "asha.org"
+        },
+        {
+          "title": "DailyMed",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=448cbd68-ab4f-447c-8e47-0f874fb5bcb4&utm_source=chatgpt.com",
+          "attribution": "QUETIAPINE FUMARATE tablet, film coated"
+        },
+        {
+          "title": "Fatigue After Traumatic Brain Injury (TBI)",
+          "url": "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury?utm_source=chatgpt.com",
+          "attribution": "MSKTC"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "genui{\"citation\":{\"ref\":\"turn18view1\"}}",
+          "urls": [
+            "https://www.asha.org/practice-portal/clinical-topics/pediatric-feeding-and-swallowing/?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "genui{\"citation\":{\"ref\":\"turn18view3\"}}",
+          "urls": [
+            "https://sps.nhs.uk/articles/swallowing-difficulties-supporting-adherence/?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "genui{\"citation\":{\"refs\":[\"turn18search14\",\"turn17view1\"]}}",
+          "urls": [
+            "https://www.bayer.com/sites/default/files/2021-12/Aspirin%20Protect%20100mg_KPC_Dec2021_for%20homepage.pdf?utm_source=chatgpt.com",
+            "https://www.sps.nhs.uk/articles/checking-if-tablets-can-be-crushed-or-capsules-opened/?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "genui{\"citation\":{\"ref\":\"turn17view3\"}}",
+          "urls": [
+            "https://www.asha.org/practice-portal/clinical-topics/pediatric-traumatic-brain-injury/?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "genui{\"citation\":{\"ref\":\"turn17view4\"}}",
+          "urls": [
+            "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=448cbd68-ab4f-447c-8e47-0f874fb5bcb4&utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "genui{\"citation\":{\"ref\":\"turn16view0\"}}",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury?utm_source=chatgpt.com"
+          ]
+        },
+        {
+          "marker": "genui{\"citation\":{\"ref\":\"turn18view2\"}}",
+          "urls": [
+            "https://www.asha.org/practice-portal/clinical-topics/pediatric-feeding-and-swallowing/?utm_source=chatgpt.com"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 진단, 처방 또는 병원 수용 확정 기록이 아닙니다. 참고 링크는 당시 답변에 연결된 출처입니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-09-30-care-137-medication-route",
+      "recordedAt": {
+        "start": "2026-09-30T05:55:11.684+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "follow-up",
+      "target": "message-d5789180-05c6-43af-9177-1dd3d80318e7",
+      "note": "9월 26일 세 차례 약을 뱉고 침을 모아 뱉었다는 관찰은 보존합니다. [9월 28일 입력](https://infant83.github.io/sj-resurrection/post/trauma/2026-09-28/#message-849a8b63-e48c-4812-b7e7-3cf0154a89f9)부터는 병원에서 가루약을 조제해 주었다고 기록됐습니다. 이를 이전 알약 모두의 분쇄·혼합 허가로 소급하지 않습니다. 제품별 제형과 대체 방법은 약제팀 확인이 필요한 항목입니다. [NHS SPS 제형 확인 안내](https://sps.nhs.uk/articles/checking-if-tablets-can-be-crushed-or-capsules-opened/)",
+      "sourceRefs": [
+        "chatgpt-care-phase-4"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [
+    "trauma-2026-09-25-conversation"
+  ],
+  "privacyReviewed": true
+}
