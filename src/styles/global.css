@@ -12,6 +12,7 @@
   --navy-soft: #e8eef1;
   --gold: #9a6532;
   --focus: #1769aa;
+  --uprising-green: #087b45;
   --trauma: #99564d;
   --trauma-bg: #f6e9e6;
   --life: #9b692e;
@@ -226,6 +227,15 @@ select {
   margin-top: -2px;
   color: var(--ink-soft);
   font-size: 0.72rem;
+}
+
+.uprising-word {
+  white-space: nowrap;
+}
+
+.uprising-r {
+  color: var(--uprising-green);
+  font-weight: 900;
 }
 
 .privacy-chip {

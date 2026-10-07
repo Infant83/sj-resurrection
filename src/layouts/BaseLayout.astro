@@ -10,11 +10,11 @@ interface Props {
 }
 
 const {
-  title = 'SJ Resurrection',
+  title = 'Sunjin UpRising',
   description = '선진의 회복 과정과 가족의 기록을 보존하는 공개 미리보기 아카이브',
   activeBoard,
 } = Astro.props;
-const documentTitle = title === 'SJ Resurrection' ? title : `${title} · SJ Resurrection`;
+const documentTitle = title === 'Sunjin UpRising' ? title : `${title} · Sunjin UpRising`;
 ---
 
 <!doctype html>
@@ -32,15 +32,15 @@ const documentTitle = title === 'SJ Resurrection' ? title : `${title} · SJ Resu
     <a class="skip-link" href="#main-content">본문으로 바로가기</a>
     <header class="site-header">
       <div class="shell header-inner">
-        <a class="brand" href={withBase()} aria-label="SJ Resurrection, 선진 부활 프로젝트 홈">
+        <a class="brand" href={withBase()} aria-label="Sunjin UpRising 홈">
           <span
             class="brand-mark"
             aria-hidden="true"
             title="아스클레피오스의 지팡이 — 치유와 회복의 표식"
           >⚕︎</span>
           <span>
-            <strong>SJ Resurrection</strong>
-            <small>선진 부활 프로젝트</small>
+            <strong>Sunjin <span class="uprising-word">Up<span class="uprising-r">R</span>ising</span></strong>
+            <small>선진 <span class="uprising-word">Up<span class="uprising-r">R</span>ising</span> 프로젝트</small>
           </span>
         </a>
         <span class="privacy-chip preview-chip" title="현재 누구나 접근할 수 있는 공개 미리보기입니다">
