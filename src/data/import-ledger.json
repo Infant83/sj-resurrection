@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "timezone": "Asia/Seoul",
-  "lastUpdated": "2026-09-30",
+  "lastUpdated": "2026-10-07",
   "historyPolicy": {
     "mode": "retain-existing-commits",
     "decidedAt": "2026-08-31",
@@ -32,7 +32,7 @@
       "sourceRequirement": "confirmed shared-conversation snapshot or source-verified embedded report"
     },
     "life": {
-      "status": "published-through-2026-09-21",
+      "status": "published-through-2026-10-07",
       "sourceThreads": [
         "선진이와 함께하는 삶 (phase1)",
         "선진이와 함께하는 삶 (phase2)",
@@ -162,27 +162,27 @@
       ]
     },
     {
-      "id": "life-public-archive-2026-09-21",
+      "id": "life-public-archive-2026-10-07",
       "board": "life",
-      "throughDate": "2026-09-21",
+      "throughDate": "2026-10-07",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
       "selection": {
-        "publishedPostCount": 22,
-        "publishedMessageCount": 56,
-        "publishedUserMessageCount": 22,
-        "publishedAssistantMessageCount": 34,
-        "correctedUserMessageCount": 22,
+        "publishedPostCount": 23,
+        "publishedMessageCount": 58,
+        "publishedUserMessageCount": 23,
+        "publishedAssistantMessageCount": 35,
+        "correctedUserMessageCount": 23,
         "privacyRedactedMessageCount": 0,
         "sourceKindCounts": {
-          "conversation-message": 56
+          "conversation-message": 58
         },
         "withheldMessageCount": 0,
         "excludedHiddenOrRedactedRecordCount": 2,
-        "publishedContentSha256": "eae6bfff8bb12d55a5ef1ff7e3ad1b60db84a5f3864490b146f0154e0a35a26c"
+        "publishedContentSha256": "b0440845665d715de0abc0d6986caebd4c5f9b4b3d2cf245193350777979876e"
       },
       "posts": [
         "life-2026-07-29-conversation",
@@ -206,7 +206,8 @@
         "life-2026-08-28-conversation",
         "life-2026-09-02-conversation",
         "life-2026-09-10-conversation",
-        "life-2026-09-21-conversation"
+        "life-2026-09-21-conversation",
+        "life-2026-10-07-conversation"
       ]
     },
     {
