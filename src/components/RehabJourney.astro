@@ -35,9 +35,9 @@ const inpatientPosts = sortPosts(posts.filter(p => p.data.rehab?.phases.includes
         const count = posts.filter(p => p.data.rehab?.hospitalIds.includes(h.id as typeof rehabHospitals[number]['id'])).length;
         return (
           <article class="rehab-hospital-card" data-hospital-card={h.id}>
-            <div class="rehab-hospital-top"><h3>{hospitalName(h.id)}</h3><span>외래 예약 기록</span></div>
+            <div class="rehab-hospital-top"><h3>{hospitalName(h.id)}</h3><span>진료·전원 기록</span></div>
             <p class="rehab-clinician">{h.clinician}</p>
-            <p class="rehab-appointment-date"><time datetime={h.appointment.date}>{dateLabel(h.appointment.date)}</time><strong>{h.appointment.time ?? '시각 미확인'}</strong></p>
+            <p class="rehab-appointment-date"><span>{h.appointment.label}</span><br /><time datetime={h.appointment.date}>{dateLabel(h.appointment.date)}</time><strong>{h.appointment.time ?? '시각 미확인'}</strong></p>
             <p class="rehab-hospital-note">{h.note}</p>
             <div class="rehab-source-links" aria-label={`${hospitalName(h.id)} 예약의 근거 기록`}>
               {h.sources.map(s => <a href={withBase(`post/${s.postId}/#${s.messageId}`)}>{s.label} ↗</a>)}

@@ -1,34 +1,39 @@
 {
   "schemaVersion": 1,
-  "reviewedAsOf": "2026-09-30",
-  "basis": "보호자가 남긴 예약·통화 기록 기준",
+  "reviewedAsOf": "2026-10-07",
+  "basis": "보호자의 간병·진료·전원 대화 기록 기준 · 실제 입원 확정과 구분",
   "hospitals": [
     {
       "id": "nrc",
       "clinician": "김현경 · 소아재활",
-      "appointment": { "date": "2026-09-30", "time": "13:10" },
-      "note": "진료 전 준비 대화가 추가됐습니다. 진료 결과와 입원 결정은 아직 기록되지 않았습니다.",
+      "appointment": { "date": "2026-10-07", "time": "14:00", "label": "대리진료 완료 기록 · 입원 대기" },
+      "note": "보호자가 입원장 발급·CD 등록을 위해 대리진료를 다녀왔다고 기록했습니다. 기관절개관 관리에 따른 집중치료실 대기와 관 상태 변화 후 일반·소아 병실 재검토를 안내받았으며, 실제 입원일은 미확정입니다.",
       "sources": [
+        { "label": "10/7 국립재활원 상담·운동치료 기록", "postId": "trauma/2026-10-07", "messageId": "message-c4abc1d7-87a7-4bef-98b1-62ee5b1b660e" },
         { "label": "9/30 진료 준비 원문", "postId": "rehab-care/2026-09-30", "messageId": "message-b078b79a-0a39-4d3e-90d7-79b811435eee" },
         { "label": "9/29 예약·통화 기록", "postId": "trauma/2026-09-29", "messageId": "message-4c699241-bd78-4d13-a73a-4cf55b0c849b" }
       ]
     },
     {
       "id": "hanyang",
-      "clinician": "김미정 · 재활의학과",
-      "appointment": { "date": "2026-10-02", "time": null },
-      "note": "9월 29일 예약에서 날짜와 담당의가 변경됐습니다. 환자 동반 예정이며, 변경된 진료 시각은 미확인입니다.",
+      "clinician": "김미정·최수진 · 재활의학과",
+      "appointment": { "date": "2026-10-12", "time": null, "label": "잠정 입원 계획 · 병상 확정 전" },
+      "note": "10월 2일 김미정·최수진 교수 진료와 입원장 발급 관련 상담을 보호자가 기록했습니다. 10월 12일 전원을 목표로 준비 중이나, 당일 병상과 수용 가능 연락을 기다리는 계획으로 실제 입원 완료가 아닙니다.",
       "sources": [
+        { "label": "10/2 진료 기록 · 10/3 입력", "postId": "trauma/2026-10-03", "messageId": "message-42e9ba05-e31b-48ee-b6d9-f116c59fcdc2" },
+        { "label": "10/7 이후 전원 계획", "postId": "trauma/2026-10-07", "messageId": "message-c4abc1d7-87a7-4bef-98b1-62ee5b1b660e" },
         { "label": "9/28 예약 변경 기록", "postId": "trauma/2026-09-28", "messageId": "message-849a8b63-e48c-4812-b7e7-3cf0154a89f9" },
         { "label": "변경 전 문의 기록", "postId": "trauma/2026-09-24", "messageId": "message-ba3c1eb6-ac76-4a9d-89df-36c000974de8" }
       ]
     },
     {
       "id": "asan",
-      "clinician": "고은재 · 소아재활",
-      "appointment": { "date": "2026-10-07", "time": "10:10" },
-      "note": "외래 예약을 받았다는 기록입니다. 외래 후 입원 여부와 대기 일정은 별도 판단이라고 안내받았습니다.",
+      "clinician": "차승우 · 재활의학과 (후속 기록 기준)",
+      "appointment": { "date": "2026-10-07", "time": null, "label": "외래 취소 완료 기록" },
+      "note": "10월 2일 전원 대화에서 차승우 교수 외래를 취소하는 방향을 검토했고, 10월 6일 간병일기에 취소 완료로 기록했습니다. 과거 고은재 교수·10시 10분 예약 기록과 구분하며, 예약 변경 시각은 미확인입니다.",
       "sources": [
+        { "label": "10/6 아산 외래 취소 기록", "postId": "trauma/2026-10-06", "messageId": "message-8784f9c0-809e-48ab-9780-ec41fe569231" },
+        { "label": "10/2 병원 선택·취소 검토", "postId": "rehabilitation/2026-10-02", "messageId": "message-328716a2-8412-49a8-a2e1-3e88f1b2e381" },
         { "label": "9/26 외래 예약 기록", "postId": "trauma/2026-09-26", "messageId": "message-d5789180-05c6-43af-9177-1dd3d80318e7" },
         { "label": "9/28 전원 논의 기록", "postId": "trauma/2026-09-28", "messageId": "message-849a8b63-e48c-4812-b7e7-3cf0154a89f9" }
       ]
@@ -36,9 +41,10 @@
     {
       "id": "severance",
       "clinician": "나동욱 · 소아재활",
-      "appointment": { "date": "2026-10-21", "time": "14:40" },
-      "note": "가족이 외래를 예약했다는 기록입니다. 이후 진료 결과나 입원 일정은 아직 기록되지 않았습니다.",
+      "appointment": { "date": "2026-10-21", "time": "14:40", "label": "기존 외래 예약 기록 · 변경 미확인" },
+      "note": "기존 가족 기록의 외래 예약입니다. 이번 대화에서도 10월 21일 외래가 언급되지만 취소·변경 완료나 진료 결과는 확인되지 않아 기존 일정을 유지해 표시합니다.",
       "sources": [
+        { "label": "10/1 전원·외래 계획", "postId": "rehabilitation/2026-10-01", "messageId": "message-cee9b82d-613c-4768-a5cb-23cd467c42ec" },
         { "label": "9/23 예약 내용 · 9/24 입력", "postId": "trauma/2026-09-24", "messageId": "message-ba3c1eb6-ac76-4a9d-89df-36c000974de8" },
         { "label": "9/28 전원 논의 기록", "postId": "trauma/2026-09-28", "messageId": "message-849a8b63-e48c-4812-b7e7-3cf0154a89f9" }
       ]

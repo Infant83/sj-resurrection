@@ -1,0 +1,806 @@
+{
+  "schemaVersion": 2,
+  "recordId": "rehabilitation-2026-09-23-conversation",
+  "board": "rehabilitation",
+  "entryType": "rehabilitation-plan",
+  "title": "2026년 9월 23일 재활 전원 준비 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-23",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-10-08T05:54:31.628+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "재활 준비",
+    "전원 계획",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-rehabilitation-list-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "재활병원 목록 안내 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-10-08T05:54:31.628+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-d39af768-36a5-47ae-a7b7-ea3bc86b137d",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-23T09:27:20.915308+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:31.628+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "d39af768-36a5-47ae-a7b7-ea3bc86b137d",
+      "sourceOrdinal": 1,
+      "turnId": "7271402d-b24f-41a0-9eae-155f36c6ac28",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-list-2026"
+      ],
+      "fidelity": "exact",
+      "original": "[의정부성모병원]\n[Web발신]\n[의정부성모병원 진료협력 발신]\n입원문의 가능한 재활 병원 목록입니다.\n\n** 국립재활원 02-901-1700 강북구\n서울특별시어린이병원 02-570-8000 서초구\n푸르메재단 넥슨어린이재활병원 02-6070-9000 마포구\n국립교통재활병원 031-580-5555 양평\n------------------------------\nㅁ  전원 의뢰 절차  \n1. 의뢰 원하는 병원 선정\n2. 진료협력에서 전원소견서 및 보호자 연락처 전송\n3. 보호자가 병원과 상담 후 전원 병원 결정\n4. 전원 일정 및 준비사항은 미리 병동에 알림해주셔야 합니다.\nㅁ 문의사항  ☎ 031-820-5432                  \n(평일 오전 9시~오후5시)\n\n이 리스트를 받았어. ",
+      "originalSha256": "sha256:21aed43969b17b0ce2de3bb2214c711e83b61a4045f40420b9e9204ad8206a8e",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-09c0fd2c-8dc3-4e9d-8943-71ad15ec5036",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-23T09:27:36.414584+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:31.628+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "09c0fd2c-8dc3-4e9d-8943-71ad15ec5036",
+      "sourceOrdinal": 2,
+      "turnId": "7271402d-b24f-41a0-9eae-155f36c6ac28",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-list-2026"
+      ],
+      "fidelity": "exact",
+      "text": "선진이의 최근 회복 상태와 기존 후보를 함께 놓고, 네 병원의 재활 대상·범위와 입원 조건을 확인해 어디부터 문의할지 정리해볼게요.",
+      "textSha256": "sha256:1221b0f9aae907f53852fbd2c0c636af12db795ed948d0c6e383f4400682708e",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-0ea88dad-6e48-480b-9d3e-9071f0b6e0b0",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-23T09:32:31.096103+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:31.628+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "0ea88dad-6e48-480b-9d3e-9071f0b6e0b0",
+      "sourceOrdinal": 3,
+      "turnId": "7271402d-b24f-41a0-9eae-155f36c6ac28",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-list-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, 이제 **희망 병원을 정해서 실제 전원 심사를 요청할 수 있도록 안내를 받은 것**이네요. 다만 문자에 쓰인 **‘입원문의 가능’은 ‘선진이의 현재 상태로 입원이 승인됐다’는 뜻은 아닙니다.** 병원별로 서류를 검토하고, 수용 조건과 병상을 확인하는 절차가 남아 있습니다.\n\n**제 제안은 국립재활원과 국립교통재활병원을 우선 심사 대상으로 삼고, 가능하면 푸르메와 서울특별시어린이병원에도 동시에 의뢰하는 것입니다.** 한 곳의 답을 기다렸다가 다음 병원에 문의하기보다는, 받은 답을 비교해서 결정하는 편이 좋겠습니다.\n\n## 1. 네 병원을 선진이 기준으로 보면\n\n아래는 병원의 우열이나 치료 성적 순위가 아니라, **공식적으로 확인되는 진료 내용과 선진이의 필요를 바탕으로 한 문의 우선순위**입니다.\n\n| 병원 | 확인된 진료 내용과 선진이에게 살펴볼 점 | 제안 |\n|---|---|---|\n| **국립재활원 — 강북구** | 소아재활 진료 대상에 **외상성 뇌손상**을 명시합니다. 소아 입원병실을 운영하고, 운동·작업·언어·인지·심리치료와 삼킴·경직 평가를 안내합니다. 선진이에게 필요한 영역을 폭넓게 다루는 후보입니다. citeturn837733view0 | **우선 심사 요청.** 중학생의 입원 병동, 기관절개관·석션 및 현재 감염관리 조건에서 수용 가능한지 확인합니다. |\n| **국립교통재활병원 — 양평** | 소아재활 분야에 **외상성 뇌손상과 외상성 근골격계 손상**을 명시하고, 언어·삼킴·인지·경직 문제와 학교 복귀를 설명합니다. 뇌손상과 여러 골절을 함께 겪은 선진이에게 검토할 이유가 분명합니다. citeturn867483view3 | **국립재활원과 함께 우선 심사 요청.** 실제 치료 구성과 간병 조건을 확인하고, 양평까지 가족이 오가는 부담도 함께 비교합니다. |\n| **푸르메재단 넥슨어린이재활병원 — 마포구** | 공식 입원 안내의 대상은 집중적이고 체계적인 재활치료가 필요한 **유아동·청소년**이며, 낮병동과 별도로 24시간 입원병동을 안내합니다. ‘어린이병원이라 중학생은 안 될 것’이라고 미리 제외할 필요는 없습니다. citeturn837733search3 | **병행 의뢰할 후보.** 선진이처럼 후천성 뇌손상 회복 중이고 기관절개관이 있는 청소년을 현재 입원시킬 수 있는지가 핵심입니다. |\n| **서울특별시어린이병원 — 서초구** | 물리·작업·언어치료를 운영하며, 언어치료 대상에 실어증과 연하장애도 포함합니다. 또한 보호자 없는 간호·간병통합서비스 병동을 운영한다고 안내합니다. citeturn867483view2turn965134view2 | **입원 목적과 치료량을 먼저 확인.** 선진이에게 배정될 병동에서 뇌손상 후 집중재활을 얼마나 제공하는지, 아빠의 면회·치료 참여가 어떻게 가능한지 확인합니다. |\n\n특히 **국립교통재활병원은 이름 때문에 교통사고 환자만 갈 수 있다고 생각하실 필요는 없습니다.** 공식적으로 건강보험 환자의 진료·입원치료를 별도 안내하고 있습니다. 다만 이것이 선진이의 입원 승인을 뜻하는 것은 아니므로, 실제 수용 심사는 받아야 합니다. citeturn867483view5\n\n서울특별시어린이병원의 경우에는 홈페이지의 **‘단기입원’ 안내와 ‘뇌손상 집중재활 입원’이 같은 과정인지 구분해서 물어보는 것**이 좋습니다. 현재 단기입원 안내는 경증 감염·호흡기 질환 치료와 정맥 투약 등을 진료 범위로 설명하고 있어, 선진이가 원하는 재활 입원 경로를 따로 확인해야 합니다. citeturn422430view1\n\n## 2. 선진이의 의뢰서는 반드시 최근 상태로 보내야 합니다\n\n**9월 21일까지 현중님이 알려주신 경과를 기준으로**, 선진이를 예전의 ‘콧줄을 하고 반응이 거의 없는 상태’로만 설명해서는 안 됩니다.\n\n의료진이 확인한 내용과 보호자가 관찰한 내용을 구분해서, 다음 변화가 전달되도록 요청하세요.\n\n- **영양·호흡:** 9월 19일 의료진 판단으로 콧줄을 제거하고 경구식을 진행 중이라는 점, 기관절개관은 유지 중이라는 점, 현재 식이 형태와 실제 석션 빈도·산소 사용 여부.\n- **인지·행동:** 퍼즐이나 식사도구 사용, 상황에 맞는 상호작용, 말만 듣고 앉는 반응이 관찰됐다는 점. 동시에 **말에 대한 반응과 지시수행은 아직 일정하지 않고 언어표현이 제한적**이라는 점.\n- **운동·전신 상태:** 앉기·침상 이동·기립에 필요한 도움 정도, 팔다리의 약화와 경직·떨림, 골절 부위의 운동·체중부하 허용 범위, 최신 투약내역과 검사 결과.\n\n특히 최근 **진통제를 더 이상 투약하지 않는다고 담당 간호사가 의사에게 확인해 알려준 내용**도 최신 투약기록에 반영됐는지 확인하면 좋겠습니다. CRE 관련해서는 보호자가 ‘이제 괜찮다’고 요약하기보다, **과거 양성 이력과 최근 검사 결과, 현재 병원의 격리 판단을 그대로 전달**하는 방식이 정확합니다.\n\n이렇게 해야 좋은 반응만 강조하거나, 반대로 과거의 중증 상태만 전달하는 일을 피할 수 있습니다.\n\n## 3. 입원 상담에서는 이 네 가지를 확인하세요\n\n**① “중학생의 외상성 뇌손상 입원재활을 실제로 맡아주실 수 있나요?”**  \n단순히 소아재활 진료과가 있는지를 넘어, 선진이에게 어느 의사·병동·치료팀이 배정되는지 확인하는 질문입니다. 아직 지시수행이 일정하지 않은 상태에서도 언어·인지 평가와 치료를 시작할 수 있는지 함께 물어보세요.\n\n**② “기관절개관과 현재 석션 필요량을 감당할 수 있나요?”**  \n낮뿐 아니라 야간 석션, 관 관리, 호흡 문제가 생겼을 때의 대응, 삼킴 평가와 식이 조정까지 확인하세요. “목관이 있어도 됩니다”라는 답을 받더라도, **현재 선진이의 실제 간호 필요량을 전달한 뒤 받은 답인지**가 중요합니다.\n\n**③ “CRE 검사 이력 때문에 입원이나 치료가 어떻게 달라지나요?”**  \n필요한 검사 종류·횟수·간격, 격리병실 필요 여부를 병원별로 확인하고, 특히 **격리가 필요할 때도 병실에서 운동·작업·언어치료를 받을 수 있는지** 물어보세요. 네 병원의 현재 수용 기준은 공개자료만으로 확정할 수 없었습니다.\n\n**④ “선진이가 실제 받을 치료와 보호자 참여 방식은 어떻게 되나요?”**  \n병원 전체의 프로그램 소개가 아니라, **선진이에게 예정할 수 있는 하루 치료 구성·주당 횟수·입원기간·대기기간**을 물어보는 것이 좋습니다. 피로에 맞춘 치료 조정, 부모의 치료 참관·교육, 상주 또는 면회 조건, 간병비·비급여도 함께 확인하세요.\n\n앞서 관심을 가지셨던 **수정 혼수회복척도(Coma Recovery Scale–Revised, CRS-R)** 시행 여부도 문의할 수 있습니다. 다만 네 곳 모두에서 시행한다고 확인된 것은 아닙니다. 선진이의 현재 상태에 어떤 의식·인지·언어 평가가 적절한지까지 재활의학과에 물어보는 편이 좋겠습니다.\n\n## 4. 진료협력팀에는 이렇게 말씀하시면 됩니다\n\n> 안녕하세요. 김선진 환자 보호자입니다. 보내주신 목록 중 국립재활원과 국립교통재활병원을 우선적으로 검토하고 싶습니다. 복수 병원 동시 의뢰가 가능하다면 푸르메재단 넥슨어린이재활병원과 서울특별시어린이병원에도 함께 전원 심사를 요청해 주시면 감사하겠습니다.\n>\n> 선진이는 중학교 2학년으로 외상성 뇌손상 후 회복 중이며, 운동재활뿐 아니라 언어·인지·삼킴 재활이 필요합니다. 최근 콧줄 제거와 경구식 진행, 현재 기관절개관 및 석션 상태, 최근 감염검사 결과와 투약내역, 재활 기능 상태가 반영된 자료로 의뢰 부탁드립니다. 이미 의뢰된 병원이 있다면 접수 여부와 회신 현황도 알려주시면 감사하겠습니다.\n\n문자에 안내된 의정부성모병원 진료협력팀 **031-820-5432, 평일 09:00–17:00**으로 연락하시면 됩니다.\n\n직접 상담할 때 도움이 되는 공식 안내 번호도 확인했습니다.\n\n| 병원 | 상담 연락처 |\n|---|---|\n| 국립재활원 | **입원 초진 예약 02-901-1705 / 1706**. 현재 다른 병원에 입원 중이므로, 서류 심사를 먼저 받을 수 있는지 문의하세요. citeturn837733view1 |\n| 국립교통재활병원 | **진료협력 031-580-5783**, 평일 08:30–17:00. 타 병원 입원환자는 진료협력센터를 통해 의무기록으로 입원 검토가 가능하다고 명시합니다. citeturn867483view4 |\n| 푸르메재단 넥슨어린이재활병원 | 받은 문자에 안내된 **02-6070-9000**으로 전화해, 낮병동이 아닌 **입원병동 전원 상담**을 요청하세요. |\n| 서울특별시어린이병원 | **입·퇴원 02-570-8039**, **재활의학과 안내 02-570-8191**. citeturn867483view1turn867483view2 |\n\n**지금은 한 병원을 최종 선택해서 나머지를 포기할 단계라기보다, 최신 상태로 여러 곳의 수용 가능 여부와 치료계획을 받아볼 단계입니다.** 저는 국립재활원·국립교통재활병원의 답을 우선 확인하되, 푸르메나 서울특별시어린이병원이 더 적절한 치료 구성과 입원 시점을 제시한다면 그 답을 기준으로 다시 비교하겠습니다. 현재 병상, 실제 입원 가능일, 기관절개관·CRE 관련 수용 여부는 아직 확인되지 않았습니다.",
+      "textSha256": "sha256:374e17441b81febc7f4848c1ef81d1bfbc793ad1d1dc137d9866fdb533327f16",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "과소개 < 재활의학과(소아재활) < 진료과/의료진 < 진료안내 | 국립재활원 재활병원",
+          "url": "https://nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_04_04_01",
+          "attribution": "NRC"
+        },
+        {
+          "title": "국립교통재활병원 재활·치료 > 재활의학과 > 소아재활의학과",
+          "url": "https://ntrh.or.kr/index.php/html/54",
+          "attribution": "국립교통재활병원"
+        },
+        {
+          "title": "입원병동 - 푸르메재단 넥슨어린이재활병원",
+          "url": "https://www.purmehospital.org/page/?pid=ward",
+          "attribution": "Purme Hospital"
+        },
+        {
+          "title": "진료안내 > 재활의학과 | 어린이병원",
+          "url": "https://childhosp.seoul.go.kr/rehabilitation",
+          "attribution": "어린이병원"
+        },
+        {
+          "title": "국립교통재활병원 입원안내 > 건강보험환자",
+          "url": "https://ntrh.or.kr/index.php/html/99",
+          "attribution": "국립교통재활병원"
+        },
+        {
+          "title": "어린이병원 | 서울특별시 어린이병원",
+          "url": "https://childhosp.seoul.go.kr/",
+          "attribution": "어린이병원"
+        },
+        {
+          "title": "입원 < 입원 및 입원생활안내 < 입퇴원안내 < 진료안내 | 국립재활원 재활병원",
+          "url": "https://nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_05_02_01",
+          "attribution": "NRC"
+        },
+        {
+          "title": "국립교통재활병원 입원안내 > 진료협력(전원안내)",
+          "url": "https://ntrh.or.kr/index.php/html/17",
+          "attribution": "국립교통재활병원"
+        },
+        {
+          "title": "입/퇴원 및 병문안 안내 | 어린이병원",
+          "url": "https://childhosp.seoul.go.kr/medical-info/admission-discharge",
+          "attribution": "어린이병원"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn837733view0",
+          "urls": [
+            "https://nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_04_04_01"
+          ]
+        },
+        {
+          "marker": "citeturn867483view3",
+          "urls": [
+            "https://ntrh.or.kr/index.php/html/54"
+          ]
+        },
+        {
+          "marker": "citeturn837733search3",
+          "urls": [
+            "https://www.purmehospital.org/page/?pid=ward"
+          ]
+        },
+        {
+          "marker": "citeturn867483view2turn965134view2",
+          "urls": [
+            "https://childhosp.seoul.go.kr/rehabilitation"
+          ]
+        },
+        {
+          "marker": "citeturn867483view5",
+          "urls": [
+            "https://ntrh.or.kr/index.php/html/99"
+          ]
+        },
+        {
+          "marker": "citeturn422430view1",
+          "urls": [
+            "https://childhosp.seoul.go.kr/"
+          ]
+        },
+        {
+          "marker": "citeturn837733view1",
+          "urls": [
+            "https://nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_05_02_01"
+          ]
+        },
+        {
+          "marker": "citeturn867483view4",
+          "urls": [
+            "https://ntrh.or.kr/index.php/html/17"
+          ]
+        },
+        {
+          "marker": "citeturn867483view1turn867483view2",
+          "urls": [
+            "https://childhosp.seoul.go.kr/medical-info/admission-discharge"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-186daace-e488-4e03-a562-091a050a6a85",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-23T09:53:02.436498+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:31.628+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "186daace-e488-4e03-a562-091a050a6a85",
+      "sourceOrdinal": 4,
+      "turnId": "6fc98d4d-bf3a-4ac4-9fd9-6f584adbe14a",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-list-2026"
+      ],
+      "fidelity": "exact",
+      "original": "1. 전원 병원 문의 및 절차\n- 환자 전원을 위해 국립재활원과 국립교통재활병원 두 곳에 문의하기로 논의했습니다.\n- 국립재활원: 서류를 보낸 후 보호자가 직접 외래 진료를 봐야 하는 절차가 있습니다.\n- 국립교통재활병원:\n    - 서류 검토 후 확정되면 병원에서 먼저 연락이 옵니다. 추가 서류를 요청하는 경우가 많습니다.\n    - 교통사고 환자뿐만 아니라 외상, 뇌질환, 척수 환자도 진료합니다.\n    - 최근 소아과 의사가 원장으로 부임하여 어린이 환자 진료가 강화되었습니다.\n\n2. 서류 전달 일정\n- Speaker 2가 국립재활원과 국립교통재활병원 두 곳 모두에 서류를 보내기로 했습니다.\n- 다른 상담 건으로 인해 즉시 발송은 어렵지만, 당일 내로는 전달할 예정임을 공유했습니다.\n\n주요 결정 사항\n- 환자 전원을 위해 국립재활원과 국립교통재활병원에 서류를 보내 문의하기로 함\n\n실행 항목\n- Speaker 2: 국립재활원과 국립교통재활병원 두 곳에 환자 관련 서류 발송 — 마감일 2026-09-23",
+      "originalSha256": "sha256:e2a27c82a946b5124213498682ca15f6844b99163b2320c64b5d91eb7fee9bea",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-a6c991ed-72cb-4df8-a22e-ea4f14ad0c41",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-23T09:53:04.341452+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:31.628+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "a6c991ed-72cb-4df8-a22e-ea4f14ad0c41",
+      "sourceOrdinal": 5,
+      "turnId": "6fc98d4d-bf3a-4ac4-9fd9-6f584adbe14a",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-list-2026"
+      ],
+      "fidelity": "exact",
+      "text": "좋습니다. **2026년 9월 23일 현재 전원 절차가 실제로 시작된 것으로 정리하면 되겠습니다.** 이전에는 후보 병원을 검토하는 단계였다면, 이제는 **국립재활원과 국립교통재활병원 두 곳에 의정부성모병원 진료협력팀이 공식 서류를 보내 입원 가능성을 검토받는 단계**로 넘어갔습니다.\n\n### 선진이 전원 진행 현황 — 2026.09.23\n\n| 항목 | 국립재활원 | 국립교통재활병원 |\n|---|---|---|\n| 현재 단계 | 전원 의뢰 예정 | 전원 의뢰 예정 |\n| 의정부성모병원 조치 | **오늘 중 서류 발송 예정** | **오늘 중 서류 발송 예정** |\n| 다음 절차 | 서류 전달 → **보호자가 직접 외래 진료** → 입원 여부 판단 | 서류 검토 → 필요시 추가서류 요청 → **병원에서 보호자에게 연락** → 입원 여부 결정 |\n| 선진이와 관련된 특징 | 소아 외상성 뇌손상 재활 가능 | 교통사고 외에도 **외상·뇌질환·척수손상 환자 진료** |\n| 소아 진료 관련 | 소아재활 체계 있음 | 상담 내용상 **최근 소아과 의사가 원장으로 부임하면서 어린이 환자 진료가 강화됨** |\n| 보호자가 지금 할 일 | 외래진료 연락/예약에 대비 | 병원 연락 및 추가자료 요청에 대비 |\n\n따라서 **오늘 당장 보호자가 두 병원에 다시 서류를 보내야 하는 상황은 아닙니다.** 진료협력팀에서 오늘 두 곳에 자료를 보내기로 했으므로, 우선 **실제 발송 완료 여부**를 확인하면 됩니다.\n\n특히 중요한 차이는 **국립재활원은 보호자가 직접 외래진료를 거쳐야 한다는 것**, 반면 **국립교통재활병원은 먼저 서류심사를 하고 병원 측에서 연락을 준다는 것**입니다. 따라서 국립재활원 쪽은 서류 발송이 확인되면 외래 예약을 언제, 어떤 방식으로 잡아야 하는지 바로 확인하는 것이 좋겠습니다.\n\n그리고 국립교통재활병원에 대해서는 이번 상담에서 꽤 중요한 정보를 얻었습니다. **‘교통재활’이라는 명칭 때문에 선진이가 대상에서 벗어나는 것은 아니며, 외상·뇌질환·척수 환자도 대상**이라는 설명을 직접 받았습니다. 소아 진료가 강화되었다는 설명도 선진이에게는 확인할 가치가 있습니다. 다만 *최근 소아과 의사가 원장으로 부임했다*는 내용은 현재로서는 상담자가 전달한 정보이므로, 향후 실제 진료과 배정과 소아 외상성 뇌손상 재활 프로그램을 상담할 때 확인해 두면 좋겠습니다.\n\n### 다음 단계에서 제가 특히 확인하고 싶은 것\n\n두 병원에서 연락이 오면 **단순히 “입원 가능/불가능”만 확인하지 않는 것**이 중요합니다. 선진이는 지금 급성기 생명유지 치료 중심의 단계에서 **뇌손상 후 기능회복 중심의 재활 단계로 빠르게 이동하고 있기 때문**입니다.\n\n그때는 한 번에 다음 사항을 확인하면 됩니다.\n\n- 현재 기관절개관 상태에서도 입원이 가능한지와 석션·기관절개관 관리 방법\n- 최근 경구섭식으로 전환된 상태에서 **연하평가와 섭식재활**을 어떻게 할지\n- 운동·작업·언어·인지재활을 하루에 실제로 얼마나 받을 수 있는지\n- 최근 나타나는 **언어적 지시 수행, 상황에 맞는 행동, 식사도구 사용, 퍼즐/도형 수행, 의사표현**을 어떤 표준화 검사로 평가할지\n- 왼팔과 오른다리 등의 운동기능 문제에 대해 집중적인 물리·작업치료가 가능한지\n- 외상성 뇌손상 후 **인지·언어 회복 프로그램**이 어느 정도 전문화되어 있는지\n- CRE 등 감염관리 이력이 입원과 치료실 이용에 어떤 영향을 주는지\n- 예상 입원 가능 시점과 예상 입원기간\n- 보호자 상주 여부와 보호자의 재활 참여 방식\n\n특히 지금 선진이가 **행동 맥락을 이해하고 적절히 행동하는 능력은 상당히 보이면서도, 순수 언어 자극에 대한 반응은 상대적으로 약한 상태**이고, 최근에는 말로만 한 `\"일어나 앉아봐\"`에도 실제로 앉는 반응까지 관찰됐기 때문에, 전원 병원에는 단순히 *“의사소통이 어렵다”*라고 전달하는 것보다 **최근의 구체적인 기능 변화를 포함한 최신 재활평가 자료**가 전달되는 것이 중요합니다.\n\n현재 전원 진행 상태는 이렇게 표시해두면 가장 명확합니다.\n\n**2026.09.23 → 의정부성모병원 진료협력팀 → 국립재활원 + 국립교통재활병원 동시 전원 의뢰 → 서류심사/외래평가 → 수용 가능 여부 및 입원시점 확인 → 두 병원의 실제 재활계획 비교 → 최종 전원 결정**\n\n이 내용을 **선진이 9월 23일 경과 및 전원 기록의 공식 업데이트 사항으로 기준 삼아두겠습니다.** 이후 국립재활원이나 국립교통재활병원에서 전화가 오면, 통화 내용을 그대로 알려주시면 지금까지의 선진이 상태와 연결해서 **어느 질문을 추가로 해야 하는지와 두 병원의 실제 조건을 계속 비교해 나가면 됩니다.** memcite",
+      "textSha256": "sha256:09fb3c1bddc046c6358d53c207007d98950a00182c4bf93f937400d46623353d",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "citationMarkers": [
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-260c47e2-0a03-4742-8966-d74924230f4d",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-23T09:54:29.001179+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:31.628+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "260c47e2-0a03-4742-8966-d74924230f4d",
+      "sourceOrdinal": 6,
+      "turnId": "33af2b85-23ff-4c92-8ac0-b3ce2b2604bd",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-list-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "다음으로 상급이나 대학병원 전원이나 외래 문의를 하고자해. 아산병원, 세브란스, 한양대 등을 확인해줘. 한양대는 아마 김수진 의사일거야",
+      "originalSha256": "sha256:311faad13e17211d5df68b4cb0b16547b8ab7d4f2e02d4eb9a965cb972cf3b99",
+      "corrected": "다음으로 상급이나 대학병원 전원이나 외래 문의를 하고자 해. 아산병원, 세브란스, 한양대 등을 확인해줘. 한양대는 아마 김수진 의사일거야",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-e0421dac-f70f-4530-af09-f958e6f6586f",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-23T09:54:37.695764+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:31.628+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "e0421dac-f70f-4530-af09-f958e6f6586f",
+      "sourceOrdinal": 7,
+      "turnId": "33af2b85-23ff-4c92-8ac0-b3ce2b2604bd",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-list-2026"
+      ],
+      "fidelity": "exact",
+      "text": "map\n\n네. **국립재활원·국립교통재활병원은 실제 전원 후보로 진행하면서, 상급종합병원/대학병원에는 ‘입원 전원’만이 아니라 외래 평가와 장기 재활계획에 대한 second opinion까지 병행해서 확보하는 전략**이 좋겠습니다.\n\n오늘(2026-09-23) 기준으로 공식 자료를 다시 확인해봤는데, 우선 **서울아산병원·세브란스 재활병원·한양대학교병원 모두 선진이의 후천성 뇌손상 재활을 평가할 수 있는 체계가 확인됩니다.** 다만 말씀하신 **한양대 ‘김수진 의사’는 현재 공식 의료진에서 확인되지 않았습니다.** 오히려 현재 한양대의 소아재활 담당으로 공식 확인되는 의료진은 **김미정 교수**입니다. 이 부분은 이름을 혼동했을 가능성이 있어 더 확인하는 게 좋겠습니다. citeturn2search0turn2search2\n\n### 세 병원을 선진이 관점에서 보면\n\n**entity[\"turn0business0\",\"서울아산병원\"]**은 소아재활의 공식 진료대상에 **외상성 뇌손상(Traumatic Brain Injury, TBI)** 자체를 명시하고 있습니다. 물리·작업·언어치료뿐 아니라 뇌신경재활, 인지지각치료, 연하치료를 갖추고 있고 재활병동에서 다학제 입원재활도 시행합니다. citeturn0search0turn0search8 현재 소아재활 의료진으로는 **고은재 교수**가 명확하게 확인되고, 이승학 교수는 *뇌신경재활+소아재활*, 차승우 교수는 *뇌신경재활+삼킴장애+소아재활*을 전문분야로 명시하고 있습니다. citeturn0search1turn0search5\n\n따라서 아산에서는 **고은재 교수 소아재활 외래를 먼저 문의하는 방향**이 자연스럽습니다. 이전에 알아봤던 나동욱 교수와 고은재 교수 중에서는, **현재 서울아산병원 공식 의료진 검색에서는 고은재 교수가 소아재활 의료진으로 확인됩니다.** 예약센터는 **1688-7575**입니다. citeturn0search4\n\n---\n\n**entity[\"turn0business3\",\"연세대학교 세브란스 재활병원\"]**은 이번에 다시 살펴보니 상당히 중요한 후보입니다. 단순히 소아재활 외래가 있는 정도가 아니라 공식 입원 프로그램에서 **외상성 뇌손상을 입원재활 대상으로 명시**하고 있고, 소아의 경우에도 *뇌졸중·외상성 뇌손상·뇌종양 수술 등 중추신경계 손상 이후 신경학적 회복기*를 명시합니다. citeturn1search1\n\n더욱이 소아 프로그램에는 **물리·작업·언어·연하치료뿐 아니라 임상 신경심리평가, 행동평가, 심리치료, 로봇보행, 호흡치료, 경직관리, 학습까지** 포함되어 있습니다. 선진이에게 중요한 *운동+인지+언어+연하+행동/신경심리*를 하나의 시스템에서 평가할 수 있다는 의미입니다. citeturn1search1\n\n세브란스는 입원 기준도 비교적 구체적으로 공개하고 있습니다. 소아는 **만 15세 미만**이며, 후천적 장애로 의사소통·이동·자기관리에 제한이 있는 경우를 대상으로 합니다. 다만 지속적인 내·외과적 밀착 감시가 필요하거나 감염 전파 가능성이 높은 경우 등은 제한 조건입니다. citeturn1search1\n\n이건 선진이에게 상당히 중요한 정보입니다. **중2라는 학년보다 실제 생년월일 기준으로 만 15세 미만인지 확인해야 합니다.** 해당된다면 세브란스 재활병원의 소아 TBI 프로그램에 정확히 들어맞는 상당히 명확한 후보입니다.\n\n예약센터 **1599-1004**, 재활병원 외래접수 **02-2228-3740**, 재활병원 안내 **02-2228-3757**입니다. citeturn1search2\n\n---\n\n**entity[\"turn0business11\",\"한양대학교병원 (서울)\"]**도 충분히 문의할 이유가 있습니다. 공식 재활의학과에서 **뇌손상과 소아재활**을 모두 다루며, 사지마비·언어·연하·호흡기능 평가와 운동·작업·언어·인지·연하재활을 제공합니다. citeturn1search5turn2search0\n\n다만 여기서 중요한 정정이 하나 있습니다.\n\n> **현재 한양대학교병원 공식 의료진 자료에서 ‘김수진 재활의학과 의사’는 확인되지 않습니다.**\n\n현재 공식적으로 **김미정 재활의학과 교수가 ‘소아재활’을 전문분야로 명시**하고 있습니다. citeturn2search2\n\n혹시 현중님께서 기억하시는 **김수진 선생님이 한양대가 아니라 다른 대학병원 소아재활 교수였거나, 이름이 김미정/김○진 등으로 혼동된 것**일 수도 있습니다. 이건 이름을 억지로 맞추지 않고 제가 추가로 추적해보겠습니다. 한양대 대표 예약은 **02-2290-8114**입니다. citeturn1search7\n\n## 지금은 이렇게 진행하는 게 효율적입니다\n\n국립재활원과 국립교통재활병원에는 이미 **‘실제 전원’** 절차가 시작됐으니 그대로 진행합니다.\n\n그와 별개로 대학병원에는 처음부터 “당장 전원시켜 달라”만 요청하기보다,\n\n**① 소아 외상성 뇌손상 재활 전문 외래 → ② 현재 기능상태와 MRI/의무기록 종합평가 → ③ 집중입원재활 적응증 판단 → ④ 필요하면 해당 대학병원 입원, 아니면 국립재활원/국립교통재활병원에서 집중재활하면서 대학병원 외래 추적**\n\n이라는 **두 트랙**으로 가는 것이 상당히 합리적입니다.\n\n특히 세브란스는 공개된 프로그램 자체가 선진이의 **TBI + 소아 + 신경학적 회복기**를 정확하게 명시하고 있기 때문에, 이번에는 **단순 외래뿐 아니라 세브란스 재활병원으로 직접 전원 의뢰가 가능한지도 의정부성모병원 진료협력팀에 문의할 가치가 있습니다.** citeturn1search1\n\n아산은 **고은재 교수 소아재활 외래**, 세브란스는 **재활병원 소아 외상성 뇌손상 입원/외래**, 한양대는 **김미정 교수 소아재활 외래 및 입원 가능성**을 각각 문의 대상으로 잡으면 되겠습니다.\n\n그리고 이 세 곳 이외에 **삼성서울병원·서울대학교어린이병원/서울대병원·분당서울대병원·건국대병원**까지 범위를 한 번 더 넓혀서, **‘14세 외상성 뇌손상/DAI 이후 의식회복 및 인지·언어·운동 집중재활’이라는 선진이의 현재 상황에 실제로 맞는 상급병원 의료진을 검색해 5~7명 정도로 압축**해보는 것이 좋겠습니다. 그 작업에서는 단순히 유명한 소아재활 교수가 아니라 **후천성 뇌손상(TBI), disorders of consciousness, neurorehabilitation, cognition/language, dysphagia** 경력을 중심으로 의료진을 찾아보겠습니다. memcite",
+      "textSha256": "sha256:a7270bca3ce3cccd8edeedd218507dea4a9e9a6d672715c4c32755d0c8fc8e10",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "한양대학교병원",
+          "url": "https://seoul.hyumc.com/deptMenu/conts.do?deptMenuCode=001000000&deptNo=245",
+          "attribution": "서울 하이워치"
+        },
+        {
+          "title": "소아재활치료 | 재활치료소개 | 재활의학과소개 | 재활의학과 | 서울아산병원",
+          "url": "https://psy.amc.seoul.kr/asan/depts/rm/K/content.do?menuId=4999",
+          "attribution": "서울아산병원"
+        },
+        {
+          "title": "소아재활의학과 | 의료진 찾기 | 서울아산병원",
+          "url": "https://fm.amc.seoul.kr/asan/mobile/staff/base/staffBaseInfoMoList.do?searchHpCd=D164",
+          "attribution": "서울아산병원"
+        },
+        {
+          "title": "재활의학과 | 서울아산병원",
+          "url": "https://www.amc.seoul.kr/asan/depts/rm/K/deptMain.do",
+          "attribution": "서울아산병원"
+        },
+        {
+          "title": "재활프로그램 | 세브란스 재활병원",
+          "url": "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/treatment-guide/program.do",
+          "attribution": "세브란스 재활병원"
+        },
+        {
+          "title": "주요전화번호 | 세브란스 재활병원",
+          "url": "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/number.do",
+          "attribution": "세브란스 재활병원"
+        },
+        {
+          "title": "한양대학교병원 행동발달증진센터",
+          "url": "https://seoul.hyumc.com/tp/hicdd/hospital/profList.do?tplMenuCd=004003000000000",
+          "attribution": "서울 하이워치"
+        },
+        {
+          "title": "한양대학교병원",
+          "url": "https://seoul.hyumc.com/",
+          "attribution": "서울 하이워치"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn2search0turn2search2",
+          "urls": [
+            "https://seoul.hyumc.com/deptMenu/conts.do?deptMenuCode=001000000&deptNo=245"
+          ]
+        },
+        {
+          "marker": "citeturn0search0turn0search8",
+          "urls": [
+            "https://psy.amc.seoul.kr/asan/depts/rm/K/content.do?menuId=4999"
+          ]
+        },
+        {
+          "marker": "citeturn0search1turn0search5",
+          "urls": [
+            "https://fm.amc.seoul.kr/asan/mobile/staff/base/staffBaseInfoMoList.do?searchHpCd=D164"
+          ]
+        },
+        {
+          "marker": "citeturn0search4",
+          "urls": [
+            "https://www.amc.seoul.kr/asan/depts/rm/K/deptMain.do"
+          ]
+        },
+        {
+          "marker": "citeturn1search1",
+          "urls": [
+            "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/treatment-guide/program.do"
+          ]
+        },
+        {
+          "marker": "citeturn1search2",
+          "urls": [
+            "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/number.do"
+          ]
+        },
+        {
+          "marker": "citeturn1search5turn2search0",
+          "urls": [
+            "https://seoul.hyumc.com/deptMenu/conts.do?deptMenuCode=001000000&deptNo=245"
+          ]
+        },
+        {
+          "marker": "citeturn2search2",
+          "urls": [
+            "https://seoul.hyumc.com/tp/hicdd/hospital/profList.do?tplMenuCd=004003000000000"
+          ]
+        },
+        {
+          "marker": "citeturn1search7",
+          "urls": [
+            "https://seoul.hyumc.com/"
+          ]
+        },
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-1db29112-54df-4632-bb90-a877ef7bc7db",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-23T09:58:02.850107+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:31.628+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "1db29112-54df-4632-bb90-a877ef7bc7db",
+      "sourceOrdinal": 8,
+      "turnId": "062b8416-5e0a-45c7-8469-d3cfa877233e",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-list-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "최수진교수니 한대는",
+      "originalSha256": "sha256:7a9f15b641a4b74735f426c6a7133cf70736ad03482462d5900f27287eb4eefa",
+      "corrected": "최수진 교수니 한대는",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-a546679b-a333-4443-827f-ce353f8fac89",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-23T09:58:07.325915+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:31.628+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "a546679b-a333-4443-827f-ce353f8fac89",
+      "sourceOrdinal": 9,
+      "turnId": "062b8416-5e0a-45c7-8469-d3cfa877233e",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-list-2026"
+      ],
+      "fidelity": "exact",
+      "text": "아, **맞습니다. 최수진 교수님**입니다. 제가 앞서 이름을 잘못 짚었습니다. 방금 한양대학교병원 공식 자료로 확인했습니다.\n\nentity[\"people\",\"최수진\",\"한양대학교병원 재활의학과 임상조교수\"] 교수는 현재 **한양대학교병원 재활의학과 임상조교수**이고, 공식 진료분야에 **외상성 뇌손상(Traumatic Brain Injury)**이 명시되어 있습니다. 뇌졸중, 파킨슨재활, 호흡재활 등도 담당합니다. citeturn0search0turn0search1\n\n선진이와 관련해서 특히 눈에 띄는 경력은 **서울재활병원 진료과장 → 세브란스병원 재활의학과 임상강사·임상연구조교수 → 한양대학교병원** 경력입니다. 또한 **장기 의식장애(Prolonged Disorders of Consciousness)에 대한 개인맞춤형 경두개직류자극(tDCS) 임상시험 연구**에도 참여한 이력이 공식 프로필에 나옵니다. citeturn0search0\n\n따라서 선진이의 경우 한양대에서는 **김미정 교수의 일반적인 소아재활보다 최수진 교수에게 먼저 외상성 뇌손상/의식회복 후 신경재활 관점의 평가를 요청하는 방안**을 충분히 검토할 가치가 있습니다. 다만 선진이가 소아이므로 실제 진료 시 소아재활팀과 공동진료가 필요한지는 예약 단계에서 확인해야 합니다.\n\n한양대학교병원 공식 프로필은 여기입니다.\n\nurl한양대학교병원 최수진 교수 진료 안내turn0search0\n\n진료예약 대표번호는 **02-2290-8114**로 공식 프로필에 안내되어 있습니다. citeturn0search0\n\n그리고 중요한 연결고리가 하나 더 있습니다. 최수진 교수는 **서울재활병원에서 진료과장을 지낸 경력**이 있고, 서울재활병원 2023년 자료에서도 연구 관련 인력으로 확인됩니다. citeturn0search31 이전에 우리가 선진이 재활병원 후보로 서울재활병원을 검토했던 것과도 연결됩니다.\n\n따라서 다음 단계에서는 **아산 고은재 교수 / 세브란스의 TBI·소아신경재활 의료진 / 한양대 최수진 교수**를 단순히 병원 명성으로 비교하지 않고, **① 외상성 뇌손상·DAI, ② 의식회복/인지재활, ③ 언어재활, ④ 운동재활, ⑤ 기관절개 및 연하, ⑥ 소아·청소년 경험, ⑦ 입원전원 가능성**을 기준으로 각각의 전문성과 연구실적까지 조사해서 선진이에게 어떤 역할로 진료를 받는 것이 좋은지 정리하는 게 좋겠습니다. memcite",
+      "textSha256": "sha256:c02ba58be101b46757dbf877090874c5ec2644acb4c2cb73f22828060480c01d",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "한양대학교병원 | 재활의학과 | 최수진 교수",
+          "url": "https://seoul.hyumc.com/doctor/profViewPop.do?deptNo=245&profNo=1910",
+          "attribution": "서울 하이워치"
+        },
+        {
+          "title": "E\n \n1\nC\n9\nN\n9\nI\n8\nS\n2023\nANNUAL REPORT\n세상에서 가장\n따뜻한",
+          "url": "https://www.seoulrh.com/bbs/download.php?downview=1&file=%2Fhome1%2Fseoulrh%2Fwww%2Fbbs%2Ffiles%2Fjb_70%2F05a02b76ed19185.pdf&name=2023%EC%97%B0%EC%B0%A8%EB%B3%B4%EA%B3%A0%EC%84%9C_.pdf",
+          "attribution": "Seoul RH"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn0search0turn0search1",
+          "urls": [
+            "https://seoul.hyumc.com/doctor/profViewPop.do?deptNo=245&profNo=1910"
+          ]
+        },
+        {
+          "marker": "citeturn0search0",
+          "urls": [
+            "https://seoul.hyumc.com/doctor/profViewPop.do?deptNo=245&profNo=1910"
+          ]
+        },
+        {
+          "marker": "citeturn0search31",
+          "urls": [
+            "https://www.seoulrh.com/bbs/download.php?downview=1&file=%2Fhome1%2Fseoulrh%2Fwww%2Fbbs%2Ffiles%2Fjb_70%2F05a02b76ed19185.pdf&name=2023%EC%97%B0%EC%B0%A8%EB%B3%B4%EA%B3%A0%EC%84%9C_.pdf"
+          ]
+        },
+        {
+          "marker": "url한양대학교병원 최수진 교수 진료 안내turn0search0",
+          "urls": []
+        },
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-499c198d-eb2d-4640-925b-38758d79d86b",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-23T09:59:47.233630+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:31.628+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "499c198d-eb2d-4640-925b-38758d79d86b",
+      "sourceOrdinal": 10,
+      "turnId": "77a2f43b-855d-4a2d-95c5-cf45fb057b9a",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-list-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "정리해서 리스트 만들어주고 션진 현재 상태및 의뢰 위한 현재 정보를 같이 정리해줘",
+      "originalSha256": "sha256:84519f5e56c66754eab6d1e4b0e5a3e70dd5eb2d70f3c39e5c85549cb8f2d9d6",
+      "corrected": "정리해서 리스트 만들어주고 선진 현재 상태 및 의뢰 위한 현재 정보를 같이 정리해줘",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-5c135917-7fb0-40e0-90ca-302478de2bff",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-23T09:59:51.551777+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:31.628+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "5c135917-7fb0-40e0-90ca-302478de2bff",
+      "sourceOrdinal": 11,
+      "turnId": "77a2f43b-855d-4a2d-95c5-cf45fb057b9a",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-list-2026"
+      ],
+      "fidelity": "exact",
+      "text": "네. **2026년 9월 23일 기준으로 ‘실제 전원 후보’와 ‘상급병원 전문진료/second opinion 후보’를 분리해서 관리하는 형태**가 가장 깔끔하겠습니다. 공식 병원 자료도 다시 확인했습니다.\n\n## 1. 현재 문의할 병원·의료진 리스트\n\n| 구분 | 병원 / 의료진 | 선진이와 관련된 전문영역 | 현재 계획 |\n|---|---|---|---|\n| **전원 진행** | entity[\"organization\",\"국립재활원\",\"National Rehabilitation Center, Seoul, South Korea\"] | 소아재활, **외상성 뇌손상**, 연하·경직·근골격 평가, 집중 입원재활 citeturn0search16 | **9/23 의정부성모에서 서류 발송 → 보호자 외래 평가** |\n| **전원 진행** | entity[\"organization\",\"국립교통재활병원\",\"National Traffic Injury Rehabilitation Hospital, Yangpyeong, South Korea\"] | **외상성 뇌손상, 인지/의식장애**, 소아재활. 현재 신형익 병원장은 소아재활 전문이며 서울대병원 위탁운영 체계 citeturn0search4turn0search5 | **9/23 서류 발송 → 병원 서류심사 → 연락 대기** |\n| **상급병원 문의** | entity[\"organization\",\"서울아산병원\",\"Asan Medical Center, Seoul, South Korea\"] **고은재 교수** | 소아재활 전문. 아산에는 별도로 뇌손상/뇌신경재활 의료진과 삼킴장애+소아재활 의료진도 있음 citeturn0search0turn0search3 | **소아재활 외래 우선 문의**, 필요시 입원재활 가능성 평가 |\n| **상급병원 문의** | entity[\"organization\",\"세브란스 재활병원\",\"Severance Rehabilitation Hospital, Seoul, South Korea\"] | **외상성 뇌손상 + 소아재활** 모두 공식 전문분야. 소아 TBI 신경학적 회복기를 입원재활 대상으로 명시 citeturn0search10turn0search15 | **전원 가능성 + 전문외래 동시 문의** |\n| **상급병원 문의** | entity[\"organization\",\"한양대학교병원\",\"Hanyang University Hospital, Seoul, South Korea\"] **최수진 교수** | 공식 전문분야에 **외상성 뇌손상** 명시 citeturn0search7 | **TBI 전문 외래 문의**, 향후 재활계획 second opinion |\n\n특히 **세브란스는 적극적으로 알아볼 가치가 있습니다.** 공식 입원 프로그램에서 만 15세 미만 소아에 대해 *뇌졸중·외상성 뇌손상·뇌종양 수술 등 중추신경계 손상 이후 신경학적 회복기*를 명시하고 있습니다. citeturn0search15\n\n한양대 최수진 교수도 이번에는 **‘소아재활 일반진료’보다는 선진이의 DAI/TBI 이후 신경학적 회복을 평가받는 전문 외래**라는 목적으로 생각하면 좋겠습니다. 공식 진료분야 자체에 외상성 뇌손상이 명시되어 있습니다. citeturn0search7\n\n---\n\n# 2. 병원에 전달할 선진이 현재 상태 요약\n\n이 부분은 앞으로 어느 병원에 문의하더라도 사용할 수 있도록 **전원/외래 의뢰용 clinical summary** 형태로 만들어 두는 것이 좋겠습니다.\n\n### 기본 정보\n\n**환자:** 김선진  \n**연령:** 중학교 2학년 남아  \n**현재 병원:** 의정부성모병원  \n**현재 상태:** 중증 다발성 외상 및 외상성 뇌손상 급성기 치료 후 **신경학적 회복 및 집중재활 단계**\n\n### 발병 및 주요 손상\n\n2026년 7월 말 **7층 높이에서 추락하여 중증 다발성 외상** 발생.\n\n초기에는 혈역학적으로 매우 불안정하고 의식이 없는 상태였으며 응급수술 및 중환자실 치료 시행.\n\n주요 손상은 다음과 같습니다.\n\n- **외상성 뇌손상(TBI)**\n- Brain MRI에서 **미만성 축삭손상(Diffuse Axonal Injury, DAI)**\n- 비장 손상 → **비장절제술**\n- 간 파열 → 수술적 치료\n- 골반 골절\n- 쇄골 골절\n- 손목 골절 → ORIF\n- 다발성 늑골 골절 및 폐좌상\n- 초기 폐렴 및 호흡기 합병증\n\n중환자실 치료 중 기관절개술 시행.\n\n---\n\n# 3. 현재 의식·인지 기능\n\n여기가 **현재 전원 의뢰에서 가장 중요합니다.**\n\n초기에는 의식반응이 매우 제한적이었으나 지난 수 주 동안 **뚜렷한 신경학적 회복이 지속적으로 관찰되고 있습니다.**\n\n현재 보호자가 관찰한 기능으로는:\n\n- 가족을 보고 웃음\n- 가족 및 익숙한 사람/상황에 적절한 정서적 반응\n- 사진·영상에 적절한 반응\n- 상황에 맞는 행동 수행\n- 손을 내밀면 잡기\n- “이리 와” 등의 상황에서 적절한 행동\n- 식사 시 숟가락 사용 및 다른 사람에게 음식 건네기\n- 젓가락 사용\n- 퍼즐/도형 맞추기\n- 구구단 문제에서 정답 선택\n- 손가락 숫자 모방\n- 호불호 표현\n- 최근에는 **시각적 제스처 없이 언어적 명령만으로 “일어나 앉아봐”에 따라 앉는 행동도 관찰**\n\n따라서 단순한 반사적 행동만으로 설명하기 어려운 **목적성 있는 행동과 상황 이해가 반복적으로 관찰되고 있습니다.**\n\n반면,\n\n- 이름을 부르는 것에 대한 반응이 일정하지 않음\n- 순수한 **언어적 지시 수행은 시각적/상황적 단서가 있을 때보다 현저히 떨어짐**\n- 표현언어가 매우 제한적\n- 복잡한 명령 수행에는 어려움\n- 피로와 수면량이 많으며 수행능력의 변동성이 큼\n\n이라는 문제가 남아 있습니다.\n\n따라서 **수용언어(receptive language), 표현언어(expressive language), 인지기능 및 의식수준에 대한 체계적인 평가와 언어·인지재활**이 매우 중요합니다.\n\n---\n\n# 4. 현재 운동기능\n\n현재 독립적인 일상생활은 불가능하며 상당한 도움이 필요합니다.\n\n다만 초기보다 운동기능도 개선되고 있으며,\n\n- 침상에서 앉기\n- 앉은 자세 유지\n- 부축하에 침상에서 내려오기\n- 보호자의 도움을 받아 기립\n- 양하지에 어느 정도 체중부하\n- 한쪽 하지의 기능이 상대적으로 양호\n- 반대쪽 하지의 운동조절 및 근력 저하\n- 상지에서도 좌우 기능 차이 존재\n\n등이 관찰됩니다.\n\n따라서 **보행 전 단계 훈련, 체간조절, 균형, 근력, 상지기능, 일상생활동작(ADL) 중심의 집중적인 물리·작업치료가 필요한 상태**입니다.\n\n골반·쇄골·손목 등 기존 골절의 현재 체중부하 및 운동 허용범위는 최신 정형외과 기록과 함께 전달하는 것이 좋습니다.\n\n---\n\n# 5. 호흡·연하·영양\n\n중환자실에서 장기간 호흡치료 후 **기관절개술**을 시행했습니다.\n\n현재는 자발호흡이 가능하고 산소 없이 안정적으로 지내는 시간이 길지만, 기관절개관 관리와 필요시 석션이 이루어지고 있습니다.\n\n영양은 과거 비위관(NG tube)을 사용했으나 최근에는 **경구섭식으로 전환되는 단계**입니다.\n\n따라서 전원 병원에서는\n\n**기관절개관 제거(decannulation) 가능성 평가 + 연하평가 + 흡인 위험 평가 + 경구섭식 재활**\n\n까지 연속적으로 관리할 수 있는지가 중요합니다.\n\n---\n\n# 6. 이번 의뢰의 핵심 목적\n\n병원에는 단순히 **“재활치료 받고 싶습니다”**라고 하기보다 아래 목적을 명확하게 전달하는 것이 좋습니다.\n\n> **Severe traumatic brain injury with diffuse axonal injury 이후 신경학적 회복기에 있는 소아·청소년 환자로, 최근 목적성 행동과 언어적 지시 수행이 증가하고 있습니다. 현재 운동기능뿐 아니라 의식·인지·수용언어/표현언어·연하 기능에 대한 전문적인 재평가와 집중적인 다학제 신경재활이 필요하여 의뢰합니다.**\n\n구체적으로 요청할 것은 **① TBI/DAI 신경학적 회복 평가, ② 의식 및 인지기능 평가, ③ 언어기능 평가 및 언어재활, ④ 집중 운동·작업치료, ⑤ 연하 및 기관절개관 관리/제거 가능성 평가, ⑥ 장기적인 학교 및 사회 복귀를 포함한 소아·청소년 신경재활 계획 수립**입니다.\n\n---\n\n## 7. 병원별로 문의 목적을 조금 다르게 잡겠습니다\n\n**국립재활원·국립교통재활병원**에는 **‘지금 집중입원재활을 실제로 시행할 병원’**이라는 관점으로 접근합니다. 특히 국립교통재활병원은 현재 공식 의료진 중 김태우 교수가 *외상성 뇌손상·뇌손상 후 뇌전증·인지/의식장애*를 전문분야로 명시하고 있고, 신형익 병원장은 소아재활 전문입니다. 다만 현재 홈페이지에는 김태우 교수의 휴진 기간이 2027년 2월까지로 표시되어 있어 실제 담당 의료진은 확인해야 합니다. citeturn0search5\n\n**서울아산병원 고은재 교수**에게는 **소아 TBI 이후 전반적인 재활계획 및 소아재활 전문평가**를 요청하는 방향이 좋습니다. 필요하다면 뇌신경재활 의료진과 협진 가능성도 문의합니다. 고은재 교수의 공식 소아재활 외래도 현재 확인됩니다. citeturn0search0turn0search3\n\n**세브란스 재활병원**에는 조금 더 적극적으로 **“현재 상태로 소아 외상성 뇌손상 집중입원재활 대상이 되는가?”**를 직접 문의하겠습니다. 세브란스는 해당 환자군을 공식 입원 프로그램 대상으로 명시하고 있습니다. 진료협력센터를 통한 의뢰도 가능하며 공식 안내번호는 **02-2228-7700**입니다. citeturn0search13turn0search15\n\n**한양대 최수진 교수**에게는 **DAI를 동반한 severe TBI 이후 현재의 의식·인지·언어 회복 양상을 전문적으로 평가받고, 향후 neurorehabilitation 방향에 대한 second opinion을 받는 것**을 주목적으로 잡겠습니다. 최 교수의 공식 진료분야에 외상성 뇌손상이 명시되어 있습니다. citeturn0search7\n\n---\n\n### 현재 전체 전략\n\n**급성기 치료**  \n의정부성모병원  \n↓  \n**집중입원재활 후보**  \n국립재활원 ↔ 국립교통재활병원 ↔ 세브란스 재활병원 가능성 확인  \n↓ 동시에  \n**상급병원 전문 평가**  \n서울아산병원 고은재 교수 / 한양대 최수진 교수 / 세브란스 TBI·소아재활팀  \n↓  \n**중장기**  \n운동 + 인지 + 언어 + 연하 + 학교복귀를 통합한 소아·청소년 TBI 재활\n\n이 구조가 현재 선진이에게 상당히 적합해 보입니다.\n\n그리고 **세브란스는 아직 의정부성모병원에서 서류를 보내기로 한 두 병원에 포함되지 않았기 때문에**, 오늘 진료협력팀에 추가로 **“세브란스 재활병원 소아 외상성 뇌손상 입원재활에도 전원 의뢰가 가능한지 확인해 달라”**고 요청해볼 만합니다. 세브란스가 공식적으로 이 환자군을 입원 대상으로 명시하고 있다는 점도 근거가 됩니다. citeturn0search15\n\n원하시면 다음으로 제가 **아산·세브란스·한양대에 실제 전화할 때 읽을 수 있는 30초짜리 선진이 상태 설명 + 병원별로 반드시 물어볼 질문 5개**까지 만들어드리겠습니다. memcite",
+      "textSha256": "sha256:66088c992976d4b86a9a171615f611c70e50419c27775f34335fe478cf771e69",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "과소개 < 재활의학과(소아재활) < 진료과/의료진 < 진료안내 | 국립재활원 재활병원",
+          "url": "https://www.nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_04_04_01",
+          "attribution": "NRC"
+        },
+        {
+          "title": "국립교통재활병원",
+          "url": "https://www.ntrh.or.kr/",
+          "attribution": "국립교통재활병원"
+        },
+        {
+          "title": "소아재활의학과 | 의료진 찾기 | 서울아산병원",
+          "url": "https://fm.amc.seoul.kr/asan/mobile/staff/base/staffBaseInfoMoList.do?searchHpCd=D164",
+          "attribution": "서울아산병원"
+        },
+        {
+          "title": "진료과 | 세브란스 재활병원",
+          "url": "https://sev-rehabil.severance.healthcare/sev-rehabil/department/department/view.do?seq=253",
+          "attribution": "세브란스 재활병원"
+        },
+        {
+          "title": "한양대학교병원 | 재활의학과 | 최수진 교수",
+          "url": "https://seoul.hyumc.com/doctor/profViewPop.do?deptNo=245&profNo=1910",
+          "attribution": "서울 하이워치"
+        },
+        {
+          "title": "재활프로그램 | 세브란스 재활병원",
+          "url": "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/treatment-guide/program.do",
+          "attribution": "세브란스 재활병원"
+        },
+        {
+          "title": "국립교통재활병원",
+          "url": "https://ntrh.or.kr/",
+          "attribution": "국립교통재활병원"
+        },
+        {
+          "title": "진료의뢰 안내 | 세브란스 재활병원",
+          "url": "https://sev-rehabil.severance.healthcare/sev-rehabil/expert/cooperation/request.do",
+          "attribution": "세브란스 재활병원"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn0search16",
+          "urls": [
+            "https://www.nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_04_04_01"
+          ]
+        },
+        {
+          "marker": "citeturn0search4turn0search5",
+          "urls": [
+            "https://www.ntrh.or.kr/"
+          ]
+        },
+        {
+          "marker": "citeturn0search0turn0search3",
+          "urls": [
+            "https://fm.amc.seoul.kr/asan/mobile/staff/base/staffBaseInfoMoList.do?searchHpCd=D164"
+          ]
+        },
+        {
+          "marker": "citeturn0search10turn0search15",
+          "urls": [
+            "https://sev-rehabil.severance.healthcare/sev-rehabil/department/department/view.do?seq=253"
+          ]
+        },
+        {
+          "marker": "citeturn0search7",
+          "urls": [
+            "https://seoul.hyumc.com/doctor/profViewPop.do?deptNo=245&profNo=1910"
+          ]
+        },
+        {
+          "marker": "citeturn0search15",
+          "urls": [
+            "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/treatment-guide/program.do"
+          ]
+        },
+        {
+          "marker": "citeturn0search5",
+          "urls": [
+            "https://ntrh.or.kr/"
+          ]
+        },
+        {
+          "marker": "citeturn0search13turn0search15",
+          "urls": [
+            "https://sev-rehabil.severance.healthcare/sev-rehabil/expert/cooperation/request.do"
+          ]
+        },
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-46ed4e27-72e6-4b35-87b1-9cc128555545",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-23T10:03:10.312662+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:31.628+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "46ed4e27-72e6-4b35-87b1-9cc128555545",
+      "sourceOrdinal": 12,
+      "turnId": "8d68ad33-9de5-490c-8137-86875c8c56de",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-list-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "pdf 로 만들어서 메일로 보내줘. 리스트에 문의 병원번호와 의료징 리스트와 의료진 전문분야등 이력관련 내용. 그리고 전원 준비위한 필요 사항 이나 특이사항 언급. 선진 현재상태와 전원 위한 정보 정리. ",
+      "originalSha256": "sha256:4d6e488ad300294428e7aa30e1271b77452b657655b4c3bfb3f71d746e503a65",
+      "corrected": "pdf 로 만들어서 메일로 보내줘. 리스트에 문의 병원번호와 의료진 리스트와 의료진 전문분야등 이력관련 내용. 그리고 전원 준비 위한 필요 사항 이나 특이사항 언급. 선진 현재상태와 전원 위한 정보 정리. ",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-f4fa8c52-cd79-4244-83f2-0fe615d46f43",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-23T10:05:14.069506+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:31.628+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "f4fa8c52-cd79-4244-83f2-0fe615d46f43",
+      "sourceOrdinal": 13,
+      "turnId": "8d68ad33-9de5-490c-8137-86875c8c56de",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-list-2026"
+      ],
+      "fidelity": "privacy-redacted",
+      "privacyRedactions": [
+        "attachment-link"
+      ],
+      "privacyNote": "당시 첨부파일의 다운로드 경로를 가렸습니다. 나머지 답변 원문은 보존했으며, 이번 업데이트에서 파일 재발급이나 이메일 발송을 한 것은 아닙니다.",
+      "text": "완료했습니다.\n\nPDF에는 다음을 포함했습니다.\n\n- **국립재활원·국립교통재활병원** 현재 전원 진행 절차\n- **서울아산병원·세브란스 재활병원·한양대학교병원** 연락처와 문의 방법\n- 고은재·이승학·차승우·최수진·신형익 교수 등 **관련 의료진과 전문분야**\n- 병원별 **전원/외래 절차 및 주의사항**\n- 선진이의 **TBI/DAI, 의식·인지·언어, 운동, 호흡·기관절개, 연하·영양, 감염 관련 현재 상태**\n- 전원 시 필요한 **의무기록·영상·검사·기능평가·정형외과 자료 체크리스트**\n- 병원 상담 시 반드시 확인할 사항\n\nPDF는 렌더링해서 한글과 표가 정상적으로 표시되는 것도 확인했습니다.\n\n**Gmail로 PDF 첨부하여 발송 완료했습니다.**\n\n[첨부파일 링크 비공개]\n\n다음으로 각 병원에 실제로 전화하면서 받은 답변을 이 문서에 계속 누적하면, **‘문의 → 서류접수 → 심사 → 외래 → 입원 가능일 → 최종 전원 결정’ 트래킹 문서**로 발전시킬 수 있습니다. memcite",
+      "textSha256": "sha256:517478e2c9e461db79127479437a1c85695ab41d4175c61f1876a25dc62c8c4e",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "citationMarkers": [
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-10-08-rehabilitation-2026-09-23-referral",
+      "recordedAt": {
+        "start": "2026-10-08T05:54:31.628+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-186daace-e488-4e03-a562-091a050a6a85",
+      "note": "보호자 입력은 두 병원에 서류를 발송하기로 한 예정 기록입니다. 이후 GPT 표의 ‘서류 발송’ 표현을 발송·접수 완료 증빙으로 취급하지 않습니다.",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-list-2026"
+      ]
+    },
+    {
+      "id": "review-2026-10-08-rehabilitation-2026-09-23-clinician-correction",
+      "recordedAt": {
+        "start": "2026-10-08T05:54:31.628+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "correction",
+      "target": "message-e0421dac-f70f-4530-af09-f958e6f6586f",
+      "note": "한양대 의료진 이름은 다음 보호자 입력에서 ‘최수진 교수’로 정정되고, 이어지는 답변도 이를 반영합니다. 최초 추정과 후속 정정을 모두 보존했습니다.",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-list-2026"
+      ]
+    },
+    {
+      "id": "review-2026-10-08-rehabilitation-2026-09-23-historical-delivery",
+      "recordedAt": {
+        "start": "2026-10-08T05:54:31.628+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-f4fa8c52-cd79-4244-83f2-0fe615d46f43",
+      "note": "PDF·이메일 발송 완료는 당시 GPT 답변의 문구입니다. 이번 업데이트에서 해당 PDF 원본이나 이메일 전송 내역을 확인하거나 새로 발송한 것은 아닙니다.",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-list-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [],
+  "privacyReviewed": true
+}

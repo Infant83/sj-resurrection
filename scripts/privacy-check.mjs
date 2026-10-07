@@ -17,6 +17,12 @@ const allowedPublicInstitutionalContacts = new Set([
   '02-2228-3764',
   '02-2228-3765',
   '02-2228-7700',
+  '02-2228-3757', // https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/number.do
+  '02-2290-8114', // https://seoul.hyumc.com/conts/108004000000000.do
+  '02-570-8000', // https://childhosp.seoul.go.kr/medical-info/admission-discharge
+  '02-570-8039', // https://childhosp.seoul.go.kr/medical-info/admission-discharge
+  '02-570-8191', // https://childhosp.seoul.go.kr/rehabilitation
+  '031-580-5783', // https://ntrh.or.kr/index.php/html/17
   '02-3010-7769',
   '02-6020-3000', // https://www.seoulrh.com/
   '02-6070-9000', // https://www.purmehospital.org/

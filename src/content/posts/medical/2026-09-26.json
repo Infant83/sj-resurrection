@@ -1,0 +1,949 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-09-26-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 9월 26일 의학지식 문의 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-26",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-10-08T05:54:33.793+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학지식 문의",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 2 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-10-08T05:54:33.793+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    },
+    {
+      "id": "chatgpt-medical-knowledge-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-10-08T05:54:33.793+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-28de5818-864e-414c-895e-19386f45414a",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-26T05:36:16.945487+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:33.793+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "28de5818-864e-414c-895e-19386f45414a",
+      "sourceOrdinal": 28,
+      "turnId": "6260d25d-df97-48d6-91a2-4f2a8c643140",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "아이가 하품을 많이해. 특히 무언가 하고나서 꼭 하품하고 집중력이 떨어지고 그래",
+      "originalSha256": "sha256:3dc349519b280761631a8e5613d93988aba556ee09af60304f84577016c08fa5",
+      "corrected": "아이가 하품을 많이 해. 특히 무언가 하고 나서 꼭 하품하고 집중력이 떨어지고 그래",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-480b168b-5960-4595-a681-6a517dc23592",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-26T05:40:11.195175+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:33.793+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "480b168b-5960-4595-a681-6a517dc23592",
+      "sourceOrdinal": 29,
+      "turnId": "6260d25d-df97-48d6-91a2-4f2a8c643140",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **“무언가를 한 뒤 하품이 늘고 집중력이 떨어진다”는 패턴은 뇌손상 후의 ‘인지 피로’와 잘 맞습니다.** 인지 피로는 생각하고 주의를 유지하는 능력이 활동 중에 쉽게 소진되는 상태입니다. 소아 뇌손상 재활 자료에서도 **반복적인 하품, 졸림, 지시를 따라가기 어려워짐, 주의가 흐트러짐**을 피로의 신호로 설명합니다. 선진이에게는 우선 **활동을 잠시 멈추고 쉬게 해야 한다는 신호**로 받아들이는 것이 좋겠습니다. citeturn685094view1\n\n다만 **평소보다 깨우기 어렵거나, 눈맞춤·익숙한 지시에 대한 반응이 갑자기 뚜렷하게 줄거나, 반복 구토·심해지는 두통·새로운 경련이 동반되면** 피로라고 생각하며 기다리지 말고 바로 간호사를 불러주세요. 호흡이 힘들어지거나 산소포화도가 떨어지는 경우도 즉시 확인해야 합니다. citeturn276440view0turn483249view0\n\n## 1. 잘하던 활동 뒤에 집중력이 떨어지는 이유\n\n뇌손상 후에는 이전에 별다른 노력 없이 하던 동작이나 생각에도 더 많은 집중이 필요할 수 있습니다. 선진이가 도형을 고르는 상황만 해도 **모양을 보고, 구분하고, 선택하고, 손을 움직이는 과정**을 함께 해야 합니다. 앉기나 이동 역시 몸의 힘뿐 아니라 균형과 움직임에 주의를 기울여야 하므로 피로가 겹칠 수 있습니다. citeturn685094view2\n\n따라서 **처음에는 문제를 잘 풀다가 나중에 하품하고 반응이 느려지는 모습이, 곧 그 능력을 잃었다는 뜻은 아닙니다.** ‘할 수 있는 능력’과 ‘그 능력을 오래 유지하는 지구력’은 다릅니다. 소아 인지 피로에서는 **충분히 쉬었을 때와 지쳤을 때의 수행 차이**가 크게 나타날 수 있습니다. 최근 이동이 좋아졌더라도 집중을 오래 유지하는 능력까지 같은 속도로 회복한다고 볼 수는 없습니다. citeturn685094view0\n\n**이것을 의욕이 없거나 게을러진 것으로 해석하지 않는 것이 중요합니다.** 그렇다고 하품이 많다는 사실 자체가 뇌가 잘 회복되고 있다는 증거도 아닙니다. 피로의 원인과 활동 전후 변화를 함께 살펴야 합니다. citeturn685094view0\n\n## 2. 지금은 이렇게 활동을 조절해 주세요\n\n**첫째, 하품과 집중 저하가 함께 나타나면 그 활동을 끝냅니다.** “하나만 더 맞혀보자” 하며 계속 확인하기보다는, 다음번에는 피로가 시작되기 전에 쉬도록 활동을 나눠주세요. 예를 들어 매번 약 10분 뒤부터 반응이 느려진다면, 다음에는 그보다 짧게 시행하는 식입니다. **10분이 기준이라는 뜻이 아니라 선진이에게 관찰되는 피로 시점을 기준으로 조절하자는 뜻**입니다. 뇌손상 피로 관리에서는 초기 신호를 알아차리고, 지칠 때까지 계속하지 않는 것을 권합니다. citeturn685094view2\n\n**둘째, 쉬는 시간에는 실제로 자극을 줄여주세요.** 도형놀이를 끝내고 바로 영상이나 다른 퀴즈를 보여주는 것은 충분한 휴식이 아닐 수 있습니다. 편안하게 지지된 자세에서 화면을 끄고 질문과 주변 소음을 줄여주세요. 잠이 필요할 수도 있지만, 밤잠에 영향을 줄 정도의 낮잠이나 하루 종일 지속되는 졸림은 의료진과 수면 계획을 조정해야 합니다. citeturn685094view1turn483249view1\n\n**셋째, 쉬고 난 뒤 상태를 보고 재개합니다.** 눈맞춤과 익숙한 반응이 평소 수준으로 돌아오고 편안해 보일 때, 잘 아는 활동을 짧게 하는 방식이 좋습니다. 휠체어 이동·치료·씻기·면회 뒤에는 곧바로 인지놀이를 이어 붙이기보다 휴식을 두세요. **하루 종일 아무것도 하지 않게 하는 것보다는, 감당할 수 있는 활동과 휴식을 번갈아 배치하는 것이 목표**입니다. citeturn685094view1turn685094view2\n\n## 3. 선진이는 약물과 전신 상태도 같이 확인해야 합니다\n\n최근에는 낮잠과 식사 참여 감소도 말씀하셨으므로, 이번 하품을 활동량 문제로만 보지는 않는 것이 좋겠습니다. 뇌손상 후 피로에는 **야간 수면의 질, 빈혈, 영양 상태, 통증, 호흡 문제, 약물** 등이 함께 영향을 줄 수 있습니다. 의료진이 현재 상태를 보고 필요한 검사를 정하도록 해주세요. citeturn685094view2\n\n특히 **9월 25일 기록에는 쿠에타핀을 25mg에서 12.5mg으로 줄이는 처방이 있었고, 그날 밤에는 자연스럽게 잠들어 투여하지 않았다고 하셨습니다.** 쿠에티아핀은 졸림과 피로를 유발할 수 있으므로, 이후의 **실제 투약량·시간과 낮 동안의 각성 변화**를 함께 비교할 가치가 있습니다. 다만 약이 유일한 원인이라고 단정하거나 보호자가 임의로 추가 감량·중단하지는 마세요. citeturn276440view1\n\n병동에는 이렇게 전달하시면 됩니다.\n\n> “선진이가 활동을 시작할 때는 참여하는데, 조금 지나면 하품이 반복되고 집중과 반응이 떨어집니다. 최근 낮잠도 많았습니다. 약물 영향과 수면·전신 상태를 확인해 주시고, 재활활동을 어느 정도씩 나눠야 할지 알려주세요.”\n\n기록은 복잡할 필요 없이 **‘무슨 활동을 했는지 → 몇 분쯤 뒤 하품·집중 저하가 시작됐는지 → 얼마나 쉬었는지 → 평소 반응으로 돌아왔는지’** 정도면 됩니다.\n\n**가장 궁금한 것은, 활동을 멈추고 조용히 쉬게 하면 선진이가 다시 눈을 맞추고 익숙한 반응을 보이는지, 아니면 쉬어도 계속 처지고 반응이 떨어져 있는지입니다. 어느 쪽에 더 가깝나요?**",
+      "textSha256": "sha256:2c35d6465ec307183fabd2eba7fbe9c27a6364f8e8045e75bc2698d700bdd817",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Brain Injury - Mental Fatigue | KidsHealth New Zealand's Trusted Voice On Children's Health",
+          "url": "https://www.kidshealth.org.nz/brain-injury-mental-fatigue",
+          "attribution": "KidsHealth NZ"
+        },
+        {
+          "title": "Signs and Symptoms of Concussion | HEADS UP | CDC",
+          "url": "https://www.cdc.gov/heads-up/signs-symptoms/index.html",
+          "attribution": "CDC"
+        },
+        {
+          "title": "Fatigue After Traumatic Brain Injury (TBI) | MSKTC",
+          "url": "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury",
+          "attribution": "MSKTC"
+        },
+        {
+          "title": "Kids Health Info : Brain injury - Cognitive fatigue",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/",
+          "attribution": "RCH"
+        },
+        {
+          "title": "Quetiapine: medicine to treat schizophrenia, bipolar disorder and severe depression - NHS",
+          "url": "https://www.nhs.uk/medicines/quetiapine/",
+          "attribution": "nhs.uk"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn685094view1",
+          "urls": [
+            "https://www.kidshealth.org.nz/brain-injury-mental-fatigue"
+          ]
+        },
+        {
+          "marker": "citeturn276440view0turn483249view0",
+          "urls": [
+            "https://www.cdc.gov/heads-up/signs-symptoms/index.html"
+          ]
+        },
+        {
+          "marker": "citeturn685094view2",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn685094view0",
+          "urls": [
+            "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/"
+          ]
+        },
+        {
+          "marker": "citeturn685094view1turn483249view1",
+          "urls": [
+            "https://www.kidshealth.org.nz/brain-injury-mental-fatigue"
+          ]
+        },
+        {
+          "marker": "citeturn685094view1turn685094view2",
+          "urls": [
+            "https://www.kidshealth.org.nz/brain-injury-mental-fatigue"
+          ]
+        },
+        {
+          "marker": "citeturn276440view1",
+          "urls": [
+            "https://www.nhs.uk/medicines/quetiapine/"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-5003a9fd-dd7f-4af6-8a8e-641e69471d6f",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-26T05:57:31.774940+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:33.793+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "5003a9fd-dd7f-4af6-8a8e-641e69471d6f",
+      "sourceOrdinal": 30,
+      "turnId": "0b397ee8-b3a6-45f4-bd16-ad6b23f8a566",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "일단 어제 본 바는 활동을 멈추면 다시 덜아오긴 하는데 여전히 다시 하품하고 몸이 기울어지는데 그 시간이 너무 짧아. ",
+      "originalSha256": "sha256:d2dc004fec017086e821dc6ba2e6c991914cb33a0b82fe04b28060afae5621d6",
+      "corrected": "일단 어제 본 바는 활동을 멈추면 다시 돌아오긴 하는데 여전히 다시 하품하고 몸이 기울어지는데 그 시간이 너무 짧아. ",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-be5bdeca-f6b4-40a8-90ce-2d1f3b2a78f7",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-26T06:01:10.122664+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:33.793+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "be5bdeca-f6b4-40a8-90ce-2d1f3b2a78f7",
+      "sourceOrdinal": 31,
+      "turnId": "0b397ee8-b3a6-45f4-bd16-ad6b23f8a566",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **쉬면 반응은 잠시 돌아오지만, 유지되는 시간이 아주 짧고 곧 하품과 몸 기울어짐이 반복된다는 것이군요. 그렇다면 ‘쉬면 돌아오니 괜찮다’고 판단해서 활동을 계속하기보다는, 오늘 병동 간호사와 재활의학과에 그 모습을 직접 보여주는 것이 좋겠습니다.** 뇌손상 후 피로는 가능하지만, 활동을 견디는 시간이 매우 짧다면 다른 의학적 원인도 확인해야 합니다. citeturn147679view0\n\n**특히 지금도 평소보다 깨우기 어렵거나, 쉬어도 눈맞춤·익숙한 반응이 회복되지 않거나, 새로 한쪽 힘이 더 빠지는 모습이 있다면 바로 간호사를 불러주세요.** 반복 구토, 새로운 경련, 호흡 이상이 동반되는 경우도 기다리지 않아야 합니다. 판단 기준은 건강했을 때가 아니라 **최근 선진이가 보이던 평소 상태와의 차이**입니다. citeturn684356view3turn147679view2\n\n## ‘잠깐 반응이 돌아오는 것’과 ‘충분히 회복해 활동할 준비가 된 것’은 다릅니다\n\n뇌손상 후에는 짧게 쉬어 눈맞춤이나 간단한 반응이 다시 나타나더라도, 과제를 지속할 여력은 아직 부족할 수 있습니다. **휴식 전후 수행이 달라지고, 잠깐 집중했다가 빠르게 흐트러지는 것**은 인지 피로에서 나타날 수 있는 양상입니다. 다만 지금 설명만으로 선진이의 원인이 인지 피로라고 확정할 수는 없습니다. citeturn147679view0\n\n그리고 **몸이 기울어지는 것은 집중력과 별도로 평가해야 하는 신호**입니다. 뇌손상 후에는 몸통 근력·균형·자세 조절이 약해질 수 있고, 앉을 때 혈압이 떨어지는 *기립성 저혈압*이나 약물 영향도 균형을 흐트러뜨릴 수 있습니다. 따라서 하품과 기울어짐을 모두 “머리를 써서 피곤한 것”으로 묶어 설명하면 안 됩니다. citeturn684356view0turn684356view1\n\n이 관찰만으로 **회복이 멈췄거나 앞으로도 계속 이럴 것이라고 판단할 수는 없습니다.** 다만 현재 활동량과 자세가 선진이에게 맞는지, 조절할 수 있는 원인이 있는지를 재평가할 이유는 충분합니다. citeturn147679view0turn684356view0\n\n## 지금은 이렇게 대응해 주세요\n\n**하품과 반응 저하에 몸 기울어짐까지 나타나면 그 회차의 놀이·앉기 훈련을 끝내세요.** 잠깐 쉬고 반응이 돌아왔다고 곧바로 같은 활동을 반복하기보다, 자극을 줄이고 충분히 쉬게 하면서 의료진이 상태를 확인하도록 해주세요. 재활은 지칠 때까지 버티게 하는 것이 아니라, 감당할 수 있는 짧은 활동과 휴식을 조합하는 방식으로 조정합니다. citeturn147679view1turn684356view1\n\n휠체어에서 기울어지거나 엉덩이가 미끄러지면 **시간을 채우기 위해 계속 앉혀 두지 말고**, 간호사나 치료사의 도움으로 머리·몸통·골반이 안정적으로 지지되는 자세로 바꾸세요. “똑바로 앉아봐”라고 계속 요구하는 것보다, 지금 그 자세를 유지할 수 있는지와 휠체어 지지가 적절한지를 확인하는 것이 먼저입니다. 안전한 자세와 훈련 강도는 물리·작업치료사가 평가할 수 있습니다. citeturn684356view0\n\n**식사 중에도 같은 모습이 나타나면, 졸거나 몸이 무너지는 상태에서 음식을 더 넣지 마세요.** 선진이는 연하 문제도 있으므로, 깨어 있는 정도와 머리·몸통 자세를 유지하는 능력이 식사 안전성에 직접 중요합니다. 식사량을 채우기 어려운 상황까지 함께 알려 영양 공급 계획을 조정받아야 합니다. citeturn149723view0\n\n## 의료진에게는 ‘피곤해요’보다 이렇게 구체적으로 요청하세요\n\n> “선진이가 활동을 멈추면 잠깐 반응이 돌아오지만, 유지되는 시간이 아주 짧고 금방 다시 하품하며 몸이 기웁니다. 단순 졸림인지, 몸통을 유지하기 어려운 건지, 앉을 때 혈압이 떨어지는 건지 확인해 주세요. 증상이 나타나는 순간의 혈압·맥박·산소포화도와 의식 반응을 봐주시고, 현재 재활량과 앉는 자세도 다시 평가해 주세요.”\n\n**증상이 나타날 때의 관찰**이 중요합니다. 특히 앉히거나 자세를 세울 때 더 두드러진다면, 의료진이 안전하게 자세 변화 전후 혈압을 비교하는 것이 도움이 될 수 있습니다. 보호자가 확인하려고 일부러 반복해서 세워볼 필요는 없습니다. citeturn684356view0turn684356view3\n\n약물과 수면도 함께 검토해야 합니다. **쿠에타핀〔쿠에티아핀〕은 졸림·피로·어지럼을 일으킬 수 있으므로**, 현재 실제 투여량과 시간, 밤중 수면 상태를 확인해 달라고 하세요. 빈혈, 영양 부족, 호흡 문제 등도 피로에 영향을 줄 수 있어 진찰 결과에 따라 확인합니다. 약은 임의로 줄이거나 중단하지 마세요. citeturn147679view3turn147679view1\n\n**지금은 ‘조금 더 오래 하게 만들기’보다 ‘왜 이렇게 짧게밖에 유지되지 않는지 확인하기’가 먼저입니다.** 이미 보신 범위에서, 반응이 돌아온 뒤 다시 하품하고 기울어지기까지 **대략 몇 초 또는 몇 분인지, 놀이 없이 그냥 앉아 있기만 해도 같은 모습인지** 알려주시겠어요?",
+      "textSha256": "sha256:ec7a5fe64dbcb58b7157302e70b7d9092233ba31fb34916c9fba607c2755a328",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Kids Health Info : Brain injury - Cognitive fatigue",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/",
+          "attribution": "RCH"
+        },
+        {
+          "title": "Nursing guidelines : Neurological Observations",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Neurological_Observations/",
+          "attribution": "RCH"
+        },
+        {
+          "title": "Balance Problems after Traumatic Brain Injury (TBI) | MSKTC",
+          "url": "https://msktc.org/tbi/factsheets/balance-problems-after-traumatic-brain-injury",
+          "attribution": "MSKTC"
+        },
+        {
+          "title": "Fatigue After Traumatic Brain Injury (TBI) | MSKTC",
+          "url": "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury",
+          "attribution": "MSKTC"
+        },
+        {
+          "title": "Pediatric Feeding and Swallowing",
+          "url": "https://www.asha.org/practice-portal/clinical-topics/pediatric-feeding-and-swallowing/",
+          "attribution": "ASHA"
+        },
+        {
+          "title": "Quetiapine: medicine to treat schizophrenia, bipolar disorder and severe depression - NHS",
+          "url": "https://www.nhs.uk/medicines/quetiapine/",
+          "attribution": "nhs.uk"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn147679view0",
+          "urls": [
+            "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/"
+          ]
+        },
+        {
+          "marker": "citeturn684356view3turn147679view2",
+          "urls": [
+            "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Neurological_Observations/"
+          ]
+        },
+        {
+          "marker": "citeturn684356view0turn684356view1",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/balance-problems-after-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn147679view0turn684356view0",
+          "urls": [
+            "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/"
+          ]
+        },
+        {
+          "marker": "citeturn147679view1turn684356view1",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn684356view0",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/balance-problems-after-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn149723view0",
+          "urls": [
+            "https://www.asha.org/practice-portal/clinical-topics/pediatric-feeding-and-swallowing/"
+          ]
+        },
+        {
+          "marker": "citeturn684356view0turn684356view3",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/balance-problems-after-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn147679view3turn147679view1",
+          "urls": [
+            "https://www.nhs.uk/medicines/quetiapine/"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-84e658cc-453c-4a53-b6d8-e025e43bb0c5",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-26T06:07:30.658933+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:33.793+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "84e658cc-453c-4a53-b6d8-e025e43bb0c5",
+      "sourceOrdinal": 32,
+      "turnId": "f0960556-87e0-4d4a-a336-70bbc786f98c",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "original": "어떤 가능성이 있지? 원인이나 해결책",
+      "originalSha256": "sha256:1bd284faf3edc22decb8f0b8c5a25591cdf7852d9e6a8d0e3bd3d6c3fa127bbb",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-79282b03-2bbd-45b6-ae10-d18de4b6948a",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-26T06:15:23.459485+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:33.793+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "79282b03-2bbd-45b6-ae10-d18de4b6948a",
+      "sourceOrdinal": 33,
+      "turnId": "f0960556-87e0-4d4a-a336-70bbc786f98c",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **가능성은 크게 ‘뇌손상 후 쉽게 지치는 현상’, ‘앉은 자세를 유지하기 어려운 문제’, ‘혈압·약물·수면·전신 상태 때문에 각성이 떨어지는 문제’로 나눠봐야 합니다.** 여러 원인이 겹칠 수도 있고, 그중에는 치료나 조정으로 개선할 수 있는 원인도 있습니다. **쉬면 잠깐 돌아온다는 점은 피로와 맞지만, 그것만으로 다른 원인을 배제할 수는 없습니다.** 소아 뇌손상 재활에서도 심한 피로가 있으면 빈혈·감염·갑상선 문제 등 다른 의학적 원인을 함께 확인하도록 권고합니다. citeturn637599view0turn637599view1\n\n**선진이처럼 유지 시간이 매우 짧고 몸까지 기울어진다면, 오늘 병동에서 실제 증상이 나타나는 순간을 평가받는 것이 좋겠습니다.** 특히 쉬어도 평소 반응으로 돌아오지 않거나, 새로 한쪽 힘이 떨어지고, 반복 구토·심한 두통을 의심할 행동·호흡 이상이 나타나면 바로 간호사를 불러야 합니다. citeturn637599view3\n\n## 1. 뇌손상 후 인지 피로와 신체 피로가 겹치는 경우\n\n**현재 설명과 잘 맞는 가능성 중 하나입니다.** 뇌손상 후에는 처음에는 집중해도 금방 주의를 유지하기 어려워지고, 쉬었을 때와 지쳤을 때의 수행 차이가 크게 날 수 있습니다. 여기에 근력·균형·협응 저하가 있으면 **앉아 있는 것 자체도 운동**이 됩니다. 선진이에게 ‘앉아서 도형놀이 하기’는 자세 유지와 생각하기라는 두 과제를 동시에 하는 상황일 수 있습니다. citeturn637599view0turn273633view2\n\n**해결 방향은 활동시간만 줄이는 것이 아니라, 한 번에 요구하는 부담을 줄이는 것입니다.** 재활팀이 허용한 범위에서 몸통과 머리가 충분히 지지된 자세로 인지활동을 하고, 몸통을 스스로 유지하는 훈련은 별도로 나누는 방식을 요청해 보세요. 짧게 쉬어 눈맞춤이 돌아왔다고 바로 같은 과제를 다시 반복하기보다는, 피로가 누적되지 않도록 치료·이동·놀이·면회 사이의 휴식까지 조정해야 합니다. 소아 뇌손상 재활은 짧은 활동과 휴식을 균형 있게 배치하는 것이 원칙입니다. citeturn273633view2turn637599view1\n\n다만 **몇 초 또는 아주 짧은 활동만으로 몸이 무너지는 정도라면, ‘더 짧게 연습하면 되겠다’로 끝내지 않고 아래 원인들도 확인해야 합니다.**\n\n## 2. 앉을 때 혈압이 떨어지는 경우 — 우선 구분해 볼 가치가 큽니다\n\n**기립성 저혈압은 서 있을 때뿐 아니라, 누워 있다가 앉을 때도 나타날 수 있습니다.** 자세를 세우면 어지럽고 멍해지거나 지탱하기 어려워졌다가, 다시 기대거나 누우면 좋아지는 양상입니다. 뇌손상 후 균형 문제를 평가할 때도 자세 변화에 따른 혈압 측정을 권합니다. citeturn612187view3\n\n선진이가 **놀이를 하지 않고 그냥 앉기만 해도 금방 처지고, 기대거나 누우면 상대적으로 빨리 돌아온다면** 이 가능성을 특히 비교해 볼 필요가 있습니다. 이것은 감별을 위한 단서이지, 증상만으로 확진하는 방법은 아닙니다.\n\n**해결 방향:** 간호사나 치료사가 안전하게 지지하면서 **누워 있을 때와 앉은 뒤, 특히 증상이 나타날 때의 혈압·맥박**을 비교하도록 요청하세요. 확인되면 의료진이 수분 상태와 약물을 검토하고, 침상 각도와 앉는 시간을 단계적으로 조절합니다. **보호자가 확인하려고 반복해서 세우거나, 물·소금을 임의로 더 먹이는 것은 피하세요.** 선진이는 연하와 영양 공급 조건까지 함께 고려해야 합니다. citeturn612187view3turn637599view4\n\n## 3. 약물 때문에 졸림과 자세 불안정이 함께 나타나는 경우\n\n이전 투약기록에 있었던 **쿠에타핀〔쿠에티아핀〕은 졸림뿐 아니라 기립성 저혈압·어지럼을 일으킬 수 있습니다.** 따라서 하품, 집중 저하, 몸 기울어짐에 함께 영향을 줄 수 있는 약입니다. 다만 **현재 실제 투여량과 시간을 확인하지 않은 상태에서 원인으로 단정할 수는 없습니다.** citeturn637599view4\n\n다른 약도 함께 봐야 합니다. 현재 처방에 포함되어 있다면 **일부 진통제·근육이완제·항경련제**도 피로, 졸림, 균형 저하를 더할 수 있습니다. 약 이름 하나보다 전체 처방과 실제 투여 시점을 비교하는 것이 중요합니다. citeturn637599view1turn273633view1\n\n**해결 방향:** 담당의에게 “밤의 수면·불편감을 조절하는 이득에 비해 낮의 각성과 재활 참여를 너무 떨어뜨리는 것은 아닌지” 검토해 달라고 하세요. 필요하면 의료진이 투여 시간·용량·약 종류를 조정합니다. **약을 무조건 끊는 것이 해결책은 아니며, 보호자가 임의로 감량하거나 중단해서는 안 됩니다.** citeturn637599view4turn637599view2\n\n## 4. 의식은 유지되지만 몸통이 먼저 지치는 경우\n\n**몸이 기울어질 때에도 눈을 맞추고, 아버지를 따라 보고, 익숙한 지시에는 반응하는지**가 중요합니다. 반응은 유지되는데 몸만 기울어진다면 몸통 근력·균형·자세 조절의 부담을 더 살펴볼 수 있습니다. 반대로 **눈맞춤과 반응까지 함께 떨어진다면** 자세 문제만으로 설명하지 말고 각성·혈압·약물·전신 상태를 같이 봐야 합니다. 이 구분은 관찰의 방향이며, 진찰을 대신하지는 않습니다. citeturn612187view3turn943462view0\n\n선진이는 좌우 힘의 차이, 다리 떨림, 골절 회복 문제가 있으므로 **통증을 피하려고 기울어지거나, 자세를 유지하는 데 과도한 힘을 쓰는 상황**도 고려해야 합니다. 뇌손상 후에는 근력뿐 아니라 근긴장과 몸의 위치 감각도 달라질 수 있습니다. citeturn273633view2turn612187view3\n\n**해결 방향:** 물리·작업치료사에게 휠체어의 골반 위치, 등받이, 발 지지, 머리·몸통 지지를 다시 맞춰 달라고 요청하세요. 통증과 경직도 함께 평가해야 합니다. **“똑바로 앉아”라고 계속 요구하며 버티게 하기보다, 지지가 충분한 상태에서 유지 가능한 시간을 확인하는 것**이 먼저입니다. citeturn273633view2\n\n## 5. 잠은 많지만 수면의 질이 좋지 않거나, 각성 조절이 불안정한 경우\n\n뇌손상은 수면·각성을 조절하는 기능에 영향을 줄 수 있습니다. 또한 통증, 가래, 병동 처치 등으로 밤잠이 끊기면 **오래 눈을 감고 있었어도 다음 날 충분히 회복되지 않을 수 있습니다.** 수면 문제와 낮의 피로는 서로 영향을 줍니다. citeturn637599view2\n\n**해결 방향:** 낮잠의 총시간만 보지 말고 밤에 자주 깼는지, 가래·통증 때문에 불편해했는지, 낮 중 어느 시간에 가장 또렷한지를 함께 기록하세요. 낮에는 자연광과 감당할 수 있는 활동을 유지하고, 밤에는 가능한 범위에서 소음·빛·불필요한 자극을 줄이는 계획을 병동과 맞추면 좋습니다. **밤에 재우려고 낮잠을 무조건 막거나, 반대로 졸릴 때마다 하루 종일 자게 하는 식으로 일률적으로 정하지는 않는 편이 좋습니다.** citeturn637599view2\n\n## 6. 빈혈·영양·전해질·감염·호흡 문제\n\n이 부분은 **검사와 치료로 교정할 수 있는 원인이 있는지 확인하는 과정**입니다. 빈혈과 영양 부족은 피로를 악화시킬 수 있고, 저혈당이나 나트륨 이상, 감염, 신장·간 기능의 심한 이상은 각성에도 영향을 줄 수 있습니다. 선진이는 그동안 영양 공급 변화와 설사, 간수치 이상이 있었으므로 최근 결과를 실제로 확인할 가치가 있습니다. **과거 간수치가 높았다는 사실만으로 지금의 졸림 원인을 간 때문이라고 정할 수는 없습니다.** citeturn637599view1turn943462view0\n\n**해결 방향:** 담당의가 최근 검사와 진찰을 보고 혈색소, 혈당, 전해질, 신장·간 기능, 수분·영양 공급량을 검토하고 필요한 항목만 재검하도록 요청하세요. **모든 검사를 무조건 새로 해야 한다는 뜻은 아닙니다.** citeturn612187view4\n\n기관절개관과 분비물 관리가 필요한 선진이에서는 호흡 상태도 중요합니다. **하품 자체로 산소 부족을 진단할 수는 없지만**, 처짐과 함께 숨이 가쁘거나 얕아지고, 가래가 늘거나, 산소포화도가 내려가면 즉시 확인해야 합니다. 산소포화도는 이산화탄소를 측정하지 않으므로, 호흡과 의식 상태가 의심스러우면 의료진이 혈액가스검사 등을 추가로 판단합니다. citeturn273633view3turn943462view1turn612187view5\n\n## 별도로 놓치지 않아야 할 신경학적 원인\n\n현재 설명만으로 다음을 의심하거나 진단하는 것은 아닙니다. 다만 **기존보다 뚜렷하게 악화되거나, 위 원인으로 설명되지 않는다면** 검토할 항목입니다.\n\n**외상 후 수두증:** 뇌척수액 순환에 문제가 생겨 회복이 지연되거나, 좋아지던 기능이 다시 떨어질 수 있습니다. 지속적인 각성 저하와 기능 후퇴가 있다면 신경학적 진찰과 이전 영상 비교를 통해 추가 뇌영상이 필요한지 판단합니다. **하품만 많다고 곧바로 뇌 컴퓨터단층촬영〔CT〕을 해야 한다는 뜻은 아닙니다.** citeturn612187view1\n\n**눈에 띄는 전신 경련이 없는 발작:** 갑자기 반응이 끊기고 멍하니 응시하거나, 눈·입의 같은 움직임이 반복되고, 이후 유난히 처지는 양상이라면 뇌전증성 발작도 감별합니다. 이런 경우에는 **뇌파검사〔EEG〕**가 도움이 됩니다. 반면 활동하면서 서서히 지치는 것과, 힘을 줄 때만 나타나는 다리 떨림을 모두 발작으로 해석해서는 안 됩니다. citeturn273633view1turn116977view7\n\n## 오늘 가장 실용적인 확인 순서\n\n우선 **증상이 나타날 때의 반응·자세·혈압·맥박·호흡·산소포화도**를 병동에서 함께 관찰하고, 이어서 **현재 실제 투약내역과 최근 혈액검사·영양 상태**를 검토하는 것이 좋겠습니다. 동시에 재활팀이 몸통 지지와 활동 강도를 다시 평가하면, 단순히 “피곤해한다”는 설명에서 한 단계 더 구체적으로 원인을 좁힐 수 있습니다. citeturn612187view4turn612187view3\n\n회진에서는 이렇게 요청하시면 됩니다.\n\n> “선진이가 활동을 멈추면 잠깐 반응이 돌아오지만, 다시 참여하는 시간이 매우 짧고 곧 하품하며 몸이 기웁니다. 몸만 지치는 건지, 각성도도 떨어지는 건지 직접 봐주세요. 앉을 때 혈압 변화, 쿠에타핀을 포함한 약물 영향, 빈혈·수분·영양 상태를 먼저 확인하고 싶습니다. 기존보다 신경학적으로 나빠진 소견이 있는지도 평가해 주세요.”\n\n**지금 필요한 것은 무조건 재활량을 늘리거나 모두 중단하는 것이 아니라, ‘무엇이 선진이의 참여 시간을 제한하는지’ 찾아서 그 원인을 조정하는 것입니다.** 오늘은 하품과 반응 저하에 몸 기울어짐까지 나타나는 활동을 반복해서 시험하지 말고, 그 모습을 의료진이 확인한 뒤 다음 활동량을 정하는 쪽이 좋겠습니다.",
+      "textSha256": "sha256:01ae06ad95762ae66206f98ddf74098a5b6b90ac15c209b54d584b96593cf373",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Kids Health Info : Brain injury - Cognitive fatigue",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/",
+          "attribution": "RCH"
+        },
+        {
+          "title": "Nursing guidelines : Neurological Observations",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Neurological_Observations/",
+          "attribution": "RCH"
+        },
+        {
+          "title": "Kids Health Info : Brain injury - Physical effects of Injury",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Physical_effects_of_Injury/",
+          "attribution": "RCH"
+        },
+        {
+          "title": "Balance Problems after Traumatic Brain Injury (TBI) | MSKTC",
+          "url": "https://msktc.org/tbi/factsheets/balance-problems-after-traumatic-brain-injury",
+          "attribution": "MSKTC"
+        },
+        {
+          "title": "DailyMed - QUETIAPINE FUMARATE tablet, film coated",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?audience=consumer&setid=94dfc588-1fd9-4435-93ec-c6dd4700aef5",
+          "attribution": "DailyMed"
+        },
+        {
+          "title": "Fatigue After Traumatic Brain Injury (TBI) | MSKTC",
+          "url": "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury",
+          "attribution": "MSKTC"
+        },
+        {
+          "title": "Sleep Problems After Traumatic Brain Injury (TBI) | MSKTC",
+          "url": "https://msktc.org/tbi/factsheets/sleep-and-traumatic-brain-injury",
+          "attribution": "MSKTC"
+        },
+        {
+          "title": "Clinical Practice Guidelines : Altered conscious state",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/",
+          "attribution": "RCH"
+        },
+        {
+          "title": "Nursing guidelines : Tracheostomy management",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Tracheostomy_management/",
+          "attribution": "RCH"
+        },
+        {
+          "title": "Impact of timing of ventriculoperitoneal shunt placement on outcome in posttraumatic hydrocephalus - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29473779/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "Seizures After Traumatic Brain Injury (TBI) | MSKTC",
+          "url": "https://msktc.org/tbi/factsheets/seizures-after-traumatic-brain-injury",
+          "attribution": "MSKTC"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn637599view0turn637599view1",
+          "urls": [
+            "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/"
+          ]
+        },
+        {
+          "marker": "citeturn637599view3",
+          "urls": [
+            "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Neurological_Observations/"
+          ]
+        },
+        {
+          "marker": "citeturn637599view0turn273633view2",
+          "urls": [
+            "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/"
+          ]
+        },
+        {
+          "marker": "citeturn273633view2turn637599view1",
+          "urls": [
+            "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Physical_effects_of_Injury/"
+          ]
+        },
+        {
+          "marker": "citeturn612187view3",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/balance-problems-after-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn612187view3turn637599view4",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/balance-problems-after-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn637599view4",
+          "urls": [
+            "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?audience=consumer&setid=94dfc588-1fd9-4435-93ec-c6dd4700aef5"
+          ]
+        },
+        {
+          "marker": "citeturn637599view1turn273633view1",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn637599view4turn637599view2",
+          "urls": [
+            "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?audience=consumer&setid=94dfc588-1fd9-4435-93ec-c6dd4700aef5"
+          ]
+        },
+        {
+          "marker": "citeturn612187view3turn943462view0",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/balance-problems-after-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn273633view2turn612187view3",
+          "urls": [
+            "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Physical_effects_of_Injury/"
+          ]
+        },
+        {
+          "marker": "citeturn273633view2",
+          "urls": [
+            "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Physical_effects_of_Injury/"
+          ]
+        },
+        {
+          "marker": "citeturn637599view2",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/sleep-and-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn637599view1turn943462view0",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn612187view4",
+          "urls": [
+            "https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/"
+          ]
+        },
+        {
+          "marker": "citeturn273633view3turn943462view1turn612187view5",
+          "urls": [
+            "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Tracheostomy_management/"
+          ]
+        },
+        {
+          "marker": "citeturn612187view1",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/29473779/"
+          ]
+        },
+        {
+          "marker": "citeturn273633view1turn116977view7",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/seizures-after-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn612187view4turn612187view3",
+          "urls": [
+            "https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-0dbd77bd-b27a-4bc8-a8b5-2bb53be80fa0",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-26T06:30:11.552686+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:33.793+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "0dbd77bd-b27a-4bc8-a8b5-2bb53be80fa0",
+      "sourceOrdinal": 34,
+      "turnId": "11e6cf34-08b9-4e4f-baaa-6e893a42f018",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "사고 이전에도 아침잠이 많기는 했어. 학교갈때 깨우면 일어나고 늦지는 않았지만 주말에는 12시가 넘어 알어나고 삼자어 두사까자 잔 적이 많고 꺄유는 것이 정말 함둘다 헐정도였너 원래 자는 성향이 겹친 것도 있을까. 오후에는 잘 깨서 있고 좀 늦게 자신 해서 그런거였을수도 있간해. 지금이랑 좀 다르긴 하지. ",
+      "originalSha256": "sha256:1166357a0b8c384a98f97f7a3b6ab261ee33caa3921fb56917b41dbab9a8cb53",
+      "corrected": "사고 이전에도 아침잠이 많기는 했어. 학교 갈 때 깨우면 일어나고 늦지는 않았지만 주말에는 12시가 넘어 일어나고 심지어 두 시까지 잔 적이 많고 깨우는 것이 정말 힘들다 할 정도였어 원래 자는 성향이 겹친 것도 있을까. 오후에는 잘 깨서 있고 좀 늦게 자신 해서 그런거였을수도 있긴 해. 지금이랑 좀 다르긴 하지. ",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-31d4e80d-6769-46c6-b3c0-a474040532c0",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-26T06:33:34.512474+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:33.793+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "31d4e80d-6769-46c6-b3c0-a474040532c0",
+      "sourceOrdinal": 35,
+      "turnId": "11e6cf34-08b9-4e4f-baaa-6e893a42f018",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **사고 전의 수면 성향이 지금의 졸림에 일부 겹쳐 있을 가능성은 있습니다.** 다만 아버지가 말씀하신 **“지금이랑은 좀 다르다”는 구분이 핵심**입니다. 아침에 잠에서 깨기 어려운 것과, 이미 깨어 있는데도 짧은 활동 뒤 집중력과 자세 유지가 무너지는 것은 나누어 평가해야 합니다. 뇌손상 후에는 기존 수면습관에 더해 수면·각성 조절 변화, 피로, 약물 영향이 함께 작용할 수 있습니다. citeturn243432view1turn817385view2\n\n## 1. 사고 전에는 ‘늦은 수면리듬과 부족한 잠 보충’이 있었을 수 있습니다\n\n청소년은 사춘기를 지나면서 생체시계가 늦어져 **밤에는 늦게 졸리고 아침에는 일어나기 어려운 경향**이 있습니다. 여기에 늦은 취침과 학교 때문에 이른 기상이 겹치면, 평일에 부족했던 잠을 주말에 더 자는 모습이 나타날 수 있습니다. 선진이가 **학교 가는 날에는 일어나 등교했고, 오후에는 잘 깨어 있었으며, 취침이 늦었다**는 설명은 이런 가능성과 맞습니다. 다만 과거의 실제 수면시간을 모르므로 확정할 수는 없습니다. citeturn817385view1\n\n**낮 12시나 오후 2시에 일어났다는 사실만으로 실제 수면량이 지나치게 많았다고 판단할 수는 없습니다.** 가령 새벽 3시에 잠들어 낮 12시에 일어났다면 수면시간은 9시간입니다. 일반적인 청소년의 권장 수면시간은 하루 8–10시간이므로, 기상시각뿐 아니라 언제 잠들었는지를 함께 봐야 합니다. 이 과거력만으로 ‘과수면증’이나 ‘원래 각성 기능에 문제가 있었다’고 진단할 수는 없습니다. citeturn817385view3turn817385view1\n\n## 2. 지금은 ‘깨우기 어려움’보다 ‘깬 뒤 유지하는 능력’이 더 중요한 차이입니다\n\n아버지의 관찰을 비교하면 다음과 같습니다.\n\n| 구분 | 사고 전 말씀하신 모습 | 최근 말씀하신 모습 |\n|---|---|---|\n| 어려움이 두드러지는 때 | 아침에 깨울 때, 특히 주말 | 깨어서 활동한 뒤에도 |\n| 깨어난 뒤 상태 | 오후에는 잘 깨어 생활함 | 잠깐 참여한 뒤 하품·집중 저하가 반복됨 |\n| 자세와 활동 | 현재와 같은 기울어짐은 말씀하지 않으심 | 몸이 기울고 활동 유지시간이 매우 짧음 |\n\n**예전에는 주로 ‘잠에서 깨는 과정’이 어려웠다면, 지금은 ‘깨어 있는 상태에서 활동을 지속하는 능력’에도 어려움이 있다는 차이**입니다.\n\n뇌손상 후 인지 피로에서는 처음에는 참여하다가 빠르게 집중력이 떨어지고, 쉬었을 때와 지쳤을 때 수행이 크게 달라질 수 있습니다. 수면 필요량 자체가 늘어나는 경우도 있습니다. 따라서 선진이에게는 **기존의 늦은 수면리듬 위에 사고 후의 피로·각성 변화가 겹쳤을 가능성**을 생각할 수 있지만, 어느 요인이 얼마나 기여하는지는 지금 정보만으로 구분하기 어렵습니다. citeturn243432view0turn243432view1\n\n또한 **몸이 기울어지는 현상을 기존의 아침잠만으로 설명해서는 안 됩니다.** 몸통과 균형 유지의 어려움, 앉을 때 혈압 변화, 약물 영향 등을 별도로 확인해야 한다는 앞선 판단은 그대로입니다. citeturn683657view1\n\n## 3. 이 과거력은 재활 시간을 맞추는 데 도움이 됩니다\n\n**지금도 오후에 실제로 더 또렷한지**를 확인하면 좋겠습니다. 과거에 오후형이었다고 현재도 반드시 그렇지는 않습니다. 뇌손상 후에는 낮 동안 활동하며 피로가 쌓여 오히려 오후에 더 힘들어질 수도 있기 때문입니다. 중요한 것은 예전 습관만으로 정하는 것이 아니라 **현재 선진이에게 가장 반응이 좋고 유지되는 시간대**를 찾는 것입니다. citeturn243432view0\n\n기존 간병일지에 며칠 동안 다음 내용을 한 줄씩 덧붙이면 충분합니다.\n\n**밤에 실제로 잠든 시각과 중간에 깬 정도 → 낮잠 시간 → 약을 실제로 투여한 시각 → 오전·오후 중 반응이 가장 또렷했던 때와 그 지속시간.**\n\n수면일지와 투약기록은 수면시간 부족, 수면리듬, 약물 영향 등을 구분하는 데 도움이 됩니다. 기록을 위해 일부러 깨우거나 반복해서 과제를 시킬 필요는 없고, 평소 돌봄과 치료 중 관찰한 것으로 충분합니다. **기록이 모일 때까지 진료를 미루자는 뜻도 아닙니다.** citeturn817385view3turn243432view1\n\n이 자료를 바탕으로 재활팀에 **중요한 평가나 훈련을 가능한 한 잘 깨어 있는 시간에 배치하고, 이동·식사·놀이를 연달아 하지 않도록 조정**해 달라고 요청해 보세요. 피로 관리에서는 아이가 감당할 수 있는 활동과 휴식을 배분하는 것이 중요합니다. citeturn817385view2\n\n## 4. 잠을 억지로 줄이거나, 반대로 모두 원래 성향으로 넘기지는 마세요\n\n‘아침잠이 원래 많았으니 낮까지 계속 자게 두자’와 ‘재활해야 하니 졸려도 계속 깨워두자’ 중 어느 쪽도 일률적으로 적용하기 어렵습니다. **낮에는 자연광과 감당할 수 있는 활동, 밤에는 조용하고 어두운 환경으로 리듬을 돕되, 필요한 휴식과 낮잠은 치료팀과 조정**하는 것이 좋습니다. 앞서 말씀드린 8–10시간도 건강한 청소년의 일반적 기준이지, 선진이의 수면을 그 시간으로 강제로 제한하라는 뜻은 아닙니다. citeturn243432view1turn243432view0\n\n담당의에게는 이번 정보를 이렇게 전달하시면 됩니다.\n\n> “사고 전에도 늦게 자고 아침에 깨우기 어려웠으며, 주말에는 정오나 오후 2시까지 자기도 했습니다. 하지만 학교에는 정상적으로 갔고 오후에는 잘 깨어 있었습니다. 지금은 깨어난 뒤에도 짧은 활동만 하면 하품하고 몸이 기운다는 점이 다릅니다. 기존 수면리듬과 현재의 약물·각성·피로 문제를 구분해서 봐주세요.”\n\n**이 과거력은 현재 졸림을 해석하는 중요한 배경이지, 새롭게 생긴 짧은 활동 지속시간과 몸 기울어짐을 괜찮다고 넘기는 근거는 아닙니다.** 특히 최근 평소보다 더 깨우기 어렵거나, 쉬어도 익숙한 반응이 돌아오지 않거나, 새로운 한쪽 힘 저하·호흡 이상이 있으면 과거 수면 성향과 관계없이 즉시 병동에서 확인해야 합니다. citeturn683657view0",
+      "textSha256": "sha256:25b5f784362b704ae8ff2ec60ded7fafbaedcbf6462570f06bc81e1c9ac15649",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Sleep Problems After Traumatic Brain Injury (TBI) | MSKTC",
+          "url": "https://msktc.org/tbi/factsheets/sleep-and-traumatic-brain-injury",
+          "attribution": "MSKTC"
+        },
+        {
+          "title": "Sleep in Adolescents",
+          "url": "https://www.nationwidechildrens.org/specialties/sleep-disorder-center/sleep-in-adolescents",
+          "attribution": "Nationwide Children's Hospital"
+        },
+        {
+          "title": "About Sleep | Sleep | CDC",
+          "url": "https://www.cdc.gov/sleep/about/index.html",
+          "attribution": "CDC"
+        },
+        {
+          "title": "Kids Health Info : Brain injury - Cognitive fatigue",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/",
+          "attribution": "RCH"
+        },
+        {
+          "title": "Balance Problems after Traumatic Brain Injury (TBI) | MSKTC",
+          "url": "https://msktc.org/tbi/factsheets/balance-problems-after-traumatic-brain-injury",
+          "attribution": "MSKTC"
+        },
+        {
+          "title": "Fatigue After Traumatic Brain Injury (TBI) | MSKTC",
+          "url": "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury",
+          "attribution": "MSKTC"
+        },
+        {
+          "title": "Clinical Practice Guidelines : Altered conscious state",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/",
+          "attribution": "RCH"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn243432view1turn817385view2",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/sleep-and-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn817385view1",
+          "urls": [
+            "https://www.nationwidechildrens.org/specialties/sleep-disorder-center/sleep-in-adolescents"
+          ]
+        },
+        {
+          "marker": "citeturn817385view3turn817385view1",
+          "urls": [
+            "https://www.cdc.gov/sleep/about/index.html"
+          ]
+        },
+        {
+          "marker": "citeturn243432view0turn243432view1",
+          "urls": [
+            "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/"
+          ]
+        },
+        {
+          "marker": "citeturn683657view1",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/balance-problems-after-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn243432view0",
+          "urls": [
+            "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/"
+          ]
+        },
+        {
+          "marker": "citeturn817385view3turn243432view1",
+          "urls": [
+            "https://www.cdc.gov/sleep/about/index.html"
+          ]
+        },
+        {
+          "marker": "citeturn817385view2",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn243432view1turn243432view0",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/sleep-and-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn683657view0",
+          "urls": [
+            "https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-5c2e9c96-46c0-43a6-a418-22de8f477f52",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-26T06:39:14.401596+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:33.793+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "5c2e9c96-46c0-43a6-a418-22de8f477f52",
+      "sourceOrdinal": 36,
+      "turnId": "2cf7d5a9-6dde-4d15-8c77-1b82909806a3",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "그럼 정상적인 리듬으로ㅠ돌아오는데 얼마나 걸릴까",
+      "originalSha256": "sha256:f115f498ff97a696c314430f89f2271e9a2f63c2c2c532426b89342aaad12cb0",
+      "corrected": "그럼 정상적인 리듬으로 돌아오는데 얼마나 걸릴까",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-20ade040-6a62-4bc5-baee-cbe78c9f500f",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-26T06:44:09.731041+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:33.793+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "20ade040-6a62-4bc5-baee-cbe78c9f500f",
+      "sourceOrdinal": 37,
+      "turnId": "2cf7d5a9-6dde-4d15-8c77-1b82909806a3",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **선진이는 ‘며칠 지나면 원래 리듬으로 돌아온다’고 보기보다는, 수 주 단위로 좋아지는 추세를 확인하면서 낮 동안의 각성과 활동 지구력은 수개월에 걸쳐 회복·조정할 수 있다고 생각하는 편이 현실적입니다.** 다만 이것은 재활을 계획할 시간 범위이지, 선진이에게 정해진 회복 기간은 아닙니다. 뇌손상 후에는 활동을 수 주에서 수개월에 걸쳐 점진적으로 늘려야 하며, 소아에서는 이전보다 더 많은 수면과 휴식이 필요할 수 있습니다. citeturn513603view2turn513603view1\n\n그리고 **‘밤낮의 수면리듬이 정돈되는 것’과 ‘깨어서 오래 집중하고 자세를 유지하는 것’은 서로 다른 목표**입니다. 지금 선진이에게는 이 둘을 나누어 보는 것이 중요합니다.\n\n## 1. 잠드는 시간·일어나는 시간은 먼저 조정할 수 있습니다\n\n늦은 취침, 병동의 야간 처치, 낮잠, 통증이나 약물 때문에 리듬이 흐트러진 부분은 원인을 조정하며 개선을 기대할 수 있습니다. 규칙적인 수면 일정, 낮의 빛과 적절한 활동, 밤의 자극 감소가 도움이 됩니다. 하지만 **선진이처럼 중증 뇌손상 회복 중인 아이에게 ‘생활시간표를 바꾸면 1–2주 안에 정상화된다’고 예측할 근거는 없습니다.** 수면 문제의 원인과 약물·전신 상태를 함께 평가해야 합니다. citeturn544789view0\n\n사고 전에도 오후에 더 또렷하고 아침에 깨기 어려웠다고 하셨으니, 목표를 무조건 이른 기상으로 잡을 필요는 없습니다. **밤에는 충분히 자고, 낮에는 일정한 시간대에 편안하게 깨어 치료와 생활에 참여하는 패턴**을 치료팀과 맞추는 것이 우선입니다.\n\n## 2. 짧은 활동 뒤 처지는 현상은 더 오래 걸릴 수 있습니다\n\n현재 아버지가 걱정하시는 것은 단순히 늦잠이 아니라, **깨어난 뒤에도 조금만 활동하면 하품하고 집중이 떨어지며 몸이 기울어지는 것**입니다. 이 부분에는 수면리듬 외에 인지 피로와 신체 지구력 저하 등이 겹칠 수 있어, 밤잠이 정돈되어도 바로 사라지지 않을 수 있습니다. 소아 뇌손상 후 인지 피로는 시간이 지나며 줄어들 수 있지만, 회복 속도와 남는 어려움에는 개인차가 큽니다. citeturn513603view1\n\n소아 외상성 뇌손상 연구에서는 **수면 문제가 수개월, 일부에서는 1년 이상 지속되는 경우**도 관찰됩니다. 다만 연구에서 말하는 수면 문제에는 잠들기 어려움, 밤중에 깨는 문제, 낮 졸림 등이 모두 포함됩니다. **선진이가 지금처럼 짧게 활동하고 처지는 상태로 그 기간 내내 지낸다는 뜻은 아닙니다.** 현재의 모습을 그대로 미래에 연장해 해석할 수는 없습니다. citeturn297288search0turn297288search1\n\n또한 **사고 후 약 두 달인 지금의 상태를 최종 상태로 볼 이유는 없습니다.** 중등도·중증 뇌손상에서는 초기 수개월에 변화가 나타나고 이후에도 기능 향상이 이어질 수 있습니다. 다만 전체적인 뇌손상 회복 기간과 수면·각성이 정상화되는 시점은 같지 않으므로, “3개월 또는 6개월이면 잠 문제가 끝난다”고 정할 수는 없습니다. citeturn954863view1\n\n## 3. 지금부터 1–2주는 ‘정상화 기한’이 아니라 치료 반응을 확인하는 기간으로 잡으세요\n\n**현재처럼 깨어서 버티는 시간이 매우 짧고 몸까지 기울어진다면, 수개월 기다려 보기 전에 병동에서 원인을 확인해야 합니다.** 수면과 약물뿐 아니라 빈혈·영양·통증 등 교정할 수 있는 요인이 피로에 영향을 주는지 살펴볼 필요가 있습니다. citeturn513603view2\n\n말씀해 주신 최근 기록에는 **쿠에타핀을 25mg에서 12.5mg으로 감량하는 처방과, 자연스럽게 잠들면 생략해도 된다는 의료진의 안내**가 있었고, 9월 25일 밤에는 실제로 투여하지 않았다고 하셨습니다. 쿠에티아핀은 졸림과 피로를 일으킬 수 있으므로, **실제 투약이 달라진 이후 낮의 각성과 참여가 어떻게 달라지는지**를 비교할 가치가 있습니다. 이후 투약도 의료진의 지시대로 하면서 관찰해야 합니다. citeturn954863view2\n\n재활팀과 다음 세 가지를 **같은 시간대·비슷한 활동 조건에서** 비교해 보시면 좋겠습니다. 이는 회복을 예측하는 검사라기보다, 치료 조정에 도움이 되는 관찰 목표입니다.\n\n- **눈을 뜨고 있는 시간보다, 눈맞춤과 익숙한 반응을 편안하게 유지하는 시간이 늘어나는지.**\n- **같은 활동을 할 때 하품·집중 저하·몸 기울어짐이 시작되는 시점이 늦어지는지.**\n- **쉬고 난 뒤 회복된 상태가 더 오래 유지되고, 밤에는 잠이 덜 끊기는지.**\n\n예를 들어 며칠 사이에 총수면시간은 비슷하더라도, 깨어 있을 때 더 편안하게 참여하고 같은 활동 뒤 덜 지친다면 그 변화도 기록할 가치가 있습니다. 반대로 **억지로 깨워 둔 시간이 늘어난 것을 회복으로 평가해서는 안 됩니다.** 필요한 수면과 휴식을 보장하면서 활동을 조정하는 것이 원칙입니다. citeturn513603view1\n\n회진에는 이렇게 요청하시면 됩니다.\n\n> “선진이의 밤낮 리듬과, 깨어서 활동을 유지하는 능력을 따로 평가해 주세요. 약물 조정과 수면·재활 일정 조정 후 어느 정도 변화를 기대하며 관찰할지, 변화가 없으면 언제 어떤 추가 평가를 할지 계획을 잡고 싶습니다.”\n\n**정리하면, 수 주 안에도 좋아지는 부분이 생길 수 있지만, 사고 전처럼 낮 동안 안정적으로 활동하는 수준은 수개월 이상의 관점이 필요할 수 있습니다. 지금 중요한 것은 정해진 날짜까지 기다리는 것이 아니라, 조절 가능한 원인을 지금 다루면서 회복 추세를 확인하는 것입니다.** 평소보다 더 깨우기 어렵거나 쉬어도 반응이 회복되지 않는 변화, 새로운 한쪽 힘 저하나 호흡 이상은 관찰 기간과 관계없이 즉시 간호사에게 알려주세요. citeturn513603view2turn954863view0",
+      "textSha256": "sha256:8279d5e3ac99ebb6f6364854f86b1dff011327915cf81ff5f65a71bd8034909d",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Fatigue After Traumatic Brain Injury (TBI) | MSKTC",
+          "url": "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury",
+          "attribution": "MSKTC"
+        },
+        {
+          "title": "Sleep Problems After Traumatic Brain Injury (TBI) | MSKTC",
+          "url": "https://msktc.org/tbi/factsheets/sleep-and-traumatic-brain-injury",
+          "attribution": "MSKTC"
+        },
+        {
+          "title": "Kids Health Info : Brain injury - Cognitive fatigue",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/",
+          "attribution": "RCH"
+        },
+        {
+          "title": "The longitudinal course, risk factors, and impact of sleep disturbances in children with traumatic brain injury.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22029569/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "TBI Recovery Stages, Progress & What to Expect | MSKTC",
+          "url": "https://msktc.org/tbi/factsheets/understanding-tbi-part-3-recovery-process",
+          "attribution": "MSKTC"
+        },
+        {
+          "title": "Quetiapine: medicine to treat schizophrenia, bipolar disorder and severe depression - NHS",
+          "url": "https://www.nhs.uk/medicines/quetiapine/",
+          "attribution": "nhs.uk"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn513603view2turn513603view1",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn544789view0",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/sleep-and-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn513603view1",
+          "urls": [
+            "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/"
+          ]
+        },
+        {
+          "marker": "citeturn297288search0turn297288search1",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/22029569/"
+          ]
+        },
+        {
+          "marker": "citeturn954863view1",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/understanding-tbi-part-3-recovery-process"
+          ]
+        },
+        {
+          "marker": "citeturn513603view2",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn954863view2",
+          "urls": [
+            "https://www.nhs.uk/medicines/quetiapine/"
+          ]
+        },
+        {
+          "marker": "citeturn513603view2turn954863view0",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-fd25a29d-a786-4b3d-8473-5c77f2e233a1",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-26T18:09:28.877437+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:33.793+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "fd25a29d-a786-4b3d-8473-5c77f2e233a1",
+      "sourceOrdinal": 127,
+      "turnId": "33bb41e2-8ace-4783-87d0-4e974a27a2b7",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "exact",
+      "original": "선진이는 오른쪽 새끼손가락을 약지손가락에 꼬는 듯한 행동을 자주 하곤 해.. 왜 그런거야?",
+      "originalSha256": "sha256:cd8063f789c10af40719c86cd47b7488a224c09444ee5fbeaec5484749a805ed",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-a337584c-eaa6-4a5b-b55d-f996a0ec64e2",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-26T18:09:40.966504+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:33.793+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "a337584c-eaa6-4a5b-b55d-f996a0ec64e2",
+      "sourceOrdinal": 128,
+      "turnId": "33bb41e2-8ace-4783-87d0-4e974a27a2b7",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "exact",
+      "text": "네. **오른쪽 새끼손가락을 약지에 걸거나 꼬는 동작을 반복한다는 것**은, 최근 말씀하신 입술 표정이나 손가락으로 여러 모양을 만드는 행동과 함께 보면 한 번은 재활의학과에서 **movement phenomenology(움직임의 양상)**를 직접 확인할 가치가 있습니다.\n\n사진이나 설명만으로 원인을 하나로 정할 수는 없지만, 크게 세 가지를 생각할 수 있습니다.\n\n### 1. 가장 단순하게는 감각·운동 탐색 또는 반복 습관\n\n선진이는 최근 거울 속 얼굴을 살펴보고 여러 표정을 만들거나, 손가락을 일부러 복잡하게 움직이는 행동을 보이고 있습니다. 그렇다면 **회복되고 있는 손의 감각과 정교한 움직임을 반복적으로 탐색하는 행동**일 수도 있습니다.\n\n이 경우에는 대개 손을 다른 일에 사용하면 자연스럽게 풀립니다. 예를 들어 젓가락을 잡거나 물건을 집거나 아빠 손을 잡을 때는 정상적인 손가락 배열로 돌아오고, 다시 쉬면 새끼손가락을 약지에 거는 식입니다.\n\n그렇다면 비교적 **자발적인 반복행동 또는 stereotyped behavior** 쪽에 가까울 수 있습니다. stereotypy는 일정한 형태의 반복운동이며, 다른 활동으로 주의를 돌렸을 때 줄어드는 것이 특징 중 하나입니다. citeturn0search0turn0search7\n\n### 2. DAI/저산소성 뇌손상 후 dystonia 같은 운동조절 이상\n\n이건 꼭 감별해야 합니다.\n\n**Dystonia(근긴장이상)**는 근육이 의도하지 않게 동시에 수축하면서 손가락이나 손목이 **특정한 모양으로 꼬이거나 비틀리는 자세**를 만드는 운동장애입니다. 특징적으로 일정한 패턴이 반복되고, 움직이려고 할 때 더 뚜렷해질 수도 있습니다. 중증 TBI와 저산소성 뇌손상 이후에는 dystonia를 포함한 운동장애가 나타날 수 있습니다. citeturn0search3turn0search5turn0search7\n\n선진이는 DAI뿐 아니라 저산소성 손상 소견도 있었기 때문에 이 가능성을 완전히 무시해서는 안 됩니다.\n\n다만 **새끼손가락 하나를 약지에 거는 행동만으로 dystonia라고 할 수는 없습니다.**\n\n### 3. 경직(spasticity)이나 손의 근긴장 변화\n\n뇌손상 후에는 손가락 굽힘근의 긴장이 증가하면서 특정 손가락 자세를 취할 수도 있습니다. 소아 중증 TBI에서는 spasticity와 dystonia 모두 발생할 수 있고 둘이 같이 존재하기도 합니다. citeturn0search3turn0search4\n\n그런데 경직이라면 보통 **손가락을 수동적으로 펴려고 할 때 저항이 느껴지거나**, 손목·팔의 다른 근긴장 변화도 함께 관찰되는 경우가 많습니다.\n\n---\n\n## 집에서 구분하는 데 가장 유용한 관찰\n\n**억지로 손가락을 펴보는 검사는 하지 마시고**, 자연스러운 상황을 보세요.\n\n선진이가 새끼손가락을 꼬고 있을 때\n\n> **“선진아, 손 펴봐.”**\n\n라고 한 번 말해보고 기다립니다.\n\n말로 안 되면 아빠가 손바닥을 펴 보입니다.\n\n그때 선진이가 **스스로 손가락을 정상적으로 펼 수 있다면** 상당히 중요한 정보입니다.\n\n또 젓가락질, 컵 잡기, 휴대폰 터치, 아빠 손잡기 등을 할 때 **새끼손가락 자세가 자연스럽게 풀리는지** 보세요.\n\n### 저는 이렇게 기록하겠습니다\n\n- **다른 활동하면 풀림 + 통증 없음 + 스스로 펼 수 있음**  \n  → 탐색/습관적 반복운동 가능성을 더 생각.\n\n- **항상 같은 자세 + 스스로 풀기 어려움 + 활동할 때 더 꼬임**  \n  → dystonia 등 운동조절 문제 평가 필요.\n\n- **다른 사람이 천천히 움직일 때도 뻣뻣하고 저항이 큼**  \n  → spasticity/근긴장 증가 평가 필요.\n\n- **손가락이 붓거나 아파하고 관절 자체가 잘 안 움직임**  \n  → 신경학적 문제뿐 아니라 손가락·힘줄·관절 문제도 확인.\n\n---\n\n## 특히 선진이에게는 한 번에 같이 보여주는 게 좋겠습니다\n\n최근 새로 나타난 것으로 말씀하신\n\n**① 아랫입술을 뒤집는 표정**  \n**② 오른쪽 새끼손가락을 약지에 꼬는 반복행동**  \n**③ 거울을 보며 여러 얼굴표정을 만드는 행동**\n\n을 각각 20–30초 정도 영상으로 찍어 재활의학과에 함께 보여주세요.\n\n> **“사고 전에는 없던 반복적인 얼굴·손가락 움직임이 최근 생겼습니다. 의도적인 탐색행동인지 stereotypy인지, dystonia나 spasticity 같은 뇌손상 후 운동장애인지 확인해주세요.”**\n\n라고 요청하면 됩니다.\n\n그리고 **현재 quetiapine 25 mg을 매일 복용하고 있다는 사실도 같이 말씀해주세요.** 약물이 이런 행동의 원인이라고 단정할 근거는 없지만, 새롭게 발생한 비정상 반복운동을 평가할 때는 현재 약물까지 함께 검토하는 것이 맞습니다.\n\n반대로 **갑자기 손 전체가 강하게 꼬이면서 팔·목·턱까지 같이 뻣뻣해지거나, 눈이 돌아가거나, 의식반응이 달라지거나, 반복적인 경련성 움직임이 나타난다면** 영상만 찍어두고 기다리지 말고 바로 간호사에게 알려야 합니다.\n\n현재 설명만으로는 제가 가장 먼저 걱정할 상황이라기보다는, **회복기에 새롭게 나타난 반복적인 운동 패턴을 의도적 행동인지 운동조절 장애인지 구분해야 하는 상황**에 가깝습니다. 특히 선진이가 그 손으로 젓가락질과 물건 조작을 여전히 잘하고 있는지가 매우 중요한 단서입니다. memcite",
+      "textSha256": "sha256:37f765f8ff7859d1fa8c1eda7401c9e0e921baa9e572aa9b34e44b80dc59e926",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Diagnostic approach to paediatric movement disorders: a clinical practice guide - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7894329/",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "Neuropharmacology in pediatric traumatic brain injury - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13292751/",
+          "attribution": "PubMed Central (PMC)"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn0search0turn0search7",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC7894329/"
+          ]
+        },
+        {
+          "marker": "citeturn0search3turn0search5turn0search7",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC13292751/"
+          ]
+        },
+        {
+          "marker": "citeturn0search3turn0search4",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC13292751/"
+          ]
+        },
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-10-08-medical-2026-09-26-historical-scope",
+      "recordedAt": {
+        "start": "2026-10-08T05:54:33.793+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-28de5818-864e-414c-895e-19386f45414a",
+      "note": "이 게시물은 대화가 이루어진 당시의 질문과 답변을 보존한 이력입니다. 투약·식이·관 사용 상태와 검사 해석을 현재 처방이나 확정 진단으로 사용하지 않습니다. 이후 보호자의 추가 설명·정정이 있으면 함께 읽어야 합니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [],
+  "privacyReviewed": true
+}

@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-09-27-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 9월 27일 의학지식 문의 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-27",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-10-08T05:54:34.316+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학지식 문의",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 2 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-10-08T05:54:34.316+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    },
+    {
+      "id": "chatgpt-medical-knowledge-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-10-08T05:54:34.316+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-c8bfc6be-5894-48f2-8c5c-96f62d18d7df",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-27T21:38:11.901528+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:34.316+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "c8bfc6be-5894-48f2-8c5c-96f62d18d7df",
+      "sourceOrdinal": 129,
+      "turnId": "f261e937-fd4d-4f9e-9621-89bd926fbdbd",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "젓가락질과 물건 조작, 손을 잡을 때등에는 손가락 꼬기를 풀고, 언제나 손가락을 꼬고있는 것은 아냐. 쉬고 있을 때나, 잘때 등 일상적인 손가락 모양을 하고 있는 경우도 많아.",
+      "originalSha256": "sha256:6a20ac1d16797d21818bf298998db0acff43dca42df1491df35e22f3d1da1dce",
+      "corrected": "젓가락질과 물건 조작, 손을 잡을 때 등에는 손가락 꼬기를 풀고, 언제나 손가락을 꼬고 있는 것은 아냐. 쉬고 있을 때나, 잘 때 등 일상적인 손가락 모양을 하고 있는 경우도 많아.",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-5938ebd7-c52c-418f-9dad-1d59fd35f112",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-27T21:38:24.157630+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:34.316+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "5938ebd7-c52c-418f-9dad-1d59fd35f112",
+      "sourceOrdinal": 130,
+      "turnId": "f261e937-fd4d-4f9e-9621-89bd926fbdbd",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "exact",
+      "text": "그 정보가 추가되면 **해석이 상당히 달라집니다.** 지금 설명하신 양상은 고정된 경직이나 구축보다는 **선진이가 특정 상황에서 만들어내는 반복적인 손가락 자세/감각·운동 탐색 행동** 쪽에 조금 더 무게가 갑니다.\n\n특히 다음 네 가지가 중요합니다.\n\n- 젓가락질할 때는 스스로 꼬임을 풉니다.\n- 물건을 조작할 때도 정상적인 손가락 배열을 사용할 수 있습니다.\n- 손을 잡을 때도 자연스럽게 풀립니다.\n- 휴식·수면 중에는 정상적인 손가락 자세인 경우가 많습니다.\n\n이것은 **손가락을 펴는 운동 프로그램 자체가 망가진 것이 아니라 필요할 때 정상적인 손 모양을 선택하고 정교한 운동을 수행할 능력이 상당 부분 보존되어 있다**는 의미입니다.\n\n### 그래서 dystonia나 spasticity 가능성은?\n\n완전히 배제할 수는 없지만, 지금 설명은 **고정된 dystonic posture나 뚜렷한 spasticity에는 덜 전형적**입니다.\n\n경직이나 구축이 주된 문제라면 보통 쉬고 있을 때도 일정한 비정상 자세가 지속되거나, 손을 사용할 때 정상적인 모양으로 전환하기 어렵거나, 다른 사람이 천천히 움직여도 저항이 느껴지는 등의 특징을 함께 찾게 됩니다.\n\nDystonia는 조금 더 복잡해서 **특정 활동에서만 나타나는 task-specific dystonia**도 있기 때문에 “필요할 때 풀린다”만으로 완전히 제외할 수는 없습니다. 하지만 선진이처럼 **정교한 젓가락질을 할 때 오히려 정상적으로 풀리고, 잠잘 때도 정상인 경우**에는 심한 dystonia를 우선적으로 생각하게 하는 양상은 아닙니다.\n\n## 최근의 다른 행동들과 연결하면 흥미롭습니다\n\n선진이는 최근\n\n`거울 속 자기 얼굴 관찰`\n→ `여러 표정 만들어보기`\n\n`아랫입술을 뒤집는 표정 반복`\n\n`손가락을 특이하게 꼬아보기`\n\n같은 행동을 보이고 있습니다.\n\n그리고 동시에\n\n`젓가락질`\n`도형 맞추기`\n`음식 선택`\n`아빠에게 음식 먹여주기`\n`뽀뽀`\n`간헐적인 말 명령 수행`\n\n같은 **목적지향적인 행동**도 상당히 나타나고 있습니다. memcite\n\n그래서 하나의 가능한 설명은 **선진이가 회복 과정에서 자기 얼굴과 손 같은 신체를 다시 다양하게 움직이고 감각을 확인하면서 특정 동작을 반복하고 있는 것**입니다.\n\n다만 이것을 제가 “확실히 신체 탐색 행동이다”라고 진단할 수는 없습니다. 뇌손상 이후에는 stereotypy 같은 반복행동도 나타날 수 있기 때문에 **빈도와 조절 가능성**을 계속 보는 것이 좋습니다.\n\n### 오히려 아주 흥미로운 관찰을 해볼 수 있습니다\n\n선진이가 새끼손가락을 꼬고 있을 때 바로 풀어주지 말고, 위험하지 않다면 잠시 두세요.\n\n그리고 어느 순간 자연스럽게 **컵이나 젓가락을 건네보세요.**\n\n만약\n\n`손가락 꼬고 있음`\n→ `컵을 봄`\n→ **스스로 손가락을 풂**\n→ `물건에 맞게 손 모양을 바꿈`\n→ `정상적으로 사용`\n→ 사용이 끝난 뒤 다시 꼬기도 함\n\n이라는 패턴이 반복된다면 꽤 의미가 있습니다.\n\n이것은 최소한 **목표에 따라 손의 자세를 전환하는 motor planning과 voluntary control이 작동하고 있다는 증거**가 됩니다.\n\n더 나아가 컨디션 좋은 시간에\n\n> **“선진아, 손 펴봐.”**\n\n라고 **몸짓 없이 말로만 한 번** 이야기해보고 10–20초 기다려보는 것도 좋습니다.\n\n성공하면 손가락 문제뿐 아니라 최근 우리가 계속 확인하고 있는 **청각적 명령 이해**에 대한 또 하나의 자료가 됩니다.\n\n---\n\n## 지금은 억지로 손가락을 교정할 필요도 없어 보입니다\n\n통증이 없고,\n\n- 손가락 피부가 눌리지 않고\n- 관절이 붓지 않고\n- 필요할 때 스스로 풀 수 있고\n- 젓가락질 등 기능적 사용이 정상적으로 가능하고\n- 잠잘 때도 정상 자세로 돌아간다면\n\n보호자가 볼 때마다 **“손가락 펴야 해” 하면서 물리적으로 풀어놓을 필요는 없어 보입니다.**\n\n오히려 지금은 **그 행동이 언제 나타나고 언제 사라지는지**를 관찰하는 편이 정보가 많습니다.\n\n재활의학과에는 다음번에 아주 간단하게 전달하세요.\n\n> **“오른쪽 새끼손가락을 약지에 거는 행동을 종종 하지만, 젓가락질이나 물건 조작, 손잡기에서는 스스로 바로 풀고 정상적으로 사용합니다. 쉬거나 잘 때도 정상적인 손 모양인 경우가 많습니다. 반복행동인지 근긴장 이상인지 한번 봐주세요.”**\n\n현재 추가해주신 정보까지 합치면 저는 **‘손가락이 비정상 자세로 굳어가는 문제’에 대한 걱정은 이전보다 상당히 낮추겠습니다.** 오히려 앞으로는 선진이가 **자발적으로 언제 그 자세를 선택하는지, 필요할 때 얼마나 자연스럽게 정상 손 모양으로 전환하는지**가 더 흥미로운 관찰 포인트입니다.\n\n---\n\nHere's a quick summary of the conversation:\n\n선진이는 3일째 콧줄을 통한 경장영양은 금식 중이지만, 의료진이 다른 루트로 영양 공급을 늘려 영양 결손을 보완하고 있습니다. 단기간 금식 자체가 회복에 큰 문제를 일으킨다고 보기는 어렵고, 단백질과 열량이 적절히 공급되고 있는지 확인하는 것이 중요합니다. 또한, 기관절개 후에는 흡인·구토·호흡 불안정을 줄이기 위해 경장영양을 보수적으로 중단하는 상황이며, 정맥영양으로 보완하는 것이 표준 중환자 영양 전략입니다.\n\n폐렴과 가래 문제는 회복을 더디게 할 수 있으나 반복적이고 꾸준한 관리가 필요할 뿐 회복 불가능한 것은 아닙니다. 기관절개 소아는 하기도 감염 위험이 높아 의료진이 흡인 예방 등 호흡기 안정을 최우선으로 하며, 영양과 호흡 안정의 균형을 맞추는 치료 전략을 취하고 있습니다.\n\n- 팀에게 재활과 식이 조정에 대한 구체 질문하기\n- 투약 및 식이 문제에 관한 주요 내용 요약하기\n- 투약 시간과 주요 약물 효과 비교 표 만들기",
+      "textSha256": "sha256:bc10abc354d2d7a5195332bbf205fc5cf3193b6c5612981449451a4b237b006d",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "citationMarkers": [
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-dd8549f9-2183-4059-830e-45b9ccee5e25",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-27T21:40:59.686022+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:34.316+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "dd8549f9-2183-4059-830e-45b9ccee5e25",
+      "sourceOrdinal": 38,
+      "turnId": "03f3e6fb-7b79-41e6-8b47-521839ea16f5",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "쿠에타핀 투약을 중지하고 2일이 지났는데, 상당해 낮시간에 깨어있고 (활동한 뒤에 잠을 자며 쉬는 시간은 있음) 깨어있는 시간에도 활동성이 어느정도 있어. 좋은 변화인 것 같아.",
+      "originalSha256": "sha256:7e135ba412ca5b563fd5c1a16ecc251f1b1c4dd1d0de5a0db4d5c2a5cd016713",
+      "corrected": "쿠에타핀 투약을 중지하고 2일이 지났는데, 상당히 낮 시간에 깨어있고 (활동한 뒤에 잠을 자며 쉬는 시간은 있음) 깨어있는 시간에도 활동성이 어느 정도 있어. 좋은 변화인 것 같아.",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-78021d04-78e1-4b7b-85eb-f8723b621c41",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-27T21:44:20.964568+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:34.316+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "78021d04-78e1-4b7b-85eb-f8723b621c41",
+      "sourceOrdinal": 39,
+      "turnId": "03f3e6fb-7b79-41e6-8b47-521839ea16f5",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **이번 변화는 분명 반가운 소식입니다. 특히 단순히 눈을 뜨고 있는 시간이 아니라, 깨어 있을 때 활동성도 함께 늘었다는 점이 중요합니다.** 쿠에티아핀은 졸림·피로를 유발할 수 있으므로, **중단 후 낮의 각성과 활동성이 좋아진 것은 이전의 처짐에 약물 영향이 겹쳐 있었을 가능성을 높여주는 중요한 단서**입니다. 다만 이틀간의 변화만으로 약이 유일한 원인이었다고 확정할 수는 없습니다. citeturn116324view0\n\n## 1. 중단한 지 이틀 만에 좋아지는 것은 설명 가능한 변화입니다\n\n쿠에티아핀 일반정의 성인 자료에서 약물 농도가 절반으로 줄어드는 시간인 **반감기는 약 6시간**입니다. 실제 약효가 줄어드는 속도는 간 기능·동반 약물 등에 따라 달라지지만, **중단 후 이틀 사이 졸림이 눈에 띄게 줄었다는 시간 경과는 약물 영향이 감소했다는 설명과 맞습니다.** 반감기만으로 선진이에게 약효가 완전히 사라졌다고 판단할 수는 없습니다. citeturn986717view2turn116324view4\n\n그래서 지금은 이전보다 해석을 조금 바꿀 수 있습니다. **“뇌손상 때문에 아직 깨어 있을 능력이 매우 부족하다”는 설명만으로 보기보다, “회복 중인 선진이의 각성과 활동이 약물의 졸림 효과 때문에 덜 드러났을 수 있다”는 가능성에 무게를 더 둘 수 있습니다.** 이는 관찰에 근거한 추정이며, 자연적인 회복과 수면·전신 상태의 변화도 함께 작용했을 수 있습니다. 쿠에티아핀은 졸림뿐 아니라 사고와 운동 수행에도 영향을 줄 수 있는 약입니다. citeturn986717view5\n\n**그렇다고 이번 호전의 의미가 작아지는 것은 아닙니다.** 실제 생활에서 선진이가 더 깨어 있고 활동에 참여한다는 변화 자체를 소중하게 보셔도 됩니다.\n\n## 2. 활동 후 잠을 자며 쉬는 것은 여전히 필요할 수 있습니다\n\n말씀하신 모습은 이전의 **‘잠깐 반응했다가 곧 처지는 상태’에서 ‘깨어서 어느 정도 활동하고, 활동 뒤에는 쉬는 상태’로 달라진 것**으로 들립니다.\n\n뇌손상 후에는 약물성 졸림이 줄어도 인지·신체 피로가 남을 수 있고, 평소보다 많은 수면이나 낮잠이 필요할 수 있습니다. 따라서 **활동 후 낮잠을 잔다고 해서 개선이 덜 된 것으로 볼 필요는 없습니다.** 앞으로는 잠의 총량만 줄이려 하기보다, 깨어 있을 때 편안하게 참여하는지와 휴식 후 다시 평소 반응으로 돌아오는지를 함께 보세요. citeturn752807view0\n\n다만 좋아졌다고 바로 휠체어 시간·놀이·이동 연습을 한꺼번에 늘리지는 않는 것이 좋겠습니다. **현재 잘 견디는 활동량을 우선 유지하면서, 피로가 누적되지 않는 범위에서 재활팀과 조금씩 조정**하세요. 하품이 반복되고 반응이 느려지거나 몸이 기울면 여전히 휴식과 자세 조정이 필요한 신호로 보아야 합니다. citeturn752807view1\n\n## 3. 이제는 ‘낮의 활동’과 ‘밤의 수면’이 함께 좋아지는지 보세요\n\n앞으로 며칠간 기존 간병일지에 아래 정도만 덧붙이면 중단 전후를 비교하기 좋겠습니다. 일부러 시험하지 말고 평소 돌봄 중 관찰한 내용을 적으면 됩니다.\n\n| 관찰 항목 | 기록할 내용 |\n|---|---|\n| **깨어 있을 때의 반응** | 눈맞춤, 익숙한 지시 수행, 놀이·가족과의 상호작용이 전보다 오래 유지되는지 |\n| **활동과 휴식** | 하품·몸 기울어짐이 시작되는 때, 휴식 후 다시 참여할 수 있는지 |\n| **밤의 수면** | 자연스럽게 잠드는지, 자주 깨거나 심하게 뒤척이지는 않는지 |\n\n특히 **편안하게 깨어 활동하는 것과, 잠을 못 자면서 안절부절못하는 것은 구분**해야 합니다. 쿠에티아핀 중단 뒤에는 불면, 과민함, 메스꺼움·구토 같은 증상이 나타날 수 있으므로 새로 생기면 담당의에게 알려주세요. 그렇다고 이런 증상이 반드시 발생한다는 뜻은 아닙니다. citeturn116324view1\n\n이전에 전해주신 의료진의 **“자연스럽게 잠들면 투여하지 않아도 된다”는 안내**에 따라 미투여한 뒤 나타난 변화이니, 이번 경과를 처방의와 재활팀에 꼭 공유해 주세요.\n\n> “쿠에타핀을 투여하지 않은 지 이틀째이고, 낮에 깨어 있는 시간과 활동성이 뚜렷하게 늘었습니다. 활동 후에는 잠을 자며 쉽니다. 이 상태에서 야간 수면과 낮의 재활 참여를 함께 보며 투약계획을 검토해 주세요.”\n\n**이번 변화 덕분에, 이전의 심한 졸림을 모두 뇌손상 자체의 한계로 해석할 필요는 없다는 근거가 하나 생겼습니다.** 지금은 ‘더 오래 깨워두기’보다, **선진이가 편안하게 깨어 참여하고 필요한 만큼 쉬는 패턴을 안정적으로 이어가는 것**을 다음 목표로 삼으면 좋겠습니다.",
+      "textSha256": "sha256:03243a5690f323e7dc4da10cd6d8549bbffa9ac96cc4a50599446e7f8df265d8",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Quetiapine: medicine to treat schizophrenia, bipolar disorder and severe depression - NHS",
+          "url": "https://www.nhs.uk/medicines/quetiapine/",
+          "attribution": "nhs.uk"
+        },
+        {
+          "title": "DailyMed - QUETIAPINE FUMARATE tablet, film coated",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=94dfc588-1fd9-4435-93ec-c6dd4700aef5",
+          "attribution": "DailyMed"
+        },
+        {
+          "title": "Kids Health Info : Brain injury - Cognitive fatigue",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/",
+          "attribution": "RCH"
+        },
+        {
+          "title": "Fatigue After Traumatic Brain Injury (TBI) | MSKTC",
+          "url": "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury",
+          "attribution": "MSKTC"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn116324view0",
+          "urls": [
+            "https://www.nhs.uk/medicines/quetiapine/"
+          ]
+        },
+        {
+          "marker": "citeturn986717view2turn116324view4",
+          "urls": [
+            "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=94dfc588-1fd9-4435-93ec-c6dd4700aef5"
+          ]
+        },
+        {
+          "marker": "citeturn986717view5",
+          "urls": [
+            "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=94dfc588-1fd9-4435-93ec-c6dd4700aef5"
+          ]
+        },
+        {
+          "marker": "citeturn752807view0",
+          "urls": [
+            "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/"
+          ]
+        },
+        {
+          "marker": "citeturn752807view1",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn116324view1",
+          "urls": [
+            "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=94dfc588-1fd9-4435-93ec-c6dd4700aef5"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-10-08-medical-2026-09-27-historical-scope",
+      "recordedAt": {
+        "start": "2026-10-08T05:54:34.316+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-c8bfc6be-5894-48f2-8c5c-96f62d18d7df",
+      "note": "이 게시물은 대화가 이루어진 당시의 질문과 답변을 보존한 이력입니다. 투약·식이·관 사용 상태와 검사 해석을 현재 처방이나 확정 진단으로 사용하지 않습니다. 이후 보호자의 추가 설명·정정이 있으면 함께 읽어야 합니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ]
+    },
+    {
+      "id": "review-2026-10-08-medical-2026-09-27-stale-ending",
+      "recordedAt": {
+        "start": "2026-10-08T05:54:34.316+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-5938ebd7-c52c-418f-9dad-1d59fd35f112",
+      "note": "답변 말미의 영문 요약 제목과 콧줄·금식 관련 문단도 공유 원문에 포함된 내용이므로 삭제하지 않았습니다. 해당 문단을 이 날짜나 현재의 실제 영양 공급 상태가 확인된 기록으로 표시하지 않습니다. 같은 날 다른 대화의 쿠에타핀 미투여 후 관찰과도 구분해 보존합니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [],
+  "privacyReviewed": true
+}

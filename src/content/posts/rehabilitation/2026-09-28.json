@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 2,
+  "recordId": "rehabilitation-2026-09-28-conversation",
+  "board": "rehabilitation",
+  "entryType": "rehabilitation-plan",
+  "title": "2026년 9월 28일 재활 전원 준비 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-28",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-10-08T05:54:32.185+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "재활 준비",
+    "전원 계획",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-rehabilitation-list-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "재활병원 목록 안내 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-10-08T05:54:32.185+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-48812281-ec5d-4df2-9b86-dd291bfb5e6a",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-28T08:55:01.643078+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:32.185+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "48812281-ec5d-4df2-9b86-dd291bfb5e6a",
+      "sourceOrdinal": 14,
+      "turnId": "8c1302a8-f6f0-4ff3-8510-585350d3e4cb",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-list-2026"
+      ],
+      "fidelity": "exact",
+      "original": "최근 선진이 상태 다시 확인해서 선진의 상태에 대한 리뷰를 적어주고, 외래 진료를 볼 때 의사선생님께 소개할 선진의 현재 상태와 주의깊게 살펴봐야할 재활 주안점등을 정리해줘.",
+      "originalSha256": "sha256:1e13f73a801acecda6617d5a561a79799fd1ff3bdd140dc856b212658739c14e",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-ecf0f508-fc08-4f41-8e5a-a73707950697",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-28T09:02:01.920677+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:32.185+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "ecf0f508-fc08-4f41-8e5a-a73707950697",
+      "sourceOrdinal": 15,
+      "turnId": "249b8d25-3644-4fad-b2ac-a6423b01971b",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-list-2026"
+      ],
+      "fidelity": "exact",
+      "original": "어느 진료과를 선택하는 것이 중요한가? 소아, 재활, 신경, 외상성 등등 키워드가 많고 다양하던데.",
+      "originalSha256": "sha256:ce0a05182b500c3c2d1098ea27747fa54971399a488e37e56082954a3020b077",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-2ef326e7-e2b3-4f6e-864d-428bca454c06",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-28T09:02:03.884643+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:32.185+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "2ef326e7-e2b3-4f6e-864d-428bca454c06",
+      "sourceOrdinal": 16,
+      "turnId": "249b8d25-3644-4fad-b2ac-a6423b01971b",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-list-2026"
+      ],
+      "fidelity": "exact",
+      "text": "네. 이 부분은 상당히 중요합니다. 선진이처럼 **소아·청소년 + 중증 외상성 뇌손상(Traumatic Brain Injury, TBI) + 미만성 축삭손상(Diffuse Axonal Injury, DAI) + 의식회복기 + 운동·인지·언어·연하 문제가 동시에 있는 경우**에는 병원 홈페이지의 키워드가 겹쳐서 혼란스럽습니다.\n\n현재 단계에서는 **‘소아과냐 신경과냐’보다 ‘재활의학과 안에서 소아 후천성 뇌손상/TBI를 다루는 의료진을 찾는 것’이 핵심**입니다.\n\n## 현재 선진이에게 중심이 되는 진료과\n\n**1순위 축은 재활의학과(소아재활 또는 뇌신경재활)**입니다.\n\n선진이에게 지금 필요한 것은 새로운 뇌병변의 원인을 진단하는 것보다, 이미 확인된 TBI/DAI 이후에\n\n**의식·각성 → 인지 → 언어 → 연하 → 상하지 운동 → 체간/균형 → 보행 → 일상생활 → 학교복귀**\n\n를 하나의 계획으로 묶어 평가하고 치료하는 것이기 때문입니다.\n\n조금 더 정확하게 표현하면 제가 외래 예약에서 찾을 키워드는:\n\n> **재활의학과 → 소아재활 + 외상성 뇌손상(TBI)/뇌신경재활**\n\n입니다.\n\n단순히 **‘소아재활’**만 찾으면 뇌성마비, 발달지연, 선천성 질환 중심 의료진일 수도 있고, 반대로 **‘뇌신경재활’**만 찾으면 성인 뇌졸중 중심일 수도 있습니다.\n\n선진이에게 가장 잘 맞는 교집합은:\n\n> **소아·청소년 + 후천성 뇌손상(Acquired Brain Injury) + TBI/DAI + neurorehabilitation**\n\n입니다.\n\n### 각 진료과의 역할을 구분하면\n\n| 진료과/키워드 | 선진이에게 현재 역할 |\n|---|---|\n| **재활의학과** | **핵심 주치과**. 전체 재활계획을 통합 |\n| **소아재활** | 매우 중요. 성장·발달·학교복귀까지 고려 |\n| **뇌신경재활 / 뇌손상재활** | **매우 중요.** TBI/DAI 후 의식·인지·운동 회복 |\n| **외상성 뇌손상(TBI)** | 의료진을 고를 때 **가장 좋은 세부 전문 키워드 중 하나** |\n| **의식장애 / Disorders of Consciousness** | 초기 중증 뇌손상 후 현재 회복 수준을 정밀하게 평가하는 데 중요 |\n| **신경과** | 발작, 뇌전증, 새로운 신경학적 이상, EEG 등의 문제가 있을 때 협진 |\n| **신경외과** | 구조적 뇌병변, 출혈, 수두증, 수술적 문제 등이 있을 때 |\n| **소아청소년과** | 감염·영양·호흡 등 전신관리에는 중요하지만 재활 전체를 지휘하는 과는 아님 |\n| **정형외과** | 손목 ORIF, 골반·쇄골 골절의 체중부하/ROM 제한 결정 |\n| **이비인후과/호흡기 관련과** | 기관절개관 관리 및 decannulation 과정에서 협진 |\n| **재활 언어·연하팀** | 현재 선진이에게 특히 중요한 실제 치료 영역 |\n\n따라서 예를 들어 **‘소아신경과’와 ‘소아재활의학과’ 중 하나만 예약해야 한다면 현재는 소아재활의학과 쪽이 우선**입니다. 소아신경과는 뇌전증이나 발작 의심, EEG 이상, 새로운 신경학적 악화 등이 있을 때 매우 중요하지만, 현재 선진이의 주된 질문인 *“어떻게 기능을 회복시킬 것인가?”*의 중심과는 조금 다릅니다.\n\n---\n\n## 선진이에게는 한 단계 더 중요한 문제가 있습니다\n\n선진이가 이제 단순한 **‘의식장애 환자’**라고만 분류되면 안 됩니다.\n\n최근 관찰을 종합하면,\n\n- 가족에 대한 적절한 정서반응\n- 사진·영상에 대한 상황에 맞는 반응\n- 구구단 문제 해결\n- 손가락 숫자 모방\n- 식사도구 및 젓가락 사용\n- 물건 조작\n- 일부 언어적 명령 수행\n- 활동 후 휴식을 취하면 다시 각성\n- 쿠에타핀 중단 2일 후 **낮 동안 상당히 깨어 있고 활동성도 증가**\n- 쉬고 있을 때 나타나는 손가락 자세도 실제 물건 조작이나 젓가락질에서는 풀 수 있음\n\n등 **목적성 행동과 인지적 처리능력이 상당히 다양하게 관찰되고 있습니다.**\n\n따라서 앞으로 외래에서는 단순히\n\n> \"DAI 이후 의식장애가 있습니다.\"\n\n라고 소개하기보다,\n\n> **\"Severe TBI/DAI 이후 의식회복 단계에 있으며, 현재 목적성 행동과 일부 언어 지시 수행, 계산 및 도구사용이 나타나고 있으나 언어처리·운동·각성 endurance에 불균형이 있습니다.\"**\n\n라고 설명하는 편이 현재 상태를 훨씬 잘 전달합니다.\n\n이 차이가 중요합니다. 그래야 의사가 **의식수준 자체만 보는 것이 아니라 인지-언어-운동 dissociation** 가능성까지 살펴볼 수 있습니다.\n\n---\n\n# 그래서 의료진을 고른다면\n\n제가 선진이 외래를 잡을 때 의료진 프로필에서 우선 찾을 단어는 다음 순서입니다.\n\n**외상성 뇌손상(TBI) / 후천성 뇌손상(Acquired Brain Injury)**  \n→ **소아재활(Pediatric Rehabilitation)**  \n→ **뇌신경재활(Neurorehabilitation)**  \n→ **의식장애(Disorders of Consciousness)**  \n→ **인지재활(Cognitive Rehabilitation)**  \n→ **연하재활(Dysphagia Rehabilitation)**\n\n그리고 **뇌성마비·발달지연만을 주로 진료하는 소아재활 의료진보다는 TBI/후천성 뇌손상 경험이 있는 의료진**을 먼저 찾겠습니다.\n\n그래서 우리가 앞서 찾은 후보 중 **한양대 최수진 교수**가 눈에 들어왔던 이유도 공식 전문분야에 **외상성 뇌손상**이 직접 명시되어 있기 때문입니다.\n\n반대로 서울아산에서는 **소아재활을 중심으로 시작하되 뇌신경재활 및 연하재활과의 협진 구조**가 중요하고, 세브란스는 **소아 TBI를 재활병원 입원 대상 자체로 명시하고 있다는 점**이 중요합니다.\n\n---\n\n## 외래 예약할 때 이렇게 말하면 됩니다\n\n전화해서 단순히 **\"소아재활 예약하고 싶습니다\"**라고 하지 않는 것이 좋습니다.\n\n> \"중학교 2학년 아이이고, 7월 말 중증 다발성 외상으로 외상성 뇌손상을 입었습니다. MRI에서 미만성 축삭손상이 확인됐고, 초기 중증 의식장애에서 현재는 목적성 행동과 일부 언어 지시 수행까지 회복하고 있습니다. 현재 기관절개관이 있고 운동·인지·언어·연하를 포함한 집중재활이 필요한 상태입니다. **소아 후천성 뇌손상이나 외상성 뇌손상 재활을 전문으로 보시는 재활의학과 교수님께 진료를 받고 싶습니다.**\"\n\n이렇게 설명하면 예약 담당자가 **단순 소아재활 외래가 아니라 적절한 교수에게 연결할 가능성**이 높아집니다.\n\n그리고 교수 진료실에서는 가장 먼저 **\"지금 선진이의 recovery stage를 어떻게 판단하시는지\"**를 묻고 싶습니다. 그다음 **인지와 언어의 dissociation, 낮 각성/피로, 운동 비대칭, 연하·기관절개관, 표준화된 의식/인지 평가, 집중재활의 적정 강도**를 차례로 평가받는 구조가 좋겠습니다.\n\n결론적으로 선진이의 현재 **anchor specialty는 `재활의학과`**, 그 안에서 찾아야 할 phenotype은 **`소아/청소년 + TBI/DAI + acquired brain injury/neurorehabilitation`**입니다. 신경과·신경외과·소아청소년과·정형외과·이비인후과는 중요한 **협진 축**으로 보는 것이 가장 이해하기 쉽습니다. memcite",
+      "textSha256": "sha256:05f2e3d90b3e713a4994c14fd3c156e8a870a06f25fb8aa214e7433afb5eb8c3",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "citationMarkers": [
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-10-08-rehabilitation-2026-09-28-consecutive-inputs",
+      "recordedAt": {
+        "start": "2026-10-08T05:54:32.185+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-48812281-ec5d-4df2-9b86-dd291bfb5e6a",
+      "note": "공유 원문에서는 상태 리뷰 요청에 이어 진료과 선택 질문이 들어오고 그 뒤 하나의 최종 답변이 있습니다. 두 입력을 합치거나 첫 요청에 대한 별도 답변을 만들어 넣지 않았습니다.",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-list-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [],
+  "privacyReviewed": true
+}

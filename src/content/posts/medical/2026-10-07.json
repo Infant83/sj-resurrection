@@ -1,0 +1,412 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-10-07-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 10월 7일 의학지식 문의 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-10-07",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-10-08T05:54:36.921+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학지식 문의",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 2 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-10-08T05:54:36.921+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-bbe5ac6d-bcb4-4db9-a7aa-9dbf7f98c980",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-07T09:04:13.974891+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:36.921+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "bbe5ac6d-bcb4-4db9-a7aa-9dbf7f98c980",
+      "sourceOrdinal": 52,
+      "turnId": "50c11830-035c-4ae4-b3bb-da799f16bdfc",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "privacy-redacted",
+      "privacyRedactions": [
+        "image"
+      ],
+      "privacyNote": "첨부 사진·검사 원본은 공개하지 않습니다. 메시지의 전체 텍스트만 보존했으며, 당시 GPT의 사진 판독을 이번에 재검증한 것은 아닙니다.",
+      "publicText": "소변샥은 양호해짐 그런데 걔속 음식을 못먹고 뱉어내고 토하네. 가래 올리면서 토하는게 많아 ",
+      "publicTextSha256": "sha256:5cb4ee7de28272d949bc297ec70b79b532947fa2cc10278bdc085f99c3cf31e0",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-470e8182-8173-421a-bd72-64564fee8bd5",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-07T09:04:45.690543+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:36.921+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "470e8182-8173-421a-bd72-64564fee8bd5",
+      "sourceOrdinal": 53,
+      "turnId": "50c11830-035c-4ae4-b3bb-da799f16bdfc",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "소",
+      "textSha256": "sha256:8c57fafb0573bcf5d4c3c3c8fe9cf393c03159f4d399668c98e2647a9c26c956",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-92ac729a-cfc3-4883-b2f2-0d18cfcd5fb4",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-07T09:10:39.785293+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:36.921+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "92ac729a-cfc3-4883-b2f2-0d18cfcd5fb4",
+      "sourceOrdinal": 54,
+      "turnId": "50c11830-035c-4ae4-b3bb-da799f16bdfc",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **이번 사진에서는 소변이 비교적 균일한 황갈색으로 보여, 앞서 보였던 선명한 붉은 기와 짙은 적갈색 부분은 덜 눈에 띕니다.** 다만 지금은 **반복해서 토하고 필요한 음식을 먹지 못하는 문제를 더 우선해서 확인해야 합니다.** 선진이는 기관절개관을 유지하고 있고 삼킴·자세 유지에도 어려움이 있었으므로, **오늘 병동에서 호흡·연하·소화 상태와 수분·영양 공급 계획을 함께 평가받는 것이 좋겠습니다.** 반복 구토는 기도 흡인과 탈수·영양 부족으로 이어질 수 있습니다. citeturn442770search0turn594667search16\n\n**지금 토하는 중이거나 숨이 가빠지고, 산소포화도가 떨어지거나, 평소보다 반응이 뚜렷하게 줄었다면 바로 간호사를 불러주세요.** 음식이나 물을 더 먹여 확인하려 하지는 마세요. citeturn442770search0turn594667search9\n\n## 가래 때문에 토하는 것일 수 있지만, 반대 방향도 확인해야 합니다\n\n### 1. 가래를 배출하려는 기침·헛구역질이 구토를 유발할 수 있습니다\n\n말씀하신 **“가래를 올리면서 토한다”**는 순서라면 가능한 설명입니다. 강한 기침이나 석션 자극 뒤에 구토가 생길 수 있고, 특히 식사 직후에는 먹은 음식까지 토할 수 있습니다. 기관절개 소아환자 안내에서도 식후 석션으로 유발된 과도한 기침이 구토로 이어질 수 있다고 설명합니다. citeturn182569view0\n\n이 경우에는 **가래를 더 힘껏 뱉게 하기보다, 식사 전에 필요한 분비물 관리를 하고 식사와 기도 관리의 순서를 조절하는 것**이 도움이 될 수 있습니다. 다만 식후라도 가래 때문에 호흡이 불편하면 석션을 미루면 안 되며, 필요한 시점과 방법은 간호사가 판단해야 합니다. citeturn182569view0\n\n### 2. 반대로, 삼킨 음식이나 침이 기도로 들어가 기침이 시작될 수도 있습니다\n\n**‘가래 → 기침 → 구토’인지, ‘삼킴 문제·흡인 → 기침 → 구토’인지**를 구분해야 합니다. 먹는 도중이나 삼킨 직후 기침·그르렁거림이 늘어난다면 연하장애를 확인할 이유가 있습니다. 또 기침 없이 흡인되는 경우도 있으므로, **기침이 없거나 산소포화도가 괜찮았던 식사가 있었다고 모든 식사가 안전한 것은 아닙니다.** 기관절개관 자체가 음식이나 토사물의 흡인을 막아주는 것도 아닙니다. citeturn594667search16turn860366view2\n\n따라서 **“가래 때문에 토하는 것이니 삼킴은 괜찮다”라고 넘기지 말고, 재활의학과·연하재활팀이 실제 먹는 과정을 다시 보도록** 요청하는 것이 좋겠습니다. 필요하면 **비디오투시연하검사〔VFSS〕나 내시경적 연하검사〔FEES〕**를 검토할 수 있습니다. 특히 FEES는 침·분비물을 처리하는 모습과 피로에 따른 삼킴 변화도 평가하는 데 도움이 됩니다. citeturn860366view2turn182569view1\n\n### 3. ‘씹다가 뱉는 것’과 ‘삼킨 뒤 토하는 것’은 따로 봐야 합니다\n\n**씹다가 뱉는 행동**에는 음식물을 입안에서 모으고 뒤로 넘기기 어려운 문제, 질감에 대한 불편감, 피로, 음식 거부 등이 관여할 수 있습니다. 단순히 입맛이 없거나 먹기 싫어서라고 단정하기 어렵습니다. citeturn594667search16\n\n반면 **삼킨 뒤 시간이 지나 음식물을 토하는 경우**에는 역류나 위에서 음식이 잘 내려가지 않는 문제도 살펴야 합니다. 식후 오래 배가 부르거나 더부룩하고 구토가 반복되는 것은 위배출 지연에서 나타날 수 있지만, 증상만으로 진단할 수는 없습니다. citeturn860366view3\n\n선진이는 복부 수술 이력도 있으므로 의료진이 **복부팽만·통증, 대변과 방귀가 나오는지, 현재 약과 감염 상태**까지 함께 확인해야 합니다. 특히 **짙은 초록색 구토, 심한 복부팽만·통증, 피나 커피 찌꺼기 같은 구토, 새롭게 심해지는 졸림·두통을 의심할 행동**은 즉시 알려야 합니다. citeturn594667search9turn860366view3\n\n## 지금은 ‘더 먹이기’보다 안전하게 먹을 조건을 다시 정해야 합니다\n\n**우선, 구토·심한 기침·헛구역질이 있는 동안에는 경구 섭취를 멈추고 간호사의 평가를 받으세요.** 물로 넘기게 하거나, 다른 음식을 계속 바꿔가며 먹이려 하지 않는 편이 안전합니다. 토할 때는 간호사 도움으로 관이 당겨지지 않게 몸과 얼굴을 옆으로 돌려 토사물이 밖으로 나오도록 하고, 필요한 기도 처치를 받게 해주세요. citeturn860366search10\n\n**가래 관리는 식사와 따로 계획해 달라고 요청하세요.** 가래의 양·끈기, 기침으로 충분히 배출하는지, 기관절개관의 가습 상태와 석션 필요성을 확인해야 합니다. 기관절개관은 코와 입을 통한 가습 과정을 우회하므로 적절한 가습이 분비물 관리에 중요합니다. 가래를 묽게 하려고 물을 입으로 더 먹이거나, 보호자가 석션을 더 깊고 강하게 하는 방식은 피하세요. citeturn860366view0\n\n**현재 콧줄이 남아 있다면**, 구토 중 주입을 계속할지 즉시 간호사에게 확인하고, 다시 사용하기 전에 관 위치를 확인받아야 합니다. 입으로 못 먹었다고 같은 양을 곧바로 콧줄로 보충하는 것이 항상 해결책은 아닙니다. 의료진과 영양사가 관 위치, 주입량·속도·횟수와 소화 상태를 함께 검토해야 합니다. citeturn860366view1\n\n## 영양을 유지할 대안도 오늘 같이 마련해야 합니다\n\n**경구 식사를 잠시 쉬는 것과 영양 공급 자체를 중단하고 기다리는 것은 다릅니다.** 먹는 양이 적고 먹은 것까지 토한다면, 실제로 유지되는 수분·열량이 얼마나 되는지 계산하고 필요에 따라 경관영양 보완이나 수액 등 대안을 정해야 합니다. 먹을 수 있을 때까지 반복해서 시도하는 방식만으로는 부족합니다. citeturn594667search16turn594667search9\n\n병동에는 이렇게 말씀하시면 됩니다.\n\n> “소변색은 좋아졌지만, 음식은 계속 씹다 뱉거나 먹은 뒤 토합니다. 특히 가래를 올리고 기침할 때 구토가 많습니다. 기침 자극 때문인지, 삼킴 중 흡인 때문에 기침하는 건지 확인해 주세요. 식사 전 분비물 관리와 연하 재평가가 필요할지, 위장 문제는 없는지 봐주시고, 오늘 필요한 수분과 영양을 어떻게 공급할지도 정해 주세요.”\n\n**지금 모습만으로 신경학적 회복이 후퇴했다고 단정할 수는 없습니다. 하지만 ‘가래가 있으니 흔히 그럴 수 있다’며 기다릴 단계로 보기도 어렵습니다. 반복 구토를 줄이는 원인 치료와 안전한 영양 공급을 함께 잡는 것이 우선입니다.**\n\n**현재 콧줄은 제거하고 입으로만 먹는 상태인가요, 아니면 콧줄 영양도 함께 받고 있나요?**",
+      "textSha256": "sha256:ed636e617d037a8af38f93cf1f25a831240ce29fcb622c84b2323ea29470a9bd",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Aspiration: Causes, Symptoms, Treatment & Prevention",
+          "url": "https://my.clevelandclinic.org/health/diseases/aspiration",
+          "attribution": "Cleveland Clinic"
+        },
+        {
+          "title": "Caring for your Child with a Tracheotomy - University of Mississippi Medical Center",
+          "url": "https://umc.edu/Healthcare/ENT/Patient-Handouts/Pediatrics/Trach/Tracheotomy_care.html",
+          "attribution": "University of Mississippi Medical Center"
+        },
+        {
+          "title": "Pediatric Feeding and Swallowing",
+          "url": "https://www.asha.org/practice-portal/clinical-topics/pediatric-feeding-and-swallowing/",
+          "attribution": "ASHA"
+        },
+        {
+          "title": "Tracheostomy and Ventilator Dependence",
+          "url": "https://www.asha.org/practice-portal/professional-issues/tracheostomy-and-ventilator-dependence/",
+          "attribution": "ASHA"
+        },
+        {
+          "title": "Symptoms & Causes of Gastroparesis - NIDDK",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/symptoms-causes",
+          "attribution": "NIDDK"
+        },
+        {
+          "title": "Clinical Practice Guidelines : Vomiting",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/",
+          "attribution": "Royal Children's Hospital"
+        },
+        {
+          "title": "Tracheostomy Manual (pdf)",
+          "url": "https://assets.childrens.com/m/668a9a13a5ff2715/original/Tracheostomy-Manual.pdf",
+          "attribution": "Children's Health"
+        },
+        {
+          "title": "Nursing guidelines : Tracheostomy management",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Tracheostomy_Management_Guidelines/",
+          "attribution": "Royal Children's Hospital"
+        },
+        {
+          "title": "Nursing guidelines : Enteral feeding and medication administration",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Enteral_feeding_and_medication_administration/",
+          "attribution": "Royal Children's Hospital"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn442770search0turn594667search16",
+          "urls": [
+            "https://my.clevelandclinic.org/health/diseases/aspiration"
+          ]
+        },
+        {
+          "marker": "citeturn442770search0turn594667search9",
+          "urls": [
+            "https://my.clevelandclinic.org/health/diseases/aspiration"
+          ]
+        },
+        {
+          "marker": "citeturn182569view0",
+          "urls": [
+            "https://umc.edu/Healthcare/ENT/Patient-Handouts/Pediatrics/Trach/Tracheotomy_care.html"
+          ]
+        },
+        {
+          "marker": "citeturn594667search16turn860366view2",
+          "urls": [
+            "https://www.asha.org/practice-portal/clinical-topics/pediatric-feeding-and-swallowing/"
+          ]
+        },
+        {
+          "marker": "citeturn860366view2turn182569view1",
+          "urls": [
+            "https://www.asha.org/practice-portal/professional-issues/tracheostomy-and-ventilator-dependence/"
+          ]
+        },
+        {
+          "marker": "citeturn594667search16",
+          "urls": [
+            "https://www.asha.org/practice-portal/clinical-topics/pediatric-feeding-and-swallowing/"
+          ]
+        },
+        {
+          "marker": "citeturn860366view3",
+          "urls": [
+            "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/symptoms-causes"
+          ]
+        },
+        {
+          "marker": "citeturn594667search9turn860366view3",
+          "urls": [
+            "https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/"
+          ]
+        },
+        {
+          "marker": "citeturn860366search10",
+          "urls": [
+            "https://assets.childrens.com/m/668a9a13a5ff2715/original/Tracheostomy-Manual.pdf"
+          ]
+        },
+        {
+          "marker": "citeturn860366view0",
+          "urls": [
+            "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Tracheostomy_Management_Guidelines/"
+          ]
+        },
+        {
+          "marker": "citeturn860366view1",
+          "urls": [
+            "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Enteral_feeding_and_medication_administration/"
+          ]
+        },
+        {
+          "marker": "citeturn594667search16turn594667search9",
+          "urls": [
+            "https://www.asha.org/practice-portal/clinical-topics/pediatric-feeding-and-swallowing/"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-0984001f-8136-4c69-bbed-44b90b63fe08",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-07T09:46:45.484509+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:36.921+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "0984001f-8136-4c69-bbed-44b90b63fe08",
+      "sourceOrdinal": 55,
+      "turnId": "e16dedda-0466-4b16-8129-43341620831b",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "original": "입으로만",
+      "originalSha256": "sha256:157c36e75fd610d361dc8f4b62a1cb79b9c6bc3ac0d028afd36884c9bc04a3b2",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-70f241cb-b600-4184-9080-b61d0da32236",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-07T09:52:49.537566+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:36.921+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "70f241cb-b600-4184-9080-b61d0da32236",
+      "sourceOrdinal": 56,
+      "turnId": "e16dedda-0466-4b16-8129-43341620831b",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **콧줄 보충 없이 입으로만 먹고 있는데 계속 뱉거나 토한다면, 지금은 ‘경구식만으로 필요한 수분과 영양을 유지할 수 있는지’를 다시 평가해야 합니다.** 소변색이 좋아진 것과는 별개로, **다음 회진까지 기다리기보다는 지금 간호사에게 반복 구토와 섭취 부족을 함께 알려주세요.** 삼킴의 안전성과 충분한 섭취량은 각각 확인해야 하는 문제입니다. citeturn303232view0\n\n**구토·심한 기침·헛구역질이 이어지는 동안에는 해당 식사를 중단하고, 물이나 주스로 넘기게 하려 하지 마세요.** 다음 섭취는 병동에서 상태를 확인하고 재개 방법을 정하도록 요청하세요. 이는 계속 굶기자는 뜻이 아니라, **위험한 식사 시도는 멈추면서 수분·영양을 공급할 대안을 바로 마련하자는 뜻**입니다. citeturn707181view1\n\n숨쉬기 힘들어지거나 산소포화도가 떨어지고, 평소보다 반응이 뚜렷하게 줄면 즉시 간호사를 불러야 합니다. 짙은 초록색이나 피가 섞인 구토, 심한 복부팽만·통증도 바로 확인할 증상입니다. citeturn876612view2turn303232view1\n\n## 1. 지금은 일시적인 콧줄 보충도 검토할 상황입니다\n\n**반드시 다시 넣어야 한다는 뜻은 아닙니다.** 다만 입으로 안전하게 먹기 어렵거나, 먹더라도 필요한 양을 채우지 못한다면 의료진이 **일시적인 비위관〔콧줄〕 영양**을 고려할 수 있습니다. 일부 음식은 안전하게 먹을 수 있다면 경구 섭취와 관을 통한 보충을 병행하는 계획도 가능합니다. citeturn876612view0turn876612view3\n\n**콧줄을 잠시 다시 사용하는 것이 회복 실패나 영구적인 경구 식사 중단을 의미하지는 않습니다.** 영양을 확보하면서 연하재활을 이어가고, 안전하게 충분히 먹을 수 있게 되면 다시 줄이는 방향으로 계획할 수 있습니다. citeturn707181view1\n\n다만 **콧줄로 바꾼다고 구토와 흡인 위험이 모두 없어지는 것은 아닙니다.** 위에서 음식이 잘 내려가지 않거나 역류·구토가 계속된다면 관으로 넣은 영양도 문제가 될 수 있으므로, 원인에 따라 주입량·속도·방법을 조정해야 합니다. citeturn876612view3turn876612view0\n\n## 2. 오늘 확인할 것은 ‘삼킴 안전성’과 ‘수분·영양 부족’입니다\n\n**삼킴 쪽에서는**, 재활의학과·연하재활팀이 실제 식사 상황을 다시 봐야 합니다. 특히 **음식을 삼킨 직후 기침이 시작되는지, 가래를 배출하다가 구토하는지, 입안에서 넘기지 못하고 뱉는지**를 구분해야 합니다. 필요하고 검사에 참여할 수 있는 상태라면 VFSS〔비디오투시연하검사〕나 FEES〔내시경적 연하검사〕를 검토합니다. 예전에 식사가 허용됐더라도 현재 증상이 달라졌다면 재평가할 이유가 있습니다. citeturn920806view2\n\n**수분·영양 쪽에서는**, 오늘 실제로 삼킨 음식·음료의 양, 구토 횟수와 대략적인 양, 소변량과 체중 변화를 확인해야 합니다. 구토와 섭취 감소가 겹치면 탈수 위험이 있어, 상태에 따라 혈당·전해질 검사와 수액이 필요할 수 있습니다. **10월 5일 혈액검사가 비교적 괜찮았더라도 이후 구토가 계속된 상태까지 보장하는 것은 아닙니다.** citeturn876612view1\n\n수액이 필요하더라도 **일반적인 수분·전해질 보충 수액과 충분한 영양 공급은 별개**입니다. 경구 섭취 부족이 이어진다면 주치의와 영양사가 열량·단백질까지 공급할 계획을 함께 정해야 합니다. citeturn920806view0\n\n## 3. 병동에는 이렇게 요청하세요\n\n> “선진이는 현재 콧줄 없이 입으로만 먹습니다. 그런데 계속 뱉거나 토하고, 가래를 올리며 기침할 때 구토가 많아서 필요한 양을 못 먹는 것 같습니다. 지금 경구식을 계속해도 안전한지 확인해 주세요. 연하 재평가와 구토 원인 확인을 하고, 오늘 수분·영양을 어떻게 보충할지—필요하면 일시적인 콧줄 보충까지—계획을 잡아주세요.”\n\n의료진에게 보여줄 기록은 **‘무엇을 얼마나 먹었는지 → 삼킨 직후인지, 기침·석션 뒤인지 → 얼마나 토했는지’** 정도면 충분합니다. 기록을 위해 일부러 다시 먹여 시험할 필요는 없습니다.\n\n**지금 목표는 ‘콧줄 없이 먹는 상태를 무조건 유지하기’가 아니라, 선진이가 안전하게 먹고 필요한 영양을 확보하도록 돕는 것입니다.** 이미 먹은 것을 기준으로, **오늘 물이나 음료는 어느 정도 유지되고 있나요, 아니면 그것도 대부분 토하나요?**\n\n---\n\nIf you want, I can:\n\n- 계속 혈뇨 원인 2차 평가 설명 요청\n- 혈뇨 관련 소변 현미경 검사 결과 해석 요청\n- 혈뇨와 관련된 약물 영향 구체적 설명 요청",
+      "textSha256": "sha256:7f72cae9475c6c6055fd4b0b7ffe9c3049d8e2c0d0a457b465e8d5f068311d49",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Pediatric Feeding and Swallowing",
+          "url": "https://www.asha.org/practice-portal/clinical-topics/pediatric-feeding-and-swallowing/",
+          "attribution": "ASHA"
+        },
+        {
+          "title": "Nursing guidelines : Tracheostomy management",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Tracheostomy_management/",
+          "attribution": "Royal Children's Hospital"
+        },
+        {
+          "title": "Nursing guidelines : Enteral feeding and medication administration",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Enteral_feeding_and_medication_administration/",
+          "attribution": "Royal Children's Hospital"
+        },
+        {
+          "title": "Alternative Nutrition and Hydration in Dysphagia Care",
+          "url": "https://www.asha.org/practice-portal/clinical-topics/adult-dysphagia/alternative-nutrition-and-hydration-in-dysphagia-care/",
+          "attribution": "ASHA"
+        },
+        {
+          "title": "Clinical Practice Guidelines : Dehydration",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Dehydration/",
+          "attribution": "Royal Children's Hospital"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn303232view0",
+          "urls": [
+            "https://www.asha.org/practice-portal/clinical-topics/pediatric-feeding-and-swallowing/"
+          ]
+        },
+        {
+          "marker": "citeturn707181view1",
+          "urls": [
+            "https://www.asha.org/practice-portal/clinical-topics/pediatric-feeding-and-swallowing/"
+          ]
+        },
+        {
+          "marker": "citeturn876612view2turn303232view1",
+          "urls": [
+            "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Tracheostomy_management/"
+          ]
+        },
+        {
+          "marker": "citeturn876612view0turn876612view3",
+          "urls": [
+            "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Enteral_feeding_and_medication_administration/"
+          ]
+        },
+        {
+          "marker": "citeturn876612view3turn876612view0",
+          "urls": [
+            "https://www.asha.org/practice-portal/clinical-topics/adult-dysphagia/alternative-nutrition-and-hydration-in-dysphagia-care/"
+          ]
+        },
+        {
+          "marker": "citeturn920806view2",
+          "urls": [
+            "https://www.asha.org/practice-portal/clinical-topics/pediatric-feeding-and-swallowing/"
+          ]
+        },
+        {
+          "marker": "citeturn876612view1",
+          "urls": [
+            "https://www.rch.org.au/clinicalguide/guideline_index/Dehydration/"
+          ]
+        },
+        {
+          "marker": "citeturn920806view0",
+          "urls": [
+            "https://www.asha.org/practice-portal/clinical-topics/adult-dysphagia/alternative-nutrition-and-hydration-in-dysphagia-care/"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-10-08-medical-2026-10-07-historical-scope",
+      "recordedAt": {
+        "start": "2026-10-08T05:54:36.921+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-bbe5ac6d-bcb4-4db9-a7aa-9dbf7f98c980",
+      "note": "이 게시물은 대화가 이루어진 당시의 질문과 답변을 보존한 이력입니다. 투약·식이·관 사용 상태와 검사 해석을 현재 처방이나 확정 진단으로 사용하지 않습니다. 이후 보호자의 추가 설명·정정이 있으면 함께 읽어야 합니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    },
+    {
+      "id": "review-2026-10-08-medical-2026-10-07-short-commentary",
+      "recordedAt": {
+        "start": "2026-10-08T05:54:36.921+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-470e8182-8173-421a-bd72-64564fee8bd5",
+      "note": "공유 원문에서 이 중간 답변의 본문은 ‘소’ 한 글자입니다. 임의로 완성하거나 다음 답변과 합치지 않았으며, 이어지는 실제 최종 답변과 ‘입으로만’이라는 후속 확인을 모두 보존했습니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [
+    "trauma/2026-10-07"
+  ],
+  "privacyReviewed": true
+}

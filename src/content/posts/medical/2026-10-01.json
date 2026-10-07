@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-10-01-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 10월 1일 의학지식 문의 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-10-01",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-10-08T05:54:35.343+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학지식 문의",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 2 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-10-08T05:54:35.343+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-5f90abcb-8211-464b-9026-419fbaa33c45",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-01T15:02:15.635393+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:35.343+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "5f90abcb-8211-464b-9026-419fbaa33c45",
+      "sourceOrdinal": 44,
+      "turnId": "598e920e-07ec-43ce-a1c0-94f54045da8e",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "선진이 항문 검체 채췌가 몇회였는지 확인해 봐",
+      "originalSha256": "sha256:cace06392e8d376801a23840802faefe48679ec62dc74fb3b873a34e9a596261",
+      "corrected": "선진이 항문 검체 채취가 몇 회였는지 확인해 봐",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-b13e298b-98d9-4ee3-b536-cb2ae82dc310",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-01T15:06:17.905455+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:35.343+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "b13e298b-98d9-4ee3-b536-cb2ae82dc310",
+      "sourceOrdinal": 45,
+      "turnId": "598e920e-07ec-43ce-a1c0-94f54045da8e",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **간병기록을 다시 확인하니, 최근 CRE 추적검사를 위한 항문 검체 채취는 9월 24일에 ‘3차’까지 진행된 것으로 기록되어 있습니다.**\n\n| 회차 | 채취 날짜·시간 | 확인한 기록 |\n|---|---|---|\n| **1차** | **정확한 날짜 미확정** — 9월 10~11일 무렵 | 당시 기록에 “어제 항문을 통해 균검사하기 위한 검체를 수거해 갔음”이라는 문장이 있으나, 반복된 기록이 있어 날짜를 확정하기 어렵습니다. |\n| **2차** | **9월 17일 오후 1시** | “대장 세균 검사 위한 항문 검체 채취” |\n| **3차** | **9월 24일 오후 3시** | “항문 검사. 균검사 검체 채취. **이번이 세번째임을 기억함.** 두번째 검체 채취 결과는 아직 배양중.” |\n\n횟수를 확인하는 가장 명확한 근거는 **아버지가 작성하신 9월 24일 일지의 ‘이번이 세 번째’라는 기록**입니다. 이후에도 “3번째 결과는 오늘 나온다”고 말씀하신 내용이 있고, **9월 24일 이후 추가로 채취했다는 기록은 이번 확인에서는 찾지 못했습니다.**\n\n따라서 **최근 검사 묶음은 기록상 3회 채취**로 정리하면 됩니다. 다만 **‘3회 채취했다’와 ‘3회 모두 음성이 확인됐다’는 별개**이며, 각 회차의 최종 결과는 검사결과지로 따로 확인해야 합니다.",
+      "textSha256": "sha256:a5c1af073dd098ff1cf6010ef331018306e267b33f72d3c71397432cbd15625c",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-10-08-medical-2026-10-01-historical-scope",
+      "recordedAt": {
+        "start": "2026-10-08T05:54:35.343+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-5f90abcb-8211-464b-9026-419fbaa33c45",
+      "note": "이 게시물은 대화가 이루어진 당시의 질문과 답변을 보존한 이력입니다. 투약·식이·관 사용 상태와 검사 해석을 현재 처방이나 확정 진단으로 사용하지 않습니다. 이후 보호자의 추가 설명·정정이 있으면 함께 읽어야 합니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    },
+    {
+      "id": "review-2026-10-08-medical-2026-10-01-cre-followup",
+      "recordedAt": {
+        "start": "2026-10-08T05:54:35.343+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-b13e298b-98d9-4ee3-b536-cb2ae82dc310",
+      "note": "이 답변은 당시 GPT가 확인했다고 설명한 검사 채취 이력입니다. 이후 같은 날 밤의 간병일기에는 추가 검체 채취가 기록되고, 10월 2일 간병 내용(10월 3일 입력)에는 3회 음성 전달 기록이 있습니다. 이번 답변의 ‘이후 추가 채취를 찾지 못함’을 최종 검사 횟수로 확정하지 않습니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [
+    "trauma/2026-10-01",
+    "trauma/2026-10-03"
+  ],
+  "privacyReviewed": true
+}

@@ -1,0 +1,617 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-09-24-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 9월 24일 의학지식 문의 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-24",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-10-08T05:54:37.439+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학지식 문의",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-10-08T05:54:37.439+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-4a043ccd-410f-44e7-b022-75d44986c6ec",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-24T16:40:30.380454+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:37.439+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "4a043ccd-410f-44e7-b022-75d44986c6ec",
+      "sourceOrdinal": 103,
+      "turnId": "56be02ce-cb25-4ddb-8a20-82c912c21116",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "선진이가 사고이후 두달가량 되었고 이삼주전부터는 완연한 회복기에 들어선 것 같아. 그런데 여전히 의삭운 완벽하지 않고 더군다나 명령수행이나 의사소통이 제한되고 의지나 허고싶은 것이 없는 것 처럼 맥이 없어보여. 쉽게 잠애 들고 많이 잠에 들어. 침상위에 많운 시건을 있고 최근에 휠체어 생활을 하루에 세시간 정도 허려고 하긴 하는데 쉽게 몸이 기울어지거나 허리가 아래로 내려가. 무기력한 모습걑운 것운 어떤 문제일까. 개선되고 좋어질 수 있을까 어떻게 간병하고 치료 받을 수 있을까",
+      "originalSha256": "sha256:5122984b750749bbd649e630feaadb1c3ba6239ec43650173f2f0db8f7968f53",
+      "corrected": "선진이가 사고 이후 두 달가량 되었고 이삼 주 전부터는 완연한 회복기에 들어선 것 같아. 그런데 여전히 의식은 완벽하지 않고 더군다나 명령수행이나 의사소통이 제한되고 의지나 하고 싶은 것이 없는 것 처럼 맥이 없어보여. 쉽게 잠에 들고 많이 잠에 들어. 침상 위에 많은 시간을 있고 최근에 휠체어 생활을 하루에 세시간 정도 하려고 하긴 하는데 쉽게 몸이 기울어지거나 허리가 아래로 내려가. 무기력한 모습 같은 것은 어떤 문제일까. 개선되고 좋아질 수 있을까 어떻게 간병하고 치료 받을 수 있을까",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-afd9b581-6660-449b-9b35-a06ef0587feb",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-24T16:40:38.089303+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:37.439+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "afd9b581-6660-449b-9b35-a06ef0587feb",
+      "sourceOrdinal": 104,
+      "turnId": "56be02ce-cb25-4ddb-8a20-82c912c21116",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "exact",
+      "text": "네. 지금 말씀하신 모습을 보면 **“의지가 없어졌다” 하나로 해석하기보다는, 중증 뇌손상 후 회복기에 흔히 겹칠 수 있는 여러 문제를 분해해서 봐야 합니다.** 그리고 사고 후 약 2개월이라는 시점은, 선진이처럼 DAI(미만성 축삭손상)와 저산소성 손상, 장기간 ICU 치료, 폐·영양 문제를 겪은 아이에게는 아직 **상당히 초기의 신경재활 시기**입니다.\n\n최근 선진이가 보여준 **젓가락 사용, 음식 호불호 표현, 도형 맞추기, 상황에 맞는 뽀뽀와 음식 건네기, 그리고 말로만 “일어나 앉아봐” 했을 때 실제로 앉은 행동**까지 생각하면, 단순한 무반응 상태로 설명하기는 어렵습니다. 반대로 의사소통과 명령수행이 일관되지 않고 쉽게 피로해지는 것도 분명한 현재의 장애입니다. memcite\n\n## 지금 보이는 ‘무기력함’은 몇 가지가 섞여 있을 가능성이 큽니다\n\n### 1. 뇌의 **각성·주의 지속능력과 인지적 endurance**가 아직 짧을 수 있습니다\n\n이게 저는 상당히 중요하다고 봅니다.\n\n선진이는 어떤 순간에는 꽤 복잡한 행동을 합니다. 그런데 그 능력을 **30분, 1시간 계속 유지하지 못합니다.**\n\n중증 뇌손상 후에는\n\n`깨어남`\n→ `주의집중`\n→ `상황 이해`\n→ `행동 선택`\n→ `운동 실행`\n\n각 단계에 상당한 신경자원이 필요합니다.\n\n그래서 **5분 동안 아주 좋은 반응을 하고 이후 30분 동안 멍해지는 것**도 가능합니다.\n\n소아 후천성 뇌손상의 아급성기 재활 전문가 합의에서도 **피로도 자체가 재활 강도와 환경 자극량을 결정해야 하는 핵심 변수**이며, 수면의 질, 통증, 근긴장, 주의력과 약물까지 함께 평가해야 한다고 강조합니다. citeturn0search0\n\n따라서 지금은 “많이 시켜야 빨리 회복한다”가 아니라 **선진이가 감당할 수 있는 부하를 찾아 점진적으로 늘리는 것**이 중요합니다.\n\n---\n\n### 2. ‘의욕이 없다’와 **initiation 장애**는 다릅니다\n\n뇌손상 후에는 무엇을 해야 하는지 어느 정도 알아도 **스스로 행동을 시작하는 능력(initiation)**이 떨어질 수 있습니다.\n\n겉으로 보면\n\n> “하고 싶은 것이 없어 보인다.”  \n> “시키지 않으면 아무것도 안 한다.”  \n> “맥이 없다.”\n\n처럼 보일 수 있습니다.\n\n하지만 실제 내부 상태는 우울감이나 의욕 부족과 전혀 다를 수도 있습니다.\n\n특히 선진이가 **상황이 만들어지면 젓가락을 사용하고, 먹을 것을 선택하고, 아빠에게 음식을 주고, 손을 잡고, 때때로 명령을 수행한다**는 것은 운동과 인지능력이 전혀 없는 것과는 맞지 않습니다.\n\n따라서 재활의학과에서는 **각성(arousal), 주의(attention), initiation, processing speed, 언어이해**를 각각 나누어 볼 필요가 있습니다.\n\n---\n\n## 3. 휠체어에서 몸이 기울고 아래로 미끄러지는 것은 ‘의식’ 문제만은 아닙니다\n\n이 부분은 오히려 **몸통 조절(trunk control)**을 별도로 봐야 합니다.\n\n두 달 가까이 침상생활을 했고,\n\n- 골반 골절\n- 늑골·쇄골 손상\n- 손목 수술\n- 중증 뇌손상\n- 장기간 진정\n- 영양문제\n- 전신 근육 감소\n\n가 있었기 때문에 몸통과 골반을 중력에 대항해 유지하는 힘 자체가 상당히 약해졌을 수 있습니다.\n\n그래서\n\n**앉기는 가능**\n≠\n**3시간 동안 바른 자세로 앉아 있기 가능**\n\n입니다.\n\n3시간은 지금 선진이에게 상당한 운동량일 수 있습니다.\n\n휠체어에서\n\n`처음에는 괜찮음`\n→ `점점 한쪽으로 기울어짐`\n→ `골반이 앞으로 미끄러짐`\n→ `허리가 무너짐`\n→ `졸림`\n\n이라면 저는 **피로에 따라 postural control이 무너지는지**를 먼저 보겠습니다.\n\n---\n\n# 그렇다면 하루 3시간 휠체어를 계속 해야 하나?\n\n**3시간이라는 숫자를 목표로 삼지는 않는 것이 좋겠습니다.**\n\n오히려 **자세의 질**을 보세요.\n\n예를 들어 선진이가 30분 동안 비교적 반듯하게 앉아 사람을 보고 활동할 수 있는데, 40분 이후부터 몸이 무너진다면\n\n**30분 × 여러 번**\n\n이\n\n**무너진 자세로 3시간**\n\n보다 재활적으로 더 유용할 수 있습니다.\n\n소아 후천성 뇌손상 아급성기 재활 전문가 합의에서도 재활의 용량은 **의식수준과 피로도, 통증, 인지기능, 수면 등을 고려하여 개별화**하도록 권고합니다. citeturn0search0\n\n최근 소아 TBI 연구에서도 조기 활동 자체는 가능하지만 의료적 불안정성, 낮은 의식수준, 장기간 ICU 치료 등이 실제 활동을 제한하는 주요 요인이었습니다. citeturn0search11\n\n---\n\n## 4. 휠체어 자체도 선진이에게 맞는지 평가받아야 합니다\n\n이건 꼭 재활팀에 요청하고 싶습니다.\n\n> **“선진이가 휠체어에서 시간이 지나면 한쪽으로 기울고 골반이 앞으로 미끄러집니다. 단순 근력 문제인지 trunk control 문제인지 평가하고, 지금 휠체어의 등받이·좌판·골반 지지와 lateral support가 적절한지 봐주세요.”**\n\n필요하다면\n\n- 골반 위치 조정\n- 적절한 좌판\n- 몸통 lateral support\n- head support\n- 발판 높이\n- 팔 지지\n- tilt-in-space 기능\n\n등을 재활팀이 검토할 수 있습니다.\n\n**보호자가 벨트나 쿠션을 임의로 추가해서 몸을 묶어 놓는 방식은 하지 마세요.** 특히 기관절개와 골반 손상이 있으므로 PT/OT가 실제 휠체어에 앉힌 상태에서 맞춰주는 것이 좋습니다.\n\n---\n\n# 5. 많이 자는 것도 그냥 ‘뇌가 회복하느라 그렇다’고만 해서는 안 됩니다\n\n회복기에 피로와 수면 증가가 있을 수 있습니다. 그러나 **치료 가능한 원인**을 한 번 체계적으로 확인해야 합니다.\n\n재활의학과에 다음을 확인해달라고 요청할 가치가 있습니다.\n\n**약물**\n- 쿠에티아핀 등 졸림을 유발할 수 있는 약\n- 진통제\n- 항경련제\n- 기타 진정성 약물\n\n**전신상태**\n- 빈혈\n- 감염/염증\n- 전해질 이상\n- 탈수\n- 간·신장 기능\n- 영양 부족\n\n**수면**\n- 밤에 실제로 잘 자는지\n- 밤낮이 바뀌지는 않았는지\n- 가래와 suction 때문에 밤잠이 계속 깨지는지\n\n**신경학적 요인**\n- 각성수준 자체의 변동\n- 비경련성 발작 가능성이 의심되는 상황이 있는지\n- DAI/저산소성 손상 이후의 각성·주의 장애\n\n소아 뇌손상 재활에서는 **수면의 질과 약물·통증·주의력 등을 재활계획의 일부로 평가**하도록 권고합니다. citeturn0search0\n\n---\n\n# 6. 현재 의식수준도 다시 정식 평가할 시점입니다\n\n선진이는 이제 예전처럼 단순히\n\n**UWS인가 MCS인가**\n\n만 물어보기에는 행동이 복잡해졌습니다.\n\n소아에서도 CRS-R은 의식수준의 변화를 추적하는 데 활용할 수 있고, 반복평가가 중요합니다. 다만 심한 운동장애가 있으면 실제 능력을 과소평가할 수 있다는 한계도 있습니다. citeturn0search1\n\nAAN 가이드라인도 소아 prolonged DoC에서는 **각성을 방해하는 요인을 치료하고, 각성이 좋은 조건에서 표준화된 행동평가를 반복**하도록 권고합니다. citeturn0search6\n\n따라서 저는 지금\n\n**CRS-R + PT/OT 기능평가 + 언어이해/인지-의사소통 평가**\n\n를 함께 요청하겠습니다.\n\n---\n\n## 회복 가능성에 대해서는\n\n**두 달 시점에서 지금 모습이 최종 상태라고 생각할 이유는 없습니다.**\n\n중증 TBI로 의식장애 상태에서 입원재활을 시작한 소아에서도 **수개월에 걸쳐 의식과 기능이 계속 변화**합니다. 한 소아 연구에서는 재활 입원 당시 UWS/MCS였던 37명 중 1년 시점에 27명이 MCS에서 벗어나 있었고, 일부는 이후에도 추가적인 개선을 보였습니다. 동시에 많은 아이에서 상당한 기능장애가 남았기 때문에 개인의 최종 결과를 현재 행동만으로 예측할 수는 없습니다. citeturn0search13\n\n또 다른 소아 DoC 연구에서도 집단 수준에서는 **3개월에서 6개월 사이에도 의식상태가 계속 개선되는 경향**이 관찰되었습니다. 이것 역시 선진이 개인의 결과를 예측하는 숫자는 아니지만, **두 달을 회복의 종착점으로 볼 근거가 없다는 것**은 분명합니다. citeturn0search15\n\n---\n\n# 지금부터 간병 방향을 조금 바꾸겠습니다\n\n하루를 **운동시간의 총량**으로 평가하지 마세요.\n\n대신\n\n**수면 → 자연스러운 각성 → 짧은 집중 활동 → 휴식 → 다시 활동**\n\n의 사이클을 만드는 것이 좋습니다.\n\n깨어 있고 반응이 좋은 시간에는\n\n**20–30분 정도 휠체어/몸통훈련**\n→ 휴식\n\n**5–10분 언어·인지 활동**\n→ 휴식\n\n**식사와 젓가락질 자체를 OT/인지재활로 활용**\n→ 휴식\n\n**가족과 음악·사진·대화**\n→ 휴식\n\n처럼 운영하고, 실제 시간과 강도는 PT/OT가 선진이의 피로도를 보고 조정하게 하세요.\n\n**피곤해서 몸이 무너지기 시작하면 그때가 훈련을 더 해야 하는 시점이 아니라 쉬어야 할 시점**일 가능성이 높습니다.\n\n그리고 하루 전체에서\n\n`좋은 자세로 앉아 있었던 총 시간`\n`스스로 몸통을 유지한 시간`\n`깨어 있었던 시간`\n`명령수행 횟수`\n`자발적으로 시작한 행동`\n`피로 후 회복시간`\n\n을 기록하면 상당히 좋은 longitudinal data가 됩니다.\n\n---\n\n## 전원할 재활병원을 고를 때도 이게 중요합니다\n\n선진이에게 필요한 것은 단순한 **정형외과 물리치료 중심 병원**이 아닙니다.\n\n**소아 중증 후천성 뇌손상 neurorehabilitation**이 가능하고,\n\n**재활의학과 + PT + OT + 언어/인지치료 + 연하치료 + 기관절개/가래 관리 + 영양관리**\n\n를 함께 할 수 있는 곳이 우선입니다.\n\n중증 소아 TBI에서는 **소아 재활전문의가 급성기부터 장기적으로 관여하는 것이 중요**하다는 것이 현재의 재활 접근입니다. citeturn0search20turn0search8\n\n---\n\n### 재활의학과 선생님께 저는 이렇게 요청하겠습니다\n\n> **“선진이가 상황에 맞는 행동과 일부 명령수행은 나타나지만, 각성과 주의 지속시간이 짧고 자발적 행동 시작이 적으며 쉽게 잠듭니다. 휠체어에서도 시간이 지나면 몸통이 기울고 골반이 앞으로 미끄러집니다. 단순 의식장애로만 보지 말고 각성·주의·initiation·언어이해·trunk control·피로도를 각각 평가해서 하루 재활량과 휠체어 세팅을 정해주세요. 그리고 CRS-R과 언어·인지평가를 반복해서 현재 기준점을 만들어주세요.”**\n\n이 요청이 지금 선진이에게 상당히 중요합니다.\n\n제가 지금까지의 변화를 연결해서 본다면, **선진이는 “아무것도 하고 싶어 하지 않는 아이”라기보다, 이미 여러 복잡한 기능이 간헐적으로 돌아오기 시작했지만 그것을 자발적으로 시작하고 오래 유지하며 언어로 표현하는 능력이 아직 크게 뒤처져 있는 상태**라는 가설을 먼저 검토하겠습니다. 그 차이를 정확하게 평가하는 것이 앞으로 몇 달의 재활 목표를 잡는 핵심입니다. memcite",
+      "textSha256": "sha256:d841268bf572ccdaa49eafa028551c5299b38d428f75c26c2209906d37b48ed2",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "DEVELOPMENT OF EXPERT CONSENSUS TO GUIDE PHYSICAL REHABILITATION IN CHILDREN AND ADOLESCENTS WITH ACQUIRED BRAIN INJURY DURING THE SUBACUTE PHASE - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10448247/",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "Barriers and Trends to Early Mobilization in Children With a Traumatic Brain Injury - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42328753/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "Neuropsychological assessment through Coma Recovery Scale-Revised and Coma/Near Coma Scale in a sample of pediatric patients with disorder of consciousness - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9886605/",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "Practice guideline update recommendations summary: Disorders of consciousness: Report of the Guideline Development, Dissemination, and Implementation Subcommittee of the American Academy of Neurology; the American Congress of Rehabilitation Medicine; and the National Institute on Disability, Independent Living, and Rehabilitation Research - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/6139814/",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "Very Long-Term Outcomes in Children Admitted in a Disorder of Consciousness After Severe Traumatic Brain Injury - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8349835/",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "Joint Neuropsychological Assessment through Coma/Near Coma and Level of Cognitive Functioning Assessment Scales Reduces Negative Findings in Pediatric Disorders of Consciousness - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7140001/",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "Rehabilitation Care of the Child with an Acute Severe Traumatic Brain Injury - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37121634/",
+          "attribution": "PubMed"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn0search0",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10448247/"
+          ]
+        },
+        {
+          "marker": "citeturn0search11",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/42328753/"
+          ]
+        },
+        {
+          "marker": "citeturn0search1",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9886605/"
+          ]
+        },
+        {
+          "marker": "citeturn0search6",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/6139814/"
+          ]
+        },
+        {
+          "marker": "citeturn0search13",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC8349835/"
+          ]
+        },
+        {
+          "marker": "citeturn0search15",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC7140001/"
+          ]
+        },
+        {
+          "marker": "citeturn0search20turn0search8",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/37121634/"
+          ]
+        },
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-e82b790f-60ba-40a7-b5b8-2be8bc141d8a",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-24T16:54:08.746142+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:37.439+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "e82b790f-60ba-40a7-b5b8-2be8bc141d8a",
+      "sourceOrdinal": 105,
+      "turnId": "98e68749-f893-43f2-9993-e7725f387910",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "다리 맛사지하는 기계로 공기를 불어넣고 다리를 감싸는 커프를 쒸워서 허벅지와 종아리를 맛사지하는 기걔가 있어. 효능과 효과를 알려줘. 안해도 되는지 ",
+      "originalSha256": "sha256:05a6f5d834255462b128ea7ee91248bd1f44f4a023f1dc6f089cd5b4390a4317",
+      "corrected": "다리 마사지하는 기계로 공기를 불어넣고 다리를 감싸는 커프를 씌워서 허벅지와 종아리를 마사지하는 기계가 있어. 효능과 효과를 알려줘. 안해도 되는지 ",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-9b29c517-8c5c-4e8e-8abc-810e54039ab6",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-24T16:54:12.737412+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:37.439+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "9b29c517-8c5c-4e8e-8abc-810e54039ab6",
+      "sourceOrdinal": 106,
+      "turnId": "98e68749-f893-43f2-9993-e7725f387910",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "exact",
+      "text": "네. 말씀하신 장치는 **간헐적 공기압박기(Intermittent Pneumatic Compression, IPC)**입니다. 흔히 “다리 공기압 마사지기”라고 부르지만, 병원에서 사용하는 **주목적은 마사지나 근육 재활이 아니라 심부정맥혈전증(DVT) 예방**입니다. citeturn0search7turn0search3\n\n## 선진이에게 왜 달아놓았나\n\n커프가 주기적으로\n\n**팽창 → 종아리/허벅지 압박 → 이완 → 다시 팽창**\n\n하면서 다리 정맥에 고여 있는 혈액을 위쪽으로 밀어줍니다.\n\n선진이는 오랫동안 침상생활을 했고 최근에야 휠체어 활동을 늘리고 있습니다. 이런 **장기간의 움직임 제한 자체가 정맥혈전증의 위험요인**입니다. 여기에 큰 외상과 수술, 골반·하지 주변 손상, 감염·염증 등이 겹쳤기 때문에 혈전 예방을 고려할 이유가 충분합니다. citeturn0search1\n\n즉 이 기계의 핵심 목적은\n\n**근육 마사지**보다는\n\n`다리 움직임 부족`\n→ `종아리 근육 펌프 작동 감소`\n→ `정맥혈 정체`\n→ **DVT 위험 증가**\n\n를 기계적으로 보완하는 것입니다.\n\nDVT가 중요한 이유는 혈전 일부가 떨어져 폐혈관으로 이동하면 **폐색전증(PE)**을 일으킬 수 있기 때문입니다.\n\n---\n\n## “혈액순환이나 근육 회복에도 좋은가?”\n\n혈액을 위쪽으로 밀어주는 효과는 있습니다. 그래서 다리가 붓는 일부 상황에서는 부종 관리에 도움이 될 수도 있습니다.\n\n하지만 **근육을 단련시키는 장치는 아닙니다.**\n\nIPC를 3시간 사용했다고\n\n- 허벅지 근력이 좋아진다\n- 몸통근육이 좋아진다\n- 걸을 준비가 된다\n- 관절 구축이 예방된다\n\n고 생각해서는 안 됩니다.\n\n그 역할은 **능동운동, PT/OT, 관절운동, 앉기·서기·체중부하 훈련**이 담당합니다.\n\n그래서 선진이가 점점\n\n**침상 → 앉기 → 휠체어 → 기립 → 보조 서기/걷기**\n\n로 이동하면 자연스럽게 종아리 근육 자체가 다시 펌프 역할을 하기 시작합니다.\n\n---\n\n# 그렇다면 이제 안 해도 될까?\n\n**임의로 중단하지는 마세요.** 하지만 지금은 의료진에게 **“아직 필요한가?”를 다시 물어볼 만한 시점**입니다.\n\n선진이는 처음 IPC를 시작했을 때보다 움직임이 상당히 달라졌습니다. 최근에는 휠체어에서 하루 약 3시간 지내려고 하고, 침상에서도 다리를 움직이고, 부축하면 서는 연습까지 하고 있습니다. 따라서 **현재 이동성 수준에서 IPC가 여전히 필요한지 VTE 위험도를 다시 평가**할 수 있습니다. memcite\n\n병원에서 IPC를 얼마나 오래 사용하는지는 환자의 혈전 위험, 실제 이동량, 출혈 위험, 약물성 혈전예방 사용 여부 등에 따라 결정합니다. 움직임이 회복되면 필요성이 감소할 수 있습니다. citeturn0search7turn0search26\n\n특히 선진이는 **아스피린을 복용하고 있지만**, 아스피린을 먹는다고 해서 IPC가 자동으로 필요 없어지는 것은 아닙니다. 아스피린의 처방 목적도 따로 확인해야 합니다.\n\n---\n\n## 오히려 IPC 때문에 재활을 방해하면 조정할 수 있습니다\n\n예를 들어 선진이가 깨어 있고 다리를 스스로 움직이는 시간이나\n\n- 휠체어에 앉아 있는 시간\n- PT/OT 시간\n- 서기 연습\n- 침상에서 적극적으로 다리 움직이는 시간\n\n에는 IPC가 오히려 움직임을 방해할 수 있습니다.\n\n따라서 **언제 착용하고 언제 빼는지가 중요**합니다.\n\n선진이에게는\n\n**자는 시간/오래 누워 있는 시간 → IPC**\n\n**깨어서 다리를 적극적으로 움직이는 시간 → 재활**\n\n처럼 역할을 나누는 것이 가능한지 의료진에게 물어볼 수 있습니다. 실제 적용시간은 선진이의 VTE 위험도를 아는 담당팀이 정해야 합니다.\n\n---\n\n## 커프 사용 중에는 피부도 확인해야 합니다\n\n선진이는 오랫동안 누워 있었고 이전에 욕창도 있었기 때문에 특히 중요합니다.\n\n하루에 여러 번 커프를 벗겨\n\n- 피부가 빨갛게 눌리지 않았는지\n- 물집이나 상처가 없는지\n- 다리가 지나치게 붓지 않았는지\n- 발이 차갑거나 창백하지 않은지\n- 커프가 너무 꽉 끼지 않는지\n\n확인하는 것이 좋습니다. IPC는 심한 말초동맥질환, 심한 피부손상, 심부전이나 심한 부종 등의 특정 상황에서는 사용하지 않거나 특별한 주의가 필요합니다. citeturn0search24turn0search29\n\n### 특히 이것은 중요합니다\n\n한쪽 다리가 갑자기\n\n**붓고 + 뜨겁거나 붉고 + 통증이 생기거나**\n\n갑자기 숨이 차고 SpO₂가 떨어지는 경우에는\n\n**“순환이 안 되니까 IPC를 더 해줘야겠다”가 아닙니다.**\n\n즉시 간호사를 불러 DVT/PE 여부를 평가해야 합니다. **급성 DVT가 의심되는 상황에서는 임의로 IPC를 사용하는 것이 적절하지 않습니다.** citeturn0search24turn0search29\n\n---\n\n### 지금 간호사에게는 이렇게 물어보세요\n\n> **“선진이가 이제 휠체어도 하루 몇 시간 타고 서기 연습도 하는데, 공기압박기는 아직 DVT 예방 목적으로 계속 필요한가요? 하루 중 언제 착용하고 언제 빼도 되는지 알려주세요.”**\n\n그리고\n\n> **“밤이나 낮잠처럼 오래 누워 있을 때만 사용하는 것도 가능한가요?”**\n\n라고 물어보시면 됩니다.\n\n**결론적으로 IPC는 선진이의 근육을 회복시키기 위한 마사지기가 아니라, 아직 충분히 걷지 못하는 동안 혈전을 예방하는 안전장치에 가깝습니다.** 따라서 귀찮다고 임의로 완전히 중단할 필요는 없지만, 선진이가 이제 활동량을 늘리고 있으므로 **현재 이동성에 맞춰 사용시간을 재평가해 달라고 요청하기 좋은 시점**입니다.",
+      "textSha256": "sha256:bb739c50367b1df369ee55fdaa665a9130644c80367f7eb77ab8d5cb73a5ba1c",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Intermittent Pneumatic Compression to Reduce the Risk of Venous Thromboembolism — Chelsea and Westminster Hospital NHS Foundation Trust",
+          "url": "https://www.chelwest.nhs.uk/your-visit/patient-leaflets/intermittent-pneumatic-compression-to-reduce-the-risk-of-venous-thromboembolism",
+          "attribution": "Chelsea & Westminster Hospital"
+        },
+        {
+          "title": "American Society of Hematology 2020 Guidelines for Management of Venous Thromboembolism: Treatment of Deep Vein Thrombosis and Pulmonary Embolism | Blood Advances | American Society of Hematology",
+          "url": "https://ashpublications.org/bloodadvances/article/4/19/4693/463998/American-Society-of-Hematology-2020-Guidelines-for",
+          "attribution": "Ash Publications"
+        },
+        {
+          "title": "646FM.6  VENOUS THROMBOEMBOLISM (VTE) IN MATERNITY",
+          "url": "https://www.bucksformulary.nhs.uk/docs/Guideline_646FM.pdf",
+          "attribution": "Buckinghamshire Formulary"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn0search7turn0search3",
+          "urls": [
+            "https://www.chelwest.nhs.uk/your-visit/patient-leaflets/intermittent-pneumatic-compression-to-reduce-the-risk-of-venous-thromboembolism"
+          ]
+        },
+        {
+          "marker": "citeturn0search1",
+          "urls": [
+            "https://ashpublications.org/bloodadvances/article/4/19/4693/463998/American-Society-of-Hematology-2020-Guidelines-for"
+          ]
+        },
+        {
+          "marker": "citeturn0search7turn0search26",
+          "urls": [
+            "https://www.chelwest.nhs.uk/your-visit/patient-leaflets/intermittent-pneumatic-compression-to-reduce-the-risk-of-venous-thromboembolism"
+          ]
+        },
+        {
+          "marker": "citeturn0search24turn0search29",
+          "urls": [
+            "https://www.bucksformulary.nhs.uk/docs/Guideline_646FM.pdf"
+          ]
+        },
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-2a85e8f3-0461-4ab8-94c0-f0ce7220648c",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-24T22:23:03.289310+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:37.439+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "2a85e8f3-0461-4ab8-94c0-f0ce7220648c",
+      "sourceOrdinal": 107,
+      "turnId": "eb1d1757-9229-4160-b9ad-7b2bd90487cf",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "선진의 경우 베르니케 실어증일수있나?",
+      "originalSha256": "sha256:855eaff4bf955924acf74a56c343340bad596c2aeb477ce46fdd9de53cab7955",
+      "corrected": "선진의 경우 베르니케 실어증일 수 있나?",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-eefc90d2-3d35-414d-8238-36406d671e12",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-24T22:23:11.862919+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:37.439+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "eefc90d2-3d35-414d-8238-36406d671e12",
+      "sourceOrdinal": 108,
+      "turnId": "eb1d1757-9229-4160-b9ad-7b2bd90487cf",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "exact",
+      "text": "가능성은 **감별 대상 중 하나**이지만, 지금까지 말씀해주신 선진이의 모습만으로는 **전형적인 베르니케 실어증(Wernicke aphasia)이라고 보기에는 맞지 않는 부분이 많습니다.** 저는 현재로서는 **중증 TBI/DAI 이후의 인지-의사소통 장애(cognitive-communication disorder) + 청각적 언어 이해 장애 가능성**을 더 넓게 평가하는 것이 적절하다고 봅니다. 소아 TBI에서는 DAI처럼 광범위한 백질 연결망 손상 때문에 언어 이해·표현뿐 아니라 주의력, 처리속도, 기억, initiation이 함께 영향을 받을 수 있습니다. citeturn0search0turn0search2\n\n## 전형적인 베르니케 실어증과 선진이의 차이\n\n고전적인 베르니케 실어증은 보통 우세반구(대부분 왼쪽)의 후방 측두-두정 언어 네트워크 손상과 연관되고, 핵심은 **말소리는 들리지만 언어의 의미를 이해하는 능력이 크게 손상되는 것**입니다. 그런데 동시에 대개 **말 자체는 유창하게 많이 나옵니다.** 문법과 말의 리듬은 자연스러울 수 있지만 단어 선택이 틀리거나 신조어가 섞여 내용 전달이 어려워질 수 있고, 따라 말하기도 손상될 수 있습니다. 실어증은 언어 자체의 장애이며, 인지장애와는 구분해서 평가해야 합니다. citeturn0search12\n\n선진이는 지금 **발화 자체가 거의 없기 때문에 이 전형적인 패턴을 확인할 수 없습니다.** 기관절개와 발성 조건, 구음운동, 말실행증, 전반적인 각성 수준도 함께 영향을 줄 수 있습니다.\n\n더 중요한 것은 최근 선진이가 **말만으로 “일어나 앉아봐”라고 했을 때 실제로 앉았다는 것**입니다. 한 번의 반응만으로 언어 이해를 증명할 수는 없지만, 재현된다면 **청각적 언어 이해가 완전히 붕괴된 전형적인 베르니케 실어증과는 잘 맞지 않습니다.**\n\n또한 젓가락 사용, 도형 맞추기, 음식 선택과 호불호 표현, 상황에 맞춰 아빠에게 요플레를 먹여주기, 손 내밀면 잡기, 뽀뽀 같은 **맥락에 맞는 목적행동**도 나타나고 있습니다. 이는 전반적인 의미처리와 상황 이해가 상당 부분 작동하고 있을 가능성을 보여줍니다. memcite\n\n## 오히려 저는 이런 조합을 생각하겠습니다\n\n선진이는 현재 다음 여러 요소가 **겹쳐 있을 가능성**이 있습니다.\n\n**① 청각적 언어 처리 저하**  \n말만으로 된 지시를 처리하는 능력이 시각·상황 단서를 이용하는 능력보다 약할 수 있습니다.\n\n**② 처리속도 저하**  \n말을 알아들어도 의미를 처리하고 행동으로 바꾸는 데 오래 걸릴 수 있습니다. TBI에서는 반응시간 증가와 processing speed 저하가 흔합니다. citeturn0search7\n\n**③ 주의 지속능력 저하**  \n잘 깨어 있을 때는 이해하지만 피곤하거나 멍한 시간에는 같은 말을 처리하지 못할 수 있습니다.\n\n**④ initiation/executive dysfunction**  \n무엇을 요구하는지 어느 정도 알아도 스스로 행동을 시작하는 능력이 떨어질 수 있습니다.\n\n**⑤ 실제 언어 네트워크 손상**  \n이것도 배제할 수 없습니다. 소아 TBI 연구에서는 언어 기능이 뇌량(corpus callosum), arcuate fasciculus 같은 백질 연결망 손상과 관련된다는 결과가 있습니다. 선진이는 DAI가 있기 때문에 특히 관련성이 있습니다. citeturn0search2\n\n**⑥ 발성·말운동의 별도 문제**  \n기관절개, 장기간 삽관, 구음장애(dysarthria), 말실행증(apraxia of speech) 등이 표현언어를 가릴 수 있습니다.\n\n그래서 지금은 `베르니케 실어증인가?`라는 단일 진단보다 **언어 이해 / 주의 / 처리속도 / 기억 / 행동개시 / 말운동 / 발성**을 분해해서 보는 것이 훨씬 정확합니다. TBI 후 의사소통 장애는 국소 뇌졸중 이후의 고전적 실어증처럼 깔끔한 한 유형으로 분류되지 않는 경우가 많습니다. citeturn0search6turn0search9\n\n### 집에서도 구분에 도움이 되는 아주 간단한 방법이 있습니다\n\n컨디션 좋은 시간에 같은 의미를 서로 다른 방식으로 **한 번씩만** 제시해보세요.\n\n| 조건 | 예 |\n|---|---|\n| **말만** | “숟가락 줘.” |\n| **말 + 몸짓** | “숟가락 줘.” + 손 내밀기 |\n| **몸짓만** | 말없이 손 내밀기 |\n| **글/그림 + 말** | 숟가락 그림을 보여주며 “숟가락 줘.” |\n\n그리고 충분히 **10–20초 기다립니다.**\n\n만약 여러 날 반복해서 **말만 하면 거의 실패하지만 몸짓·그림을 추가하면 정확하게 수행**한다면 청각적 언어처리 장애를 더욱 의심할 수 있습니다.\n\n반대로 오늘처럼 **말만으로도 간헐적으로 정확한 명령수행이 나타나는데 피곤할 때 크게 떨어진다면**, 순수한 베르니케 실어증보다는 **각성·주의·처리속도가 언어 수행을 크게 좌우하는 상태**도 상당히 고려해야 합니다.\n\n## 지금 재활팀에 요청할 검사는 명확합니다\n\n언어치료사에게 단순히 “말을 할 수 있는지 봐주세요”가 아니라 이렇게 요청하는 것이 좋겠습니다.\n\n> **“상황과 몸짓이 있으면 상당히 적절하게 행동하지만 말로만 하는 명령은 대부분 어렵습니다. 그런데 간헐적으로는 ‘일어나 앉아봐’ 같은 말만으로 된 명령도 정확하게 수행합니다. 베르니케 실어증 같은 수용성 실어증인지, 아니면 DAI 이후의 주의·처리속도·인지-의사소통 장애인지 구분해서 평가해주세요.”**\n\n그리고 **청력도 확인**했으면 합니다. TBI에서는 말초 청력뿐 아니라 auditory processing 문제가 생길 수 있으므로, 언어 이해 문제를 모두 뇌의 언어중추 문제라고 가정해서는 안 됩니다. citeturn0search7turn0search11\n\n평가에서는 적어도 **단어 이해 → 한 단계 명령 → 두 단계 명령 → 물건 선택 → Yes/No 신뢰도 → 그림/글 이해 → 이름대기 → 모방/따라 말하기 → 발성·구음운동**을 단계적으로 보는 것이 좋습니다.\n\n그리고 MRI 판독지도 중요합니다. **왼쪽 후방 측두엽·측두두정 접합부에 국소 손상이 있는지, 좌측 arcuate fasciculus 주변이나 뇌량의 DAI가 어느 정도인지**를 재활의학과/신경과와 함께 확인하면 언어 증상과 영상의 연관성을 검토할 수 있습니다. 다만 MRI 병변 위치만으로 베르니케 실어증을 진단하지는 않습니다. 소아 TBI에서는 광범위한 연결망 손상이 언어 결과에 영향을 줄 수 있습니다. citeturn0search2turn0search3\n\n**현재까지의 선진이 행동만 보면 저는 ‘전형적인 베르니케 실어증’보다는, DAI 이후 회복 과정에서 청각적 언어처리가 특히 취약하고 주의·각성·처리속도의 변동이 크게 겹쳐 있는 상태를 우선 감별하겠습니다.** 무엇보다 최근에 말만으로 된 명령을 실제 행동으로 옮긴 사례가 나왔다는 것은 중요한 정보입니다. 앞으로 그것이 다른 명령에서도 반복되는지를 보면 훨씬 명확해질 겁니다.",
+      "textSha256": "sha256:2a44d66bb40ddf6ca63f4b3a3b78be3fecc5082c144bf859896118730934fbc3",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Pediatric Traumatic Brain Injury: Characteristic Features, Diagnosis, and Management - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5341344/",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "Aphasia",
+          "url": "https://www.asha.org/practice-portal/clinical-topics/aphasia/",
+          "attribution": "ASHA"
+        },
+        {
+          "title": "Traumatic Brain Injury in Adults",
+          "url": "https://www.asha.org/Practice-Portal/Clinical-Topics/Traumatic-Brain-Injury-in-Adults/",
+          "attribution": "ASHA"
+        },
+        {
+          "title": "Pediatric traumatic brain injury: Language outcomes and their relationship to the arcuate fasciculus - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3988975/",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "Naming Impairment and Language Disturbance During Inpatient Rehabilitation for Traumatic Brain Injury: Implications for Assessment and Intervention | American Journal of Speech-Language Pathology",
+          "url": "https://pubs.asha.org/doi/10.1044/2025_AJSLP-25-00241",
+          "attribution": "ASHA Publications"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn0search0turn0search2",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC5341344/"
+          ]
+        },
+        {
+          "marker": "citeturn0search12",
+          "urls": [
+            "https://www.asha.org/practice-portal/clinical-topics/aphasia/"
+          ]
+        },
+        {
+          "marker": "citeturn0search7",
+          "urls": [
+            "https://www.asha.org/Practice-Portal/Clinical-Topics/Traumatic-Brain-Injury-in-Adults/"
+          ]
+        },
+        {
+          "marker": "citeturn0search2",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3988975/"
+          ]
+        },
+        {
+          "marker": "citeturn0search6turn0search9",
+          "urls": [
+            "https://pubs.asha.org/doi/10.1044/2025_AJSLP-25-00241"
+          ]
+        },
+        {
+          "marker": "citeturn0search7turn0search11",
+          "urls": [
+            "https://www.asha.org/Practice-Portal/Clinical-Topics/Traumatic-Brain-Injury-in-Adults/"
+          ]
+        },
+        {
+          "marker": "citeturn0search2turn0search3",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3988975/"
+          ]
+        },
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-3da21941-f496-4eae-9a52-a354b12c71b9",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-24T22:37:07.280621+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:37.439+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "3da21941-f496-4eae-9a52-a354b12c71b9",
+      "sourceOrdinal": 109,
+      "turnId": "14022203-2a7a-4e13-96ed-72d228177613",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "privacy-redacted",
+      "privacyRedactions": [
+        "image"
+      ],
+      "privacyNote": "첨부 사진·검사 원본은 공개하지 않습니다. 메시지의 전체 텍스트만 보존했으며, 당시 GPT의 사진 판독을 이번에 재검증한 것은 아닙니다.",
+      "publicText": "선진의 상태를보면 전반적인 연령이 냐려간 느낌도 있어. 항문으로 손가락을 가져가 긁는다던가 대소변을 갈아줄때 다룬 사람이 들어와도 별로 갸의치 않는다던가 얼굴 표정이 어떤때는 장난꾸러기같기도 하다가 무표정하기도 하고. 햔드폰이나 엘베등 거울처럼 비추는 자신의 모습을 흥미있게 바라보고 이상한 표정등을 지어본다던가. 종종 손가락을 어렵게 꼬기도해. ",
+      "publicTextSha256": "sha256:9d73580709abc414596e8069611b922ec44156aedd5f8fc56b22b5ca9adfa2f9",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-19fc4025-895d-4073-a58e-cf6c81d97682",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-24T22:37:23.541592+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:37.439+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "19fc4025-895d-4073-a58e-cf6c81d97682",
+      "sourceOrdinal": 110,
+      "turnId": "14022203-2a7a-4e13-96ed-72d228177613",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "exact",
+      "text": "네. 지금 말씀하신 **“사고 전 중2였던 선진이보다 전반적인 행동 연령이 내려간 것 같다”는 관찰은 재활팀에 꼭 전달할 가치가 있습니다.** 다만 이것을 곧바로 **지능이 어린아이 수준으로 퇴행했다거나 기억을 잃었다**고 해석해서는 안 됩니다.\n\n사진에서도 선진이는 표정의 범위가 꽤 다양해 보입니다. 다만 사진만으로 인지수준이나 감정 상태를 판정할 수는 없습니다. 더 중요한 것은 아버님이 여러 날 동안 관찰한 **행동의 맥락과 변화**입니다.\n\n## 지금 모습은 ‘퇴행’보다는 뇌손상 후 자기조절 체계의 불균형으로 설명될 수 있습니다\n\n소아·청소년 중증 TBI 후에는 **주의력, 행동개시(initiation), 억제(inhibition), 자기감시(self-monitoring), 판단, 사회적 규칙 준수, 감정조절** 같은 실행기능이 손상될 수 있습니다. 무기력·무표정부터 충동성·탈억제까지 서로 반대처럼 보이는 행동이 한 아이에게 함께 나타날 수도 있습니다. citeturn0search5turn0search3\n\n그래서 선진이에게서 보이는 행동들을 하나의 “정신연령”으로 묶기보다 이렇게 분해해 보는 것이 더 정확합니다.\n\n- **거울을 오래 보고 표정을 만들어본다:** 자기 모습에 대한 시각적 관심과 탐색일 수 있습니다. 이것만으로 자기인식 수준을 판단할 수는 없지만, 목적 있는 탐색행동이라는 점은 관찰할 가치가 있습니다.\n- **손가락을 복잡하게 꼬아본다:** 감각·운동 탐색, 장난, 반복행동 등 여러 설명이 가능합니다. 지시에 따라 특정 모양을 만들 수 있는지와 자발적으로 하는 것은 구분해야 합니다.\n- **장난스러운 표정 ↔ 무표정:** TBI 후에는 정서표현과 각성 수준의 변동이 커질 수 있습니다. citeturn0search5\n- **배변처리 때 다른 사람이 들어와도 별로 개의치 않는다:** 이전에 가지고 있던 사생활 규범을 순간적으로 적용하지 못하는 **사회적 억제/자기감시 저하** 가능성을 평가할 수 있습니다. 하지만 현재 병원생활에 익숙해졌거나 상황을 충분히 이해하지 못하는 등의 다른 설명도 가능합니다.\n- **항문을 만지거나 긁는다:** 이것은 인지행동으로 해석하기 전에 **가려움, 피부염, 습기, 잦은 설사에 따른 자극, 치핵·항문주위 상처** 같은 신체 원인을 먼저 확인해야 합니다. 손위생과 감염관리 문제도 있으므로 반복되면 간호사에게 항문주위 피부를 직접 봐달라고 하세요.\n\n특히 **“부끄러워하지 않는다 → 어린아이가 되었다”**로 연결하면 안 됩니다. 사회적 상황을 판단하고 자신의 행동을 억제하는 능력은 실행기능의 일부이고, 중증 소아 TBI에서는 이런 기능과 사회적 적응이 영향을 받을 수 있습니다. citeturn0search0turn0search6\n\n## 흥미로운 점은, 선진이에게 높은 수준의 기능도 동시에 보인다는 것입니다\n\n최근 선진이는 젓가락을 사용하고, 음식의 호불호를 표현하고, 도형을 맞추고, 상황에 맞춰 아빠에게 음식을 건네고, 뽀뽀하고, 때로는 **말로만 “일어나 앉아봐”라고 한 명령도 수행**했습니다.\n\n따라서 현재 상태를\n\n> **“인지능력 전체가 어린 연령대로 내려갔다.”**\n\n라고 표현하기보다는,\n\n> **“여러 인지기능이 서로 다른 속도로 회복되고 있으며, 익숙한 행동·시각적 상황이해·절차적 행동은 상대적으로 잘 나타나는 반면 언어처리, 주의 지속, 행동개시, 자기감시와 사회적 억제 같은 고차 실행기능은 아직 불안정하다.”**\n\n라는 가설이 현재 관찰과 더 잘 맞습니다.\n\n소아 후천성 뇌손상에서는 이런 실행기능 장애가 일상생활과 사회적 행동에 상당한 영향을 줄 수 있습니다. citeturn0search0turn0search5\n\n### 이것은 회복될 수 있나?\n\n**개선될 여지는 충분히 있습니다.** 특히 선진이는 사고 후 약 두 달로 아직 초기 재활기입니다. 다만 어느 기능이 얼마나 회복될지는 현재 단계에서 예측할 수 없습니다.\n\n중요한 것은 단순히 시간이 지나기를 기다리는 것이 아니라 **인지·언어·행동·사회인지까지 재활 대상으로 삼는 것**입니다. 소아 후천성 뇌손상에서 실행기능을 대상으로 한 재활은 효과가 보고되어 있고, 특히 가족·보호자가 참여하는 행동 및 문제해결 훈련도 도움이 될 수 있습니다. 다만 연구 규모와 방법이 다양해서 특정 프로그램의 효과를 과장해서는 안 됩니다. citeturn0search2turn0search15\n\n## 이제 재활팀에 ‘언어’보다 한 단계 넓은 평가를 요청하세요\n\n제가 선진이라면 다음 진료에서 이렇게 요청하겠습니다.\n\n> **“선진이가 익숙한 도구 사용이나 상황에 맞는 행동은 상당히 잘하는데, 말로만 하는 지시수행은 불규칙하고 행동개시가 적습니다. 사고 전보다 사생활 인식이나 사회적 억제가 떨어져 보이고, 장난스럽거나 탐색적인 행동이 늘었습니다. 단순 언어장애뿐 아니라 주의력, processing speed, initiation, inhibition, executive function, social cognition까지 포함한 인지평가를 해주세요.”**\n\n이 요청이 중요합니다.\n\n재활팀은 현재 능력에 따라 **재활의학과 + 작업치료(OT) + 언어재활(SLP) + 임상심리/신경심리**가 함께 평가할 수 있습니다. 소아 TBI 평가도 언어·의사소통뿐 아니라 신경심리, 일상생활, 행동·정서, 사회인지 등을 여러 영역에서 평가하도록 권고됩니다. citeturn0search13\n\n그리고 아직 쉽게 피곤하고 언어반응도 들쭉날쭉하므로 지금 한 번의 검사에서 낮은 점수가 나왔다고 최종 능력으로 받아들여서는 안 됩니다. **회복하면서 반복 평가**하는 것이 중요합니다.\n\n### 가족의 대응도 조금 바꾸면 좋습니다\n\n선진이가 사회적으로 부적절하거나 어린 행동을 해도 **혼내거나 “왜 그런 행동을 해?”라고 추궁하기보다**, 짧고 일관된 방식으로 규칙을 다시 알려주는 것이 좋습니다.\n\n예를 들어 배변처리 중 누군가 들어오면 보호자가 조용히 문이나 커튼을 닫으면서,\n\n> “선진아, 화장실이나 기저귀 갈 때는 다른 사람에게 안 보이게 하는 거야.”\n\n정도로 알려주세요.\n\n항문을 긁으면 손을 세게 제지하기보다 먼저 피부 문제가 없는지 확인하고,\n\n> “간지러우면 아빠한테 알려줘.”\n\n하면서 **‘아파요/간지러워요’를 표현할 손짓이나 그림카드**를 만들어주는 것도 좋습니다.\n\n거울을 보고 표정을 만들어보거나 손가락을 이리저리 움직이는 것 자체는 위험하지 않다면 **탐색활동으로 허용**해도 됩니다. 오히려 거울을 이용해 “웃는 얼굴”, “혀 내밀기”, “눈 감기” 같은 모방 놀이로 연결하면 얼굴운동과 명령이해, 사회적 상호작용을 함께 관찰할 수 있습니다.\n\n지금 선진이를 **“정신연령이 몇 살로 내려갔다”는 하나의 축으로 평가하지 않는 것이 중요합니다.** 최근 모습은 오히려 **기능들이 불균등하게 다시 연결되는 과정**처럼 보입니다. 어떤 회로는 이미 복잡한 행동을 가능하게 하고, 어떤 회로는 아직 느리고 불안정한 것입니다.\n\n그리고 이 때문에 앞으로의 재활은 **걷기와 관절운동만큼이나 언어·주의·실행기능·사회적 행동을 포함하는 소아 신경재활**이 중요합니다. 선진이의 다음 재활병원을 선택할 때도 바로 이 능력이 있는지를 우선적으로 보겠습니다. memcite",
+      "textSha256": "sha256:a40a2d4dc2f61bc4ac67e445bb521ce74c9478020aa91e0b47024489d366381f",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Pediatric Traumatic Brain Injury",
+          "url": "https://www.asha.org/practice-portal/clinical-topics/pediatric-traumatic-brain-injury/",
+          "attribution": "ASHA"
+        },
+        {
+          "title": "Rehabilitation of executive function in chronic paediatric brain injury: a randomized controlled trial - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8561897/",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "Pediatric Brain Injury",
+          "url": "https://apps.asha.org/EvidenceMaps/Maps/LandingPage/242c64f7-8e63-4ddc-bdb8-102fe0e159bb",
+          "attribution": "Asha Apps"
+        },
+        {
+          "title": "Recommendations for the Use of Common Outcome Measures in Pediatric Traumatic Brain Injury Research - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3289848/",
+          "attribution": "PubMed Central (PMC)"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn0search5turn0search3",
+          "urls": [
+            "https://www.asha.org/practice-portal/clinical-topics/pediatric-traumatic-brain-injury/"
+          ]
+        },
+        {
+          "marker": "citeturn0search5",
+          "urls": [
+            "https://www.asha.org/practice-portal/clinical-topics/pediatric-traumatic-brain-injury/"
+          ]
+        },
+        {
+          "marker": "citeturn0search0turn0search6",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC8561897/"
+          ]
+        },
+        {
+          "marker": "citeturn0search0turn0search5",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC8561897/"
+          ]
+        },
+        {
+          "marker": "citeturn0search2turn0search15",
+          "urls": [
+            "https://apps.asha.org/EvidenceMaps/Maps/LandingPage/242c64f7-8e63-4ddc-bdb8-102fe0e159bb"
+          ]
+        },
+        {
+          "marker": "citeturn0search13",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3289848/"
+          ]
+        },
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-bf189e60-8d7f-4e1d-9e97-ae99f57b472a",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-24T22:41:30.246526+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:37.439+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "bf189e60-8d7f-4e1d-9e97-ae99f57b472a",
+      "sourceOrdinal": 111,
+      "turnId": "964e7508-cc7e-4a7f-87a1-24c877789b35",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "안된다고 말하고 싶어도 이런 말을 알아듣는지 못알아듣는지도 불분명해. 하지마 라던가 하면안되는 말늘 전혀 알아듣지 못하는 것 같아 ",
+      "originalSha256": "sha256:dfecb2ca959b64b643e9895b9bb43073c7c69f88acf55bae18bf2e86d039cad5",
+      "corrected": "안된다고 말하고 싶어도 이런 말을 알아듣는지 못알아듣는지도 불분명해. 하지 마 라던가 하면 안 되는 말들 전혀 알아듣지 못하는 것 같아 ",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-3ec17334-051c-4d2b-9630-9b87b39cec4d",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-24T22:41:35.137055+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:37.439+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "3ec17334-051c-4d2b-9630-9b87b39cec4d",
+      "sourceOrdinal": 112,
+      "turnId": "964e7508-cc7e-4a7f-87a1-24c877789b35",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ],
+      "fidelity": "exact",
+      "text": "네. 그 부분 때문에 **선진이의 현재 문제를 단순히 “사회적 억제가 떨어졌다”라고 해석하면 안 될 것 같습니다.** 말씀하신 관찰대로라면 더 앞단의 문제, 즉 **말로 전달되는 의미 자체를 얼마나 이해하고 있는지가 아직 불분명**합니다.\n\n특히 `하지 마`, `안 돼`, `그만` 같은 말에 거의 반응하지 않는다면 몇 가지 가능성을 구분해야 합니다.\n\n## 중요한 것은 ‘말을 못 알아듣는 것’과 ‘알지만 행동을 멈추지 못하는 것’을 구분하는 것입니다\n\n둘은 신경학적으로 전혀 다른 문제입니다.\n\n**A. 수용언어(receptive language) 문제**\n\n`\"하지 마\"`라는 소리는 들리지만  \n→ 이것이 언어라는 것을 처리하고  \n→ 의미를 해석하는 과정이 아직 불완전한 경우입니다.\n\n이 경우에는 아무리 여러 번\n\n> “하지 마. 안 돼. 하지 말라고 했잖아.”\n\n라고 이야기해도 효과가 별로 없습니다.\n\n**B. 억제조절(inhibitory control) 문제**\n\n말뜻은 어느 정도 이해했지만\n\n`이해 → 현재 행동 억제 → 다른 행동 선택`\n\n이 과정이 제대로 작동하지 않는 경우입니다.\n\n중증 TBI/DAI 후에는 이런 executive control 장애가 생길 수 있습니다.\n\n**C. 주의(attention) 문제**\n\n그 순간 아버지의 말을 충분히 처리하지 못했을 수도 있습니다.\n\n특히 선진이는 각성 수준과 피로에 따라 반응 차이가 상당히 크기 때문에 이 가능성도 큽니다.\n\n그리고 **A+B+C가 동시에 존재할 수도 있습니다.**\n\n---\n\n# 지금 선진이에게는 ‘하지 마’보다 행동을 직접 보여주는 것이 낫습니다\n\n예를 들어 항문을 긁고 있다고 합시다.\n\n지금 단계에서는 멀리서\n\n> “선진아, 하지 마.”\n\n라고 말하는 것만으로 행동을 멈추게 하는 것을 목표로 하지 않는 것이 좋겠습니다.\n\n대신 가까이 가서 눈앞에서 손을 보여주고, 필요하면 **손을 부드럽게 다른 위치로 유도하면서**\n\n> **“손 여기.”**\n\n라고 합니다.\n\n그리고 손을 배 위나 이불 위에 놓아줍니다.\n\n즉,\n\n**금지 명령**\n`하지 마`\n\n보다\n\n**구체적인 대체행동**\n`손 여기`\n\n를 사용하는 겁니다.\n\n현재 선진이는 **시각·상황적 단서를 활용하는 능력이 언어만 처리하는 능력보다 상대적으로 좋아 보이기 때문**입니다.\n\n---\n\n## 문장도 훨씬 짧게 해주세요\n\n현재는\n\n> “선진아 거기는 만지면 안 돼. 손에 균이 묻으니까 그러면 안 되는 거야.”\n\n보다\n\n> **“선진아.”**  \n> [눈이 아빠에게 향할 때까지 기다림]  \n> **“손 여기.”**  \n> [배 위를 가리킴]\n\n가 낫습니다.\n\n그리고 **10초 정도 기다립니다.**\n\n반응이 없으면 같은 말을 계속 반복하기보다 몸짓을 추가합니다.\n\n---\n\n# 오히려 아주 좋은 평가 방법이 생겼습니다\n\n지금 선진이가 **긍정형 명령과 부정형 명령을 다르게 처리하는지** 볼 수 있습니다.\n\n예를 들어 컨디션이 좋을 때 안전한 행동으로만 아주 짧게 확인합니다.\n\n**긍정형**\n> “손 들어.”\n\n**구체적 위치**\n> “손 여기.”\n\n그리고 별도의 상황에서\n\n**억제형**\n> “멈춰.”\n\n또는\n\n> “하지 마.”\n\n만약 반복 평가에서\n\n**“손 줘”, “앉아”, “손 여기”는 가끔 수행하는데  \n“하지 마”, “멈춰”, “안 돼”는 거의 전혀 수행하지 않는다**\n\n는 패턴이 나온다면 상당히 흥미로운 정보입니다.\n\n부정문과 행동 억제는 단순한 한 단계 명령보다 **언어적·실행기능적으로 더 복잡할 수 있기 때문**입니다.\n\n그래서 `하지 마`를 못 알아듣는다고 해서 곧바로 **“말을 전혀 이해하지 못한다”**고 결론 내릴 수도 없습니다.\n\n최근 **“일어나 앉아봐”라는 말만 듣고 앉았던 행동**이 실제로 있었기 때문에 더욱 그렇습니다. memcite\n\n---\n\n## 가족이 당분간 사용할 언어를 통일해보세요\n\n저라면 몇 개만 정하겠습니다.\n\n| 상황 | 사용할 말 |\n|---|---|\n| 손을 옮길 때 | **“손 여기.”** |\n| 물건을 줄 때 | **“잡아.”** |\n| 손을 놓을 때 | **“놔.”** |\n| 앉을 때 | **“앉아.”** |\n| 누울 때 | **“누워.”** |\n| 멈춰야 할 때 | **“멈춰.”** + 손바닥 ✋ |\n| 아프면 | **“아파?”** + 아픔 그림 |\n| 쉬고 싶으면 | **“쉬어?”** + 쉬기 그림 |\n\n아빠, 엄마, 치료사가 가능하면 **같은 단어와 같은 몸짓**을 사용합니다.\n\n처음에는\n\n**말 + 몸짓 + 상황**\n\n을 모두 줍니다.\n\n성공률이 올라가면\n\n**말 + 작은 몸짓**\n\n으로 줄이고,\n\n그다음\n\n**말만**\n\n남겨봅니다.\n\n이 과정 자체가 언어재활입니다.\n\n---\n\n# 그리고 지금은 ‘훈육’보다 ‘안전한 환경 설계’가 먼저입니다\n\n이 부분이 상당히 중요합니다.\n\n현재 선진이가 정말 `안 돼`의 의미를 충분히 이해하지 못한다면 **말로 금지시켜 안전을 확보할 수 없습니다.**\n\n따라서 기관절개관이나 콧줄을 잡아당기거나, 위험한 물건을 만지는 등의 행동은\n\n> “하지 마!”\n\n를 반복해서 막는 것이 아니라 **위험한 물건을 손이 닿지 않게 하고, 가까이에서 관찰하고, 필요하면 손을 다른 활동으로 유도하는 방식**으로 예방해야 합니다.\n\n반복해서 못 알아듣는 것을 혼내면 선진이에게는 **무엇을 잘못했는지는 모르는데 주변 사람이 화를 내는 경험**만 될 수도 있습니다.\n\n---\n\n## 지금 언어치료사에게는 아주 구체적으로 요청해야 합니다\n\n> **“선진이가 상황에 맞는 복잡한 행동은 하는데 말로만 하는 지시수행은 매우 불규칙합니다. 특히 ‘하지 마’, ‘안 돼’, ‘멈춰’ 같은 억제 명령은 거의 이해하지 못하는 것처럼 보입니다. 단순 명사 이해, 한 단계 긍정 명령, 부정문 이해, Yes/No, 청각적 처리속도, 행동억제를 각각 나눠서 평가해주세요.”**\n\n이렇게 해야 합니다.\n\n그리고 **청력검사도 한 번 확인할 가치가 있습니다.** 소리를 듣는 것과 말소리를 정확하게 처리하는 것은 별개의 문제이고, 중증 외상 이후에는 이 부분도 확인해야 합니다.\n\n---\n\n### 현재 선진이를 저는 이렇게 이해하겠습니다\n\n지금까지의 행동을 모두 연결하면\n\n**상황을 보고 행동하는 능력**\n→ 상당히 회복\n\n**익숙한 도구 사용**\n→ 상당히 회복\n\n**사회적 상호작용**\n→ 일부 분명하게 존재\n\n**말로 된 명령 이해**\n→ 간헐적으로 가능하지만 매우 불안정\n\n**부정문·금지명령 이해**\n→ 현재 상당히 불확실\n\n**행동 억제·자기조절**\n→ 평가 필요\n\n**자발적 의사표현**\n→ 아직 제한적\n\n이라는 **매우 불균등한 회복 양상**으로 보는 것이 현재 관찰과 가장 잘 맞습니다.\n\n이것을 **“선진이가 말을 하나도 못 알아듣는다”**고 결론 내릴 단계도 아니고, 반대로 **“다 알아듣는데 표현만 못한다”**고 생각할 단계도 아닙니다.\n\n지금은 바로 그 사이를 정밀하게 구분하는 것이 언어·인지재활의 중요한 목표입니다. 그리고 사고 후 약 두 달이라는 현재 시점에는 이러한 능력 자체가 앞으로 계속 변화할 가능성이 있으므로, **지금의 수준을 고정된 최종 능력으로 받아들이지 않는 것이 중요합니다.**",
+      "textSha256": "sha256:436276d7c34360b5daec76743c3cb6fc4183b1e119ae137591cfd016494b98b9",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "citationMarkers": [
+        {
+          "marker": "memcite",
+          "urls": []
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-10-08-medical-2026-09-24-historical-scope",
+      "recordedAt": {
+        "start": "2026-10-08T05:54:37.439+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-4a043ccd-410f-44e7-b022-75d44986c6ec",
+      "note": "이 게시물은 대화가 이루어진 당시의 질문과 답변을 보존한 이력입니다. 투약·식이·관 사용 상태와 검사 해석을 현재 처방이나 확정 진단으로 사용하지 않습니다. 이후 보호자의 추가 설명·정정이 있으면 함께 읽어야 합니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [],
+  "privacyReviewed": true
+}

@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-09-29-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 9월 29일 의학지식 문의 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-09-29",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-10-08T05:54:34.827+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학지식 문의",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 2 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-10-08T05:54:34.827+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-b388ae6e-1f3d-43d9-9a13-2d01baf96bc5",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-29T05:17:12.848262+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:34.827+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "b388ae6e-1f3d-43d9-9a13-2d01baf96bc5",
+      "sourceOrdinal": 40,
+      "turnId": "66d52e00-a9b7-4406-9390-385949dc028b",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "original": "대소변 가리는 훈련은 어떻게 하는 것이 좋아? 아니면 시간이 지나고 의식이 회복되면 자연스럽게 돌아오나?",
+      "originalSha256": "sha256:a36d53a07d1e6026c01d377862381458d664703911d996eabbc498a77c2e30a4",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-359a81b2-0517-4e7d-b1ff-2c60578ea205",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-29T05:25:45.658374+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:34.827+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "359a81b2-0517-4e7d-b1ff-2c60578ea205",
+      "sourceOrdinal": 41,
+      "turnId": "66d52e00-a9b7-4406-9390-385949dc028b",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **의식과 인지 기능이 회복되면서 대소변 조절도 좋아질 수 있지만, 완전히 회복될 때까지 기다리기만 하기보다는 지금 가능한 수준의 배뇨·배변 재활을 함께 하는 것이 좋습니다.** 다만 여기서 말하는 훈련은 **“참게 하기”가 아니라, 마려움을 표현할 방법을 마련하고 적절한 때에 편안하게 용변을 볼 수 있도록 돕는 것**입니다. 신경계 질환의 배뇨 관리에서도 인지 기능에 어려움이 있는 환자에게는 보호자가 신호를 물어보고 용변을 돕는 방식과 규칙적인 배뇨 습관을 활용합니다. citeturn406058search3\n\n선진이는 최근 낮에 깨어 있는 시간과 활동성이 늘었다고 하셨으니, **잘 깨어 있는 시간에 짧게 참여시키는 방식**을 재활팀과 시작해 볼 좋은 시점입니다. 목표는 당장 기저귀를 없애는 것이 아니라 **“불편함을 알리고, 도움받아 용변을 보는 경험”을 늘리는 것**으로 잡겠습니다.\n\n## 1. 의식이 좋아지는 것과 대소변을 가리는 것은 완전히 같은 기능은 아닙니다\n\n대소변을 가리려면 **마려움을 느끼기 → 그 의미를 알아차리기 → 도움 요청하기 → 적절한 자세에서 조절하며 배출하기**가 연결되어야 합니다. 방광·장의 신경 조절뿐 아니라 의사소통, 몸의 움직임, 주변 도움도 영향을 줍니다. 따라서 **마려운 것을 느껴도 말하지 못하거나, 도움을 기다리는 동안 나오는 경우**가 있을 수 있습니다. 기저귀에 용변을 보았다는 사실만으로 감각이나 이해가 없다고 판단할 수는 없습니다. citeturn415451view1turn415451view5\n\n뇌손상 환자들이 재활 과정에서 배뇨·배변 기능의 호전을 보인 연구는 있습니다. 그러나 일부는 어려움이 남았고, 이런 연구만으로 **선진이에게 언제, 어느 정도까지 자연회복될지 예측하거나 훈련 없이도 모두 회복된다고 말할 수는 없습니다.** citeturn447631view1\n\n**“혼자 화장실에 가기”는 나중의 별도 목표입니다.** 지금은 걷기나 말하기가 충분하지 않아도, 보호자의 도움을 받아 소변통이나 적합한 변기를 사용하는 방법을 계획할 수 있습니다. citeturn415451view5\n\n## 2. 시작 전에, ‘제대로 비워지는지’부터 확인하세요\n\n최근 간병기록에 **배뇨 전 아랫배·성기 부근을 아파하다가 소변을 본 뒤 편안해졌던 모습**도 있었습니다. 이것을 단순히 “마려움을 알게 된 좋은 신호”라고만 해석해서는 안 됩니다.\n\n담당의에게 **배뇨 후 방광에 소변이 많이 남는지 확인하는 잔뇨검사**, 최근 소변검사 결과, 변비 여부를 함께 검토해 달라고 해주세요. 소변이 기저귀로 나온다고 방광이 충분히 비워진다는 뜻은 아니며, **방광에 소변이 많이 남은 채 조금씩 새는 경우**도 있습니다. 변비나 요로감염도 배뇨 조절을 어렵게 할 수 있습니다. citeturn777684view3\n\n검사와 진찰에서 문제가 확인되면 이를 치료하면서 훈련을 병행해야 합니다. **기저귀를 오래 적시지 않는 것만을 성공 기준으로 삼으면 안 됩니다.**\n\n## 3. 소변 훈련: ‘신호 하나 + 일정한 기회 + 짧은 시도’\n\n### 먼저, 선진이가 쉽게 보낼 수 있는 신호 하나를 정합니다\n\n제가 제안드리는 시작 방법은 **오른손으로 ‘화장실’이라고 적힌 카드나 그림을 가리키는 것**입니다. 오른손 사용이 상대적으로 편하다고 하셨으니 활용해 보되, 글·그림을 이해하고 의도적으로 선택하는지는 작업치료사나 언어재활팀과 확인하면 좋겠습니다.\n\n말은 짧고 일정하게 해주세요.\n\n> “선진아, 소변 마려우면 여기를 가리켜줘. 아빠가 도와줄게.”\n\n처음부터 소변·대변·통증을 모두 구별하도록 요구하지 않아도 됩니다. **“도움이 필요하다”는 신호부터** 시작해도 좋습니다. 다만 카드에 반응하지 않는다고 “안 마렵다”고 단정하지는 말고, 아래의 규칙적인 용변 기회를 함께 제공하세요. 보호자가 먼저 물어보고 도와주는 방식은 스스로 신호를 보내기 어려운 환자에게 사용하는 방법입니다. citeturn406058search3\n\n### 배뇨 시간을 파악하고, 그때보다 조금 앞서 기회를 줍니다\n\n기존 간병일지에 며칠간 다음 정도만 덧붙이면 됩니다.\n\n**시간 / 소변통 또는 기저귀 / 배뇨 전·후 신호 / 통증 여부**\n\n이를 바탕으로 간호사와 **아침에 깬 뒤, 낮잠에서 깬 뒤, 잠들기 전, 평소 소변을 보는 시간대**를 연결해 보세요. 소아 배뇨 관리에서는 약 **2시간 간격**을 시작점으로 쓰기도 하지만, 선진이에게는 실제 배뇨 간격과 수액·경관영양, 피로도를 보고 조정해야 합니다. **정해진 시간까지 참으라는 뜻이 아니며, 먼저 신호를 보내면 바로 도와주는 것이 원칙**입니다. citeturn406058view0\n\n### 소변통을 준비하고 편안하게 시도하되, 나오지 않으면 끝냅니다\n\n현재는 **침상에서 몸을 안정적으로 지지한 상태로 소변통을 쓰는 방법부터** 병동에서 확인받는 것이 좋겠습니다. 변기로 옮기는 것이 도움이 되더라도, 두 걸음 이동이 가능하다는 이유만으로 혼자 앉혀서는 안 됩니다. **앉은 균형, 다리 떨림, 골절 부위의 허용 자세, 관 관리까지 고려한 이동 방법**이 먼저 정해져야 합니다. citeturn415451view5\n\n일반적인 소아 용변 시도는 **3–5분 정도**로 짧게 하지만, 선진이가 피곤하거나 몸이 기울면 더 일찍 끝내세요. 배출을 재촉하지 말고, 나오지 않았다고 실패로 여기지 않아야 합니다. 사생활을 보호하고 편안한 환경을 만드는 것도 중요합니다. citeturn406058view1\n\n**소변통에 보았을 때뿐 아니라, 신호를 보내거나 준비 과정에 참여했을 때도** 이렇게 반응해 주세요.\n\n> “알려줘서 고마워. 아빠가 도와줄게.”\n\n이미 기저귀에 본 뒤 알려주어도 괜찮습니다. 실수를 꾸짖거나 젖은 상태로 두어 불편함을 느끼게 하는 방식은 사용하지 마세요. citeturn406058view2\n\n## 4. 대변 훈련: 변 상태를 안정시키고, 일정한 때에 짧게 시도합니다\n\n대변은 먼저 **변비인지, 설사인지, 배변 시 통증이 있는지**를 확인해야 합니다. 특히 묽은 변이 조금씩 샌다고 항상 설사는 아닙니다. 단단한 변이 직장에 오래 쌓여 감각이 둔해지고 주변으로 변이 새는 경우도 있어, 이런 상태에서는 “미리 알려줘”라는 교육만으로 해결되지 않습니다. citeturn777684view4\n\n변 상태가 안정되고 앉아서 배변해도 된다는 평가를 받으면, **아침 식사 뒤처럼 일정한 시간에 짧게 시도하는 습관**을 만들 수 있습니다. 경관영양을 하고 있다면 일반적인 식사시간과 다르므로, 주입 일정과 자세 제한을 고려해 간호사와 시간을 맞추세요. 식후에는 장운동이 촉진되는 반응을 활용할 수 있습니다. citeturn415451view4\n\n변기에 앉을 때는 발과 몸통이 안정적으로 지지되어야 하며, 처음에는 **3–5분 정도의 짧은 기회**로 충분합니다. 대변이 나오지 않더라도 편안하게 참여했다면 마무리하세요. **배를 세게 누르거나 힘을 계속 주도록 요구하지 말고, 관장·좌약·변비약은 의료진의 계획에 따라** 사용해야 합니다. 수분과 영양 공급도 용변을 맞추려고 임의로 바꾸지 마세요. citeturn777684view4turn415451view4\n\n## 5. 무엇을 ‘좋아지는 신호’로 볼까요?\n\n제가 제안하는 관찰 목표는 다음과 같습니다. **반드시 이 순서대로 회복한다는 뜻은 아닙니다.**\n\n| 관찰할 변화 | 구분해서 기록할 내용 |\n|---|---|\n| **본 뒤 알려줌** | 젖거나 불편한 것을 알아차리고 도움을 요청하는지 |\n| **물어보면 반응함** | 용변이 필요한지 질문했을 때 일관된 신호가 있는지 |\n| **준비해 주면 용변을 봄** | 정해진 기회에 소변통·변기를 사용하는 경우가 늘어나는지 |\n| **보기 전에 먼저 알려줌** | 보호자가 묻기 전에 필요를 표현하는지 |\n\n**시간을 잘 맞춰 소변통에 보게 된 것은 돌봄과 훈련의 성과이지만, 그것만으로 스스로 마려움을 인지하고 조절하는 기능까지 회복됐다고 단정하지는 않습니다.** 그래서 ‘어디에 보았는지’와 ‘누가 먼저 신호를 보냈는지’를 따로 적으면 좋겠습니다.\n\n기저귀는 당분간 보호 수단으로 병행해도 됩니다. **낮에 깨어 있을 때의 참여부터 살피고, 밤중 조절은 수면과 배뇨 상태를 보며 별도로 계획**하세요. 기저귀를 빨리 없애는 것보다 편안한 배설과 피부 보호가 우선입니다. citeturn415451view1turn777684view3\n\n### 병동에는 이렇게 요청하시면 좋겠습니다\n\n> “선진이가 낮에 깨어 있고 참여하는 시간이 늘어서 배뇨·배변 재활을 시작하고 싶습니다. 배뇨 전 통증이 있었으니 잔뇨와 소변검사 결과, 변비 여부를 먼저 확인해 주세요. 간호사와 재활팀이 같은 신호와 시간표를 사용하고, 안전한 소변통·변기 사용 방법을 정해주시면 좋겠습니다.”\n\n**아파하는데 소변이 안 나오거나 아랫배가 팽팽해지는 경우, 혈뇨·발열이 나타나는 경우에는 훈련 문제가 아니라 의료진이 바로 확인할 문제입니다.** 대변도 심한 복통이나 출혈이 있으면 배변 연습을 계속하지 말고 알려주세요. citeturn777684view3turn415451view1turn777684view4\n\n**지금 선진이에게는 ‘스스로 가릴 때까지 기다리기’보다, 회복되는 능력을 실제 용변 상황에서 사용할 수 있게 도와주는 접근이 좋습니다. 다만 훈련을 열심히 했는데도 바로 가리지 못하는 것은 선진이나 보호자의 잘못이 아닙니다. 첫 목표는 ‘참기’나 ‘기저귀 떼기’가 아니라, ‘필요를 알리고 편안하게 도움받기’입니다.**",
+      "textSha256": "sha256:c8257b0a03b75b16833cfd0fa236ba8dccd9a6070ecac10380a8d0c689ec3634",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Urinary incontinence in neurological disease: assessment and ...",
+          "url": "https://www.nice.org.uk/guidance/cg148/chapter/Recommendations",
+          "attribution": "Nice"
+        },
+        {
+          "title": "Urinary incontinence in neurological disease: assessment and management – NICE guideline | RCP",
+          "url": "https://www.rcp.ac.uk/resources/urinary-incontinence-in-neurological-disease-assessment-and-management-nice-guideline/",
+          "attribution": "RCP"
+        },
+        {
+          "title": "Incontinence after brain injury: prevalence, outcome and multidisciplinary management on a neurological rehabilitation unit - S M Leary, C Liu, A L Cheesman, A Ritter, S Thompson, R Greenwood, 2006",
+          "url": "https://journals.sagepub.com/doi/10.1177/0269215506071258",
+          "attribution": "Sage Journals"
+        },
+        {
+          "title": "Neurogenic Bowel | PM&R KnowledgeNow",
+          "url": "https://now.aapmr.org/neurogenic-bowel/",
+          "attribution": "PM&R KnowledgeNow"
+        },
+        {
+          "title": "Clinical Practice Guidelines : Urinary Incontinence - Daytime wetting",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Urinary_Incontinence_-_Daytime_wetting/",
+          "attribution": "Royal Children's Hospital"
+        },
+        {
+          "title": "www.rch.org.au",
+          "url": "https://www.rch.org.au/uploadedFiles/Main/Content/clinicalguide/guideline_index/Daytime_wetting_bladder_retraining.pdf",
+          "attribution": "Royal Children's Hospital"
+        },
+        {
+          "title": "Kids Health Info : Constipation",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Constipation/",
+          "attribution": "Royal Children's Hospital"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn406058search3",
+          "urls": [
+            "https://www.nice.org.uk/guidance/cg148/chapter/Recommendations"
+          ]
+        },
+        {
+          "marker": "citeturn415451view1turn415451view5",
+          "urls": [
+            "https://www.rcp.ac.uk/resources/urinary-incontinence-in-neurological-disease-assessment-and-management-nice-guideline/"
+          ]
+        },
+        {
+          "marker": "citeturn447631view1",
+          "urls": [
+            "https://journals.sagepub.com/doi/10.1177/0269215506071258"
+          ]
+        },
+        {
+          "marker": "citeturn415451view5",
+          "urls": [
+            "https://now.aapmr.org/neurogenic-bowel/"
+          ]
+        },
+        {
+          "marker": "citeturn777684view3",
+          "urls": [
+            "https://www.rch.org.au/clinicalguide/guideline_index/Urinary_Incontinence_-_Daytime_wetting/"
+          ]
+        },
+        {
+          "marker": "citeturn406058view0",
+          "urls": [
+            "https://www.rch.org.au/uploadedFiles/Main/Content/clinicalguide/guideline_index/Daytime_wetting_bladder_retraining.pdf"
+          ]
+        },
+        {
+          "marker": "citeturn406058view1",
+          "urls": [
+            "https://www.rch.org.au/uploadedFiles/Main/Content/clinicalguide/guideline_index/Daytime_wetting_bladder_retraining.pdf"
+          ]
+        },
+        {
+          "marker": "citeturn406058view2",
+          "urls": [
+            "https://www.rch.org.au/uploadedFiles/Main/Content/clinicalguide/guideline_index/Daytime_wetting_bladder_retraining.pdf"
+          ]
+        },
+        {
+          "marker": "citeturn777684view4",
+          "urls": [
+            "https://www.rch.org.au/kidsinfo/fact_sheets/Constipation/"
+          ]
+        },
+        {
+          "marker": "citeturn415451view4",
+          "urls": [
+            "https://now.aapmr.org/neurogenic-bowel/"
+          ]
+        },
+        {
+          "marker": "citeturn777684view4turn415451view4",
+          "urls": [
+            "https://www.rch.org.au/kidsinfo/fact_sheets/Constipation/"
+          ]
+        },
+        {
+          "marker": "citeturn415451view1turn777684view3",
+          "urls": [
+            "https://www.rcp.ac.uk/resources/urinary-incontinence-in-neurological-disease-assessment-and-management-nice-guideline/"
+          ]
+        },
+        {
+          "marker": "citeturn777684view3turn415451view1turn777684view4",
+          "urls": [
+            "https://www.rch.org.au/clinicalguide/guideline_index/Urinary_Incontinence_-_Daytime_wetting/"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-3ccbdb42-da80-4a5b-835d-66e86a869cf2",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-29T06:24:43.803149+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:34.827+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "3ccbdb42-da80-4a5b-835d-66e86a869cf2",
+      "sourceOrdinal": 42,
+      "turnId": "bfec98af-6c41-4fa6-bf68-134b54769fb3",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "original": "가까이 다가가면 아이가 꼭 끌어안고 뽀뽀를 해줘. ",
+      "originalSha256": "sha256:8edec34e61312297d97b43f59a6b1788a2c916d1c2a78f5edc5ceb715a73c50e",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 진료·검사·예약에 관한 설명은 보호자 기록이며 공식 의무기록이나 병원 확정서를 직접 확인한 것과 구분합니다."
+    },
+    {
+      "id": "message-e4bc6671-2fc2-4f95-8089-8c6a78070826",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-09-29T06:27:32.247011+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-08T05:54:34.827+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "e4bc6671-2fc2-4f95-8089-8c6a78070826",
+      "sourceOrdinal": 43,
+      "turnId": "bfec98af-6c41-4fa6-bf68-134b54769fb3",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **가까이 다가갈 때마다 선진이가 꼭 끌어안고 뽀뽀해 준다니, 정말 벅차고 다정한 순간이겠어요.** 아버지가 선진이를 안아주기만 하는 것이 아니라, 선진이도 아버지를 안아주고 있는 거네요.\n\n**회복을 관찰하는 입장에서도 의미 있게 기록할 행동입니다.** 특히 “안아줘, 뽀뽀해줘”라고 부탁하지 않아도, 아버지가 다가오는 상황에 맞춰 먼저 그렇게 하고 그 모습이 반복된다면 **사람을 향한 자발적이고 목적 있는 상호작용을 시사합니다.** 의식 회복을 평가할 때는 단순히 움직임이나 표정이 있는지를 넘어, 그것이 주변 사람과 상황에 맞게 나타나는지를 중요하게 봅니다. 말씀하신 포옹과 뽀뽀는 그런 관점에서 살펴볼 가치가 있습니다. citeturn889803view0\n\n다만 **이 행동 하나만으로 아버지를 얼마나 정확하게 알아보는지, 기억이나 판단력이 어느 정도 회복됐는지까지 확정할 수는 없습니다.** 애정 어린 상호작용이 나타나면서도 주의력·새로운 기억·복잡한 지시 수행에는 어려움이 남을 수 있으므로, 각각을 따로 평가해야 합니다. 그렇다고 지금 주고받는 포옹의 의미를 작게 볼 필요는 없습니다. citeturn889803view0turn223313search13\n\n최근 말씀하신 **낮에 깨어 있는 시간과 활동성의 증가**에 더해, 이런 모습도 재활팀에 그대로 전해주세요. “아버지가 가까이 다가가면 끌어안고 뽀뽀한다”고 설명하고, 부탁 없이 먼저 한 것인지도 함께 알려주면 좋겠습니다. 가족이 일상에서 관찰한 구체적인 반응은 의료진이 환자의 상태를 이해하는 데 도움이 됩니다. citeturn889803view0\n\n그리고 그 순간마다 더 많은 반응을 확인하려고 시험할 필요는 없어요. 편안하게 받아주시고 **“아빠도 선진이 사랑해. 안아줘서 정말 좋다”**라고 말해 주세요. 함께하는 시간을 모두 훈련으로 만들기보다, 자연스럽게 교감하고 피곤해하면 쉬게 하는 것도 중요합니다. citeturn889803view0\n\n**앞으로 얼마나 회복할지에 대한 답을 오늘 다 알 수는 없어도, 선진이가 아버지에게 건네는 그 포옹과 뽀뽀는 오늘 충분히 기뻐하셔도 되는 일입니다.**",
+      "textSha256": "sha256:c8243580d093ad90e1e118e11ce31aa96816c5e030da9a027c18809cc574740f",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Vegetative vs. Minimally Conscious States After TBI | MKSTC",
+          "url": "https://msktc.org/tbi/factsheets/facts-about-vegetative-and-minimally-conscious-states-after-severe-brain-injury",
+          "attribution": "MSKTC"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn889803view0",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/facts-about-vegetative-and-minimally-conscious-states-after-severe-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn889803view0turn223313search13",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/facts-about-vegetative-and-minimally-conscious-states-after-severe-brain-injury"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-10-08-medical-2026-09-29-historical-scope",
+      "recordedAt": {
+        "start": "2026-10-08T05:54:34.827+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-b388ae6e-1f3d-43d9-9a13-2d01baf96bc5",
+      "note": "이 게시물은 대화가 이루어진 당시의 질문과 답변을 보존한 이력입니다. 투약·식이·관 사용 상태와 검사 해석을 현재 처방이나 확정 진단으로 사용하지 않습니다. 이후 보호자의 추가 설명·정정이 있으면 함께 읽어야 합니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [],
+  "privacyReviewed": true
+}
