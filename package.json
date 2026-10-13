@@ -7,7 +7,8 @@
     "dev": "astro dev",
     "check": "astro check",
     "test:activities": "node --test tests/activities.test.mjs",
-    "test:archive": "node --test tests/archive-integrity.test.mjs tests/privacy-scan.test.mjs tests/rehab-records.test.mjs",
+    "test:archive": "node --test tests/archive-integrity.test.mjs tests/privacy-scan.test.mjs tests/rehab-records.test.mjs tests/search.test.mjs",
+    "test:search": "node --test tests/search.test.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "new:post": "node scripts/new-post.mjs",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "0.9.6",
+    "linkedom": "0.18.12",
     "typescript": "5.9.3"
   }
 }

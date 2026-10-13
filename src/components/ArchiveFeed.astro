@@ -54,6 +54,13 @@ const months = [...new Set(sortedPosts.map((post) => post.data.recordedAt.start.
 
   <p class="feed-result-status" aria-live="polite" data-result-status></p>
 
+  <section class="search-results" data-search-results hidden aria-label="검색 결과 목록">
+    <h2>검색 결과 <span data-search-count aria-live="polite"></span></h2>
+    <p>결과를 누르면 강조된 위치로 이동합니다. 접힌 답변도 함께 검색합니다.</p>
+    <ol data-search-result-list></ol>
+    <button class="search-results-more" type="button" data-results-more hidden>검색 결과 더 보기</button>
+  </section>
+
   <div class="feed-list" data-feed-list>
     {sortedPosts.map((post) => <PostCard post={post} />)}
   </div>
@@ -70,132 +77,7 @@ const months = [...new Set(sortedPosts.map((post) => post.data.recordedAt.start.
 </section>
 
 <script>
-  const feed = document.querySelector('[data-archive-feed]');
-
-  if (feed instanceof HTMLElement) {
-    const list = feed.querySelector('[data-feed-list]');
-    const cards = Array.from(feed.querySelectorAll('[data-post-card]'));
-    const search = feed.querySelector('[data-feed-search]');
-    const month = feed.querySelector('[data-month-filter]');
-    const hospital = feed.querySelector('[data-hospital-filter]');
-    const phase = feed.querySelector('[data-rehab-phase-filter]');
-    const sortButtons = Array.from(feed.querySelectorAll('[data-sort]'));
-    const loadMore = feed.querySelector('[data-load-more]');
-    const empty = feed.querySelector('[data-feed-empty]');
-    const resultStatus = feed.querySelector('[data-result-status]');
-    const batchSize = 8;
-    let visibleCount = batchSize;
-    let direction = 'desc';
-
-    function filteredCards() {
-      const query = search instanceof HTMLInputElement ? search.value.trim().toLocaleLowerCase('ko-KR') : '';
-      const monthValue = month instanceof HTMLSelectElement ? month.value : 'all';
-      const hospitalValue = hospital instanceof HTMLSelectElement ? hospital.value : 'all';
-      const phaseValue = phase instanceof HTMLSelectElement ? phase.value : 'all';
-      return cards
-        .filter((card) => {
-          if (!(card instanceof HTMLElement)) return false;
-          const matchesQuery = !query || (card.textContent ?? '').toLocaleLowerCase('ko-KR').includes(query);
-          const matchesMonth = monthValue === 'all' || card.dataset.month === monthValue;
-          const matchesHospital = hospitalValue === 'all' || (card.dataset.hospitals ?? '').split(' ').includes(hospitalValue);
-          const matchesPhase = phaseValue === 'all' || (card.dataset.rehabPhases ?? '').split(' ').includes(phaseValue);
-          return matchesQuery && matchesMonth && matchesHospital && matchesPhase;
-        })
-        .sort((a, b) => {
-          if (!(a instanceof HTMLElement) || !(b instanceof HTMLElement)) return 0;
-          const result = (a.dataset.recordedAt ?? '').localeCompare(b.dataset.recordedAt ?? '');
-          return direction === 'desc' ? -result : result;
-        });
-    }
-
-    function renderFeed() {
-      const filtered = filteredCards();
-      cards.forEach((card) => {
-        if (card instanceof HTMLElement) card.hidden = true;
-      });
-      filtered.forEach((card) => list?.append(card));
-      filtered.slice(0, visibleCount).forEach((card) => {
-        if (card instanceof HTMLElement) card.hidden = false;
-      });
-
-      if (empty instanceof HTMLElement) empty.hidden = filtered.length !== 0;
-      if (loadMore instanceof HTMLButtonElement) {
-        loadMore.hidden = filtered.length <= visibleCount;
-        loadMore.firstChild && (loadMore.firstChild.textContent = direction === 'desc' ? ' 이전 기록 더 보기 ' : ' 다음 기록 더 보기 ');
-      }
-      if (resultStatus instanceof HTMLElement) {
-        resultStatus.textContent = filtered.length
-          ? `${filtered.length}개 중 ${Math.min(visibleCount, filtered.length)}개 기록 표시`
-          : '표시할 기록 없음';
-      }
-    }
-
-    function resetAndRender() {
-      visibleCount = batchSize;
-      renderFeed();
-      if (hospital instanceof HTMLSelectElement && phase instanceof HTMLSelectElement) {
-        const url = new URL(window.location.href);
-        for (const [control, key] of [[hospital, 'hospital'], [phase, 'phase']] as const) {
-          if (control.value === 'all') url.searchParams.delete(key);
-          else url.searchParams.set(key, control.value);
-        }
-        window.history.replaceState(null, '', url);
-      }
-    }
-
-    search?.addEventListener('input', resetAndRender);
-    month?.addEventListener('change', resetAndRender);
-    hospital?.addEventListener('change', resetAndRender);
-    phase?.addEventListener('change', resetAndRender);
-    feed.querySelector('[data-feed-reset]')?.addEventListener('click', () => {
-      if (search instanceof HTMLInputElement) search.value = '';
-      for (const select of [month, hospital, phase]) if (select instanceof HTMLSelectElement) select.value = 'all';
-      resetAndRender();
-    });
-    sortButtons.forEach((button) => {
-      button.addEventListener('click', () => {
-        if (!(button instanceof HTMLButtonElement)) return;
-        direction = button.dataset.sort === 'asc' ? 'asc' : 'desc';
-        sortButtons.forEach((item) => {
-          if (item instanceof HTMLButtonElement) {
-            const active = item === button;
-            item.classList.toggle('active', active);
-            item.setAttribute('aria-pressed', String(active));
-          }
-        });
-        resetAndRender();
-      });
-    });
-    loadMore?.addEventListener('click', () => {
-      visibleCount += batchSize;
-      renderFeed();
-    });
-
-    if (loadMore instanceof HTMLButtonElement && 'IntersectionObserver' in window) {
-      const infiniteScroll = new IntersectionObserver(
-        (entries) => {
-          if (entries.some((entry) => entry.isIntersecting) && !loadMore.hidden) {
-            visibleCount += batchSize;
-            renderFeed();
-          }
-        },
-        { rootMargin: '0px 0px 480px 0px' },
-      );
-      infiniteScroll.observe(loadMore);
-    }
-
-    // A hospital link remains shareable and the source post is kept complete.
-    const params = new URLSearchParams(window.location.search);
-    for (const [control, key] of [[hospital, 'hospital'], [phase, 'phase']] as const) {
-      const requested = params.get(key);
-      if (control instanceof HTMLSelectElement && requested && Array.from(control.options).some(o => o.value === requested)) control.value = requested;
-    }
-    const targetId = decodeURIComponent(window.location.hash.replace('#', ''));
-    if (targetId) {
-      const targetIndex = cards.findIndex((card) => card.id === targetId);
-      if (targetIndex >= 0) visibleCount = Math.max(visibleCount, targetIndex + 1);
-    }
-    renderFeed();
-    if (targetId) document.getElementById(targetId)?.scrollIntoView({ block: 'center' });
-  }
+  import { initializeArchiveFeed } from '../lib/archive-feed';
+  const feed = document.querySelector<HTMLElement>('[data-archive-feed]');
+  if (feed) initializeArchiveFeed(feed);
 </script>
