@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-10-13-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 10월 13일 의학지식 문의 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-10-13",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-10-16T09:22:34.783+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학지식 문의",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 2 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-bef1a7cc-ca6c-4269-a753-e2c8bd22ec21",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-13T11:11:28.952025+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "bef1a7cc-ca6c-4269-a753-e2c8bd22ec21",
+      "sourceOrdinal": 77,
+      "turnId": "99b7bee7-4269-4c36-ba42-3acfee4f8a54",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "선진이 자주 하품하는 이유가 뭐라고했지?",
+      "originalSha256": "sha256:a23d41e6518b06dbf9290991d9477cba4d8b8609772eb2de888c2e1ab4e3449c",
+      "corrected": "선진이 자주 하품하는 이유가 뭐라고 했지?",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 의료진 설명과 투약·검사 내용은 보호자에게 전달된 기록이며, 원본 결과지나 처방전을 직접 확인한 기록과 구분합니다."
+    },
+    {
+      "id": "message-03f5ef95-3fee-4678-b417-d43050d4a4b5",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-13T11:15:18.931824+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "03f5ef95-3fee-4678-b417-d43050d4a4b5",
+      "sourceOrdinal": 78,
+      "turnId": "99b7bee7-4269-4c36-ba42-3acfee4f8a54",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **제가 주된 가능성으로 설명드린 것은 ‘뇌손상 후 인지·신체 피로’였습니다.** 여기에 **수면·각성 조절의 변화, 약물, 감염과 섭취 부족**이 겹칠 수 있다고 말씀드렸습니다. 원인이 하나로 확진된 것은 아닙니다. citeturn642116view1turn307880view0\n\n## 선진이의 관찰과 가장 잘 맞았던 것은 ‘활동 후 피로’입니다\n\n아버지가 말씀하셨던 패턴이 **“놀이·도형 맞추기·앉기 → 반복 하품과 집중 저하 → 쉬면 반응이 어느 정도 돌아옴”**이었지요.\n\n뇌손상 후에는 같은 일을 하는 데 더 많은 집중과 노력이 필요해 빨리 지칠 수 있습니다. 소아 뇌손상 재활 자료에서도 **잦은 하품, 졸림, 지시를 따라가기 어려워짐**을 인지 피로의 신호로 설명합니다. **할 수 있는 능력과, 그 능력을 오래 유지하는 지구력은 별개**라는 뜻입니다. citeturn642116view0turn642116view1\n\n## 함께 영향을 줄 수 있다고 말씀드린 요인들\n\n| 요인 | 선진이에게 연결해서 설명드린 내용 |\n|---|---|\n| **신체 지구력 저하** | 오래 누워 지냈고 몸통·다리 힘이 약해져, 앉거나 이동하는 것 자체가 큰 부담일 수 있습니다. 인지 피로와 신체 피로가 함께 나타날 수 있습니다. citeturn307880view0 |\n| **수면·각성 조절의 변화** | 뇌손상 후에는 잠이 늘거나 낮의 각성이 불안정해질 수 있습니다. 사고 전 아침잠이 많았던 성향도 배경이지만, 지금의 활동 후 처짐을 그것만으로 설명할 수는 없습니다. citeturn642116view2 |\n| **약물성 졸림** | **쿠에타핀 중단 후 이틀 만에 낮의 각성과 활동성이 늘었다**고 하셨습니다. 이는 이전 졸림에 약물 영향이 겹쳤을 가능성을 뒷받침합니다. 중단한 약을 현재 하품의 원인으로 계속 단정하는 것은 아닙니다. citeturn642116view3 |\n| **감염·전신 상태** | 최근 발열과 감염 치료, 구토와 섭취 부족도 피로를 더할 수 있어, 뇌손상만이 아니라 감염·영양·수면 상태를 함께 봐야 한다고 말씀드렸습니다. citeturn642116view1turn307880view0 |\n\n**하품 자체를 ‘뇌가 잘 회복되고 있다는 증거’로 해석하지는 않았습니다.** 오히려 **하품과 집중 저하가 함께 나타나면 잠시 활동을 멈출 신호**로 보고, 회복은 *같은 활동을 더 오래 편안하게 하는지, 쉬고 난 뒤 반응이 더 안정적으로 유지되는지*로 관찰하자고 말씀드렸습니다. citeturn642116view0turn307880view0\n\n다만 **평소보다 깨우기 어렵거나, 쉬어도 익숙한 반응이 돌아오지 않거나, 새롭게 힘이 빠지고 호흡이 이상해지는 변화**는 단순 피로로 넘기지 말고 즉시 간호사에게 알려야 합니다. citeturn642116view4",
+      "textSha256": "sha256:13d98a1809358fdc0b7f698f246e0f84401e4dd3b8d7573bfd3b2e95cbe0f527",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Kids Health Info : Brain injury - Cognitive fatigue",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/",
+          "attribution": "Royal Children's Hospital"
+        },
+        {
+          "title": "Brain Injury - Mental Fatigue | KidsHealth New Zealand's Trusted Voice On Children's Health",
+          "url": "https://www.kidshealth.org.nz/brain-injury/brain-injury-mental-fatigue",
+          "attribution": "kidshealth.org.nz"
+        },
+        {
+          "title": "Fatigue After Traumatic Brain Injury (TBI) | MSKTC",
+          "url": "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury",
+          "attribution": "msktc.org"
+        },
+        {
+          "title": "Sleep Problems After Traumatic Brain Injury (TBI) | MSKTC",
+          "url": "https://msktc.org/tbi/factsheets/sleep-and-traumatic-brain-injury",
+          "attribution": "msktc.org"
+        },
+        {
+          "title": "Quetiapine: medicine to treat schizophrenia, bipolar disorder and severe depression - NHS",
+          "url": "https://www.nhs.uk/medicines/quetiapine/",
+          "attribution": "nhs.uk"
+        },
+        {
+          "title": "Clinical Practice Guidelines : Altered conscious state",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/",
+          "attribution": "Royal Children's Hospital"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn642116view1turn307880view0",
+          "urls": [
+            "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/"
+          ]
+        },
+        {
+          "marker": "citeturn642116view0turn642116view1",
+          "urls": [
+            "https://www.kidshealth.org.nz/brain-injury/brain-injury-mental-fatigue"
+          ]
+        },
+        {
+          "marker": "citeturn307880view0",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/fatigue-and-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn642116view2",
+          "urls": [
+            "https://msktc.org/tbi/factsheets/sleep-and-traumatic-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn642116view3",
+          "urls": [
+            "https://www.nhs.uk/medicines/quetiapine/"
+          ]
+        },
+        {
+          "marker": "citeturn642116view0turn307880view0",
+          "urls": [
+            "https://www.kidshealth.org.nz/brain-injury/brain-injury-mental-fatigue"
+          ]
+        },
+        {
+          "marker": "citeturn642116view4",
+          "urls": [
+            "https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-10-16-medical-2026-10-13-historical-scope",
+      "recordedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-bef1a7cc-ca6c-4269-a753-e2c8bd22ec21",
+      "note": "이 게시물은 대화 당시의 전체 질문과 답변을 보존한 이력입니다. 보호자 관찰·의료진 설명의 전달·GPT 해석을 구분하며, 당시 답변을 현재 처방이나 확정 진단으로 표시하지 않습니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [
+    "medical/2026-10-11"
+  ],
+  "privacyReviewed": true
+}

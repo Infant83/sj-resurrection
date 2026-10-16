@@ -6,6 +6,7 @@ import { assertArchiveIntegrity, isPublicPost } from '../../lib/archive';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import RehabDaily from '../../components/RehabDaily.astro';
 import RehabJourney from '../../components/RehabJourney.astro';
+import { withBase } from '../../lib/archive';
 
 export function getStaticPaths() {
   return boards.map((board) => ({ params: { board: board.id } }));
@@ -31,6 +32,7 @@ const posts = allPosts.filter(({ data }) => isPublicPost(data) && data.board ===
     </div>
   </section>
 
+  {boardId === 'rehabilitation' && <a class="rehab-calendar-link" href={withBase('board/rehab-care/#rehab-calendar')}>재활·외래 통합 달력 보기 ↗</a>}
   {boardId === 'rehabilitation' && <RehabDaily />}
   {boardId === 'rehab-care' && <RehabJourney posts={posts} />}
 
@@ -46,3 +48,7 @@ const posts = allPosts.filter(({ data }) => isPublicPost(data) && data.board ===
     )
   }
 </BaseLayout>
+
+<style>
+  .rehab-calendar-link { display: block; margin: 0 0 24px; padding: 14px 18px; min-height: 48px; border: 1px solid #cadcd4; border-radius: 12px; background: #eaf2ec; color: #2e675e; font-weight: 650; text-decoration: none; }
+</style>

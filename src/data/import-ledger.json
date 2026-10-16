@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "timezone": "Asia/Seoul",
-  "lastUpdated": "2026-10-07",
+  "lastUpdated": "2026-10-16",
   "historyPolicy": {
     "mode": "retain-existing-commits",
     "decidedAt": "2026-08-31",
@@ -20,7 +20,7 @@
   },
   "boards": {
     "trauma": {
-      "status": "published-through-2026-10-07",
+      "status": "published-through-2026-10-16",
       "sourceThreads": [
         "중증 외상 예후 분석",
         "중증 외상 예후 분석 (phase2)",
@@ -43,7 +43,7 @@
       "sourceRequirement": "confirmed-chatgpt-shared-conversation-snapshot"
     },
     "medical": {
-      "status": "published-through-2026-10-07",
+      "status": "published-through-2026-10-16",
       "sourceThreads": [
         "의학지식 문의",
         "의학지식 문의 2"
@@ -65,36 +65,38 @@
       "sourceThreads": []
     },
     "rehab-care": {
-      "status": "published-through-2026-09-30",
+      "status": "published-through-2026-10-16",
       "sourceThreads": [
-        "재활진료 경과정리"
+        "재활진료 경과정리",
+        "간병기록 정리 (phase 5; 한양대)",
+        "재활 일정 안내"
       ]
     }
   },
   "imports": [
     {
-      "id": "trauma-public-archive-2026-10-07",
+      "id": "trauma-public-archive-2026-10-16",
       "board": "trauma",
-      "throughDate": "2026-10-07",
+      "throughDate": "2026-10-16",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
       "selection": {
-        "publishedPostCount": 68,
-        "publishedMessageCount": 486,
-        "publishedUserMessageCount": 172,
-        "publishedAssistantMessageCount": 314,
+        "publishedPostCount": 70,
+        "publishedMessageCount": 492,
+        "publishedUserMessageCount": 174,
+        "publishedAssistantMessageCount": 318,
         "correctedUserMessageCount": 79,
-        "privacyRedactedMessageCount": 34,
+        "privacyRedactedMessageCount": 36,
         "sourceKindCounts": {
-          "conversation-message": 485,
+          "conversation-message": 491,
           "embedded-app-report": 1
         },
         "withheldIncompleteExchangeCount": 1,
         "withheldSensitiveTurnMessageCount": 6,
-        "publishedContentSha256": "661d728df37178c7d2084a103c641d2f33b8e39e8f897bed6a9ebfd993dfc164"
+        "publishedContentSha256": "c36a8adfed60c9fa0ba0f92eff60c641374f5e9a771f0ae0a60b0a6ffdb64a77"
       },
       "posts": [
         "trauma-2026-07-26-conversation",
@@ -164,7 +166,9 @@
         "trauma-2026-10-03-conversation",
         "trauma-2026-10-04-conversation",
         "trauma-2026-10-06-conversation",
-        "trauma-2026-10-07-conversation"
+        "trauma-2026-10-07-conversation",
+        "trauma-2026-10-12-conversation",
+        "trauma-2026-10-16-conversation"
       ]
     },
     {
@@ -217,23 +221,23 @@
       ]
     },
     {
-      "id": "medical-public-archive-2026-10-07",
+      "id": "medical-public-archive-2026-10-16",
       "board": "medical",
-      "throughDate": "2026-10-07",
+      "throughDate": "2026-10-16",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
       "selection": {
-        "publishedPostCount": 32,
-        "publishedMessageCount": 179,
-        "publishedUserMessageCount": 83,
-        "publishedAssistantMessageCount": 96,
-        "correctedUserMessageCount": 54,
+        "publishedPostCount": 37,
+        "publishedMessageCount": 211,
+        "publishedUserMessageCount": 99,
+        "publishedAssistantMessageCount": 112,
+        "correctedUserMessageCount": 68,
         "privacyRedactedMessageCount": 14,
         "sourceKindCounts": {
-          "conversation-message": 166,
+          "conversation-message": 198,
           "embedded-app-report": 1,
           "voice-transcript": 12
         },
@@ -241,7 +245,7 @@
         "withheldIncompleteExchangeCount": 1,
         "withheldIncompleteMessageCount": 2,
         "excludedHiddenOrRedactedRecordCount": 12,
-        "publishedContentSha256": "893965ec55433757d6cd170d7bda8522caa865a71b1d5fc0c8963fb0fdb169ca"
+        "publishedContentSha256": "693708e45c078dd7bd1f16cff5b4f202d291755ef415a59e5df3e4a304b6bdc2"
       },
       "posts": [
         "medical-2026-08-01-conversation",
@@ -275,7 +279,12 @@
         "medical-2026-10-01-conversation",
         "medical-2026-10-05-conversation",
         "medical-2026-10-06-conversation",
-        "medical-2026-10-07-conversation"
+        "medical-2026-10-07-conversation",
+        "medical-2026-10-11-conversation",
+        "medical-2026-10-12-conversation",
+        "medical-2026-10-13-conversation",
+        "medical-2026-10-15-conversation",
+        "medical-2026-10-16-conversation"
       ]
     },
     {
@@ -313,28 +322,31 @@
       ]
     },
     {
-      "id": "rehab-care-public-archive-2026-09-30",
+      "id": "rehab-care-public-archive-2026-10-16",
       "board": "rehab-care",
-      "throughDate": "2026-09-30",
+      "throughDate": "2026-10-16",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
       "selection": {
-        "publishedPostCount": 1,
-        "publishedMessageCount": 5,
-        "publishedUserMessageCount": 1,
-        "publishedAssistantMessageCount": 4,
+        "publishedPostCount": 4,
+        "publishedMessageCount": 29,
+        "publishedUserMessageCount": 11,
+        "publishedAssistantMessageCount": 18,
         "correctedUserMessageCount": 1,
-        "privacyRedactedMessageCount": 1,
+        "privacyRedactedMessageCount": 6,
         "sourceKindCounts": {
-          "conversation-message": 5
+          "conversation-message": 29
         },
-        "publishedContentSha256": "70c3f437db9a7979e401296b9eb0c45d28501a9867a9b40bb777247754f18525"
+        "publishedContentSha256": "6d834a3002d84168493b59be7be21b528e09134ddcddea75154be87895b701dd"
       },
       "posts": [
-        "rehab-care-2026-09-30-conversation"
+        "rehab-care-2026-09-30-conversation",
+        "rehab-care-2026-10-13-conversation",
+        "rehab-care-2026-10-14-conversation",
+        "rehab-care-2026-10-16-conversation"
       ]
     }
   ]

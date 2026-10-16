@@ -3,6 +3,7 @@ export const rehabHospitals = [
   { id: 'hanyang', label: '한양대학교병원' },
   { id: 'asan', label: '서울아산병원' },
   { id: 'severance', label: '세브란스병원' },
+  { id: 'rehat', label: '의정부 리하트병원' },
 ] as const;
 
 export const rehabPhases = [

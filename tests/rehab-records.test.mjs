@@ -16,7 +16,10 @@ test('published rehabilitation records require hospital and stage labels', () =>
 
 test('every hospital booking links to existing reviewed source messages', () => {
   const data=JSON.parse(fs.readFileSync(new URL('../src/data/rehab-hospitals.json', import.meta.url), 'utf8'));
-  assert.deepEqual(data.hospitals.map(h=>h.id).sort(),rehabHospitals.map(h=>h.id).sort());
+  // A hospital may be discussed for a future transfer before any dated booking exists.
+  const bookedIds=data.hospitals.map(h=>h.id);
+  assert.equal(new Set(bookedIds).size,bookedIds.length);
+  assert.ok(bookedIds.every(id=>rehabHospitals.some(h=>h.id===id)));
   for (const h of data.hospitals) {
     assert.ok(h.sources.length>0);
     let caregiverSources=0;

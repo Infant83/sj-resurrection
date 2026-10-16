@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-10-16-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 10월 16일 의학지식 문의 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-10-16",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-10-16T09:22:34.783+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학지식 문의",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 2 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-cdab2499-af25-4f1b-afde-4c33b00aee06",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-16T09:09:00.349397+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "cdab2499-af25-4f1b-afde-4c33b00aee06",
+      "sourceOrdinal": 87,
+      "turnId": "a47282e0-caef-4967-8910-7be7e6b6944c",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "잘 삼키긴 했어 캡슐을 씹어터뜨리긴 했지만",
+      "originalSha256": "sha256:7c893290a2fc2d3dd89daf19544dc48214601b2b1f1b89ce5821de4f3f9e28b4",
+      "corrected": "잘 삼키긴 했어 캡슐을 씹어 터뜨리긴 했지만",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 의료진 설명과 투약·검사 내용은 보호자에게 전달된 기록이며, 원본 결과지나 처방전을 직접 확인한 기록과 구분합니다."
+    },
+    {
+      "id": "message-d6f85f2b-87f3-4136-8da1-01993a311d01",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-16T09:11:04.721072+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "d6f85f2b-87f3-4136-8da1-01993a311d01",
+      "sourceOrdinal": 88,
+      "turnId": "a47282e0-caef-4967-8910-7be7e6b6944c",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **잘 삼켰고 이후에도 사레·기침·호흡 변화가 없다면 우선 안심할 만한 점입니다.** 다만 선진이는 삼킴에 어려움이 있었으므로, 겉으로 잘 삼켰다는 것만으로 기도 흡인을 완전히 배제할 수는 없습니다. citeturn346331view2\n\n**앞서 말씀드린 ‘글리아타민 연질캡슐〔콜린알포세레이트 400mg〕’이 맞다면, 처방된 한 캡슐을 씹어 터뜨린 것만으로 과량을 먹은 것은 아닙니다.** 허가정보상 액체를 담은 일반 연질캡슐이며 서방형·장용형으로 표시된 제품은 아니므로, **이번처럼 한 번 터진 채 삼켰다는 이유만으로 위험한 약물 방출이 생겼다고 볼 근거는 없습니다.** 이는 해당 제품의 제형을 근거로 한 판단입니다. citeturn833645view0\n\n**추가 캡슐은 먹이지 마세요.** 일부가 입안에 남았거나 흘렀는지 불확실하더라도 임의로 보충하지 말고, 간호사에게 실제 복용 상황을 알려주면 됩니다. citeturn833645view2\n\n지금은 **새로 지속되는 기침, 그르렁거리는 호흡, 숨쉬기 불편함, 반복 구토**가 생기는지 살펴보고, 나타나면 바로 간호사를 불러주세요. 현재 특별한 변화가 없더라도 “캡슐을 씹어 터뜨렸지만 삼켰다”고 한 번 전달해 두세요. citeturn717430search4\n\n다만 **앞으로도 씹어서 먹여도 된다는 뜻은 아닙니다.** 연질캡슐은 일반적으로 임의 개봉에 적합하지 않습니다. 선진이가 계속 씹는다면 통째로 삼키도록 억지로 시키기보다, **다음 투약 전에 병동 약사에게 정확한 제품을 확인하고 선진이의 연하 상태에 맞는 다른 제형·투여 방법을 정해 달라고 요청**하는 것이 좋겠습니다. citeturn914082search1",
+      "textSha256": "sha256:c9b862999869c723f017f7c75bf15fece12b7545db96633b01ef8e67346336ae",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Silent Aspiration: Symptoms, Causes & Treatment",
+          "url": "https://my.clevelandclinic.org/health/diseases/24271-silent-aspiration",
+          "attribution": "Cleveland Clinic"
+        },
+        {
+          "title": "식품의약품안전처 의약품통합정보시스템 의약품제품정보 상세보기-글리아타민연질캡슐(콜린알포세레이트)",
+          "url": "https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=201310719",
+          "attribution": "Nedrug"
+        },
+        {
+          "title": "Children and Medicine",
+          "url": "https://www.consumermedsafety.org/safety-tips/children-and-medicine",
+          "attribution": "consumermedsafety.org"
+        },
+        {
+          "title": "Dysphagia and Aspiration",
+          "url": "https://www.childrenscolorado.org/conditions-and-advice/conditions-and-symptoms/conditions/aspiration/",
+          "attribution": "childrenscolorado.org"
+        },
+        {
+          "title": "Checking if tablets can be crushed or capsules opened",
+          "url": "https://sps.nhs.uk/articles/checking-if-tablets-can-be-crushed-or-capsules-opened/",
+          "attribution": "sps.nhs.uk"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn346331view2",
+          "urls": [
+            "https://my.clevelandclinic.org/health/diseases/24271-silent-aspiration"
+          ]
+        },
+        {
+          "marker": "citeturn833645view0",
+          "urls": [
+            "https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=201310719"
+          ]
+        },
+        {
+          "marker": "citeturn833645view2",
+          "urls": [
+            "https://www.consumermedsafety.org/safety-tips/children-and-medicine"
+          ]
+        },
+        {
+          "marker": "citeturn717430search4",
+          "urls": [
+            "https://www.childrenscolorado.org/conditions-and-advice/conditions-and-symptoms/conditions/aspiration/"
+          ]
+        },
+        {
+          "marker": "citeturn914082search1",
+          "urls": [
+            "https://sps.nhs.uk/articles/checking-if-tablets-can-be-crushed-or-capsules-opened/"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-10-16-medical-2026-10-16-historical-scope",
+      "recordedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-cdab2499-af25-4f1b-afde-4c33b00aee06",
+      "note": "이 게시물은 대화 당시의 전체 질문과 답변을 보존한 이력입니다. 보호자 관찰·의료진 설명의 전달·GPT 해석을 구분하며, 당시 답변을 현재 처방이나 확정 진단으로 표시하지 않습니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    },
+    {
+      "id": "review-2026-10-16-medical-2026-10-16-capsule-followup",
+      "recordedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-d6f85f2b-87f3-4136-8da1-01993a311d01",
+      "note": "보호자는 캡슐을 씹어 터뜨렸지만 잘 삼켰다고 기록했습니다. 사레·기침·호흡 변화가 없었다는 사실까지 직접 기록한 것은 아니며, GPT 답변의 해당 표현은 조건부 설명으로 읽어야 합니다. ‘글리아타민 400mg’이라는 제품 추정도 앞선 문답과 마찬가지로 원처방 확인 전 상태입니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [
+    "medical/2026-10-15"
+  ],
+  "privacyReviewed": true
+}

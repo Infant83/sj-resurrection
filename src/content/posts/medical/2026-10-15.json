@@ -1,0 +1,583 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-10-15-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 10월 15일 의학지식 문의 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-10-15",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-10-16T09:22:34.783+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학지식 문의",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 2 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-3550fcb2-08c7-46a4-8240-262b61a9f5a4",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-15T11:14:21.141502+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "3550fcb2-08c7-46a4-8240-262b61a9f5a4",
+      "sourceOrdinal": 79,
+      "turnId": "86e67160-591b-4213-9918-cb5b445599a0",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "약은 점심부터 두종 추가, 뇌영양제와 페니드정이라고하는 ADHD 치료제를 경구 투약용으로 줄 것이라고 안내를 받았음. 페니드는 외상성 뇌손상 환자에게도 투약할 수 있다고 안내받음. ",
+      "originalSha256": "sha256:0c7904829bc2eb3d10402ea527eb1dd43c6cdc04b934226ffe4b87594165bd70",
+      "corrected": "약은 점심부터 두 종 추가, 뇌영양제와 페니드정이라고 하는 ADHD 치료제를 경구 투약용으로 줄 것이라고 안내를 받았음. 페니드는 외상성 뇌손상 환자에게도 투약할 수 있다고 안내받음. ",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 의료진 설명과 투약·검사 내용은 보호자에게 전달된 기록이며, 원본 결과지나 처방전을 직접 확인한 기록과 구분합니다."
+    },
+    {
+      "id": "message-efff5da3-95e9-4d28-a6f2-5dfc54ede04d",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-15T11:24:09.776863+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "efff5da3-95e9-4d28-a6f2-5dfc54ede04d",
+      "sourceOrdinal": 80,
+      "turnId": "86e67160-591b-4213-9918-cb5b445599a0",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **페니드정을 외상성 뇌손상 후 주의력·반응 저하를 개선하기 위해 사용하는 것은 실제 재활 진료에서 고려하는 방법입니다.** ADHD 치료제로 알려진 약을 처방받았다고 해서 **선진이에게 ADHD가 진단됐다는 뜻은 아닙니다.** 다만 청소년 뇌손상 환자에서의 효과는 개인차가 있으므로, 무엇을 개선하려는지 정하고 투약 전후를 비교하는 것이 중요합니다. citeturn139833search0turn425488search6\n\n## 1. 페니드는 어떤 목적으로 사용하는 약인가요?\n\n**페니드정의 성분은 메틸페니데이트염산염〔methylphenidate〕**으로, 도파민과 노르아드레날린의 재흡수를 억제하는 중추신경자극제입니다. 국내 제품안내의 허가 적응증은 ADHD와 수면발작이며, **외상성 뇌손상 후 증상을 개선하려는 처방은 허가사항 외 사용**에 해당합니다. 이런 경우에는 담당의가 연구 근거와 환자의 상태를 바탕으로 이득과 위험을 판단합니다. citeturn139833view0turn836844view3turn139833search0\n\n선진이가 그동안 보였던 **짧은 활동 후 하품·집중 저하, 반응을 오래 유지하기 어려운 모습**을 고려하면, 이번 처방은 **깨어 있을 때 주의를 더 안정적으로 유지하고 재활에 참여하도록 돕는 목적**일 가능성이 있습니다. 다만 이것은 제가 관찰 내용을 연결한 해석이고, 실제 목표가 각성인지, 주의력인지, 반응속도인지는 처방의에게 확인해야 합니다.\n\n**‘하품을 없애는 약’이나 ‘손상된 뇌를 직접 재생시키는 약’으로 이해하기보다는, 회복 중인 아이가 주의와 반응을 더 잘 사용할 수 있도록 돕는 약**으로 이해하는 편이 정확합니다. 연구에서 평가한 주된 효과도 주의력과 정보처리 속도 등이며, 모든 인지 기능이나 장기적인 회복을 보장하는 것은 아닙니다. citeturn425488view0turn425488search6\n\n## 2. 외상성 뇌손상에 대한 근거는 있지만, 소아에서는 신중하게 평가합니다\n\n**2026년 미국재활의학회〔ACRM〕 지침은 성인 외상성 뇌손상 환자의 지속적 주의력과 정보처리 속도 개선에 메틸페니데이트를 권고**합니다. 그러나 이 지침은 **성인 대상**이므로 선진이에게 효과나 용량을 그대로 적용할 수는 없습니다. citeturn425488view0\n\n소아·청소년에서도 긍정적인 연구가 있습니다. **6–17세 26명을 대상으로 한 소규모 무작위시험**에서는 주의력 증상이 개선됐지만, 대상은 **손상 후 최소 6개월이 지난 아이들**이었고 서방형 제제를 사용했습니다. 선진이처럼 비교적 초기 회복기에 있는 아이의 반응을 그대로 예측하는 근거는 아닙니다. 소아 입원재활 중 사용한 다기관 보고도 있지만, 어떤 아이에게 가장 도움이 되는지와 최적의 처방 방식은 여전히 더 연구가 필요합니다. citeturn425488search6turn425488view1\n\n따라서 **의료진의 설명에는 근거가 있지만, ‘먹으면 반드시 좋아진다’가 아니라 ‘명확한 목표를 두고 효과와 부작용을 확인하며 사용하는 치료’**로 받아들이시면 좋겠습니다.\n\n## 3. 선진이에게는 무엇이 달라지는지 보면 좋을까요?\n\n**단순히 잠을 덜 자거나 움직임이 많아지는 것보다, 편안하게 깨어 의미 있는 활동에 참여하는지가 중요합니다.** 아래처럼 기존 간병일지에 짧게 덧붙이면 좋겠습니다. 관찰을 위해 일부러 오래 앉히거나 반복해서 시험할 필요는 없습니다.\n\n| 관찰 항목 | 기록할 내용 |\n|---|---|\n| **각성과 주의** | 눈맞춤·익숙한 지시에 대한 반응이 더 안정적으로 유지되는지 |\n| **활동 참여** | 같은 도형놀이·손동작을 할 때 집중이 끊기기까지의 시간과 필요한 도움 |\n| **식사·위장 상태** | 식사량이 줄지 않는지, 메스꺼움·복통·구토가 새로 생기거나 늘어나는지 |\n| **밤잠·행동** | 잠드는 데 더 오래 걸리는지, 안절부절못함·짜증·흥분이 증가하는지 |\n| **혈압·맥박** | 병동에서 투약 전후와 용량 변경 시 확인하는 값 |\n\n이 중 **식욕 감소, 메스꺼움·복통, 불면, 불안, 맥박·혈압 상승**은 알려진 이상반응입니다. 선진이는 이전에 구토와 섭취 부족으로 고생했으므로, 특히 **식사량이 다시 줄지 않는지**를 살펴야 합니다. 장기 복용 시에는 체중과 성장도 추적합니다. citeturn836844view3\n\n앞서 **쿠에타핀을 중단한 뒤 각성과 활동성이 좋아졌다**고 하셨으니, 이번에도 첫 투약일과 실제 투여 시각을 적어두면 비교에 도움이 되겠습니다. 다만 두 약을 함께 시작하고 감염 회복·재활도 진행되는 상황이므로, 변화가 생겼다고 곧바로 어느 한 약의 효과라고 단정하지는 않는 것이 좋습니다.\n\n**깨어 있는 시간이 늘어도 필요한 휴식까지 없어진 것은 아닙니다.** 몸이 기울고 피로해하는데 약을 먹었다는 이유로 활동을 밀어붙이지 말고, 치료사가 참여의 질과 피로를 함께 평가하도록 해주세요. 수면·피로·약물 등 주의력에 영향을 주는 요인을 함께 조정하는 것은 뇌손상 인지재활 지침에서도 강조합니다. citeturn836844search22\n\n## 4. 안전하게 시작하려면 확인할 사항\n\n**1회 몇 mg인지, 하루 몇 번인지, 효과를 언제 재평가할지**를 처방의와 확인하는 것이 우선입니다. 용량과 시간은 임의로 바꾸지 말고, 삼키기 어려워 분쇄가 필요하다면 **병동 약사에게 해당 제형의 투여 방법을 확인**해 주세요. 제품의 함량과 실제 한 번에 먹는 양은 다를 수 있습니다. citeturn139833view0\n\n이전에 다리에 떨림이 있었다는 점도 알려주시면 좋겠습니다. **기존의 떨림과 새로 생기는 틱·불수의운동을 구분**해야 하며, 메틸페니데이트 사용 중에는 틱의 발생·악화를 관찰하도록 안내되어 있습니다. citeturn139833view3\n\n**가슴을 아파하는 모습, 심한 두근거림과 창백함·실신, 새로운 경련이나 심한 흥분·이상행동**이 나타나면 다음 평가일까지 기다리지 말고 즉시 간호사에게 알려주세요. citeturn139833search7\n\n담당의에게는 이렇게 물어보시면 됩니다.\n\n> “페니드로 선진이의 각성, 주의력, 반응속도 중 무엇을 우선 개선하려는 건가요? 시작 용량과 투여 시각, 효과를 평가할 시점은 언제인가요? 식사량과 밤잠에 영향이 생기면 어떻게 조정하나요?”\n\n## 5. ‘뇌영양제’는 정확한 이름을 확인해야 합니다\n\n**‘뇌영양제’라는 설명만으로는 성분과 효과, 부작용, 다른 약과의 상호작용을 판단할 수 없습니다.** 영양 보충제인지 인지기능 관련 처방약인지도 이름을 확인하기 전에는 정할 수 없으므로, 특정 약으로 추정하지 않겠습니다.\n\n**이번 처방에서 기대할 목표는 ‘선진이를 더 오래 깨워두기’가 아니라 ‘편안하게 깨어서 반응하고 재활에 참여하는 시간을 늘리기’입니다.** 약 봉투나 처방내역에서 **두 약의 정확한 이름·함량·1회 복용량·하루 횟수**가 보이도록 사진을 보내주세요.",
+      "textSha256": "sha256:6ef563f5d3d71403da4bcb9a355acde20b04222baa24de9cc0acbdeb9b8e9077",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "The Use of Methylphenidate During Inpatient Rehabilitation ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38709832/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "환인제약",
+          "url": "https://www.whanin.com/_product/view.php?item=109",
+          "attribution": "Whanin"
+        },
+        {
+          "title": "Practice Guideline for Methylphenidate Use in Persons With Traumatic Brain Injury: Report of the American Congress of Rehabilitation Medicine - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41297654/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "Benefits of methylphenidate for long-term attention problems after traumatic brain injury in childhood: A randomized, double-masked, placebo-controlled, dose-titration, crossover trial - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6395577/",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "label",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/010187s094lbl.pdf",
+          "attribution": "Accessdata"
+        },
+        {
+          "title": "INCOG 2.0 Guidelines for Cognitive Rehabilitation... : Journal of Head Trauma Rehabilitation",
+          "url": "https://doi.org/10.1097/htr.0000000000000839",
+          "attribution": "doi.org"
+        },
+        {
+          "title": "페니드정5, 10mg - 사용상의 주의사항 변경 > 제품소식 | 환인제약",
+          "url": "https://www.whanin.com/_commonBase/board.php?bo_table=notice_pchange&wr_id=178",
+          "attribution": "Whanin"
+        },
+        {
+          "title": "Ritalin",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/medguide.cfm?setid=cd83fc91-47a3-4be4-9727-caf9ec0371e8",
+          "attribution": "DailyMed"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn139833search0turn425488search6",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/38709832/"
+          ]
+        },
+        {
+          "marker": "citeturn139833view0turn836844view3turn139833search0",
+          "urls": [
+            "https://www.whanin.com/_product/view.php?item=109"
+          ]
+        },
+        {
+          "marker": "citeturn425488view0turn425488search6",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/41297654/"
+          ]
+        },
+        {
+          "marker": "citeturn425488view0",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/41297654/"
+          ]
+        },
+        {
+          "marker": "citeturn425488search6turn425488view1",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6395577/"
+          ]
+        },
+        {
+          "marker": "citeturn836844view3",
+          "urls": [
+            "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/010187s094lbl.pdf"
+          ]
+        },
+        {
+          "marker": "citeturn836844search22",
+          "urls": [
+            "https://doi.org/10.1097/htr.0000000000000839"
+          ]
+        },
+        {
+          "marker": "citeturn139833view0",
+          "urls": [
+            "https://www.whanin.com/_product/view.php?item=109"
+          ]
+        },
+        {
+          "marker": "citeturn139833view3",
+          "urls": [
+            "https://www.whanin.com/_commonBase/board.php?bo_table=notice_pchange&wr_id=178"
+          ]
+        },
+        {
+          "marker": "citeturn139833search7",
+          "urls": [
+            "https://dailymed.nlm.nih.gov/dailymed/medguide.cfm?setid=cd83fc91-47a3-4be4-9727-caf9ec0371e8"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-cd8f17ad-7092-467b-9951-59d330a4aaca",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-15T11:56:35.327990+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "cd8f17ad-7092-467b-9951-59d330a4aaca",
+      "sourceOrdinal": 81,
+      "turnId": "40cc8cef-3862-42ff-9f8a-a8720113ab2d",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "부작용으뉴어떨따 항상있는 것인가",
+      "originalSha256": "sha256:ea96625c17d19eb1054198df9b1213771df05461afbaff512f7b88015aa23eee",
+      "corrected": "부작용으뉴어떨따 항상 있는 것인가",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 의료진 설명과 투약·검사 내용은 보호자에게 전달된 기록이며, 원본 결과지나 처방전을 직접 확인한 기록과 구분합니다."
+    },
+    {
+      "id": "message-aecdf449-5ca7-4de3-a471-29e0af574372",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-15T12:01:15.327385+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "aecdf449-5ca7-4de3-a471-29e0af574372",
+      "sourceOrdinal": 82,
+      "turnId": "40cc8cef-3862-42ff-9f8a-a8720113ab2d",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "**아니요, 현중님. 페니드〔메틸페니데이트〕의 부작용은 누구에게나 생기는 것도 아니고, 복용하는 내내 계속되는 것도 아닙니다.** 앞서 나열한 것은 *나타날 수 있어서 살펴보는 증상*이지, 선진이에게 모두 발생한다는 뜻은 아닙니다. **효과를 얻으려면 반드시 부작용을 겪어야 하는 것도 아닙니다.** citeturn881130view1\n\n## 어떤 부작용을 주로 살펴보나요?\n\n주로 확인하는 것은 **식욕 감소, 잠들기 어려움, 복통·메스꺼움, 두통, 초조함**입니다. 맥박과 혈압이 올라갈 수도 있습니다. 선진이에게는 아래처럼 투약 전과 비교하면 좋겠습니다. citeturn329029view1turn881130view1\n\n| 살펴볼 부분 | 선진이에게 확인할 변화 |\n|---|---|\n| **식사·구토** | 평소보다 덜 먹거나, 메스꺼움·구토가 새로 생기거나 늘어나는지 |\n| **밤잠** | 낮에 또렷해지는 것과 별개로, 밤에도 잠들지 못하고 뒤척이는지 |\n| **표정·행동** | 편안하게 참여하는 것이 아니라, 안절부절못하거나 짜증·불편한 표정이 뚜렷하게 늘어나는지 |\n| **맥박·혈압** | 병동에서 투약 전후와 용량 변경 때 확인하는 수치가 어떻게 달라지는지 |\n\n**선진이는 최근 구토와 섭취 부족이 있었으므로, 특히 식사량과 구토 변화를 우선해서 보겠습니다.** 새 약을 시작한 뒤 더 못 먹게 된다면 “적응하겠지” 하며 기다리지 말고 그날 의료진에게 알려주세요. 지속적인 구토나 심한 복통, 체중 감소는 처방을 재검토할 이유가 됩니다. citeturn881130view1\n\n## 부작용이 생기면 계속 참아야 하나요?\n\n**그렇지 않습니다.** 일부 가벼운 증상은 적응하면서 줄어들기도 하고, 의료진이 **복용 시간·용량·제형을 조정해 개선**할 수도 있습니다. 반면 지속되거나 일상·재활에 지장을 주면 감량이나 약 변경·중단을 검토해야 합니다. 무조건 일정 기간을 버텨야 하는 치료는 아닙니다. 일반적으로 낮은 용량에서 시작해 반응을 보며 조절하는 이유도 여기에 있습니다. **변경은 보호자가 직접 하지 말고 처방의와 상의해야 합니다.** citeturn881130view1turn881130view2turn329029view1\n\n또한 **첫날 괜찮았다고 이후 관찰이 필요 없는 것은 아닙니다.** 용량이 바뀔 때 다시 살펴보고, 장기간 복용한다면 식욕·체중·성장도 추적합니다. citeturn329029view1\n\n## 드물지만 바로 알려야 하는 증상도 있습니다\n\n**가슴 통증, 실신, 숨쉬기 어려움, 심한 두근거림, 새로 생긴 경련, 심한 흥분이나 환각을 의심할 행동**이 나타나면 즉시 간호사를 불러주세요. 이런 증상은 단순한 적응 과정으로 보고 기다리지 않습니다. 그렇다고 선진이에게 이런 문제가 생길 것으로 예상한다는 뜻은 아닙니다. citeturn881130view1turn329029view1\n\n선진이의 치료 효과는 **“잠을 덜 잔다” 하나만으로 평가하지 말고, “더 편안하게 눈을 맞추고 활동에 참여하면서, 식사와 밤잠은 유지되는가”**를 기준으로 재활팀과 비교하면 좋겠습니다. 깨어 있는 시간은 늘어도 못 먹고 밤잠을 못 자며 괴로워한다면, 좋은 효과만 나타난 것으로 볼 수는 없습니다.\n\n함께 추가된 **‘뇌영양제’는 정확한 이름이 아직 확인되지 않아 그 약의 부작용과 두 약의 상호작용은 별도로 확인해야 합니다.** 지금은 부작용을 미리 겪을 것으로 걱정하기보다, **투약 시각·식사량·밤잠·활동 반응을 짧게 기록하며 선진이에게 이득이 더 큰 처방인지 확인하는 것**이 좋겠습니다.",
+      "textSha256": "sha256:e71785c49647cde276520a0797993dae42d5be58a479eb2316c0618ad5f98f86",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Side effects of methylphenidate for children - NHS",
+          "url": "https://www.nhs.uk/medicines/methylphenidate-children/side-effects-of-methylphenidate-for-children/",
+          "attribution": "nhs.uk"
+        },
+        {
+          "title": "Methylphenidate: MedlinePlus Drug Information",
+          "url": "https://medlineplus.gov/druginfo/meds/a682188.html",
+          "attribution": "MedlinePlus"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn881130view1",
+          "urls": [
+            "https://www.nhs.uk/medicines/methylphenidate-children/side-effects-of-methylphenidate-for-children/"
+          ]
+        },
+        {
+          "marker": "citeturn329029view1turn881130view1",
+          "urls": [
+            "https://medlineplus.gov/druginfo/meds/a682188.html"
+          ]
+        },
+        {
+          "marker": "citeturn881130view1turn881130view2turn329029view1",
+          "urls": [
+            "https://www.nhs.uk/medicines/methylphenidate-children/side-effects-of-methylphenidate-for-children/"
+          ]
+        },
+        {
+          "marker": "citeturn329029view1",
+          "urls": [
+            "https://medlineplus.gov/druginfo/meds/a682188.html"
+          ]
+        },
+        {
+          "marker": "citeturn881130view1turn329029view1",
+          "urls": [
+            "https://www.nhs.uk/medicines/methylphenidate-children/side-effects-of-methylphenidate-for-children/"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-76b2ab38-3bf3-4811-8650-d162ef8f2cba",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-15T15:40:58.321325+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "76b2ab38-3bf3-4811-8650-d162ef8f2cba",
+      "sourceOrdinal": 83,
+      "turnId": "4f198add-782d-48df-baf8-015ff794ae96",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "다른 하나는 글리타민 sc 한캡슐",
+      "originalSha256": "sha256:b6e766e73d6fcc615f5c5d615b61d6e12e789b77a0ee390ff5027dc4d39ea805",
+      "corrected": "다른 하나는 글리타민 sc 한 캡슐",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 의료진 설명과 투약·검사 내용은 보호자에게 전달된 기록이며, 원본 결과지나 처방전을 직접 확인한 기록과 구분합니다."
+    },
+    {
+      "id": "message-0548d549-89d8-422f-aef4-49cd59e706f7",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-15T15:46:21.734756+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "0548d549-89d8-422f-aef4-49cd59e706f7",
+      "sourceOrdinal": 84,
+      "turnId": "4f198add-782d-48df-baf8-015ff794ae96",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **말씀하신 ‘글리타민 SC’는 콜린알포세레이트 성분의 연질캡슐을 뜻하는 것으로 보입니다.** 비슷한 이름인 **‘글리아타민 연질캡슐’은 1캡슐에 콜린알포세레이트 400mg**이 들어 있습니다. 다만 제품명이 비슷하므로, 실제 약 봉투에서 **정확한 이름·성분·함량을 확인하기 전까지는 잠정적인 설명**으로 봐주세요. citeturn723759view2\n\n이 성분이라면 의료진이 말씀하신 **‘뇌영양제’에 해당하는 뇌기능개선제**입니다. 그리고 앞서 부작용을 걱정하셨는데, **이 약도 부작용이 반드시 생기는 것은 아닙니다.** 선진이에게는 특히 **메스꺼움·식사량과 수면·행동 변화**를 살펴보면 좋겠습니다. citeturn723759view2\n\n## 1. 페니드와는 다른 종류의 약입니다\n\n콜린알포세레이트는 **신경전달물질의 원료를 제공해 인지기능 개선을 돕는 목적으로 사용하는 처방약**입니다. 흔히 ‘뇌영양제’라고 설명하지만, 단순한 비타민이나 일반 영양제는 아닙니다. citeturn723759view2\n\n소아·청소년 외상성 뇌손상 후 인지기능 개선을 보고한 연구도 있습니다. 다만 **그 결과를 선진이의 의식·기억·운동 기능이 모두 회복된다는 보장으로 해석할 수는 없습니다.** 선진이에게 어떤 기능을 개선하려는지 정하고 실제 변화를 평가하는 것이 중요합니다. citeturn484879view0\n\n따라서 두 약은 **페니드로 주의력·활동 참여를 돕고, 콜린알포세레이트로 인지기능을 보조하려는 의도**로 함께 처방했을 가능성이 있습니다. 이것은 지금까지의 설명을 연결한 추정이며, 처방의의 정확한 목표는 확인해야 합니다.\n\n## 2. 이 약에서 살펴볼 부작용\n\n콜린알포세레이트의 허가사항에는 다음과 같은 이상반응이 기재되어 있습니다. **목록에 있다는 것은 발생 가능성을 관찰한다는 뜻이지, 선진이에게 나타날 것으로 예상한다는 뜻은 아닙니다.** citeturn723759view2\n\n| 살펴볼 부분 | 알려진 이상반응과 관찰할 변화 |\n|---|---|\n| **위장 상태** | 메스꺼움, 위염·위장 불편. 기존보다 헛구역질이나 구토가 늘고 먹는 양이 줄어드는지 확인합니다. |\n| **수면·각성** | 졸림 또는 불면. 낮에 더 처지거나 밤에 잠들기 어려워지는지 봅니다. |\n| **행동** | 신경질, 적개심, 과도한 움직임. 편안한 활동 참여가 아니라 안절부절못하고 괴로워하는지 구분합니다. |\n\n허가사항에는 **경련도 기재되어 있지만 발생 빈도가 명시돼 있지 않아, 흔하다거나 선진이에게 어느 정도 확률로 생긴다고 말할 수는 없습니다.** 기존에 힘을 줄 때 나타나던 다리 떨림과 달리, **새로운 경련이나 반응이 갑자기 끊기는 모습**이 있으면 바로 간호사에게 알려주세요. citeturn723759view2\n\n**선진이에게 가장 먼저 볼 것은 위장 상태입니다.** 이전부터 구토와 섭취 부족이 있었으므로, 새 약을 시작한 뒤 증상이 더 심해지면 “뇌 회복에 필요한 약이니 참아야 한다”고 생각하지 말고 그날 의료진에게 알려야 합니다. 이 약의 허가사항에서도 구역이 나타날 때 용량 조정을 검토하도록 안내합니다. **조정은 처방의가 결정해야 합니다.** citeturn723759view2\n\n## 3. 두 약을 함께 시작했으니, 변화의 시점을 기록하면 좋겠습니다\n\n페니드에도 **식욕 감소·구역·불면·신경과민** 등이 보고되어 있어, 두 약을 동시에 시작한 뒤 같은 증상이 나타나면 어느 약 때문인지 바로 구분하기 어려울 수 있습니다. 그렇다고 두 약을 함께 먹으면 반드시 문제가 생긴다는 뜻은 아닙니다. citeturn484879search1\n\n기록은 **‘복용 시각 → 식사량·구토 → 깨어 있을 때의 반응 → 밤잠’** 정도면 충분합니다. 아버지가 임의로 한 약씩 빼며 시험하지 말고, 변화가 있으면 의료진이 원인과 조정 방법을 판단하도록 해주세요.\n\n평가 목표는 **“덜 잔다”가 아니라 “더 편안하게 반응하고 참여하면서 식사와 밤잠도 유지된다”**로 잡으면 좋겠습니다.\n\n## 4. 연질캡슐을 안전하게 삼킬 수 있는지도 확인해야 합니다\n\n선진이는 음식이나 약을 삼키기 어려웠던 적이 있으므로, **캡슐을 통째로 안전하게 삼킬 수 있는지**도 중요합니다. 삼키기 힘들다고 보호자가 임의로 캡슐을 터뜨리거나 잘라 내용물을 먹이지는 마세요. 연질캡슐은 일반적으로 임의 개봉에 적합하지 않으며, **다른 제형이나 투여 방법은 병동 약사와 연하재활팀이 확인해야 합니다.** citeturn484879search0turn484879search17\n\n병동에는 이렇게 확인하시면 됩니다.\n\n> “글리타민 SC가 콜린알포세레이트 400mg 연질캡슐이 맞나요? 한 번에 한 캡슐을 하루 몇 번 먹는 처방인지, 선진이에게 어떤 효과를 목표로 쓰는지 궁금합니다. 구토가 있었고 삼키기도 어려웠으니 복용 방법과 위장 부작용도 같이 확인해 주세요.”\n\n**약 이름과 성분이 확인되면, 지금 말씀하신 ‘한 캡슐’에 하루 복용 횟수까지 연결해서 정확하게 정리할 수 있습니다.**",
+      "textSha256": "sha256:01d5d59fab820c8c229e4e692a8f8a5320a9f92eaeeed86a8532c980aa32ddb2",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "글리아타민연질캡슐 | 약학정보원",
+          "url": "https://www.health.kr/searchDrug/result_drug.asp?drug_cd=2013121800005",
+          "attribution": "Health.kr"
+        },
+        {
+          "title": "[Modern approaches to the diagnostics and treatment of the consequences of traumatic brain injury in children and adolescents] - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35758944/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "페니드정5, 10mg - 사용상의 주의사항 변경 > 제품소식",
+          "url": "https://www.whanin.com/_commonBase/board.php?bo_table=notice_pchange&wr_id=178",
+          "attribution": "whanin.com"
+        },
+        {
+          "title": "Checking if tablets can be crushed or capsules opened",
+          "url": "https://sps.nhs.uk/articles/checking-if-tablets-can-be-crushed-or-capsules-opened/",
+          "attribution": "SPS - Specialist Pharmacy Service"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn723759view2",
+          "urls": [
+            "https://www.health.kr/searchDrug/result_drug.asp?drug_cd=2013121800005"
+          ]
+        },
+        {
+          "marker": "citeturn484879view0",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/35758944/"
+          ]
+        },
+        {
+          "marker": "citeturn484879search1",
+          "urls": [
+            "https://www.whanin.com/_commonBase/board.php?bo_table=notice_pchange&wr_id=178"
+          ]
+        },
+        {
+          "marker": "citeturn484879search0turn484879search17",
+          "urls": [
+            "https://sps.nhs.uk/articles/checking-if-tablets-can-be-crushed-or-capsules-opened/"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-b71de1ab-9e0b-4503-92f4-bb96dcbd124e",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-15T16:07:55.853890+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "b71de1ab-9e0b-4503-92f4-bb96dcbd124e",
+      "sourceOrdinal": 85,
+      "turnId": "67c93833-ec56-4667-b605-6aeb16dda071",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "이 약이 살짝 터진 상태에서 섭취되면 어떻게 되. 씹다가..",
+      "originalSha256": "sha256:462d2aa9aa492be36210e5e645e838ed8e1ef9848a6c29d38ca828a50ee42bba",
+      "corrected": "이 약이 살짝 터진 상태에서 섭취되면 어떻게 돼. 씹다가..",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 의료진 설명과 투약·검사 내용은 보호자에게 전달된 기록이며, 원본 결과지나 처방전을 직접 확인한 기록과 구분합니다."
+    },
+    {
+      "id": "message-f8edb1a2-06a5-4229-ab79-fe9073d7c7ab",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-15T16:12:00.256967+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "f8edb1a2-06a5-4229-ab79-fe9073d7c7ab",
+      "sourceOrdinal": 86,
+      "turnId": "67c93833-ec56-4667-b605-6aeb16dda071",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **말씀하신 약이 ‘글리아타민 연질캡슐〔콜린알포세레이트 400mg〕’이 맞다면, 한 캡슐을 씹다가 조금 터뜨린 채 삼켰다는 이유만으로 곧바로 중독이나 큰 부작용이 생긴다고 보지는 않습니다.** 식약처 허가정보상 액체 성분을 담은 연질캡슐이며, 약이 천천히 나오도록 설계한 서방형이나 장에서만 녹는 장용형으로 표시된 제품은 아닙니다. **터졌다고 추가 용량을 먹게 되는 것은 아니라는 뜻입니다.** 다만 정확한 제품명은 병동 약 봉투로 확인해야 합니다. citeturn481438view0turn118649view1\n\n**선진이에게 특히 중요한 것은 ‘캡슐이 터졌는가’보다 ‘내용물과 껍질을 안전하게 삼켰는가’입니다.** 앞서 음식이나 약을 삼키기 어렵고 기침·구토가 있었다고 하셨으므로, 이번 일이 실제로 있었다면 간호사에게 알려 삼킴과 호흡 상태를 확인받으세요. citeturn118649view3\n\n## 이미 씹어서 터진 채 먹었다면\n\n**사레·기침이 계속되거나, 목에서 그르렁거리는 소리가 새로 나고 숨쉬기 불편해 보이면 즉시 간호사를 불러주세요.** 음식·물·약을 더 넣어 넘기게 하지는 마세요. 이런 증상은 내용물이 기도로 들어가는 흡인의 단서가 될 수 있습니다. 반대로 기침 없이 흡인되는 경우도 있어, 아무 반응이 없었다고 안전성을 완전히 확인한 것은 아닙니다. citeturn118649view2\n\n**일부를 뱉거나 흘렸어도 새 캡슐을 추가로 먹이지 마세요.** 얼마나 삼켰는지 불확실한 상태에서 한 캡슐을 더 주면 처방량보다 많이 먹을 수 있습니다. 복용 시각과 뱉은 정도를 간호사에게 전달하고, 재투여 여부를 결정받으면 됩니다. 입안에 남아 있다면 억지로 삼키게 하지 말고 간호사가 확인하도록 해주세요. citeturn481438view1turn118649view3\n\n내용물을 삼킨 뒤 **메스꺼움이나 위장 불편**이 나타날 가능성은 있습니다. 이는 이 약 자체에 알려진 이상반응이며, 반드시 캡슐이 터져서 생기는 것은 아닙니다. 기존보다 구토가 늘면 알려주세요. citeturn481438view0\n\n## 다음부터는 투여 방법을 바꾸는 편이 좋겠습니다\n\n**한 번 우연히 터진 것과, 앞으로 일부러 씹거나 터뜨려 먹이는 것은 다릅니다.** 연질캡슐은 일반적으로 임의 개봉에 적합하지 않고, 내용물이 남거나 흘러 실제 복용량이 불확실해질 수 있습니다. 통째로 삼키기 어렵다면 병동 약사에게 **다른 제형이나 투여 방법으로 바꿀 수 있는지** 확인받으세요. citeturn118649view1\n\n다만 **액체 약으로 바꾸면 무조건 더 안전한 것도 아닙니다.** 묽은 액체를 오히려 삼키기 어려운 환자도 있으므로, 약사와 연하재활팀이 선진이에게 맞는 농도·방법을 함께 정해야 합니다. citeturn481438view2\n\n**터진 뒤 선진이가 사레들리거나 기침·구토를 했나요, 아니면 별다른 변화 없이 삼켰나요?**",
+      "textSha256": "sha256:49048c8403192aad46bdce34fc75a17ca9eb921d9f337df1561eed8a0968c98c",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "식품의약품안전처 의약품통합정보시스템 의약품제품정보 상세보기-글리아타민연질캡슐(콜린알포세레이트)",
+          "url": "https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=201310719",
+          "attribution": "Nedrug"
+        },
+        {
+          "title": "Pediatric Feeding and Swallowing",
+          "url": "https://www.asha.org/practice-portal/clinical-topics/pediatric-feeding-and-swallowing/",
+          "attribution": "ASHA"
+        },
+        {
+          "title": "Aspiration in Children - Stanford Medicine Children's Health",
+          "url": "https://www.stanfordchildrens.org/en/services/aerodigestive/aspiration.html",
+          "attribution": "Stanford Medicine Kinderheilkunde"
+        },
+        {
+          "title": "Frequently Asked Questions - Medicines For Children",
+          "url": "https://www.medicinesforchildren.org.uk/advice-guides/faqs/",
+          "attribution": "medicinesforchildren.org.uk"
+        },
+        {
+          "title": "Checking if tablets can be crushed or capsules opened – NHS SPS - Specialist Pharmacy Service – The first stop for professional medicines advice",
+          "url": "https://sps.nhs.uk/articles/checking-if-tablets-can-be-crushed-or-capsules-opened/",
+          "attribution": "SPS - Specialist Pharmacy Service"
+        },
+        {
+          "title": "Choosing medicines formulations in swallowing difficulties – NHS SPS - Specialist Pharmacy Service – The first stop for professional medicines advice",
+          "url": "https://sps.nhs.uk/articles/choosing-medicines-formulations-in-swallowing-difficulties/",
+          "attribution": "SPS - Specialist Pharmacy Service"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn481438view0turn118649view1",
+          "urls": [
+            "https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=201310719"
+          ]
+        },
+        {
+          "marker": "citeturn118649view3",
+          "urls": [
+            "https://www.asha.org/practice-portal/clinical-topics/pediatric-feeding-and-swallowing/"
+          ]
+        },
+        {
+          "marker": "citeturn118649view2",
+          "urls": [
+            "https://www.stanfordchildrens.org/en/services/aerodigestive/aspiration.html"
+          ]
+        },
+        {
+          "marker": "citeturn481438view1turn118649view3",
+          "urls": [
+            "https://www.medicinesforchildren.org.uk/advice-guides/faqs/"
+          ]
+        },
+        {
+          "marker": "citeturn481438view0",
+          "urls": [
+            "https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=201310719"
+          ]
+        },
+        {
+          "marker": "citeturn118649view1",
+          "urls": [
+            "https://sps.nhs.uk/articles/checking-if-tablets-can-be-crushed-or-capsules-opened/"
+          ]
+        },
+        {
+          "marker": "citeturn481438view2",
+          "urls": [
+            "https://sps.nhs.uk/articles/choosing-medicines-formulations-in-swallowing-difficulties/"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-10-16-medical-2026-10-15-historical-scope",
+      "recordedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-3550fcb2-08c7-46a4-8240-262b61a9f5a4",
+      "note": "이 게시물은 대화 당시의 전체 질문과 답변을 보존한 이력입니다. 보호자 관찰·의료진 설명의 전달·GPT 해석을 구분하며, 당시 답변을 현재 처방이나 확정 진단으로 표시하지 않습니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    },
+    {
+      "id": "review-2026-10-16-medical-2026-10-15-reported-medication",
+      "recordedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-3550fcb2-08c7-46a4-8240-262b61a9f5a4",
+      "note": "두 약을 경구 투약용으로 추가한다는 안내를 보호자가 기록했습니다. ‘페니드정’의 정확한 함량·1회 투약량·횟수 및 실제 투여 시각을 이번 업데이트에서 처방전으로 확인한 것은 아닙니다. GPT의 목적·성분·효과 설명은 당시 분석이며 ADHD 진단이나 회복 효과의 보장을 뜻하지 않습니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    },
+    {
+      "id": "review-2026-10-16-medical-2026-10-15-unconfirmed-product",
+      "recordedAt": {
+        "start": "2026-10-16T09:22:34.783+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-0548d549-89d8-422f-aef4-49cd59e706f7",
+      "note": "보호자 입력은 ‘글리타민 sc 한캡슐’입니다. GPT는 비슷한 이름의 ‘글리아타민 연질캡슐〔콜린알포세레이트 400mg〕’을 조건부로 추정해 설명했습니다. 원문 약명을 임의로 바꾸지 않았으며, 정확한 제품·성분·함량·투여 횟수가 확인된 처방 기록으로 표시하지 않습니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [
+    "medical/2026-10-16"
+  ],
+  "privacyReviewed": true
+}

@@ -30,6 +30,7 @@
 - Every visible GPT commentary/final message in its actual position as an expandable reply
 - Board, conversation date, search, newest/oldest controls
 - Literal keyword/phrase search with highlighted snippets, paged results, and direct jumps to matching text (including collapsed replies); clearing search restores the original view
+- Shared rehabilitation/outpatient calendar with dated caregiver evidence, actual/planned/cancelled states, and separate recurring guidance and undated plans
 - Feed grouping by original conversation time; optional event time stays separate
 - Explicit provenance for medical records, clinician reports, caregiver observations, and GPT interpretation
 - Corrections are appended; original text is not silently overwritten

@@ -1,0 +1,144 @@
+---
+import schedule from '../data/rehab-schedule.json';
+import { withBase } from '../lib/archive';
+import {
+  calendarDateLabel, calendarHospitalLabel, calendarMonthDays, calendarMonthLabel,
+  calendarSourceHref, eventKindLabels, eventStatusLabels, koreanToday, nearestEventDate,
+  orderedDayEvents, type RehabSchedule,
+} from '../lib/rehab-calendar';
+
+interface Props { data?: RehabSchedule }
+const data = Astro.props.data ?? schedule as RehabSchedule;
+const today = koreanToday();
+const selectedDate = nearestEventDate(data.events, today);
+const month = selectedDate.slice(0, 7);
+const dayEvents = orderedDayEvents(data.events, selectedDate);
+const baseUrl = withBase('');
+const serializedData = JSON.stringify(data).replace(/</g, '\\u003c');
+---
+
+<section id="rehab-calendar" class="rehab-calendar" data-rehab-calendar data-base-url={baseUrl} aria-labelledby="rehab-calendar-title">
+  <header class="calendar-heading">
+    <div><p class="calendar-kicker">병원이 바뀌어도 이어지는 일정</p><h2 id="rehab-calendar-title">재활·외래 달력</h2></div>
+    <span class="calendar-updated">{data.updatedAt} 기록 반영</span>
+  </header>
+  <p class="calendar-intro">간병기록에서 확인한 일정입니다. 예정과 시행을 구분하고, 각 일정에서 근거 기록으로 이동할 수 있습니다.</p>
+  <div class="calendar-controls">
+    <button type="button" data-calendar-prev aria-label="이전 달">‹</button>
+    <h3 data-calendar-month aria-live="polite">{calendarMonthLabel(month)}</h3>
+    <button type="button" data-calendar-next aria-label="다음 달">›</button>
+    <button type="button" class="calendar-today" data-calendar-today>오늘</button>
+  </div>
+  <div class="calendar-layout">
+    <div class="calendar-month-panel" aria-label="일정 날짜 선택">
+      <div class="calendar-weekdays" aria-hidden="true">{['일', '월', '화', '수', '목', '금', '토'].map(day => <span>{day}</span>)}</div>
+      <div class="calendar-days" data-calendar-days>
+        {calendarMonthDays(month).map(day => {
+          const count = data.events.filter(event => event.date === day.date).length;
+          return <button type="button" class="calendar-day" data-date={day.date} data-in-month={String(day.inMonth)} aria-pressed={day.date === selectedDate} aria-current={day.date === today ? 'date' : undefined} aria-label={`${calendarDateLabel(day.date)}${day.date === today ? ', 오늘' : ''}, ${count ? `일정 ${count}건` : '등록된 일정 없음'}`}><span class="calendar-day-number">{day.day}</span>{count > 0 && <span class="calendar-day-count">{count}건</span>}</button>;
+        })}
+      </div>
+      <p class="calendar-notice" data-calendar-notice>{selectedDate !== today && !data.events.some(event => event.date === today) ? `오늘(${calendarDateLabel(today)})은 등록된 일정이 없습니다. 가장 가까운 날짜의 기록과 계획을 표시합니다.` : '날짜를 누르면 해당 날짜의 기록과 계획을 볼 수 있습니다.'}</p>
+    </div>
+    <section class="calendar-agenda-panel" aria-labelledby="calendar-selected-date">
+      <h3 id="calendar-selected-date" data-calendar-selected aria-live="polite">{calendarDateLabel(selectedDate)}</h3>
+      <ol class="calendar-agenda" data-calendar-agenda>
+        {dayEvents.map(event => <li id={`rehab-event-${event.id}`} class={`calendar-event calendar-event-${event.status}`}>
+          <div class="calendar-event-top"><time class="calendar-event-time" datetime={event.time ? `${event.date}T${event.time}:00+09:00` : event.date}>{event.time ? `${event.time}${event.endTime ? `–${event.endTime}` : ''}` : '시각 미확인'}</time><span class={`calendar-status calendar-status-${event.status}`}>{eventStatusLabels[event.status]}</span></div>
+          <h4 class="calendar-event-title">{event.title}</h4>
+          <p class="calendar-event-meta">{eventKindLabels[event.kind]} · {calendarHospitalLabel(event.hospitalId)}</p>
+          {event.note && <p class="calendar-event-note">{event.note}</p>}
+          <div class="calendar-event-sources" aria-label="일정의 근거 기록">{event.sourceRefs.map(source => <a class="calendar-source" href={calendarSourceHref(baseUrl, source)}>{source.label} ↗</a>)}</div>
+        </li>)}
+        {!dayEvents.length && <li class="calendar-empty">이 날짜에 등록된 일정이 없습니다.</li>}
+      </ol>
+    </section>
+  </div>
+  {data.ongoingPlans?.length ? <section class="calendar-ongoing" aria-labelledby="calendar-ongoing-title">
+    <h3 id="calendar-ongoing-title">반복 안내 · 범위 확인 필요</h3>
+    <ul>{data.ongoingPlans.map(plan => <li>
+      <strong>{plan.title}{plan.time ? ` · ${plan.time}` : ''}</strong>
+      <p class="calendar-event-meta">{calendarHospitalLabel(plan.hospitalId)} · {plan.effectiveFrom}부터 안내</p>
+      <p class="calendar-event-note">{plan.note}</p>
+      <div class="calendar-event-sources" aria-label="반복 안내의 근거 기록">{plan.sourceRefs.map(source => <a class="calendar-source" href={calendarSourceHref(baseUrl, source)}>{source.label} ↗</a>)}</div>
+    </li>)}</ul>
+  </section> : null}
+  {data.pendingPlans?.length ? <section class="calendar-ongoing" aria-labelledby="calendar-pending-title">
+    <h3 id="calendar-pending-title">날짜 미정 계획</h3>
+    <ul>{data.pendingPlans.map(plan => <li>
+      <strong>{plan.title}</strong>
+      <p class="calendar-event-meta">{calendarHospitalLabel(plan.hospitalId)}</p>
+      <p class="calendar-event-note">{plan.note}</p>
+      <div class="calendar-event-sources" aria-label="날짜 미정 계획의 근거 기록">{plan.sourceRefs.map(source => <a class="calendar-source" href={calendarSourceHref(baseUrl, source)}>{source.label} ↗</a>)}</div>
+    </li>)}</ul>
+  </section> : null}
+  <p class="calendar-footnote">한국시간 기준입니다. 날짜가 지난 예정도 완료로 바꾸지 않으며, 같은 치료를 다음 날에 자동 반복하지 않습니다.</p>
+  <noscript><p>달을 바꾸고 다른 날짜를 선택하려면 자바스크립트를 켜 주세요. 아래 진료 대화에서도 날짜별 기록을 확인할 수 있습니다.</p></noscript>
+  <script is:inline type="application/json" data-calendar-data set:html={serializedData} />
+</section>
+
+<script>
+  import { initializeRehabCalendar } from '../lib/rehab-calendar';
+  document.querySelectorAll<HTMLElement>('[data-rehab-calendar]').forEach(root => initializeRehabCalendar(root));
+</script>
+
+<style is:global>
+  .rehab-calendar { scroll-margin-top: 150px; margin: 0 0 32px; padding: 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; }
+  .calendar-heading { display: flex; align-items: end; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
+  .calendar-kicker { margin: 0 0 6px; color: #2e675e; font-size: .76rem; font-weight: 700; }
+  .calendar-heading h2 { margin: 0; font-size: 1.4rem; letter-spacing: -.03em; line-height: 1.4; }
+  .calendar-updated, .calendar-intro, .calendar-notice, .calendar-footnote { color: var(--ink-soft); font-size: .8rem; }
+  .calendar-intro { margin: 12px 0 18px; }
+  .calendar-controls { display: flex; align-items: center; gap: 8px; margin-bottom: 16px; }
+  .calendar-controls h3 { margin: 0; flex: 1; text-align: center; font-size: 1.12rem; }
+  .calendar-controls button { min-width: 44px; min-height: 44px; padding: 6px 10px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface-soft); color: var(--ink); font-size: 1.4rem; }
+  .calendar-controls .calendar-today { font-size: .85rem; }
+  .calendar-layout { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+  .calendar-month-panel { min-width: 0; overflow-x: auto; }
+  .calendar-weekdays, .calendar-days { display: grid; grid-template-columns: repeat(7, minmax(44px, 1fr)); gap: 2px; }
+  .calendar-weekdays { margin-bottom: 5px; text-align: center; color: var(--ink-soft); font-size: .76rem; }
+  .calendar-weekdays span:first-child { color: #a34742; }
+  .calendar-day { display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 0; min-height: 54px; padding: 4px 0; border: 1px solid transparent; border-radius: 9px; background: transparent; color: var(--ink); line-height: 1.3; }
+  .calendar-day-number { font-size: .9rem; }
+  .calendar-day-count { margin-top: 4px; min-height: 14px; font-size: .65rem; font-weight: 650; color: #2e675e; }
+  .calendar-day[data-in-month="false"] { opacity: .42; }
+  .calendar-day[aria-current="date"] .calendar-day-number { font-weight: 800; text-decoration: underline; text-underline-offset: 4px; }
+  .calendar-day[aria-pressed="true"] { background: #e1efe7; border-color: #548a73; opacity: 1; }
+  .calendar-day:hover { background: #edf4ef; }
+  .calendar-notice { margin: 14px 0 0; line-height: 1.6; }
+  .calendar-agenda-panel { min-width: 0; padding-left: 22px; border-left: 1px solid var(--line); }
+  .calendar-agenda-panel > h3 { margin: 0 0 13px; font-size: .96rem; }
+  .calendar-agenda { padding: 0; margin: 0; list-style: none; }
+  .calendar-event { padding: 0 0 16px; margin: 0 0 16px; border-bottom: 1px solid var(--line); }
+  .calendar-event:last-child { margin-bottom: 0; }
+  .calendar-event-top { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 6px; }
+  .calendar-event-time { font-size: .97rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .calendar-status { display: inline-block; font-size: .68rem; padding: 2px 7px; border-radius: 5px; white-space: nowrap; }
+  .calendar-status-planned { color: #1e597c; background: #e5f0f7; }
+  .calendar-status-completed { color: #275c42; background: #e5f1e8; }
+  .calendar-status-cancelled { color: #6d5c5c; background: #f0eaea; }
+  .calendar-status-tentative { color: #79531e; background: #f9edd5; }
+  .calendar-event-title { margin: 7px 0 3px; font-size: .95rem; line-height: 1.5; }
+  .calendar-event-cancelled .calendar-event-title { text-decoration: line-through; }
+  .calendar-event-meta, .calendar-event-note { margin: 4px 0; font-size: .79rem; color: var(--ink-soft); }
+  .calendar-event-sources { display: flex; flex-wrap: wrap; column-gap: 12px; }
+  .calendar-event-sources a { display: inline-flex; align-items: center; min-height: 44px; padding-block: 5px; font-size: .75rem; color: #2e675e; }
+  .calendar-empty { color: var(--ink-soft); font-size: .85rem; margin: 0; }
+  .calendar-ongoing { padding-top: 17px; margin-top: 20px; border-top: 1px solid var(--line); }
+  .calendar-ongoing h3 { margin: 0 0 10px; font-size: .89rem; }
+  .calendar-ongoing ul { list-style: none; padding: 0; margin: 0; }
+  .calendar-ongoing li + li { margin-top: 14px; }
+  .calendar-ongoing strong { font-size: .85rem; }
+  .calendar-footnote { border-top: 1px solid var(--line); padding-top: 14px; margin: 18px 0 0; font-size: .74rem; }
+  @media (max-width: 650px) {
+    .rehab-calendar { padding: 18px 14px; }
+    .calendar-layout { grid-template-columns: 1fr; gap: 20px; }
+    .calendar-agenda-panel { padding: 18px 0 0; border-left: 0; border-top: 1px solid var(--line); }
+    .calendar-day { min-height: 55px; }
+    .calendar-controls { gap: 6px; }
+  }
+  @media (max-width: 380px) {
+    .rehab-calendar { padding-inline: 8px; }
+    .calendar-weekdays, .calendar-days { gap: 0; }
+  }
+</style>

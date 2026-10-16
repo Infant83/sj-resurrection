@@ -1,0 +1,726 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-16",
+  "events": [
+    {
+      "id": "hanyang-20261002-outpatient",
+      "date": "2026-10-02",
+      "time": "13:30",
+      "title": "재활의학과 외래·입원 상담",
+      "hospitalId": "hanyang",
+      "kind": "outpatient",
+      "status": "completed",
+      "note": "보호자가 옮긴 외출·진료 기록이며 정확한 시각은 13:30경으로 적었습니다.",
+      "sourceRefs": [
+        {
+          "postId": "trauma/2026-10-03",
+          "messageId": "message-42e9ba05-e31b-48ee-b6d9-f116c59fcdc2",
+          "label": "10/2 진료 · 10/3 입력"
+        }
+      ]
+    },
+    {
+      "id": "nrc-20261007-outpatient",
+      "date": "2026-10-07",
+      "time": "14:00",
+      "title": "국립재활원 대리진료·입원 상담",
+      "hospitalId": "nrc",
+      "kind": "outpatient",
+      "status": "completed",
+      "note": "보호자가 입원장 발급·CD 등록을 위해 대리진료를 다녀왔다고 기록했습니다. 기관절개관 관리에 따른 집중치료실 대기와 관 상태 변화 후 일반·소아 병실 재검토를 안내받았으며, 실제 입원일은 미확정입니다.",
+      "sourceRefs": [
+        {
+          "label": "10/7 국립재활원 상담·운동치료 기록",
+          "postId": "trauma/2026-10-07",
+          "messageId": "message-c4abc1d7-87a7-4bef-98b1-62ee5b1b660e"
+        },
+        {
+          "label": "9/30 진료 준비 원문",
+          "postId": "rehab-care/2026-09-30",
+          "messageId": "message-b078b79a-0a39-4d3e-90d7-79b811435eee"
+        }
+      ]
+    },
+    {
+      "id": "asan-20261007-outpatient",
+      "date": "2026-10-07",
+      "time": null,
+      "title": "아산병원 재활의학과 외래",
+      "hospitalId": "asan",
+      "kind": "outpatient",
+      "status": "cancelled",
+      "note": "10월 2일 전원 대화에서 차승우 교수 외래를 취소하는 방향을 검토했고, 10월 6일 간병일기에 취소 완료로 기록했습니다. 과거 고은재 교수·10시 10분 예약 기록과 구분하며, 예약 변경 시각은 미확인입니다.",
+      "sourceRefs": [
+        {
+          "label": "10/6 아산 외래 취소 기록",
+          "postId": "trauma/2026-10-06",
+          "messageId": "message-8784f9c0-809e-48ab-9780-ec41fe569231"
+        },
+        {
+          "label": "10/2 병원 선택·취소 검토",
+          "postId": "rehabilitation/2026-10-02",
+          "messageId": "message-328716a2-8412-49a8-a2e1-3e88f1b2e381"
+        }
+      ]
+    },
+    {
+      "id": "stmary-20261008-rehab1500",
+      "date": "2026-10-08",
+      "time": "15:00",
+      "title": "재활운동·걷기 연습",
+      "hospitalId": "stmary",
+      "kind": "rehabilitation",
+      "status": "completed",
+      "note": "일지의 최초 날짜 오기는 10월 16일 보호자가 10월 8일로 정정했습니다.",
+      "sourceRefs": [
+        {
+          "postId": "trauma/2026-10-12",
+          "messageId": "message-b23f9946-e2ca-4f3d-aee8-90b20c213147",
+          "label": "성모 간병 기록 · 10/12 입력"
+        },
+        {
+          "postId": "trauma/2026-10-16",
+          "messageId": "message-58668737-3c74-4bea-b354-9514b61884d2",
+          "label": "10/16 날짜 정정"
+        }
+      ]
+    },
+    {
+      "id": "stmary-20261010-cycle-plan",
+      "date": "2026-10-10",
+      "time": null,
+      "title": "자전거 운동 안내",
+      "hospitalId": "stmary",
+      "kind": "rehabilitation",
+      "status": "planned",
+      "note": "10월 8일 기록의 ‘토요일에 자전거 운동도 한다’는 예정 안내입니다. 실제 시행과 시각은 미확인입니다.",
+      "sourceRefs": [
+        {
+          "postId": "trauma/2026-10-12",
+          "messageId": "message-b23f9946-e2ca-4f3d-aee8-90b20c213147",
+          "label": "성모 간병 기록 · 10/12 입력"
+        },
+        {
+          "postId": "trauma/2026-10-16",
+          "messageId": "message-58668737-3c74-4bea-b354-9514b61884d2",
+          "label": "10/16 날짜 정정"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-admitted-20261012",
+      "date": "2026-10-12",
+      "time": null,
+      "title": "성모 → 한양대 재활의학과 전원·입원",
+      "hospitalId": "hanyang",
+      "kind": "transfer",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-13",
+          "messageId": "message-1fb45835-96f8-4fbb-83fe-acd8a344df16",
+          "label": "10/13 입원 보고"
+        }
+      ],
+      "note": "전원일 10월 12일은 이번 업데이트 요청에서 보호자가 명시했습니다. 공유 대화는 10월 13일 입원 보고부터 확인되며, 12일 독립 일지 전문을 복원한 항목은 아닙니다."
+    },
+    {
+      "id": "hanyang-20261013-ecg0840",
+      "date": "2026-10-13",
+      "time": "08:40",
+      "title": "심전도검사",
+      "hospitalId": "hanyang",
+      "kind": "assessment",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-13",
+          "messageId": "message-179993dd-449c-4d69-841c-031dc73eeaea",
+          "label": "10/13 간병 기록"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-20261013-xray0850",
+      "date": "2026-10-13",
+      "time": "08:50",
+      "title": "목·가슴 엑스레이",
+      "hospitalId": "hanyang",
+      "kind": "assessment",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-13",
+          "messageId": "message-179993dd-449c-4d69-841c-031dc73eeaea",
+          "label": "10/13 간병 기록"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-20261013-ct1115",
+      "date": "2026-10-13",
+      "time": "11:15",
+      "title": "뇌 CT",
+      "hospitalId": "hanyang",
+      "kind": "assessment",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-13",
+          "messageId": "message-179993dd-449c-4d69-841c-031dc73eeaea",
+          "label": "10/13 간병 기록"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-20261013-ot1130",
+      "date": "2026-10-13",
+      "time": "11:30",
+      "title": "소아작업치료·악력·시지각 초기 평가",
+      "hospitalId": "hanyang",
+      "kind": "assessment",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-13",
+          "messageId": "message-179993dd-449c-4d69-841c-031dc73eeaea",
+          "label": "10/13 간병 기록"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-20261013-speech1300",
+      "date": "2026-10-13",
+      "time": "13:00",
+      "title": "언어 선별평가",
+      "hospitalId": "hanyang",
+      "kind": "assessment",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-13",
+          "messageId": "message-179993dd-449c-4d69-841c-031dc73eeaea",
+          "label": "10/13 간병 기록"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-20261013-xray1415",
+      "date": "2026-10-13",
+      "time": "14:15",
+      "title": "손 엑스레이",
+      "hospitalId": "hanyang",
+      "kind": "assessment",
+      "status": "cancelled",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-13",
+          "messageId": "message-179993dd-449c-4d69-841c-031dc73eeaea",
+          "label": "10/13 간병 기록"
+        }
+      ],
+      "note": "대기 때문에 취소했다고 기록했습니다. 같은 날 15:45 촬영은 별도 시행 기록입니다."
+    },
+    {
+      "id": "hanyang-20261013-ot1430",
+      "date": "2026-10-13",
+      "time": "14:30",
+      "title": "작업치료·시지각 결과 설명",
+      "hospitalId": "hanyang",
+      "kind": "rehabilitation",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-13",
+          "messageId": "message-179993dd-449c-4d69-841c-031dc73eeaea",
+          "label": "10/13 간병 기록"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-20261013-swallow1530",
+      "date": "2026-10-13",
+      "time": "15:30",
+      "title": "연하평가",
+      "hospitalId": "hanyang",
+      "kind": "assessment",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-13",
+          "messageId": "message-179993dd-449c-4d69-841c-031dc73eeaea",
+          "label": "10/13 간병 기록"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-20261013-xray1545",
+      "date": "2026-10-13",
+      "time": "15:45",
+      "title": "왼손목·왼팔꿈치·골반 엑스레이",
+      "hospitalId": "hanyang",
+      "kind": "assessment",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-13",
+          "messageId": "message-179993dd-449c-4d69-841c-031dc73eeaea",
+          "label": "10/13 간병 기록"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-20261013-pt1600",
+      "date": "2026-10-13",
+      "time": "16:00",
+      "title": "소아물리치료·관절가동범위 평가",
+      "hospitalId": "hanyang",
+      "kind": "assessment",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-13",
+          "messageId": "message-179993dd-449c-4d69-841c-031dc73eeaea",
+          "label": "10/13 간병 기록"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-20261014-pft0900",
+      "date": "2026-10-14",
+      "time": "09:00",
+      "title": "폐기능·호흡근압 검사 및 호흡재활 교육",
+      "hospitalId": "hanyang",
+      "kind": "assessment",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-14",
+          "messageId": "message-811024e9-85c0-421d-afbb-d2b6d057a0a1",
+          "label": "10/14 간병 기록"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-20261014-ot1000",
+      "date": "2026-10-14",
+      "time": "10:00",
+      "title": "소아작업치료",
+      "hospitalId": "hanyang",
+      "kind": "rehabilitation",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-14",
+          "messageId": "message-811024e9-85c0-421d-afbb-d2b6d057a0a1",
+          "label": "10/14 간병 기록"
+        },
+        {
+          "postId": "rehab-care/2026-10-13",
+          "messageId": "message-179993dd-449c-4d69-841c-031dc73eeaea",
+          "label": "10/13 다음 날 예정 안내"
+        }
+      ],
+      "note": "전날 예정과 다음 날 시행 기록이 함께 확인됩니다."
+    },
+    {
+      "id": "hanyang-20261014-pt1030",
+      "date": "2026-10-14",
+      "time": "10:30",
+      "title": "물리치료·동작·자전거",
+      "hospitalId": "hanyang",
+      "kind": "rehabilitation",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-14",
+          "messageId": "message-811024e9-85c0-421d-afbb-d2b6d057a0a1",
+          "label": "10/14 간병 기록"
+        }
+      ],
+      "note": "당일 간병일지의 시행 시각은 10:30입니다. 전날 안내된 11:30 계획은 시각 변경·별도 시행 여부를 확정하지 않고 별도 보존합니다."
+    },
+    {
+      "id": "hanyang-20261014-pt1130-plan",
+      "date": "2026-10-14",
+      "time": "11:30",
+      "title": "물리치료 · 전날 안내된 계획",
+      "hospitalId": "hanyang",
+      "kind": "rehabilitation",
+      "status": "planned",
+      "note": "10월 13일 보호자가 안내받았다고 입력한 예정입니다. 10월 14일 실제 일지는 물리치료 10:30을 적었고, 이 11:30의 별도 시행이나 취소·변경은 확인되지 않았습니다. 전기치료기 지참 안내.",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-13",
+          "messageId": "message-f5c6ece7-55ba-4e0c-acad-093806acb074",
+          "label": "10/13 재활 일정 안내"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-20261014-ot1300",
+      "date": "2026-10-14",
+      "time": "13:00",
+      "title": "소아작업치료",
+      "hospitalId": "hanyang",
+      "kind": "rehabilitation",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-14",
+          "messageId": "message-811024e9-85c0-421d-afbb-d2b6d057a0a1",
+          "label": "10/14 간병 기록"
+        },
+        {
+          "postId": "rehab-care/2026-10-13",
+          "messageId": "message-179993dd-449c-4d69-841c-031dc73eeaea",
+          "label": "10/13 다음 날 예정 안내"
+        }
+      ],
+      "note": "전날 예정과 다음 날 시행 기록이 함께 확인됩니다."
+    },
+    {
+      "id": "hanyang-20261014-speech1330",
+      "date": "2026-10-14",
+      "time": "13:30",
+      "title": "언어치료",
+      "hospitalId": "hanyang",
+      "kind": "rehabilitation",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-14",
+          "messageId": "message-811024e9-85c0-421d-afbb-d2b6d057a0a1",
+          "label": "10/14 간병 기록"
+        },
+        {
+          "postId": "rehab-care/2026-10-13",
+          "messageId": "message-179993dd-449c-4d69-841c-031dc73eeaea",
+          "label": "10/13 다음 날 예정 안내"
+        }
+      ],
+      "note": "전날 예정과 다음 날 시행 기록이 함께 확인됩니다."
+    },
+    {
+      "id": "hanyang-20261014-ent1400",
+      "date": "2026-10-14",
+      "time": "14:00",
+      "title": "이비인후과 내시경·기관절개관 제거 가능성 평가",
+      "hospitalId": "hanyang",
+      "kind": "assessment",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-14",
+          "messageId": "message-811024e9-85c0-421d-afbb-d2b6d057a0a1",
+          "label": "10/14 간병 기록"
+        }
+      ],
+      "note": "전날 미시행 후 이날 내시경 평가를 받았다는 기록입니다. 기관절개관 제거 완료를 뜻하지 않습니다."
+    },
+    {
+      "id": "hanyang-20261014-pt1430",
+      "date": "2026-10-14",
+      "time": "14:30",
+      "title": "소아물리치료·전기패치·자전거",
+      "hospitalId": "hanyang",
+      "kind": "rehabilitation",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-14",
+          "messageId": "message-811024e9-85c0-421d-afbb-d2b6d057a0a1",
+          "label": "10/14 간병 기록"
+        },
+        {
+          "postId": "rehab-care/2026-10-13",
+          "messageId": "message-f5c6ece7-55ba-4e0c-acad-093806acb074",
+          "label": "10/13 다음 날 예정 안내"
+        }
+      ],
+      "note": "전날 예정과 다음 날 시행 기록이 함께 확인됩니다."
+    },
+    {
+      "id": "hanyang-20261014-pt1500",
+      "date": "2026-10-14",
+      "time": "15:00",
+      "title": "소아물리치료·자세·균형 운동",
+      "hospitalId": "hanyang",
+      "kind": "rehabilitation",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-14",
+          "messageId": "message-811024e9-85c0-421d-afbb-d2b6d057a0a1",
+          "label": "10/14 간병 기록"
+        },
+        {
+          "postId": "rehab-care/2026-10-13",
+          "messageId": "message-f5c6ece7-55ba-4e0c-acad-093806acb074",
+          "label": "10/13 다음 날 예정 안내"
+        }
+      ],
+      "note": "전날 예정과 다음 날 시행 기록이 함께 확인됩니다."
+    },
+    {
+      "id": "hanyang-20261014-ortho1630",
+      "date": "2026-10-14",
+      "time": "16:30",
+      "title": "정형외과 협진",
+      "hospitalId": "hanyang",
+      "kind": "assessment",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-14",
+          "messageId": "message-811024e9-85c0-421d-afbb-d2b6d057a0a1",
+          "label": "10/14 간병 기록"
+        }
+      ],
+      "note": "시각은 16:30경입니다. 협진 설명 전달 기록이며 구체적 운동 부하는 치료팀 확인 사항입니다."
+    },
+    {
+      "id": "hanyang-20261014-psychiatry1900",
+      "date": "2026-10-14",
+      "time": "19:00",
+      "title": "정신건강의학과 협진·의사소통 평가",
+      "hospitalId": "hanyang",
+      "kind": "assessment",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-14",
+          "messageId": "message-811024e9-85c0-421d-afbb-d2b6d057a0a1",
+          "label": "10/14 간병 기록"
+        }
+      ],
+      "note": "이날 협진 방문 기록입니다. 후속 임상·인지 평가 일정은 아직 미정입니다."
+    },
+    {
+      "id": "hanyang-20261015-pt1000",
+      "date": "2026-10-15",
+      "time": "10:00",
+      "title": "소아물리치료·자세·포복·다리 운동",
+      "hospitalId": "hanyang",
+      "kind": "rehabilitation",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-16",
+          "messageId": "message-88eb1070-a4db-41d6-8cc7-df01dfe07e1a",
+          "label": "10/15 시행 · 10/16 입력"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-20261015-pt1030",
+      "date": "2026-10-15",
+      "time": "10:30",
+      "title": "소아물리치료·전기",
+      "hospitalId": "hanyang",
+      "kind": "rehabilitation",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-16",
+          "messageId": "message-88eb1070-a4db-41d6-8cc7-df01dfe07e1a",
+          "label": "10/15 시행 · 10/16 입력"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-20261015-pt1100",
+      "date": "2026-10-15",
+      "time": "11:00",
+      "title": "소아물리치료·자전거",
+      "hospitalId": "hanyang",
+      "kind": "rehabilitation",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-16",
+          "messageId": "message-88eb1070-a4db-41d6-8cc7-df01dfe07e1a",
+          "label": "10/15 시행 · 10/16 입력"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-20261015-ot1130",
+      "date": "2026-10-15",
+      "time": "11:30",
+      "title": "소아작업치료",
+      "hospitalId": "hanyang",
+      "kind": "rehabilitation",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-16",
+          "messageId": "message-88eb1070-a4db-41d6-8cc7-df01dfe07e1a",
+          "label": "10/15 시행 · 10/16 입력"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-20261015-speech1330",
+      "date": "2026-10-15",
+      "time": "13:30",
+      "title": "언어치료·글자/그림 단어 연습",
+      "hospitalId": "hanyang",
+      "kind": "rehabilitation",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-16",
+          "messageId": "message-88eb1070-a4db-41d6-8cc7-df01dfe07e1a",
+          "label": "10/15 시행 · 10/16 입력"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-20261015-pt1400",
+      "date": "2026-10-15",
+      "time": "14:00",
+      "title": "소아물리치료·엎드리기·무릎서기",
+      "hospitalId": "hanyang",
+      "kind": "rehabilitation",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-16",
+          "messageId": "message-88eb1070-a4db-41d6-8cc7-df01dfe07e1a",
+          "label": "10/15 시행 · 10/16 입력"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-20261015-ot1430",
+      "date": "2026-10-15",
+      "time": "14:30",
+      "title": "소아작업치료",
+      "hospitalId": "hanyang",
+      "kind": "rehabilitation",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-16",
+          "messageId": "message-88eb1070-a4db-41d6-8cc7-df01dfe07e1a",
+          "label": "10/15 시행 · 10/16 입력"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-20261015-pt1500",
+      "date": "2026-10-15",
+      "time": "15:00",
+      "title": "소아물리치료·전기/기구/자전거",
+      "hospitalId": "hanyang",
+      "kind": "rehabilitation",
+      "status": "completed",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-16",
+          "messageId": "message-88eb1070-a4db-41d6-8cc7-df01dfe07e1a",
+          "label": "10/15 시행 · 10/16 입력"
+        }
+      ]
+    },
+    {
+      "id": "severance-20261021-outpatient",
+      "date": "2026-10-21",
+      "time": "14:40",
+      "title": "세브란스 나동욱 교수 외래",
+      "hospitalId": "severance",
+      "kind": "outpatient",
+      "status": "planned",
+      "note": "기존 가족 기록의 예약입니다. 최근 대화에서 변경·취소·진료 완료는 확인되지 않아 기존 예약·변경 미확인으로 표시합니다.",
+      "sourceRefs": [
+        {
+          "label": "9/23 예약 내용 · 9/24 입력",
+          "postId": "trauma/2026-09-24",
+          "messageId": "message-ba3c1eb6-ac76-4a9d-89df-36c000974de8"
+        }
+      ]
+    }
+  ],
+  "ongoingPlans": [
+    {
+      "id": "hanyang-speech-daily1330",
+      "title": "언어치료 · 매일 안내",
+      "hospitalId": "hanyang",
+      "time": "13:30",
+      "effectiveFrom": "2026-10-14",
+      "note": "10월 13일 보호자 기록에서 매일 13:30, 30분 예약·실제 약 25분으로 안내받았습니다. 14·15일 시행 기록이 있으며 종료일·휴일 운영·이후 변경은 미확인입니다. 확인되지 않은 미래 날짜에 자동으로 일정을 만들지는 않습니다.",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-13",
+          "messageId": "message-179993dd-449c-4d69-841c-031dc73eeaea",
+          "label": "10/13 치료 계획"
+        },
+        {
+          "postId": "rehab-care/2026-10-16",
+          "messageId": "message-88eb1070-a4db-41d6-8cc7-df01dfe07e1a",
+          "label": "10/15 시행 · 10/16 입력"
+        }
+      ]
+    }
+  ],
+  "pendingPlans": [
+    {
+      "id": "next-rehab-transfer",
+      "title": "한양대 → 리하트 → 국립재활원 · 잠정 전원 계획",
+      "hospitalId": "rehat",
+      "note": "10월 14일 보호자의 잠정 계획과 리하트 입원 가능 상담 회신입니다. 실제 전원일·병상은 미정이며 ‘약 3주’나 ‘2–3일 전 연락’을 확정 입원일로 계산하지 않습니다.",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-14",
+          "messageId": "message-811024e9-85c0-421d-afbb-d2b6d057a0a1",
+          "label": "10/14 전원 상담 기록"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-psychiatry-assessment",
+      "title": "정신건강의학과·인지 관련 임상평가",
+      "hospitalId": "hanyang",
+      "note": "10월 14일 협진 후 후속 임상검사 일정을 잡기로 했으며, 15일 부모용 면담 자료 작성을 요청받았습니다. 검사·외래 날짜는 아직 미정입니다.",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-14",
+          "messageId": "message-811024e9-85c0-421d-afbb-d2b6d057a0a1",
+          "label": "10/14 협진"
+        },
+        {
+          "postId": "rehab-care/2026-10-16",
+          "messageId": "message-88eb1070-a4db-41d6-8cc7-df01dfe07e1a",
+          "label": "10/15 후속 안내 · 10/16 입력"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-capping-evaluation",
+      "title": "기관절개관 막기 훈련·제거 평가 계획",
+      "hospitalId": "hanyang",
+      "note": "10월 14일 기도 평가 후 단계적으로 관을 막는 훈련을 계획했다고 기록했습니다. 실제 시작·통과·제거 날짜는 미확인입니다.",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-14",
+          "messageId": "message-811024e9-85c0-421d-afbb-d2b6d057a0a1",
+          "label": "10/14 이비인후과 설명"
+        }
+      ]
+    },
+    {
+      "id": "hanyang-urology-referral",
+      "title": "비뇨기과 의뢰",
+      "hospitalId": "hanyang",
+      "note": "10월 13일 간병 기록에 의뢰가 적혀 있으며 진료 날짜·시각·결과는 아직 확인되지 않습니다.",
+      "sourceRefs": [
+        {
+          "postId": "rehab-care/2026-10-13",
+          "messageId": "message-179993dd-449c-4d69-841c-031dc73eeaea",
+          "label": "10/13 의뢰 기록"
+        }
+      ]
+    }
+  ]
+}

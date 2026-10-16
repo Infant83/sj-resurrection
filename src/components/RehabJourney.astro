@@ -3,6 +3,7 @@ import type { CollectionEntry } from 'astro:content';
 import hospitalRecords from '../data/rehab-hospitals.json';
 import { rehabHospitals, rehabPhases } from '../data/rehab';
 import { withBase, sortPosts } from '../lib/archive';
+import RehabCalendar from './RehabCalendar.astro';
 
 interface Props { posts: CollectionEntry<'posts'>[] }
 const { posts } = Astro.props;
@@ -16,10 +17,13 @@ const inpatientPosts = sortPosts(posts.filter(p => p.data.rehab?.phases.includes
 
 <section class="rehab-journey" aria-label="재활 진료와 치료 기록 안내">
   <nav class="rehab-jump-links" aria-label="재활 기록 바로가기">
+    <a href="#rehab-calendar">재활·외래 달력</a>
     <a href="#hospital-appointments">병원별 예약</a>
     <a href="#rehab-records">진료 대화</a>
     <a href="#inpatient-rehab">입원 재활</a>
   </nav>
+
+  <RehabCalendar />
 
   <section id="hospital-appointments" class="rehab-appointments" aria-labelledby="appointments-title">
     <div class="rehab-section-heading">
