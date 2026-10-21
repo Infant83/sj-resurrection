@@ -1,0 +1,805 @@
+{
+  "schemaVersion": 2,
+  "recordId": "rehab-care-2026-10-21-conversation",
+  "board": "rehab-care",
+  "entryType": "clinical-update",
+  "title": "2026년 10월 21일 한양대 재활·간병 대화",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-10-21",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "한양대",
+    "입원 재활",
+    "간병 기록",
+    "재활 일정",
+    "원문 대화"
+  ],
+  "rehab": {
+    "hospitalIds": [
+      "hanyang",
+      "severance",
+      "rehat",
+      "nrc"
+    ],
+    "phases": [
+      "inpatient-rehab",
+      "follow-up",
+      "outpatient-visit",
+      "transfer-planning"
+    ]
+  },
+  "sources": [
+    {
+      "id": "chatgpt-care-phase-5-hanyang-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "간병기록 정리 (phase 5; 한양대) · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    },
+    {
+      "id": "chatgpt-rehabilitation-schedule-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "재활 일정 안내 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-cdded05f-16b5-4511-a07b-8d340edd9dde",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T04:00:41.944005+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "cdded05f-16b5-4511-a07b-8d340edd9dde",
+      "sourceOrdinal": 27,
+      "turnId": "f680831e-d703-48de-8f10-5f965e13d66f",
+      "sourceRefs": [
+        "chatgpt-care-phase-5-hanyang-2026"
+      ],
+      "fidelity": "privacy-redacted",
+      "privacyRedactions": [
+        "image"
+      ],
+      "privacyNote": "공개본에서 첨부 검사 사진·원본 문서를 가렸습니다. 가린 부분은 비공개 표시로 남겼으며, 그 외 텍스트는 원문대로 보존했습니다. 사진만 있는 입력은 비공개 첨부 표시로 남깁니다.",
+      "publicText": "[첨부 사진 비공개]",
+      "publicTextSha256": "sha256:59fe6a2cfdb20a0a73d3d8a9ef722aaa40cfcf344ed510e62e8bff939e1cb8cd",
+      "provenanceNote": "보호자가 입력한 관찰·질문·의료진 전달 기록입니다. 검사 결과지·처방·공식 병원 기록의 직접 확인과 구분합니다."
+    },
+    {
+      "id": "message-217575b0-7717-4f4d-8af0-f01112c0ef26",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T04:01:20.694022+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "217575b0-7717-4f4d-8af0-f01112c0ef26",
+      "sourceOrdinal": 28,
+      "turnId": "f680831e-d703-48de-8f10-5f965e13d66f",
+      "sourceRefs": [
+        "chatgpt-care-phase-5-hanyang-2026"
+      ],
+      "fidelity": "exact",
+      "text": "추가하신 의사소통 영역과 채점 안내까지 함께 살펴보겠습니다. 현재 독립 수행과 도움 필요 행동, 채점상 빈칸, 최근 간병기록과 대조가 필요한 응답을 구분하겠습니다.",
+      "textSha256": "sha256:1fd03cd546304a7358a553d07f401f41cd564c315253fcdf49d0cc806c872198",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT 답변의 원문입니다. 이번 게시 작업에서 새로 검증한 진단·처방·치료 지침이나 병원 일정 확정으로 해석하지 않습니다."
+    },
+    {
+      "id": "message-0dc59e5d-845c-41a1-b28a-b8ecd78b75d4",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T04:10:57.226692+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "0dc59e5d-845c-41a1-b28a-b8ecd78b75d4",
+      "sourceOrdinal": 29,
+      "turnId": "f680831e-d703-48de-8f10-5f965e13d66f",
+      "sourceRefs": [
+        "chatgpt-care-phase-5-hanyang-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, 추가하신 사진까지 합쳐 **표지·작성 안내와 4~31쪽의 의사소통, 일상생활기술, 사회성, 운동기술 영역**을 확인했습니다.\n\n**검사자에게 전달할 관찰은 충분히 담겨 있습니다. 다만 최종 채점 전에 확인해야 할 부분이 몇 군데 있습니다.** 특히 중요한 것은 **‘추정’ 체크만 있고 점수 표시가 없는 문항, 중간에 비어 있는 문항, 도움을 받는 수행과 독립적인 수행의 구분**입니다.\n\n점수를 임의로 다시 매기기보다는, **아래 부분을 원본과 대조하고 최근 변화에 관한 보충 메모를 함께 제출하는 방식**이 좋겠습니다.\n\n## 1. 먼저, 이 검사지의 채점 기준에서 꼭 구분할 점\n\n사진의 표지는 **K‑Vineland‑3 ‘면담형 종합판’**입니다. 보호자가 작성한 내용은 중요한 자료지만, 면담형은 검사자가 보호자에게 구체적인 사례를 확인하면서 응답과 점수를 정리하는 형식입니다. 따라서 애매한 항목이 남아 있다고 해서 보호자께서 모두 확정해 가야 하는 것은 아닙니다. citeturn170044view0\n\n또한 이 검사는 **검사 상황에서 최대한 잘했을 때의 능력보다, 일상에서 실제로 어떻게 행동하는지**를 평가합니다. 지능검사나 의식수준 검사와는 구분해야 합니다. citeturn891974view0\n\n### 가장 중요한 부분: ‘1점’은 단순히 ‘도움을 받으면 한다’가 아닙니다\n\n이번에 올려주신 **2쪽 안내문**은 다음과 같이 설명하고 있습니다.\n\n| 구분 | 안내문의 핵심 의미 |\n|---|---|\n| **2점** | 해당 행동이 필요할 때, 별도의 도움이나 상기 없이 **항상 독립적으로 수행** |\n| **1점** | 별도의 도움이나 상기 없이 **가끔 수행** |\n| **0점** | 수행하지 못하거나, **도움·상기가 없으면 수행하지 못함** |\n| **추정** | 관찰 기회가 없어 추정한 응답이라는 표시. **점수 선택을 대신하는 칸이 아님** |\n\n따라서 **“몇 번 알려주면 성공하니 1점”으로 일괄 처리하면 안 됩니다.** 다만 일부 문항은 애초에 보호자의 도움이나 난간 사용 등을 허용하므로, **일반 원칙과 각 문항의 조건을 함께** 적용해야 합니다.\n\n예를 들어 ‘말로 지시했을 때 이해하는가’를 평가하는 문항에서는 **지시 자체가 과제의 일부**입니다. 이를 ‘말로 알려줬으므로 독립적이지 않다’고 처리하는 것도 맞지 않습니다. 반면 정답의 첫 음절을 알려주거나 동작을 시범 보인 뒤 수행했다면, 그 도움은 별도로 설명해야 합니다.\n\n### 사고 전에는 했지만 지금 못하는 것과, 나이가 들어 더 이상 하지 않는 것은 다릅니다\n\n안내문에는 **어릴 때 하던 행동을 나이가 들어 더 이상 하지 않는 경우**에 관한 별도 기준이 있습니다. 그러나 이것을 **“사고 전에는 했으니 현재도 2점”**으로 적용하면 안 됩니다.\n\n선진이는 병원에서 안내받은 대로 **현재 상태를 기준으로 작성하고**, 사고 전의 기능은 별도 메모로 전달하는 것이 맞습니다. 골절·기관절개관·입원 환경 때문에 제한된 부분도 점수를 임의로 올려 보정하기보다는, **현재 수행과 제한 이유를 함께 남겨 검사자가 해석하도록** 하는 편이 좋겠습니다.\n\n## 2. 사진에서 확인된 ‘작성 상태’ 점검 사항\n\n아래는 **사진상 표시를 기준으로 한 확인 목록**입니다. 흐리거나 덧그어진 부분은 실제 원본과 대조해 주세요.\n\n| 위치 | 사진에서 보이는 상태 | 확인할 내용 |\n|---|---|---|\n| **4쪽 수용 12·13번, 5쪽 수용 30·34번 등** | 오른쪽 **‘추정’에는 체크가 있지만, 점수 동그라미는 보이지 않는 항목**이 있습니다. | 추정 응답도 해당 점수를 선택하고 추정 표시를 함께 해야 합니다. 판단이 어려우면 면담에서 확인받으세요. |\n| **13쪽 개인 29·31·38·41번 등** | 이쪽에도 **추정 체크만 있는 것으로 보이는 항목**이 있습니다. | 같은 방식으로 점수 선택 여부를 확인하면 됩니다. 이 표에 든 번호는 대표적인 예입니다. |\n| **6쪽 표현 16번, 7쪽 표현 21번, 17쪽 지역사회 8번, 20쪽 대인관계 10번** | 앞뒤에는 응답이 있는데 **중간 문항이 비어 있는 것으로 보입니다.** | 단순 누락인지, 검사자와 상의하려고 남긴 것인지 확인하세요. |\n| **7쪽 표현 후반** | 27번은 **1점으로 보이고**, 이후 문항은 비어 있습니다. | 여기서 중단한 이유를 검사자에게 확인받으세요. 사진만으로는 중단 규칙이 충족됐다고 보기 어렵습니다. |\n| **9~10쪽 쓰기 후반** | 16~19번이 연속해서 0점으로 표시된 것으로 보이며, 이후가 비어 있습니다. | 이 경우는 **안내문의 중단 규칙에 따른 빈칸일 수 있습니다.** 뒤를 무조건 채울 필요는 없습니다. |\n| **27쪽 대근육운동 19번, 28쪽 대근육운동 25번 등 수정 흔적** | 기존 표시를 지우거나 다른 점수로 수정한 흔적이 있습니다. | 최종 선택이 무엇인지 검사자가 오해하지 않도록 분명히 해두세요. 원점수 계산 칸은 검사자에게 맡기면 됩니다. |\n\n**3쪽 안내문에는 연속된 4개 문항이 0점이면 해당 하위영역의 검사를 중단하는 규칙이 있습니다.** 따라서 빈칸을 모두 누락으로 보거나, 모두 0점으로 채워서는 안 됩니다.\n\n특히 **‘추정’만 체크한 문항은 아직 0점이 확정된 문항이 아니므로**, 그 체크만으로 중단 기준을 판단할 수 없습니다. 지금은 원본에 크게 고치기보다 **“추정만 표시한 항목과 중단 위치를 확인 부탁드립니다”**라고 전달하면 좋겠습니다.\n\n## 3. 최근 간병기록과 대조해 보충 설명이 필요한 항목\n\n여기서부터는 **점수가 틀렸다는 지적이 아니라, 현재 관찰을 더 정확하게 전달하기 위한 확인 사항**입니다.\n\n### ① 화장실 이용: 최근의 자발적 이용과 이전의 기저귀 배뇨를 함께 설명하세요\n\n13쪽의 야간 화장실 이용과 독립적인 화장실 이용 항목에는 높은 점수가 표시되어 있습니다. 최근에는 실제로 스스로 화장실에 가는 사례가 반복됐으므로 이를 뒷받침하는 관찰이 있습니다.\n\n다만 날짜별 차이도 있습니다.\n\n**10월 14~17일에는 기저귀 배뇨와 보호자의 제안이 필요한 상황이 있었고, 16일 이후 자발적으로 화장실에 가는 행동이 늘었습니다.** 옷 조절·뒤처리·손 씻기·안전한 이동이 매번 모두 독립적으로 되는지는 별도로 확인해야 합니다.\n\n검사자에게는 다음처럼 설명하면 좋겠습니다.\n\n> “최근 며칠 사이 스스로 화장실에 가기 시작했고 밤에도 깨어서 다녀온 사례가 있습니다. 이전에는 기저귀 배뇨가 있었으며, 현재도 이동 안전 때문에 보호자가 가까이에서 지켜봅니다. 독립적으로 하는 단계와 도움이 필요한 단계를 나누어 말씀드리겠습니다.”\n\n문항에 따라 일부 도움이 허용되는 항목과 완전한 독립 수행을 묻는 항목이 있으므로, **화장실 이용 항목을 전부 같은 점수로 맞출 필요는 없습니다.**\n\n### ② 신발 신기와 끈 매기는 나누어 확인해야 합니다\n\n**13쪽 개인 37번**은 신발 착용뿐 아니라 끈 처리까지 포함하는 항목인데 2점으로 보입니다. 반면 **31쪽 소근육운동 32번의 매듭 관련 항목은 0점**으로 보입니다.\n\n이것이 반드시 모순이라는 뜻은 아닙니다. 다만 최근 기록에서 확인된 것은 **오른쪽 신발을 혼자 신고, 왼쪽은 일부 도움을 받았다는 내용**이지, 신발끈을 완전히 매는 과정까지는 아닙니다.\n\n**신발을 신는 것, 좌우를 맞추는 것, 끈을 조절하는 것, 매듭을 완성하는 것** 중 실제로 어디까지 독립적으로 하는지 확인해서 설명해 주세요.\n\n### ③ 계단: 난간을 잡는 것과 치료사가 몸을 지지하는 것은 다릅니다\n\n28쪽 계단 관련 항목에는 높은 점수가 표시된 부분이 있습니다. 그런데 19~20일 치료 기록에는 **다리가 떨리고 균형이 흔들리며, 치료사가 몸을 잡아 안정시켜 주는 상황**이 적혀 있습니다.\n\n문항에서 난간 사용을 허용하더라도, **치료사가 몸을 지지해 주어야 완수하는 것까지 같은 조건으로 볼 수 있는지는 확인이 필요**합니다.\n\n> “계단 동작은 연습하고 있지만, 현재는 치료사의 신체적 지지와 자세 교정이 필요한 경우가 있습니다.”\n\n이 한 문장을 보충해 두면 좋겠습니다. 검사 점수를 확인하려고 선진이에게 혼자 계단을 오르내리게 할 필요는 없습니다.\n\n### ④ ‘예·아니요’와 요구 표현: 성공 사례의 종류를 구분하세요\n\n수용·표현 영역에는 예·아니요 이해, 요구 표현, 질문에 답하기가 각각 나뉘어 있습니다.\n\n선진이는 최근 **하기 싫을 때 고개를 젓거나 손을 휘젓고, 원하는 과자를 가리키며, 가족 이름을 표현하는 모습**이 있었습니다. 반면 초기 언어평가에서는 **정답과 무관하게 모두 끄덕이는 반응**도 있었습니다.\n\n따라서 **싫다는 뜻을 표현하는 것**, **질문의 내용을 이해해 참·거짓을 판단하는 것**, **원하는 것을 단어로 요청하는 것**을 한 가지 능력으로 합치지 않는 것이 좋겠습니다.\n\n또한 그림 이름대기에서 첫 음절을 주면 답한 경우와, 스스로 단어를 떠올린 경우를 구분해 전달하세요. 이것은 점수를 무조건 낮추기 위한 것이 아니라 **현재 어떤 도움이 효과적인지 남기기 위한 것**입니다.\n\n### ⑤ 쓰기: ‘잘 베껴 쓰기’와 ‘내용을 스스로 만들어 쓰기’는 다릅니다\n\n사진에서는 글자 인식·따라 쓰기와 관련된 항목에 높은 점수가 있고, 문장 생성 등 뒤쪽 항목은 낮거나 중단되어 있습니다. 최근 기록과 비교할 때 **이런 차이 자체는 충분히 있을 수 있습니다.**\n\n10월 20일에 글자 속 단어 찾기를 모두 맞힌 것과, 19일 아빠에게 **“바부”라고 문자 답장을 보낸 것**은 각각 좋은 사례입니다. 하지만 이를 곧바로 **열 개 이상의 단어를 기억해서 쓰거나, 문장을 자발적으로 작성하는 능력**과 같게 볼 수는 없습니다.\n\n이 두 사례를 그대로 검사자에게 보여주고, **따라 쓰기·찾기·자발적인 문자 표현을 구분**해 평가받으면 좋겠습니다.\n\n## 4. 이번 평가에서 가장 중요한 조건은 ‘10월 20일의 변화’입니다\n\n검사지 작성일이 **10월 20일**로 적혀 있고, 바로 이날 **16:30경 기관절개관을 작은 규격으로 교체한 뒤 목소리가 더 분명해졌습니다.**\n\n따라서 검사자에게 다음 사실은 반드시 전달해 주세요.\n\n> **“이 검사지에는 최근 며칠간의 관찰이 함께 반영되어 있습니다. 특히 10월 20일 오후 기관절개관 교체 전에는 입 모양·몸짓·문자로 확인한 반응이 많았고, 교체 후에는 목소리를 내는 반응이 더 분명해졌습니다.”**\n\n소아 뇌손상 평가는 현재의 발성·언어뿐 아니라 운동 제한, 감각 상태, 피로와 각성도 등 수행에 영향을 주는 조건을 함께 고려합니다. **목소리가 약하다는 이유만으로 언어 이해가 낮다고 볼 수도 없고, 목소리가 나기 시작했다고 언어 기능 전체가 회복됐다고 볼 수도 없습니다.** citeturn891974view1\n\n새 안경을 맞춘 사실과 검사 당일 안경 착용 여부, 페니드의 실제 복용 시각, 전날 수면도 알려주세요. 적절한 안경 착용과 감각 조건의 확인은 평가 해석에 중요합니다. citeturn891974view2\n\n### 검사자에게 바로 보여줄 수 있는 보충 메모\n\n> **K‑Vineland‑3 보호자 응답 보충 설명 — 2026년 10월 20일 기준**\n>\n> 선진이는 외상성 뇌손상 후 입원 재활 중이며, 최근 1주일 사이 수행이 빠르게 달라지고 있습니다. 현재 기능을 기준으로 작성했으나, 문항에 따라 최근 성공 사례와 반복적인 일상 수행을 구분해 확인받고 싶습니다.\n>\n> 10월 20일 오후 기관절개관을 작은 규격으로 교체한 후 목소리가 더 분명해졌습니다. 이전의 표현은 입 모양·손짓·문자로 확인한 경우가 많습니다. 그림 이름대기에서는 단서 없이 답한 경우, 첫 음절 도움 후 답한 경우, 따라 말한 경우가 섞여 있습니다.\n>\n> 최근 자발적인 화장실 이용, 일부 옷·양말·신발 착용, 휴대전화 사용과 문자 답장이 관찰됩니다. 다만 옷 착용의 일부 단계와 이동·계단에서는 도움 또는 안전 관찰이 필요하며, 샤워는 보호자가 돕습니다.\n>\n> 왼손 기능과 양다리·몸통 균형에 제한이 있고, 전기치료·자전거 중 무릎 통증 또는 자극 불편이 의심되는 행동이 있었습니다. 새 안경을 맞췄으며 페니드는 오전 투약으로 변경되었습니다.\n>\n> ‘추정’만 표시한 문항, 중간의 미응답 문항, 중단 규칙 적용과 도움의 범위에 따른 점수를 면담에서 확인 부탁드립니다.\n\n## 5. 결과를 받을 때 주의할 해석\n\n### 페이지 옆의 ‘1세·2세·3세’는 선진이의 정신연령이 아닙니다\n\n사진에 표시된 연령 구간은 **검사 시작 위치와 문항 배열을 위한 표식**입니다. 특정 구간에서 어려운 문항이 나왔다고 해서 선진이 전체를 “몇 살 수준”이라고 판단할 수는 없습니다.\n\n현재 자료에서는 **글자·그림을 활용하는 과제와 자유로운 말 표현, 생활 동작을 시작하는 능력과 안전하게 끝까지 수행하는 능력** 사이에 차이가 보입니다. 한 숫자로 이를 모두 설명하기보다는, 영역별 강점과 필요한 도움을 확인하는 것이 중요합니다.\n\n### 운동기술 영역은 만 14세에서 어떻게 사용할지 확인하면 좋겠습니다\n\nPearson 원판 안내에서는 **운동기술 영역의 규준 연령을 0~9세로 제시**합니다. 따라서 만 14세인 선진이에게 작성한 운동 문항이 **한국판에서 어떤 규준·해석 범위로 사용되는지, 또는 재활을 위한 보충적인 기능 자료로 사용하는지** 검사자에게 확인하는 것이 좋습니다. 운동 문항을 작성한 것 자체가 잘못이라는 뜻은 아닙니다. citeturn170044view0\n\n또한 이번 사진만으로 원점수를 합산해 **표준점수·백분위·등가연령을 제시하지 않겠습니다.** 응답과 중단 위치를 먼저 확정해야 하고, 적절한 한국판 규준을 적용해야 합니다. 국내 공식 결과지에도 영역별 표준점수·신뢰구간·성장척도점수 등이 구분되어 있으므로, 결과를 받을 때에는 **현재 지원 필요와 이후 변화 추적에 어떤 지표를 사용할지** 설명을 들으시면 좋겠습니다. citeturn170044view1\n\n---\n\n**지금 제출 준비에서 우선할 것은 세 가지입니다. ‘추정’만 체크한 문항과 중간 빈칸을 확인하고, 도움을 받아 수행하는 항목의 조건을 설명하고, 10월 20일 관 교체 전후의 변화를 보충 메모로 붙이는 것입니다.**\n\n원본을 전부 다시 작성할 필요는 없습니다. **이미 남겨두신 응답과 실제 생활 사례를 함께 가져가서 검사자가 면담으로 확정하도록 하는 것이, 선진이의 현재 강점과 필요한 도움을 가장 정확하게 전달하는 방법입니다.**",
+      "textSha256": "sha256:7277016fc73606c1c5484407f4c35379694f3f4ea26395dca3cb3bf787a19f87",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Vineland-3 Brochure",
+          "url": "https://www.pearsonassessments.com/content/dam/school/global/clinical/us/assets/vineland-3/vineland-3-brochure.pdf?srsltid=AU7gw4UrIvgx6v3ZGbhIbIsJ8GRMSwvZ9l77_Gp4qKvMUIS1tmZyf9dP",
+          "attribution": "Pearson Assessments"
+        },
+        {
+          "title": "Vineland 3 Comprehensive Interview Form Sample Report",
+          "url": "https://www.pearsonassessments.com/content/dam/school/global/clinical/us/assets/vineland-3/vineland-3-comprehensive-interview-form-sample-report.pdf",
+          "attribution": "Pearson Assessments"
+        },
+        {
+          "title": "Pediatric Traumatic Brain Injury",
+          "url": "https://www.asha.org/practice-portal/clinical-topics/pediatric-traumatic-brain-injury/",
+          "attribution": "ASHA"
+        },
+        {
+          "title": "www.koreapsy.co.kr",
+          "url": "https://www.koreapsy.co.kr/TM_upload_file/goods/pdfImg4ir6ort66a5250826110405.pdf",
+          "attribution": "Korea Psy"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn170044view0",
+          "urls": [
+            "https://www.pearsonassessments.com/content/dam/school/global/clinical/us/assets/vineland-3/vineland-3-brochure.pdf?srsltid=AU7gw4UrIvgx6v3ZGbhIbIsJ8GRMSwvZ9l77_Gp4qKvMUIS1tmZyf9dP"
+          ]
+        },
+        {
+          "marker": "citeturn891974view0",
+          "urls": [
+            "https://www.pearsonassessments.com/content/dam/school/global/clinical/us/assets/vineland-3/vineland-3-comprehensive-interview-form-sample-report.pdf"
+          ]
+        },
+        {
+          "marker": "citeturn891974view1",
+          "urls": [
+            "https://www.asha.org/practice-portal/clinical-topics/pediatric-traumatic-brain-injury/"
+          ]
+        },
+        {
+          "marker": "citeturn891974view2",
+          "urls": [
+            "https://www.asha.org/practice-portal/clinical-topics/pediatric-traumatic-brain-injury/"
+          ]
+        },
+        {
+          "marker": "citeturn170044view1",
+          "urls": [
+            "https://www.koreapsy.co.kr/TM_upload_file/goods/pdfImg4ir6ort66a5250826110405.pdf"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT 답변의 원문입니다. 이번 게시 작업에서 새로 검증한 진단·처방·치료 지침이나 병원 일정 확정으로 해석하지 않습니다."
+    },
+    {
+      "id": "message-8a677eb8-4bfa-457a-bebe-e097e8adefe1",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T05:37:27.801066+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "8a677eb8-4bfa-457a-bebe-e097e8adefe1",
+      "sourceOrdinal": 30,
+      "turnId": "db9f9890-2204-4c00-ba3e-36a0398f973a",
+      "sourceRefs": [
+        "chatgpt-care-phase-5-hanyang-2026"
+      ],
+      "fidelity": "exact",
+      "original": "추정한 부분을 제안해줘",
+      "originalSha256": "sha256:c1801eb175999e855bae207feea0eae2d7edd1d744ec9f724101a9adadfd5cc8",
+      "provenanceNote": "보호자가 입력한 관찰·질문·의료진 전달 기록입니다. 검사 결과지·처방·공식 병원 기록의 직접 확인과 구분합니다."
+    },
+    {
+      "id": "message-0bd9de7c-e30a-47f9-ba87-5d2d3129c2bb",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T05:37:36.700522+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "0bd9de7c-e30a-47f9-ba87-5d2d3129c2bb",
+      "sourceOrdinal": 31,
+      "turnId": "db9f9890-2204-4c00-ba3e-36a0398f973a",
+      "sourceRefs": [
+        "chatgpt-care-phase-5-hanyang-2026"
+      ],
+      "fidelity": "exact",
+      "text": "선진이의 **10월 20일까지의 간병기록과 K-Vineland-3 응답**을 대조하면, ‘추정’으로 표시한 문항 중 일부는 최근 실제 수행 사례를 근거로 더 구체적인 평가가 가능합니다.\n\n다만 **추정 체크는 점수와 별개**입니다. 관찰하지 않은 행동을 할 수 있을 것이라는 기대만으로 1점이나 2점을 부여하지 않는 것이 중요합니다.\n\n## 1. 우선 검토할 추정 문항\n\n사진에서 추정 표시가 비교적 명확한 문항을 중심으로 제안합니다.\n\n| 문항 | 최근 관찰 근거 | 제안 |\n|---|---|---|\n| **4쪽 수용 12번** | 말로 지시한 좌우 손·발 들기, 양말 벗기 등을 수행. 그러나 복잡한 질문에서는 이해가 일정하지 않음. | 해당 문항이 요구하는 **지시의 길이와 조건**을 확인한 뒤 판단. 단순 지시 성공만으로 복잡한 지시 수행을 인정하지 않음. |\n| **4쪽 수용 13번** | 10월 20일 시계를 보고 목표 시각을 표현했고, 일상적인 요구를 이해하는 사례가 있음. | 문항의 구체적 이해 과제를 실제로 확인했다면 추정 해제 가능. 그렇지 않으면 추정 유지. |\n| **5쪽 수용 30번** | 그림과 단어를 이해하고 반응하지만, 반대말·상황 판단 과제에서 어려움이 남아 있음. | 높은 점수를 추정하기보다는 문항에 해당하는 이해 행동이 반복되는지 확인. |\n| **5쪽 수용 34번** | 언어치료에서 일부 복합적인 언어 과제를 시도했으나, 정확도와 단서 의존도가 다름. | 현재 근거만으로 독립 수행 여부를 확정하기 어려움. **추정 유지 및 면담 확인** 권장. |\n| **13쪽 개인 29·31번** | 화장실 이용, 옷 입고 벗기 등 일상 동작이 빠르게 좋아짐. | 해당 문항이 요구하는 **전체 동작을 혼자 완수하는지** 확인. 일부만 독립적으로 수행한다면 그 범위를 설명. |\n| **13쪽 개인 38·41번** | 신발·양말 착용과 위생 활동은 관찰되지만, 복잡한 자기관리 행동은 충분히 확인되지 않음. | 실제 수행 기회가 없었다면 추정 유지. 사고 전 수행을 현재 수행으로 대체하지 않음. |\n\n위 문항들은 **추정 체크가 있는 것으로 보이는 항목**이며, 사진 해상도상 일부 번호·표시는 원본과 대조가 필요합니다. 따라서 지금 단계에서 점수를 일괄적으로 0·1·2로 확정하는 것은 권하지 않습니다.\n\n## 2. 최근 기록으로 판단할 수 있는 수행 수준\n\n아래는 개별 문항의 최종 점수가 아니라, 검사자에게 전달할 **수행 근거**입니다.\n\n| 기능 | 현재 확인된 수준 | 평가 시 유의점 |\n|---|---|---|\n| 자발적인 화장실 이용 | <badge color=\"success\">반복 관찰</badge> | 16~20일 스스로 화장실에 간 사례가 있음. 이동 안전과 뒤처리 독립성은 별도. |\n| 양말 착용 | <badge color=\"success\">직접 관찰</badge> | 양말을 혼자 신었으나 방향을 수정해 준 사례가 있음. |\n| 신발 착용 | <badge>부분 독립</badge> | 오른쪽 신발 독립 착용, 왼쪽은 지시·도움 필요 사례. |\n| 목욕·샤워 | <badge>보호자 도움</badge> | 20일 샤워는 보호자가 시행. |\n| 복합적인 언어 이해 | <badge>수행 변동</badge> | 단순 지시 수행은 좋아졌지만 반대말·상황 질문에서는 어려움. |\n| 읽기·쓰기 | <badge>과제별 차이</badge> | 글자 속 단어 찾기와 문자 답장은 가능. 자발적 문장 작성은 미확인. |\n| 계단 이용 | <badge>신체적 보조</badge> | 치료사의 지지 아래 연습하며 균형이 흔들림. |\n\n## 3. 오늘 면담에서 이렇게 확인하면 좋겠습니다\n\n검사자에게는 다음처럼 설명하는 것을 권합니다.\n\n> “추정으로 표시한 문항은 실제로 해볼 기회가 없었거나, 최근 회복이 빨라서 수행 수준을 확신하기 어려웠던 항목입니다. 현재 혼자 하는 행동과 지시·도움이 필요한 행동을 구분해 말씀드리겠습니다. 문항별 점수와 추정 표시를 함께 확정해 주시면 좋겠습니다.”\n\n특히 **입원 환경 때문에 관찰하지 못한 행동**, **사고 전에는 가능했지만 현재 수행을 확인하지 못한 행동**, **최근 한두 번 성공한 행동**은 서로 구분해야 합니다.\n\n**제 권고는 추정 표시를 무조건 없애는 것이 아니라, 최근 실제 수행으로 확인된 항목만 추정을 해제하는 것입니다.** 선진이는 지금 회복 속도가 빠르므로, 10월 20일 기준의 수행 수준을 남기고 검사 결과 해석 때 평가 날짜를 명확히 하는 것이 중요합니다.\n\n원하시면 다음 단계에서는 **추정 체크가 있는 문항을 페이지·번호별로 하나씩 원문과 대조하여, 각 문항에 대해 ‘0점 / 1점 / 2점 / 추정 유지’의 권고안과 판단 근거를 작성**하겠습니다.",
+      "textSha256": "sha256:5a19474c04db00ce23958389d1c0ccd0088db38c37c900e5dfe777005324ce32",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT 답변의 원문입니다. 이번 게시 작업에서 새로 검증한 진단·처방·치료 지침이나 병원 일정 확정으로 해석하지 않습니다."
+    },
+    {
+      "id": "message-e0f8c01e-2cbb-4e9e-8dea-8d44956d24a4",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T13:05:55.552156+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "e0f8c01e-2cbb-4e9e-8dea-8d44956d24a4",
+      "sourceOrdinal": 15,
+      "turnId": "7ce7f76f-4a8f-45c0-82ce-0b63b566e324",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-schedule-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "오늘 세브란스 외래에서 이야기할 냐원 목적과 현재 선진상태 설명 및 향후 처치계획 문의등을 어떻게 이야기해야하는지. 간단허게. ",
+      "originalSha256": "sha256:beaa3abb7bfc7d72132ddc29c7c88194307d5d99ccd0f22078e25ddc1bd99f24",
+      "corrected": "오늘 세브란스 외래에서 이야기할 내원 목적과 현재 선진 상태 설명 및 향후 처치계획 문의 등을 어떻게 이야기해야 하는지. 간단하게. ",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 관찰·질문·의료진 전달 기록입니다. 검사 결과지·처방·공식 병원 기록의 직접 확인과 구분합니다."
+    },
+    {
+      "id": "message-e4ce8a21-f260-5714-9e53-4356bff74abc",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T13:06:08.071227+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "e4ce8a21-f260-5714-9e53-4356bff74abc",
+      "sourceOrdinal": 16,
+      "turnId": "7ce7f76f-4a8f-45c0-82ce-0b63b566e324",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-schedule-2026"
+      ],
+      "fidelity": "exact",
+      "text": "최근 경과를 personal-context 스킬로 확인해서, 오늘 진료실에서 짧게 말씀하실 내용과 핵심 질문만 정리하겠습니다.",
+      "textSha256": "sha256:874659521daceec7d843e2b33c5ee8469f1a63d26a998e6476b36dfa57dc0aad",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT 답변의 원문입니다. 이번 게시 작업에서 새로 검증한 진단·처방·치료 지침이나 병원 일정 확정으로 해석하지 않습니다."
+    },
+    {
+      "id": "message-9ab7371a-7186-59d3-9a25-ddc5fb9f252a",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T13:07:12.705893+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "9ab7371a-7186-59d3-9a25-ddc5fb9f252a",
+      "sourceOrdinal": 17,
+      "turnId": "7ce7f76f-4a8f-45c0-82ce-0b63b566e324",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-schedule-2026"
+      ],
+      "fidelity": "exact",
+      "text": "**“현재 회복 수준을 평가받고, 앞으로의 재활 우선순위와 치료 계획을 정하려고 왔다”**고 시작하시면 됩니다. 10월 20일까지 기록을 기준으로 정리했습니다.\n\n:::writing{variant=\"standard\" id=\"73162\"}\n교수님, 선진이는 중학교 2학년이고, 추락사고로 뇌손상과 여러 골절을 입은 뒤 현재 한양대병원에서 입원 재활 중입니다. 현재 기능을 평가받고 앞으로의 재활 방향을 상담받으려고 왔습니다.\n\n걷기와 식사·양치 등은 일부 스스로 하지만, 균형이 불안정하고 다리가 떨려 도움이 필요할 때가 있습니다. 간단한 지시 이해와 익숙한 단어 말하기는 좋아지고 있지만, 질문에 맞게 답하거나 스스로 표현하는 것은 아직 불안정합니다. 어려운 활동에서는 하품과 집중 저하가 나타납니다.\n\n기관절개관은 어제 작은 관으로 교체했고, 한 시간 막기는 문제없어 야간 막기를 계획하고 있습니다. 페니드도 복용 중입니다. 지금 가장 집중해야 할 치료와 추가 검사, 약물 및 퇴원 후 재활 계획을 여쭙고 싶습니다.\n:::\n\n이어서 **네 가지만** 물어보세요.\n\n1. **현재 평가:** “언어 이해·표현과 인지기능을 구분해 평가할 검사가 필요할까요?”\n2. **재활 목표:** “앞으로 1~3개월 가장 중요한 목표와 적절한 치료량은 무엇인가요?”\n3. **피로·약물:** “하품과 집중 저하를 어떻게 평가하고, 페니드 효과와 조정 필요성은 무엇으로 판단하나요?”\n4. **향후 계획:** “한양대 퇴원 후 어떤 재활기관·치료를 이어가면 좋을까요? 기관절개관 제거와 삼킴 관리는 어떻게 연계하면 될까요?”\n\n준비한 영상은 **말·지시 수행 장면 하나, 보행·균형 장면 하나**부터 보여드리면 설명이 쉬워집니다.",
+      "textSha256": "sha256:fa3b99cc74d3fe93ba4a52e0c3d1eb69fac6b7ca38aa5f6275d17afd976957f7",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT 답변의 원문입니다. 이번 게시 작업에서 새로 검증한 진단·처방·치료 지침이나 병원 일정 확정으로 해석하지 않습니다."
+    },
+    {
+      "id": "message-4f11cb36-a48d-4b4a-8068-7bceaa0d365b",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T16:07:27.764887+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "4f11cb36-a48d-4b4a-8068-7bceaa0d365b",
+      "sourceOrdinal": 18,
+      "turnId": "96e42a0b-ea33-47f5-891c-7e5fbbe23b65",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-schedule-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "한양대 입원 치료 후에 바로 연세 세브런스나 의정부 리허투로 갈수았다고 헌더면 어디로 가는게 더 좋울까. 국립재활원 가기전에",
+      "originalSha256": "sha256:08978d2a45d889fa380ae75829bd532616d3c3f3a9bd01703d2ad2771f81e7d1",
+      "corrected": "한양대 입원 치료 후에 바로 연세 세브런스나 의정부 리허투로 갈 수 있다고 한다면 어디로 가는 게 더 좋을까. 국립재활원 가기 전에",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 관찰·질문·의료진 전달 기록입니다. 검사 결과지·처방·공식 병원 기록의 직접 확인과 구분합니다."
+    },
+    {
+      "id": "message-464cbfa6-4ed1-5f05-b8ac-e7a9fcfec9ef",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T16:07:38.097442+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "464cbfa6-4ed1-5f05-b8ac-e7a9fcfec9ef",
+      "sourceOrdinal": 19,
+      "turnId": "96e42a0b-ea33-47f5-891c-7e5fbbe23b65",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-schedule-2026"
+      ],
+      "fidelity": "exact",
+      "text": "국립재활원에 가기 전 재활을 이어갈 병원을 고르는 문제네요. 최근 선진이 상태와 두 병원의 소아 뇌손상 재활·의료관리 여건을 확인해 비교하겠습니다.",
+      "textSha256": "sha256:2654c25978bea5a2a1c735c52004bf019758495b1f83a38c52c10a6e4a3373ae",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT 답변의 원문입니다. 이번 게시 작업에서 새로 검증한 진단·처방·치료 지침이나 병원 일정 확정으로 해석하지 않습니다."
+    },
+    {
+      "id": "message-17acd3c4-3303-5d7b-9fd4-08c3ef0398ff",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T16:09:32.179876+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "17acd3c4-3303-5d7b-9fd4-08c3ef0398ff",
+      "sourceOrdinal": 20,
+      "turnId": "96e42a0b-ea33-47f5-891c-7e5fbbe23b65",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-schedule-2026"
+      ],
+      "fidelity": "exact",
+      "text": "**두 곳 모두 바로 입원할 수 있다면, 저는 현재 선진이에게는 세브란스 입원재활을 우선 검토하겠습니다.** 다만 **한양대에서 끝내지 못한 평가·치료를 세브란스에서 구체적으로 이어받을 수 있다는 조건**입니다.\n\n선진이는 걷기뿐 아니라 **언어 이해·자발적 표현, 주의집중과 피로, 균형**을 함께 다뤄야 하고, 최근 기록상 기관절개관 제거 과정도 진행 중입니다. 세브란스는 소아 외상성 뇌손상을 입원재활 대상으로 명시하고, 언어·신경심리 평가·연하·호흡 등 다학제 프로그램을 안내하고 있어 현재 필요한 영역과 잘 맞습니다. 다만 이것이 리하트보다 치료 결과가 좋다는 비교 근거는 아닙니다. genui{\"citation\":{\"ref\":\"turn7view1\"}}\n\n반면 **한양대에서 필요한 평가와 호흡·연하 관리가 정리되고, 이제 꾸준한 기능훈련이 중심이라면 리하트도 합리적인 선택**입니다. 리하트도 소아재활센터·소아치료실 운영을 안내하지만, **선진이 같은 14세 후천성 뇌손상 환자에게 실제 배정할 언어·인지치료의 내용과 횟수**는 별도로 확인해야 합니다. genui{\"citation\":{\"ref\":\"turn7view3\"}}\n\n| 한양대 퇴원 시 상태 | 선택 방향 |\n|---|---|\n| 언어·인지 평가, 약물 조정, 기도·연하 관련 판단이 더 필요 | **세브란스 우선** |\n| 의학적으로 안정되고 치료 목표가 정리됨 + 리하트에서 필요한 소아 치료 확보 | **리하트도 충분히 고려** |\n| 국립재활원 입원일이 가까이 확정됨 | 중간 전원을 추가할 실익부터 확인 |\n\n오늘 나동욱 교수님께는 다음 세 가지를 물어보시면 결정에 도움이 됩니다.\n\n1. **“한양대 치료 후에도 세브란스에 입원해야 추가로 얻을 수 있는 평가나 치료가 무엇인가요?”**\n2. **“입원하면 언어·인지·작업·운동치료를 각각 얼마나 받을 수 있고, 입원기간은 어느 정도인가요?”**\n3. **“국립재활원 입원 전까지 리하트에서 치료받고 교수님 외래를 병행하는 것으로도 충분할까요?”**\n\n핵심은 **대학병원을 한 번 더 거치는 것 자체가 아니라, 선진이에게 필요한 치료가 끊기지 않고 실제로 제공되는지**입니다. 오늘 교수님이 제안하는 구체적인 입원 목표가 있다면 세브란스 쪽에 더 무게를 두겠습니다.",
+      "textSha256": "sha256:3bee9ba3abf1a6a8e25f5f5000e4843c8d63e7bc126b489402be18eb82940c21",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "재활프로그램",
+          "url": "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/treatment-guide/program.do",
+          "attribution": "세브란스 재활병원"
+        },
+        {
+          "title": "취업정보 - 2026년 의정부 리하트병원 작업치료사 공개채용 (신입/경력직)",
+          "url": "https://ot.dsu.ac.kr/ot/index.php?idx=1857&mode=view&pCode=jobsituations",
+          "attribution": "작업치료학과"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "genui{\"citation\":{\"ref\":\"turn7view1\"}}",
+          "urls": [
+            "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/treatment-guide/program.do"
+          ]
+        },
+        {
+          "marker": "genui{\"citation\":{\"ref\":\"turn7view3\"}}",
+          "urls": [
+            "https://ot.dsu.ac.kr/ot/index.php?idx=1857&mode=view&pCode=jobsituations"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT 답변의 원문입니다. 이번 게시 작업에서 새로 검증한 진단·처방·치료 지침이나 병원 일정 확정으로 해석하지 않습니다."
+    },
+    {
+      "id": "message-052e490a-0007-4688-8f01-deee596d9f11",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T16:12:15.886623+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "052e490a-0007-4688-8f01-deee596d9f11",
+      "sourceOrdinal": 21,
+      "turnId": "a8d544bb-9d3c-4ca0-8e89-e3a12f8b2a3d",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-schedule-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "세브런스의 쟈활푸로그럄 사간운 어느정도인지 예상해줘",
+      "originalSha256": "sha256:2db2bebf665577f5dad7774a787f450a76a51225e90fa98009606c9ac397d84e",
+      "corrected": "세브란스의 재활프로그램 시간은 어느 정도인지 예상해줘",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 관찰·질문·의료진 전달 기록입니다. 검사 결과지·처방·공식 병원 기록의 직접 확인과 구분합니다."
+    },
+    {
+      "id": "message-e25ca03d-ae5d-5383-ae77-1d2137963799",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T16:12:26.663236+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "e25ca03d-ae5d-5383-ae77-1d2137963799",
+      "sourceOrdinal": 22,
+      "turnId": "a8d544bb-9d3c-4ca0-8e89-e3a12f8b2a3d",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-schedule-2026"
+      ],
+      "fidelity": "exact",
+      "text": "세브란스가 공개한 입원재활 운영시간을 확인하고, 선진이에게 배정될 수 있는 하루 치료량은 추정 범위로 나눠 말씀드릴게요.",
+      "textSha256": "sha256:d84a568feac24a443ba6af02bdb4f63c4e8cc19cfcce1dca2e89c2de34edf522",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT 답변의 원문입니다. 이번 게시 작업에서 새로 검증한 진단·처방·치료 지침이나 병원 일정 확정으로 해석하지 않습니다."
+    },
+    {
+      "id": "message-13e65cc3-69c5-4993-bfcf-a03c1dbaee5e",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T16:12:56.333048+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "13e65cc3-69c5-4993-bfcf-a03c1dbaee5e",
+      "sourceOrdinal": 23,
+      "turnId": "a8d544bb-9d3c-4ca0-8e89-e3a12f8b2a3d",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-schedule-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "현재 한양대는 대략 하루에 세시간정도 잔행해",
+      "originalSha256": "sha256:1a9b39ce74280718c0fbb1e71fe9d7b603e8fbcdca45c9f1ba81eb64502e9342",
+      "corrected": "현재 한양대는 대략 하루에 세 시간 정도 진행해",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 관찰·질문·의료진 전달 기록입니다. 검사 결과지·처방·공식 병원 기록의 직접 확인과 구분합니다."
+    },
+    {
+      "id": "message-716e4b59-26b8-51b5-b1d8-ed64f658f08a",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T16:13:21.960717+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "716e4b59-26b8-51b5-b1d8-ed64f658f08a",
+      "sourceOrdinal": 24,
+      "turnId": "a8d544bb-9d3c-4ca0-8e89-e3a12f8b2a3d",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-schedule-2026"
+      ],
+      "fidelity": "exact",
+      "text": "한양대에서 하루 약 3시간을 받고 있다면 그 시간을 기준으로 비교해야겠네요. 세브란스가 더 많은 치료를 제공한다고 가정할 수는 없어서, 실제 치료시간과 언어·인지치료 배정을 따로 확인하겠습니다.",
+      "textSha256": "sha256:58566a653f7faff3fc53fbdee9405bda16f4fdc759b31a842f48bdcb7b3341f7",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT 답변의 원문입니다. 이번 게시 작업에서 새로 검증한 진단·처방·치료 지침이나 병원 일정 확정으로 해석하지 않습니다."
+    },
+    {
+      "id": "message-00a49cba-068e-5ef0-8c02-febf8ed4ae0e",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T16:14:06.440793+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "00a49cba-068e-5ef0-8c02-febf8ed4ae0e",
+      "sourceOrdinal": 25,
+      "turnId": "a8d544bb-9d3c-4ca0-8e89-e3a12f8b2a3d",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-schedule-2026"
+      ],
+      "fidelity": "exact",
+      "text": "**한양대에서 하루 약 3시간을 받고 있다면, 세브란스가 치료시간 면에서 더 유리하다고 가정하면 안 되겠습니다.**\n\n공식 안내에서 확인되는 것은 다음입니다.\n\n- **1:1 운동치료는 30분 1회가 기본**, 처방에 따라 1회 추가할 수 있습니다. 다만 선진이의 소아 치료 배정에 그대로 적용되는지는 확인이 필요합니다. genui{\"citation\":{\"ref\":\"turn10view0\"}}\n- 치료실은 **주 5.5일 운영**한다고 안내하지만, 개인별 하루 총 치료시간은 공개하지 않습니다. genui{\"citation\":{\"ref\":\"turn9view1\"}}\n\n계산상 **30분 치료가 하루 4~6회 배정되면 2~3시간**입니다. 하지만 이는 가능한 편성 예시이지, 세브란스의 실제 평균이나 선진이에게 보장되는 시간은 아닙니다.\n\n따라서 지금은 **“현재 3시간을 유지하면서 언어·인지치료를 얼마나 확보할 수 있는가”**를 기준으로 비교하는 게 좋겠습니다. 운동·작업치료, 언어·인지치료, 기구·전기치료 시간을 나누고 이동·대기는 제외해서요.\n\n병원에는 **“현재 한양대에서 하루 약 3시간 치료받는데, 세브란스에서는 선진이에게 치료별로 하루·주당 몇 회씩 실제 배정되나요?”**라고 확인하세요.\n\n앞서 말씀드린 세브란스 우선 의견도 **치료량이 유지되고, 추가 평가·치료의 이점이 확인될 때**라는 조건으로 보시면 됩니다.",
+      "textSha256": "sha256:af266fc61250d9289bb397b391d4fadf616ab79e520a9cf17c90733a750fa3de",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "자주묻는질문",
+          "url": "https://sev-rehabil.severance.healthcare/sev-rehabil/faq/faq.do?article.offset=0&articleLimit=20&mode=list",
+          "attribution": "세브란스 재활병원"
+        },
+        {
+          "title": "재활프로그램",
+          "url": "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/treatment-guide/program.do",
+          "attribution": "세브란스 재활병원"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "genui{\"citation\":{\"ref\":\"turn10view0\"}}",
+          "urls": [
+            "https://sev-rehabil.severance.healthcare/sev-rehabil/faq/faq.do?article.offset=0&articleLimit=20&mode=list"
+          ]
+        },
+        {
+          "marker": "genui{\"citation\":{\"ref\":\"turn9view1\"}}",
+          "urls": [
+            "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/treatment-guide/program.do"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT 답변의 원문입니다. 이번 게시 작업에서 새로 검증한 진단·처방·치료 지침이나 병원 일정 확정으로 해석하지 않습니다."
+    },
+    {
+      "id": "message-715bca81-bf5c-49be-9f86-059bc96fc571",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T20:42:12.891482+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "715bca81-bf5c-49be-9f86-059bc96fc571",
+      "sourceOrdinal": 32,
+      "turnId": "77c1a1b0-dcc9-4f02-8ad6-676329be6a59",
+      "sourceRefs": [
+        "chatgpt-care-phase-5-hanyang-2026"
+      ],
+      "fidelity": "privacy-redacted",
+      "privacyRedactions": [
+        "third-party-sensitive",
+        "room-number",
+        "personal-identifier"
+      ],
+      "privacyNote": "공개본에서 제3자 건강·가족관계·또래 사생활 문단·병실번호·제3자 아동 이름·학교명·과거 거주지·출생·거주지·가족 거주지·학교·학원 지역을 가렸습니다. 가린 부분은 비공개 표시로 남겼으며, 그 외 텍스트는 원문대로 보존했습니다. 사진만 있는 입력은 비공개 첨부 표시로 남깁니다.",
+      "publicText": "# 선진이 일반병실 간병·경과 기록\n> 날짜와 시간은 가능한 한 정확히 기록하고, 직접 관찰 및 근거를 갖고 기록함.  \n> 방향, 관계 등은 항상 선진이 본인 기준. 그렇지 않은 경우 언급함. (e.g. 보호자의 어머니)\n\n## 1. 기본 정보 \n- 날짜: 2026년 10월 21일 (수요일)\n- 기록 시간: 05시 00분 ~ 22시 00분\n- 병실: 한양대 병원 [병실번호 비공개]\n- 보호자: 김현중 (아빠)\n\n\n## 2. 주요 일정 및 검사·치료·의료진 설명 (e.g. 회진)\n21일 동관7층에서 정신의학과 심리검사.\n9시부터 두시간여 진행. 개방병동 면담실에서 진행하며 그림 기능검사. \n검사후 보호자 면담 진행됨.  사전검사지 설문지 제출함. \n면담 내용\n1. 면담 목적과 현재 상태\n- 면담은 선진의 지시 이해, 인지·언어 기능, 발달 이력, 사고 전후의 일상생활 기능을 확인하기 위해 진행됐다. 평가자는 미리 작성된 내용을 토대로 질문했고, 아버지는 본인이 관찰한 내용과 가족에게 들은 과거 이력을 구분해 답했다. 일부 기억은 정확하지 않을 수 있고, 작성 자료에도 확실하지 않은 내용은 추정이라고 표시했다고 설명했다.\n- 평가자는 선진이 간단한 지시는 이해하지만, 지시가 복잡해지면 수행하지 못하거나 반응이 일관되지 않을 수 있다고 설명했다. 같은 내용을 달리 물었을 때 답변이 바뀌는 경우도 관찰된 것으로 언급됐다. 따라서 현재의 반응은 단순한 예·아니요 답변만으로 확정하기 어렵고, 질문의 표현과 난이도에 따라 달라질 가능성을 염두에 두고 해석할 필요가 있다고 대화에서 확인됐다.\n- 아버지가 보기에는 선진의 상태가 점점 좋아지고 있으며 면담 당일 컨디션도 나쁘지 않았다. 다만 사고 후 회복 초기의 기능을 확인하는 면담이므로, 아버지의 관찰과 실제 수행 능력 사이에 차이가 있을 수 있고, 일부 기능은 아직 직접 확인하지 못했다고 밝혔다.\n- 선진이 검사 중 독일어처럼 들리는 말을 했는지 확인하는 질문이 있었다. 아버지는 선진이 독일에서 약 2년 반 지내며 독일 친구들과 의사소통할 정도로 독일어를 사용한 경험이 있다고 설명했다. 검사에서 들린 표현은 무의미한 발화라기보다 숫자 과제 중 나온 말일 수 있는지 확인하는 맥락에서 논의됐다.\n\n2. 7층 낙상 사고와 급성기 치료 경과\n- 아버지는 사고가 방학이 시작하는 주 토요일 오전인 7월 25일에 발생했다고 설명했다. 사고 전에는 방학 계획표를 작성해 아버지에게 보여주는 일이 있었고, 아버지는 친구가 가져온 계획표와 선진의 계획표가 마음에 들지 않아 다시 작성해 오라고 하며 한두 차례 크게 나무랐다고 회상했다.\n- 아버지는 선진의 방에서 계획표를 다시 써 오라고 말한 뒤 침대에 앉아 있었고, 선진은 주방으로 나가 물을 마셨다. 그때 쿵 하는 소리를 들었으며, 다시 소리가 나 놀라 나가 보니 선진이 바깥쪽 창문에서 떨어진 상태였다. 낙상 높이는 7층이었다. 아버지는 두부 손상과 외상성 손상이 있었다고 설명하고, 곧바로 응급실로 갔다고 했다.\n- 아버지는 사고 직전 계획표를 둘러싼 훈육이 사고와 시간적으로 가까웠던 일을 상세히 이야기했지만, 면담에서는 사고의 원인이나 의도를 확정하지 않았다. 사고 당시 가족이 관찰한 상황과 사고 이후의 의료 경과를 중심으로 확인했다.\n- 선진은 의정부 성모병원에 입원해 여러 수술과 치료를 받았고, 이후 중환자실에서 치료받았다. 아버지는 의료 처치의 구체적인 내용은 자신의 전문 영역이 아니라고 구분했다. 병원에 머문 기간은 처음 설명한 약 두 달에서 뒤에 두 달 반으로 정정됐으며, 10월 12일 병원에서 나왔다고 말했다.\n- 아버지는 사고 후 약 일주일쯤 되었을 때 선진이 검사를 받으러 이동하는 모습을 병원 복도에서 볼 수 있었다고 했다. 당시 눈을 뜨고 깜빡이거나 고개를 들어 주변을 두리번거리는 모습이 있었지만, 사람을 알아보거나 시선을 맞춘 행동인지는 확실하지 않았다고 강조했다. 간호사에게 매일 상태를 물었고, 눈을 떴다거나 손가락을 움직였다는 설명을 들은 기억이 있다고 했다.\n- 부모가 병원에서 선진을 볼 수 있었던 시점은 8월 초에도 가능했으며, 당시 관찰된 반응은 주로 눈을 뜨고 깜빡이거나 주변을 두리번거리는 정도였다. 아버지는 의학적으로 의식 상태가 어땠는지, 사고 후 두 달 동안 계속 의식이 없었던 것인지는 정확히 알지 못한다고 답했다.\n- 의정부 성모병원 진단서에는 ‘외상성’이라는 표현이 없었다고 했다. 아버지는 당시 진단 내용으로 외상성 쇼크, 저산소성 뇌손상, 기뇌와 관련된 내용이 있었던 것 같다고 기억했다. 산소 마스크는 사고 후 약 2주쯤 되었을 때 제거했던 것으로 기억한다고 설명했다.\n\n3. 전원·재활 치료와 회복 초기의 언어·인지 변화\n- 아버지는 의정부 성모병원에서 한양대학교병원으로 이동한 날이 10월 12일이라고 확인했다. 전원 목적은 재활의학과 진료와 재활 치료였으며, 빠르게 전원할 수 있는 병원을 찾다가 한양대학교병원에 오게 됐다고 했다. 아산병원, 세브란스병원, 한양대학교병원에 문의했고, 한양대학교병원에서 외래 진료를 가장 빠르게 받을 수 있었다고 설명했다.\n- 외래 진료를 받은 뒤 곧바로 입원한 것은 아니었다. 아버지의 기억으로는 외래 진료 후 약 1~2주가 지나 입원했다. 9월 7일 또는 8일 무렵 CRI 양성 판정을 받아 연속 3회 음성이 확인될 때까지 기다려야 했던 것이 입원 지연의 이유로 언급됐다.\n- 언어치료는 10월부터 시작했다고 설명됐다. 선진은 말하기 전부터 치료실에서 발화 연습을 했고, 말이 나오기 시작한 것은 면담 당시 이번 주였다. 아버지는 말하기 시작한 지 일주일이 채 되지 않았다고 했다. 선진은 “아빠”, “엄마”를 말하고, 동물 이름을 물으면 “개”, “소”, “고양이”라고 답할 수 있었다.\n- 면담 당일 아침에는 누나의 전화가 울렸을 때 휴대전화 쪽을 보며 아버지를 가리키고 “누나”라고 말했다고 아버지가 전했다. 평가자는 지난주에는 말이 되지 않는다고 확인해 필담을 시도하려 했다고 회상했다. 이처럼 말하기가 최근 시작된 것과, 그보다 앞서 글씨로 일부 정보를 표현했던 것이 함께 확인됐다.\n- 글쓰기는 말하기보다 먼저 가능했던 것으로 보고됐다. 아버지는 의정부 성모병원에 있을 때 아이패드 등을 활용해 이름 같은 키워드를 제시하면 선진이 자기 이름이나 엄마 이름을 쓴 적이 있다고 했다. 한 번은 자기 이름을 쓰고 엄마 이름도 썼지만, 특정한 상황에서 가능했던 것이며 복잡한 내용이나 다른 기억을 요구하면 과제를 끝까지 수행하지 못했다고 설명했다.\n- 평가자는 그림을 그리는 상황에서 선진이 글씨를 쓰고 “누나” 같은 단어를 적을 수 있었으며, 별·나무·도토리를 그려 보라는 요청을 수행하고 포세이돈을 그리기도 했다고 전했다. “김선진 누나”를 적을 수 있었던 사례도 언급했다. 이는 단순한 쓰기·그리기 능력이 남아 있더라도 복잡한 지시, 기억, 과제 지속에는 어려움이 있을 수 있다는 대화의 맥락과 함께 다뤄졌다.\n- 기억과 이해에 관해서는 아버지와의 갈등 상황을 어떻게 기억하는지 확인했다. 선진은 아버지와 있었던 일을 어느 정도 기억하는 듯했지만, 왜 그 일이 있었는지 질문하면 모르겠다고 한 것으로 평가자가 전했다. 아버지는 이를 ‘싸운 일’이라기보다 본인이 선진을 혼낸 일이었다고 바로잡았다. 평가자는 선진이 자신이 몇 학년인지 같은 정보도 잘 기억하거나 이해하지 못하는 듯했다고 덧붙였다.\n\n4. 영유아기 발달·초등학교 생활과 학습 특성\n- 아버지는 선진의 발달이 늦었던 적은 없었던 것 같고, 한글을 떼지 못한 채 학교에 들어간 것도 아니라고 했다. 입학 전에 한글과 숫자를 익혔으며, 어린이집에서 부모와 떨어질 때 심하게 울거나 적응하지 못한 일도 없었다고 회상했다. 어린 시절 교사로부터 부주의나 ADHD와 관련한 피드백을 받은 적도 없었다.\n- 초등학교 시절 선진의 성적은 아버지가 보기에는 중상위권이었다. 선진은 공부에 어느 정도 자신감이 있었고 받아쓰기, 국어, 수학 사이에 특별히 두드러지는 성적 편차 없이 전반적으로 잘했다고 했다. 아버지는 선진이 공부를 짧게 하더라도 결과를 내는 편이었고, 수학처럼 논리적인 분야에서 상대적으로 강했을 수 있다고 설명했다. 언어 과목은 누나가 더 잘했을 수 있다고 비교했다.\n- 학교 출석은 꾸준하고 책임감 있게 했다고 했다. 선진이 학교에 가기 싫다고 하거나 등교를 거부한 적은 없었으며, 지각도 거의 없었다. 다만 아침에 늦게 일어나거나 일어나기 힘들어한 경우는 있었다. 해야 할 일이 있는 날에는 별도로 알람을 맞추지 않아도 일어났지만, 쉬는 날이나 정해진 일정이 없는 날에는 깨워도 잘 일어나지 않았다고 했다.\n- 한국에서 초등학교 1~3학년을 보낼 때 교우관계는 대체로 무난했다. 아버지는 소수의 친구와 친밀하게 지내는 편으로 기억하지만, 단짝 친구와 자전거를 타거나 함께 놀러 다닌 구체적인 상황은 잘 모른다고 했다. 또래 갈등이나 교사에게 반복해서 지적받는 일은 없었다고 확인했다.\n- 아버지는 선진을 차분하면서도 자신이 해야 할 일을 조금씩 해내는 아이로 묘사했다. 사람들과 잘 어울리고 자신감이 있었으며, 지나치게 공격적인 아이는 아니었다고 했다. 반장을 한 적은 없었다. 적극적으로 활동을 주도하기보다 다른 사람이 제안하면 받아들이는 편이고, 그림을 그리거나 앉아서 무언가 하는 활동을 더 선호했다는 설명도 이어졌다.\n- 공부를 어느 정도 하기를 바라는 부모의 기대는 있었지만, 아버지는 선진이 할 수 있는 만큼 해내고 어려움이 있어도 쉽게 포기하지 않기를 바랐다고 했다. 학원이나 목표를 정한 활동을 오래 이어가지 못하고 중간에 그만두고 싶다고 말한 적은 있었지만, 아버지는 이를 반드시 능력 부족으로 보지는 않았다. 하기 싫거나 왜 해야 하는지 동기가 생기지 않았기 때문일 수 있다고 해석했다.\n- 중학교 입학 후에도 출결은 괜찮았고, 성적은 중상 정도였다고 기억했다. 최근 확인한 중학교 2학년 성적 평균은 90점대 초·중반 정도라고 했다. 시험이 있다는 사실과 준비 시점은 알고 있었고 미리 공부하기도 했으나, 다음 날 치를 시험과 다른 과목을 준비한 사례가 한 번 있었던 것 같다고 회상했다. 계획이 아주 치밀하지는 않았다는 평가였다.\n\n5. 독일 이주와 언어 적응, 또래 관계·활동\n- 선진은 초등학교 4학년부터 6학년 사이 독일에서 약 2년 반 지냈다. 아버지는 구체적인 기간을 2020년 3월부터 2022년 7월 말까지라고 설명했다. 독일 이주는 아버지의 연구원 근무와 포닥 과정 때문이었다. 가족은 현지 독일어 학교에 다녔으며, 외국인 학교가 아니었다.\n- 독일에 처음 갔을 때 선진은 독일어를 알아듣지 못해 친구들과 어울리고 수업에 참여하는 데 어려움이 있었다. 집에 돌아와 부모에게 힘든 일을 이야기하며 우울한 기색을 보였다고 아버지는 기억했다. 선진은 어떻게 해야 할지 모르겠다고 표현했지만, 학교에 가지 않겠다고 하거나 등교를 거부하지는 않았다.\n- 적응에 어려움을 겪은 시기는 아버지 기억으로 약 6개월에서 1년이었다. 당시 코로나 시기라 사람을 활발히 만나거나 모임을 갖기 어려운 상황이기도 했다. 시간이 지나면서 독일어 의사소통이 자연스러워졌고, 아버지는 그 과정에 약 1년이 걸렸다고 기억했다. 학교에는 외국에서 온 아이들을 위한 언어 수업이 있었고, 연구소가 있는 지역이라 외국에서 온 아이들과 한국인 공동체도 있었다.\n- 초기에는 부모가 선진에게 더 적극적으로 행동해야 한다는 취지로 강하게 조언하거나 무엇을 해야 한다고 요구한 일이 있었을 수 있다고 아버지는 돌아봤다. 선진의 어려움은 언어와 친구 관계뿐 아니라 부모의 강한 조언과 코로나 시기의 고립감이 함께 영향을 주었을 가능성이 있다고 이야기했다. 한국으로 돌아온 뒤 선진과 대화할 기회가 많아졌고, 선진은 시간이 지나며 다른 아이들이 자신을 잘 대해주려고 노력했다고 회상했던 것으로 아버지는 기억했다. 독일 생활을 전반적으로 좋은 기억으로 말한 적도 있다고 했다.\n[제3자 민감정보 비공개]\n- 독일에서 선진에게는 친한 친구가 몇 명 있었고, 서로 생일잔치에 초대하거나 집에 가서 놀기도 했다. 대만인 친구 한 명이 있었고, 학교 친구였던 것으로 기억하지만 어떻게 친해졌는지는 아버지도 정확히 알지 못했다. ‘[지인 이름 비공개]’라고 기억하는 친구와 반의 또 다른 친구도 언급됐다. 친구 관계는 소수와 친밀하게 지내되 먼저 관계를 주도하기보다 다른 아이의 제안을 받아들이는 편으로 설명됐다.\n- 학교가 끝난 뒤에는 가톨릭 봉사단체가 운영하는 외국인 아동 대상 활동에 거의 매일 1~2시간 참여했다. 독일 아이들과 함께하는 축구 수업에도 몇 주에 한 번씩 갔다. 선진은 축구를 특별히 좋아하거나 실력이 뛰어난 편은 아니었지만 수업에는 잘 다녔다. 한국으로 돌아온 뒤 6학년쯤에도 축구 수업에 보냈지만 선진이 그 활동을 특히 좋아하지는 않았다고 했다.\n- 아버지는 선진이 활동적인 놀이를 이끌기보다 정적인 활동, 그림 그리기, 앉아서 하는 활동을 선호했다고 평가했다. 학교 점심시간이나 수업 사이에 또래들과 어울렸는지는 어머니에게 확인해야 할 내용이라고 전제하면서, 자신이 들은 바로는 한두 명과 어울렸고 다른 아이들이 제안하면 따라가는 느낌이었다고 설명했다.\n- 독일 이주 전 한국에서도 소수의 친구와 지내는 모습이었던 것으로 기억한다. 독일에서 돌아온 뒤에도 조용하게 친구들과 놀았고, 학교나 또래 관계에서 반복적인 문제를 겪었다는 보고는 없었다. 친구들과의 구체적인 교류 빈도와 관계의 깊이에 대해서는 아버지가 모든 상황을 직접 알지는 못했다고 했다.\n\n6. 가족 관계·양육 환경과 성장 과정\n- 선진은 [출생·거주지 비공개]에서 태어나 아파트에서 약 4년 살았고, 이후 [거주지 비공개]에서 약 4년, [거주지 비공개]에서 약 2년 거주한 뒤 독일로 갔다. 초등학교 입학은 [학교명 비공개]에서 했으며, 1~3학년을 같은 학교에 다녔다. 어린이집 적응이나 초등학교 입학 자체에서 뚜렷한 어려움이 있었다는 내용은 면담에서 확인되지 않았다.\n- 영유아기에는 아버지가 대학원에 다녀 수입이 매우 적었고, 시골에 있는 아버지의 도움을 받으며 살았다. 주 양육자는 어머니였다. 어머니는 결혼 전 어린이집 교사로 일하다가 결혼 후 일을 그만두고 선진을 돌봤다. 선진이 초등학교에 들어가기 전 [거주지 비공개]에 살던 시기에 교사 교육공무원 시험에 합격했다.\n- 어머니는 선진이 초등학교 1학년일 때 휴직했고, 독일로 가기 1년 전부터 출근했다가 독일 이주와 함께 다시 휴직했다. 한국에 돌아온 뒤에는 계속 출근했다. 어머니가 복직한 뒤에도 아이들이 학교에서 돌아오는 시간에 맞춰 부모가 함께 있었고, 아이들끼리만 식사를 해결한 것은 아니었다. 당시에는 부모가 음식을 차려주면 아이들이 먹었다고 아버지가 설명했다.\n[제3자 민감정보 비공개]\n- 아버지는 독일에서 연구실에 거의 계속 있었고, 저녁 식사 후에도 밤 9시쯤 다시 연구실로 가 새벽에 귀가하는 생활을 했다고 했다. 평가자는 가족 구성원 모두 각자 적응하려 애썼지만 선진이 특히 힘들었던 것으로 정리했다.\n- 선진과 누나는 꽤 잘 어울리고 함께 놀았다. 서로 경쟁하는 관계는 아니었고, 형제자매 사이에서 흔히 하는 장난과 놀림이 있었다. 누나가 선진을 누르는 듯한 면이 있었지만 선진은 장난을 잘 받아주는 편이었다. 최근 선진이 회복하는 과정에서도 누나는 선진을 예전처럼 대하고 함께 어울리려는 모습을 보인다고 했다.\n[제3자 민감정보 비공개]\n[제3자 민감정보 비공개]\n- 가족은 유럽에 살 때 아이들에게 다양한 경험을 보여주기 위해 캠핑을 다녔다. 아버지는 선진이 캠핑을 좋아했다고 기억했다. 한국으로 돌아오는 것을 선진이 싫어하지는 않았던 것 같지만, 귀국 후 어려움을 겪었을 가능성은 있다고 조심스럽게 말했다.\n\n7. 중학교 시기 학업·진로 고민과 최근 정서·생활 변화\n- 아버지는 중학교에 들어간 뒤 선진이 “이걸 왜 해야 하는지 모르겠다”, “뭘 해야 될지 모르겠다”, “앞으로 꿈이 뭔지 모르겠다”는 고민을 이야기하기 시작했다고 했다. 정확한 시작 시기는 특정하기 어렵지만 중학교 1학년 말 무렵부터였던 것으로 보며, 작년 겨울 무렵부터 학원에 거의 다니지 않았다.\n- 부모는 아내와 의논한 뒤, 아직 중학생이므로 학원에 다니는 것보다 일상생활을 하며 무엇을 좋아하는지 생각하고 진로 관심사를 찾아보자는 취지로 선진에게 말했다. 아버지는 아이가 학원을 계속 다녀야 하는 이유를 모르겠다고 말했고, 부모는 꿈을 찾아가는 시기라고 판단했다고 설명했다.\n- 방학 계획표 사건은 아버지가 본인의 말투와 기대를 돌아보는 계기가 됐다. 선진은 계획표를 작성했지만 내용이 두루뭉술해 보였고, 아버지는 별생각 없이 쓴 것처럼 받아들여 크게 나무랐다. 그러나 선진은 계획표에 책 읽기를 적어 두었고, 평소 고전 읽기를 좋아했다. 프로스트와 단테의 『신곡』을 읽었으며, 『신곡』의 지옥편을 먼저 읽고 연옥편을 읽으려 했지만 어렵다고 말한 뒤 방학 중 읽겠다는 계획을 적었다.\n- 아버지는 독서를 방학 계획에 별도로 적을 필요가 없는 당연한 활동처럼 생각해 “이게 뭐냐”는 식으로 말했다고 돌아봤다. 평가자는 그 말이 선진에게 압박으로 느껴졌을 수 있다고 짚었다. 아버지는 자신의 말하는 방식 때문에 선진이 크게 실망했을 가능성이 있다고 생각했다.\n- 과거에는 아버지가 퇴근 후 선진과 산책을 자주 했고, 선진도 함께 걷는 시간을 좋아했다. 산책하면서 가벼운 이야기부터 깊은 이야기까지 나눴다고 했다. 최근에는 아버지가 회사에 있어 선진이 집에서 실제로 무엇을 하는지 정확히 알기 어렵지만, 학교에서 돌아온 뒤 게임·텔레비전·휴대전화를 하는 것처럼 느꼈다고 했다.\n- 아버지는 선진이 밤에 잘 자려 하지 않고 아침에 일어나기 힘들어하는 듯했다고 했다. 올해 초부터, 대략 3월 무렵 또는 1학기부터 말수가 줄고 피로감과 처지는 모습이 나타났다고 보고했다. 식사도 적극적으로 하지 않았고, 아침을 차려줘도 먹지 않고 다시 자는 경우가 있다고 했다.\n- 식사 선호는 뚜렷했다. 햄버거도 특정 브랜드의 특정 메뉴를 좋아하고, 그 메뉴가 아니면 잘 먹으려 하지 않는다고 했다. 주말에는 토요일이나 일요일에 점심 12시 이후 일어나 활동하는 경우가 많았다. 가족이 거실에서 텔레비전을 보면 잠깐 함께 있다가 방으로 들어가 게임을 하거나 책을 읽기도 했다.\n- 가족과의 교류가 완전히 끊긴 것은 아니었다. 아버지가 할머니 댁에 가자고 하면 선진이 따라오기도 했고, 가족과 함께 있는 시간도 일부 있었다. 체중이 줄지는 않았고, 아버지는 표정이 예전보다 나빠졌다고 느끼지 않았다. 예전에 즐기던 것에 흥미를 잃었거나 아버지와 함께하기 싫다고 말한 적도 없었다. 아버지와 공유하는 유머 코드도 유지된다고 했다.\n- 중학교 1학년 시기의 적응은 쉽지 않았을 수 있지만 함께 다니는 친구가 있었고 주말에도 만나는 친구들이 있었다. 친구와 더 친해지려면 어떻게 해야 하는지 고민한 적은 있었으나, 아버지는 그 고민이 선진을 심각하게 힘들게 하지는 않았던 것 같다고 했다. 울거나 식사·수면에 뚜렷한 문제가 있었던 것은 아니라고 기억했다.\n- 사고 전 중학교 1~2학년 무렵 한 친구와 다툰 일이 있었다. 정확한 시점과 관계의 세부 내용은 아버지도 특정하지 못했다. 선진은 나중에 그 친구와 화해했다고 이야기했고, 그전에 갈등을 잘 풀었다는 취지로 말한 적도 있었다. 평가자는 갈등이 해결되기 전까지 선진이 그 관계를 계속 고민했을 수 있다고 확인했고, 아버지도 그랬을 것으로 보인다고 답했다.\n- 사회적 활동은 일부 유지됐다. 선진은 게임을 함께하는 친구들과 약속을 잡아 밖에서 만나기도 했고, 시험이 끝난 뒤나 주말에 PC방에 가기도 했다. 학원을 다니지 않은 뒤에도 친구를 만났으며, 아버지는 학교에서 기운이 없다는 이야기를 듣거나 친구 만남이 크게 줄었다고 보지는 않았다.\n- 평가자는 충동적인 행동, 갑작스러운 활동 중단, 우울감·불안, 울음, 시험을 못 볼까 하는 걱정, 살기 싫다는 생각이나 관련 계획·검색 여부를 확인했다. 아버지는 크게 충동적으로 행동하거나 갑자기 “안 해”라고 하며 그만둔 적은 없고, 자해·자살 계획이나 관련 검색도 없었다고 답했다. 울거나 불안해하거나 시험을 못 볼까 걱정한 적도 없었다고 했다.\n- 학업에 대해 선진은 자신 있다고 말하기도 했지만, 계획한 일이 잘되지 않으면 “아쉬운 거지, 뭐”, “어쩔 수 없지, 뭐”라고 말하며 덮어두거나 쉽게 포기하는 듯한 태도를 보였다고 아버지가 전했다. 크게 욕심을 내거나 좌절감을 강하게 드러내지는 않았으며, 무엇을 해야 할지 모르겠다는 고민과 학업을 이어가는 모습이 함께 나타났다고 평가자가 정리했다.\n\n8. 사고 전 독립생활·인지 기능과 현재 기능의 비교\n- 면담에서는 사고 전의 능력과 사고 이후 현재의 수행을 구분해 확인했다. 아버지는 기능 자료가 현재 기준이며 확실하지 않은 부분은 추정이라고 표시했다고 했다. 따라서 아래 내용 가운데 직접 확인하지 않은 능력이나 ‘할 수 있을 것 같다’고 추정한 부분은 확정된 수행으로 보지 않는 방식으로 논의됐다.\n- 사고 전 선진은 계란후라이를 만들고 라면을 끓여 먹거나 볶음밥을 해 먹을 수 있었다. 돈을 정기적으로 용돈으로 받은 것은 아니며 필요할 때 부모에게 돈을 요청했다. 돈을 받으면 어머니에게 건네고 자녀 본인 명의 카드에 충전해 사용하는 방식으로 이해하고 있었다. 카드 잔액과 충전 방식을 알고 간식이나 물건 구매에 썼으며, 산책 중 구멍가게에 가서 자신의 카드로 사거나 아버지가 사주겠다고 해도 본인이 내겠다고 한 적이 있었다.\n- 휴대전화는 어렸을 때부터 가지고 있었다. 주로 카카오톡과 유튜브 쇼츠를 사용했고 다른 사회관계망 서비스에는 관심이 없었다. 인스타그램을 쓰지 않은 것은 부모가 금지해서라기보다 선진 본인이 관심이 없었기 때문이라고 했다. 누나는 부모가 말려도 설치해 사용할 만큼 관심이 있었던 것과 대비됐다.\n- 독립적인 이동 능력으로는 중학교 1학년쯤 [지역 비공개]의 어학원까지 혼자 간 사례가 있었다. 처음에는 아버지가 데려다줬고, 이후 몇 차례 경로를 함께 다니며 익히게 한 뒤 혼자 다니도록 했다. 다른 낯선 장소를 혼자 간 사례는 아버지가 구체적으로 기억하지 못했지만, 대중교통 체계를 알고 있었고 [거주지 비공개]에 있는 할머니 집도 찾아갈 수 있었을 것 같다고 했다.\n- 부모가 부탁한 물건을 사 오거나 필요한 물건을 직접 사 오는 것은 가능했다. 여러 단계의 부탁도 수행할 수 있었고, 지시를 잘못 듣거나 엉뚱하게 행동하는 편은 아니었다. 귀찮아서 하지 않는 경우는 있을 수 있다고 했다. 배달 앱은 설치되어 있지 않아 배달을 이용하지 않았다.\n- 병원 관련해서는 집에서 약 500미터 떨어진 치과에 혼자 가서 보정기 관련 처치를 받고 온 사례가 있었다. 몸이 아플 때 스스로 적극적으로 병원에 가는 편은 아니었으나, 어머니가 가야 한다고 하면 할 수 있었다. 사고 전 씻기와 면도 등 기본적인 개인 관리는 스스로 했다고 했다.\n- 일정 관리와 시험 준비에서는 시험이 있다는 사실과 준비 시점을 알고 미리 공부하기도 했다. 다만 준비 순서가 뒤바뀌거나 다음 날 시험이 아닌 다른 과목을 준비한 사례가 한 번 있었던 것 같다고 했다. 물건을 잃어버리는 일은 초등학교 무렵 가끔 있었지만 잦지는 않았다. 이 기능 자료는 면담 이틀 전에 작성한 것이어서 일부 답변이 불확실할 수 있다고 아버지가 덧붙였다.\n- 현재 선진은 화장실이 필요할 때 말로 설명하기보다 손가락질하거나 아버지를 이끌고 가는 식으로 알린다. 혼자 화장실에 갈 수 있고 서서 소변을 볼 수도 있다. 사고 후에는 혹시 모를 상황에 대비해 기저귀를 착용했으나 화장실을 계속 이용해 실제로 갈아입는 경우는 거의 없었다. 기저귀 사용을 줄인 시점은 면담 당시 며칠 전, 일주일 내외였다.\n- 약 복용은 아버지가 돕고 있지만, 면담 당일 약봉투째 건네며 먹으라고 하자 스스로 봉투를 뜯고 약을 먹었다. 약을 씹어 먹는다고 했고, 씹지 않고 삼켜야 하는 약도 씹는다고 아버지가 설명했다. 밤에는 가끔 주기적으로 수면 상태를 확인하는 것으로 보인다고 했다.\n- 현재 씻기는 아버지가 대부분 돕는다. 세수는 할 수 있을지도 모르지만 아직 시켜보지 않아 확인하지 못했다. 화장실 사용 후 손은 스스로 씻지만 물만 묻히는 정도라고 했다. 손에 통증과 떨림이 있고 한쪽 손에 힘이 부족한 듯한 반응이 있었다. 오른손은 괜찮아 보인다는 관찰도 나왔으며 손을 씻는 동작을 실제로 확인한 것은 아니라고 아버지가 덧붙였다.\n- 옷 입기는 대체로 독립적으로 할 수 있다. 상의와 바지, 속옷을 혼자 입었고 기저귀도 주며 입으라고 하면 스스로 착용했다. 단추는 채울 수 있지만 지퍼는 양손 협응이 어려워 보인다고 했다. 신발 끈은 어려울 것이라는 예상과 달리 전날 끈 두 개를 주고 묶어보게 했을 때 단순한 방식으로 묶었다고 아버지가 정정했다.\n- 머리 빗기는 할 수 있다. 면도는 평소에도 하지 않았고 수염이 나기 시작한 상황이라 현재 수행 여부를 확인하지 못했다. 손톱 깎기도 시켜보지 않아 가능 여부가 불확실하고, 손을 써야 하므로 어려울 수 있다고 했다. 양치질은 혼자 하지만 약 10초 정도만 하고 그만둘 것 같다고 아버지가 추정했다. 손을 사용하는 모습을 볼 때 할 수는 있지만 귀찮아서 충분히 하지 않을 가능성도 평가자가 언급했다.\n- 문장 따라 쓰기는 제시된 문장을 보고 쓰라고 하면 가능하다고 했다. 네 개 이상 단어로 이루어진 문장도 따라 쓸 수 있는지 확인했고, 아버지는 문장을 올려놓으면 쓸 수 있다고 답했다. 식사는 혼자 하지만 대략 반 정도 먹고 더 먹기 싫으면 멈춘다. 젓가락과 숟가락을 모두 사용하며, 햄버거처럼 좋아하는 음식은 혼자 다 먹을 수 있다. 칼로 자르는 동작은 아직 어려울 수 있다는 확인이 있었다.\n- 소지품을 챙기는 능력은 상황에 따라 달랐다. 양말을 벗으면 아버지에게 가지런히 건네주고, 모자를 가져가라고 하면 챙기기도 했다. 스스로 먼저 알아서 챙기는 것은 아직 어려울 수 있지만 가끔은 스스로 챙긴다고 했다. 동전을 여러 개 준 뒤 일정 금액을 만들어 달라고 했을 때 맞춰서 건넨 사례가 있었고, 이는 사고 이후의 일이었다.\n- 구매와 전화 사용은 일부 단계가 가능했다. 보호자와 휠체어로 편의점에 갔을 때 물건을 고르고 계산대에 올려놓을 수 있었다. 혼자 카드만 주고 구매를 맡겼을 때 전 과정을 할 수 있는지는 아버지가 알지 못했다. 휴대전화를 주고 할아버지에게 전화하라고 하면 번호를 눌러 전화할 수 있지만, 전화번호 자체를 기억하는지는 확인하지 못했다.\n\n9. 현재 의사소통·사회적 수행·이동 기능과 검사 결과 안내\n- 현재 선진은 질문에 대한 응답이 일관되지 않을 수 있다. 같은 질문을 다른 방식으로 물었을 때 “응”이라고 답하는 등 반응이 오락가락할 수 있고, “이거 맞아?”, “아니야?” 같은 질문에 애매하게 답하는 모습이 관찰됐다고 평가자가 말했다. “별로야?”라고 물으면 별로라고 표현한 적도 있다고 했다.\n- 신체 부위인 코와 입을 알고, “화장실 가자” 같은 일상적 표현은 이해하는 것으로 확인됐다. 간단한 지시는 수행할 수 있지만 어려운 지시에서는 수행이 불안정하다는 초기 관찰과 연결된다. 감정이나 통증을 말로 설명하는 것은 아직 어렵다고 아버지가 전했다. 싫다는 말을 하기보다 짜증을 내거나 고개를 젓고, 힘들거나 아플 때 “악!” 하고 소리를 내는 반응을 보인 적이 있다고 했다.\n- 동작 모방은 일부 확인됐다. 면도나 화장, 청소 동작은 실제로 해보거나 앞에서 본 적이 없어 확인되지 않았다. 망치로 못을 박는 동작을 해보라는 요청에는 망치질 동작을 따라 해 평가자가 모방 가능성을 확인했다. 포장지는 과자 봉지처럼 큰 동작이 필요한 경우 뜯을 수 있지만 아주 미세한 동작은 어렵다고 했다. 손 통증이 세밀한 손동작에 영향을 주는지 질문이 있었고, 아버지는 미세한 동작이 어렵다고 설명했다.\n- 사회적 놀이에서는 누나와 함께 노는 것이 가능했다. 소꿉놀이는 해보지 않아 알 수 없지만, 무궁화 꽃이 피었습니다와 같은 놀이를 전날 해봤고 규칙을 이해한 뒤 하자고 하자 참여했다고 했다. 게임 중 방법을 알려주거나 “이렇게 말고 이렇게 해봐”라고 조언하면 행동을 수정하기도 했다. 하기로 한 계획이 바뀌어도 짜증을 내는 것 같지는 않다고 아버지가 답했다.\n- 휴대전화는 현재도 사용한다. 아버지의 휴대전화를 주면 쇼츠를 보고 친구들이 보낸 문자를 열어본다. 답장을 하지는 않지만 메시지를 읽고 웃는 반응을 보인다고 했다.\n- 이동은 가능하지만 걷는 모습에는 기운 부족과 불안정성이 있다. 누워 있다가 일어나고 화장실에 혼자 가는 것이 가능하며, 공을 받는 동작도 할 수 있다. 계단은 난간이나 주변을 잡으면 오르내리지만 불안정하다. 한 발 뛰기는 어려워 보이고 자전거는 현재 타지 못할 것 같다고 아버지가 말했다.\n- 평가 당일 회진에서는 담당 교수가 검사 결과가 나오면 설명해 주겠다는 취지로 안내한 것으로 전해졌다. 퇴원 일정은 정해지지 않았다. 입원 당시에는 입원일로부터 약 3주 입원할 수 있다고 들었고, 면담 당시 아버지는 약 2주가 남았다고 설명했다.\n- 평가자는 보고서 작성에 약 10일이 걸릴 것으로 안내했고, 검사 당일부터 약 10일 뒤 결과를 받아보면 된다고 설명했다. 결과 설명은 평가자가 직접 하는 것이 아니라 주 치료자인 담당 교수가 맡을 예정이다.\n- 보고서는 이후 장애 진단이 필요할 때 활용될 가능성이 있다고 설명됐다. 이번 평가는 원래 지능과 인지 기능뿐 아니라 현재 수행 가능한 발달 기능도 함께 확인해 보고서에 담도록 구성됐다. 구청 등에 따라 필요한 자료가 다를 수 있어 추가 자료가 필요하면 원자료를 요청할 수 있고, 이 경우 평가를 진행한 곳이 아니라 정신과에 연락해 처방을 받을 수 있다고 안내했다.\n- 아버지는 재활과 기능 회복이 진행되면 시간이 지난 뒤 검사 결과가 달라질 수 있는지 물었다. 평가자는 사고 직후이고 재활을 시작한 지 며칠밖에 되지 않은 시점이므로 현재 평가와 이후 회복된 상태가 다를 수 있다고 답했다. 회복 경과를 확인하기 위해 추후 재검사를 할 수 있으며, 필요하면 담당 교수에게 처방을 받을 수 있다고 덧붙였다.\n\n주요 결정 사항\n- 선진은 학원을 다니지 않고 생활하면서 좋아하는 것과 진로 관심사를 찾아보도록 하기로 했다. 선진이 학원을 왜 다녀야 하는지, 무엇을 해야 할지, 앞으로의 꿈이 무엇인지 모르겠다고 이야기했고, 부모는 중학생 시기가 관심사와 꿈을 탐색하는 때라고 판단했다.\n- 검사 보고서에는 인지 기능뿐 아니라 현재 수행 가능한 발달 기능도 함께 평가해 포함하기로 했다. 향후 장애 진단 등으로 보고서가 필요할 수 있어 활용 범위를 넓히기 위한 설명이 있었다.\n- 검사 결과는 평가자가 아니라 주 치료자인 담당 교수에게 설명받기로 했다. 결과가 나오면 담당 교수가 설명할 예정이라고 안내됐다.\n\n조치 항목\n- 면담에서 별도로 담당자와 기한을 지정한 후속 조치 항목은 확인되지 않았다. 검사 보고서 결과 설명 및 추가 원자료 요청 가능성은 안내됐으나, 구체적인 일정이나 별도 담당 업무로 확정된 것은 아니다.\n\n주요 수치와 시점\n- 독일 거주 기간: 약 2년 반. 선진은 초등학교 4~6학년 사이 독일에서 지냈다.\n- 독일 체류 시작: 2020년 3월.\n- 독일 체류 종료: 2022년 7월 말.\n- 낙상 높이: 7층.\n- 사고 발생일: 7월 25일, 방학이 시작하는 주 토요일 오전. 해당 연도는 면담에서 명시되지 않았다.\n- 중환자실 치료 및 병원 체류: 중환자실 치료는 약 두 달로 언급됐고, 의정부 성모병원 체류는 뒤에 두 달 반으로 정정됐다.\n- 산소 마스크 제거 시점: 사고 후 약 2주쯤.\n- 간병 시작일: 9월 7일.\n- CRI 양성 판정 시점: 9월 7일 또는 8일로 기억했다.\n- 전원 전 음성 확인: 연속 3회 음성이 확인될 때까지 기다렸다고 설명했다.\n- 의정부 성모병원 퇴원 및 한양대학교병원 이동일: 10월 12일.\n- 재활 입원 대기 기간: 외래 진료 후 약 1~2주.\n- 말하기 시작한 시점: 이번 주부터 말하기 시작했고, 시작한 지 일주일이 채 되지 않았다.\n- 독일 초기 적응 어려움: 약 6개월에서 1년.\n- 독일어 의사소통이 자연스러워지기까지: 약 1년.\n- 독일 방과 후 외국인 아동 대상 활동: 거의 매일 1~2시간.\n- 독일 이주 당시 학년: 초등학교 4학년으로 언급됐다.\n- 귀국 후 축구 수업 시기: 초등학교 6학년쯤.\n- 독일 이주 전 한국 학교생활: 초등학교 1~3학년.\n[제3자 민감정보 비공개]\n- [거주지 비공개] 거주 기간: 약 4년.\n- [거주지 비공개] 거주 기간: 약 4년.\n- [거주지 비공개] 거주 기간: 약 2년.\n- 어머니의 독일 이주 전 출근 기간: 독일로 가기 약 1년 전부터 출근했다.\n- 아버지가 저녁 식사 뒤 연구실로 다시 간 시각: 밤 9시쯤.\n- 중학교 성적 평균: 90점대 초·중반 정도.\n- 학원에 거의 다니지 않은 시점: 작년 겨울 무렵부터.\n- 기분·생활 변화가 눈에 띄기 시작한 시점: 올해 3월 무렵 또는 1학기부터.\n- 주말 기상 시각: 점심 12시 이후인 경우가 많았다.\n- 카드 충전 방식 설명에 사용된 금액 예시: 2만 원.\n- 혼자 다닌 치과 관련 장소 거리: 집에서 약 500미터.\n- [지역 비공개] 어학원에 혼자 다니기 시작한 시기: 중학교 1학년쯤.\n- 시험 준비 혼동 사례: 한 번 있었던 것으로 기억했다.\n- 기저귀 사용을 줄인 시점: 면담 당시 약 일주일 내외 전.\n- 양치질 지속 시간: 약 10초로 아버지가 추정했다.\n- 따라 쓸 수 있는 문장 길이 확인 기준: 네 개 이상 단어.\n- 입원 예상 기간: 입원 당시 약 3주라고 들었다.\n- 남은 입원 기간: 면담 당시 약 2주라고 보호자가 설명했다.\n- 검사 보고서 작성·결과 예상 기간: 검사 당일부터 약 10일.\n- 스스로 먹는 식사량: 대략 반 정도 먹고, 더 먹기 싫으면 중단한다고 했다.\n\n미해결 사항과 후속 확인\n- 사고 후 의식 상태가 지속적으로 어떠했는지, 눈을 뜨거나 주변을 둘러본 시점에 사람을 인식했는지는 아버지가 의학적으로 확정하지 못했다. 당시 의료기록이나 담당 의료진의 설명을 통해 확인할 수 있는 미해결 항목이다.\n- 의정부 성모병원 진단서에 적힌 정확한 진단명과 외상성 쇼크·저산소성 뇌손상·기뇌 관련 기록은 아버지의 기억에 기반해 언급됐다. 정확한 의학적 표현은 진단서와 진료기록 확인이 필요하다.\n- 사고 발생 연도는 면담에서 제시되지 않았으며, 7월 25일이라는 날짜만 언급됐다.\n- 현재 손의 통증·떨림과 한쪽 손의 힘 저하가 세밀한 동작, 지퍼 사용, 손 씻기 등에 미치는 정도는 면담에서 일부 관찰됐지만 전반적으로 확정되지 않았다. 손톱 깎기, 세수, 면도, 미세한 조작 등 직접 시도하지 않은 활동의 능력은 확인되지 않았다.\n- 현재 질문 응답의 일관성, 복잡한 지시 수행, 감정·통증 표현, 약을 씹어 먹는 행동은 추후 치료 과정에서 추가로 관찰할 필요가 있는 내용으로 남았다. 면담에서는 이를 평가 결과로 확정하지 않았다.\n- 퇴원 날짜는 정해지지 않았다. 검사 결과가 나오면 담당 교수가 설명할 예정이며, 이후 회복 상태와 필요에 따라 재검사를 할 수 있다는 가능성이 안내됐다.\n- 장애 진단이나 기관 제출을 위해 어떤 서류가 구체적으로 필요한지는 구청 등 요구 기관에 따라 달라질 수 있다. 추가 원자료가 필요하면 정신과에 연락해 처방을 받아야 한다는 안내가 있었지만, 현재 별도 요청이나 일정은 확정되지 않았다.\n- 독일 학교에서 점심시간에 선진이 누구와 얼마나 어울렸는지, 친구 관계의 세부 내용은 아버지가 직접 모두 확인하지 못했다. 이 내용은 어머니에게 확인해야 할 수 있다고 대화 중 언급됐다.\n- 최근 학업 압박감의 구체적인 양상과 선진이 느끼는 부담의 정도는 면담에서 자세히 설명되지 않았다. 진로 고민과 학원 중단, 계획표 사건, 쉽게 체념하는 듯한 반응은 확인됐지만 그 사이의 인과관계는 확정되지 않았다.\n\n기타 주요 업데이트\n- 평가자는 간단한 지시와 복잡한 지시에 대한 선진의 반응 차이를 초반부터 확인했으며, 반응이 오락가락할 수 있다는 점을 여러 생활 기능 질문에서도 고려했다.\n- 아버지는 선진의 사고 전 성격을 내향적이고 정적인 활동을 선호하지만, 사람들과 잘 지내고 맡은 일을 조금씩 해내는 모습으로 설명했다. 독일과 한국에서 소수의 친구와 관계를 이어갔고, 친구가 먼저 제안하면 받아들이는 경향이 있었다.\n- 독일에서의 초기 어려움은 언어 습득과 또래 적응, 코로나 시기의 제한, 가족 구성원 각자의 생활 여건이 겹친 시기로 회고됐다. 시간이 지난 뒤에는 친구 관계와 독일 생활을 긍정적으로 기억한 정황도 함께 언급됐다.\n- 아버지는 선진이 최근에도 친구를 만나고 가족과 일부 교류하며, 과거에 좋아하던 활동이나 아버지와의 유머 코드가 완전히 사라진 것은 아니라고 보고했다. 동시에 올해 초부터 피로감, 말수 감소, 처지는 모습과 식사량 저하가 있었다고 설명했다.\n- 현재 선진은 말로 요구를 충분히 표현하지 못하는 상황에서도 손짓, 가리키기, 보호자를 이끄는 방식으로 필요를 알릴 수 있다. 화장실 이동, 옷 입기, 식사, 전화 걸기, 놀이 참여 등 일부 일상 기능은 가능하지만, 수행의 질과 지속성은 제한적일 수 있다고 보고됐다.\n- 검사 결과는 사고 직후의 회복 단계에서 얻는 현재 시점의 자료다. 재활이 진행되고 기능이 달라지면 향후 평가 결과도 달라질 수 있다는 점이 담당자 설명으로 강조됐다.\n오전에 10시 20분 경에 최수진 교수가 회진을 옴. 아이 심리치료 검사 결과가 아직 종료 되지 않았기 때문에 그것이 정리가 되면 다시 확인을 해 보겠다고 함. 목관은 오늘 밤에 막고 자 보고 이후 한 이틀 정도 뒤에 제거 하는 것으로 최승윤 선생님이 오전에 언급한 대로 일정을 공유 주었음. 오늘 세브란스 외래에 가서 특별히 이야기 나눌 내용에 대해서 추천을 받았는데, 향후 통원치료나 외래 진료를 대학병원 한두군데 정도 같이 진행 할 수 있도록 하기 위해 세브란스에 가보는 것은 좋은 선택이라 말씀 이번 장을 받을 수 있으면 하되 세브란스도 입원 대기가 있을 수 있을 것임을 염두에 두어야 한다고 이야기 함. 따라서 목관을 제거하고 국립재활원에 입원 하는 것을 우선 목표로하되 세브란스 입원장 발급이 가능하면 발급 받는 것을 목표로 제시 하였음. 따라서 한양대병원 이후에 세브란스 입원이 바로 연계가. 가능하면 그렇게 진행하고 그렇지 않으면 리 하트 병원으로 바로 재활 전환 후 세브란스 혹은 국립재활원으로 가능한 빠른 일정으로 다시 전원이 추천됨. \n오후 2시 40분 세브란스 병원 외래 진료를 위한 외출 외출 시간은 12시 반부터 4시\n연세 세브란스 병원에서 입원장 접수를 하였음 나동욱 교수님 외래 진료를 보고 아이 상태를 확인한 뒤 입원을 결정 하였음. \n1. 다발성 외상과 치료 경과\n- 선진은 사고로 머리를 다치고 여러 장기에 손상을 입었다. 폐 타박상과 호흡 곤란이 있었고, 비장을 절제했으며 손상된 간은 봉합했다.\n- 호흡 곤란이 이어져 기관절개를 했고, 의정부성모병원 중환자실에서 약 2개월간 치료를 받았다. 왼쪽 팔과 손목이 골절됐으며 골반도 골절됐으나 수술 없이 자연적으로 붙었다. 다리와 발뼈 골절은 없었다.\n- 기관절개관을 막는 연습은 전날부터 시작했고 말소리도 조금씩 나오기 시작했다. 한양대학교병원에서는 다음 주 초쯤 기관절개관 제거가 가능할 것으로 보인다는 소견을 전했다.\n- 한양대학교병원에서 MRI를 다시 촬영하는 방안도 논의됐다.\n\n2. 보행·상지 기능과 기억·학습 상태\n- 선진은 현재 어느 정도 걸을 수 있지만 자세가 불안정하다. 계단을 오르내릴 수는 있어도 위험을 우려해 보호자가 붙잡고 이동하도록 한다.\n- 왼쪽 팔은 골절 영향으로 힘이 좋지 않고 오른쪽 팔은 잘 사용한다. 상담 중 병실 문까지 걸어가도록 하며 보행 상태와 균형, 말의 명료성, 시야 및 계단 이동을 살폈다.\n- 상담 중 이름과 병원은 답했지만 학년은 처음 중1이라고 했다가 보호자가 중2라고 확인했다. 최근 일을 잘 기억하지 못하는 모습도 확인됐으며, 보호자는 말을 하기 시작한 뒤 하루하루 회복되는 변화가 있다고 설명했다.\n- 상담 의료진은 뇌 손상 이후 걷기·먹기·말하기가 회복되더라도 미세 동작 조절이나 민첩한 움직임에 어려움이 남을 수 있다고 설명했다. 새로운 경험을 기억하지 못하면 학습이 어려울 수 있어 기억력과 학습 능력을 중요하게 살펴야 한다고 강조했다.\n\n3. 재활 입원 시기와 후속 전원 계획\n- 선진은 10월 12일 의정부성모병원에서 왕십리 한양대학교병원 재활의학과로 전원해 재활치료를 받고 있다. 한양대학교병원 입원일로부터 약 3주 뒤 퇴원해야 할 수 있어 이후 재활치료를 이어갈 병원을 알아보는 중이다.\n- 보호자는 한양대학교병원 치료를 마친 뒤 11월 초쯤 다른 병원에서 입원 재활을 받고, 이후 국립재활원으로 옮기는 계획을 설명했다. 교수의 판단에 따라 그보다 일찍 입원할 수 있는지도 문의했다.\n- 상담 의료진은 입원 순번을 단순한 고정 순서로 정하기보다 환자의 긴급성을 판단한다고 설명했다. 최근 급성으로 다친 선진은 우선적으로 치료를 진행할 수 있으며, 자리가 나면 일주일 이내 입원도 가능할 수 있다고 답했다. 오늘 당장 입원한다는 뜻은 아니며 가능한 한 빠르게 진행하겠다고 약속했다.\n- 급성기 재활 입원은 대략 6주 정도 진행하는 경우가 있다고 안내했다. 상담 의료진은 골절 등이 회복된 점은 다행이라고 덧붙였다.\n\n4. 재활 환경과 동반 질환 관리\n- 보호자는 재활 전문기관의 돌봄과 대학병원 입원의 차이, 입원 후 재활치료 지속 가능성을 문의했다. 상담 의료진은 해당 병원이 대학병원이면서 재활 전문 병원이기도 해 여러 재활치료를 제공한다고 설명했다.\n- 병원마다 시설과 치료 프로그램의 다양성, 치료사의 수와 경험이 다를 수 있다. 이 병원에는 수치료·로봇 치료·디지털 치료가 있으며, 목 상태나 다른 손상 부위를 함께 살펴야 할 때는 여러 진료과 협진이 가능한 점도 장점이라고 했다.\n- 보호자는 비장 절제 이후 방광 관련 문제와 설사, 요로 감염 같은 증상이 간혹 있다고 전했다. 신경 치료도 병행할 수 있는지 문의했으며, 상담 의료진은 뇌 기능 회복을 위해 약물이나 일부 치료를 쓰는 방법은 있지만 근본적으로 효과가 있는 치료는 많지 않다고 설명했다.\n\n주요 결정\n- 선진이 가능한 한 빠르게 입원할 수 있도록 추진하기로 했다. 최근 급성으로 다친 환자를 우선적으로 고려하고, 병상에 자리가 나는 대로 입원 치료를 진행하겠다는 설명과 약속에 따른 결정이다.\n\n실행 항목\n- Speaker 1: 자리가 나는 대로 선진이 가능한 한 빠르게 입원할 수 있도록 진행한다. — 진행 예정\n\n주요 수치와 일정\n- 의정부성모병원 중환자실 체류 기간: 약 2개월. 호흡 곤란으로 기관절개를 한 뒤 중환자실에서 치료받은 기간이다.\n- 한양대학교병원 전원일: 10월 12일. 의정부성모병원에서 왕십리 한양대학교병원 재활의학과로 옮겼다.\n- 한양대학교병원 입원 후 퇴원 시점: 약 3주 뒤. 이후 재활치료를 이어갈 병원을 알아보는 배경이다.\n- 가능한 빠른 입원의 예시: 일주일 이내. 병상에 자리가 날 경우 가능할 수 있다고 설명했으며, 당일 입원을 뜻하지는 않는다.\n- 희망하는 후속 재활 입원 시기: 11월 초쯤. 이후 국립재활원으로 전원하는 계획이다.\n- 급성기 재활 입원 예상 기간: 대략 6주.\n- 기억력 설명에 든 과거 시점 예시: 5년 전 또는 10년 전의 일은 기억하더라도 새로운 일을 기억하지 못하면 학습이 어려울 수 있다는 취지로 제시됐다.\n- 선진의 학교 학년: 중2. 보호자가 확인했다.\n\n미해결 사항 및 후속 확인\n- 병상 상황에 따라 실제 입원 가능한 날짜가 언제인지 확인이 필요하다.\n- 한양대학교병원 퇴원 후 입원 재활을 이어갈 기관과 국립재활원 전원 시점은 구체적으로 확정되지 않았다.\n- 한양대학교병원에서 MRI를 다시 촬영할지와 촬영 일정은 확인이 필요하다.\n- 기관절개관 제거 시점은 다음 주 초 가능성에 대한 소견이 공유됐으나, 실제 제거 여부와 시점은 경과 확인이 필요하다.\n- 비장 절제 이후 간헐적으로 나타나는 방광 관련 문제와 설사, 요로 감염 증상을 어떤 진료과와 함께 관리할지 후속 확인이 필요하다.\n오늘 밤이나 내일 중에 선진이 뇌 MRI 검사가 있을 수 있음을 안내 받고 동의서를 받으러 올 것임을 간호사로부터 확인 받았음. 내일 오전에는 목 엑스레이 검사를 실시 할 것임을 안내 받았음.\n오후에 5시 25분 경에 최승윤 선생님이 다녀 가셨음.  세브란스 병원 외래 진료 경과에 대해서 물어 보고 퇴원 후 세브란스로 전원 예정임을 알려 드렸음. 최수진 교수님이 세브란스 출신이라 잘 이야기 해줬을 거라고 하였음. 선진이의 의식 상태에 대해서 다시 한번 확인해 보고 볼펜을 보여 주며 캐릭터가 무엇인지 물어 보았음 포켓몬의 메타몽인 것을 명확하게 확인하고 대답 하였음.  최승윤 선생님은 자기도 포켓몬을 좋아한다며 나중에 포켓몬 카드를 가져다 주겠다고 약속 하였음.  TV 에 나오는 스포츠 게임이 무엇인지 물어 보았고 선진이는 탁구 라고 정확히 언급 하였음. 목 관 제거 일정은 오늘 밤 기관 절개관을 막고 잠을 잔 뒤에 이상이 없으면 지속적으로 막은 뒤 생활하고 최종적으로는 다음 주 월요일 경에 제거 하게 될 것임을 안내 받음. 방광염 소견이 있기때문에 항생제를 약 5일 정도 먹을 것임을 안내 받았음를 위해 소변검사를 오늘 중으로 제출 할 예정임.\n저녁부터 방광염에 대한 항생제 처방을 받음. nitrofurantoin 100mg. \n\n## 3. 의식 및 상호작용, 움직임·체위·돌봄 협조, 주요 관찰 내용. \n오전 약을 먹기 위해 약을 받아 선진이에게 줌. 선진 이가 약을 모두 스스로 먹음. 약봉투 들어있는 것도 스스로 까서 입에 넣고 잘 먹음. 일부 씹어 먹는 게 아직 남아 있긴 함\n생각나는 동물 이름을 얘기해 보라고 하였음.  들소 소 개 고양이 등을 이야기 함 그림을 보지 않고 생각만 해서 이야기 함.\n누나에게 전화가 왔을 때 전화기를 손으로 가르치며 아빠를 쳐다 보고 누나 라고 이야기 하고 전화를 받으라고 표현 함\n심리치료를 위한 대기시간 중에 선진이와 간단한 이야기를 나누었음 지금 제일 뭘 하고 싶으냐는 말에 덕구 라고 예전 할머니 집에 있던 강아지 이름을 대었음.  할머니 집에서 덕구랑 놀고 싶어? 라고 물으니 응, 라고 대답함.  선진이 집이 어디야 라고 물으니 [거주지 비공개] 이라고 할머니집 위치를 이야기 함. 할머니 집에 대한 생각이 있는 것 같음. \n오전에 선진이에게 손가락을 보여주며 숫자를 이야기 보라고 할 때 선진이가 손가럭을 펴면서 독일 말로 숫자를 이야기 함. 어렸을 때 초등학교 사학년부터 육학년까지 독일에 있었기 때문에 그 경험이 기억에 남는 것 같음. 생일 축하 노래를 불러보라고 하였을 때.  독일말로 생일 축하 노래를 불렀음. \n젓가락으로 자장면안의 완두콩 집어먹음. 자장면도 먹음.  \n화장실 사용하고 싶을때 자신의 성기 부분을 손가락으로 가리킨다거나 소변 보기 위해 성기를 만지는 모습을 재현하여 의사를 표현하며 화장실 이라는 단어를 말하며 가고싶더고 표현함. 당장 가기 힘든 경우 이유를 설명하면 기다리는 모습도 보여줌. \n오후에 목욕을 스스로 하게 하였음. 비누칠을 스스로 전체적으로 하고 샤워기로 물을 들어 몸을 적시는 것까지 진행하고 힘들 것 같아 나머지는 보호자가 시켜 주고 정리줬음. 조금만 기다려 주면 스스로 완료 할 수 있을 것처럼 보임. 목욕 후 자리에 돌아와 옷을 스스로 입어냄. 단추도 채우고 팬티도 입고 바지도 스스로 입음. \n선진 이가 오늘 자기 윗니에 교정기가 있었던 자리에 교정기를 연결 시켜 준 연결 흔적을 발견하고 느낌이 이상했는지 아빠에게 손짓으로 가르쳤음.  보철이 있었던 자리에 까끌까끌하게 이에 붙어서 연결흔적이 뾰족하게 남아 있음 향후 치과 진료를 통해 혹은 교정기 시술를 통해 관리를 해야 할 것 같음. \n저녁 6시 경에 선진이 오늘 담당 간호사인 이유리 간호사 선생님이 선진이가 이전에 치토스를 맛있게 먹는 것을 기억하고 치토스를 사들고와서 선진에게 선물을줌. 선진에게 이것저것 말을 시켜 보고 선진이를 응원 하고 감. 선진이는 고맙다며 고개를 숙여 감사를 전함. \n저녁에 7시 경에 간식을 먹으러 가자고 하였음. 어디 가고 싶어 라고 물어보니 빵 이라고 대답을 하여 일층에 빵집으로 가서 빵을 두개를 삼. 먼저 하나는 슈크림빵을 샀고 두번째는 치즈케익 빵을 샀음.  올라와서 복도에서 슈크림 빵을 아빠에게 먼저 건냄.  아빠를 위해 슈크림 빵을 집은 것이었음. 반정도 서로 먹고 방으로 들어옴. 빵을 먹으며 이야기를 나눴는데 재화를 하면서 옆에서 가족들이 모두 힘이 될 것이라고 응원을 해줬음 현진이는 주변에 있는 가족들을 하나씩 입으로 말을 하였음 아빠 엄마 누나 할머니 덕구 등을 이야기를 하고 자신에게 힘이 되는 사람들에 대한 것을 이야기한 것 같음 주변에 친구들도 있다고 이야기를 하니 자신의 친구들 이름을 하나씩 댐. [지인 이름 비공개]의 이름을 댐. \n선진이는 아빠가 자신의 간병 일기를 적는 것을 인지하고 있으며 간병 일기를 적을 때마다 옆에서 관심을 보임. 자신의 행동이 하나씩 음성인식을 통해 메모로 적혀 갈 때 관심을 보이고 흥미로워 함.\n\n\n\n\n\n\n",
+      "publicTextSha256": "sha256:7647fd624595d4531d1ee2a880d91a804e59e2a43bcfbb0e4fc803b7fc1af91b",
+      "provenanceNote": "보호자가 입력한 관찰·질문·의료진 전달 기록입니다. 검사 결과지·처방·공식 병원 기록의 직접 확인과 구분합니다."
+    },
+    {
+      "id": "message-a97c08f4-34bb-4b71-ad70-390ac2d52ded",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T20:42:24.448015+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "a97c08f4-34bb-4b71-ad70-390ac2d52ded",
+      "sourceOrdinal": 33,
+      "turnId": "77c1a1b0-dcc9-4f02-8ad6-676329be6a59",
+      "sourceRefs": [
+        "chatgpt-care-phase-5-hanyang-2026"
+      ],
+      "fidelity": "exact",
+      "text": "10월 21일 기록을 보면, **선진이의 인지·언어 기능을 종합적으로 평가한 날이면서, 다음 재활병원으로 세브란스 입원 가능성이 구체화된 중요한 전환점**입니다.\n\n특히 오늘은 선진이가 그림 없이 동물 이름을 떠올리고, 독일어로 숫자를 말하고 생일 축하 노래를 부르고, 친구들의 이름을 여러 명 표현했습니다. 또 화장실에 가고 싶다는 뜻을 말과 몸짓으로 전달하고, 단추를 채우며 옷을 입고, 샤워 과정에도 적극적으로 참여했습니다.\n\n이러한 변화는 10월 13일 초기 평가와 비교할 때 상당히 주목할 만합니다. 다만 **기억이 완전히 회복됐다거나 인지장애의 정도가 확정됐다는 뜻은 아니며**, 이번 심리검사 결과와 이후 반복적인 관찰을 함께 보아야 합니다.\n\n## 1. 10월 21일 주요 경과\n\n<box gap={3}>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3}>\n      <icon name=\"brain\" size=\"lg\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **09:00 — 정신건강의학과 심리검사 및 보호자 면담**\n\n      약 2시간 검사 후 K-Vineland-3 설문지를 제출하고, 사고 전 발달·학업·사회생활과 사고 후 기능을 비교하는 면담을 진행했습니다. 보고서는 약 10일 후 예상되며, 최수진 교수님이 결과를 설명할 예정입니다.\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3}>\n      <icon name=\"hospital\" size=\"lg\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **14:40 — 세브란스 나동욱 교수 외래**\n\n      진찰 후 **재활 입원 대기 접수**를 진행했습니다. 병상과 우선순위에 따라 일주일 이내 입원도 가능할 수 있다는 설명을 들었으나, 입원일은 미정입니다. 입원 재활은 대략 6주 정도를 안내받았습니다.\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3}>\n      <icon name=\"wind\" size=\"lg\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **기관절개관 제거 준비**\n\n      20일에 작은 관으로 교체한 데 이어, **21일 밤 관을 막고 수면 상태를 관찰**할 계획입니다. 문제가 없다면 지속적인 관 막기를 거쳐 다음 주 월요일인 10월 26일경 제거를 검토한다고 안내받았습니다.\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3}>\n      <icon name=\"pill\" size=\"lg\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **방광염 치료 시작**\n\n      비뇨기과 협진 이후 요로감염·방광염 소견에 따라 **니트로푸란토인 100mg**을 저녁부터 처방받았습니다. 약 5일 투약 계획으로 설명받았으며, 소변검사 결과는 아직 확인되지 않았습니다.\n    </box>\n  </row>\n</box>\n\n## 2. 인지·언어 회복에서 특히 의미 있는 관찰\n\n| 기능 | 10월 21일 관찰 | 해석 |\n|---|---|---|\n| **자발적 단어 회상** | 그림 없이 들소·소·개·고양이 등 동물 이름을 말함 | 시각적 단서 없이 어휘를 인출하는 사례 |\n| **과거 학습된 언어** | 독일어로 숫자를 말하고 생일 축하 노래를 부름 | 과거 습득한 언어·노래의 일부를 재현 |\n| **사람과 관련된 기억** | 친구 다섯 명의 이름을 표현함 | 친숙한 인물의 이름을 인출하는 능력 관찰 |\n| **상황에 맞는 의사표현** | 전화가 울리자 누나라고 말하며 아빠에게 알림 | 주변 상황과 인물을 연결해 의사소통 |\n| **요구 표현** | 화장실이라는 단어와 몸짓으로 의사를 표현하고, 기다려 달라는 설명에도 반응 | 단순 선택보다 복합적인 생활 의사소통 |\n| **일상생활 동작** | 스스로 비누칠·샤워기 사용, 단추 채우기, 속옷·바지 착용 | 실제 생활의 독립 수행 범위 확대 |\n\n### 독일어와 친구 이름을 말한 장면\n\n이날 특히 흥미로운 것은 **독일어 숫자와 생일 축하 노래**입니다.\n\n언어를 이해하고 사용하는 과정에는 의미기억, 일화기억, 자동화된 언어·운동 순서, 단어 인출 등 서로 다른 기능이 관여합니다. 익숙한 노래를 부르는 것과 새로운 질문에 자유롭게 답하는 것은 동일한 과제가 아닙니다.\n\n따라서 이번 관찰은 **사고 전에 익힌 언어적 정보와 표현을 현재도 일부 활용할 수 있다는 근거**이지만, 독일어 능력 전체가 보존됐다거나 장기기억은 정상이라는 결론으로 이어지지는 않습니다.\n\n친구 이름을 여러 명 말한 것도 마찬가지입니다. 이름을 기억에서 꺼낸 성공 사례이지만, 새로운 정보를 배우고 나중에 기억하는 능력은 별도로 평가해야 합니다.\n\n세브란스 나동욱 교수님이 강조한 **새로운 학습과 기억 능력**이 앞으로 중요한 재활 목표가 되는 이유입니다.\n\n## 3. K-Vineland-3 면담으로 확인된 중요한 사실\n\n이번 보호자 면담은 검사지를 단순히 제출하는 데 그치지 않고, **추정으로 표시한 항목의 실제 수행 수준을 구체적으로 설명한 과정**이었습니다.\n\n특히 다음 내용은 이전 설문을 해석할 때 중요한 보충 정보입니다.\n\n- **신발끈 묶기:** 어렵겠다고 예상했지만 실제로 시도했을 때 단순한 매듭을 만들 수 있었다는 점.\n- **약 복용:** 약봉투를 직접 뜯고 복용하는 행동은 가능하지만, 일부 알약을 씹는 문제가 남아 있다는 점.\n- **화장실:** 스스로 이동하고 배뇨하는 능력이 최근 나타났지만, 이전 기저귀 배뇨와 이동 안전 문제도 있다는 점.\n- **목욕:** 전체를 혼자 완수하지는 못했으나, 비누칠과 샤워기 사용 등 일부 단계를 실제로 수행한다는 점.\n- **쓰기:** 따라 쓰기와 단어 작성은 가능하지만, 질문에 맞는 자발적 문장 표현과는 차이가 있다는 점.\n\n특히 오늘 오후에는 **단추를 채우고 옷을 스스로 입는 모습**까지 관찰됐으므로, 평가자가 현재 기능을 해석할 때 참고할 수 있습니다.\n\n다만 이날 평가 결과는 **2026년 10월 21일 회복 초기의 기능을 반영한 기준점**입니다. 사고 전 능력과 현재 능력의 차이를 확인하는 데 유용하지만, 이를 향후 회복의 최종 수준이나 영구적인 장애 정도로 간주해서는 안 됩니다.\n\n## 4. 사고 전 정서·행동 면담의 해석은 신중해야 합니다\n\n이번 면담에서는 사고 직전의 방학 계획표 사건뿐 아니라, 올해 초부터 나타난 피로·말수 감소, 진로 고민, 수면 습관, 학업 부담, 또래 관계까지 폭넓게 확인했습니다.\n\n여기서 중요한 것은 **서로 다른 성격의 정보를 구분하는 것**입니다.\n\n사고 전에 말수가 줄고 진로에 대한 고민을 했다는 것은 보호자가 관찰한 사실입니다. 그러나 그것이 우울장애를 의미하는지, 사고 당시의 심리 상태와 어떤 관계가 있었는지, 사고의 의도와 관련이 있었는지는 **이번 면담만으로 확정할 수 없습니다.**\n\n마찬가지로 사고 직전의 훈육이 시간적으로 가까웠다는 사실과, 그것이 사고를 직접 일으켰다는 인과관계는 다릅니다.\n\n앞으로 정신건강의학과 평가에서는 사고 전의 변화와 현재의 정서·인지 상태를 함께 살피되, 선진이가 충분히 의사소통할 수 있게 됐을 때 **본인의 경험과 감정을 안전하게 표현할 기회**를 갖는 것이 중요하겠습니다.\n\n## 5. 세브란스 전원 계획은 이제 우선순위를 조정할 시점입니다\n\n10월 21일 진료 전까지는 **한양대 → 리하트 → 국립재활원**이 잠정 계획이었습니다.\n\n하지만 오늘 세브란스에서 직접 진찰한 후 입원 대기를 접수했고, 비교적 빠른 입원 가능성을 설명받았으므로 계획을 다음과 같이 조정하는 것이 합리적입니다.\n\n<box border radius=\"xl\" padding={3} gap={2}>\n  <text color=\"secondary\" weight=\"medium\" size=\"xs\">우선 검토할 전원 경로</text>\n  <box align=\"center\" gap={1}>\n    **한양대 재활의학과**\n\n    <caption>기관절개관 제거 평가 · 심리검사 결과 확인</caption>\n    <icon name=\"arrow-down\" color=\"tertiary\"/>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3} width=\"100%\" align=\"center\" gap={1}>\n      **세브란스 입원 재활**\n\n      <caption>병상 확보 및 수용 가능 시 우선 전원 검토</caption>\n    </box>\n    <icon name=\"arrow-down\" color=\"tertiary\"/>\n    **국립재활원**\n\n    <caption>장기 재활 계획과 입원 가능 시기 조율</caption>\n  </box>\n  <divider color=\"subtle\"/>\n  <text color=\"secondary\" size=\"sm\">세브란스 입원이 한양대 퇴원 시점과 연결되지 않으면, 리하트 재활병원을 경유하는 기존 계획을 유지합니다.</text>\n</box>\n\n세브란스의 장점은 단순히 치료 종류가 많다는 것보다, **인지·언어·운동 재활과 함께 기도, 골절, 비뇨기계 문제 등 여러 진료과의 평가를 연계할 수 있다는 점**입니다.\n\n다만 치료 프로그램의 종류가 많다는 사실만으로 선진이에게 실제 제공되는 치료 시간이 더 길거나 효과가 더 좋다고 단정할 수는 없습니다. 입원 날짜가 제시되면 **하루 치료 구성, 소아·청소년 인지·언어재활의 빈도, 예상 입원기간, 이후 전원 계획**을 확인해 비교하는 것이 좋겠습니다.\n\n## 6. 10월 22일 회진에서 확인할 사항\n\n| 우선순위 | 확인할 내용 |\n|---|---|\n| **1. 기도** | 21일 밤 관 막기 시험의 산소포화도·호흡 상태·분비물 배출 결과, 26일 제거 가능 여부 |\n| **2. MRI** | 재촬영 목적, 이전 8월 MRI와의 비교 계획, 촬영 일정 및 결과 설명 시점 |\n| **3. 방광염** | 소변검사·배양검사 결과, 니트로푸란토인 투여 횟수·기간, 감염 부위와 치료 반응 |\n| **4. 심리검사** | 결과 보고서 예상일, 검사 중 확인된 강점과 어려움, 향후 재평가 계획 |\n| **5. 전원** | 세브란스 입원 가능 시 한양대 퇴원·회송 절차와 기도 관리 계획을 어떻게 연결할지 |\n\n**니트로푸란토인은 일반적으로 하부 요로감염에 사용하는 약으로, 신우신염이나 전신감염 치료에는 적합하지 않습니다.** 따라서 발열·오한·옆구리 통증·전신 상태 악화가 있다면 즉시 의료진에게 알려야 합니다. 특히 선진이는 비장절제 병력이 있으므로 새로운 발열이나 급격한 상태 변화는 더욱 신속한 평가가 필요합니다.\n\n또한 오늘도 일부 알약을 씹었다는 기록이 있으므로, **서방형 제제가 포함되어 있는지 병동 약사와 다시 확인**해야 합니다. 씹으면 안 되는 약을 복용하기 어렵다면 제형을 조정할 수 있는지 문의하는 것이 안전합니다.\n\n---\n\n## 10월 21일 간병·경과 요약\n\n> 선진이는 오전 정신건강의학과 심리검사와 보호자 면담을 통해 사고 전 발달·학습·사회생활과 현재 인지·적응행동 기능을 평가받았다. 검사 보고서는 약 10일 후 예상되며, 최수진 교수가 결과를 설명할 예정이다.\n>\n> 오후 세브란스 나동욱 교수 외래에서 보행·언어·기억 기능을 확인하고 입원 재활 대기 접수를 진행했다. 병상 확보 시 조기 입원 가능성이 언급됐으며, 한양대 이후 세브란스 전원을 우선 검토하기로 했다.\n>\n> 인지·언어 면에서는 그림 없이 동물 이름을 떠올리고, 독일어 숫자와 생일 축하 노래를 표현했으며, 가족·친구의 이름을 여러 명 말하는 모습이 관찰됐다. 화장실 요구 표현, 부분적인 독립 목욕, 단추 채우기와 옷 입기 등 일상생활 수행도 확대됐다.\n>\n> 기관절개관은 21일 밤 관 막기 상태로 수면을 관찰하고 이상이 없으면 다음 주 월요일경 제거를 검토할 계획이다. 방광염 소견으로 니트로푸란토인 100mg을 저녁부터 처방받았으며, 소변검사 결과 확인이 필요하다.\n\n오늘의 기록에서 제가 특히 주목하는 장면은 **선진이가 자신에게 힘이 되는 가족들과 친구들의 이름을 하나씩 이야기한 순간**입니다. 이것은 특정 기억이 완전히 회복됐다는 판정은 아니지만, 선진이가 자신에게 익숙하고 의미 있는 사람들을 현재의 의사소통 속에서 표현하고 있다는 구체적인 관찰입니다.\n\n그리고 오늘 진행한 심리검사는 앞으로의 재활에서 **어떤 기능을 더 집중적으로 평가하고 훈련해야 하는지 판단하는 첫 기준점**이 될 것입니다.\n\n---\n\nIf you want, I can:\n\n- Continue detailed recovery progress notes\n- Expand on recent behavioral observations\n- Describe future rehabilitation and care plans",
+      "textSha256": "sha256:aaeef43e150f3c3345735e132e2ec4671466dbad94179ca3883e5c2fd89fe649",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT 답변의 원문입니다. 이번 게시 작업에서 새로 검증한 진단·처방·치료 지침이나 병원 일정 확정으로 해석하지 않습니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "amendment-rehab-care-2026-10-21-assessment-photo-scope",
+      "recordedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-0dc59e5d-845c-41a1-b28a-b8ecd78b75d4",
+      "note": "첨부 검사 사진과 원본 문서는 비공개입니다. 본문의 문항 번호·표시·채점 안내와 답변은 당시 GPT의 사진 판독·해석이며 이번 게시 작업의 공식 채점이나 검사 결과 확인이 아닙니다. 적응행동·지능·의식 수준을 같은 지표로 간주하지 않습니다.",
+      "sourceRefs": [
+        "chatgpt-care-phase-5-hanyang-2026"
+      ]
+    },
+    {
+      "id": "amendment-rehab-care-2026-10-21-assessment-inference",
+      "recordedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-0bd9de7c-e30a-47f9-ba87-5d2d3129c2bb",
+      "note": "최근 간병기록을 바탕으로 한 수행 근거와 ‘추정’ 해제 제안은 당시 GPT의 해석입니다. 실제 문항별 점수·독립 수행 여부는 검사자 확인과 구분하며, 이 답변을 정식 평가 결과로 저장하지 않습니다.",
+      "sourceRefs": [
+        "chatgpt-care-phase-5-hanyang-2026"
+      ]
+    },
+    {
+      "id": "amendment-rehab-care-2026-10-21-transfer-comparison",
+      "recordedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-17acd3c4-3303-5d7b-9fd4-08c3ef0398ff",
+      "note": "세브란스 우선 검토는 두 곳 모두 입원 가능하고 필요한 치료가 이어진다는 조건 아래의 당시 GPT 의견입니다. 실제 입원일·병상·개인별 치료량이나 병원 간 치료 효과 비교가 확정된 내용이 아닙니다. 한양대 이후 입원 기관·국립재활원 전원은 계획과 확정 일정을 나누어 관리합니다.",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-schedule-2026"
+      ]
+    },
+    {
+      "id": "amendment-rehab-care-2026-10-21-treatment-duration",
+      "recordedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-00a49cba-068e-5ef0-8c02-febf8ed4ae0e",
+      "note": "한양대 하루 약 3시간은 보호자 보고입니다. 세브란스 30분×4~6회라는 계산은 가능한 편성 예시일 뿐 실제 배정·평균·보장시간이 아닙니다. 공개된 운영 안내와 선진이 개인 처방을 구분합니다.",
+      "sourceRefs": [
+        "chatgpt-rehabilitation-schedule-2026"
+      ]
+    },
+    {
+      "id": "amendment-rehab-care-2026-10-21-outpatient-attendance-and-transfer",
+      "recordedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-715bca81-bf5c-49be-9f86-059bc96fc571",
+      "note": "10월 21일 세브란스 나동욱 교수 외래 진료와 입원 대기 접수는 보호자가 당일 시행했다고 기록했습니다. 한양대 이후 세브란스 입원을 우선 연결하고 그렇지 않으면 리하트를 거쳐 국립재활원 등으로 전원한다는 내용은 계획입니다. 일주일 이내 가능성·11월 초 희망·약 6주 입원 안내는 확정 병상·입원일·기간이 아닙니다.",
+      "sourceRefs": [
+        "chatgpt-care-phase-5-hanyang-2026"
+      ]
+    },
+    {
+      "id": "amendment-rehab-care-2026-10-21-upcoming-test-and-airway",
+      "recordedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-715bca81-bf5c-49be-9f86-059bc96fc571",
+      "note": "21일 밤 관 막기 수면시험, 상태가 괜찮으면 이후 지속적인 관 막기와 26일경 제거를 검토한다는 안내입니다. 밤 시험 결과나 관 제거 완료는 아직 기록되지 않았습니다. 뇌 MRI는 21일 밤 또는 22일 가능성으로 시간 미정이며, 목 엑스레이는 22일 오전 예정입니다.",
+      "sourceRefs": [
+        "chatgpt-care-phase-5-hanyang-2026"
+      ]
+    },
+    {
+      "id": "amendment-rehab-care-2026-10-21-caregiver-interview-scope",
+      "recordedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-715bca81-bf5c-49be-9f86-059bc96fc571",
+      "note": "심리검사·보호자 면담 전문은 보호자가 옮긴 관찰·의료진 설명·과거 회상이며 공식 평가 보고서가 아닙니다. 보고서 약 10일 예상은 결과 확정일이 아니고, 사고 전 정서·가족·또래 기록만으로 사고 원인이나 의도를 확정하지 않습니다. 불명확한 과거 시점·CRI 표기는 추정해 수정하지 않습니다. 일부 약을 씹는 관찰, 니트로푸란토인 100mg 처방과 약 5일 안내도 실제 처방·검사 결과 확인과 구분합니다.",
+      "sourceRefs": [
+        "chatgpt-care-phase-5-hanyang-2026"
+      ]
+    },
+    {
+      "id": "amendment-rehab-care-2026-10-21-source-tail",
+      "recordedAt": {
+        "start": "2026-10-22T06:45:00+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-a97c08f4-34bb-4b71-ad70-390ac2d52ded",
+      "note": "답변 끝의 영문 후속 제안도 보이는 원문의 일부로 보존했습니다. 이번 게시 작업의 추가 요청이나 확정 의료 계획으로 실행하지 않았습니다.",
+      "sourceRefs": [
+        "chatgpt-care-phase-5-hanyang-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [],
+  "privacyReviewed": true,
+  "updatedAt": {
+    "start": "2026-10-22T06:45:00+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  }
+}

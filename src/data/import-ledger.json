@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "timezone": "Asia/Seoul",
-  "lastUpdated": "2026-10-16",
+  "lastUpdated": "2026-10-21",
   "historyPolicy": {
     "mode": "retain-existing-commits",
     "decidedAt": "2026-08-31",
@@ -32,18 +32,19 @@
       "sourceRequirement": "confirmed shared-conversation snapshot or source-verified embedded report"
     },
     "life": {
-      "status": "published-through-2026-10-07",
+      "status": "published-through-2026-10-21",
       "sourceThreads": [
         "선진이와 함께하는 삶 (phase1)",
         "선진이와 함께하는 삶 (phase2)",
         "선진이와 함께하는 삶 (phase 3)",
-        "선진과 함께하는 삶 (phase 4)"
+        "선진과 함께하는 삶 (phase 4)",
+        "선진이와 함께하는 삶 (phase 5)"
       ],
       "publicationRule": "complete-visible-source-messages-only",
       "sourceRequirement": "confirmed-chatgpt-shared-conversation-snapshot"
     },
     "medical": {
-      "status": "published-through-2026-10-16",
+      "status": "published-through-2026-10-21",
       "sourceThreads": [
         "의학지식 문의",
         "의학지식 문의 2"
@@ -65,7 +66,7 @@
       "sourceThreads": []
     },
     "rehab-care": {
-      "status": "published-through-2026-10-16",
+      "status": "published-through-2026-10-21",
       "sourceThreads": [
         "재활진료 경과정리",
         "간병기록 정리 (phase 5; 한양대)",
@@ -172,27 +173,27 @@
       ]
     },
     {
-      "id": "life-public-archive-2026-10-07",
+      "id": "life-public-archive-2026-10-21",
       "board": "life",
-      "throughDate": "2026-10-07",
+      "throughDate": "2026-10-21",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
       "selection": {
-        "publishedPostCount": 23,
-        "publishedMessageCount": 58,
-        "publishedUserMessageCount": 23,
-        "publishedAssistantMessageCount": 35,
-        "correctedUserMessageCount": 23,
+        "publishedPostCount": 24,
+        "publishedMessageCount": 61,
+        "publishedUserMessageCount": 24,
+        "publishedAssistantMessageCount": 37,
+        "correctedUserMessageCount": 24,
         "privacyRedactedMessageCount": 0,
         "sourceKindCounts": {
-          "conversation-message": 58
+          "conversation-message": 61
         },
         "withheldMessageCount": 0,
         "excludedHiddenOrRedactedRecordCount": 2,
-        "publishedContentSha256": "b0440845665d715de0abc0d6986caebd4c5f9b4b3d2cf245193350777979876e"
+        "publishedContentSha256": "e482a843ece81fd4c0f6f67e7e4c5f122f54140b4c6b0db932edb4c7f455597a"
       },
       "posts": [
         "life-2026-07-29-conversation",
@@ -217,27 +218,28 @@
         "life-2026-09-02-conversation",
         "life-2026-09-10-conversation",
         "life-2026-09-21-conversation",
-        "life-2026-10-07-conversation"
+        "life-2026-10-07-conversation",
+        "life-2026-10-21-conversation"
       ]
     },
     {
-      "id": "medical-public-archive-2026-10-16",
+      "id": "medical-public-archive-2026-10-21",
       "board": "medical",
-      "throughDate": "2026-10-16",
+      "throughDate": "2026-10-21",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
       "selection": {
-        "publishedPostCount": 37,
-        "publishedMessageCount": 211,
-        "publishedUserMessageCount": 99,
-        "publishedAssistantMessageCount": 112,
-        "correctedUserMessageCount": 68,
-        "privacyRedactedMessageCount": 14,
+        "publishedPostCount": 42,
+        "publishedMessageCount": 225,
+        "publishedUserMessageCount": 104,
+        "publishedAssistantMessageCount": 121,
+        "correctedUserMessageCount": 71,
+        "privacyRedactedMessageCount": 15,
         "sourceKindCounts": {
-          "conversation-message": 198,
+          "conversation-message": 212,
           "embedded-app-report": 1,
           "voice-transcript": 12
         },
@@ -245,7 +247,7 @@
         "withheldIncompleteExchangeCount": 1,
         "withheldIncompleteMessageCount": 2,
         "excludedHiddenOrRedactedRecordCount": 12,
-        "publishedContentSha256": "693708e45c078dd7bd1f16cff5b4f202d291755ef415a59e5df3e4a304b6bdc2"
+        "publishedContentSha256": "6d248ff34be9215d60067a7705663e21602ac3a29dc8febaafe2a64fa1922d8c"
       },
       "posts": [
         "medical-2026-08-01-conversation",
@@ -284,7 +286,12 @@
         "medical-2026-10-12-conversation",
         "medical-2026-10-13-conversation",
         "medical-2026-10-15-conversation",
-        "medical-2026-10-16-conversation"
+        "medical-2026-10-16-conversation",
+        "medical-2026-10-17-conversation",
+        "medical-2026-10-18-conversation",
+        "medical-2026-10-19-conversation",
+        "medical-2026-10-20-conversation",
+        "medical-2026-10-21-conversation"
       ]
     },
     {
@@ -322,31 +329,35 @@
       ]
     },
     {
-      "id": "rehab-care-public-archive-2026-10-16",
+      "id": "rehab-care-public-archive-2026-10-21",
       "board": "rehab-care",
-      "throughDate": "2026-10-16",
+      "throughDate": "2026-10-21",
       "publication": {
         "status": "published",
         "privacyReviewed": true,
         "publicPreviewAuthorizedByUser": true
       },
       "selection": {
-        "publishedPostCount": 4,
-        "publishedMessageCount": 29,
-        "publishedUserMessageCount": 11,
-        "publishedAssistantMessageCount": 18,
-        "correctedUserMessageCount": 1,
-        "privacyRedactedMessageCount": 6,
+        "publishedPostCount": 8,
+        "publishedMessageCount": 63,
+        "publishedUserMessageCount": 25,
+        "publishedAssistantMessageCount": 38,
+        "correctedUserMessageCount": 5,
+        "privacyRedactedMessageCount": 14,
         "sourceKindCounts": {
-          "conversation-message": 29
+          "conversation-message": 63
         },
-        "publishedContentSha256": "6d834a3002d84168493b59be7be21b528e09134ddcddea75154be87895b701dd"
+        "publishedContentSha256": "38e38ca2668a7ee2bc0753c6ff635deba0d75a79a19d131063fabcda2de1e526"
       },
       "posts": [
         "rehab-care-2026-09-30-conversation",
         "rehab-care-2026-10-13-conversation",
         "rehab-care-2026-10-14-conversation",
-        "rehab-care-2026-10-16-conversation"
+        "rehab-care-2026-10-16-conversation",
+        "rehab-care-2026-10-18-conversation",
+        "rehab-care-2026-10-19-conversation",
+        "rehab-care-2026-10-20-conversation",
+        "rehab-care-2026-10-21-conversation"
       ]
     }
   ]

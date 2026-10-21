@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-10-17-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 10월 17일 의학지식 문의 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-10-17",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-10-22T06:42:02.029+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학지식 문의",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 2 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-78271009-5831-4e9c-bbcd-9694b262cce0",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-17T20:23:04.190946+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "78271009-5831-4e9c-bbcd-9694b262cce0",
+      "sourceOrdinal": 89,
+      "turnId": "4deda7b9-53e3-476c-992e-5130f4d2cfda",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "외상성 뇌손상 회복에 미치는 자가항체 반응의 영항에 대한 논문과 연구가 있던데",
+      "originalSha256": "sha256:6010d624771078523f5f5bdc5d79205b776a906da4516da95006e7f2e981a66b",
+      "corrected": "외상성 뇌손상 회복에 미치는 자가항체 반응의 영향에 대한 논문과 연구가 있던데",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 의료진 설명과 투약·검사 내용은 보호자에게 전달된 기록이며, 원본 결과지나 처방전을 직접 확인한 기록과 구분합니다."
+    },
+    {
+      "id": "message-ac785c9f-3bbf-41b2-ae01-552a80d0e8be",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-17T20:23:49.901496+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "ac785c9f-3bbf-41b2-ae01-552a80d0e8be",
+      "sourceOrdinal": 90,
+      "turnId": "4deda7b9-53e3-476c-992e-5130f4d2cfda",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "관련 연구를 찾아보겠습니다. 자가항체가 뇌손상 후 나타나는 현상인지, 실제 회복에 영향을 주는 근거가 있는지, 선진이의 검사·치료에 적용할 단계인지 나눠 살펴보겠습니다.",
+      "textSha256": "sha256:3c7ca694991215606cd4f0db6c0fa45082852401fa68cbce20077332a6b2dfaf",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-e3377723-63a7-47db-92e1-023b5cf17aac",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-17T20:40:14.793315+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "e3377723-63a7-47db-92e1-023b5cf17aac",
+      "sourceOrdinal": 91,
+      "turnId": "4deda7b9-53e3-476c-992e-5130f4d2cfda",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "네, 현중님. **외상성 뇌손상 이후 생기는 자가항체가 회복과 장기 예후에 영향을 줄 수 있다는 연구가 실제로 있습니다.** 중요한 점은 연구 결과가 **“자가항체는 모두 해롭다”는 한 방향으로 모이지 않는다는 것**입니다. 일부 자가항체 반응은 좋지 않은 예후와 연관되지만, 최근에는 특정 자연 자가항체가 오히려 뇌손상 후 정신건강 문제를 덜 겪는 것과 연관된다는 연구도 나왔습니다. citeturn754015search0turn880593view0\n\n**다만 이 연구들을 선진이에게 적용할 때는 ‘자가항체가 발견되는 현상’과 ‘자가항체가 실제로 회복을 방해하여 치료해야 하는 질환’을 구별해야 합니다.** 하품·피로·느린 회복만으로 자가면역성 뇌손상을 판단하거나 면역치료를 시작할 근거는 되지 않습니다. 이 구분을 중심으로 주요 논문과 의미를 설명드리겠습니다. citeturn577557search15\n\n## 1. 뇌를 다쳤는데 왜 ‘자기 뇌를 향한 항체’가 생길까요?\n\n외상으로 뇌세포와 혈액뇌장벽이 손상되면, 원래 뇌세포 안이나 신경조직에 있던 단백질과 그 분해산물이 면역계에 노출됩니다. 일부 환자는 이 단백질을 항원으로 인식하여 항체를 만듭니다. 연구에서 확인한 표적에는 **성상세포의 GFAP와 그 분해산물, 수초 관련 단백질인 MAG** 등이 있습니다. citeturn525281view1turn754015search0\n\n핵심적인 가설은 다음과 같습니다.\n\n> **뇌손상 → 뇌 단백질 노출 → 자가항체 생성 → 일부 항체가 손상된 뇌에 접근 → 염증이나 신경기능에 추가적인 영향**\n\n하지만 이 과정의 마지막 부분, 즉 **그 항체가 사람의 뇌에서 실제로 해로운 작용을 하는지**는 항체마다 따로 입증해야 합니다. 혈액에서 항체가 검출됐다는 것만으로 살아 있는 뇌세포를 공격하고 있다는 뜻은 아닙니다. citeturn754015search6\n\n또한 **GFAP 단백질 농도를 측정하는 뇌손상 바이오마커 검사와, GFAP에 대한 자가항체를 측정하는 검사는 다른 검사**입니다. 전자는 손상된 조직에서 나온 단백질을, 후자는 그 단백질을 인식하는 면역반응을 보는 것입니다. citeturn690156search1\n\n## 2. 실제로 주목할 만한 연구들\n\n### ① 2014년: 항-GFAP 자가항체와 좋지 않은 예후의 연관성\n\n**Zhang 등, *PLOS ONE***  \n*Human Traumatic Brain Injury Induces Autoantibody Response against Glial Fibrillary Acidic Protein and Its Breakdown Products*\n\n이 연구는 **성인 중증 TBI 환자 53명**을 조사했습니다. 손상 후 약 일주일에 걸쳐 GFAP와 그 분해산물에 대한 자가항체 반응이 증가했고, 강한 항체 반응은 6개월 시점의 좋지 않은 기능적 결과와 연관됐습니다. 세포배양 실험에서는 관련 항체가 성상세포에 들어가 세포 상태를 악화시킬 가능성도 관찰했습니다. citeturn889730view2turn889730view3\n\n**의미:** 뇌손상 뒤 자가면역반응이 생길 수 있다는 초기의 중요한 근거입니다.\n\n**한계:** 사람에서 확인된 것은 주로 연관성입니다. **처음 손상이 심해서 항체도 많이 생기고 예후도 나빴던 것인지, 항체가 추가 손상을 일으킨 것인지**는 이 연구만으로 완전히 분리할 수 없습니다. 세포배양 결과가 곧바로 환자에게서 같은 일이 일어난다는 증명은 아닙니다.\n\n### ② 2021년: 하나의 항체가 아니라 복합적인 면역반응이 나타난다는 연구\n\n**Needham 등, *The Journal of Immunology***  \n*Complex Autoantibody Responses Occur following Moderate to Severe Traumatic Brain Injury*\n\n이 연구는 다양한 항원을 한꺼번에 검사하는 단백질 마이크로어레이로, 손상 초기부터 수개월 및 수년 뒤까지의 항체 반응을 조사했습니다. **초기에는 광범위한 IgM 반응, 이후에는 IgG 중심의 반응**이 나타났고, 일부 특정 항원에 대한 반응도 확인됐습니다. 초기 IgM 반응이 강한 환자에서 기존 위험요인으로 예상한 것보다 결과가 나쁜 경향이 있었으며, 나중까지 남는 **항-MAG IgM**은 축삭손상 지표인 **신경미세섬유 경쇄〔NfL〕** 상승과 연관됐습니다. citeturn718294view2\n\n**의미:** 자가항체 반응이 손상 후 짧은 기간에만 끝나는 현상이 아닐 수 있고, 개인별 회복 차이를 설명하는 후보라는 것입니다.\n\n**한계:** 역시 인과관계를 확정한 치료시험이 아닙니다. 또한 **특정 항체 하나의 수치만 높다고 해석하면, 전체적으로 항체 결합이 증가한 현상을 잘못 읽을 수 있다**는 점도 연구진이 강조했습니다. citeturn754015search0\n\n### ③ 2026년 9월: 오히려 ‘보호적 연관성’을 보고한 자연 항-NMDAR1 항체 연구\n\n**Vaughn 등, *Molecular Psychiatry***  \n*Natural anti–NMDAR1 autoantibodies are associated with lower risk for depression and PTSD symptoms after traumatic brain injury*\n\n최근 보신 내용이 뇌를 보호하는 자가항체에 관한 것이었다면, 이 연구와 관련됐을 수 있습니다.\n\n연구진은 **성인 남성 군인 1,025명**의 자료를 분석했고, 그중 TBI 병력이 있는 사람은 606명이었습니다. **파병 전 혈중 자연 항-NMDAR1 항체 수치가 높은 집단에서, 이후 우울 및 외상후스트레스 증상이 상대적으로 낮았습니다.** 다만 TBI의 약 86%가 경증이었고, 의식 회복이나 보행 회복을 평가한 연구는 아닙니다. citeturn880593view0\n\n연구진은 이 항체가 과도한 글루타메이트 신호에 의한 **흥분독성〔excitotoxicity〕**을 줄일 가능성을 제안했습니다. 그러나 항체를 투여한 임상시험이 아니며, 실제 뇌 안에서 보호작용을 했는지 확인하지 않았습니다. 항체의 IgG·IgM·IgA 종류도 구분하지 않았습니다. **모든 대상자에서 ‘사고 이후 새로 생긴 항체’를 조사한 연구도 아닙니다.** citeturn718294view5\n\n따라서 이 결과는 **“자가항체가 많으면 선진이의 회복이 더 좋다”거나 “이 항체를 투여하면 회복한다”는 결론으로 이어지지 않습니다.**\n\n### ④ 2026년 소아 연구: 선진이 연령대에서도 탐색 중이지만 아직 초기 근거입니다\n\n**Needs 등, 2026 Critical Care Congress 학회초록**  \n*Multi-omic Signatures of Overactive Autoantibody Activation After Pediatric Traumatic Brain Injury*\n\n이 연구는 **중증 TBI 소아 17명, 중앙연령 13.1세**의 손상 당일·2일·9일 검체를 분석했습니다. 면역글로불린 유전자 계열의 클론 확장이 9일째 증가했고, 재활기간이 가장 길었던 한 환자에서 두드러진 면역반응을 보고했습니다. citeturn525281view5\n\n선진이와 연령·손상 정도가 비교적 가까워 관심을 둘 만하지만, **제가 확인한 자료는 소규모 학회초록**입니다. 면역 유전자·항체 레퍼토리 분석에서 특정 뇌 항원과 연결된다는 것과, 그 항체가 실제로 뇌세포를 공격한다는 것은 다릅니다. **진단검사나 치료 기준으로 바로 사용할 단계의 근거로 보기는 어렵습니다.** citeturn525281view5\n\n## 3. 왜 어떤 항체는 해롭고, 어떤 항체는 보호적일 수 있을까요?\n\n**‘자가항체’는 하나의 약이나 하나의 물질이 아니라, 여러 표적을 인식하는 다양한 항체의 집합이기 때문입니다.** 같은 수용체를 향한 항체라도 결합 부위, 항체 종류, 농도, 뇌 안으로 들어가는 정도에 따라 의미가 달라질 수 있습니다. citeturn889730view0\n\n특히 **항-NMDA수용체 뇌염의 병적 항체**와 위 연구에서 측정한 **혈중 자연 항-NMDAR1 항체**를 같은 것으로 취급하면 안 됩니다. 항-NMDA수용체 뇌염에서는 환자 항체가 신경세포 표면의 수용체를 감소시키고 시냅스 기능을 변화시키는 작용이 실험적으로 확인됐습니다. 반면 자연 항체 연구의 보호작용은 아직 관찰 결과에서 제안한 가설입니다. citeturn829823search3turn880593view0\n\n면역세포 자체에도 양면성이 있습니다. **2023년 생쥐 TBI 연구에서는 B세포를 투여했을 때 IL-10 같은 조절성 신호를 통해 염증 환경이 완화**됐습니다. 이 연구가 특정 자가항체의 보호효과를 입증한 것은 아니지만, **“B세포는 항체를 만드니 전부 없애면 좋다”는 단순한 접근이 맞지 않을 수 있음**을 보여줍니다. citeturn718294view0\n\n연구를 읽을 때는 다음 세 질문을 따로 보시면 정확합니다.\n\n| 질문 | 현재 근거의 해석 |\n|---|---|\n| **TBI 뒤 자가항체가 생기는가?** | 여러 사람 대상 연구에서 확인됐습니다. |\n| **그 항체가 회복을 악화시키거나 보호하는가?** | 일부 연관성과 실험적 기전이 있지만, 항체별로 근거 수준이 다릅니다. |\n| **항체를 제거하거나 늘리면 환자의 회복이 좋아지는가?** | 위 관찰연구만으로는 답할 수 없으며, 치료적 인과관계의 검증이 필요합니다. |\n\n이것이 **바이오마커 연구와 치료 표적 연구 사이의 간격**입니다. 항체와 결과가 함께 변한다는 사실만으로 항체를 조절하면 결과도 바뀐다고 결론 낼 수는 없습니다. citeturn754015search0turn880593view0\n\n## 4. 그렇다면 면역치료로 TBI 회복을 도울 수 있나요?\n\n**가능성을 연구하는 단계이지만, 일반적인 TBI 회복 지연에 자가항체 제거 치료를 곧바로 적용할 근거는 아닙니다.**\n\n예를 들어 **2025년 *Nature Neuroscience***에서는 코로 투여한 항-CD3 항체가 생쥐 TBI 모델에서 조절 T세포와 미세아교세포의 상호작용을 바꾸고 손상·행동장애를 줄였다고 보고했습니다. 그러나 이것은 **생쥐 연구이며, 환자의 해로운 자가항체를 제거한 연구도 아닙니다.** ‘항체를 이용하는 치료’와 ‘자가항체 때문에 생긴 병을 치료하는 것’은 구분해야 합니다. citeturn718294view1\n\n반대로 **자가면역뇌염이라는 별도의 질환이 임상적으로 확인되거나 강하게 의심되는 경우**에는 스테로이드, 정맥 면역글로불린〔IVIG〕, 혈장교환, 리툭시맙 등의 면역치료를 전문팀이 사용할 수 있습니다. 소아 항-NMDA수용체 뇌염에는 이를 위한 국제 합의 권고가 있습니다. **이것은 ‘외상성 뇌손상이니까 면역치료를 한다’는 것과 다른 상황**입니다. citeturn829823search0\n\n또한 염증을 억제하면 무조건 좋아질 것이라는 가정은 위험합니다. **성인 급성 두부외상 10,008명을 대상으로 한 CRASH 시험에서는 고용량 메틸프레드니솔론 투여군의 사망률이 오히려 높았습니다.** 이 결과가 자가면역뇌염에 필요한 스테로이드 치료까지 부정하는 것은 아니지만, **정확한 적응증 없이 TBI 자체를 이유로 면역억제제를 사용하는 접근은 정당화되지 않습니다.** citeturn510184search1\n\n## 5. 선진이에게는 어떻게 연결해서 생각하면 될까요?\n\n### 지금 관찰만으로 자가항체를 주요 원인으로 볼 근거는 없습니다\n\n선진이는 **활동 후 하품과 피로가 늘고, 휴식하면 일부 회복되며, 쿠에타핀 중단 후 낮의 각성과 활동성이 좋아졌다**고 말씀하셨습니다. 최근에는 감염 치료와 섭취 부족 문제도 있었고요.\n\n이 관찰들은 중요하지만, **자가항체가 회복을 방해하고 있다는 특이적인 증거는 아닙니다.** 현재 공유해주신 내용에는 자가항체 검사 이상이나 의료진이 자가면역뇌염을 의심했다는 설명도 없습니다. 소아 자가면역뇌염은 증상 경과와 신경학적 진찰, MRI·뇌파·뇌척수액 등 보조검사를 함께 보고 진단합니다. citeturn577557search15\n\n다만 **좋아지던 기능이 설명 없이 뚜렷하게 후퇴하거나**, 새로운 반복 발작·이상운동·급격한 행동 및 의식 변화가 생기면, 단순한 회복기 변동으로 넘기지 않고 재평가해야 합니다. 이때는 감염, 약물, 대사 문제, 외상 후 발작 같은 다른 원인도 함께 확인하면서, 소아신경과가 자가면역성 원인을 감별할 필요를 판단합니다. **이런 변화가 생긴다고 곧바로 자가면역뇌염이라는 뜻은 아닙니다.** citeturn577557search15\n\n### 혈액 자가항체 패널을 무조건 넓게 검사하는 것도 답은 아닙니다\n\n자가면역뇌염을 의심할 만한 임상상이 있으면 **혈청과 뇌척수액의 관련 항체를 함께 확인**하는 접근을 고려합니다. 하지만 혈청에서 비특이적 항체 하나가 양성이라는 이유만으로 진단하면 잘못된 치료로 이어질 수 있습니다. 실제 다기관 연구에서도 **혈청 항체 결과의 과도한 해석이 자가면역뇌염 오진의 주요 원인**으로 지적됐습니다. citeturn783110search2turn577557search22\n\n따라서 선진이에게 필요한 질문은 **“자가항체 검사를 전부 해주세요”보다 “현재 경과에 외상성 손상만으로 설명하기 어려운 새로운 염증성·자가면역성 소견이 있나요?”**에 가깝습니다.\n\n### 최근 감염과 비장절제 병력은 면역치료 판단에서 반드시 고려해야 합니다\n\n앞서 알려주신 **표피포도상구균 혈액배양 결과와 항생제 치료는 세균감염에 관한 정보이지, 뇌 자가항체가 확인됐다는 뜻은 아닙니다.** 면역치료를 논의한다면 최근 감염 상태와 비장절제 병력을 반드시 함께 검토해야 합니다. 특히 리툭시맙 같은 B세포 억제 치료는 중증 감염 위험이 있고, 심한 활동성 감염에서는 사용이 권장되지 않습니다. citeturn510184search14\n\n회진에서는 이렇게 말씀하시면 좋겠습니다.\n\n> “중증 외상성 뇌손상 후 자가항체가 생기고 일부 예후와 연관된다는 연구를 봤습니다. 선진이의 현재 경과에서 감염·약물·기존 손상만으로 설명하기 어려운 신경학적 악화나 염증성 소견이 있나요? 소아신경과에서 자가면역뇌염 등을 감별할 필요가 있는지, 검사를 한다면 어떤 임상적 근거와 치료 결정을 위해 하는지 궁금합니다.”\n\n**이 분야는 회복을 더 잘 이해하고 새로운 치료를 찾는 데 중요한 연구 방향입니다. 다만 현재 선진이에게는 ‘자가항체가 회복을 막고 있을 것’이라고 먼저 결론 내리기보다, 실제 경과에서 별도의 면역성 질환을 의심할 근거가 있는지 확인하는 접근이 맞습니다.** 위 연구들은 그 가능성을 진지하게 살펴볼 이유는 되지만, 곧바로 예후를 나쁘게 보거나 면역치료를 시작할 근거는 아닙니다.\n\n보셨던 논문의 제목이나 링크도 보내주세요. **해로운 자가항체를 다룬 연구인지, 자연 항체의 보호작용을 다룬 연구인지**에 따라 선진이에게 연결할 수 있는 의미가 크게 달라집니다.",
+      "textSha256": "sha256:03d7df9fe5ba99b1310c9df186f9e28a610f4e9c9f455cfc2d150eb901167d7a",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Complex Autoantibody Responses Occur following ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34145056/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "Natural anti–NMDAR1 autoantibodies are associated with lower risk for depression and PTSD symptoms after traumatic brain injury | Molecular Psychiatry",
+          "url": "https://www.nature.com/articles/s41380-026-03883-y",
+          "attribution": "Nature"
+        },
+        {
+          "title": "Clinical approach to the diagnosis of autoimmune encephalitis in the pediatric patient - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7051207/",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "Human Traumatic Brain Injury Induces Autoantibody Response against Glial Fibrillary Acidic Protein and Its Breakdown Products | PLOS One",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0092698",
+          "attribution": "PLOS"
+        },
+        {
+          "title": "Complex Autoantibody Responses Occur following ...",
+          "url": "https://discovery.ucl.ac.uk/10133664/1/Zetterberg_Needham.pdf",
+          "attribution": "UCL Discovery"
+        },
+        {
+          "title": "Plasma Anti-Glial Fibrillary Acidic Protein Autoantibody Levels ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4931336/",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "oup.silverchair-cdn.com",
+          "url": "https://academic.oup.com/jimmunol/article/207/1/90/7944433",
+          "attribution": "OUP Academic"
+        },
+        {
+          "title": "congress2026.eventscribe.net",
+          "url": "https://congress2026.eventscribe.net/ajaxcalls/PresentationInfo.asp?PresentationID=1744358",
+          "attribution": "congress2026.eventscribe.net"
+        },
+        {
+          "title": "Cellular and synaptic mechanisms of anti-NMDA receptor ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20427647/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "B cell treatment promotes a neuroprotective microenvironment after traumatic brain injury through reciprocal immunomodulation with infiltrating peripheral myeloid cells | Journal of Neuroinflammation | Springer Nature Link",
+          "url": "https://jneuroinflammation.biomedcentral.com/articles/10.1186/s12974-023-02812-y",
+          "attribution": "SpringerLink"
+        },
+        {
+          "title": "Nasal anti-CD3 monoclonal antibody ameliorates traumatic brain injury, enhances microglial phagocytosis and reduces neuroinflammation via IL-10-dependent Treg–microglia crosstalk | Nature Neuroscience",
+          "url": "https://www.nature.com/articles/s41593-025-01877-7",
+          "attribution": "Nature"
+        },
+        {
+          "title": "International Consensus Recommendations for the ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34301820/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "Final results of MRC CRASH, a randomised placebo ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15936423/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "A clinical approach to diagnosis of autoimmune encephalitis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26906964/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "Autoimmune Encephalitis Misdiagnosis in Adults - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36441519/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "Rituxan® (rituximab [Oncology]) - Information for ...",
+          "url": "https://www.gene.com/medical-professionals/medicines/rituxan-oncology",
+          "attribution": "Genentech"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn754015search0turn880593view0",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/34145056/",
+            "https://www.nature.com/articles/s41380-026-03883-y"
+          ]
+        },
+        {
+          "marker": "citeturn577557search15",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC7051207/"
+          ]
+        },
+        {
+          "marker": "citeturn525281view1turn754015search0",
+          "urls": [
+            "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0092698",
+            "https://pubmed.ncbi.nlm.nih.gov/34145056/"
+          ]
+        },
+        {
+          "marker": "citeturn754015search6",
+          "urls": [
+            "https://discovery.ucl.ac.uk/10133664/1/Zetterberg_Needham.pdf"
+          ]
+        },
+        {
+          "marker": "citeturn690156search1",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4931336/"
+          ]
+        },
+        {
+          "marker": "citeturn889730view2turn889730view3",
+          "urls": [
+            "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0092698"
+          ]
+        },
+        {
+          "marker": "citeturn718294view2",
+          "urls": [
+            "https://academic.oup.com/jimmunol/article/207/1/90/7944433"
+          ]
+        },
+        {
+          "marker": "citeturn754015search0",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/34145056/"
+          ]
+        },
+        {
+          "marker": "citeturn880593view0",
+          "urls": [
+            "https://www.nature.com/articles/s41380-026-03883-y"
+          ]
+        },
+        {
+          "marker": "citeturn718294view5",
+          "urls": [
+            "https://www.nature.com/articles/s41380-026-03883-y"
+          ]
+        },
+        {
+          "marker": "citeturn525281view5",
+          "urls": [
+            "https://congress2026.eventscribe.net/ajaxcalls/PresentationInfo.asp?PresentationID=1744358"
+          ]
+        },
+        {
+          "marker": "citeturn889730view0",
+          "urls": [
+            "https://www.nature.com/articles/s41380-026-03883-y"
+          ]
+        },
+        {
+          "marker": "citeturn829823search3turn880593view0",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/20427647/",
+            "https://www.nature.com/articles/s41380-026-03883-y"
+          ]
+        },
+        {
+          "marker": "citeturn718294view0",
+          "urls": [
+            "https://jneuroinflammation.biomedcentral.com/articles/10.1186/s12974-023-02812-y"
+          ]
+        },
+        {
+          "marker": "citeturn718294view1",
+          "urls": [
+            "https://www.nature.com/articles/s41593-025-01877-7"
+          ]
+        },
+        {
+          "marker": "citeturn829823search0",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/34301820/"
+          ]
+        },
+        {
+          "marker": "citeturn510184search1",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/15936423/"
+          ]
+        },
+        {
+          "marker": "citeturn783110search2turn577557search22",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/26906964/",
+            "https://pubmed.ncbi.nlm.nih.gov/36441519/"
+          ]
+        },
+        {
+          "marker": "citeturn510184search14",
+          "urls": [
+            "https://www.gene.com/medical-professionals/medicines/rituxan-oncology"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-10-22-medical-2026-10-17-historical-scope",
+      "recordedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-78271009-5831-4e9c-bbcd-9694b262cce0",
+      "note": "이 게시물은 대화 당시의 전체 질문과 답변을 보존한 이력입니다. 보호자 관찰·의료진 설명의 전달·GPT 해석을 구분하며, 당시 답변을 현재 처방이나 확정 진단으로 표시하지 않습니다. 논문·지침·허가·병원 프로그램에 관한 설명과 참고 링크도 당시 답변의 일부이며 이번 업데이트에서 새로 의학적 검증을 수행한 것은 아닙니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    },
+    {
+      "id": "review-2026-10-22-medical-2026-10-17-autoantibody-scope",
+      "recordedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-e3377723-63a7-47db-92e1-023b5cf17aac",
+      "note": "자가항체와 회복의 연관성, 면역치료 및 연구의 임상 적용 가능성은 당시 GPT가 정리한 연구 해석입니다. 선진이에게 자가항체 이상·자가면역뇌염이 확인되거나 면역치료가 처방된 기록이 아닙니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [
+    "medical/2026-10-18"
+  ],
+  "privacyReviewed": true
+}

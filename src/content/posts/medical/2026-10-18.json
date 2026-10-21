@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-10-18-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 10월 18일 의학지식 문의 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-10-18",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-10-22T06:42:02.029+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학지식 문의",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 2 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-c823871c-1e7e-4d15-8b12-548e5e0a46bc",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-18T07:38:52.105036+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "c823871c-1e7e-4d15-8b12-548e5e0a46bc",
+      "sourceOrdinal": 92,
+      "turnId": "e6c8da8d-e051-410d-be9e-c80a1d905b72",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "typo-corrected",
+      "original": "선진이가 미열이 항상있고 (대략 36.7에서 37.1) 뭔가ㅜ작업하거나 샹각할 때 수ㅏㅂ게 하품하고 손을 머리로 가져가서 긁는다거나 쓸어넘기는게 많은데 이런것도 연관 있을까? 요새 하품이나 손을 머리로 가져가는 것이 주는 추세긴 하지만 여전히 모르는 문제나 어려윤 작업이 있을 때에 항상 이런 향동이 반복되",
+      "originalSha256": "sha256:3335a5e6d3f0ada46a2cafa2224535320cd7e0cc98fbc6fcd2581a011955833b",
+      "corrected": "선진이가 미열이 항상 있고 (대략 36.7에서 37.1) 뭔가 작업하거나 생각할 때 수ㅏㅂ게 하품하고 손을 머리로 가져가서 긁는다거나 쓸어 넘기는 게 많은데 이런 것도 연관 있을까? 요새 하품이나 손을 머리로 가져가는 것이 주는 추세긴 하지만 여전히 모르는 문제나 어려운 작업이 있을 때에 항상 이런 행동이 반복돼",
+      "correctionPolicy": "typos-only",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 의료진 설명과 투약·검사 내용은 보호자에게 전달된 기록이며, 원본 결과지나 처방전을 직접 확인한 기록과 구분합니다."
+    },
+    {
+      "id": "message-bdd6dfe5-6a9f-4d0e-9a16-6714df60f519",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-18T07:45:59.688954+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "bdd6dfe5-6a9f-4d0e-9a16-6714df60f519",
+      "sourceOrdinal": 93,
+      "turnId": "e6c8da8d-e051-410d-be9e-c80a1d905b72",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **지금 말씀하신 “모르는 문제나 어려운 작업에서 반복되고, 전체적으로는 줄어드는 양상”은 자가항체 반응을 직접 시사하기보다는, 뇌손상 후 인지 피로와 과제 수행의 부담에 더 잘 맞습니다.** 다만 **머리를 긁거나 쓸어넘기는 행동은 피로 때문이라고만 정하지 말고, 실제 가려움이나 두통이 있는지도 따로 확인**해야 합니다. 소아 뇌손상 후에는 집중을 유지하기 어렵고, 피로할 때 하품·두통·불편한 행동이 함께 나타날 수 있습니다. citeturn961649view1turn961649view2\n\n## 1. 먼저, 36.7–37.1°C는 일반적으로 ‘미열’이 아닙니다\n\n**말씀하신 체온은 정상 범위에 해당합니다.** 소아 진료에서는 일반적으로 **38°C 이상을 발열**로 보며, 측정 부위·기기·시간대와 개인의 평소 체온을 함께 고려합니다. 따라서 **36.7–37.1°C가 계속된다는 사실을 ‘염증이나 자가면역반응 때문에 열이 지속된다’는 근거로 삼기는 어렵습니다.** 뇌손상에 의한 중추성 발열이라고 볼 수치도 아닙니다. citeturn264957view0\n\n반대로 정상 체온이라는 이유만으로 감염이 완전히 없어졌다고 확정하는 것도 아닙니다. 특히 해열진통제를 복용 중이라면 투약 시각과 다른 증상을 함께 보아야 합니다. **체온은 체온대로, 하품과 머리를 만지는 행동은 활동 상황과 연결해 따로 평가하는 것이 정확합니다.** citeturn264957view0\n\n## 2. ‘어려운 작업에서 유독 나타난다’는 것이 중요한 단서입니다\n\n익숙한 동작과 새로운 문제를 해결하는 일은 필요한 집중의 양이 다릅니다. 새로운 과제에서는 **설명을 이해하고, 정보를 잠시 기억하고, 선택지를 비교하고, 답을 정하는 과정**을 함께 해야 합니다. 뇌손상 후에는 이전보다 이런 과정을 유지하는 데 더 많은 노력이 필요할 수 있습니다. 소아 재활 자료에서도 **처음에는 집중하다가 곧 흐트러지거나, 생각하는 과제를 쉽게 포기하는 모습**을 인지 피로의 양상으로 설명합니다. citeturn961649view1\n\n그래서 선진이가 익숙한 놀이에는 참여하다가 **모르는 문제에서 하품하고 머리에 손을 가져간다면**, 우선 다음과 같이 해석해 볼 수 있습니다.\n\n> **“그 순간 요구되는 과제의 부담이, 현재 선진이가 편안하게 감당할 수 있는 수준을 넘어섰을 수 있다.”**\n\n이는 아버지의 관찰을 바탕으로 한 **가능성의 해석이지 확진은 아닙니다.** 또한 **그 문제를 전혀 이해하지 못한다는 뜻도, 일부러 하기 싫어서 그러는 것이라는 뜻도 아닙니다.** 인지 피로와 지적 능력 자체는 구별해야 합니다. citeturn961649view1\n\n## 3. 머리를 만지는 행동은 ‘무슨 불편인지’ 구별해 주세요\n\n**머리에 손을 가져간다는 동작 하나만으로 뇌 안의 염증, 특정 부위 손상, 두통을 판별할 수는 없습니다.** 선진이처럼 말로 충분히 설명하기 어려운 아이에게는 표정·몸짓과 그 행동이 나타나는 상황을 함께 보는 통증 평가가 중요합니다. citeturn569115view2\n\n다음은 원인을 확정하는 기준이 아니라, 의료진에게 전달할 관찰 항목입니다.\n\n| 관찰되는 모습 | 확인할 점 |\n|---|---|\n| **어려운 문제에서 나타나고, 과제를 멈추거나 쉽게 바꾸면 줄어듦** | 피로·긴장·과제 부담에 따른 불편한 몸짓인지 살펴봅니다. |\n| **같은 부위를 누르거나 움켜쥐며 찡그리고, 쉬어도 계속됨** | 두통이나 목·두피의 통증이 있는지 확인합니다. 빛·소리 때문에 더 괴로워하는지도 전달하세요. |\n| **과제와 관계없이 계속 긁거나, 두피에 붉음·상처가 보임** | 실제 피부 가려움이나 자극이 있는지 두피를 직접 확인받습니다. |\n\n간호사나 치료사에게 **편안할 때와 과제 중의 표정·동작을 비교해서 봐달라**고 해주세요. 가능한 의사소통 수준에 맞춰 “아파?”, “가려워?”를 한 번에 하나씩 묻거나 그림으로 표현하게 도울 수 있습니다. 반응이 불분명하더라도 통증이 없다고 단정해서는 안 됩니다. citeturn569115view2turn569115view3\n\n## 4. 자가항체와의 관련성은 현재 관찰만으로 뒷받침되지 않습니다\n\n앞서 말씀드린 **‘TBI 뒤 자가항체가 생길 수 있다’는 연구와 ‘선진이의 현재 증상이 자가항체 때문에 생긴다’는 판단 사이에는 큰 차이**가 있습니다. 자가면역뇌염은 임상 경과와 신경학적 이상, 관련 검사들을 종합해 판단하는 질환이지, 하품이나 머리 긁기 같은 비특이적인 행동만으로 진단하지 않습니다. citeturn753448search0\n\n특히 **최근 행동이 줄어들고, 어려운 과제에서 주로 반복된다는 설명만으로 자가항체 검사를 우선하거나 면역치료를 논의할 근거는 부족합니다.** 이는 지금 주신 정보에 대한 판단입니다. 반면 **좋아지던 기능이 설명 없이 뚜렷하게 후퇴하거나, 새로운 발작·이상운동·지속적인 의식 및 행동 변화가 생긴다면** 다른 원인들과 함께 자가면역성 질환도 감별할 필요가 있는지 소아신경과가 판단해야 합니다. citeturn451021search1\n\n**하품과 머리 만지기가 줄어드는 것은 반가운 변화지만, 그것을 ‘자가항체가 줄었다’거나 ‘뇌 염증이 가라앉았다’는 지표로 해석할 수는 없습니다.**\n\n## 5. 지금은 과제의 ‘시간’뿐 아니라 ‘난이도’를 조절해 주세요\n\n선진이에게는 오래 버티게 하기보다 **감당할 수 있는 수준에서 참여를 이어가도록 돕는 방식**이 좋겠습니다. 소아 뇌손상 재활에서는 복잡한 과제를 작은 단계로 나누고, 쉬운 활동과 휴식을 섞으며, 소음과 방해 자극을 줄이는 방법을 권합니다. citeturn961649view2\n\n- **모르는 문제를 계속 반복해서 묻지 마세요.** 한 번 시범을 보이거나 선택지를 줄이고, 한 번에 한 단계만 요청해 보세요. 이는 부담을 낮추는 예시이며 실제 과제는 작업·언어치료사와 맞추면 좋겠습니다.\n- **하품에 집중 저하나 괴로운 표정이 함께 나타나면 그 회차는 쉬게 해주세요.** 단순한 하품 한 번마다 모든 활동을 중단할 필요는 없지만, 피로 신호가 묶여 나타나는데 “하나만 더” 하며 밀어붙이지는 마세요.\n- **같은 난이도에서의 변화를 기록하세요.** ‘과제 종류 → 하품·머리 만지기가 시작된 때 → 휴식 후 회복 여부’ 정도면 됩니다. 과제를 덜 해서 행동이 줄어든 것인지, 비슷한 활동을 더 편안하게 견디게 된 것인지 구분하는 데 도움이 됩니다. citeturn961649view2\n\n최근처럼 줄어드는 추세라면, **같은 활동에서 증상이 나타나기까지 시간이 길어지고 휴식 후 다시 안정적으로 참여하는지**가 특히 좋은 관찰 목표입니다. 이것은 인지 지구력의 변화를 보는 방법이지, 집에서 뇌손상 정도를 판정하는 검사는 아닙니다.\n\n### 이런 변화는 바로 병동에 알려주세요\n\n**쉬어도 평소 반응으로 돌아오지 않거나, 새로운 한쪽 힘 저하·경련, 점점 심해지는 머리 통증을 의심할 행동, 반복 구토**가 나타나면 단순 피로로 넘기지 않아야 합니다. citeturn569115view3 선진이는 비장절제 병력도 있으므로 **새로 38°C 이상의 열이 나거나, 그보다 낮아도 오한·뚜렷한 처짐 등 전신 상태가 나빠지면 즉시 간호사에게 알려주세요.** citeturn264957view1\n\n**현재로서는 ‘지속적인 미열과 자가항체 이상’으로 연결하기보다, 정상 체온 범위에서 어려운 과제에 따른 피로·불편 반응이 남아 있는 것으로 먼저 살펴보는 것이 타당합니다.** 재활팀에는 **“최근 줄고 있지만, 낯설거나 어려운 과제에서 반복된다”**는 점을 그대로 전달하고, 과제 부담 조절과 두통·두피 가려움 평가를 함께 요청하시면 좋겠습니다.",
+      "textSha256": "sha256:0a8b8f8a6d79364233323e8713526531cea8d3625555551c2a866e491dc84c1b",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Kids Health Info : Brain injury - Cognitive fatigue",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/",
+          "attribution": "Royal Children's Hospital"
+        },
+        {
+          "title": "Brain Injury - Mental Fatigue | KidsHealth New Zealand's Trusted Voice On Children's Health",
+          "url": "https://www.kidshealth.org.nz/brain-injury/brain-injury-mental-fatigue",
+          "attribution": "KidsHealth"
+        },
+        {
+          "title": "Nursing guidelines : Temperature management",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Temperature_management/",
+          "attribution": "Royal Children's Hospital"
+        },
+        {
+          "title": "Nursing guidelines : Pain assessment and measurement",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Pain_assessment_and_measurement/",
+          "attribution": "Royal Children's Hospital"
+        },
+        {
+          "title": "Clinical Practice Guidelines : Headache",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Headache/",
+          "attribution": "Royal Children's Hospital"
+        },
+        {
+          "title": "Clinical approach to the diagnosis of autoimmune ...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31953309/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "Autoimmune encephalitis - Symptoms and causes",
+          "url": "https://www.mayoclinic.org/diseases-conditions/autoimmune-encephalitis/symptoms-causes/syc-20576380",
+          "attribution": "Mayo Clinic"
+        },
+        {
+          "title": "Preventing and treating infections in children with asplenia or hyposplenia | Canadian Paediatric Society",
+          "url": "https://cps.ca/documents/position/preventing-treating-infections-in-children-with-asplenia",
+          "attribution": "Canadian Paediatric Society"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn961649view1turn961649view2",
+          "urls": [
+            "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/",
+            "https://www.kidshealth.org.nz/brain-injury/brain-injury-mental-fatigue"
+          ]
+        },
+        {
+          "marker": "citeturn264957view0",
+          "urls": [
+            "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Temperature_management/"
+          ]
+        },
+        {
+          "marker": "citeturn961649view1",
+          "urls": [
+            "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/"
+          ]
+        },
+        {
+          "marker": "citeturn569115view2",
+          "urls": [
+            "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Pain_assessment_and_measurement/"
+          ]
+        },
+        {
+          "marker": "citeturn569115view2turn569115view3",
+          "urls": [
+            "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Pain_assessment_and_measurement/",
+            "https://www.rch.org.au/clinicalguide/guideline_index/Headache/"
+          ]
+        },
+        {
+          "marker": "citeturn753448search0",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/31953309/"
+          ]
+        },
+        {
+          "marker": "citeturn451021search1",
+          "urls": [
+            "https://www.mayoclinic.org/diseases-conditions/autoimmune-encephalitis/symptoms-causes/syc-20576380"
+          ]
+        },
+        {
+          "marker": "citeturn961649view2",
+          "urls": [
+            "https://www.kidshealth.org.nz/brain-injury/brain-injury-mental-fatigue"
+          ]
+        },
+        {
+          "marker": "citeturn569115view3",
+          "urls": [
+            "https://www.rch.org.au/clinicalguide/guideline_index/Headache/"
+          ]
+        },
+        {
+          "marker": "citeturn264957view1",
+          "urls": [
+            "https://cps.ca/documents/position/preventing-treating-infections-in-children-with-asplenia"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-10-22-medical-2026-10-18-historical-scope",
+      "recordedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-c823871c-1e7e-4d15-8b12-548e5e0a46bc",
+      "note": "이 게시물은 대화 당시의 전체 질문과 답변을 보존한 이력입니다. 보호자 관찰·의료진 설명의 전달·GPT 해석을 구분하며, 당시 답변을 현재 처방이나 확정 진단으로 표시하지 않습니다. 논문·지침·허가·병원 프로그램에 관한 설명과 참고 링크도 당시 답변의 일부이며 이번 업데이트에서 새로 의학적 검증을 수행한 것은 아닙니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    },
+    {
+      "id": "review-2026-10-22-medical-2026-10-18-observation-vs-diagnosis",
+      "recordedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-bdd6dfe5-6a9f-4d0e-9a16-6714df60f519",
+      "note": "36.7–37.1이라는 수치와 어려운 과제 중 하품·머리 만지기가 반복되지만 줄어드는 추세라는 내용은 보호자의 관찰입니다. 인지 피로·과제 부담·통증·가려움 등의 원인 구분은 당시 GPT의 가능성 해석이며, 자가항체 이상·염증·감염의 존재나 소실을 확인한 검사 결과가 아닙니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [
+    "medical/2026-10-17"
+  ],
+  "privacyReviewed": true
+}

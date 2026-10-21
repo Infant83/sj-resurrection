@@ -49,6 +49,7 @@ const messageBase = z.object({
   privacyRedactions: z.array(z.enum([
     'room-number', 'image', 'attachment', 'attachment-link',
     'account-credential', 'personal-contact', 'date-of-birth',
+    'personal-identifier', 'third-party-sensitive',
   ])).min(1).optional(),
   privacyNote: z.string().min(1).optional(),
 });

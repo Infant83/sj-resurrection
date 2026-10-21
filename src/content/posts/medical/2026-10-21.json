@@ -1,0 +1,528 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-10-21-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 10월 21일 의학지식 문의 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-10-21",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-10-22T06:42:02.029+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학지식 문의",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 2 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-21762646-bd06-4984-b63a-3bcad6b7b56e",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T21:20:17.089584+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "21762646-bd06-4984-b63a-3bcad6b7b56e",
+      "sourceOrdinal": 100,
+      "turnId": "63258c6f-41db-48fb-aa7d-e6579f7e6bf7",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "original": "오늘 나동욱 교수 외래를 다녀왔는데 연세대 세브란스에 주로 선진이 상태에 대해서 인상적으로 한번 판단을 해 보셨고 앞으로의 재활 치료 계획이나 일정에 대해서 논의를 하였어. 한양대 병원 입원이 마무리가 되면 한 2주 정도 안에 연세대학교 세브란스 병원에 다시 입원을 해서 재활을 이어나가는 것을 계획을 하고 있어. 내가 질문했던 것은 선진이의 외상성 뇌손상 그리고 뇌병변에 대해서 적극적으로 치료할 수 있는 대증요법 이외에 약물 치료라든가 아니면 신경적인 어떤 자극 치료라든가 아니면 신경외과적인 치료 뭐 이런 것들이 적극적으로 고려될 수 있는지를 한번 질문을 해 봤었거든. 나동욱 교수와의 외래 진료 경과에 대해서 한번 살펴보고 나동욱 교수는 지금 현재로서는 이런 뇌손상 관련해서 그러한 형태의 다른 치료 방법이 구체적으로 알려진 것은 없다 뭐 이런 식으로 나한테 이야기를 했어. 몇 가지 약물을 쓸 수는 있긴 하겠지만 이 재활 치료 작업치료나 언어치료 뭐 이런 것들로 하고 학습을 잘할 수 있도록 초점을 맞춰서 그런 학습 능력을 끌어올리는 그런 형태로 치료를 이어 나가야 된다고 이야기를 하긴 했는데 국내에 그리고 이제 전 세계적으로 그러한 형태의 연구가 다른 적극적인 어떤 약물 치료라든가 아니면 주사 치료라든가 아니면 전기 자극 치료라든가 이런 것들이 있을 수 있는지 그런 것들을 실제적으로 하고 있는 데가 있는지 아니면 현재로서는 어떤 형태의 치료 방법이 가장 베스트고 최선인지 알려진 것들이 있는지 그 내용을 정리를 심층 리뷰를 했으면 좋겠어.",
+      "originalSha256": "sha256:a7e061c1adfb830e6b2def8ae363707c292fe662577a64fb5fd5df6534028210",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 의료진 설명과 투약·검사 내용은 보호자에게 전달된 기록이며, 원본 결과지나 처방전을 직접 확인한 기록과 구분합니다."
+    },
+    {
+      "id": "message-5f21192d-9c2c-4e1e-bdc8-20f6adc85115",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T21:21:20.009839+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "5f21192d-9c2c-4e1e-bdc8-20f6adc85115",
+      "sourceOrdinal": 101,
+      "turnId": "63258c6f-41db-48fb-aa7d-e6579f7e6bf7",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "선진이의 현재 회복 단계에 맞춰 치료를 **근거가 확립된 방법·선별적 치료·임상시험 단계**로 나누겠습니다. 특히 청소년 적용 근거와 국내외 실제 시행기관, 세브란스 재입원 때 확인할 사항까지 살펴보겠습니다.",
+      "textSha256": "sha256:db59139b4d84837d11229264a2efc389be2b4c1d150e79d913f682c117608edd",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-cc16178a-ea49-49d1-9e58-2193db17dc02",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-21T21:47:25.899030+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "cc16178a-ea49-49d1-9e58-2193db17dc02",
+      "sourceOrdinal": 102,
+      "turnId": "63258c6f-41db-48fb-aa7d-e6579f7e6bf7",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **나동욱 교수님이 말씀하신 “학습할 수 있는 상태를 만들고, 실제 학습과 재활을 통해 기능을 끌어올린다”는 방향은 현재 근거와 잘 맞습니다.** 이것은 “뇌손상에는 할 수 있는 일이 없으니 운동만 한다”는 뜻과는 다릅니다. 다만 **세계적으로 약물·뇌자극·세포치료 연구가 없다는 것은 아니며, 일부는 특정 환자군에서 효과가 확인되었고 일본에서는 제한된 적응증의 세포치료가 조건부 승인 후 사용되기 시작했습니다.** 중요한 것은 그 결과가 **현재의 선진이에게 적용 가능한가**입니다. citeturn233032search2turn121629search4turn716013view0\n\n이번 검토의 결론을 먼저 말씀드리면 다음과 같습니다.\n\n> **선진이에게 지금 가장 근거가 좋은 전략은 소아·청소년 뇌손상 전문 입원재활을 중심으로, 주의력·기억·운동기능을 구체적으로 평가하고, 효과를 측정하면서 약물을 조정하고, 회복을 방해하는 의학적 문제를 적극적으로 치료하는 것입니다. 뇌자극은 목표가 명확한 경우 전문팀과 선별적으로 논의할 수 있지만, 세포이식이나 뇌심부자극을 받기 위해 현재 재활을 미루거나 대체할 근거는 없습니다.**\n\n아래는 **2026년 10월 21일 현재 확인한 임상시험·진료지침·규제기관 및 병원 공개자료**를 기준으로 한 검토입니다. 오늘 외래의 실제 진료기록을 열람한 것은 아니며, 아버지가 전해주신 설명과 앞서 올려주신 의뢰서·경과를 바탕으로 연결했습니다.\n\n---\n\n## 1. 먼저 선진이가 어떤 치료 연구의 대상과 가까운지 구분해야 합니다\n\n앞서 의뢰서에는 **미만성 축삭손상, 저산소성 뇌손상, 외상성 경막하혈종, 다발성 경색**이 함께 기재되어 있었습니다. 현재는 사고 후 약 3개월이고, **의식이 명료하며 2단계 지시를 수행하고, 가족과 자발적으로 교감하며 재활에 참여하는 단계**로 설명되어 있습니다.\n\n따라서 선진이의 치료 목표를 단순히 **“의식을 깨우는 것”**으로 잡아서는 부족합니다. 지금은 **주의를 유지하기, 새로운 정보를 배우고 기억하기, 적절하게 말로 답하기, 몸을 조절하여 일상생활에 사용하기**를 구분해야 합니다.\n\n이 구분이 중요한 이유는 다음과 같습니다.\n\n| 연구가 다루는 문제 | 주로 평가하는 결과 | 선진이에게 적용할 때의 주의점 |\n|---|---|---|\n| **장기간 의식장애** | 명령 수행, 기능적 의사소통, CRS-R 변화 | 현재의 인지·학습 어려움과 동일한 상태가 아닙니다. |\n| **주의력·정보처리 저하** | 집중 지속, 반응속도, 과제 수행 | 현재 페니드 처방의 목표와 연결될 수 있습니다. |\n| **새로운 기억 형성의 어려움** | 언어학습, 지연회상, 생활 속 기억 | 익숙한 노래나 이름을 기억하는 능력과 따로 평가해야 합니다. |\n| **만성 운동마비** | 팔·다리 운동점수, 기능적 독립성 | 운동점수 개선을 기억·언어·의식 회복으로 바꾸어 해석하면 안 됩니다. |\n\n각 분야는 대상과 평가 지표가 다릅니다. **“뇌손상 환자에게 효과가 있었다”는 제목만으로는 충분하지 않고, 연령·손상 후 기간·주된 장애·치료 결과가 맞아야 합니다.** 의식장애 지침과 인지재활 지침이 별도로 존재하는 이유도 여기에 있습니다. citeturn233032search1turn233032search2turn372604view2\n\n---\n\n## 2. 재활은 단순한 대증요법인가? — 그렇게만 보기는 어렵습니다\n\n약이나 수술로 뇌를 고친 뒤 재활하는 방식만 있는 것은 아닙니다. **실제로 사용할 기능을 반복 학습하고, 필요한 단서를 제공하며, 일상생활에서 그 기능을 사용하도록 만드는 과정 자체가 치료**입니다.\n\n국제 인지재활 지침인 **INCOG 2.0**은 단순한 문제풀이 반복보다 **개인에게 필요한 생활 과제에 맞춘 훈련, 환경 조정, 외부 기억보조도구, 적절한 단서와 오류를 줄이는 학습 방식**을 강조합니다. 다만 이 지침의 주요 근거는 성인이므로, 청소년에게는 발달 수준과 학교 복귀 목표에 맞춰 적용해야 합니다. citeturn372604view2turn233032search2\n\n선진이에게 적용하는 예를 들면 다음과 같습니다.\n\n**“오늘 어디에 다녀왔지?”를 계속 시험하는 것**과 **사진 한 장과 짧은 설명으로 오늘의 경험을 정리한 뒤, 충분히 쉬고 다시 떠올릴 단서를 주는 것**은 다릅니다. 마찬가지로 도형 문제를 오래 풀게 하는 것보다, **씻기·옷 입기·화장실 요청·치료실 이동처럼 실제 생활에 필요한 행동을 일정한 순서로 배우는 것**이 더 직접적인 목표가 될 수 있습니다.\n\n따라서 교수님의 설명을 저는 이렇게 해석합니다.\n\n> **현재 남아 있는 신경기능이 실제 생활에 쓰이도록 학습을 설계하고, 약물과 의학적 관리는 그 학습이 가능하도록 돕는 방향이다.**\n\n이것은 소극적인 방치가 아닙니다. 다만 재활이라는 이름 아래 매일 비슷한 과제를 반복하기만 해서는 부족하고, **무엇을 목표로 얼마나 좋아지는지 확인하는 재활**이어야 합니다.\n\n---\n\n## 3. 약물치료: 이미 사용 중인 페니드는 의미 있는 선택지입니다\n\n### 3-1. 메틸페니데이트〔페니드〕 — 주의력·처리속도에 비교적 근거가 있습니다\n\n**2026년 미국재활의학회 계열 ACRM 진료지침**은 성인 TBI 환자의 **지속적 주의력과 정보처리 속도 개선**에 메틸페니데이트 사용을 권고합니다. 반면 모든 기억·집행기능 문제에 효과가 있는 만능 인지개선제로 권고하는 것은 아닙니다. citeturn121629search0turn121629search4\n\n소아·청소년에서도 연구가 있습니다. **Kurowski 등, 2019년 무작위 이중맹검 교차시험**은 **6–17세 26명**, 손상 후 최소 6개월이 지난 아이들을 대상으로 주의력 문제의 개선을 보고했습니다. 그러나 소규모이고, 선진이보다 더 늦은 회복기이며, 연구 제형도 고려해야 합니다. citeturn121629search6\n\n**선진이에게의 의미:** 이미 “재활 외에는 아무 약물치료도 하지 않는 상태”는 아닙니다. 페니드는 **깨어 있을 때 주의와 반응을 더 잘 사용하도록 돕는 적극적인 보조치료**에 해당합니다.\n\n다만 평가는 **잠을 덜 자는가**보다 다음에 맞춰야 합니다.\n\n> **같은 과제를 더 정확하고 안정적으로 수행하는가, 필요한 도움은 줄었는가, 식사·밤잠·체중을 해치지 않는가.**\n\n식욕·체중, 수면, 혈압·맥박, 초조함을 함께 추적하며 조정해야 합니다. 여러 약을 동시에 늘리기보다 목표와 재평가 시점을 정하는 것이 좋습니다. citeturn121629search6turn121629search4\n\n### 3-2. 아만타딘 — 유명하지만, 현재 선진이에게 자동으로 맞는 약은 아닙니다\n\n**Giacino 등, 2012년 NEJM 연구**에서는 TBI 후 **4–16주에 무반응각성상태 또는 최소의식상태에 있던 184명**에게 아만타딘을 투여했을 때, 4주간 치료하는 동안 기능 회복 속도가 더 빨랐습니다. 하지만 중단 후 추적까지 포함한 전체 6주 시점의 개선량은 두 군이 비슷했습니다. 즉 **특정 의식장애 환자에서 회복을 앞당긴 근거이지, 손상된 뇌를 전반적으로 재생시킨 증거는 아닙니다.** citeturn399477view2\n\n이 결과를 바탕으로 의식장애 지침은 해당 조건의 성인에게 사용을 권고하지만, 소아 근거는 훨씬 제한적입니다. citeturn233032search1\n\n**선진이는 현재 명령을 수행하고 교감하는 단계이므로, “아만타딘이 유명한데 왜 안 쓰나?”보다 “현재 각성 저하가 핵심 문제인지, 이미 깨어 있지만 주의·기억이 어려운 것인지”부터 확인하는 것이 맞습니다.** 상황에 따라 전문의가 검토할 수 있지만, 반드시 추가해야 할 약이라고 볼 근거는 없습니다.\n\n### 3-3. 도네페질 — 지속적인 기억장애에서 주목할 만한 새 근거가 있습니다\n\n**2025년 MEMRI-TBI-D 무작위시험**은 손상 후 최소 6개월이 지난, 지속적인 언어기억 문제가 있는 **성인 75명**을 대상으로 10주간 도네페질을 평가했습니다. 언어학습이 개선됐고 연구에서 정한 반응자 비율은 **도네페질 42%, 위약 18%**였습니다. 메스꺼움·설사 등 이상반응도 더 많았습니다. citeturn233032search0\n\n이것은 **“기억장애에 대해 약물로 할 수 있는 일이 전혀 없다”는 설명을 보완하는 중요한 연구**입니다. 다만 **14세, 손상 후 약 3개월, 주의와 새로운 학습이 함께 어려운 선진이에게 바로 추가하라는 근거는 아닙니다.**\n\n먼저 신경심리평가에서 **정보를 받아들이는 주의 문제인지, 받아들인 정보를 저장하는 문제인지, 나중에 꺼내는 문제인지**를 구분하고, 지속되는 주요 장애에 맞춰 소아 재활·신경 전문의가 판단할 사안입니다.\n\n### 3-4. 콜린알포세레이트와 ‘뇌영양제’ — 치료의 중심으로 과대평가하지는 않는 편이 좋습니다\n\n현재 캡슐이 콜린알포세레이트라면, 소아·청소년 TBI 관련 문헌은 있지만 **메틸페니데이트의 특정 기능 개선 근거나 체계적인 재활을 대체할 정도로 확립된 치료라고 보기는 어렵습니다.** 특히 손상된 축삭을 복원하거나 장기적인 독립생활을 보장하는 약이라는 해석은 근거를 넘어섭니다. citeturn419374search7\n\n앞선 대화에서 제가 “인지기능 보조”라고 설명한 것은 그런 제한 안에서 이해해 주세요. **현재 처방을 임의로 중단하자는 뜻이 아니라, 복용 목적과 평가 기준을 확인하자는 뜻**입니다.\n\n---\n\n## 4. 주사 치료: 긍정적인 연구가 있어도 ‘지금 맞아야 하는 치료’와는 다릅니다\n\n### 세레브로리진〔Cerebrolysin〕\n\n**CAPTAIN II 연구**는 성인 중등도–중증 TBI 환자를 대상으로 한 무작위 위약대조시험으로, **142명 등록·139명 분석**에서 여러 기능을 합친 90일 평가 지표의 개선을 보고했습니다. 따라서 “전혀 연구되지 않은 주사”는 아닙니다. citeturn501853view3\n\n그러나 핵심 한계는 **주로 성인 급성기 치료 연구**라는 점입니다. 이를 **청소년의 손상 후 수개월 시점에 투여하면 기억·언어 회복이 더 좋아진다**는 결론으로 옮길 수는 없습니다. 효과 크기와 평가 지표, 독립적 재현성, 환자군 적합성을 함께 봐야 합니다.\n\n반대로 흔히 신경보호제로 연구했던 **시티콜린은 1,213명 규모 COBRIT 시험에서 기능·인지 개선을 보여주지 못했습니다.** 시티콜린과 콜린알포세레이트는 다른 약이지만, 이 사례는 **“신경세포에 좋은 기전이 있다”와 “환자에게 실제 이득이 입증됐다”가 다르다**는 점을 잘 보여줍니다. citeturn761538search5\n\n**제 판단:** 선진이에게 주사 치료를 논의한다면 “뇌에 좋다는 주사인가?”가 아니라 **“이 나이와 이 시기에, 어떤 기능을 개선한 대조시험이 있는가?”**를 먼저 물어야 합니다. 현재 계획을 대신하거나 전원을 늦출 이유로 보기는 어렵습니다.\n\n---\n\n## 5. 전기·자기자극: 실제로 시행·연구하지만, 종류를 나눠야 합니다\n\n### 5-1. 기능적 전기자극〔FES〕 — 뇌자극과 다릅니다\n\nFES는 **말초신경·근육을 자극하여 기능적인 움직임을 돕는 치료**입니다. 발목 들기나 근육 활성화 등 운동 목표와 연결할 수 있습니다. 세브란스 재활병원도 공식적으로 전기자극치료실을 안내합니다. citeturn372604search1\n\n이것은 손상된 뇌조직을 직접 복원하는 치료는 아니지만, **움직임을 연습할 기회를 늘리고 특정 기능을 돕는 적극적인 재활 수단**입니다. 선진이에게는 다리 떨림이 어떤 기전인지, 근력·운동 조절·경직 중 무엇이 주된 제한인지 평가한 뒤 적용할 문제입니다.\n\n### 5-2. rTMS·tDCS — 가능성은 있으나 보편적인 인지회복 치료로 확립되지는 않았습니다\n\n**rTMS**는 반복적인 자기장으로, **tDCS**는 두피의 약한 전류로 뇌 회로의 활동을 조절하려는 방법입니다. 중요한 발상은 **자극으로 모든 기능을 회복시키는 것보다, 학습·훈련과 결합하여 회로의 반응을 바꾸려는 것**입니다.\n\n그러나 **INCOG 2.0의 주의력 지침은 비침습적 뇌자극을 일상적으로 권고하기에 근거가 부족하다고 판단했고, 기억재활 지침은 tDCS를 권고하지 않았습니다.** 이는 2023년 지침이며 후속 연구가 계속되지만, 현재도 선진이 같은 청소년의 광범위한 인지회복에 대해 표준치료라고 할 수준은 아닙니다. citeturn233032search2turn233032view3\n\n국내 연구도 있습니다. **국립교통재활병원·가톨릭대 성빈센트병원·부천성모병원** 연구진은 MRI 기반 전기장 모델링으로 개인화한 tDCS의 다기관 무작위시험 계획을 발표했습니다. 다만 공개된 해당 논문은 **연구계획서**이고, 대상은 **19–80세의 장기 의식장애 환자**입니다. 지금 선진이와는 연령과 임상 상태가 다릅니다. citeturn891815view1\n\n특히 **세브란스에도 공식적으로 뇌자극치료실과 TMS 연구·치료 안내가 있습니다.** 따라서 “교수님이 뇌자극을 모르거나 장비가 없어서 재활만 말씀하셨다”고 볼 이유는 없습니다. 다만 해당 안내는 주로 뇌졸중 등을 설명하며, **선진이에게 시행 가능한 소아 TBI 프로그램이 있다는 확인은 아닙니다.** citeturn372604view3\n\n교수님께는 다음처럼 질문하는 것이 실질적입니다.\n\n> “선진이의 주의력·새로운 학습·왼팔 사용 중 뇌자극으로 목표 삼을 만한 기능이 있나요? 있다면 소아 근거, 예상 이득, 평가 방법, 중단 기준을 갖춘 치료나 연구가 가능한가요?”\n\n선진이에게는 발작 병력과 두부 손상 이력이 있으므로 안전성 검토가 필요합니다. **발작 병력이 있다고 모든 자극치료가 절대 불가능한 것은 아니지만**, rTMS에는 드문 발작 위험이 있어 자극 조건과 약물·수면·뇌병변을 함께 평가해야 합니다. 가정용 장치를 임의로 사용해서는 안 됩니다. citeturn121629search11\n\n### 5-3. 집속초음파 등 새로운 자극\n\nUCLA 연구팀은 **저강도 집속초음파로 시상 부위를 자극하는 의식장애 연구**를 수행했습니다. 초기 사람 대상 결과가 있지만 소규모 탐색 연구이며, **깨어 있는 청소년의 기억·학습을 개선하는 표준치료로 검증된 것은 아닙니다.** citeturn792521search15\n\n이 분야는 지켜볼 가치가 있지만, **“현재 재활 대신 받을 수 있는 검증된 치료”가 아니라 “특정 환자군에서 검증 중인 신경조절 기술”**로 분류하는 것이 맞습니다.\n\n---\n\n## 6. 신경외과적 치료: 합병증을 고치는 수술과 실험적 기능회복 수술은 다릅니다\n\n### 먼저 확인할 것은 치료 가능한 구조적·의학적 문제입니다\n\n외상 후 **수두증, 숨은 발작, 내분비 기능 이상, 약물에 의한 과도한 진정** 등은 회복을 방해할 수 있습니다. ACS의 TBI 진료지침도 장기 경과에서 이런 문제를 감시하도록 강조합니다. citeturn233032view0\n\n수두증처럼 수술로 다룰 문제가 실제로 있다면 적극적으로 치료해야 합니다. 그러나 **현재 선진이에게 그런 합병증이 있다는 뜻은 아닙니다.** 또한 미만성 축삭손상을 수술로 한꺼번에 연결해 원래대로 복원하는 방법이 임상 표준으로 존재하는 것은 아닙니다.\n\n### 뇌심부자극〔DBS〕은 매우 흥미롭지만 아직 실험적입니다\n\n**Schiff 등, 2023년 *Nature Medicine***의 1상 연구는 중등도–중증 TBI 후 만성 인지장애가 있는 성인에게 **중심시상 회로를 자극하는 DBS**를 적용했습니다. 소수 참가자에서 주의·집행기능 검사 개선을 보였습니다. 연구를 주도한 기관에는 **Stanford와 Weill Cornell** 등이 포함됩니다. citeturn528323search0turn892998view3\n\n중요한 점은 이들이 주로 **손상 후 수년이 지난 성인**이었고, 작은 초기시험이라는 것입니다. 전극을 뇌 안에 넣는 수술과 기기 유지가 필요하며, 장기 효과와 적합한 대상이 더 검증되어야 합니다.\n\n**이 연구는 “만성기에도 기능을 개선할 여지가 있다”는 점에서 희망적이지만, 선진이에게 지금 수술을 해야 한다는 근거는 아닙니다.** 오히려 현재 회복 중인 기능을 충분히 평가하고 표준 재활을 이어가는 가운데 향후 근거를 추적할 분야입니다.\n\n---\n\n## 7. 세포치료: “전부 사기”도, “이제 뇌손상 치료가 완성됐다”도 아닙니다\n\n### 7-1. 일본 AKUUGO〔SB623, vandefitemcel〕 — 실제 임상 사용이 시작된 중요한 예외입니다\n\n이번 조사에서 가장 중요한 최신 사항입니다.\n\n일본에서는 **TBI에 따른 만성기 운동마비 개선**을 대상으로 AKUUGO가 **2024년 조건·기한부 승인**을 받았고, **2026년 판매가 시작**됐습니다. 건강한 공여자의 골수 유래 세포를 가공한 제품을 **정위적 뇌수술로 손상 주변에 이식하는 방식**이며, 단순한 정맥주사가 아닙니다. citeturn716013view0\n\n제조사의 공식 발표에 따르면 **2026년 10월 2일 홋카이도대학병원에서 첫 시판 후 투여**가 시행됐습니다. 따라서 “뇌손상 세포치료가 전 세계 어디에서도 실제로 사용되지 않는다”는 설명은 현재 시점에서는 정확하지 않습니다. citeturn892998view0\n\n다만 적용 범위가 매우 중요합니다. 현행 제품 안내에는 **손상 후 6개월 이상 경과하고 운동장애가 고정된 환자**, MRI 등에서 **운동마비를 설명하는 국소 병변**이 확인되는 조건 등이 기재되어 있으며, **소아 대상 임상시험은 시행되지 않았다**고 명시되어 있습니다. citeturn892998view4turn892998view5\n\n일본의 시판 후 시험은 **18–75세**, 손상 후 6개월 이상을 대상으로 합니다. **DAI가 동반될 수는 있지만 국소적인 책임 병변이 있어야 한다**는 조건도 확인됩니다. citeturn716013view2\n\n그러므로 선진이에게는 다음과 같은 차이가 있습니다.\n\n**현재 14세이고 손상 후 약 3개월이며, 목표가 운동마비뿐 아니라 새로운 학습·주의·언어까지 포함됩니다.** 이 치료의 성인 운동기능 결과를 선진이의 전반적인 뇌 회복에 적용할 수 없습니다. 조건부 승인 후 추가 검증이 진행되는 치료를 **효과와 안전성이 완결된 보편적 뇌 재생 치료**로 해석해서도 안 됩니다.\n\n### 7-2. 소아 줄기세포 계열 연구도 있지만, 치료 시점이 다릅니다\n\n**Cox 등, 2024년 *Brain***은 **5–17세 중증 TBI 소아**에서 자가 골수 단핵세포를 평가한 무작위시험을 보고했습니다. **손상 후 48시간 이내 정맥 투여**하는 급성기 연구로, 뇌 구조 보존과 중환자실 치료 관련 지표 등에서 가능성을 조사했습니다. citeturn372604view5\n\n이것은 소아 연구라는 점에서 중요하지만 **이미 수개월 지난 선진이에게 같은 치료를 하면 도움이 된다는 근거는 아닙니다.** 또한 당시 받지 않았다고 표준치료를 놓친 것이 아닙니다.\n\n만성기 연구도 있습니다. **베트남 Vinmec의 2025년 연구**에서는 성인 50명을 대상으로 골수 단핵세포의 척수강 내 투여와 재활을 비교하여 기능 개선을 보고했습니다. 그러나 **무작위시험이 아닌 매칭 대조연구**, 대상은 **20–50세·손상 후 6–36개월**이므로 교란요인을 충분히 배제하기 어렵고 선진이에게 직접 적용할 수 없습니다. citeturn891815view2turn413430view4\n\n### 7-3. 상업적 세포주사·엑소좀 치료와는 구별해야 합니다\n\n**일본의 특정 품목 승인이나 대학병원의 임상시험이, 다른 기관의 정맥·척수강 ‘줄기세포 주사’까지 검증해 주는 것은 아닙니다.** 세포 종류·제조·용량·투여 부위·대상이 모두 다르면 다른 치료입니다.\n\nFDA는 미승인 세포·엑소좀 제품에서 감염, 비정상 조직 증식 등 위해를 경고하고, **ClinicalTrials.gov 등록 자체가 승인이나 효과 입증을 뜻하지 않는다**고 명시합니다. citeturn399477view5\n\n선진이에게는 비장절제와 최근 감염 치료 이력도 있으므로, 침습적인 실험치료를 검토할 때는 현재 감염 상태와 수술 위험을 특히 확인해야 합니다. **현재 감염이 지속되고 있다고 전제하는 것은 아닙니다.**\n\n---\n\n## 8. 국내외에서 실제로 연구·시행하는 곳은 어디인가?\n\n아래는 광고가 아니라 **병원 공식 안내나 연구 원문에서 확인한 기관**입니다. 다만 **연구 수행 이력, 현재 모집, 외국인·청소년 수용 가능성은 서로 다릅니다.**\n\n| 기관 | 확인된 치료·연구 | 선진이에게의 의미 |\n|---|---|---|\n| **연세대 세브란스 재활병원** | 소아·TBI 입원재활, FES, TMS 관련 시설 안내 | 현재 계획 안에서 기능평가·약물·보조치료를 통합해 논의할 수 있는 곳. 소아 TBI 뇌자극 시행 여부는 별도 확인. citeturn372604search3turn372604search1turn372604view3 |\n| **국립교통재활병원·성빈센트병원·부천성모병원** | 개인화 tDCS 다기관 연구계획 | 공개 연구는 19–80세 장기 의식장애 대상. 선진이에게 그대로 맞는 프로그램은 아님. citeturn891815view1 |\n| **Stanford·Weill Cornell 등** | 만성 TBI 인지장애의 시상 DBS 초기 임상시험 | 성인 실험적 수술. 청소년의 현재 단계에 적용할 근거 부족. citeturn892998view3 |\n| **UCLA** | 의식장애 환자의 저강도 집속초음파 연구 | 초기 연구이며 현재 선진이의 학습 재활과 대상이 다름. citeturn792521search15 |\n| **UTHealth Houston·Phoenix Children’s 연구팀** | 소아 급성 TBI 골수 단핵세포 시험 | 소아 연구지만 손상 직후의 치료를 평가. citeturn372604view5 |\n| **일본 홋카이도대학병원·게이오대학병원** | AKUUGO 실제 투여 및 시판 후 연구·조사 | 성인 만성 운동마비 중심. 소아의 인지회복 치료로 확인된 것은 아님. citeturn892998view0turn716013view0 |\n\n특히 게이오대는 시판 후 시험과 실제 사용 조사 계획을 공개했지만, **일본 등록자료의 모집 상태 표기와 기관 안내가 완전히 일치하지 않는 부분**이 있어 현재 접수 가능 여부를 단정하지 않겠습니다. 더구나 선진이는 공개 시험의 연령 조건과 맞지 않습니다. citeturn716013view0turn716013view2\n\n---\n\n## 9. 그렇다면 지금 선진이에게 무엇이 ‘최선’인가?\n\n제 판단은 **예정된 세브란스 입원재활을 이어가되, 입원 자체가 목표가 아니라 ‘평가–목표–치료–재평가’가 분명한 계획을 만드는 것**입니다. 병원 프로그램에 TBI와 소아재활이 명시되어 있다는 점도 현재 계획과 맞습니다. citeturn372604search3\n\n### 첫째, ‘의식 회복’보다 구체적인 기능을 기준으로 평가합니다\n\n한양대에서 진행한 신경심리평가 결과와 물리·작업·언어치료 평가를 가져가서 **주의, 언어 이해·표현, 새로운 학습, 기억 유지, 운동 조절**을 나누어 보도록 요청하세요.\n\n특히 **“모르는 문제에서 어려워한다”**는 관찰을 단순한 기억력 저하 하나로 묶지 않는 것이 중요합니다. 주의·언어·기억·피로 중 어느 부분이 과제를 제한하는지에 따라 치료가 달라집니다. 인지재활 지침도 이러한 개별 평가와 목표에 맞춘 치료를 강조합니다. citeturn233032search2turn372604view2\n\n### 둘째, 약은 ‘먹고 있다’보다 ‘어떤 이득이 확인됐는가’를 봅니다\n\n페니드의 실제 투여량·시간을 기준으로 **과제 수행, 피로, 식사량, 밤잠**을 비교하고, 평가할 시점과 중단·변경 기준을 정하는 것이 좋겠습니다. 더 많은 약을 추가하는 것이 언제나 더 적극적인 치료는 아닙니다.\n\n선진이가 쿠에타핀 중단 후 또렷해졌던 관찰도 중요합니다. **회복을 돕는 약을 찾는 것과 함께, 회복된 기능을 가리고 있는 약물 영향을 줄이는 것도 적극적인 치료**입니다. 과도한 진정 등 치료로 생긴 문제를 확인하는 것은 TBI 장기 관리의 일부입니다. citeturn233032view0\n\n### 셋째, 치료시간보다 학습의 질과 일상 적용을 봅니다\n\n현재 하루 약 3시간의 재활을 받고 있다고 하셨습니다. 그 시간을 곧바로 두 배로 늘리기보다, **집중이 가능한 시간에 핵심 과제를 배치하고, 피로가 쌓이기 전에 나누며, 치료실에서 배운 기능을 병실에서도 같은 방식으로 사용하도록** 하는 방향을 제안합니다.\n\n제가 제안하는 목표 예시는 다음과 같습니다. 정해진 회복 기한이나 검사 기준은 아닙니다.\n\n| 영역 | 단기 목표의 예 |\n|---|---|\n| **주의** | 같은 활동을 더 적은 재촉으로 안정적으로 수행 |\n| **새로운 학습** | 단서를 이용해 새 생활 순서를 익히고 다음 상황에서 사용 |\n| **의사소통** | 질문에 맞게 답하거나, 도움·휴식·화장실을 먼저 요청 |\n| **운동** | 같은 이동을 더 적은 도움과 피로로 수행 |\n| **일상생활** | 양치·옷 입기 등에서 스스로 하는 단계가 증가 |\n\n**새 문제를 많이 맞히는 것보다 실제 생활에서 필요한 도움을 줄이는 것**이 핵심입니다. 기억이 어려울 때 외부 단서를 활용하는 것은 회복을 포기하는 보상이 아니라, 기능을 사용하게 하는 치료 전략입니다. citeturn372604view2\n\n### 넷째, 치료 가능한 방해 요인을 놓치지 않습니다\n\n피로·졸림이 예상보다 심하거나 좋아지던 기능이 후퇴하면 **수면, 영양, 감염, 통증, 약물, 발작, 수두증, 필요한 경우 내분비 기능**을 검토해야 합니다. 모든 검사를 일괄적으로 하자는 뜻이 아니라, 증상에 맞춰 평가하자는 뜻입니다. citeturn233032view0\n\n다리 경직·떨림이 보행과 돌봄을 막는다면 자세·보조기·FES 및 필요한 경직 치료를 검토할 수 있습니다. 이런 치료가 손상된 뇌를 직접 복구하지는 않더라도, **훈련과 생활을 가능하게 만든다는 점에서 임상적 가치가 큽니다.**\n\n### 다섯째, 추가 치료는 ‘명확한 표적’이 있을 때 논의합니다\n\n예를 들어 기억 문제가 지속적으로 가장 큰 제한으로 확인되면 기억 관련 약물의 적합성을, 특정 운동기능이 제한되면 운동 보조·자극을, 각성 변동이 심하면 그 원인과 각성 약물을 논의하는 식입니다.\n\n**좋아지는 속도가 느리다는 이유만으로 약물·자극·주사를 한꺼번에 추가하면 무엇이 도움이 되고 무엇이 해로운지 알기 어려워집니다.** 추가 치료마다 목표, 관찰기간, 평가 지표, 이상반응 기준을 먼저 정하는 방식을 권합니다.\n\n---\n\n## 10. 나동욱 교수님과 다음 입원 때 논의할 질문\n\n여러 치료 이름을 한꺼번에 요청하기보다, 다음 다섯 가지가 실질적인 답을 얻는 데 도움이 되겠습니다.\n\n1. **“선진이의 현재 회복을 가장 제한하는 기능은 주의력, 새로운 기억 형성, 언어 이해, 운동 조절 중 무엇인가요?”**\n2. **“페니드는 어떤 기능을 목표로 사용하고, 어느 지표로 유지·조정 여부를 판단하나요? 기억장애가 지속될 때 다른 약을 검토할 조건은 무엇인가요?”**\n3. **“FES·로봇치료·rTMS·tDCS 중 선진이에게 구체적인 목표와 소아 근거를 갖고 고려할 수 있는 것은 무엇인가요? 연구 참여가 적절한 경우가 있나요?”**\n4. **“발작·수두증·수면·영양·내분비 문제 등 회복을 방해하지만 치료 가능한 요인은 현재 충분히 평가됐나요?”**\n5. **“다음 입원기간 동안 가장 중요한 기능 목표 3개와, 퇴원 후 학교·가정생활까지 이어질 재평가 계획을 함께 정할 수 있을까요?”**\n\n---\n\n## 종합 판단\n\n**현재 선진이에게는 ‘숨겨진 확실한 치료를 찾아 해외로 가는 것’보다, 소아 뇌손상 전문팀 안에서 이미 회복되고 있는 기능을 정밀하게 평가하고 학습·약물·운동·생활을 연결하는 것이 우선입니다.** 그렇다고 새로운 치료를 모두 배제할 필요는 없습니다.\n\n메틸페니데이트처럼 이미 활용할 만한 약물 근거가 있고, 도네페질처럼 특정 장애에서 새 근거가 나온 분야도 있습니다. 뇌자극·DBS·세포치료는 실제 연구와 일부 임상 사용이 진행되고 있습니다. 다만 **그 기술이 존재한다는 사실과 선진이에게 지금 이득이 위험보다 크다는 판단은 별개**입니다.\n\n**나동욱 교수님의 계획을 기본으로 삼되, “재활만 계속한다”가 아니라 “현재의 장애를 구분하고, 효과를 측정하는 약물치료와 필요한 보조치료를 결합하며, 적합한 연구가 생기면 검토한다”는 계획으로 구체화하는 것이 가장 합리적입니다.** 선진이가 이미 보여주는 지시 수행·교감·이동·생활 참여의 변화를 치료 목표로 연결하는 것이, 지금 할 수 있는 적극적인 치료의 중심입니다.\n\n---\n\nIf you want, I can:\n\n- 계속 의뢰서 보완 내용 작성 요청\n- 선진이 재활 영상 촬영 목록 정리 계속\n- 외래 진료 시 의료진에 물어볼 질문 정리 요청",
+      "textSha256": "sha256:1c0f814514af9cf790f66d3ec67f6ff7dc647df37a8074d8033748da57425b7a",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "https://pubmed.ncbi.nlm.nih.gov/36594858/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36594858/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "https://pubmed.ncbi.nlm.nih.gov/41297654/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41297654/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "https://www.neurosurgery.med.keio.ac.jp/clinical/20260907.html",
+          "url": "https://www.neurosurgery.med.keio.ac.jp/clinical/20260907.html",
+          "attribution": "慶應義塾大学医学部脳神経外科学教室"
+        },
+        {
+          "title": "https://pubmed.ncbi.nlm.nih.gov/30089618/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30089618/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "https://digitalcommons.chapman.edu/comm_science_articles/25/",
+          "url": "https://digitalcommons.chapman.edu/comm_science_articles/25/",
+          "attribution": "digitalcommons.chapman.edu"
+        },
+        {
+          "title": "https://www.sciencedirect.com/science/article/abs/pii/S0003999325010482",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0003999325010482",
+          "attribution": "sciencedirect.com"
+        },
+        {
+          "title": "https://www.ovid.com/jnls/headtraumarehab/abstract/10.1097/htr.0000000000000432~benefits-of-methylphenidate-for-long-term-attention-problems",
+          "url": "https://www.ovid.com/jnls/headtraumarehab/abstract/10.1097/htr.0000000000000432~benefits-of-methylphenidate-for-long-term-attention-problems",
+          "attribution": "ovid.com"
+        },
+        {
+          "title": "Placebo-controlled trial of amantadine for severe traumatic brain injury - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22375973/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "https://psychiatryonline.org/doi/10.1176/appi.neuropsych.20230055",
+          "url": "https://psychiatryonline.org/doi/10.1176/appi.neuropsych.20230055",
+          "attribution": "Psychiatry Online"
+        },
+        {
+          "title": "https://pubmed.ncbi.nlm.nih.gov/35758944/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35758944/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "https://link.springer.com/article/10.1007/s10072-019-04181-y",
+          "url": "https://link.springer.com/article/10.1007/s10072-019-04181-y",
+          "attribution": "link.springer.com"
+        },
+        {
+          "title": "https://pubmed.ncbi.nlm.nih.gov/23168823/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23168823/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/facility/laboratory.do?articleNo=70293&mode=view&title=%EC%A0%84%EA%B8%B0%EC%9E%90%EA%B7%B9%EC%B9%98%EB%A3%8C%EC%8B%A4",
+          "url": "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/facility/laboratory.do?articleNo=70293&mode=view&title=%EC%A0%84%EA%B8%B0%EC%9E%90%EA%B7%B9%EC%B9%98%EB%A3%8C%EC%8B%A4",
+          "attribution": "세브란스 재활병원"
+        },
+        {
+          "title": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2023.1184998/full",
+          "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2023.1184998/full",
+          "attribution": "frontiersin.org"
+        },
+        {
+          "title": "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/facility/laboratory.do?articleNo=70290&mode=view&title=%EB%87%8C%EC%9E%90%EA%B7%B9+%EC%B9%98%EB%A3%8C%EC%8B%A4",
+          "url": "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/facility/laboratory.do?articleNo=70290&mode=view&title=%EB%87%8C%EC%9E%90%EA%B7%B9+%EC%B9%98%EB%A3%8C%EC%8B%A4",
+          "attribution": "세브란스 재활병원"
+        },
+        {
+          "title": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9094636/",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9094636/",
+          "attribution": "PubMed Central (PMC)"
+        },
+        {
+          "title": "https://www.mdpi.com/2076-3425/12/4/428",
+          "url": "https://www.mdpi.com/2076-3425/12/4/428",
+          "attribution": "MDPI"
+        },
+        {
+          "title": "https://www.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf",
+          "url": "https://www.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf",
+          "attribution": "ACS"
+        },
+        {
+          "title": "https://pubmed.ncbi.nlm.nih.gov/38049620/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38049620/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "https://news.weill.cornell.edu/news/2023/12/deep-brain-stimulation-improves-cognition-during-chronic-recovery-phase-of-brain-injury",
+          "url": "https://news.weill.cornell.edu/news/2023/12/deep-brain-stimulation-improves-cognition-during-chronic-recovery-phase-of-brain-injury",
+          "attribution": "WCM Newsroom"
+        },
+        {
+          "title": "https://www.sanbio.com/pdf/news/news_20261007.pdf",
+          "url": "https://www.sanbio.com/pdf/news/news_20261007.pdf",
+          "attribution": "サンバイオ －再生医療（細胞治療薬）"
+        },
+        {
+          "title": "https://akuugo.jp/treatmentPDf/AKUUGO_PTN.pdf",
+          "url": "https://akuugo.jp/treatmentPDf/AKUUGO_PTN.pdf",
+          "attribution": "Akuugo"
+        },
+        {
+          "title": "https://rctportal.mhlw.go.jp/s/detail/um?trial_id=jRCT2033240263",
+          "url": "https://rctportal.mhlw.go.jp/s/detail/um?trial_id=jRCT2033240263",
+          "attribution": "RCT Portal"
+        },
+        {
+          "title": "https://pubmed.ncbi.nlm.nih.gov/38181433/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38181433/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "https://academic.oup.com/braincomms/article/7/5/fcaf361/8262499",
+          "url": "https://academic.oup.com/braincomms/article/7/5/fcaf361/8262499",
+          "attribution": "OUP Academic"
+        },
+        {
+          "title": "Important Patient and Consumer Information About Regenerative Medicine Therapies | FDA",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/consumers-biologics/important-patient-and-consumer-information-about-regenerative-medicine-therapies",
+          "attribution": "U.S. Food and Drug Administration"
+        },
+        {
+          "title": "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/treatment-guide/program.do",
+          "url": "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/treatment-guide/program.do",
+          "attribution": "세브란스 재활병원"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn233032search2turn121629search4turn716013view0",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/36594858/",
+            "https://pubmed.ncbi.nlm.nih.gov/41297654/",
+            "https://www.neurosurgery.med.keio.ac.jp/clinical/20260907.html"
+          ]
+        },
+        {
+          "marker": "citeturn233032search1turn233032search2turn372604view2",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/30089618/",
+            "https://pubmed.ncbi.nlm.nih.gov/36594858/",
+            "https://digitalcommons.chapman.edu/comm_science_articles/25/"
+          ]
+        },
+        {
+          "marker": "citeturn372604view2turn233032search2",
+          "urls": [
+            "https://digitalcommons.chapman.edu/comm_science_articles/25/",
+            "https://pubmed.ncbi.nlm.nih.gov/36594858/"
+          ]
+        },
+        {
+          "marker": "citeturn121629search0turn121629search4",
+          "urls": [
+            "https://www.sciencedirect.com/science/article/abs/pii/S0003999325010482",
+            "https://pubmed.ncbi.nlm.nih.gov/41297654/"
+          ]
+        },
+        {
+          "marker": "citeturn121629search6",
+          "urls": [
+            "https://www.ovid.com/jnls/headtraumarehab/abstract/10.1097/htr.0000000000000432~benefits-of-methylphenidate-for-long-term-attention-problems"
+          ]
+        },
+        {
+          "marker": "citeturn121629search6turn121629search4",
+          "urls": [
+            "https://www.ovid.com/jnls/headtraumarehab/abstract/10.1097/htr.0000000000000432~benefits-of-methylphenidate-for-long-term-attention-problems",
+            "https://pubmed.ncbi.nlm.nih.gov/41297654/"
+          ]
+        },
+        {
+          "marker": "citeturn399477view2",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/22375973/"
+          ]
+        },
+        {
+          "marker": "citeturn233032search1",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/30089618/"
+          ]
+        },
+        {
+          "marker": "citeturn233032search0",
+          "urls": [
+            "https://psychiatryonline.org/doi/10.1176/appi.neuropsych.20230055"
+          ]
+        },
+        {
+          "marker": "citeturn419374search7",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/35758944/"
+          ]
+        },
+        {
+          "marker": "citeturn501853view3",
+          "urls": [
+            "https://link.springer.com/article/10.1007/s10072-019-04181-y"
+          ]
+        },
+        {
+          "marker": "citeturn761538search5",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/23168823/"
+          ]
+        },
+        {
+          "marker": "citeturn372604search1",
+          "urls": [
+            "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/facility/laboratory.do?articleNo=70293&mode=view&title=%EC%A0%84%EA%B8%B0%EC%9E%90%EA%B7%B9%EC%B9%98%EB%A3%8C%EC%8B%A4"
+          ]
+        },
+        {
+          "marker": "citeturn233032search2turn233032view3",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/36594858/",
+            "https://digitalcommons.chapman.edu/comm_science_articles/25/"
+          ]
+        },
+        {
+          "marker": "citeturn891815view1",
+          "urls": [
+            "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2023.1184998/full"
+          ]
+        },
+        {
+          "marker": "citeturn372604view3",
+          "urls": [
+            "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/facility/laboratory.do?articleNo=70290&mode=view&title=%EB%87%8C%EC%9E%90%EA%B7%B9+%EC%B9%98%EB%A3%8C%EC%8B%A4"
+          ]
+        },
+        {
+          "marker": "citeturn121629search11",
+          "urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9094636/"
+          ]
+        },
+        {
+          "marker": "citeturn792521search15",
+          "urls": [
+            "https://www.mdpi.com/2076-3425/12/4/428"
+          ]
+        },
+        {
+          "marker": "citeturn233032view0",
+          "urls": [
+            "https://www.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf"
+          ]
+        },
+        {
+          "marker": "citeturn528323search0turn892998view3",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/38049620/",
+            "https://news.weill.cornell.edu/news/2023/12/deep-brain-stimulation-improves-cognition-during-chronic-recovery-phase-of-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn716013view0",
+          "urls": [
+            "https://www.neurosurgery.med.keio.ac.jp/clinical/20260907.html"
+          ]
+        },
+        {
+          "marker": "citeturn892998view0",
+          "urls": [
+            "https://www.sanbio.com/pdf/news/news_20261007.pdf"
+          ]
+        },
+        {
+          "marker": "citeturn892998view4turn892998view5",
+          "urls": [
+            "https://akuugo.jp/treatmentPDf/AKUUGO_PTN.pdf"
+          ]
+        },
+        {
+          "marker": "citeturn716013view2",
+          "urls": [
+            "https://rctportal.mhlw.go.jp/s/detail/um?trial_id=jRCT2033240263"
+          ]
+        },
+        {
+          "marker": "citeturn372604view5",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/38181433/"
+          ]
+        },
+        {
+          "marker": "citeturn891815view2turn413430view4",
+          "urls": [
+            "https://academic.oup.com/braincomms/article/7/5/fcaf361/8262499"
+          ]
+        },
+        {
+          "marker": "citeturn399477view5",
+          "urls": [
+            "https://www.fda.gov/vaccines-blood-biologics/consumers-biologics/important-patient-and-consumer-information-about-regenerative-medicine-therapies"
+          ]
+        },
+        {
+          "marker": "citeturn372604search3turn372604search1turn372604view3",
+          "urls": [
+            "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/treatment-guide/program.do",
+            "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/facility/laboratory.do?articleNo=70293&mode=view&title=%EC%A0%84%EA%B8%B0%EC%9E%90%EA%B7%B9%EC%B9%98%EB%A3%8C%EC%8B%A4",
+            "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/facility/laboratory.do?articleNo=70290&mode=view&title=%EB%87%8C%EC%9E%90%EA%B7%B9+%EC%B9%98%EB%A3%8C%EC%8B%A4"
+          ]
+        },
+        {
+          "marker": "citeturn892998view3",
+          "urls": [
+            "https://news.weill.cornell.edu/news/2023/12/deep-brain-stimulation-improves-cognition-during-chronic-recovery-phase-of-brain-injury"
+          ]
+        },
+        {
+          "marker": "citeturn892998view0turn716013view0",
+          "urls": [
+            "https://www.sanbio.com/pdf/news/news_20261007.pdf",
+            "https://www.neurosurgery.med.keio.ac.jp/clinical/20260907.html"
+          ]
+        },
+        {
+          "marker": "citeturn716013view0turn716013view2",
+          "urls": [
+            "https://www.neurosurgery.med.keio.ac.jp/clinical/20260907.html",
+            "https://rctportal.mhlw.go.jp/s/detail/um?trial_id=jRCT2033240263"
+          ]
+        },
+        {
+          "marker": "citeturn372604search3",
+          "urls": [
+            "https://sev-rehabil.severance.healthcare/sev-rehabil/patient-carer/guide/treatment-guide/program.do"
+          ]
+        },
+        {
+          "marker": "citeturn233032search2turn372604view2",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/36594858/",
+            "https://digitalcommons.chapman.edu/comm_science_articles/25/"
+          ]
+        },
+        {
+          "marker": "citeturn372604view2",
+          "urls": [
+            "https://digitalcommons.chapman.edu/comm_science_articles/25/"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-10-22-medical-2026-10-21-historical-scope",
+      "recordedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-21762646-bd06-4984-b63a-3bcad6b7b56e",
+      "note": "이 게시물은 대화 당시의 전체 질문과 답변을 보존한 이력입니다. 보호자 관찰·의료진 설명의 전달·GPT 해석을 구분하며, 당시 답변을 현재 처방이나 확정 진단으로 표시하지 않습니다. 논문·지침·허가·병원 프로그램에 관한 설명과 참고 링크도 당시 답변의 일부이며 이번 업데이트에서 새로 의학적 검증을 수행한 것은 아닙니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    },
+    {
+      "id": "review-2026-10-22-medical-2026-10-21-visit-and-admission-plan",
+      "recordedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-21762646-bd06-4984-b63a-3bcad6b7b56e",
+      "note": "보호자는 10월 21일 나동욱 교수 외래를 다녀왔다고 기록했습니다. 세브란스 입원재활은 “한양대 병원 입원이 마무리가 되면 한 2주 정도 안”에 이어갈 계획이라는 설명입니다. 이 기간의 기준은 한양대 입원 종료이며, 세브란스의 확정 입원일·병상 배정·입원 승인을 확인한 기록이 아닙니다. 답변의 “예정된 입원” 표현도 이 조건부 계획에 대한 GPT 설명으로 구분합니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    },
+    {
+      "id": "review-2026-10-22-medical-2026-10-21-treatment-research-scope",
+      "recordedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-cc16178a-ea49-49d1-9e58-2193db17dc02",
+      "note": "약물·주사·뇌자극·DBS·세포치료 및 일본 AKUUGO의 허가·사용 시점에 관한 내용은 10월 21일 GPT 답변을 그대로 보존한 연구 문의 이력입니다. 현재 모집·허가 범위·병원 시행 가능성이나 청소년 적용 근거를 이번 업데이트에서 새로 확인한 것이 아닙니다. 치료명이 언급되었다고 선진이에게 적응증이 확인되거나 처방·시행된 것은 아니며, 외래에서 전달된 의료진 설명도 공식 진료기록 열람과 구분합니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [
+    "medical/2026-10-19",
+    "medical/2026-10-20"
+  ],
+  "privacyReviewed": true
+}

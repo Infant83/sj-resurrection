@@ -50,6 +50,18 @@ test('source presentation keeps HTML escaped and omits interface controls', () =
   assert.match(html, /&lt;script&gt;/);
 });
 
+test('a complete writing block inside an answer renders without its UI wrapper', () => {
+  const original = '앞의 설명\n\n:::writing{variant="standard" id="84219"}\n선진아, 힘내자.\n\n<script>비공개 실행</script>\n:::\n\n뒤의 설명';
+  const html = safeMarkdownToHtml(original);
+  assert.match(html, /앞의 설명/);
+  assert.match(html, /선진아, 힘내자/);
+  assert.match(html, /뒤의 설명/);
+  assert.match(html, /&lt;script&gt;/);
+  assert.doesNotMatch(html, /:::writing|variant=|84219|<script>/);
+  assert.match(original, /:::writing/);
+  assert.match(safeMarkdownToHtml(':::writing{variant="standard"}\n닫히지 않은 블록'), /:::writing/);
+});
+
 test('GenUI citations resolve without changing the archived source text', () => {
   const marker = 'genui{"citation":{"refs":["turn1view0","turn2view0"]}}';
   const original = '설명 ' + marker;

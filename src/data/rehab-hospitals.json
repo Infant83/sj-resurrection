@@ -1,54 +1,174 @@
 {
   "schemaVersion": 1,
-  "reviewedAsOf": "2026-10-16",
+  "reviewedAsOf": "2026-10-22",
   "basis": "보호자의 간병·진료·전원 대화 기록 기준 · 실제 입원 확정과 구분",
   "hospitals": [
     {
       "id": "nrc",
       "clinician": "김현경 · 소아재활",
-      "appointment": { "date": "2026-10-07", "time": "14:00", "label": "대리진료 완료 기록 · 입원 대기" },
-      "note": "10월 7일 입원장 발급·CD 등록을 위한 대리진료 후 집중치료실 대기와 관 상태 변화 후 재검토를 안내받았다는 기록입니다. 10월 14일에는 한양대 이후 리하트를 거쳐 국립재활원으로 가는 보호자의 잠정 계획이 추가됐으며, 국립재활원 입원일은 미정입니다.",
+      "appointment": {
+        "date": "2026-10-07",
+        "time": "14:00",
+        "label": "대리진료 완료 기록 · 입원 대기"
+      },
+      "note": "10/7 대리진료·입원 대기 이력을 유지합니다. 10/21 담당교수 상담에서도 기관절개관 제거 후 국립재활원 입원이 목표로 언급됐고 세브란스 우선 연계 또는 리하트 경유 대안을 함께 검토했습니다. 국립재활원 입원일은 미정입니다.",
       "sources": [
-        { "label": "10/14 이후 전원 구상", "postId": "rehab-care/2026-10-14", "messageId": "message-811024e9-85c0-421d-afbb-d2b6d057a0a1" },
-        { "label": "10/7 국립재활원 상담·운동치료 기록", "postId": "trauma/2026-10-07", "messageId": "message-c4abc1d7-87a7-4bef-98b1-62ee5b1b660e" },
-        { "label": "9/30 진료 준비 원문", "postId": "rehab-care/2026-09-30", "messageId": "message-b078b79a-0a39-4d3e-90d7-79b811435eee" },
-        { "label": "9/29 예약·통화 기록", "postId": "trauma/2026-09-29", "messageId": "message-4c699241-bd78-4d13-a73a-4cf55b0c849b" }
+        {
+          "postId": "rehab-care/2026-10-21",
+          "messageId": "message-715bca81-bf5c-49be-9f86-059bc96fc571",
+          "label": "10/21 보호자 원문"
+        },
+        {
+          "label": "10/14 이후 전원 구상",
+          "postId": "rehab-care/2026-10-14",
+          "messageId": "message-811024e9-85c0-421d-afbb-d2b6d057a0a1"
+        },
+        {
+          "label": "10/7 국립재활원 상담·운동치료 기록",
+          "postId": "trauma/2026-10-07",
+          "messageId": "message-c4abc1d7-87a7-4bef-98b1-62ee5b1b660e"
+        },
+        {
+          "label": "9/30 진료 준비 원문",
+          "postId": "rehab-care/2026-09-30",
+          "messageId": "message-b078b79a-0a39-4d3e-90d7-79b811435eee"
+        },
+        {
+          "label": "9/29 예약·통화 기록",
+          "postId": "trauma/2026-09-29",
+          "messageId": "message-4c699241-bd78-4d13-a73a-4cf55b0c849b"
+        }
       ]
     },
     {
       "id": "hanyang",
       "clinician": "최수진 담당교수 · 최승윤 주치의 · 재활의학과",
-      "appointment": { "date": "2026-10-12", "time": null, "label": "전원·입원 완료 보고 · 재활 진행" },
-      "note": "10월 13일 공유 대화에서 한양대 재활의학과 입원과 진료팀을 보호자가 보고했습니다. 전원일 10월 12일은 이번 업데이트 요청에서 보호자가 명시한 날짜이며, 해당 날짜의 독립 일지 전문은 공유본에서 확인되지 않았습니다. 13~15일 평가·작업·물리·언어치료 경과는 달력과 날짜별 원문에 이어집니다.",
+      "appointment": {
+        "date": "2026-10-12",
+        "time": null,
+        "label": "재활 입원 중 · 10/21 경과 확인"
+      },
+      "note": "10/12 전원일을 10/21 보호자 면담에서도 확인했습니다. 10/16·17·19·20 치료와 10/21 심리검사 시행이 추가됐고, 기관절개관은 10/20 교체 후 막기·제거 평가 중입니다. 퇴원일은 정해지지 않았습니다.",
       "sources": [
-        { "label": "10/13 한양대 입원 보고", "postId": "rehab-care/2026-10-13", "messageId": "message-1fb45835-96f8-4fbb-83fe-acd8a344df16" },
-        { "label": "10/15 재활 경과 · 10/16 입력", "postId": "rehab-care/2026-10-16", "messageId": "message-88eb1070-a4db-41d6-8cc7-df01dfe07e1a" },
-        { "label": "10/2 진료 기록 · 10/3 입력", "postId": "trauma/2026-10-03", "messageId": "message-42e9ba05-e31b-48ee-b6d9-f116c59fcdc2" },
-        { "label": "10/7 이후 전원 계획", "postId": "trauma/2026-10-07", "messageId": "message-c4abc1d7-87a7-4bef-98b1-62ee5b1b660e" },
-        { "label": "9/28 예약 변경 기록", "postId": "trauma/2026-09-28", "messageId": "message-849a8b63-e48c-4812-b7e7-3cf0154a89f9" },
-        { "label": "변경 전 문의 기록", "postId": "trauma/2026-09-24", "messageId": "message-ba3c1eb6-ac76-4a9d-89df-36c000974de8" }
+        {
+          "postId": "rehab-care/2026-10-16",
+          "messageId": "message-de37c73a-402b-462b-906f-3f87985fb372",
+          "label": "10/16 보호자 원문"
+        },
+        {
+          "postId": "rehab-care/2026-10-18",
+          "messageId": "message-a0bf336a-134d-4b21-8968-8649f3ab4a23",
+          "label": "10/18 보호자 원문"
+        },
+        {
+          "postId": "rehab-care/2026-10-19",
+          "messageId": "message-a9a59bcb-2e86-466b-88ff-2881d72dd906",
+          "label": "10/19 보호자 원문"
+        },
+        {
+          "postId": "rehab-care/2026-10-20",
+          "messageId": "message-6aeadf99-66d1-40a7-ae0b-b1932b5b63a8",
+          "label": "10/20 보호자 원문"
+        },
+        {
+          "postId": "rehab-care/2026-10-21",
+          "messageId": "message-715bca81-bf5c-49be-9f86-059bc96fc571",
+          "label": "10/21 보호자 원문"
+        },
+        {
+          "label": "10/13 한양대 입원 보고",
+          "postId": "rehab-care/2026-10-13",
+          "messageId": "message-1fb45835-96f8-4fbb-83fe-acd8a344df16"
+        },
+        {
+          "label": "10/15 재활 경과 · 10/16 입력",
+          "postId": "rehab-care/2026-10-16",
+          "messageId": "message-88eb1070-a4db-41d6-8cc7-df01dfe07e1a"
+        },
+        {
+          "label": "10/2 진료 기록 · 10/3 입력",
+          "postId": "trauma/2026-10-03",
+          "messageId": "message-42e9ba05-e31b-48ee-b6d9-f116c59fcdc2"
+        },
+        {
+          "label": "10/7 이후 전원 계획",
+          "postId": "trauma/2026-10-07",
+          "messageId": "message-c4abc1d7-87a7-4bef-98b1-62ee5b1b660e"
+        },
+        {
+          "label": "9/28 예약 변경 기록",
+          "postId": "trauma/2026-09-28",
+          "messageId": "message-849a8b63-e48c-4812-b7e7-3cf0154a89f9"
+        },
+        {
+          "label": "변경 전 문의 기록",
+          "postId": "trauma/2026-09-24",
+          "messageId": "message-ba3c1eb6-ac76-4a9d-89df-36c000974de8"
+        }
       ]
     },
     {
       "id": "asan",
       "clinician": "차승우 · 재활의학과 (후속 기록 기준)",
-      "appointment": { "date": "2026-10-07", "time": null, "label": "외래 취소 완료 기록" },
+      "appointment": {
+        "date": "2026-10-07",
+        "time": null,
+        "label": "외래 취소 완료 기록"
+      },
       "note": "10월 2일 전원 대화에서 차승우 교수 외래를 취소하는 방향을 검토했고, 10월 6일 간병일기에 취소 완료로 기록했습니다. 과거 고은재 교수·10시 10분 예약 기록과 구분하며, 예약 변경 시각은 미확인입니다.",
       "sources": [
-        { "label": "10/6 아산 외래 취소 기록", "postId": "trauma/2026-10-06", "messageId": "message-8784f9c0-809e-48ab-9780-ec41fe569231" },
-        { "label": "10/2 병원 선택·취소 검토", "postId": "rehabilitation/2026-10-02", "messageId": "message-328716a2-8412-49a8-a2e1-3e88f1b2e381" },
-        { "label": "9/26 외래 예약 기록", "postId": "trauma/2026-09-26", "messageId": "message-d5789180-05c6-43af-9177-1dd3d80318e7" },
-        { "label": "9/28 전원 논의 기록", "postId": "trauma/2026-09-28", "messageId": "message-849a8b63-e48c-4812-b7e7-3cf0154a89f9" }
+        {
+          "label": "10/6 아산 외래 취소 기록",
+          "postId": "trauma/2026-10-06",
+          "messageId": "message-8784f9c0-809e-48ab-9780-ec41fe569231"
+        },
+        {
+          "label": "10/2 병원 선택·취소 검토",
+          "postId": "rehabilitation/2026-10-02",
+          "messageId": "message-328716a2-8412-49a8-a2e1-3e88f1b2e381"
+        },
+        {
+          "label": "9/26 외래 예약 기록",
+          "postId": "trauma/2026-09-26",
+          "messageId": "message-d5789180-05c6-43af-9177-1dd3d80318e7"
+        },
+        {
+          "label": "9/28 전원 논의 기록",
+          "postId": "trauma/2026-09-28",
+          "messageId": "message-849a8b63-e48c-4812-b7e7-3cf0154a89f9"
+        }
       ]
     },
     {
       "id": "severance",
       "clinician": "나동욱 · 소아재활",
-      "appointment": { "date": "2026-10-21", "time": "14:40", "label": "기존 외래 예약 기록 · 변경 미확인" },
-      "note": "기존 가족 기록의 10월 21일 14:40 외래 예약입니다. 이번 한양대 입원 기록에서는 취소·변경이나 진료 완료가 확인되지 않아 기존 예약·변경 미확인으로 달력에도 유지합니다.",
+      "appointment": {
+        "date": "2026-10-21",
+        "time": "14:40",
+        "label": "외래 완료 · 입원장 접수 · 입원일 미정"
+      },
+      "note": "10/21 나동욱 교수 외래를 다녀와 재활 입원을 상담하고 입원장을 접수했습니다. 한양대 치료를 마친 뒤 병상 상황에 따라 가능한 빠르게 입원을 추진하는 계획이며 확정 입원일은 없습니다. 수치료·로봇·디지털 치료 소개를 실제 배정 치료나 고정 시간표로 표기하지 않습니다.",
       "sources": [
-        { "label": "9/23 예약 내용 · 9/24 입력", "postId": "trauma/2026-09-24", "messageId": "message-ba3c1eb6-ac76-4a9d-89df-36c000974de8" },
-        { "label": "9/28 전원 논의 기록", "postId": "trauma/2026-09-28", "messageId": "message-849a8b63-e48c-4812-b7e7-3cf0154a89f9" }
+        {
+          "postId": "rehab-care/2026-10-21",
+          "messageId": "message-715bca81-bf5c-49be-9f86-059bc96fc571",
+          "label": "10/21 보호자 원문"
+        },
+        {
+          "postId": "medical/2026-10-21",
+          "messageId": "message-21762646-bd06-4984-b63a-3bcad6b7b56e",
+          "label": "10/21 보호자 원문"
+        },
+        {
+          "label": "9/23 예약 내용 · 9/24 입력",
+          "postId": "trauma/2026-09-24",
+          "messageId": "message-ba3c1eb6-ac76-4a9d-89df-36c000974de8"
+        },
+        {
+          "label": "9/28 전원 논의 기록",
+          "postId": "trauma/2026-09-28",
+          "messageId": "message-849a8b63-e48c-4812-b7e7-3cf0154a89f9"
+        }
       ]
     }
   ]

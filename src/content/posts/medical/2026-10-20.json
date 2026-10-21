@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 2,
+  "recordId": "medical-2026-10-20-conversation",
+  "board": "medical",
+  "entryType": "medical-knowledge",
+  "title": "2026년 10월 20일 의학지식 문의 기록",
+  "status": "published",
+  "sensitivity": "highly-sensitive",
+  "recordedAt": {
+    "start": "2026-10-20",
+    "precision": "day",
+    "timezone": "Asia/Seoul"
+  },
+  "updatedAt": {
+    "start": "2026-10-22T06:42:02.029+09:00",
+    "precision": "second",
+    "timezone": "Asia/Seoul"
+  },
+  "tags": [
+    "의학지식 문의",
+    "원문 대화"
+  ],
+  "sources": [
+    {
+      "id": "chatgpt-medical-knowledge-2-2026",
+      "type": "chat-conversation",
+      "certainty": "confirmed",
+      "label": "의학지식 문의 2 · 대화 본문 확인(임상 사실 확인 아님)",
+      "accessedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "message-e3d5e482-b4b6-46f5-9dd6-6c13b75e179f",
+      "role": "user",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-20T08:44:40.295433+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "e3d5e482-b4b6-46f5-9dd6-6c13b75e179f",
+      "sourceOrdinal": 97,
+      "turnId": "657cdc89-d5f5-4828-9fb6-d9dc2f5d9575",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "privacy-redacted",
+      "privacyRedactions": [
+        "image"
+      ],
+      "privacyNote": "첨부 진료의뢰서 사진 1장과 이미지 식별·접근 정보는 공개하지 않습니다. 사용자 메시지의 전체 텍스트만 그대로 보존했으며, 당시 GPT가 사진에서 읽은 내용은 이번 업데이트에서 원본 의무기록으로 재검증한 것이 아닙니다.",
+      "publicText": "내일 그 진료를 위해 지금 있는 한양대학교 병원에서 요양급여 확실서를 발급받아서 가려고 하는데 가안으로 작성한 환자 확인용 서류를 받아서 내용을 확인해 보고 지금 선진이 상태에 비추어서 추가해야 될 내용이 있거나 아니면 주로 좀 더 상세하게 기술할 만한 내용 등이 있을 수 있다면 제안해 줘. 선생님한테 추가로 이야기를 해서 업데이트할 수 있도록. 그렇지 않다면 그냥 출력을 해서 가져가려고 해.",
+      "publicTextSha256": "sha256:6d56982ad285c5957a65e55a81c2b939f06c5c772a4b05bc01119be752010d60",
+      "provenanceNote": "보호자가 입력한 질문·관찰·전달 기록입니다. 의료진 설명과 투약·검사 내용은 보호자에게 전달된 기록이며, 원본 결과지나 처방전을 직접 확인한 기록과 구분합니다."
+    },
+    {
+      "id": "message-358e2653-3e38-4d5a-bf52-c7d77bdac404",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-20T08:45:35.666631+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "358e2653-3e38-4d5a-bf52-c7d77bdac404",
+      "sourceOrdinal": 98,
+      "turnId": "657cdc89-d5f5-4828-9fb6-d9dc2f5d9575",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "의뢰서의 현재 상태를 최근 재활·간병 경과와 대조해, 외래 진료에 도움이 될 보완 내용과 의료진에게 확인할 표현을 구분해 보겠습니다.",
+      "textSha256": "sha256:8c50b70c9a679fc8e131fe1aa451a425a7199371207cfa42e9b3d826e177ebd6",
+      "channel": "commentary",
+      "modelLabel": "ChatGPT",
+      "references": [],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    },
+    {
+      "id": "message-39be034a-a1f2-4282-8b8a-88227f5fae38",
+      "role": "assistant",
+      "sourceKind": "conversation-message",
+      "recordedAt": {
+        "start": "2026-10-20T08:58:07.054595+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceVerified": true,
+      "sourceVerifiedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "sourceMessageId": "39be034a-a1f2-4282-8b8a-88227f5fae38",
+      "sourceOrdinal": 99,
+      "turnId": "657cdc89-d5f5-4828-9fb6-d9dc2f5d9575",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ],
+      "fidelity": "exact",
+      "text": "현중님, **현재 의뢰서는 주요 손상·수술 병력과 재활 진행 상황을 전달하는 기본 문서로는 잘 정리되어 있습니다. 전부 다시 작성할 필요는 없습니다.** 다만 내일 나동욱 교수님께 **“현재 어느 수준까지 회복했고, 무엇이 재활 참여를 제한하며, 어떤 자문을 받고 싶은지”**를 전달하려면, **현재 기능과 의뢰 목적을 짧게 보완하는 것을 권합니다.**\n\n특히 **① 인지·언어·운동의 현재 기능, ② 약의 정확한 용법과 F90.0 기재 의미, ③ 발작 병력의 구체적인 경과**는 확인할 가치가 있습니다. 아래는 사진에 적힌 의료진 소견과 아버지가 알려주신 경과를 비교한 의견입니다. 확인되지 않은 현재 상태를 새 진단처럼 추가하자는 뜻은 아닙니다.\n\n## 1. 현재 문서에서 잘 기재되어 있는 내용\n\n사진에는 **저산소성 뇌손상, 미만성 축삭손상, 외상성 경막하혈종, 다발성 경색**, 심정지·다장기부전 병력과 여러 골절·수술, 비장절제, 기관절개가 정리되어 있습니다.\n\n현재 상태에 대해서는 다음 내용이 들어 있습니다.\n\n> **의식 수준 명료, 2단계 지시 수행 가능. 기관절개관 막기 및 제거 계획 중. 골절 부위의 관절가동범위·체중부하 제한 없이 보행훈련을 포함한 재활치료 중. 현재 메틸페니데이트 10mg과 gliatamin cap 복용.**\n\n이 내용은 그대로 유지할 가치가 있습니다. 특히 **정형외과적으로 관절운동과 체중부하 제한이 없다는 최신 소견**은 이전에 저희가 골절 때문에 조심스럽게 이야기했던 부분을 업데이트하는 중요한 정보입니다.\n\n다만 **“체중을 실어도 된다”는 것과 “혼자 안전하게 서고 걸을 수 있다”는 것은 다릅니다.** 의뢰서에는 전자는 있지만, 후자에 해당하는 **실제 기능과 필요한 도움의 정도**가 빠져 있습니다.\n\n## 2. 가장 먼저 추가하면 좋은 내용\n\n### ① 의뢰 목적을 마지막에 한 문장으로 명확하게\n\n현재는 병력과 치료 현황은 있지만, **왜 이번 외래 자문을 요청하는지**가 뚜렷하지 않습니다. 제가 제안하는 문장은 다음과 같습니다.\n\n> **“소아·청소년 후천성 뇌손상 후 인지·의사소통 및 운동기능의 현재 수준 평가와, 주의 지속시간 저하·인지 피로·운동 비대칭에 대한 재활치료 및 약물치료 방향 자문을 위해 의뢰합니다.”**\n\n연하나 기관절개관 제거에 관한 의견도 이번 진료의 주요 목적이라면 그 부분을 덧붙이면 됩니다. **모든 문제를 한 번에 나열하기보다 이번 외래에서 가장 답을 얻고 싶은 내용을 앞에 놓는 것**이 좋겠습니다.\n\n### ② ‘의식 명료’ 뒤에 인지·언어의 남은 어려움을 보완\n\n**“의식 명료, 2단계 지시 가능”이라는 기록을 낮춰 적을 필요는 없습니다.** 다만 이것만으로 주의력·기억·언어·복잡한 과제 수행까지 정상이라는 뜻은 아닙니다. 소아 뇌손상 후에는 처음에는 집중해도 금방 지치거나, 휴식 여부에 따라 수행이 달라지는 인지 피로가 남을 수 있습니다. citeturn419448view0\n\n선진이에게는 아버지가 반복해서 관찰한 다음 내용이 유용합니다.\n\n> **“보호자 관찰상 가족과 자발적인 상호작용이 있으며, 익숙한 활동에는 참여하나 낯설거나 어려운 과제에서 하품, 머리를 긁거나 쓸어넘기는 행동 및 집중 지속의 어려움이 나타남. 휴식 후 호전되며 최근 빈도는 감소 추세임.”**\n\n이것은 **‘자가항체 이상’이나 ‘두통’이라는 진단이 아니라 관찰 사실**로 적는 것이 좋습니다.\n\n여기에 치료팀이 확인한 **현재 의사표현 수준**도 한 줄 들어가면 더 좋겠습니다. 예를 들어 *몸짓·가리키기 중심인지, 단어를 말하는지, 짧은 문장으로 요구를 표현하는지, 예·아니오 반응이 일관적인지*입니다. 기관절개관 때문에 소리가 제한되는 부분과 언어 이해·표현의 어려움도 가능하면 구분해 달라고 요청하세요.\n\n### ③ ‘보행훈련 중’ 뒤에 실제 이동 수준을 추가\n\n아래 정도만 있어도 교수님이 현재 기능을 훨씬 구체적으로 이해할 수 있습니다.\n\n| 기능 | 의뢰서나 치료평가서에 있으면 좋은 내용 |\n|---|---|\n| **앉기** | 등받이·몸통 지지가 필요한지, 혼자 유지할 수 있는지, 피로 시 기울어지는 방향 |\n| **침대↔휠체어 이동** | 감독만 필요한지, 한 사람이 균형을 잡아주는지, 체중을 들어주는 도움이 필요한지 |\n| **기립·보행** | 사람 또는 보행기 보조 여부, 현재 가능한 거리나 걸음 수 |\n| **상하지 사용** | 좌우 근력·손 사용 차이, 다리 떨림이나 경직에 대한 치료사의 평가 |\n\n이전에는 **왼팔과 오른다리 사용이 더 어렵고, 왼다리에 힘을 줄 때 떨림이 있다**고 하셨습니다. 그러나 호전 중이므로 **이전 설명을 현재 상태로 그대로 옮기지 말고, 오늘 치료사가 평가한 수준으로 기재**하는 것이 좋습니다.\n\n**“보호자 보조하 두 걸음 이동” 같은 생활 관찰과 “최소 보조·중등도 보조” 같은 치료팀의 평가를 구분**해주면 됩니다. 이미 물리·작업치료 평가서가 있다면 의뢰서에 전부 넣지 않고 첨부해도 충분합니다.\n\n### ④ 기관절개·식사 상태를 한두 줄 구체화\n\n현재의 **“막기 및 제거 계획”**에 더해, *막기를 아직 시작하지 않았는지, 낮에 몇 시간 가능한지, 산소가 필요한지, 석션이 어느 정도 필요한지*를 적으면 좋겠습니다. 기관절개 환자의 관리에서는 관의 종류·크기뿐 아니라 산소 요구량, 자발적인 가래 배출과 석션 필요도가 중요한 정보입니다. citeturn419448view2\n\n식사도 이전에 입으로만 먹으면서 기침·구토·뱉기가 있었으므로, **현재는 호전됐는지**를 구분해야 합니다.\n\n> **“현재 영양 공급 경로 및 허용 식이, 식사 보조 정도, 최근 사레·기침·구토 여부, 연하평가 시행일과 주요 결과”**\n\n정도가 적당합니다. **일반식을 먹는다는 사실과 삼킴 안전성이 확인됐다는 사실은 구별**해야 하므로, VFSS·FEES를 했다면 결과를 첨부하고, 하지 않았다면 검사 결과가 있는 것처럼 쓰지 않아야 합니다. citeturn419448view3\n\n## 3. 발급 전에 의료진에게 확인할 항목\n\n### A. **F90.0 ‘활동성 및 주의력 장애’가 무엇을 의미하는지**\n\n사진 상단에는 **S06.90과 함께 F90.0**이 기재되어 있습니다. 이 부분은 한 번 확인하시기를 권합니다.\n\n앞서 들으신 설명은 **뇌손상 후 주의력·각성·재활 참여를 돕기 위해 페니드를 사용한다**는 것이었지요. 실제로 메틸페니데이트는 소아 TBI 입원재활에서도 사용되지만, **약을 사용한다는 사실만으로 기존 ADHD가 확진됐다고 볼 수는 없습니다.** ADHD 진단에는 별도의 임상·발달력 평가가 필요합니다. citeturn798002view0turn283256search25\n\n따라서 다음처럼 여쭤보시면 됩니다.\n\n> **“F90.0은 별도로 ADHD를 진단하신 의미인가요, 아니면 이번 뇌손상 이후 주의력 저하와 관련해 기재된 것인가요? 의뢰받는 교수님이 구분할 수 있도록 약물 사용 목적을 본문에 적어주실 수 있을까요?”**\n\n**코드를 임의로 삭제하거나 다른 코드로 바꾸라고 요청하자는 뜻은 아닙니다.** 실제 진단과 처방 목적에 맞는지 담당의에게 확인하자는 것입니다.\n\n### B. **현재 약의 용량·횟수·시각**\n\n현재 문서의 **“methylphenidate 10mg, gliatamin cap”**만으로는 실제 하루 복용량을 알기 어렵습니다.\n\n**메틸페니데이트 10mg이 1회 용량인지 하루 총량인지, 하루 몇 번·언제 투여하는지**, 캡슐은 **정확한 제품명·성분·함량·복용 횟수**를 기재하거나 현재 처방전을 붙여주세요.\n\n그리고 **쿠에타핀 중단 후 낮의 각성과 활동성이 좋아졌다는 보호자 관찰**은 약물 자문에 유용하므로 중단일과 함께 별도 메모로 가져가면 좋겠습니다. 반코마이신·아스피린 등 **과거에 사용한 약을 현재 복용약으로 다시 넣지는 말고**, 필요하면 중단·치료 종료 이력으로 구분하세요.\n\n### C. **‘h/o seizure’ — 발작 병력의 구체적인 내용**\n\n이 항목은 중요하지만 지금은 너무 짧습니다. **발작이 언제 있었고, 이후 다시 있었는지, 뇌파검사를 했는지, 항경련제를 현재 쓰지 않는 상태가 맞는지** 정도를 확인해주면 좋겠습니다.\n\n발작이라는 사건과 뇌전증이라는 진단은 같지 않으므로, **‘발작 병력’만으로 지속적인 뇌전증을 확정해서 읽지 않도록 경과를 보완**하는 것입니다. 지금 약을 새로 추가해야 한다는 의미는 아닙니다. citeturn798002view2\n\n### D. 날짜와 최근 치료 종료 상태\n\n이 부분은 다음처럼 **원기록과 대조할 항목**입니다.\n\n| 현재 기재 | 확인 제안 |\n|---|---|\n| **진료기간 10/02–10/20** | 앞서 한양대 입원은 10/12로 알려주셨습니다. 10/02 외래부터 포함한 진료기간일 수 있어 오류로 단정할 수 없습니다. 필요하면 **“10/12부터 입원재활 중”**을 본문에 별도로 적어 명확히 합니다. |\n| **심정지·다장기부전·DIC: 8/03** | 이전에 전달받은 가족 기록과 날짜 차이가 있었으므로, **성모병원 원기록 기준으로 날짜와 경과를 확인**하면 좋겠습니다. 기억만으로 8/01 등으로 바꾸지는 마세요. |\n| **혈액검사상 특이소견 없음** | 최근 검사일과 대표 결과를 첨부하면 충분합니다. 이 문장만으로 **과거 혈액배양 문제나 CRE 격리 상태까지 해결됐다는 뜻은 아니므로**, 현재 상태를 별도로 확인합니다. |\n| **현재 두 약 외 복용약 없음** | 현재 처방과 일치하는지 확인하고, 최근 항생제 치료 종료일·재배양 결과가 있다면 짧게 덧붙입니다. |\n\n표피포도상구균 혈액배양 양성 이력과 반코마이신 투여 중 홍조·가려움도 **최근 경과 또는 약물이상반응 이력**으로 전달할 가치가 있습니다. 다만 실제 혈류감염으로 판단했는지, 검체 오염으로 판단했는지, 주입반응인지 알레르기인지 **확정되지 않은 부분을 보호자가 임의로 진단명으로 바꾸어 적지는 않는 것**이 좋습니다.\n\n## 4. 선생님께 실제로 드릴 요청 문구\n\n전부 길게 추가해 달라고 하기보다, 다음 정도로 요청하시면 좋겠습니다.\n\n> **“기본 병력은 잘 정리해주셔서 감사합니다. 내일 나동욱 교수님께 현재 기능과 재활 방향을 자문받으려는 목적이라, 명료하고 2단계 지시가 가능하다는 내용 뒤에 현재 언어·의사표현 수준과 과제 중 쉽게 지치는 모습을 조금 보완해주실 수 있을까요?**\n>\n> **앉기·휠체어 이동·보행에서 실제 필요한 도움의 정도, 현재 기관절개관 막기와 식사 상태도 간단히 들어가면 좋겠습니다. 마지막에 인지·의사소통·운동재활 및 약물치료 방향에 대한 자문 목적을 적어주시면 감사하겠습니다.**\n>\n> **그리고 F90.0의 진단 의미, 페니드와 캡슐의 정확한 용법, 과거 발작 이후 경과도 한 번 확인 부탁드립니다. 상세 내용은 기존 치료평가서와 처방전을 첨부하는 방식도 괜찮습니다.”**\n\n## 그대로 가져가야 한다면 어떻게 준비할까요?\n\n**수정이 어렵다고 이 의뢰서를 버리거나 외래를 미룰 필요는 없습니다.** 기본 병력은 이미 담겨 있으니, **현재 기능을 적은 보호자 메모 1장과 준비한 영상**, 그리고 가능한 범위에서 **최근 재활평가서·현재 처방전·뇌 MRI/CT 영상 및 판독지**를 함께 가져가면 보완할 수 있습니다. 기존 CRS-R 등 평가 결과가 있다면 첨부하되, 새 점수를 임의로 만들어 넣지는 마세요.\n\n마지막으로 사진 제목이 **‘환자확인용_요양급여의뢰서’**이므로, 이 검토용 출력물이 그대로 제출 가능한지 아니면 **확인 후 별도의 정식 발급본을 받아야 하는지** 발급창구에 확인해 주세요. 세브란스 공식 안내도 초진 시 요양급여의뢰서 지참을 요구합니다. citeturn283256search0\n\n**제 판단은 ‘큰 틀은 유지하고, 현재 기능과 의뢰 목적을 짧게 추가한 뒤 발급받자’입니다. 가장 중요한 보완은 병명을 더 늘리는 것이 아니라, “명료하지만 어떤 과제에서 어려워지고, 이동·의사소통에 어느 정도 도움이 필요한가”를 전달하는 것입니다.**",
+      "textSha256": "sha256:49c4946dfc1ff833cd70548778234a942a80ee87a2a1ba02d5ca17fad8cdce88",
+      "channel": "final",
+      "modelLabel": "ChatGPT",
+      "references": [
+        {
+          "title": "Kids Health Info : Brain injury - Cognitive fatigue",
+          "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/",
+          "attribution": "rch.org.au"
+        },
+        {
+          "title": "Nursing guidelines : Tracheostomy management",
+          "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Tracheostomy_management/",
+          "attribution": "rch.org.au"
+        },
+        {
+          "title": "Pediatric Feeding and Swallowing",
+          "url": "https://www.asha.org/practice-portal/clinical-topics/pediatric-feeding-and-swallowing/",
+          "attribution": "ASHA"
+        },
+        {
+          "title": "The Use of Methylphenidate During Inpatient Rehabilitation After Pediatric Traumatic Brain Injury: Population Characteristics and Prescribing Patterns - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38709832/",
+          "attribution": "PubMed"
+        },
+        {
+          "title": "Confirmation of diagnosis | Attention deficit hyperactivity ...",
+          "url": "https://www.nice.org.uk/guidance/qs39/chapter/quality-statement-1-confirmation-of-diagnosis",
+          "attribution": "nice.org.uk"
+        },
+        {
+          "title": "The 2014 Definition of Epilepsy: A perspective for patients and caregivers // International League Against Epilepsy",
+          "url": "https://www.ilae.org/guidelines/definition-and-classification/the-2014-definition-of-epilepsy-a-perspective-for-patients-and-caregivers",
+          "attribution": "ILAЕ"
+        },
+        {
+          "title": "예약 안내 - 세브란스병원",
+          "url": "https://sev.severance.healthcare/sev/patient-carer/appointment/treatment/apt-guide.do",
+          "attribution": "세브란스병원"
+        }
+      ],
+      "citationMarkers": [
+        {
+          "marker": "citeturn419448view0",
+          "urls": [
+            "https://www.rch.org.au/kidsinfo/fact_sheets/Brain_injury_Cognitive_fatigue/"
+          ]
+        },
+        {
+          "marker": "citeturn419448view2",
+          "urls": [
+            "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Tracheostomy_management/"
+          ]
+        },
+        {
+          "marker": "citeturn419448view3",
+          "urls": [
+            "https://www.asha.org/practice-portal/clinical-topics/pediatric-feeding-and-swallowing/"
+          ]
+        },
+        {
+          "marker": "citeturn798002view0turn283256search25",
+          "urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/38709832/",
+            "https://www.nice.org.uk/guidance/qs39/chapter/quality-statement-1-confirmation-of-diagnosis"
+          ]
+        },
+        {
+          "marker": "citeturn798002view2",
+          "urls": [
+            "https://www.ilae.org/guidelines/definition-and-classification/the-2014-definition-of-epilepsy-a-perspective-for-patients-and-caregivers"
+          ]
+        },
+        {
+          "marker": "citeturn283256search0",
+          "urls": [
+            "https://sev.severance.healthcare/sev/patient-carer/appointment/treatment/apt-guide.do"
+          ]
+        }
+      ],
+      "provenanceNote": "당시 GPT의 설명·분석 원문입니다. 확정 진단·현재 처방·입원 승인 기록이 아닙니다. 참고 링크와 의학적 해석은 당시 답변에 포함된 것으로, 이번 업데이트에서 새로 검증한 의학 지침이 아닙니다."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "review-2026-10-22-medical-2026-10-20-historical-scope",
+      "recordedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-e3d5e482-b4b6-46f5-9dd6-6c13b75e179f",
+      "note": "이 게시물은 대화 당시의 전체 질문과 답변을 보존한 이력입니다. 보호자 관찰·의료진 설명의 전달·GPT 해석을 구분하며, 당시 답변을 현재 처방이나 확정 진단으로 표시하지 않습니다. 논문·지침·허가·병원 프로그램에 관한 설명과 참고 링크도 당시 답변의 일부이며 이번 업데이트에서 새로 의학적 검증을 수행한 것은 아닙니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    },
+    {
+      "id": "review-2026-10-22-medical-2026-10-20-referral-review",
+      "recordedAt": {
+        "start": "2026-10-22T06:42:02.029+09:00",
+        "precision": "second",
+        "timezone": "Asia/Seoul"
+      },
+      "kind": "clarification",
+      "target": "message-39be034a-a1f2-4282-8b8a-88227f5fae38",
+      "note": "첨부 의뢰서 사진은 공개하지 않습니다. 답변의 의식·지시 수행·체중부하·약명 및 10mg·진단코드·진료기간·8월 3일 등의 인용은 당시 GPT가 사진에서 읽고 해석한 내용입니다. 이번에 원본 의뢰서·처방·결과지를 독립적으로 확인한 사실로 표시하지 않습니다. 약물의 실제 1회량·하루 총량·횟수, F90.0의 임상 의미, 과거 사건 날짜 및 현재 제한 여부는 원기록·담당 의료진의 확인 대상이며, 보완 문구는 실제 발급·추가가 확인된 기록이 아닙니다.",
+      "sourceRefs": [
+        "chatgpt-medical-knowledge-2-2026"
+      ]
+    }
+  ],
+  "media": [],
+  "related": [
+    "medical/2026-10-19",
+    "medical/2026-10-21"
+  ],
+  "privacyReviewed": true
+}
