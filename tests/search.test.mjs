@@ -56,6 +56,18 @@ test('queries and snippets are text only, and controls are excluded from the ind
   assert.equal(root.querySelector('img'), null);
 });
 
+test('a standalone letter transcription remains searchable and has its own result label', () => {
+  const { document } = dom('<article><section class="conversation-message user-message" data-source-kind="letter-transcript"><p>의료진께 드리는 회복의 감사편지</p></section></article>');
+  const root = document.querySelector('article');
+  const index = indexSearchText(root);
+  assert.equal(index.text, '의료진께 드리는 회복의 감사편지');
+  assert(index.segments.every(segment => segment.label === '자필 편지 판독본'));
+  const marks = new SearchHighlights().apply(root, '감사편지');
+  assert.equal(marks.size, 1);
+  assert.equal(root.querySelector('mark').textContent, '감사편지');
+  assert.equal(root.querySelector('.assistant-message'), null);
+});
+
 test('changing queries restores exact text and never nests marks', () => {
   const { document } = dom('<article><p>한양대에서 회복하는 선진. 한양대 재활</p></article>');
   const root = document.querySelector('article'), before = root.innerHTML;

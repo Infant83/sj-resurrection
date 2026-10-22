@@ -140,11 +140,22 @@ export function assertArchiveIntegrity(posts: ArchivePost[]) {
               ['confirmed', 'reported', 'observed'].includes(source.certainty)
             );
           });
+        const isLetterTranscript = message.sourceKind === 'letter-transcript';
+        const verifiedLetterTranscriptSource =
+          isLetterTranscript && message.role === 'user' && post.data.entryType === 'letter' &&
+          message.sourceRefs.some((sourceRef) => {
+            const source = sourceById.get(sourceRef);
+            return source?.type === 'user-recollection' && source.certainty === 'confirmed';
+          });
 
         if (!message.sourceVerified || !message.sourceVerifiedAt) {
           throw new Error(`Message completeness was not source-verified: ${post.data.recordId}/${message.id}`);
         }
-        if (!confirmedConversationSource && !verifiedEmbeddedReportSource) {
+        if (
+          isLetterTranscript
+            ? !verifiedLetterTranscriptSource
+            : !confirmedConversationSource && !verifiedEmbeddedReportSource
+        ) {
           throw new Error(`Published message has no verified archival source: ${post.data.recordId}/${message.id}`);
         }
         if (!message.sourceMessageId || !message.sourceOrdinal) {
@@ -189,11 +200,16 @@ export function assertArchiveIntegrity(posts: ArchivePost[]) {
       post.data.messages.every(
         (message) => message.role === 'user' && message.sourceKind === 'embedded-app-report' && message.sourceVerified,
       );
+    const isVerifiedLetterTranscriptOnly =
+      post.data.entryType === 'letter' && post.data.messages.length > 0 &&
+      post.data.messages.every(
+        (message) => message.role === 'user' && message.sourceKind === 'letter-transcript' && message.sourceVerified,
+      );
     if (
       post.data.status === 'published' &&
-      (!userMessageCount || (!assistantMessageCount && !isVerifiedEmbeddedReportOnly))
+      (!userMessageCount || (!assistantMessageCount && !isVerifiedEmbeddedReportOnly && !isVerifiedLetterTranscriptOnly))
     ) {
-      throw new Error(`Published post must contain a complete conversation or verified embedded report: ${post.data.recordId}`);
+      throw new Error(`Published post must contain a complete conversation, verified embedded report or verified letter transcript: ${post.data.recordId}`);
     }
 
     for (const amendment of post.data.amendments) {

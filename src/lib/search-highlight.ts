@@ -25,7 +25,11 @@ export function indexSearchText(root: HTMLElement) {
     if (!node.data || node.parentElement?.closest(excluded)) continue;
     const message = node.parentElement?.closest('.conversation-message');
     segments.push({ node, start: text.length, end: text.length + node.data.length,
-      label: message?.classList.contains('assistant-message') ? 'GPT 답변' : message ? '보호자 기록' : '제목·기록 정보' });
+      label: message?.classList.contains('assistant-message')
+        ? 'GPT 답변'
+        : message?.getAttribute('data-source-kind') === 'letter-transcript'
+          ? '자필 편지 판독본'
+          : message ? '보호자 기록' : '제목·기록 정보' });
     text += node.data;
   }
   return { text, segments };

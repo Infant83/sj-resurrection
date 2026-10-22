@@ -38,10 +38,11 @@
         "선진이와 함께하는 삶 (phase2)",
         "선진이와 함께하는 삶 (phase 3)",
         "선진과 함께하는 삶 (phase 4)",
-        "선진이와 함께하는 삶 (phase 5)"
+        "선진이와 함께하는 삶 (phase 5)",
+        "의료진 감사편지 · 자필 원본 4쪽"
       ],
       "publicationRule": "complete-visible-source-messages-only",
-      "sourceRequirement": "confirmed-chatgpt-shared-conversation-snapshot"
+      "sourceRequirement": "confirmed shared-conversation snapshot or privacy-reviewed handwritten-letter transcript checked against the original"
     },
     "medical": {
       "status": "published-through-2026-10-21",
@@ -182,18 +183,19 @@
         "publicPreviewAuthorizedByUser": true
       },
       "selection": {
-        "publishedPostCount": 24,
-        "publishedMessageCount": 61,
-        "publishedUserMessageCount": 24,
+        "publishedPostCount": 25,
+        "publishedMessageCount": 62,
+        "publishedUserMessageCount": 25,
         "publishedAssistantMessageCount": 37,
         "correctedUserMessageCount": 24,
-        "privacyRedactedMessageCount": 0,
+        "privacyRedactedMessageCount": 1,
         "sourceKindCounts": {
-          "conversation-message": 61
+          "conversation-message": 61,
+          "letter-transcript": 1
         },
         "withheldMessageCount": 0,
         "excludedHiddenOrRedactedRecordCount": 2,
-        "publishedContentSha256": "e482a843ece81fd4c0f6f67e7e4c5f122f54140b4c6b0db932edb4c7f455597a"
+        "publishedContentSha256": "82a6a489a2dfd95b857c2bae801c6ef7df08a5e6c34bb1ee4144e5cb6ea0519a"
       },
       "posts": [
         "life-2026-07-29-conversation",
@@ -219,6 +221,7 @@
         "life-2026-09-10-conversation",
         "life-2026-09-21-conversation",
         "life-2026-10-07-conversation",
+        "life-2026-10-12-clinician-letter",
         "life-2026-10-21-conversation"
       ]
     },

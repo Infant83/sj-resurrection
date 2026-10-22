@@ -36,7 +36,7 @@ const messageBase = z.object({
   id: z.string(),
   recordedAt: stamp,
   sourceKind: z
-    .enum(['conversation-message', 'voice-transcript', 'embedded-app-report'])
+    .enum(['conversation-message', 'voice-transcript', 'embedded-app-report', 'letter-transcript'])
     .default('conversation-message'),
   sourceVerified: z.boolean().default(false),
   sourceVerifiedAt: stamp.optional(),
@@ -99,7 +99,7 @@ const amendment = z.object({
   sourceRefs: z.array(z.string()).default([]),
 });
 
-// The public repository accepts only complete, source-verified conversations or embedded reports.
+// Only complete, source-verified conversations, embedded reports or reviewed letter transcripts may be public.
 const posts = defineCollection({
   loader: glob({ base: './src/content/posts', pattern: '**/*.{md,mdx,json}' }),
   schema: z.object({

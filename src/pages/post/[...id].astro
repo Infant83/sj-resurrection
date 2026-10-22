@@ -17,9 +17,14 @@ const board = boardMap[post.data.board];
 const isEmbeddedReportOnly = post.data.messages.every(
   (message) => message.role === 'user' && message.sourceKind === 'embedded-app-report',
 );
-const description = isEmbeddedReportOnly
-  ? `${post.data.title} — 보호자가 제공한 병원 통화 자동 요약 전문`
-  : `${post.data.title} — 보호자 원문과 당시 GPT 답변 전문`;
+const isLetterTranscriptOnly = post.data.messages.every(
+  (message) => message.role === 'user' && message.sourceKind === 'letter-transcript',
+);
+const description = isLetterTranscriptOnly
+  ? `${post.data.title} — 자필 감사편지 원본 대조 판독본`
+  : isEmbeddedReportOnly
+    ? `${post.data.title} — 보호자가 제공한 병원 통화 자동 요약 전문`
+    : `${post.data.title} — 보호자 원문과 당시 GPT 답변 전문`;
 ---
 
 <BaseLayout title={post.data.title} description={description} activeBoard={post.data.board}>

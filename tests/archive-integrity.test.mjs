@@ -6,6 +6,71 @@ import { safeMarkdownToHtml } from '../src/lib/safe-text.ts';
 
 const fixture = () => ({data: JSON.parse(fs.readFileSync(new URL('../src/content/posts/life/2026-09-21.json', import.meta.url), 'utf8'))});
 
+const letterFixture = () => {
+  const p = fixture();
+  p.data.entryType = 'letter';
+  p.data.sources = [{ id: 'reviewed-handwritten-letter', type: 'user-recollection', certainty: 'confirmed', label: '자필 원본 대조 판독본' }];
+  p.data.messages = [{ ...p.data.messages[0], sourceKind: 'letter-transcript', sourceRefs: [p.data.sources[0].id], sourceMessageId: 'reviewed-handwritten-letter-text', sourceOrdinal: 1 }];
+  p.data.amendments = [];
+  return p;
+};
+
+test('a complete original-checked handwritten letter may stand alone without a GPT reply', () => {
+  assert.doesNotThrow(() => assertArchiveIntegrity([letterFixture()]));
+});
+
+test('ordinary conversation inputs still cannot be published without a reply', () => {
+  const p = fixture();
+  p.data.messages = [p.data.messages[0]];
+  p.data.amendments = [];
+  assert.throws(() => assertArchiveIntegrity([p]), /must contain a complete conversation/);
+});
+
+test('the handwritten-letter exception requires its dedicated source authority and entry type', () => {
+  for (const mutate of [
+    (p) => { p.data.entryType = 'clinical-update'; },
+    (p) => { p.data.sources[0].type = 'caregiver-observation'; },
+    (p) => { p.data.sources[0].type = 'chat-conversation'; },
+    (p) => { p.data.sources[0].certainty = 'reported'; },
+  ]) {
+    const p = letterFixture();
+    mutate(p);
+    assert.throws(() => assertArchiveIntegrity([p]), /no verified archival source/);
+  }
+});
+
+test('a letter transcript cannot be reassigned to a GPT role', () => {
+  const p = letterFixture();
+  const m = p.data.messages[0];
+  Object.assign(m, { role: 'assistant', text: m.original, textSha256: m.originalSha256, references: [] });
+  assert.throws(() => assertArchiveIntegrity([p]), /no verified archival source/);
+});
+
+test('standalone letters retain the source-verification and complete-text hash requirements', () => {
+  const unverified = letterFixture();
+  unverified.data.messages[0].sourceVerified = false;
+  assert.throws(() => assertArchiveIntegrity([unverified]), /completeness was not source-verified/);
+  const changed = letterFixture();
+  changed.data.messages[0].original += '\n추가된 문장';
+  assert.throws(() => assertArchiveIntegrity([changed]), /original hash mismatch/);
+});
+
+test('a privacy-reviewed letter may keep only its public transcription, never a private original', () => {
+  const p = letterFixture();
+  const m = p.data.messages[0];
+  Object.assign(m, {
+    fidelity: 'privacy-redacted',
+    publicText: m.original,
+    publicTextSha256: m.originalSha256,
+    privacyRedactions: ['image'],
+    privacyNote: '자필 원본 사진은 비공개이며 공개용 판독본만 보존했습니다.',
+  });
+  for (const field of ['original', 'originalSha256', 'corrected', 'correctionPolicy']) delete m[field];
+  assert.doesNotThrow(() => assertArchiveIntegrity([p]));
+  m.original = '공개하면 안 되는 비공개 원문';
+  assert.throws(() => assertArchiveIntegrity([p]), /must contain only a verified public copy/);
+});
+
 test('verified source sequence may preserve a disclosed timestamp inversion', () => {
   const p = fixture();
   p.data.messages[1].recordedAt.start = '2026-09-21T23:37:30+09:00';
