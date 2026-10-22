@@ -9,13 +9,14 @@ import { parseHTML } from 'linkedom';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const dist = resolve(root, 'dist');
 const base = new URL('https://infant83.github.io/sj-resurrection/');
-const prefix = 'icons/sunjin-healing-20261022';
+const prefix = 'icons/sunjin-healing-watercolor-20261022';
+const themeColor = '#103D46';
 const asset = (path) => new URL(path, base).pathname;
 const manifestUrl = new URL('site.webmanifest', base);
 const manifest = JSON.parse(readFileSync(resolve(dist, 'site.webmanifest'), 'utf8'));
 assert.equal(manifest.name, 'Sunjin UpRising');
 assert.equal(manifest.short_name, 'Sunjin UpRising');
-assert.equal(manifest.theme_color, '#143f35');
+assert.equal(manifest.theme_color, themeColor);
 assert.equal(manifest.display, 'browser');
 for (const member of ['id', 'start_url', 'scope']) {
   assert.equal(new URL(manifest[member], manifestUrl).href, base.href, member);
@@ -74,27 +75,26 @@ function checkPng(path, size) {
   }
 }
 
-for (const size of [32, 180, 192, 512]) checkPng(resolve(dist, `${prefix}-${size}.png`), size);
-const svg = readFileSync(resolve(dist, `${prefix}.svg`), 'utf8');
-assert.match(svg, /viewBox="0 0 512 512"/);
-assert.doesNotMatch(svg, /<script|<foreignObject|\son\w+=|(?:href|src)="https?:/i);
+for (const size of [32, 180, 192, 512, 1024]) checkPng(resolve(dist, `${prefix}-${size}.png`), size);
 
 const pages = readdirSync(dist, { recursive: true }).filter((path) => path.endsWith('.html'));
 assert(pages.length > 0, 'Build the site before checking icons');
 for (const page of pages) {
   const { document } = parseHTML(readFileSync(resolve(dist, page), 'utf8'));
   const head = document.head;
-  assert.equal(head.querySelector('meta[name="theme-color"]')?.getAttribute('content'), '#143f35', page);
+  assert.equal(head.querySelector('meta[name="theme-color"]')?.getAttribute('content'), themeColor, page);
   assert.equal(head.querySelector('meta[name="apple-mobile-web-app-title"]')?.getAttribute('content'), 'Sunjin UpRising', page);
   const touch = head.querySelector('link[rel="apple-touch-icon"]');
   assert.equal(touch?.getAttribute('sizes'), '180x180', page);
   assert.equal(touch?.getAttribute('href'), asset(`${prefix}-180.png`), page);
   assert.equal(head.querySelector('link[rel="manifest"]')?.getAttribute('href'), manifestUrl.pathname, page);
-  for (const [type, size, suffix] of [['image/svg+xml', 'any', '.svg'], ['image/png', '32x32', '-32.png']]) {
-    const link = [...head.querySelectorAll('link[rel="icon"]')].find((entry) => entry.getAttribute('type') === type);
-    assert.equal(link?.getAttribute('sizes'), size, page);
-    assert.equal(link?.getAttribute('href'), asset(prefix + suffix), page);
+  for (const size of [32, 512]) {
+    const link = [...head.querySelectorAll('link[rel="icon"]')].find((entry) => entry.getAttribute('sizes') === `${size}x${size}`);
+    assert.equal(link?.getAttribute('type'), 'image/png', page);
+    assert.equal(link?.getAttribute('href'), asset(`${prefix}-${size}.png`), page);
   }
+  const brandImage = document.querySelector('.brand-mark img');
+  assert.equal(brandImage?.getAttribute('src'), asset(`${prefix}-192.png`), page);
   for (const link of head.querySelectorAll('link[rel="icon"],link[rel="apple-touch-icon"],link[rel="manifest"]')) {
     const href = link.getAttribute('href');
     const pageUrl = new URL(relative(dist, resolve(dist, page)).split(sep).join('/'), base);
@@ -104,4 +104,4 @@ for (const page of pages) {
     assert(readFileSync(resolve(dist, url.pathname.slice(base.pathname.length))).length > 0, page);
   }
 }
-console.log(`Site icon checks passed: ${pages.length} pages, 4 opaque PNG sizes, SVG and scoped manifest.`);
+console.log(`Site icon checks passed: ${pages.length} pages, 5 opaque PNG sizes, brand images and scoped manifest.`);
