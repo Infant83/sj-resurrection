@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="title desc">
+  <title id="title">Sunjin UpRising · 회복과 치유</title>
+  <desc id="desc">짙은 초록 바탕 위, 새잎이 돋은 지팡이를 한 마리의 뱀이 감싸며 올라가는 표식.</desc>
+  <defs>
+    <linearGradient id="forest" x1="0" y1="512" x2="512" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#143f35"/>
+      <stop offset="1" stop-color="#28674b"/>
+    </linearGradient>
+    <linearGradient id="renewal" x1="198" y1="396" x2="298" y2="142" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#64c986"/>
+      <stop offset="1" stop-color="#b3efa5"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#forest)" d="M0 0h512v512H0z"/>
+  <path d="M256 116v292" fill="none" stroke="#fff0ca" stroke-width="24" stroke-linecap="round"/>
+  <path d="M255 117c-24-1-39-15-40-37 23-2 39 12 40 37Z" fill="#83d793"/>
+  <path d="M256 110c2-26 21-43 46-41-2 25-20 42-46 41Z" fill="#b3efa5"/>
+  <path d="M219 394c75 4 110-34 77-60-31-25-95-15-98-55-5-42 107-39 116-74 9-34-12-54-36-52" fill="none" stroke="url(#renewal)" stroke-width="31" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M287 135c-21-7-43-1-53 16 8 16 31 22 51 12 13-6 14-20 2-28Z" fill="#b3efa5"/>
+  <circle cx="252" cy="148" r="4.5" fill="#143f35"/>
+</svg>

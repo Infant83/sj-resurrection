@@ -117,17 +117,19 @@ select {
 .brand-mark {
   width: 40px;
   aspect-ratio: 1;
-  display: grid;
-  place-items: center;
-  border: 1px solid var(--navy);
-  border-radius: 50%;
-  color: white;
-  background: var(--navy);
-  font-family: "Noto Sans Symbols 2", "Segoe UI Symbol", "Apple Symbols", sans-serif;
-  font-size: 1.3rem;
-  font-weight: 400;
-  line-height: 1;
-  box-shadow: 0 0 0 3px rgba(31, 52, 73, 0.08);
+  display: block;
+  flex: 0 0 auto;
+  overflow: hidden;
+  border-radius: 11px;
+  background: #143f35;
+  box-shadow: 0 0 0 3px rgba(20, 63, 53, 0.08);
+}
+
+.brand-mark img,
+.policy-symbol-mark img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .brand strong,
@@ -1056,16 +1058,10 @@ mark.search-highlight[data-search-current] {
 .policy-symbol-mark {
   width: 58px;
   aspect-ratio: 1;
-  display: grid;
-  place-items: center;
-  border: 1px solid var(--navy);
-  border-radius: 50%;
-  color: white;
-  background: var(--navy);
-  font-family: "Noto Sans Symbols 2", "Segoe UI Symbol", "Apple Symbols", sans-serif;
-  font-size: 2rem;
-  line-height: 1;
-  box-shadow: 0 0 0 5px rgba(31, 52, 73, 0.07);
+  overflow: hidden;
+  border-radius: 16px;
+  background: #143f35;
+  box-shadow: 0 0 0 5px rgba(20, 63, 53, 0.07);
 }
 
 .policy-page .policy-symbol-personal {

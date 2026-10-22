@@ -8,6 +8,9 @@ export default defineConfig({
   trailingSlash: 'always',
   integrations: [mdx()],
   vite: {
+    server: {
+      allowedHosts: ['terminal.local'],
+    },
     build: {
       sourcemap: false,
     },

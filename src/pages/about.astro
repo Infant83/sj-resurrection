@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/archive';
 ---
 
 <BaseLayout title="기록 원칙">
@@ -17,7 +18,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         role="img"
         aria-label="아스클레피오스의 지팡이"
         title="아스클레피오스의 지팡이"
-      >⚕︎</div>
+      ><img src={withBase('icons/sunjin-healing-20261022.svg')} width="58" height="58" alt="" decoding="async" /></div>
       <div>
         <h2>프로젝트의 표식 — 아스클레피오스의 지팡이</h2>
         <p>
